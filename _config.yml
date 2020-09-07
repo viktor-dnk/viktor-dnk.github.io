@@ -14,7 +14,7 @@ author: Ковешников Виктор
 # --- List of links in the navigation bar --- #
 
 navbar-links:
-  Обо мне: "aboutme"
+  Об этом блоге: "aboutme"
   Полезные ссылки:
     - Beautiful Jekyll: "https://beautifuljekyll.com"
     - Learn markdown: "https://www.markdowntutorial.com/"
@@ -76,7 +76,7 @@ share-links-active:
 
 # How to display the link to your website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "MyWebsite.com"
+url-pretty: "Очерки по топонимике"
 
 # Excerpt word length - Truncate the excerpt of each post on the feed page to the specified number of words
 excerpt_length: 50
@@ -88,7 +88,7 @@ feed_show_excerpt: true
 feed_show_tags: true
 
 # The keywords to associate with your website, for SEO purposes
-#keywords: "my,list,of,keywords"
+keywords: "топонимика,краеведение,география,туризм,Кубань"
 
 # --- Colours / background image --- #
 

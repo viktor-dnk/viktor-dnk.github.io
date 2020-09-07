@@ -14,7 +14,7 @@ author: Ковешников Виктор
 # --- List of links in the navigation bar --- #
 
 navbar-links:
-  About Me: "Обо мне"
+  About Me: "About me"
   Resources:
     - Beautiful Jekyll: "https://beautifuljekyll.com"
     - Learn markdown: "https://www.markdowntutorial.com/"

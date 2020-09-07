@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About me
+title: Обо мне
 subtitle: Дорга не кончается
 ---
 

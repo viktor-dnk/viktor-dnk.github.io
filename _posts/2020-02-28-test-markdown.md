@@ -26,7 +26,7 @@ Here's a useless table:
 This is [Jekyll](https://jekyllrb.com)'s logo :
 
 {% include image.html
-    src="jekyll-logo.png" <!-- image filename (placed in /assets/images) -->
+    src="404-southpark.jpg" <!-- image filename (placed in /assets/images) -->
     alt="Jekyll's logo" <!-- alt text -->
     caption="This is Jekyll's logo, featuring Dr. Jekyll's serum!" <!-- Caption -->
 %}

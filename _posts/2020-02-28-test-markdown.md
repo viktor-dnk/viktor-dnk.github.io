@@ -23,6 +23,13 @@ Here's a useless table:
 | Seven | Eight | Six |
 | Two | Three | One |
 
+This is [Jekyll](https://jekyllrb.com)'s logo :
+
+{% include image.html
+    src="jekyll-logo.png" <!-- image filename (placed in /assets/images) -->
+    alt="Jekyll's logo" <!-- alt text -->
+    caption="This is Jekyll's logo, featuring Dr. Jekyll's serum!" <!-- Caption -->
+%}
 
 How about a yummy crepe?
 

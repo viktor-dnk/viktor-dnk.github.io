@@ -6,7 +6,7 @@
         {% if include.srcabs %}
             src="{{ include.srcabs }}"
         {% else %}
-            src="{{ site.baseurl }}/assets/images/{{ include.src }}"
+            src="{{ site.baseurl }}/assets/img/{{ include.src }}"
         {% endif %}
     alt="{{ include.alt }}">
     {% if include.url %}
@@ -16,4 +16,3 @@
         <figcaption>{{ include.caption }}</figcaption>
     {% endif %}
 </figure>
-

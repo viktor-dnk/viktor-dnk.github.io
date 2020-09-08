@@ -16,8 +16,9 @@ author: Ковешников Виктор
 navbar-links:
   Об этом блоге: "aboutme"
   Полезные ссылки:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
+    - Кавказский заповедник: "https://kavkazzapoved.ru/"
+    - Российское географическое общество: "https://www.rgo.ru/ru/article/prezentaciya-knigi-kratkiy-toponimicheskiy-slovar-naselennye-punkty-kubani-0"
+    - Российская государственная библиотека: "https://search.rsl.ru/ru/record/01008635856"
  # Author's home: "https://deanattali.com"
 
 # --- Logo --- #

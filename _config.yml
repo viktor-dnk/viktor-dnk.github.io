@@ -15,6 +15,8 @@ author: © Ковешников Виктор
 
 navbar-links:
   Об этом блоге: "aboutme"
+  О дольменах:
+    - Оглавление: "https://viktor-dnk.github.io/index-dolmens/"
   Полезные ссылки:
     - Территория Поиска: "http://iskatelklada.tuapse.ru"
     - Российское географическое общество: "https://www.rgo.ru/ru/article/prezentaciya-knigi-kratkiy-toponimicheskiy-slovar-naselennye-punkty-kubani-0"

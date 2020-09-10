@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Тайны тысячелетних дольменов Кубани.
-subtitle: Введение.
+title: Тайны тысячелетних дольменов Кубани
+subtitle: Введение
 cover-img: ["/assets/img/Mysteries-dolmens/111.jpg","/assets/img/Mysteries-dolmens/222.jpg"]
 thumbnail-img: /assets/img/Mysteries-dolmens/thumb.jpg
 language: ru

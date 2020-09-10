@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Тайны тысячелетних дольменов Кубани
 subtitle: Оглавление
 cover-img: ["/assets/img/Mysteries-dolmens/111.jpg","/assets/img/Mysteries-dolmens/222.jpg"]

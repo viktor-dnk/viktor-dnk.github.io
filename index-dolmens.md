@@ -9,7 +9,7 @@ tags: [дольмены, мегалиты]
 {: .box-note}
 # Оглавление.
 
-[**Введение:**](https://viktor-dnk.github.io/mysteries-dolmens-intro/#%D0%92%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5)
+[**Введение:**](https://viktor-dnk.github.io/mysteries-dolmens-intro/#%D0%92%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5)  
 - [географическое положение дольменов Кубани и их общее количество;](https://viktor-dnk.github.io/mysteries-dolmens-intro/#%D0%B2%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B51)
 - [как начиналось изучение дольменов Западного Кавказа;](https://viktor-dnk.github.io/mysteries-dolmens-intro/#%D0%B2%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B52)
 - [структура публикации;](https://viktor-dnk.github.io/mysteries-dolmens-intro/#%D0%B2%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B53)

@@ -80,7 +80,7 @@ tags: [дольмены, мегалиты, ]
 
 {% include image.html
     src="Mysteries-dolmens/2.4.png"
-    url="Mysteries-dolmens/2.4.png"
+    url="https://raw.githubusercontent.com/viktor-dnk/viktor-dnk.github.io/master/assets/img/Mysteries-dolmens/2.4.png"
     alt="2.4. Нальчикский курган, разрез, гробница находится в правой части."
     caption="2.4. Нальчикский курган, разрез, гробница находится в правой части. [13]"
 %}

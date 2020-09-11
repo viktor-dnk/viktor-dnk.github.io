@@ -12,15 +12,15 @@ tags: [дольмены, мегалиты]
 {: .box-note}
 # Оглавление.
 
-[**Введение:**](https://viktor-dnk.github.io/mysteries-dolmens-intro/#%D0%92%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5)  
-- [географическое положение дольменов Кубани и их общее количество;](https://viktor-dnk.github.io/mysteries-dolmens-intro/#%D0%B2%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B51)
-- [как начиналось изучение дольменов Западного Кавказа;](https://viktor-dnk.github.io/mysteries-dolmens-intro/#%D0%B2%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B52)
-- [структура публикации;](https://viktor-dnk.github.io/mysteries-dolmens-intro/#%D0%B2%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B53)
-- [несколько советов.](https://viktor-dnk.github.io/mysteries-dolmens-intro/#%D0%B2%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B54)
+[**Введение:**](https://viktor-dnk.github.io/10-09-2020-mysteries-dolmens-intro/)  
+- [географическое положение дольменов Кубани и их общее количество;](https://viktor-dnk.github.io/10-09-2020-mysteries-dolmens-intro/#%D0%B2%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B51)
+- [как начиналось изучение дольменов Западного Кавказа;](https://viktor-dnk.github.io/10-09-2020-mysteries-dolmens-intro/#%D0%B2%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B52)
+- [структура публикации;](https://viktor-dnk.github.io/10-09-2020-mysteries-dolmens-intro/#%D0%B2%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B53)
+- [несколько советов.](https://viktor-dnk.github.io/10-09-2020-mysteries-dolmens-intro/#%D0%B2%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B54)
 
 **Часть 1. Из истории дольменов Западного Кавказа.**  
-[1.1. Что означает термин дольмен? Почему дольмены ещё называют мегалиты?](https://viktor-dnk.github.io/ch1p1/)  
-[1.2. Представления о дольменах человеком ХIХ-ХХI веков.](https://viktor-dnk.github.io/ch1p2/)    
+[1.1. Что означает термин дольмен? Почему дольмены ещё называют мегалиты?](https://viktor-dnk.github.io/11-09-2020-ch1p1/)  
+[1.2. Представления о дольменах человеком ХIХ-ХХI веков.](https://viktor-dnk.github.io/12-09-2020-ch1p2/)    
 1.3. Из чего строили дольмены?  
 1.4. Когда строили дольмены?  
 1.5.  Происхождение дольменной культурно-исторические общности Западного Кавказа.  

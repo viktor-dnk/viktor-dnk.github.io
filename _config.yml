@@ -189,7 +189,7 @@ date_format: "%B %-d, %Y"
 timezone: "Europe/Moscow"
 markdown: kramdown
 highlighter: rouge
-permalink: /:day:-:month-:year-title/
+permalink: /:day-:month-:year-:title/
 paginate: 5
 
 kramdown:

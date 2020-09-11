@@ -14,9 +14,10 @@ author: © Ковешников Виктор
 # --- List of links in the navigation bar --- #
 
 navbar-links:
-  Об этом блоге: "aboutme"
+  Об этом блоге: "thisblog"
   Тайны дольменов:
     - Оглавление: "https://viktor-dnk.github.io/index-dolmens/"
+  Об авторе: "aboutme"
   Полезные ссылки:
     - Территория Поиска: "http://iskatelklada.tuapse.ru"
     - Российское географическое общество: "https://www.rgo.ru/ru/article/prezentaciya-knigi-kratkiy-toponimicheskiy-slovar-naselennye-punkty-kubani-0"

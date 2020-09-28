@@ -12,23 +12,23 @@ tags: [дольмены, мегалиты]
 {: .box-note}
 # Оглавление
 
-[**Введение:**](https://viktor-dnk.github.io/10-09-2020-mysteries-dolmens-intro/)  
-- [географическое положение дольменов Кубани и их общее количество;](https://viktor-dnk.github.io/10-09-2020-mysteries-dolmens-intro/#%D0%B2%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B51)
-- [как начиналось изучение дольменов Западного Кавказа;](https://viktor-dnk.github.io/10-09-2020-mysteries-dolmens-intro/#%D0%B2%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B52)
-- [структура публикации;](https://viktor-dnk.github.io/10-09-2020-mysteries-dolmens-intro/#%D0%B2%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B53)
-- [несколько советов.](https://viktor-dnk.github.io/10-09-2020-mysteries-dolmens-intro/#%D0%B2%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B54)
+[**Введение:**](https://viktor-dnk.github.io/mysteries-dolmens-intro/)  
+- [географическое положение дольменов Кубани и их общее количество;](https://viktor-dnk.github.io/mysteries-dolmens-intro/#%D0%B2%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B51)
+- [как начиналось изучение дольменов Западного Кавказа;](https://viktor-dnk.github.io/mysteries-dolmens-intro/#%D0%B2%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B52)
+- [структура публикации;](https://viktor-dnk.github.io/mysteries-dolmens-intro/#%D0%B2%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B53)
+- [несколько советов.](https://viktor-dnk.github.io/mysteries-dolmens-intro/#%D0%B2%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B54)
 
 **Часть 1. Из истории дольменов Западного Кавказа.**  
-[1.1. Что означает термин дольмен? Почему дольмены ещё называют мегалиты?](https://viktor-dnk.github.io/11-09-2020-ch1p1/)  
-[1.2. Представления о дольменах человеком ХIХ-ХХI веков.](https://viktor-dnk.github.io/12-09-2020-ch1p2/)  
-[1.3. Из чего и как строили дольмены?](https://viktor-dnk.github.io/13-09-2020-ch1p3/)  
-[1.4. Когда строили дольмены?](https://viktor-dnk.github.io/14-09-2020-ch1p4/)  
-[1.5. Происхождение дольменной культурно-исторической общности Западного Кавказа](https://viktor-dnk.github.io/15-09-2020-ch1p5/)    
-[1.6. Многообразие конструкций дольменов](https://viktor-dnk.github.io/21-09-2020-ch1p6/)  
-[1.7. Что могло привести к конструктивному разнообразию при постройке дольменов на Западном Кавказе?](https://viktor-dnk.github.io/22-09-2020-ch1p7/)  
-[1.8. Для чего строили дольмены?](https://viktor-dnk.github.io/24-09-2020-ch1p8/)  
-[1.9. Кто строил дольмены?](https://viktor-dnk.github.io/27-09-2020-ch1p9/)  
-[1.10. Особенности погребального обряда в дольменах](https://viktor-dnk.github.io/28-09-2020-ch1p10/)  
+[1.1. Что означает термин дольмен? Почему дольмены ещё называют мегалиты?](https://viktor-dnk.github.io/ch1p1/)  
+[1.2. Представления о дольменах человеком ХIХ-ХХI веков.](https://viktor-dnk.github.io/ch1p2/)  
+[1.3. Из чего и как строили дольмены?](https://viktor-dnk.github.io/ch1p3/)  
+[1.4. Когда строили дольмены?](https://viktor-dnk.github.io/ch1p4/)  
+[1.5. Происхождение дольменной культурно-исторической общности Западного Кавказа](https://viktor-dnk.github.io/ch1p5/)    
+[1.6. Многообразие конструкций дольменов](https://viktor-dnk.github.io/ch1p6/)  
+[1.7. Что могло привести к конструктивному разнообразию при постройке дольменов на Западном Кавказе?](https://viktor-dnk.github.io/ch1p7/)  
+[1.8. Для чего строили дольмены?](https://viktor-dnk.github.io/ch1p8/)  
+[1.9. Кто строил дольмены?](https://viktor-dnk.github.io/ch1p9/)  
+[1.10. Особенности погребального обряда в дольменах](https://viktor-dnk.github.io/ch1p10/)  
 1.11. Почему прекратили строительство дольменов?  
 1.12. Петроглифы и рисунки на каменных плитах дольменов:  
 - Петроглифы, что это такое?  

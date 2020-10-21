@@ -114,7 +114,7 @@ footer-link-col: "#404040"
 # Alternatively, the navbar, footer, and page background can be set to an image
 # instead of colour
 
-navbar-img: "/assets/img/main-cover.jpg"
+navbar-img: /assets/img/main-cover.jpg
 #footer-img: "/assets/img/coverimg.jpg"
 #page-img: "/assets/img/coverimg.jpg"
 
@@ -222,6 +222,8 @@ exclude:
   - README.md
   - screenshot.png
   - docs/
+  - addlinks
+  - regex
 
 plugins:
   - jekyll-paginate

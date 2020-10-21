@@ -14,9 +14,9 @@ author: © Ковешников Виктор
 # --- List of links in the navigation bar --- #
 
 navbar-links:
-  Об этом блоге: "thisblog"
   Тайны дольменов:
-    - Оглавление: "https://viktor-dnk.github.io/index-dolmens/"
+    - Оглавление: "index-dolmens"
+  Об этом блоге: "thisblog"
   Об авторе: "aboutme"
   Полезные ссылки:
     - Территория Поиска: "http://iskatelklada.tuapse.ru"

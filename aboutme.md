@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Обо мне
+title: Об авторе
 subtitle: Дорога не кончается
 cover-img: /assets/img/main-cover.jpg
 language: ru

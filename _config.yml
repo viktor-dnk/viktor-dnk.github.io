@@ -67,7 +67,7 @@ social-network-links:
 
 # If you want to show a link to an RSS in the footer, add the site description here.
 # If you don't want to show an RSS link, remove the following line.
-rss-description: This website is a virtual proof that I'm awesome
+rss-description: Ковешников В.Н. - блог географа-краеведа.
 
 # --- General options --- #
 
@@ -114,7 +114,7 @@ footer-link-col: "#404040"
 # Alternatively, the navbar, footer, and page background can be set to an image
 # instead of colour
 
-#navbar-img: "/assets/img/coverimg.jpg"
+navbar-img: "/assets/img/main-cover.jpg"
 #footer-img: "/assets/img/coverimg.jpg"
 #page-img: "/assets/img/coverimg.jpg"
 
@@ -191,7 +191,7 @@ timezone: "Europe/Moscow"
 markdown: kramdown
 highlighter: rouge
 permalink: /:title/
-paginate: 5
+paginate: 10
 
 kramdown:
   input: GFM

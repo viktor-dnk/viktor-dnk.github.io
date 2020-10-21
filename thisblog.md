@@ -4,6 +4,7 @@ title: Об этом блоге
 subtitle: Анонсы. Планы. Текущая работа.
 cover-img: /assets/img/main-cover.jpg
 language: ru
+tags: [информация]
 ---
 
 - _9 сентября 2020:_ Начинаем оформление цикла очерков о [загадчных дольменах Западного Кавказа](https://viktor-dnk.github.io/mysteries-dolmens-intro/);

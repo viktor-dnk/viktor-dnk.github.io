@@ -193,6 +193,7 @@ highlighter: rouge
 permalink: /:title/
 paginate: 10
 
+
 kramdown:
   input: GFM
 

@@ -2,8 +2,6 @@
 _site
 .sass-cache
 .vagrant
-addlinks
-regex
 
 # general
 .DS_Store

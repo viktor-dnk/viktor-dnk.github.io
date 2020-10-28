@@ -98,6 +98,7 @@ keywords: "топонимика,краеведение,география,тур
 
 # Personalize the colours in your website. Colour values can be any valid CSS colour
 
+#navbar-col: "#EAEAEA"
 navbar-col: "#87CEEB"
 navbar-text-col: "#404040"
 navbar-border-col: "#DDDDDD"
@@ -106,6 +107,7 @@ text-col: "#404040"
 link-col: "#008AFF"
 hover-col: "#0085A1"
 footer-col: "#87CEEB"
+#footer-col: "#EAEAEA"
 footer-text-col: "#777777"
 footer-link-col: "#404040"
 
@@ -191,6 +193,7 @@ highlighter: rouge
 permalink: /:title/
 paginate: 10
 
+
 kramdown:
   input: GFM
 
@@ -229,3 +232,5 @@ plugins:
 
 # Beautiful Jekyll / Dean Attali
 # 2fc73a3a967e97599c9763d05e564189
+
+remote_theme: daattali/beautiful-jekyll@5.0.0

@@ -2,7 +2,7 @@
 layout: page
 title: Тайны тысячелетних дольменов Кубани
 subtitle: Оглавление
-cover-img: ["/assets/img/Mysteries-dolmens/111.jpg","/assets/img/Mysteries-dolmens/222.jpg"]
+cover-img: ["/img/Mysteries-dolmens/111.jpg","/img/Mysteries-dolmens/222.jpg"]
 language: ru
 tags: [информация, дольмены, мегалиты]
 ---

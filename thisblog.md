@@ -2,7 +2,7 @@
 layout: page
 title: Об этом блоге
 subtitle: Анонсы. Планы. Текущая работа.
-cover-img: /assets/img/main-cover.jpg
+cover-img: /img/main-cover.jpg
 language: ru
 tags: [информация]
 ---

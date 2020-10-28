@@ -2,7 +2,7 @@
 layout: page
 title: Об авторе
 subtitle: Дорога не кончается
-cover-img: /assets/img/main-cover.jpg
+cover-img: /img/main-cover.jpg
 language: ru
 tags: [информация]
 ---

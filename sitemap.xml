@@ -1,20 +1,169 @@
----
----
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-    {% for post in site.posts %}
-    <url>
-        <loc>{{site.url}}{{ post.url | remove: 'index.html' }}</loc>
-    </url>
-    {% endfor %}
-
-    {% for page in site.pages %}
-    {% if page.layout != nil %}
-    {% if page.layout != 'feed' %}
-    <url>
-        <loc>{{site.url}}{{ page.url | remove: 'index.html' }}</loc>
-    </url>
-    {% endif %}
-    {% endif %}
-    {% endfor %}
+﻿<?xml version="1.0" encoding="UTF-8"?>
+		<!--	created with www.mysitemapgenerator.com	-->
+		<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+	<loc>https://viktor-dnk.github.io/</loc>
+	<lastmod>2020-10-30T17:32:37+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://viktor-dnk.github.io/ch2p7/</loc>
+	<lastmod>2020-10-30T17:32:41+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://viktor-dnk.github.io/ch2p6/</loc>
+	<lastmod>2020-10-30T17:32:45+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://viktor-dnk.github.io/ch2p5/</loc>
+	<lastmod>2020-10-30T17:32:42+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://viktor-dnk.github.io/ch2p4/</loc>
+	<lastmod>2020-10-30T17:32:42+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://viktor-dnk.github.io/ch2p3/</loc>
+	<lastmod>2020-10-30T17:32:42+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://viktor-dnk.github.io/ch2p2/</loc>
+	<lastmod>2020-10-30T17:32:43+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://viktor-dnk.github.io/ch2p1/</loc>
+	<lastmod>2020-10-30T17:32:43+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://viktor-dnk.github.io/ch1p16/</loc>
+	<lastmod>2020-10-30T17:32:43+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://viktor-dnk.github.io/ch1p15/</loc>
+	<lastmod>2020-10-30T17:32:43+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://viktor-dnk.github.io/ch1p14/</loc>
+	<lastmod>2020-10-30T17:32:43+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://viktor-dnk.github.io/page2/</loc>
+	<lastmod>2020-10-30T17:32:44+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://viktor-dnk.github.io/index-dolmens/</loc>
+	<lastmod>2020-10-30T17:32:46+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://viktor-dnk.github.io/thisblog/</loc>
+	<lastmod>2020-10-30T17:32:47+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://viktor-dnk.github.io/aboutme/</loc>
+	<lastmod>2020-10-30T17:32:47+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://viktor-dnk.github.io/search/</loc>
+	<lastmod>2020-10-30T17:32:47+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://viktor-dnk.github.io/tags/</loc>
+	<lastmod>2020-10-30T17:32:47+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://viktor-dnk.github.io/ch1p12/</loc>
+	<lastmod>2020-10-30T17:32:47+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://viktor-dnk.github.io/ch1p13/</loc>
+	<lastmod>2020-10-30T17:32:47+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://viktor-dnk.github.io/ch1p11/</loc>
+	<lastmod>2020-10-30T17:32:48+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://viktor-dnk.github.io/ch1p10/</loc>
+	<lastmod>2020-10-30T17:32:48+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://viktor-dnk.github.io/ch1p9/</loc>
+	<lastmod>2020-10-30T17:32:48+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://viktor-dnk.github.io/ch1p8/</loc>
+	<lastmod>2020-10-30T17:32:48+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://viktor-dnk.github.io/ch1p7/</loc>
+	<lastmod>2020-10-30T17:32:48+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://viktor-dnk.github.io/ch1p6/</loc>
+	<lastmod>2020-10-30T17:32:48+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://viktor-dnk.github.io/ch1p5/</loc>
+	<lastmod>2020-10-30T17:32:48+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://viktor-dnk.github.io/ch1p4/</loc>
+	<lastmod>2020-10-30T17:32:48+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://viktor-dnk.github.io/ch1p3/</loc>
+	<lastmod>2020-10-30T17:32:48+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://viktor-dnk.github.io/ch1p2/</loc>
+	<lastmod>2020-10-30T17:32:49+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://viktor-dnk.github.io/ch1p1/</loc>
+	<lastmod>2020-10-30T17:32:48+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://viktor-dnk.github.io/mysteries-dolmens-intro/</loc>
+	<lastmod>2020-10-30T17:32:48+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://viktor-dnk.github.io/telegram/</loc>
+	<lastmod>2020-10-30T17:32:48+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://viktor-dnk.github.io/page3/</loc>
+	<lastmod>2020-10-30T17:32:49+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
 </urlset>

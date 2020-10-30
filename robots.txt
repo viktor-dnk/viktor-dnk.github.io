@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: 
+Host: https://viktor-dnk.github.io/
+Sitemap: https://viktor-dnk.github.io/sitemap.xml

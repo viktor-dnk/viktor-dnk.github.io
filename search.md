@@ -1,8 +1,7 @@
 ---
 layout: page
 title: Поиск
-subtitle: яндекс
-cover-img: /img/main-cover.jpg
+subtitle: Yandex
 language: ru
 ---
 

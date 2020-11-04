@@ -10,6 +10,4 @@ language: ru
 
 
 <script async src="https://cse.google.com/cse.js?cx=35ac4c84b6bd06884"></script>
-<div class="gcse-searchbox"></div>
-
-<div class="gcse-searchresults"></div>
+<div class="gcse-search"></div>

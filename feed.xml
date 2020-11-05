@@ -9,12 +9,13 @@ layout: null
     {% endif %}
     {% if site.rss-description %}
     <description>{{ site.rss-description | xml_escape }}</description>
+    <language>ru</language>
     {% endif %}
     <link>{{ '' | absolute_url }}</link>
     <atom:link href="{{ 'feed.xml' | absolute_url }}" rel="self" type="application/rss+xml" />
     {% assign excerpt_length = site.excerpt_length | default: 50 %}
     {% for post in site.posts limit:20 %}
-      <item>
+      <item turbo="true">
         <title>{{ post.title | xml_escape }}</title>
         <description>
           {% if post.subtitle %}{{ post.subtitle | xml_escape }} - {% endif %}

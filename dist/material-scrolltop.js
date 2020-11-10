@@ -19,7 +19,7 @@
             revealElement: 'body',
             revealPosition: 'top',
             padding: 0,
-            duration: 400,
+            duration: 600,
             easing: 'swing',
             onScrollEnd: null
         };
@@ -65,4 +65,4 @@
         }
         return _;
     };
-});
+})(jQuery);

@@ -28,7 +28,6 @@ layout: null
         <title>{{ post.title | xml_escape }}</title>
         <turbo:content>
             <![CDATA[
-                {{ post.title | xml_escape }}
                 {{ post.content | strip_html | xml_escape | truncatewords: excerpt_length }}
             ]]>
         </turbo:content>

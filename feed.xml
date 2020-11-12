@@ -23,15 +23,6 @@ layout: null
         <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
         <title>{{ post.title | xml_escape }}</title>
         <author>Ковешников В.Н.</author>
-        <metrics>
-                <yandex schema_identifier="69067006">
-                    <breadcrumblist>
-                        <breadcrumb url="{{ '' | absolute_url }}" text="{{ site.title | xml_escape }}"/>
-                        <breadcrumb url="{{ post.url | absolute_url }}" text="{{ post.title | xml_escape }}"/>
-                    </breadcrumblist>
-                </yandex>
-        </metrics>
-        <yandex:related></yandex:related>
         <turbo:content>
             <![CDATA[
                 {{ post.title | xml_escape }}

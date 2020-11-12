@@ -1,0 +1,8 @@
+<metrics>
+        <yandex schema_identifier="69067006">
+            <breadcrumblist>
+                <breadcrumb url="{{ '' | absolute_url }}" text="{{ site.title | xml_escape }}"/>
+                <breadcrumb url="{{ post.url | absolute_url }}" text="{{ post.title | xml_escape }}"/>
+            </breadcrumblist>
+        </yandex>
+</metrics>

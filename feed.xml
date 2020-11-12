@@ -30,9 +30,15 @@ layout: null
             <![CDATA[
               <figure>
                 <img src="{{ post.cover-img | absolute_url }}">
-                <figcaption>{% assign minReadTime = '&lt; 1 минут на прочтение' %}</figcaption>
               </figure>
-                {{ post.content | strip_html | xml_escape | truncatewords: excerpt_length }}
+              {{ post.content | strip_html | xml_escape | truncatewords: excerpt_length }}
+              <figure>
+                <img src="{{ post.thumbnail-img | absolute_url }}">
+              </figure>
+              <div data-block="widget-feedback" data-stick="right">
+                  <div data-type="mail" data-url="mailto:dnk_v@list.ru"></div>
+                  <div data-block="chat" data-type="telegram" data-url="https://t.me/toponim"></div>
+              </div>
             ]]>
         </turbo:content>
         <description>

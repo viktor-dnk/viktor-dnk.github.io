@@ -29,11 +29,11 @@ layout: null
         <turbo:content>
             <![CDATA[
               <figure>
-                <img src="{{ post.cover-img | absolute_url }}">
+                <img src="{{ post.thumbnail-img | absolute_url }}">
               </figure>
               {{ post.content | strip_html | xml_escape | truncatewords: excerpt_length }} <a href="{{ post.url | absolute_url }}">&nbsp;[Читать&nbsp;далее]</a>
               <figure>
-                <img src="{{ post.thumbnail-img | absolute_url }}">
+                <img src="{{ post.cover-img | absolute_url }}">
               </figure>
               <div data-block="widget-feedback" data-stick="right">
                   <div data-type="mail" data-url="mailto:dnk_v@list.ru"></div>

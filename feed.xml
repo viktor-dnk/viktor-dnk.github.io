@@ -10,6 +10,8 @@ layout: null
     {% if site.rss-description %}
     <description>{{ site.rss-description | xml_escape }}</description>
     <turbo:analytics type="Yandex" id="69067006"></turbo:analytics>
+    <turbo:analytics type="Google" id="UA-169383032-2"></turbo:analytics>
+
     <language>ru</language>
     {% endif %}
     <link>{{ '' | absolute_url }}</link>

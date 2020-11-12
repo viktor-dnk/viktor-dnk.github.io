@@ -26,8 +26,8 @@ layout: null
         <metrics>
                 <yandex schema_identifier="Идентификатор">
                     <breadcrumblist>
-                        <breadcrumb url="{{ '' | absolute_url }}" text="Домашняя"/>
-                        <breadcrumb url="{{ post.url | absolute_url }}" text="Пример страницы"/>
+                        <breadcrumb url="{{ '' | absolute_url }}" text="{{ site.title | xml_escape }}"/>
+                        <breadcrumb url="{{ post.url | absolute_url }}" text="{{ post.title | xml_escape }}"/>
                     </breadcrumblist>
                 </yandex>
         </metrics>

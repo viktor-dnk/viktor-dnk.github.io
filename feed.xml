@@ -9,20 +9,21 @@ layout: null
     {% endif %}
     {% if site.rss-description %}
     <description>{{ site.rss-description | xml_escape }}</description>
+    <turbo:analytics type="Yandex" id="69067006"></turbo:analytics>
     <language>ru</language>
     {% endif %}
     <link>{{ '' | absolute_url }}</link>
     <atom:link href="{{ 'feed.xml' | absolute_url }}" rel="self" type="application/rss+xml" />
     {% assign excerpt_length = site.excerpt_length | default: 50 %}
     {% for post in site.posts limit:20 %}
-    <turbo:analytics type="Yandex" id="69067006"></turbo:analytics>
+
       <item turbo="true">
         <link>{{ post.url | absolute_url }}</link>
+        <author>Ковешников В.Н.</author>
+        <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
         <turbo:source>{{ post.url | absolute_url }}</turbo:source>
         <turbo:topic>{{ post.title | xml_escape }}</turbo:topic>
-        <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
         <title>{{ post.title | xml_escape }}</title>
-        <author>Ковешников В.Н.</author>
         <turbo:content>
             <![CDATA[
                 {{ post.title | xml_escape }}

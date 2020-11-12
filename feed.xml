@@ -30,6 +30,7 @@ layout: null
             <![CDATA[
               <figure>
                 <img src="{{ post.cover-img | absolute_url }}">
+                <figcaption>{% assign minReadTime = '&lt; 1 минут на прочтение' %}</figcaption>
               </figure>
                 {{ post.content | strip_html | xml_escape | truncatewords: excerpt_length }}
             ]]>

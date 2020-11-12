@@ -15,16 +15,16 @@ layout: null
     <atom:link href="{{ 'feed.xml' | absolute_url }}" rel="self" type="application/rss+xml" />
     {% assign excerpt_length = site.excerpt_length | default: 50 %}
     {% for post in site.posts limit:20 %}
-    <turbo:analytics></turbo:analytics>
+    <turbo:analytics type="Yandex" id="69067006"></turbo:analytics>
       <item turbo="true">
         <link>{{ post.url | absolute_url }}</link>
-        <turbo:source></turbo:source>
-        <turbo:topic></turbo:topic>
+        <turbo:source>{{ post.url | absolute_url }}</turbo:source>
+        <turbo:topic>{{ post.title | xml_escape }}</turbo:topic>
         <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
         <title>{{ post.title | xml_escape }}</title>
         <author>Ковешников В.Н.</author>
         <metrics>
-                <yandex schema_identifier="Идентификатор">
+                <yandex schema_identifier="69067006">
                     <breadcrumblist>
                         <breadcrumb url="{{ '' | absolute_url }}" text="{{ site.title | xml_escape }}"/>
                         <breadcrumb url="{{ post.url | absolute_url }}" text="{{ post.title | xml_escape }}"/>

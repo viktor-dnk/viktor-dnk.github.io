@@ -29,7 +29,7 @@ layout: null
         <turbo:content>
             <![CDATA[
               <figure>
-                <img src="{{ post.cover-img | absolute_url }}">
+                <img src="{{ post.cover-img[0].first.first | absolute_url }}">
               </figure>
               {{ post.content | strip_html | xml_escape | truncatewords: excerpt_length }}
               <figure>

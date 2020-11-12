@@ -15,14 +15,37 @@ layout: null
     <atom:link href="{{ 'feed.xml' | absolute_url }}" rel="self" type="application/rss+xml" />
     {% assign excerpt_length = site.excerpt_length | default: 50 %}
     {% for post in site.posts limit:20 %}
-      <item>
+    <turbo:analytics></turbo:analytics>
+      <item turbo="true">
+        <link>{{ post.url | absolute_url }}</link>
+        <turbo:source></turbo:source>
+        <turbo:topic></turbo:topic>
+        <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
         <title>{{ post.title | xml_escape }}</title>
+        <author>Ковешников В.Н.</author>
+        <metrics>
+                <yandex schema_identifier="Идентификатор">
+                    <breadcrumblist>
+                        <breadcrumb url="{{ '' | absolute_url }}" text="Домашняя"/>
+                        <breadcrumb url="{{ post.url | absolute_url }}" text="Пример страницы"/>
+                    </breadcrumblist>
+                </yandex>
+        </metrics>
+        <yandex:related></yandex:related>
+        <turbo:content>
+            <![CDATA[
+                {% if post.subtitle %}{{ post.subtitle | xml_escape }} - {% endif %}
+                {{ post.content | strip_html | xml_escape | truncatewords: excerpt_length }}
+            ]]>
+        </turbo:content>
         <description>
           {% if post.subtitle %}{{ post.subtitle | xml_escape }} - {% endif %}
           {{ post.content | strip_html | xml_escape | truncatewords: excerpt_length }}
         </description>
-        <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
-        <link>{{ post.url | absolute_url }}</link>
+
+
+
+
         <guid isPermaLink="true">{{ post.url | absolute_url }}</guid>
       </item>
     {% endfor %}

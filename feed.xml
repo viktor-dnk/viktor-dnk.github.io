@@ -28,7 +28,9 @@ layout: null
         <title>{{ post.title | xml_escape }}</title>
         <turbo:content>
             <![CDATA[
-                {{ post.cover-img }}
+              <figure>
+                <img src="{{ post.cover-img | absolute_url }}">
+              </figure>
                 {{ post.content | strip_html | xml_escape | truncatewords: excerpt_length }}
             ]]>
         </turbo:content>

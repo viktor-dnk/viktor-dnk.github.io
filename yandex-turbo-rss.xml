@@ -29,7 +29,11 @@ layout: null
         <title>{{ post.title | xml_escape }}</title>
         <turbo:content>
             <![CDATA[
-        				<p><strong><a href="{{ post.url | absolute_url }}" data-turbo="false">[Читать&nbsp;оригинал]</a></strong></p>
+                <button formaction="{{ post.url | absolute_url }}"
+            					data-background-color="#87CEEB"
+            					data-color="white"
+            					data-turbo="false"
+            					data-primary="true">Читать оригинал</button>
                 {% assign preprocessed_content=post.content | replace: '<p>', '__p__' %}
                 {% assign preprocessed_content=preprocessed_content | replace: '</p>', '__/p__' %}
                 {% assign preprocessed_content=preprocessed_content | replace: '<li>', '__li__' %}
@@ -66,7 +70,12 @@ layout: null
                 {% assign cleaned_content=cleaned_content | replace: 'src="/img/', 'src="https://viktor-dnk.github.io/img/' %}
         				    {{ cleaned_content }}
 
-        				<p><strong><a href="{{ post.url | absolute_url }}" data-turbo="false">[Перейти&nbsp;к&nbsp;оригиналу]</a></strong></p>
+                    <button formaction="{{ post.url | absolute_url }}"
+                    					data-background-color="#87CEEB"
+                    					data-color="white"
+                    					data-turbo="false"
+                    					data-primary="true">Перейти на сайт автора</button>
+
                 <div data-block="widget-feedback" data-stick="right">
                     <div data-block="chat" data-type="telegram" data-url="https://t.me/toponim"></div>
                     <div data-type="mail" data-url="mailto:dnk_v@list.ru"></div>

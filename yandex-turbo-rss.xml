@@ -30,7 +30,6 @@ layout: null
         <turbo:content>
             <![CDATA[
         				<p><strong><a href="{{ post.url | absolute_url }}" data-turbo="false">[Читать&nbsp;оригинал]</a></strong></p>
-
                 {% assign preprocessed_content=post.content | replace: '<p>', '__p__' %}
                 {% assign preprocessed_content=preprocessed_content | replace: '</p>', '__/p__' %}
                 {% assign preprocessed_content=preprocessed_content | replace: '<li>', '__li__' %}
@@ -47,9 +46,7 @@ layout: null
                 {% assign preprocessed_content=preprocessed_content | replace: '<br />', '__br/__' %}
                 {% assign preprocessed_content=preprocessed_content | replace: '<a href="/../', '__a href__' %}
                 {% assign preprocessed_content=preprocessed_content | replace: '</a>', '__/a__' %}
-
-                {% assign truncated_content=preprocessed_content | strip_html %}
-
+                    {% assign truncated_content=preprocessed_content | strip_html %}
                 {% assign cleaned_content=truncated_content | replace: '__p__', '<p>' %}
                 {% assign cleaned_content=cleaned_content | replace: '__/p__', '</p>' %}
                 {% assign cleaned_content=cleaned_content | replace: '__li__', '<li>' %}
@@ -70,7 +67,6 @@ layout: null
         				    {{ cleaned_content }}
 
         				<p><strong><a href="{{ post.url | absolute_url }}" data-turbo="false">[Перейти&nbsp;к&nbsp;оригиналу]</a></strong></p>
-
                 <div data-block="widget-feedback" data-stick="right">
                     <div data-block="chat" data-type="telegram" data-url="https://t.me/toponim"></div>
                     <div data-type="mail" data-url="mailto:dnk_v@list.ru"></div>

@@ -45,9 +45,7 @@ layout: null
                 {% assign preprocessed_content=preprocessed_content | replace: '</h2>', '__/h2__' %}
                 {% assign preprocessed_content=preprocessed_content | replace: '<img', '__img__' %}
                 {% assign preprocessed_content=preprocessed_content | replace: '<br />', '__br/__' %}
-
-                {% assign truncated_content=preprocessed_content | strip_html %}
-
+                    {% assign truncated_content=preprocessed_content | strip_html %}
                 {% assign cleaned_content=truncated_content | replace: '__p__', '<p>' %}
                 {% assign cleaned_content=cleaned_content | replace: '__/p__', '</p>' %}
                 {% assign cleaned_content=cleaned_content | replace: '__li__', '<li>' %}
@@ -63,8 +61,7 @@ layout: null
                 {% assign cleaned_content=cleaned_content | replace: '__img__', '<img' %}
                 {% assign cleaned_content=cleaned_content | replace: '__br/__', '<br />' %}
                 {% assign cleaned_content=cleaned_content | replace: 'src="/img/', 'src="https://viktor-dnk.github.io/img/' %}
-
-        				{{ cleaned_content }}
+        				    {{ cleaned_content }}
 
                 <div data-block="widget-feedback" data-stick="right">
                     <div data-block="chat" data-type="telegram" data-url="https://t.me/toponim"></div>

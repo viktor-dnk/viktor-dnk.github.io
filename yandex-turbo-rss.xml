@@ -1,0 +1,68 @@
+---
+layout: null
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:yandex="http://news.yandex.ru"
+     xmlns:media="http://search.yahoo.com/mrss/"
+     xmlns:turbo="http://turbo.yandex.ru"
+     version="2.0">
+  <channel>
+    {% if site.title %}
+    <title>{{ site.title | xml_escape }}</title>
+    {% endif %}
+    <link>{{ '' | absolute_url }}</link>
+    {% if site.rss-description %}
+    <description>{{ site.rss-description | xml_escape }}</description>
+	{% endif %}
+	<language>ru</language>
+    <turbo:analytics type="Yandex" id="69067006"></turbo:analytics>
+    <turbo:analytics type="Google" id="UA-169383032-2"></turbo:analytics>
+	{% assign excerpt_length = site.excerpt_length | default: 50 %}
+    {% for post in site.posts limit:20 %}
+
+      <item turbo="true">
+        <link>{{ post.url | absolute_url }}</link>
+        <turbo:source>{{ post.url | absolute_url }}</turbo:source>
+        <turbo:topic>{{ post.title | xml_escape }}</turbo:topic>
+        <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
+        <author>Ковешников В.Н.</author>
+        <title>{{ post.title | xml_escape }}</title>
+        <turbo:content>
+            <![CDATA[
+				<p><strong><a href="{{ post.url | absolute_url }}" data-turbo="false">[Читать&nbsp;оригинал]</a></strong></p>
+
+				{% assign preprocessed_content=post.content | replace: '<p>', '__p__' %}
+				{% assign preprocessed_content=preprocessed_content | replace: '</p>', '__/p__' %}
+				{% assign preprocessed_content=preprocessed_content | replace: '<li>', '__li__' %}
+				{% assign preprocessed_content=preprocessed_content | replace: '</li>', '__/li__' %}
+				{% assign preprocessed_content=preprocessed_content | replace: '<strong>', '__strong__' %}
+				{% assign preprocessed_content=preprocessed_content | replace: '</strong>', '__/strong__' %}
+				{% assign preprocessed_content=preprocessed_content | replace: '<em>', '__em__' %}
+				{% assign preprocessed_content=preprocessed_content | replace: '</em>', '__/em__' %}
+				{% assign preprocessed_content=preprocessed_content | replace: '<h2', '__h2__' %}
+				{% assign preprocessed_content=preprocessed_content | replace: '</h2>', '__/h2__' %}
+				{% assign preprocessed_content=preprocessed_content | replace: '<img', '__img__' %}
+
+				{% assign truncated_content=preprocessed_content | strip_html %}
+
+				{% assign cleaned_content=truncated_content | replace: '__p__', '<p>' %}
+				{% assign cleaned_content=cleaned_content | replace: '__/p__', '</p>' %}
+				{% assign cleaned_content=cleaned_content | replace: '__li__', '<li>' %}
+				{% assign cleaned_content=cleaned_content | replace: '__/li__', '</li>' %}
+				{% assign cleaned_content=cleaned_content | replace: '__strong__', '<strong>' %}
+				{% assign cleaned_content=cleaned_content | replace: '__/strong__', '</strong>' %}
+				{% assign cleaned_content=cleaned_content | replace: '__em__', '<em>' %}
+				{% assign cleaned_content=cleaned_content | replace: '__/em__', '</em>' %}
+				{% assign cleaned_content=cleaned_content | replace: '__h2__', '<h2' %}
+				{% assign cleaned_content=cleaned_content | replace: '__/h2__', '</h2>' %}
+				{% assign cleaned_content=cleaned_content | replace: '__img__', '<img' %}
+				{% assign cleaned_content=cleaned_content | replace: 'src="/img/', 'src="https://viktor-dnk.github.io/img/' %}
+
+				{{ cleaned_content }}
+            ]]>
+        </turbo:content>
+       </item>
+    {% endfor %}
+
+  </channel>
+</rss>

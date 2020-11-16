@@ -14,7 +14,7 @@ layout: null
     <turbo:analytics type="Yandex" id="69067006"></turbo:analytics>
     <turbo:analytics type="Google" id="UA-169383032-2"></turbo:analytics>
 	  {% assign excerpt_length = site.excerpt_length | default: 50 %}
-    {% for post in site.posts limit:20 %}
+    {% for post in site.posts limit:100 %}
     <item turbo="true">
         <link>{{ post.url | absolute_url }}</link>
         <turbo:source>{{ post.url | absolute_url }}</turbo:source>

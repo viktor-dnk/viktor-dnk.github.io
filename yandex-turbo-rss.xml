@@ -7,17 +7,13 @@ layout: null
      xmlns:turbo="http://turbo.yandex.ru"
      version="2.0">
   <channel>
-    {% if site.title %}
-    <title>{{ site.title | xml_escape }}</title>
-    {% endif %}
+    <title>Дорога не кончается</title>
     <link>{{ '' | absolute_url }}</link>
-    {% if site.rss-description %}
-    <description>{{ site.rss-description | xml_escape }}</description>
-	{% endif %}
-	<language>ru</language>
+    <description>Блог географа-краеведа</description>
+		<language>ru</language>
     <turbo:analytics type="Yandex" id="69067006"></turbo:analytics>
     <turbo:analytics type="Google" id="UA-169383032-2"></turbo:analytics>
-	{% assign excerpt_length = site.excerpt_length | default: 50 %}
+	  {% assign excerpt_length = site.excerpt_length | default: 50 %}
     {% for post in site.posts limit:20 %}
 
       <item turbo="true">

@@ -15,34 +15,17 @@ layout: null
     <link>{{ '' | absolute_url }}</link>
     {% assign excerpt_length = site.excerpt_length | default: 50 %}
     {% for post in site.posts limit:20 %}
-      <item turbo="true">
+    <item>
         <link>{{ post.url | absolute_url }}</link>
         <author>Ковешников В.Н.</author>
         <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
-        <turbo:source>{{ post.url | absolute_url }}</turbo:source>
-        <turbo:topic>{{ post.title | xml_escape }}</turbo:topic>
         <title>{{ post.title | xml_escape }}</title>
-        <turbo:content>
-            <![CDATA[
-              <figure>
-                <img src="{{ post.thumbnail-img | absolute_url }}">
-              </figure>
-              <p>{{ post.content | strip_html | xml_escape | truncatewords: excerpt_length }} <a href="{{ post.url | absolute_url }}" data-turbo="false">&nbsp;[Читать&nbsp;далее]</a></p>
-              <figure>
-                <img src="{{ post.cover-img | absolute_url }}">
-              </figure>
-              <div data-block="widget-feedback" data-stick="right">
-                  <div data-block="chat" data-type="telegram" data-url="https://t.me/toponim"></div>
-                  <div data-type="mail" data-url="mailto:dnk_v@list.ru"></div>
-              </div>
-            ]]>
-        </turbo:content>
         <description>
           {% if post.subtitle %}{{ post.subtitle | xml_escape }} - {% endif %}
           {{ post.content | strip_html | xml_escape | truncatewords: excerpt_length }}
         </description>
         <guid isPermaLink="true">{{ post.url | absolute_url }}</guid>
-      </item>
+    </item>
     {% endfor %}
   </channel>
 </rss>

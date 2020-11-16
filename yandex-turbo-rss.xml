@@ -29,36 +29,41 @@ layout: null
         <title>{{ post.title | xml_escape }}</title>
         <turbo:content>
             <![CDATA[
-				<p><strong><a href="{{ post.url | absolute_url }}" data-turbo="false">[Читать&nbsp;оригинал]</a></strong></p>
+        				<p><strong><a href="{{ post.url | absolute_url }}" data-turbo="false">[Читать&nbsp;оригинал]</a></strong></p>
 
-				{% assign preprocessed_content=post.content | replace: '<p>', '__p__' %}
-				{% assign preprocessed_content=preprocessed_content | replace: '</p>', '__/p__' %}
-				{% assign preprocessed_content=preprocessed_content | replace: '<li>', '__li__' %}
-				{% assign preprocessed_content=preprocessed_content | replace: '</li>', '__/li__' %}
-				{% assign preprocessed_content=preprocessed_content | replace: '<strong>', '__strong__' %}
-				{% assign preprocessed_content=preprocessed_content | replace: '</strong>', '__/strong__' %}
-				{% assign preprocessed_content=preprocessed_content | replace: '<em>', '__em__' %}
-				{% assign preprocessed_content=preprocessed_content | replace: '</em>', '__/em__' %}
-				{% assign preprocessed_content=preprocessed_content | replace: '<h2', '__h2__' %}
-				{% assign preprocessed_content=preprocessed_content | replace: '</h2>', '__/h2__' %}
-				{% assign preprocessed_content=preprocessed_content | replace: '<img', '__img__' %}
+        				{% assign preprocessed_content=post.content | replace: '<p>', '__p__' %}
+        				{% assign preprocessed_content=preprocessed_content | replace: '</p>', '__/p__' %}
+        				{% assign preprocessed_content=preprocessed_content | replace: '<li>', '__li__' %}
+        				{% assign preprocessed_content=preprocessed_content | replace: '</li>', '__/li__' %}
+        				{% assign preprocessed_content=preprocessed_content | replace: '<strong>', '__strong__' %}
+        				{% assign preprocessed_content=preprocessed_content | replace: '</strong>', '__/strong__' %}
+        				{% assign preprocessed_content=preprocessed_content | replace: '<em>', '__em__' %}
+        				{% assign preprocessed_content=preprocessed_content | replace: '</em>', '__/em__' %}
+        				{% assign preprocessed_content=preprocessed_content | replace: '<h2', '__h2__' %}
+        				{% assign preprocessed_content=preprocessed_content | replace: '</h2>', '__/h2__' %}
+        				{% assign preprocessed_content=preprocessed_content | replace: '<img', '__img__' %}
 
-				{% assign truncated_content=preprocessed_content | strip_html %}
+        				{% assign truncated_content=preprocessed_content | strip_html %}
 
-				{% assign cleaned_content=truncated_content | replace: '__p__', '<p>' %}
-				{% assign cleaned_content=cleaned_content | replace: '__/p__', '</p>' %}
-				{% assign cleaned_content=cleaned_content | replace: '__li__', '<li>' %}
-				{% assign cleaned_content=cleaned_content | replace: '__/li__', '</li>' %}
-				{% assign cleaned_content=cleaned_content | replace: '__strong__', '<strong>' %}
-				{% assign cleaned_content=cleaned_content | replace: '__/strong__', '</strong>' %}
-				{% assign cleaned_content=cleaned_content | replace: '__em__', '<em>' %}
-				{% assign cleaned_content=cleaned_content | replace: '__/em__', '</em>' %}
-				{% assign cleaned_content=cleaned_content | replace: '__h2__', '<h2' %}
-				{% assign cleaned_content=cleaned_content | replace: '__/h2__', '</h2>' %}
-				{% assign cleaned_content=cleaned_content | replace: '__img__', '<img' %}
-				{% assign cleaned_content=cleaned_content | replace: 'src="/img/', 'src="https://viktor-dnk.github.io/img/' %}
+        				{% assign cleaned_content=truncated_content | replace: '__p__', '<p>' %}
+        				{% assign cleaned_content=cleaned_content | replace: '__/p__', '</p>' %}
+        				{% assign cleaned_content=cleaned_content | replace: '__li__', '<li>' %}
+        				{% assign cleaned_content=cleaned_content | replace: '__/li__', '</li>' %}
+        				{% assign cleaned_content=cleaned_content | replace: '__strong__', '<strong>' %}
+        				{% assign cleaned_content=cleaned_content | replace: '__/strong__', '</strong>' %}
+        				{% assign cleaned_content=cleaned_content | replace: '__em__', '<em>' %}
+        				{% assign cleaned_content=cleaned_content | replace: '__/em__', '</em>' %}
+        				{% assign cleaned_content=cleaned_content | replace: '__h2__', '<h2' %}
+        				{% assign cleaned_content=cleaned_content | replace: '__/h2__', '</h2>' %}
+        				{% assign cleaned_content=cleaned_content | replace: '__img__', '<img' %}
+        				{% assign cleaned_content=cleaned_content | replace: 'src="/img/', 'src="https://viktor-dnk.github.io/img/' %}
 
-				{{ cleaned_content }}
+        				{{ cleaned_content }}
+                
+                <div data-block="widget-feedback" data-stick="right">
+                    <div data-block="chat" data-type="telegram" data-url="https://t.me/toponim"></div>
+                    <div data-type="mail" data-url="mailto:dnk_v@list.ru"></div>
+                </div>
             ]]>
         </turbo:content>
        </item>

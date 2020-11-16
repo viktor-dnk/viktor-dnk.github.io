@@ -35,6 +35,8 @@ layout: null
         				{% assign preprocessed_content=preprocessed_content | replace: '</p>', '__/p__' %}
         				{% assign preprocessed_content=preprocessed_content | replace: '<li>', '__li__' %}
         				{% assign preprocessed_content=preprocessed_content | replace: '</li>', '__/li__' %}
+                {% assign preprocessed_content=preprocessed_content | replace: '<ul>', '__ul__' %}
+                {% assign preprocessed_content=preprocessed_content | replace: '</ul>', '__/ul__' %}
         				{% assign preprocessed_content=preprocessed_content | replace: '<strong>', '__strong__' %}
         				{% assign preprocessed_content=preprocessed_content | replace: '</strong>', '__/strong__' %}
         				{% assign preprocessed_content=preprocessed_content | replace: '<em>', '__em__' %}
@@ -49,6 +51,8 @@ layout: null
         				{% assign cleaned_content=cleaned_content | replace: '__/p__', '</p>' %}
         				{% assign cleaned_content=cleaned_content | replace: '__li__', '<li>' %}
         				{% assign cleaned_content=cleaned_content | replace: '__/li__', '</li>' %}
+                {% assign cleaned_content=cleaned_content | replace: '__ul__', '<ul>' %}
+                {% assign cleaned_content=cleaned_content | replace: '__/ul__', '</ul>' %}
         				{% assign cleaned_content=cleaned_content | replace: '__strong__', '<strong>' %}
         				{% assign cleaned_content=cleaned_content | replace: '__/strong__', '</strong>' %}
         				{% assign cleaned_content=cleaned_content | replace: '__em__', '<em>' %}
@@ -59,7 +63,7 @@ layout: null
         				{% assign cleaned_content=cleaned_content | replace: 'src="/img/', 'src="https://viktor-dnk.github.io/img/' %}
 
         				{{ cleaned_content }}
-                
+
                 <div data-block="widget-feedback" data-stick="right">
                     <div data-block="chat" data-type="telegram" data-url="https://t.me/toponim"></div>
                     <div data-type="mail" data-url="mailto:dnk_v@list.ru"></div>

@@ -24,63 +24,61 @@ layout: null
         <title>{{ post.title | xml_escape }}</title>
         <turbo:content>
             <![CDATA[
-            <figure>
-              <img src="{{ post.cover-img }}">
-            </figure>
-            <button formaction="{{ post.url | absolute_url }}"
-              data-background-color="#87CEEB"
-    					data-color="white"
-    					data-turbo="false"
-    					data-primary="true">Читать оригинал</button>
-            {% assign preprocessed_content=post.content | replace: '<p>', '__p__' %}
-            {% assign preprocessed_content=preprocessed_content | replace: '</p>', '__/p__' %}
-            {% assign preprocessed_content=preprocessed_content | replace: '<li>', '__li__' %}
-            {% assign preprocessed_content=preprocessed_content | replace: '</li>', '__/li__' %}
-            {% assign preprocessed_content=preprocessed_content | replace: '<ul>', '__ul__' %}
-            {% assign preprocessed_content=preprocessed_content | replace: '</ul>', '__/ul__' %}
-            {% assign preprocessed_content=preprocessed_content | replace: '<strong>', '__strong__' %}
-            {% assign preprocessed_content=preprocessed_content | replace: '</strong>', '__/strong__' %}
-            {% assign preprocessed_content=preprocessed_content | replace: '<em>', '__em__' %}
-            {% assign preprocessed_content=preprocessed_content | replace: '</em>', '__/em__' %}
-            {% assign preprocessed_content=preprocessed_content | replace: '<h2', '__h2__' %}
-            {% assign preprocessed_content=preprocessed_content | replace: '</h2>', '__/h2__' %}
-            {% assign preprocessed_content=preprocessed_content | replace: '<img', '__img__' %}
-            {% assign preprocessed_content=preprocessed_content | replace: '<br />', '__br/__' %}
-            {% assign preprocessed_content=preprocessed_content | replace: '<a href="/../', '__a href__' %}
-            {% assign preprocessed_content=preprocessed_content | replace: '</a>', '__/a__' %}
-                {% assign truncated_content=preprocessed_content | strip_html %}
-            {% assign cleaned_content=truncated_content | replace: '__p__', '<p>' %}
-            {% assign cleaned_content=cleaned_content | replace: '__/p__', '</p>' %}
-            {% assign cleaned_content=cleaned_content | replace: '__li__', '<li>' %}
-            {% assign cleaned_content=cleaned_content | replace: '__/li__', '</li>' %}
-            {% assign cleaned_content=cleaned_content | replace: '__ul__', '<ul>' %}
-            {% assign cleaned_content=cleaned_content | replace: '__/ul__', '</ul>' %}
-            {% assign cleaned_content=cleaned_content | replace: '__strong__', '<strong>' %}
-            {% assign cleaned_content=cleaned_content | replace: '__/strong__', '</strong>' %}
-            {% assign cleaned_content=cleaned_content | replace: '__em__', '<em>' %}
-            {% assign cleaned_content=cleaned_content | replace: '__/em__', '</em>' %}
-            {% assign cleaned_content=cleaned_content | replace: '__h2__', '<h2' %}
-            {% assign cleaned_content=cleaned_content | replace: '__/h2__', '</h2>' %}
-            {% assign cleaned_content=cleaned_content | replace: '__img__', '<img' %}
-            {% assign cleaned_content=cleaned_content | replace: '__br/__', '<br />' %}
-            {% assign cleaned_content=cleaned_content | replace: '__a href__', '<a data-turbo="false" href="/../' %}
-            {% assign cleaned_content=cleaned_content | replace: '__/a__', '</a>' %}
-            {% assign cleaned_content=cleaned_content | replace: 'src="/img/', 'src="https://viktor-dnk.github.io/img/' %}
-    				    {{ cleaned_content }}
-
-            <button formaction="{{ post.url | absolute_url }}"
-            					data-background-color="#87CEEB"
-            					data-color="white"
-            					data-turbo="false"
-            					data-primary="true">Перейти на сайт автора</button>
-            <figure>
-              <img src="{{ post.thumbnail-img }}">
-            </figure>
-
-            <div data-block="widget-feedback" data-stick="right">
-                <div data-block="chat" data-type="telegram" data-url="https://t.me/toponim"></div>
-                <div data-type="mail" data-url="mailto:dnk_v@list.ru"></div>
-            </div>
+                <figure>
+                  <img src="{{ post.cover-img }}">
+                </figure>
+                <button formaction="{{ post.url | absolute_url }}"
+                  data-background-color="#87CEEB"
+        					data-color="white"
+        					data-turbo="false"
+        					data-primary="true">Читать оригинал</button>
+                {% assign preprocessed_content=post.content | replace: '<p>', '__p__' %}
+                {% assign preprocessed_content=preprocessed_content | replace: '</p>', '__/p__' %}
+                {% assign preprocessed_content=preprocessed_content | replace: '<li>', '__li__' %}
+                {% assign preprocessed_content=preprocessed_content | replace: '</li>', '__/li__' %}
+                {% assign preprocessed_content=preprocessed_content | replace: '<ul>', '__ul__' %}
+                {% assign preprocessed_content=preprocessed_content | replace: '</ul>', '__/ul__' %}
+                {% assign preprocessed_content=preprocessed_content | replace: '<strong>', '__strong__' %}
+                {% assign preprocessed_content=preprocessed_content | replace: '</strong>', '__/strong__' %}
+                {% assign preprocessed_content=preprocessed_content | replace: '<em>', '__em__' %}
+                {% assign preprocessed_content=preprocessed_content | replace: '</em>', '__/em__' %}
+                {% assign preprocessed_content=preprocessed_content | replace: '<h2', '__h2__' %}
+                {% assign preprocessed_content=preprocessed_content | replace: '</h2>', '__/h2__' %}
+                {% assign preprocessed_content=preprocessed_content | replace: '<img', '__img__' %}
+                {% assign preprocessed_content=preprocessed_content | replace: '<br />', '__br/__' %}
+                {% assign preprocessed_content=preprocessed_content | replace: '<a href="/../', '__a href__' %}
+                {% assign preprocessed_content=preprocessed_content | replace: '</a>', '__/a__' %}
+                    {% assign truncated_content=preprocessed_content | strip_html %}
+                {% assign cleaned_content=truncated_content | replace: '__p__', '<p>' %}
+                {% assign cleaned_content=cleaned_content | replace: '__/p__', '</p>' %}
+                {% assign cleaned_content=cleaned_content | replace: '__li__', '<li>' %}
+                {% assign cleaned_content=cleaned_content | replace: '__/li__', '</li>' %}
+                {% assign cleaned_content=cleaned_content | replace: '__ul__', '<ul>' %}
+                {% assign cleaned_content=cleaned_content | replace: '__/ul__', '</ul>' %}
+                {% assign cleaned_content=cleaned_content | replace: '__strong__', '<strong>' %}
+                {% assign cleaned_content=cleaned_content | replace: '__/strong__', '</strong>' %}
+                {% assign cleaned_content=cleaned_content | replace: '__em__', '<em>' %}
+                {% assign cleaned_content=cleaned_content | replace: '__/em__', '</em>' %}
+                {% assign cleaned_content=cleaned_content | replace: '__h2__', '<h2' %}
+                {% assign cleaned_content=cleaned_content | replace: '__/h2__', '</h2>' %}
+                {% assign cleaned_content=cleaned_content | replace: '__img__', '<img' %}
+                {% assign cleaned_content=cleaned_content | replace: '__br/__', '<br />' %}
+                {% assign cleaned_content=cleaned_content | replace: '__a href__', '<a data-turbo="false" href="/../' %}
+                {% assign cleaned_content=cleaned_content | replace: '__/a__', '</a>' %}
+                {% assign cleaned_content=cleaned_content | replace: 'src="/img/', 'src="https://viktor-dnk.github.io/img/' %}
+        				    {{ cleaned_content }}
+                <button formaction="{{ post.url | absolute_url }}"
+                					data-background-color="#87CEEB"
+                					data-color="white"
+                					data-turbo="false"
+                					data-primary="true">Перейти на сайт автора</button>
+                <figure>
+                  <img src="{{ post.thumbnail-img }}">
+                </figure>
+                <div data-block="widget-feedback" data-stick="right">
+                    <div data-block="chat" data-type="telegram" data-url="https://t.me/toponim"></div>
+                    <div data-type="mail" data-url="mailto:dnk_v@list.ru"></div>
+                </div>
             ]]>
         </turbo:content>
        </item>

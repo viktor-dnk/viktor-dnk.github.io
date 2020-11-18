@@ -65,6 +65,7 @@ layout: null
                 {% assign cleaned_content=cleaned_content | replace: '__br/__', '<br />' %}
                 {% assign cleaned_content=cleaned_content | replace: '__a href__', '<a data-turbo="false" href="/../' %}
                 {% assign cleaned_content=cleaned_content | replace: '__/a__', '</a>' %}
+                {% assign cleaned_content=cleaned_content | replace: 'jpg" alt="" /></a>', 'jpg" alt="" /><br />' %}
                 {% assign cleaned_content=cleaned_content | replace: 'src="/img/', 'src="https://viktor-dnk.github.io/img/' %}
         				    {{ cleaned_content }}
                 <button formaction="{{ post.url | absolute_url }}"

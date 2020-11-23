@@ -42,12 +42,10 @@ layout: null
                 {% assign preprocessed_content=preprocessed_content | replace: '</strong>', '__/strong__' %}
                 {% assign preprocessed_content=preprocessed_content | replace: '<em>', '__em__' %}
                 {% assign preprocessed_content=preprocessed_content | replace: '</em>', '__/em__' %}
-
                 {% assign preprocessed_content=preprocessed_content | replace: '<figure>', '__figure__' %}
                 {% assign preprocessed_content=preprocessed_content | replace: '</figure>', '__/figure__' %}
                 {% assign preprocessed_content=preprocessed_content | replace: '<figcaption>', '__figcaption__' %}
                 {% assign preprocessed_content=preprocessed_content | replace: '</figcaption>', '__/figcaption__' %}
-
                 {% assign preprocessed_content=preprocessed_content | replace: '<h2', '__h2__' %}
                 {% assign preprocessed_content=preprocessed_content | replace: '</h2>', '__/h2__' %}
                 {% assign preprocessed_content=preprocessed_content | replace: '<img', '__img__' %}
@@ -65,19 +63,17 @@ layout: null
                 {% assign cleaned_content=cleaned_content | replace: '__/strong__', '</strong>' %}
                 {% assign cleaned_content=cleaned_content | replace: '__em__', '<em>' %}
                 {% assign cleaned_content=cleaned_content | replace: '__/em__', '</em>' %}
-
                 {% assign cleaned_content=cleaned_content | replace: '__figure__', '<figure>' %}
                 {% assign cleaned_content=cleaned_content | replace: '__/figure__', '</figure>' %}
                 {% assign cleaned_content=cleaned_content | replace: '__figcaption__', '<figcaption>' %}
                 {% assign cleaned_content=cleaned_content | replace: '__/figcaption__', '</figcaption>' %}
-
                 {% assign cleaned_content=cleaned_content | replace: '__h2__', '<h2' %}
                 {% assign cleaned_content=cleaned_content | replace: '__/h2__', '</h2>' %}
                 {% assign cleaned_content=cleaned_content | replace: '__img__', '<img' %}
                 {% assign cleaned_content=cleaned_content | replace: '__br/__', '<br />' %}
                 {% assign cleaned_content=cleaned_content | replace: '__a href__', '<a data-turbo="false" href="/../' %}
                 {% assign cleaned_content=cleaned_content | replace: '__/a__', '</a>' %}
-                {% assign cleaned_content=cleaned_content | replace: 'jpg" alt="" /></a>', 'jpg" alt="" /><br />' %}
+                {% assign cleaned_content=cleaned_content | replace: '" /></a>', '" />' %}
                 {% assign cleaned_content=cleaned_content | replace: 'src="/img/', 'src="https://viktor-dnk.github.io/img/' %}
         				    {{ cleaned_content }}
                 <button formaction="{{ post.url | absolute_url }}"

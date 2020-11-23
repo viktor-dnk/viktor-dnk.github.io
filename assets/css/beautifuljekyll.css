@@ -71,6 +71,11 @@ figure {
   text-align: center;
 }
 
+figcaption {
+  font-style: italic;
+  color: #777777;
+}
+
 /* fix in-page anchors to not be behind fixed header */
 :target:before {
   content: "";

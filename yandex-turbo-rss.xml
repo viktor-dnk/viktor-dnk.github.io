@@ -74,6 +74,9 @@ layout: null
                 {% assign cleaned_content=cleaned_content | replace: '__a href__', '<a data-turbo="false" href="/../' %}
                 {% assign cleaned_content=cleaned_content | replace: '__/a__', '</a>' %}
                 {% assign cleaned_content=cleaned_content | replace: '" /></a>', '" />' %}
+                {% assign cleaned_content=cleaned_content | replace: ']</a>', ']' %}
+                {% assign cleaned_content=cleaned_content | replace: '</a></li>', '</li>' %}
+                {% assign cleaned_content=cleaned_content | replace: '<strong></a>', '<strong>' %}
                 {% assign cleaned_content=cleaned_content | replace: 'src="/img/', 'src="https://viktor-dnk.github.io/img/' %}
         				    {{ cleaned_content }}
                 <button formaction="{{ post.url | absolute_url }}"

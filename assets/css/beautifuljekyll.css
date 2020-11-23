@@ -74,6 +74,7 @@ figure {
 figcaption {
   font-style: italic;
   color: #777777;
+  font-size:1.1rem;
 }
 
 /* fix in-page anchors to not be behind fixed header */

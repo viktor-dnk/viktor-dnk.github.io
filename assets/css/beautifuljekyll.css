@@ -67,6 +67,10 @@ hr.small {
   border-radius: 0.1875rem;
 }
 
+figure {
+  text-align: center;
+}
+
 /* fix in-page anchors to not be behind fixed header */
 :target:before {
   content: "";
@@ -991,8 +995,4 @@ pre {
 .center {
   display: block;
   margin: 0 auto;
-}
-
-figure {
-  text-align: center;
 }

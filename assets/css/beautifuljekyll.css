@@ -992,3 +992,7 @@ pre {
   display: block;
   margin: 0 auto;
 }
+
+figure {
+  text-align: center;
+}

@@ -2,6 +2,7 @@
 layout: post
 title: Тайны тысячелетних дольменов Кубани
 subtitle: Введение
+share-description: Публикация посвящена памятникам археологии — дольменам Западного Кавказа
 cover-img: /img/Mysteries-dolmens/222.jpg
 thumbnail-img: /img/Mysteries-dolmens/intro/thumb.jpg
 language: ru

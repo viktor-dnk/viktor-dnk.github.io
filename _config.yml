@@ -168,9 +168,9 @@ gtm: "GTM-NJDL82R"
 # If you want to use reCaptcha for staticman (optional for spam protection), then fill
 # in the "siteKey" and "secret" parameters below and also in `staticman.yml`.
 # See more details at https://staticman.net/
-staticman:
-  repository : "viktor-dnk/viktor-dnk.github.io"
-  branch : master
+#staticman:
+#  repository : "viktor-dnk/viktor-dnk.github.io"
+#  branch : master
 #  endpoint : https://viktor-dnk-comments.herokuapp.com/v3/connect/viktor-dnk/viktor-dnk.github.io
 #  reCaptcha:
 #    siteKey: 6LdJLOwZAAAAAMopr1XZt4nZ7MNPLHBTnN71AERw

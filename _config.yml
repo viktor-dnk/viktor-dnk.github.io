@@ -156,11 +156,11 @@ gtm: "GTM-NJDL82R"
 # "repository" (make sure the repository is public), (2) Enable Issues in your repository,
 # (3) Install the Utterances app in your repository https://github.com/apps/utterances
 # See more details about the parameters below at https://utteranc.es/
-utterances:
-  repository: "viktor-dnk/viktor-dnk.github.io"
-  issue-term: Заголовок
-  theme: github-light
-  label: blog-comments
+#utterances:
+#  repository: "viktor-dnk/viktor-dnk.github.io"
+#  issue-term: Заголовок
+#  theme: github-light
+#  label: blog-comments
 
 # To use Staticman comments, first invite `staticmanlab` as a collaborator to your repository and
 # accept the invitation by going to `https://staticman3.herokuapp.com/v3/connect/github/<username>/<repo-name>`.
@@ -168,9 +168,9 @@ utterances:
 # If you want to use reCaptcha for staticman (optional for spam protection), then fill
 # in the "siteKey" and "secret" parameters below and also in `staticman.yml`.
 # See more details at https://staticman.net/
-#staticman:
-#  repository : "viktor-dnk/viktor-dnk.github.io"
-#  branch : master
+staticman:
+  repository : "viktor-dnk/viktor-dnk.github.io"
+  branch : master
 #  endpoint   : # (optional) URL of your own deployment, with a trailing slash eg. https://<your-api>/v3/entry/github/ (will fallback to a public GitLab instance)
 #  reCaptcha:
 #    siteKey: 6LdJLOwZAAAAAMopr1XZt4nZ7MNPLHBTnN71AERw

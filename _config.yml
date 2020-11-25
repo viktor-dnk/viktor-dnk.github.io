@@ -168,13 +168,13 @@ gtm: "GTM-NJDL82R"
 # If you want to use reCaptcha for staticman (optional for spam protection), then fill
 # in the "siteKey" and "secret" parameters below and also in `staticman.yml`.
 # See more details at https://staticman.net/
-#staticman:
-repository : "viktor-dnk/viktor-dnk.github.io"
-branch : master
+staticman:
+  repository : "viktor-dnk/viktor-dnk.github.io"
+  branch : master
 #  endpoint   : # (optional) URL of your own deployment, with a trailing slash eg. https://<your-api>/v3/entry/github/ (will fallback to a public GitLab instance)
-reCaptcha:
-  siteKey  : 6LdJLOwZAAAAAMopr1XZt4nZ7MNPLHBTnN71AERw
-  secret   : um6FOMbNvUaSiK0IxxuqJbG+iFlocb4AS9CqBUNJo6pSP/eJHS5WczKM833LeohYK+AYZRs4PKnFfoIDwQXFwr/EFwQnjvpzOPbSzZMCCHvr7Vunz2s+sYT2MpY8VTmak4oocq8M1B6hivvJ0SDmbEW6b7QGWMq7PPurTMD3c8GIKnEp4eT3mkp0bsqMLMboF/fxPrGA4uiLzRPkG+OpPUUBGO5t6IxV8TnrKrLVRfet9NoHjkuSkoCNhDIXTRzePQSzvPeBIn2N3ZhnD1uGgOSpkvOTbcZZwy4f/FmneGjDZPyB8IobhmLWdY2ubzySExtu5KtxisjiahWEWaXeDQ==
+  reCaptcha:
+    siteKey  : 6LdJLOwZAAAAAMopr1XZt4nZ7MNPLHBTnN71AERw
+    secret   : um6FOMbNvUaSiK0IxxuqJbG+iFlocb4AS9CqBUNJo6pSP/eJHS5WczKM833LeohYK+AYZRs4PKnFfoIDwQXFwr/EFwQnjvpzOPbSzZMCCHvr7Vunz2s+sYT2MpY8VTmak4oocq8M1B6hivvJ0SDmbEW6b7QGWMq7PPurTMD3c8GIKnEp4eT3mkp0bsqMLMboF/fxPrGA4uiLzRPkG+OpPUUBGO5t6IxV8TnrKrLVRfet9NoHjkuSkoCNhDIXTRzePQSzvPeBIn2N3ZhnD1uGgOSpkvOTbcZZwy4f/FmneGjDZPyB8IobhmLWdY2ubzySExtu5KtxisjiahWEWaXeDQ==
 
 # --- Misc --- #
 

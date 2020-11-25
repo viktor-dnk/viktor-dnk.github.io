@@ -53,7 +53,7 @@
   height: auto;
   cursor: pointer;
   overflow: visible;
-  background: #87CEEB;
+  color: #87CEEB;
 }
 .staticman-comments textarea {
   resize: vertical;

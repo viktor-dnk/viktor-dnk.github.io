@@ -157,10 +157,10 @@ gtm: "GTM-NJDL82R"
 # (3) Install the Utterances app in your repository https://github.com/apps/utterances
 # See more details about the parameters below at https://utteranc.es/
 #utterances:
-#  repository: # GitHub username/repository eg. "daattali/beautiful-jekyll"
-#  issue-term: title   # Mapping between blog posts and GitHub issues
-#  theme: github-light # Utterances theme
-#  label: blog-comments # Label that will be assigned to GitHub Issues created by Utterances
+  repository: "viktor-dnk/viktor-dnk.github.io"
+  issue-term: Заголовок
+  theme: github-light
+  label: blog-comments
 
 # To use Staticman comments, first invite `staticmanlab` as a collaborator to your repository and
 # accept the invitation by going to `https://staticman3.herokuapp.com/v3/connect/github/<username>/<repo-name>`.
@@ -168,13 +168,13 @@ gtm: "GTM-NJDL82R"
 # If you want to use reCaptcha for staticman (optional for spam protection), then fill
 # in the "siteKey" and "secret" parameters below and also in `staticman.yml`.
 # See more details at https://staticman.net/
-staticman:
-  repository : "viktor-dnk/viktor-dnk.github.io"
-  branch : master
+#staticman:
+#  repository : "viktor-dnk/viktor-dnk.github.io"
+#  branch : master
 #  endpoint   : # (optional) URL of your own deployment, with a trailing slash eg. https://<your-api>/v3/entry/github/ (will fallback to a public GitLab instance)
-  reCaptcha:
-    siteKey: 6LdJLOwZAAAAAMopr1XZt4nZ7MNPLHBTnN71AERw
-    secret: "V573feaT1i0aUDZv5s01e5+IkHEOzedm7F/6I/Y/u18qaK91rIY7Fw2VePQE3Mr4wGd70uwZbkdGBXqT07jP797x9NjNVDdcMx12d3oDmyWM0hE9UxxW0NzHu5up8zTSGODAIC2nm+e75cNco0l5DqcZ1gCcD0tp5iYqghJqMmTD4FW79ZCN7O5lq7wAm5jetIlc64FDZ/emmPLToipwuyBfmDoZOSCqBHLBTL2t+PIcOZqP2cnpF5HQ8QIs3MtsfQqbhLDM8wSAjwxdu9+W5Xz80D4H66j5l/bFvZvOTTKkDASu9CU43e50i8DuPUtZPcMdh65l9p8lBJ3NsH2Xcg=="
+#  reCaptcha:
+#    siteKey: 6LdJLOwZAAAAAMopr1XZt4nZ7MNPLHBTnN71AERw
+#    secret: "V573feaT1i0aUDZv5s01e5+IkHEOzedm7F/6I/Y/u18qaK91rIY7Fw2VePQE3Mr4wGd70uwZbkdGBXqT07jP797x9NjNVDdcMx12d3oDmyWM0hE9UxxW0NzHu5up8zTSGODAIC2nm+e75cNco0l5DqcZ1gCcD0tp5iYqghJqMmTD4FW79ZCN7O5lq7wAm5jetIlc64FDZ/emmPLToipwuyBfmDoZOSCqBHLBTL2t+PIcOZqP2cnpF5HQ8QIs3MtsfQqbhLDM8wSAjwxdu9+W5Xz80D4H66j5l/bFvZvOTTKkDASu9CU43e50i8DuPUtZPcMdh65l9p8lBJ3NsH2Xcg=="
 
 # --- Misc --- #
 

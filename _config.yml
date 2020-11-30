@@ -129,13 +129,13 @@ footer-link-col: "#404040"
 # --- Web Analytics Section --- #
 
 # Fill in your Google Analytics gtag.js ID to track your website using gtag
-gtag: "UA-169383032-2"
+#gtag: "UA-169383032-2"
 
 # Fill in your Google Analytics ID to track your website using Google Analytics
-google_analytics: "UA-169383032-2"
+#google_analytics: "UA-169383032-2"
 
 # Google Tag Manager ID
-gtm: "GTM-NJDL82R"
+#gtm: "GTM-NJDL82R"
 
 # Matomo (aka Piwik) Web statistics
 # Unent the following section to enable Matomo. The opt-out parameter controls

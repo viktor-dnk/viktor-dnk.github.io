@@ -32,6 +32,8 @@
           "https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css",
           "https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         ],
+      }
+    }
     "theme_color": "#87ceeb",
     "background_color": "#87ceeb",
     "display": "standalone"

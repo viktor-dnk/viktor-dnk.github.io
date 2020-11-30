@@ -7,8 +7,6 @@ layout: null
     <title>Дорога не кончается</title>
     <description>Блог географа-краеведа</description>
     <language>ru</language>
-    <turbo:analytics type="Yandex" id="69067006"></turbo:analytics>
-    <turbo:analytics type="Google" id="UA-169383032-2"></turbo:analytics>
     <link>{{ '' | absolute_url }}</link>
     <atom:link href="{{ 'feed.xml' | absolute_url }}" rel="self" type="application/rss+xml" />
     {% assign excerpt_length = site.excerpt_length | default: 50 %}

@@ -16,7 +16,7 @@
     ],
     "theme_color": "#87ceeb",
     "background_color": "#87ceeb",
-    "display": "standalone"
+    "display": "standalone",
     "start_url": "https://viktor-dnk.github.io/",
     "scope": "https://viktor-dnk.github.io/",
     "yandex": {

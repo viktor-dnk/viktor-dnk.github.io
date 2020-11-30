@@ -1,6 +1,7 @@
 {
     "name": "\u0414\u043e\u0440\u043e\u0433\u0430 \u043d\u0435 \u043a\u043e\u043d\u0447\u0430\u0435\u0442\u0441\u044f",
     "short_name": "viktor-dnk",
+    "lang": "ru",
     "icons": [
         {
             "src": "/android-chrome-192x192.png?v=E6w25ePBkX",
@@ -13,6 +14,24 @@
             "type": "image/png"
         }
     ],
+    "start_url": "https://viktor-dnk.github.io/",
+    "scope": "https://viktor-dnk.github.io/",
+    "yandex": {
+      "manifest_version": 1,
+      "app_version": "1.0.0",
+      "cache": {
+        "resources": [
+          "https://viktor-dnk.github.io/assets/js/beautifuljekyll.js",
+          "https://viktor-dnk.github.io/assets/js/material-scrolltop.js",
+          "https://viktor-dnk.github.io/assets/js/staticman.js",
+          "https://viktor-dnk.github.io/assets/css/bootstrap-social.css",
+          "https://viktor-dnk.github.io/assets/css/beautifuljekyll.css",
+          "https://viktor-dnk.github.io/assets/css/material-scrolltop.css",
+          "https://viktor-dnk.github.io/assets/css/pygment_highlights.css",
+          "https://code.jquery.com/jquery-3.5.1.min.js",
+          "https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css",
+          "https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        ],
     "theme_color": "#87ceeb",
     "background_color": "#87ceeb",
     "display": "standalone"

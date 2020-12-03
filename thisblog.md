@@ -16,6 +16,6 @@ tags: [информация]
 
 
   [bfc69183]: /mysteries-dolmens/mysteries-dolmens-intro/ "Тайны тысячелетних дольменов Кубани"
-  [a85077ec]: /mysteries-dolmens/telegram "Информационный канал в поддержку этого блога"
-  [fc339afa]: /mysteries-dolmens/index-dolmens/#ch1 "Оглавление к циклу очерков о дольменах Западного Кавказа"
-  [9f6be73e]: /mysteries-dolmens/search/ "Яндекс.поиск по сайту"
+  [a85077ec]: /info/telegram "Информационный канал в поддержку этого блога"
+  [fc339afa]: /index-dolmens/#ch1 "Оглавление к циклу очерков о дольменах Западного Кавказа"
+  [9f6be73e]: /search/ "Яндекс.поиск по сайту"

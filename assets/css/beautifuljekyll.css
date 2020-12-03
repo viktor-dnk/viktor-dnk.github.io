@@ -77,6 +77,13 @@ figcaption {
   font-size:1.1rem;
 }
 
+rcorners {
+  border-radius: 15px;
+  background: #87CEEB;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
 /* fix in-page anchors to not be behind fixed header */
 :target:before {
   content: "";

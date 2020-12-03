@@ -12,7 +12,7 @@
 
 замена картинок и ссылок на них
 (.*)([0-9]+-[0-9]+)\/([0-9,.]+\.jpg)(.*)\r\n_(.*)_
-<figure>\n\t<a href="/img/Mysteries-dolmens/$2/$3"><img src="/img/Mysteries-dolmens/$2/$3"/></a>\n\t<figcaption>$5</figcaption>\n</figure>
+<figure>\n\t<a href="/img/mysteries-dolmens/$2/$3"><img src="/img/mysteries-dolmens/$2/$3"/></a>\n\t<figcaption>$5</figcaption>\n</figure>
 
 
 для приличия - "2.10" менять на номер главы

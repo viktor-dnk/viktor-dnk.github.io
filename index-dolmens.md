@@ -10,11 +10,11 @@ tags: [информация, дольмены, мегалиты]
 {: .box-note}
 # Оглавление
 
-[**Введение:**](/mysteries-dolmens/mysteries-dolmens-intro/)  
-- [Географическое положение дольменов Кубани и их общее количество;](/mysteries-dolmens/mysteries-dolmens-intro/#%D0%B2%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B51)
-- [Как начиналось изучение дольменов Западного Кавказа;](/mysteries-dolmens/mysteries-dolmens-intro/#%D0%B2%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B52)
-- [Структура публикации;](/mysteries-dolmens/mysteries-dolmens-intro/#%D0%B2%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B53)
-- [Несколько советов.](/mysteries-dolmens/mysteries-dolmens-intro/#%D0%B2%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B54)
+[**Введение:**](/mysteries-dolmens/intro/)  
+- [Географическое положение дольменов Кубани и их общее количество;](/mysteries-dolmens/intro/#%D0%B2%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B51)
+- [Как начиналось изучение дольменов Западного Кавказа;](/mysteries-dolmens/intro/#%D0%B2%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B52)
+- [Структура публикации;](/mysteries-dolmens/intro/#%D0%B2%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B53)
+- [Несколько советов.](/mysteries-dolmens/intro/#%D0%B2%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B54)
 
 {: .box-note}
 **<a name="ch1"></a>Часть 1. Из истории дольменов Западного Кавказа.**

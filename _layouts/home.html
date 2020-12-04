@@ -98,11 +98,17 @@ layout: page
   {% endif %}
   {% for page in (1..paginator.total_pages) %}
     {% if page == paginator.page %}
-      <a class="page-link">{{ page }}</a>
+
+	  <a class="page-link">{{ page }}</a>
+
     {% elsif page == 1 %}
+	<li class="page-item previous">
       <a class="page-link" href="/">{{ page }}</a>
+	</li>
     {% else %}
+	<li class="page-item previous">
       <a class="page-link" href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+	</li>
     {% endif %}
   {% endfor %}
   {% if paginator.next_page %}

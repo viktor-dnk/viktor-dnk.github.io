@@ -797,6 +797,13 @@ nav.top-nav-short-permanent ~ header > .intro-header.big-img {
     text-align: center;
  }
 
+.pagination .page-item .page-link:hover,
+.pagination .page-item .page-link:focus {
+  color: #FFF;
+  border: 1px solid {{ site.hover-col | default: "#0085A1" }};
+  background-color: {{ site.hover-col | default: "#0085A1" }};
+}
+
 /* --- Tables --- */
 
 table {

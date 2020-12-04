@@ -5,7 +5,7 @@ subtitle: Оглавление
 share-description: Публикация посвящена памятникам археологии — дольменам Западного Кавказа, их возраст достигает 5 тысяч лет, это одно из загадочных рукотворных явлений в мире.
 cover-img: ["/img/mysteries-dolmens/111.jpg","/img/mysteries-dolmens/222.jpg"]
 language: ru
-permalink: /mysteries-dolmens/index
+permalink: /mysteries-dolmens/index/
 tags: [информация, дольмены, мегалиты]
 ---
 {: .box-note}

@@ -15,7 +15,7 @@ author: © Ковешников Виктор
 
 navbar-links:
   Тайны дольменов:
-    - Оглавление: "index-dolmens"
+    - Оглавление: "/mysteries-dolmens/index"
   Информация:
     - Об этом блоге: "thisblog"
     - Об авторе: "aboutme"

@@ -50,7 +50,7 @@ layout: null
                 {% assign preprocessed_content=preprocessed_content | replace: '</h2>', '__/h2__' %}
                 {% assign preprocessed_content=preprocessed_content | replace: '<img', '__img__' %}
                 {% assign preprocessed_content=preprocessed_content | replace: '<br />', '__br/__' %}
-                {% assign preprocessed_content=preprocessed_content | replace: '<a href="/../', '__a href__' %}
+                {% assign preprocessed_content=preprocessed_content | replace: '<a href="', '__a href__' %}
                 {% assign preprocessed_content=preprocessed_content | replace: '</a>', '__/a__' %}
                     {% assign truncated_content=preprocessed_content | strip_html %}
                 {% assign cleaned_content=truncated_content | replace: '__p__', '<p>' %}
@@ -71,14 +71,13 @@ layout: null
                 {% assign cleaned_content=cleaned_content | replace: '__/h2__', '</h2>' %}
                 {% assign cleaned_content=cleaned_content | replace: '__img__', '<img' %}
                 {% assign cleaned_content=cleaned_content | replace: '__br/__', '<br />' %}
-                {% assign cleaned_content=cleaned_content | replace: '__a href__', '<a data-turbo="false" href="/../' %}
+                {% assign cleaned_content=cleaned_content | replace: '__a href__', '<a data-turbo="false" href="' %}
                 {% assign cleaned_content=cleaned_content | replace: '__/a__', '</a>' %}
                 {% assign cleaned_content=cleaned_content | replace: '" /></a>', '" />' %}
                 {% assign cleaned_content=cleaned_content | replace: ']</a>', ']' %}
                 {% assign cleaned_content=cleaned_content | replace: '</a></li>', '</li>' %}
                 {% assign cleaned_content=cleaned_content | replace: '<strong></a>', '<strong>' %}
-                {% assign cleaned_content=cleaned_content | replace: 'src="/img/', 'src="https://viktor-dnk.github.io/img/' %}
-        				    {{ cleaned_content }}
+                  {{ cleaned_content }}
                 <button formaction="{{ post.url | absolute_url }}"
                 					data-background-color="#87CEEB"
                 					data-color="white"

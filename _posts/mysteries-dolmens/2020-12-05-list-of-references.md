@@ -8,7 +8,7 @@ thumbnail-img: /mysteries-dolmens/img/list/thumb.jpg
 language: ru
 readtime: true
 categories: mysteries-dolmens
-date: 2020-12-06 15:40
+date: 2020-12-05 17:00
 tags:
 - информация
 ---

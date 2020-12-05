@@ -9,6 +9,7 @@ Disallow: /page1
 Disallow: /page2
 Disallow: /page3
 Disallow: /*2020*/
+Disallow: /ch*
 Disallow: /random
 Host: https://viktor-dnk.github.io/
 Sitemap: https://viktor-dnk.github.io/sitemap

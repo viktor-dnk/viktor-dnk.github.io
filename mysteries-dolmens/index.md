@@ -6,6 +6,9 @@ share-description: Публикация посвящена памятникам 
 cover-img: ["/mysteries-dolmens/img/111.jpg","/mysteries-dolmens/img/222.jpg"]
 language: ru
 permalink: /mysteries-dolmens/index/
+redirect_from:
+  - /index-dolmens/
+  - /index-dolmens
 tags: [информация, дольмены, мегалиты]
 ---
 {: .box-note}

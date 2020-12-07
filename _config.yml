@@ -169,7 +169,7 @@ footer-link-col: "#404040"
 # If you want to use reCaptcha for staticman (optional for spam protection), then fill
 # in the "siteKey" and "secret" parameters below and also in `staticman.yml`.
 # See more details at https://staticman.net/
-staticman_url: https://viktor-dnk.herokuapp.com/v2/entry/viktor-dnk/viktor-dnk.github.io/master/comments
+#staticman_url: https://viktor-dnk.herokuapp.com/v2/entry/viktor-dnk/viktor-dnk.github.io/master/comments
 #staticman:
 #  repository: "viktor-dnk/viktor-dnk.github.io"
 #  branch: master

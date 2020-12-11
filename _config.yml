@@ -215,6 +215,11 @@ defaults:
     values:
       layout: "page"
       sitemap: "false"
+  -
+    scope:
+      path: "page"
+    values:
+      sitemap: false
 
 # Exclude these files from production site
 exclude:

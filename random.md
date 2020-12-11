@@ -1,5 +1,6 @@
 ---
 permalink: /random
+sitemap: false
 --- 
 
 <script>

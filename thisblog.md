@@ -4,6 +4,7 @@ title: Об этом блоге
 subtitle: Анонсы. Планы. Текущая работа.
 cover-img: /img/example-logos/main-cover.jpg
 language: ru
+sitemap: false
 tags: [информация]
 ---
 - [X]  _9 сентября 2020:_ Начинаем оформление цикла очерков [о загадочных дольменах Западного Кавказа][bfc69183]

@@ -63,6 +63,7 @@ Disallow: /ch2p9
 Disallow: /ch2p10
 Disallow: /page/2
 Disallow: /page/3
+Disallow: /page/4
 Disallow: /random
 Host: https://viktor-dnk.github.io/
 Sitemap: https://viktor-dnk.github.io/sitemap

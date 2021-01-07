@@ -14,8 +14,9 @@ author: © Ковешников Виктор
 # --- List of links in the navigation bar --- #
 
 navbar-links:
-  Тайны дольменов:
-    - Оглавление: "/mysteries-dolmens/index"
+  Разделы сайта:
+    - Тайны дольменов: "/mysteries-dolmens"
+    - Топонимика: "/toponymy"
   Информация:
     - Об этом блоге: "thisblog"
     - Об авторе: "aboutme"
@@ -27,6 +28,16 @@ navbar-links:
   🔍: "search"
  # Author's home: "https://deanattali.com"
 
+collections:
+  mysteries-dolmens:
+    output: true
+    permalink: /mysteries-dolmens/:title/
+  toponymy:
+    output: true
+    permalink: /toponymy/:title/
+  info:
+    output: true
+    permalink: /info/:title/
 # --- Logo --- #
 
 # Image to show in the navigation bar - works best with a square image

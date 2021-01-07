@@ -77,7 +77,7 @@ layout: null
                 {% assign cleaned_content=cleaned_content | replace: ']</a>', ']' %}
                 {% assign cleaned_content=cleaned_content | replace: '</a></li>', '</li>' %}
                 {% assign cleaned_content=cleaned_content | replace: '<strong></a>', '<strong>' %}
-                {% assign cleaned_content=cleaned_content | replace: 'src="/mysteries-dolmens/img/', 'src="https://viktor-dnk.github.io/mysteries-dolmens/img/' %}
+                {% assign cleaned_content=cleaned_content | replace: 'src="/img/mysteries-dolmens/', 'src="https://viktor-dnk.github.io/img/mysteries-dolmens/' %}
         				    {{ cleaned_content }}
                 <button formaction="{{ post.url | absolute_url }}"
                 					data-background-color="#87CEEB"

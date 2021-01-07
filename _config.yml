@@ -15,8 +15,8 @@ author: © Ковешников Виктор
 
 navbar-links:
   Разделы сайта:
-    - Тайны дольменов: "/mysteries-dolmens"
     - Топонимика: "/toponymy"
+    - Тайны дольменов: "/mysteries-dolmens"  
   Информация:
     - Об этом блоге: "thisblog"
     - Об авторе: "aboutme"

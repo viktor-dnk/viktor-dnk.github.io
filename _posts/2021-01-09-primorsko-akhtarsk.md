@@ -6,10 +6,10 @@ share-description: Город Приморско-Ахтарск, располо�
 cover-img: /img/toponymy/primorsko-akhtarsk/cover.jpg
 thumbnail-img: /img/toponymy/primorsko-akhtarsk/thumb.jpg
 language: ru
-readtime: true
+readtime: false
 categories: toponymy
 date: 2021-01-09 16:00
-sitemap: true
+sitemap: false
 tags:
 - топонимика
 ---

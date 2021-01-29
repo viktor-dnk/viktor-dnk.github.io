@@ -32,7 +32,7 @@ layout: null
         					data-color="white"
         					data-turbo="false"
         					data-primary="true">Читать оригинал</button>
-                {% assign preprocessed_content=post.content | replace: '<p>', '__p__' %}
+                {% assign preprocessed_content=mysteries-dolmens.content | replace: '<p>', '__p__' %}
                 {% assign preprocessed_content=preprocessed_content | replace: '</p>', '__/p__' %}
                 {% assign preprocessed_content=preprocessed_content | replace: '<li>', '__li__' %}
                 {% assign preprocessed_content=preprocessed_content | replace: '</li>', '__/li__' %}
@@ -86,7 +86,7 @@ layout: null
                 					data-turbo="false"
                 					data-primary="true">Перейти на сайт автора</button>
                 <figure>
-                  <img src="{{ post.thumbnail-img }}">
+                  <img src="{{ mysteries-dolmens.thumbnail-img }}">
                 </figure>
                 <div data-block="widget-feedback" data-stick="right">
                     <div data-block="chat" data-type="telegram" data-url="https://t.me/toponim"></div>
@@ -96,7 +96,6 @@ layout: null
         </turbo:content>
        </item>
     {% endfor %}
-
     {% for toponymy in site.toponymy limit:100 %}
     <item turbo="true">
         <link>{{ toponymy.url | absolute_url }}</link>
@@ -115,7 +114,7 @@ layout: null
         					data-color="white"
         					data-turbo="false"
         					data-primary="true">Читать оригинал</button>
-                {% assign preprocessed_content=post.content | replace: '<p>', '__p__' %}
+                {% assign preprocessed_content=toponymy.content | replace: '<p>', '__p__' %}
                 {% assign preprocessed_content=preprocessed_content | replace: '</p>', '__/p__' %}
                 {% assign preprocessed_content=preprocessed_content | replace: '<li>', '__li__' %}
                 {% assign preprocessed_content=preprocessed_content | replace: '</li>', '__/li__' %}
@@ -169,7 +168,7 @@ layout: null
                 					data-turbo="false"
                 					data-primary="true">Перейти на сайт автора</button>
                 <figure>
-                  <img src="{{ post.thumbnail-img }}">
+                  <img src="{{ toponymy.thumbnail-img }}">
                 </figure>
                 <div data-block="widget-feedback" data-stick="right">
                     <div data-block="chat" data-type="telegram" data-url="https://t.me/toponim"></div>
@@ -179,7 +178,5 @@ layout: null
         </turbo:content>
        </item>
     {% endfor %}
-	
-	
   </channel>
 </rss>

@@ -75,11 +75,7 @@ _«Даже самое удачное толкование истории сло
       <a href="{{ toponymy.url | absolute_url }}" class="toponymy-read-more">[Читать&nbsp;далее]</a>
     </div>
     {% endunless %}
-<<<<<<< HEAD
-    
-=======
-    {% assign yesReadTime = number | append: " минут на прочтение" %}
->>>>>>> f14e75a0ecadef209d6107e3b70b4700d8ad91e5
+
     {% if site.feed_show_tags != false and toponymy.tags.size > 0 %}
     <div class="blog-tags">
       <span>Метки:</span>

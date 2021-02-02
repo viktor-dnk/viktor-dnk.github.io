@@ -58,13 +58,18 @@
     "headline": "Дорога не кончается",	
     "image": "{{ img | absolute_url }}",     
     "datePublished": "{{ page.date | date_to_xmlschema }}",
+    "dateModified": "{{ page.last-updated | date_to_xmlschema }}",
     "author": {
       "@type": "Person",
       "name": "Ковешников В.Н."
     },
      "publisher": {
       "@type": "Organization",
-      "name": "Заметки географа"
+      "name": "Заметки географа",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://viktor-dnk.github.io/img/example-logos/amp.jpg"
+      }  
     }
   }
   </script>	

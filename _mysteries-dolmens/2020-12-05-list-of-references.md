@@ -6,6 +6,8 @@ share-description: Общий список использованных исто
 cover-img: /img/mysteries-dolmens/list/cover.jpg
 thumbnail-img: /img/mysteries-dolmens/list/thumb.jpg
 language: ru
+sitemap: true
+social-share: true
 readtime: true
 categories: mysteries-dolmens
 date: 2020-12-05 17:00

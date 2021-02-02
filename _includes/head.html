@@ -56,9 +56,9 @@
       "@id": "https://google.com/article"
     },
     "headline": "Дорога не кончается",	
-    "image": "{{ img | absolute_url }}",     
+    "image": "{{ page.cover-img | absolute_url}}",     
     "datePublished": "{{ page.date | date_to_xmlschema }}",
-    "dateModified": "{{ page.last-updated | date_to_xmlschema }}",
+    "dateModified": "{{ page.date | date_to_xmlschema }}",
     "author": {
       "@type": "Person",
       "name": "Ковешников В.Н."

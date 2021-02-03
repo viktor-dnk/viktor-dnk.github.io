@@ -62,7 +62,7 @@
         "{{ page.cover-img | absolute_url}}"
 	  ],
         "datePublished": "{{ page.date | date_to_xmlschema }}",
-        "dateModified": "{{ page.date | date_to_xmlschema }}",
+        "dateModified": "{{ page.last_modified_at | date_to_xmlschema }}",
         "author": {
           "@type": "Person",
           "name": "Ковешников В.Н."

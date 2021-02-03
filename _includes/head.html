@@ -51,7 +51,7 @@
         "@type": "Article",
         "mainEntityOfPage": {
           "@type": "WebPage",
-          "@id": "https://google.com/article"
+          "@id": "{{ page.url | absolute_url | strip_index }}"
         },
         "headline": "{{ title }}",	
 	  "image": [

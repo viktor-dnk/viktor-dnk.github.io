@@ -47,35 +47,41 @@
   <title>{{ title }}</title>
   <script async src="https://cdn.ampproject.org/v0.js"></script>
   <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@type": "Article",
-        "mainEntityOfPage": {
-          "@type": "WebPage",
-          "@id": "{{ page.url | absolute_url | strip_index }}"
-        },
-        "headline": "{{ title }}",	
-	  "image": [
-        "{{ page.cover-img | absolute_url | replace:'.jpg','1x1.jpg'}}",
+{
+	"@context": "https://schema.org",
+	"@type": "Article",
+	"mainEntityOfPage": {
+		"@type": "WebPage",
+		"@id": "{{ page.url | absolute_url | strip_index }}"
+	},
+	"headline": "{{ title }}",
+	"description": "{{ description }}",
+	"image": [
+		"{{ page.cover-img | absolute_url | replace:'.jpg','1x1.jpg'}}",
 		"{{ page.cover-img | absolute_url | replace:'.jpg','4x3.jpg'}}",
 		"{{ page.cover-img | absolute_url | replace:'.jpg','16x9.jpg'}}",
-        "{{ page.cover-img | absolute_url}}"
-	  ],
-        "datePublished": "{{ page.date | date_to_xmlschema }}",
-        "dateModified": "{{ page.last_modified_at | date_to_xmlschema }}",
-        "author": {
-          "@type": "Person",
-          "name": "Ковешников В.Н."
-        },
-         "publisher": {
-          "@type": "Organization",
-          "name": "Заметки географа",
-          "logo": {
-            "@type": "ImageObject",
-            "url": "https://viktor-dnk.github.io/img/example-logos/amp.jpg"
-          }  
-        }
-      }
+		"{{ page.cover-img | absolute_url}}"
+	],
+	"datePublished": "{{ page.date | date_to_xmlschema }}",
+	"dateModified": "{{ page.last_modified_at | date_to_xmlschema }}",
+	"author": {
+		"@type": "Person",
+		"name": "Ковешников В.Н."
+	},
+	"publisher": {
+		"@type": "Person",
+		"name": "Ковешников В.Н.",
+		"logo": {
+			"@type": "ImageObject",
+			"url": "https://viktor-dnk.github.io/img/example-logos/amp.jpg"
+		}
+	},
+	"inLanguage": "Russian",
+	"availableLanguage": {
+		"@type": "Language",
+		"name": "ru-RU"
+	}
+}
   </script>	
     <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>	
     

@@ -39,6 +39,8 @@ layout: null
                   {% assign preprocessed_content=preprocessed_content | replace: '</li>', '__/li__' %}
                   {% assign preprocessed_content=preprocessed_content | replace: '<ul>', '__ul__' %}
                   {% assign preprocessed_content=preprocessed_content | replace: '</ul>', '__/ul__' %}
+                  {% assign preprocessed_content=preprocessed_content | replace: '<ol>', '__ol__' %}
+                  {% assign preprocessed_content=preprocessed_content | replace: '</ol>', '__/ol__' %}                  
                   {% assign preprocessed_content=preprocessed_content | replace: '<strong>', '__strong__' %}
                   {% assign preprocessed_content=preprocessed_content | replace: '</strong>', '__/strong__' %}
                   {% assign preprocessed_content=preprocessed_content | replace: '<em>', '__em__' %}
@@ -60,6 +62,8 @@ layout: null
                   {% assign cleaned_content=cleaned_content | replace: '__/li__', '</li>' %}
                   {% assign cleaned_content=cleaned_content | replace: '__ul__', '<ul>' %}
                   {% assign cleaned_content=cleaned_content | replace: '__/ul__', '</ul>' %}
+                  {% assign cleaned_content=cleaned_content | replace: '__ol__', '<ol>' %}
+                  {% assign cleaned_content=cleaned_content | replace: '__/ol__', '</ol>' %}                  
                   {% assign cleaned_content=cleaned_content | replace: '__strong__', '<strong>' %}
                   {% assign cleaned_content=cleaned_content | replace: '__/strong__', '</strong>' %}
                   {% assign cleaned_content=cleaned_content | replace: '__em__', '<em>' %}

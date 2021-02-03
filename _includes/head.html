@@ -49,12 +49,28 @@
   <script async src="https://cdn.ampproject.org/v0.js"></script>    
   <script type="application/ld+json">
       {
-      	"@context": "https://schema.org",
-      	"@type": "NewsArticle",
-      	"headline": "{{ title }}",
-      	"image": "{{ page.cover-img | absolute_url}}",
-      	"datePublished": "{{ page.date | date_to_xmlschema }}",
-      	"dateModified": "{{ page.date | date_to_xmlschema }}"
+        "@context": "https://schema.org",
+        "@type": "NewsArticle",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://google.com/article"
+        },
+        "headline": "{{ title }}",	
+        "image": "{{ page.cover-img | absolute_url}}",     
+        "datePublished": "{{ page.date | date_to_xmlschema }}",
+        "dateModified": "{{ page.date | date_to_xmlschema }}",
+        "author": {
+          "@type": "Person",
+          "name": "Ковешников В.Н."
+        },
+         "publisher": {
+          "@type": "Organization",
+          "name": "Заметки географа",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://viktor-dnk.github.io/img/example-logos/amp.jpg"
+          }  
+        }
       }
   </script>	
   

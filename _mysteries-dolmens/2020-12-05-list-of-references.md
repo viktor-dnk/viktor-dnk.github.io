@@ -3,8 +3,8 @@ layout: post
 title: Список основных использованных источников и литературы
 subtitle: Из истории дольменов Западного Кавказа <br>© В.Н. Ковешников
 share-description: Общий список использованных источников и литературы.
-cover-img: /img/mysteries-dolmens/list/cover.jpg
-thumbnail-img: /img/mysteries-dolmens/list/thumb.jpg
+cover-img: /img/mysteries-dolmens/list/cover.webp
+thumbnail-img: /img/mysteries-dolmens/list/thumb.webp
 language: ru
 last_modified_at: 2021-02-04 17:00:00 +0300
 sitemap: true
@@ -245,6 +245,6 @@ description: Общий список использованных источни
 221. Энциклопедический словарь символов (автор-составитель Н.А. Истомина). М., 2003.  
 
 <figure>
-	<a title="Петроглифы и рисунки на каменных плитах дольменов Западного Кавказа" href="/mysteries-dolmens/ch1p12/"><img alt="Прорисовка петроглифов на Джубгинском дольмене" src="/img/mysteries-dolmens/1-12/12.15-s.jpg"/></a>
+	<a title="Петроглифы и рисунки на каменных плитах дольменов Западного Кавказа" href="/mysteries-dolmens/ch1p12/"><img alt="Прорисовка петроглифов на Джубгинском дольмене" src="/img/mysteries-dolmens/1-12/12.15-s.webp"/></a>
 	<figcaption>Прорисовка петроглифов на Джубгинском дольмене</figcaption>
 </figure>

@@ -3,8 +3,8 @@ layout: post
 title: Приморско-Ахтарск … Ахтари … Ахтар-Бахтар … Батиар
 subtitle:  <br>© В.Н. Ковешников
 share-description: Город Приморско-Ахтарск, расположен на берегу юго-восточной части Ясенского залива Азовского моря, где залив соединяется Ахтарским гирлом с Ахтарским лиманом.
-cover-img: /img/toponymy/primorsko-akhtarsk/cover.jpg
-thumbnail-img: /img/toponymy/primorsko-akhtarsk/thumb.jpg
+cover-img: /img/toponymy/primorsko-akhtarsk/cover.webp
+thumbnail-img: /img/toponymy/primorsko-akhtarsk/thumb.webp
 language: ru
 readtime: false
 categories: toponymy

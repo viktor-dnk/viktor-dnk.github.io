@@ -2,7 +2,7 @@
 layout: page
 title: Топонимика
 subtitle: Очерки по топонимике Кубани
-cover-img: /img/example-logos/main-cover.jpg
+cover-img: /img/example-logos/main-cover.webp
 language: ru
 ---
 _«Даже самое удачное толкование истории слова может быть пересмотрено, как только найдутся новые данные. Ничего страшного в этом нет» (Л.В. Успенский, 1960 г.)_

@@ -6,7 +6,7 @@ share-description: Город Краснодар был основан как Е
 cover-img: /img/toponymy/k-town-rivers/cover.webp
 thumbnail-img: /img/toponymy/k-town-rivers/thumb.webp
 language: ru
-last_modified_at: 2021-02-08 15:25:00 +0300
+last_modified_at: 2021-02-10 02:30:00 +0300
 readtime: true
 categories: toponymy
 date: 2021-02-06 19:10

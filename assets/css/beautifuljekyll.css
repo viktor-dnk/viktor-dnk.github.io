@@ -9,7 +9,6 @@ layout: null
 html {
   font-size: 100%
 }
-
 body {
   font-family: 'Lora', 'Times New Roman', serif;
   font-size: 1.125rem;
@@ -21,7 +20,6 @@ body {
   background-attachment: fixed;
   {% endif %}
 }
-
 p {
   line-height: 1.5;
   margin: 1.875rem 0;

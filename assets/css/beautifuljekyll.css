@@ -21,6 +21,23 @@ body {
   background-attachment: fixed;
   {% endif %}
 }
+
+@font-face {
+  font-family: 'Font Awesome 5 Brands';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Font Awesome 5 Brands'), url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/webfonts/fa-brands-400.woff2) format('woff2');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Font Awesome 5 Free';
+  font-style: normal;
+  font-weight: 900;
+  src: local('Font Awesome 5 Free'), url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/webfonts/fa-solid-900.woff2) format('woff2');
+  font-display: swap;
+}
+
 p {
   line-height: 1.5;
   margin: 1.875rem 0;

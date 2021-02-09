@@ -117,10 +117,9 @@
       {% include ext-css.html css=css %}
     {% endfor %}
   {% endif %}
-
+<link rel="preload" href="/assets/css/pygment_highlights.css" as="style" onload="this.rel='stylesheet'">
   {% if page.css %}
-    {% for css in page.css %}
-      <link rel="preload" href="/assets/css/pygment_highlights.css" as="style" onload="this.rel='stylesheet'">    
+    {% for css in page.css %}    
       <link rel="preload" href="{{ css | relative_url }}" as="style" onload="this.rel='stylesheet'">
     {% endfor %}
   {% endif %}

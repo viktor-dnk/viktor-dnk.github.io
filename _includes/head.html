@@ -108,7 +108,6 @@
 
   {% if site.site-css %}
     {% for css in site.site-css %}
-      <link rel="preload" href="/assets/css/pygment_highlights.css" as="style" onload="this.rel='stylesheet'">
       <link rel="preload" href="{{ css | relative_url }}" as="style" onload="this.rel='stylesheet'">
     {% endfor %}
   {% endif %}
@@ -121,6 +120,7 @@
 
   {% if page.css %}
     {% for css in page.css %}
+      <link rel="preload" href="/assets/css/pygment_highlights.css" as="style" onload="this.rel='stylesheet'">    
       <link rel="preload" href="{{ css | relative_url }}" as="style" onload="this.rel='stylesheet'">
     {% endfor %}
   {% endif %}

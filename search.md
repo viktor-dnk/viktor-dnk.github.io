@@ -3,6 +3,7 @@ layout: page
 title: Поиск
 subtitle: Работает поиск по сайту от Yandex
 language: ru
+cover-img: /img/example-logos/main-cover.webp
 sitemap: false
 head-extra: _search.html
 ---

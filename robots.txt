@@ -1,11 +1,5 @@
 User-agent: *
 Allow: /
-Disallow: /search/
-Disallow: /random/
-Disallow: /tags/
-Disallow: /search
-Disallow: /random
-Disallow: /tags
 Disallow: /page1/
 Disallow: /page2/
 Disallow: /page3/

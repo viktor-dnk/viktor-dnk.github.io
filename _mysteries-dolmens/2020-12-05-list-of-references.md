@@ -16,7 +16,7 @@ sitemap: false
 tags:
 - информация
 description: Общий список использованных источников и литературы.
-head-extra: noindex.html
+head-extra: _noindex.html
 ---
 {: .box-note}
 ## Список основных использованных источников и литературы (общий)

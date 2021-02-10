@@ -1,7 +1,7 @@
 ---
 permalink: /random
 sitemap: false
-head-extra: noindex.html
+head-extra: _noindex.html
 --- 
 
 <script>

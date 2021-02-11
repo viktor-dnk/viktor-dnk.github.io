@@ -56,6 +56,7 @@
               "@id": "{{ page.url | absolute_url | strip_index }}"
           },    
           "headline": "{{ title }}",
+          "description": "{{ description }}",
           "image": [
               "{{ page.cover-img | absolute_url | replace:'.webp','1x1.webp'}}",
               "{{ page.cover-img | absolute_url | replace:'.webp','4x3.webp'}}",
@@ -74,7 +75,8 @@
                   "@type": "ImageObject",
                   "url": "https://viktor-dnk.github.io/img/example-logos/amp.jpg"
               }
-          }
+          },
+          "inLanguage": "Russian"
       }	
           </script>
 
@@ -162,6 +164,7 @@
         <script async src="https://cdn.ampproject.org/v0.js"></script>
     </head>
     <body>
+        <figure><a class="page-link" href="{{ page.url | absolute_url | strip_index }}">Читать статью на сайте автора</a></figure>
         {{ content }}
     </body>
 </html>

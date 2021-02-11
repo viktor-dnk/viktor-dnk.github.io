@@ -259,9 +259,11 @@
     <body>
         <div class=" container-md ">
             <div class="row">
-                <article role="main" class="blog-post">
+                <div class=" col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 ">
+                    <article role="main" class="blog-post">
           {{ content }}
-                </article>
+                    </article>
+                </div>
             </div>
         </div>
         <figure><a class="page-link" href="{{ page.url | absolute_url | strip_index | replace:'/amp/','/' }}">Читать статью на сайте автора</a></figure>

@@ -181,12 +181,15 @@
                 border: 1px solid #0085a1;
                 background-color: #0085a1;
             }
+            
         </style>
 
         <script async src="https://cdn.ampproject.org/v0.js"></script>
     </head>
     <body>
-        {{ content }}
+        <article role="main" class="blog-post">
+          {{ content }}
+        </article>
         <figure><a class="page-link" href="{{ page.url | absolute_url | strip_index | replace:'/amp/','/' }}">Читать статью на сайте автора</a></figure>
     </body>
 </html>

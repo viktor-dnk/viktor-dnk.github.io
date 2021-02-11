@@ -186,7 +186,7 @@
         <script async src="https://cdn.ampproject.org/v0.js"></script>
     </head>
     <body>
-        <figure><a class="page-link" href="{{ page.url | absolute_url | strip_index }}">Читать статью на сайте автора</a></figure>
+        <figure><a class="page-link" href="{{ page.url | absolute_url | strip_index | replace:'/amp/','/' }}">Читать статью на сайте автора</a></figure>
         {{ content }}
     </body>
 </html>

@@ -22,7 +22,7 @@
     <meta name="msapplication-TileColor" content="#87ceeb">
     <meta name="msapplication-TileImage" content="/mstile-144x144.png">
     <meta name="theme-color" content="#87ceeb">
-    <link rel="canonical" href="{{ page.url | absolute_url }}">
+    <link rel="canonical" href="{{ page.url | absolute_url | strip_index | replace:'/amp/','/' ">
 
     {% capture title %}
       {%- if page.share-title -%}
@@ -186,7 +186,7 @@
         <script async src="https://cdn.ampproject.org/v0.js"></script>
     </head>
     <body>
-        <figure><a class="page-link" href="{{ page.url | absolute_url | strip_index | replace:'/amp/','/' }}">Читать статью на сайте автора</a></figure>
         {{ content }}
+        <figure><a class="page-link" href="{{ page.url | absolute_url | strip_index | replace:'/amp/','/' }}">Читать статью на сайте автора</a></figure>
     </body>
 </html>

@@ -1,5 +1,7 @@
 User-agent: *
 Allow: /
+Disallow: /k-town-rivers0/
+Disallow: /k-town-rivers0
 Disallow: /page1/
 Disallow: /page2/
 Disallow: /page3/

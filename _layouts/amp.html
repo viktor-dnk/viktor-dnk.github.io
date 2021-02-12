@@ -95,7 +95,11 @@
 
                   {% include social-share.html %}
 
-            <figure><a class="page-link" href="{{ page.url | absolute_url | strip_index | replace:'/amp/','/' }}">Читать статью на сайте автора</a></figure>
+                  <ul class="pagination blog-pager">
+                      <li class="page-item previous">
+                          <figure><a class="page-link" href="{{ page.url | absolute_url | strip_index | replace:'/amp/','/' }}" data-toggle="tooltip" data-placement="top" title="Перейти на основную версию сайта">Читать статью на сайте автора</a></figure>
+                      </li>
+                </ul>
               </div>
             </div>
         </div>

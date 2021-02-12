@@ -5,9 +5,18 @@ layout: null
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
 xmlns:xhtml="https://www.w3.org/1999/xhtml" >
 
-{% for page in site.pages %}
+{% for toponymy in site.toponymy %}
     <url>
-        <loc>{{ site.url }}{{ page.url }}</loc>
+        <loc>{{ toponymy.url | absolute_url }}</loc>
+        <xhtml:link rel="amphtml" href="{{ page.url | absolute_url | replace:'.io/','.io/amp/' }}" />
+        <lastmod>{{ page.last_modified_at | date_to_xmlschema }}</lastmod>        
+    </url>
+{% endfor %}
+
+{% for mysteries-dolmens in site.mysteries-dolmens %}
+    <url>
+        <loc>{{ toponymy.url | absolute_url }}</loc>
+        <xhtml:link rel="amphtml" href="{{ page.url | absolute_url | replace:'.io/','.io/amp/' }}" />        
         <lastmod>{{ page.last_modified_at | date_to_xmlschema }}</lastmod>
     </url>
 {% endfor %}
@@ -15,8 +24,7 @@ xmlns:xhtml="https://www.w3.org/1999/xhtml" >
 {% for category in site.categories %}
     {% capture category_link %} blog/{{ category[0] }}/index.html {% endcapture %}
     <url>
-        <loc>{{ site.url }}/blog/{{ category[0] }}/</loc>
-        <lastmod>{{ page.last_modified_at | date_to_xmlschema }}</lastmod>
+        <loc>{{ site.url }}/{{ category[0] }}/</loc>
     </url>
 {% endfor %}
 

@@ -10,7 +10,7 @@ date: 2021-01-26 23:00
 sitemap: false
 social-share: true
 ---
-<br>
+
 {: .box-note}
 ## Что мы знаем о Лагонаки? <br>© В.Н. Ковешников
 

@@ -1,0 +1,23 @@
+---
+layout: null
+---
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+xmlns:xhtml="https://www.w3.org/1999/xhtml" >
+
+{% for page in site.pages %}
+    <url>
+        <loc>{{ site.url }}{{ page.url }}</loc>
+        <lastmod>{{ page.last_modified_at | date_to_xmlschema }}</lastmod>
+    </url>
+{% endfor %}
+
+{% for category in site.categories %}
+    {% capture category_link %} blog/{{ category[0] }}/index.html {% endcapture %}
+    <url>
+        <loc>{{ site.url }}/blog/{{ category[0] }}/</loc>
+        <lastmod>{{ page.last_modified_at | date_to_xmlschema }}</lastmod>
+    </url>
+{% endfor %}
+
+</urlset>

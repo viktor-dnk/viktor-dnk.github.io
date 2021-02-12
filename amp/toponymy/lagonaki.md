@@ -10,7 +10,8 @@ sitemap: false
 social-share: true
 ---
 {: .box-note}
-## Что мы знаем о Лагонаки? © В.Н. Ковешников
+## Что мы знаем о Лагонаки?
+© В.Н. Ковешников
 
 <figure>
 	<a title="Схема транспортной доступности Лагонакского нагорья" href="/img/toponymy/lago-naki/01.webp"><amp-img alt="Схема транспортной доступности Лагонакского нагорья" layout="intrinsic" width="480" height="578" src="/img/toponymy/lago-naki/01-s.webp"></amp-img></a>

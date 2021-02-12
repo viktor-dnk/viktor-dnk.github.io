@@ -6,7 +6,7 @@
 
 {% if page.cover-img %}
   <div id="header-big-imgs" data-num-img=1>
-      data-img-src-1="{{ page.cover-img | absolute_url }}"
+      <amp-img layout="intrinsic" width="1920" height="800" src="{{ page.cover-img | absolute_url }}"></amp-img>
   </div>
 {% endif %}
 

@@ -8,16 +8,16 @@ xmlns:xhtml="https://www.w3.org/1999/xhtml" >
 {% for toponymy in site.toponymy %}
     <url>
         <loc>{{ toponymy.url | absolute_url }}</loc>
-        <xhtml:link rel="amphtml" href="{{ page.url | absolute_url | replace:'.io/','.io/amp/' }}" />
-        <lastmod>{{ page.last_modified_at | date_to_xmlschema }}</lastmod>        
+        <xhtml:link rel="amphtml" href="{{ toponymy.url | absolute_url | replace:'.io/','.io/amp/' }}" />
+        <lastmod>{{ toponymy.last_modified_at | date_to_xmlschema }}</lastmod>        
     </url>
 {% endfor %}
 
 {% for mysteries-dolmens in site.mysteries-dolmens %}
     <url>
-        <loc>{{ toponymy.url | absolute_url }}</loc>
-        <xhtml:link rel="amphtml" href="{{ page.url | absolute_url | replace:'.io/','.io/amp/' }}" />        
-        <lastmod>{{ page.last_modified_at | date_to_xmlschema }}</lastmod>
+        <loc>{{ mysteries-dolmens.url | absolute_url }}</loc>
+        <xhtml:link rel="amphtml" href="{{ mysteries-dolmens.url | absolute_url | replace:'.io/','.io/amp/' }}" />        
+        <lastmod>{{ mysteries-dolmens.last_modified_at | date_to_xmlschema }}</lastmod>
     </url>
 {% endfor %}
 

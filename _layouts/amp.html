@@ -145,7 +145,7 @@
                 margin: 1.25rem 1.25rem 1.25rem .3125rem;
                 border: 1px solid #eee;
                 border-left-width: .3125rem;
-                border-radius: .3125rem .1875rem .1875rem .3125rem
+                border-radius: .3125rem .1875rem .1875rem .3125rem;
             	background-color: #eee;
                 border-left-color: #2980b9
             }
@@ -264,7 +264,38 @@
                 color: #212529;
                 text-align: left;
                 background-color: #fff;
-            }            
+            } 
+            h2 {
+                font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+                font-weight: 800;
+                line-height: 1.1;	
+                font-size: 1.875rem;
+                margin-top: 0;
+                margin-bottom: 0.5rem;
+                page-break-after: avoid;
+            }
+            
+            p {
+                margin-top: 0;
+                margin-bottom: 1rem;
+                line-height: 1.5;
+                margin: 1.875rem 0	
+            }
+            
+            
+            @media print {
+                h2,
+                p {
+                    orphans: 3;
+                    widows: 3;
+                }
+                h2 {
+                    page-break-after: avoid;
+                }
+                body {
+                    min-width: 992px !important;
+                }
+            }	                       
         </style>
 
         <script async src="https://cdn.ampproject.org/v0.js"></script>

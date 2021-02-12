@@ -8,6 +8,7 @@ cover-img: /img/toponymy/k-town-rivers/cover.webp
 last_modified_at: 2021-02-10 02:30:00 +0300
 date: 2021-02-06 19:10
 sitemap: false
+social-share: true
 ---
 {: .box-note}
 ## Реки Краснодара <br>© В.Н. Ковешников

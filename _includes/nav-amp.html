@@ -1,26 +1,17 @@
 <nav class="navbar navbar-expand-xl navbar-light fixed-top navbar-custom {% if page.nav-short %}top-nav-short-permanent{% else %}top-nav-regular{% endif %}">
 
-    <a class="navbar-brand" href="{{ '' | absolute_url }}">{{ site.title }}</a>
-    <a class="navbar-brand" href="/toponymy">Топонимика</a>
-    <a class="navbar-brand" href="/mysteries-dolmens">Дольмены</a>
+    <a class="navbar-brand" title="Главная страница" href="{{ '' | absolute_url }}">{{ site.title }}</a>
+    <a class="navbar-brand" title="Раздел о топоникике Кубани" href="/toponymy">Топонимика</a>
+    <a class="navbar-brand" title="Тайна тысячелетних дольменов" href="/mysteries-dolmens">Дольмены</a>
+    <a class="navbar-brand" title="Ковешников В.Н." href="/about">Об авторе</a>
         
-
-
-
-  {% if site.navbar-extra %}
-    {% for file in site.navbar-extra %}
-      {% include {{ file }} %}
-    {% endfor %}
-  {% endif %}
-
-  {% if site.avatar and page.show-avatar != false %}
     <div class="avatar-container">
       <div class="avatar-img-border">
-        <a href="{{ '' | absolute_url }}">
+        <a title="Заметки географа" href="{{ '' | absolute_url }}">
           <amp-img alt="Navigation bar avatar" class="avatar-img" width="50" height="50" src="{{ site.avatar | relative_url }}"></amp-img>
         </a>
       </div>
     </div>
-  {% endif %}
+
 
 </nav>

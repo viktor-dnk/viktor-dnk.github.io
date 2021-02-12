@@ -11,7 +11,7 @@ sitemap: false
 social-share: true
 ---
 {: .box-note}
-## <br><br><br>Приморско-Ахтарск … Ахтари … Ахтар-Бахтар … Батиар
+## <br><br><br>Приморско-Ахтарск … Ахтари … Ахтар-Бахтар … Батиар <br>© В.Н. Ковешников
 
 <figure>
 	<amp-img title="Город Приморско-Ахтарск, дом 1901 г. постройки (фото Н. Машковой)" alt="Город Приморско-Ахтарск, дом 1901 г. постройки (фото Н. Машковой)" layout="intrinsic" width="640" height="392" src="/img/toponymy/primorsko-akhtarsk/01.webp"></amp-img>

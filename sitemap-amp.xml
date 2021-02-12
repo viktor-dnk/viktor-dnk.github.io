@@ -12,7 +12,7 @@ xmlns:xhtml="https://www.w3.org/1999/xhtml" >
         <lastmod>{{ toponymy.last_modified_at | date_to_xmlschema }}</lastmod>        
     </url>
 {% endfor %}
-
+<!--
 {% for mysteries-dolmens in site.mysteries-dolmens %}
     <url>
         <loc>{{ mysteries-dolmens.url | absolute_url }}</loc>
@@ -20,12 +20,22 @@ xmlns:xhtml="https://www.w3.org/1999/xhtml" >
         <lastmod>{{ mysteries-dolmens.last_modified_at | date_to_xmlschema }}</lastmod>
     </url>
 {% endfor %}
-
+-->
 {% for category in site.categories %}
     {% capture category_link %} blog/{{ category[0] }}/index.html {% endcapture %}
     <url>
         <loc>{{ site.url }}/{{ category[0] }}/</loc>
     </url>
 {% endfor %}
+
+    <url>
+        <loc>https://viktor-dnk.github.io/</loc>
+    </url>
+    <url>
+        <loc>https://viktor-dnk.github.io/aboutme/</loc>
+    </url>
+    <url>
+        <loc>https://viktor-dnk.github.io/thisblog/</loc>
+    </url>    
 
 </urlset>

@@ -2,19 +2,21 @@
 layout: null
 ---
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns:xhtml="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
-        xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
-
-
+<urlset
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd
+    http://www.w3.org/1999/xhtml http://www.w3.org/2002/08/xhtml/xhtml1-strict.xsd"
+    xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+    xmlns:xhtml="http://www.w3.org/1999/xhtml"
+    xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+>
 {% for toponymy in site.toponymy %}
     <url>
         <loc>{{ toponymy.url | absolute_url }}</loc>
-        <image:image>
-          <image:loc>{{ toponymy.cover-img | absolute_url }}</image:loc>
-        </image:image>
-            <image:title>{{ toponymy.title | xml_escape }}</image:title>
+            <image:image>
+                <image:loc>{{ toponymy.cover-img | absolute_url }}</image:loc>
+            </image:image>
+                <image:title>{{ toponymy.title | xml_escape }}</image:title>
         <xhtml:link rel="amphtml" href="{{ toponymy.url | absolute_url | replace:'.io/','.io/amp/' }}" />
         <lastmod>{{ toponymy.last_modified_at | date_to_xmlschema }}</lastmod>
     </url>

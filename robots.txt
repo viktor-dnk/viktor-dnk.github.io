@@ -1,7 +1,34 @@
+User-agent: Yandex
+Disallow: /amp/*
+Allow: /assets/css/*.css
+Allow: /assets/js/*.js
+Allow: /img/*.jpg
+Allow: /img/*.jpeg
+Allow: /img/*.png
+Allow: /img/*.gif
+Clean-param: utm_source&utm_medium&utm_term&utm_content&utm_campaign&yclid&gclid&_openstat&from /
+Sitemap: https://viktor-dnk.github.io/sitemap-yandex
+
+User-agent: Googlebot
+Allow: /assets/css/*.css
+Allow: /assets/js/*.js
+Allow: /img/*.jpg
+Allow: /img/*.jpeg
+Allow: /img/*.png
+Allow: /img/*.gif
+Sitemap: https://viktor-dnk.github.io/sitemap-amp
+
 User-agent: *
-Allow: /
-Disallow: /k-town-rivers0/
-Disallow: /k-town-rivers0
+Allow: /assets/css/*.css
+Allow: /assets/js/*.js
+Allow: /img/*.jpg
+Allow: /img/*.jpeg
+Allow: /img/*.png
+Allow: /img/*.gif
+Disallow: /*utm
+Disallow: /*clid=
+Disallow: /*openstat
+Disallow: /*from
 Disallow: /page1/
 Disallow: /page2/
 Disallow: /page3/
@@ -16,9 +43,6 @@ Disallow: /page/4
 Disallow: /page/2/
 Disallow: /page/3/
 Disallow: /page/4/
-
-User-agent: Yandex
-Disallow: /amp/*
+Sitemap: https://viktor-dnk.github.io/sitemap-yandex
 
 Host: https://viktor-dnk.github.io/
-Sitemap: https://viktor-dnk.github.io/sitemap

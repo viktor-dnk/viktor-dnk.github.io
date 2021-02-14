@@ -15,6 +15,7 @@ layout: null
         <loc>{{ toponymy.url | absolute_url }}</loc>
             <image:image>
                 <image:loc>{{ toponymy.cover-img | absolute_url }}</image:loc>
+                <image:caption>{{ toponymy.title | xml_escape }}</image:caption>
                 <image:title>{{ toponymy.title | xml_escape }}</image:title>
                 {% if toponymy.location %}
         	        <image:geo_location>{{ toponymy.location }}</image:geo_location>
@@ -30,6 +31,7 @@ layout: null
     <loc>{{ mysteries-dolmens.url | absolute_url }}</loc>
         <image:image>
             <image:loc>{{ mysteries-dolmens.cover-img | absolute_url }}</image:loc>
+            <image:caption>{{ mysteries-dolmens.title | xml_escape }}</image:caption>
             <image:title>{{ mysteries-dolmens.title | xml_escape }}</image:title>
             {% if mysteries-dolmens.location %}
     	        <image:geo_location>{{ mysteries-dolmens.location }}</image:geo_location>
@@ -57,5 +59,8 @@ layout: null
     </url>
     <url>
         <loc>https://viktor-dnk.github.io/search/</loc>
-    </url>  
+    </url>
+    <url>
+        <loc>https://viktor-dnk.github.io/info/telegram/</loc>
+    </url>     
 </urlset>

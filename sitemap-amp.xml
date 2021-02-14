@@ -21,15 +21,19 @@ layout: null
         <lastmod>{{ toponymy.last_modified_at | date_to_xmlschema }}</lastmod>
     </url>
 {% endfor %}
-<!--
+
 {% for mysteries-dolmens in site.mysteries-dolmens %}
-    <url>
-        <loc>{{ mysteries-dolmens.url | absolute_url }}</loc>
-        <xhtml:link rel="amphtml" href="{{ mysteries-dolmens.url | absolute_url | replace:'.io/','.io/amp/' }}" />
-        <lastmod>{{ mysteries-dolmens.last_modified_at | date_to_xmlschema }}</lastmod>
-    </url>
+<url>
+    <loc>{{ mysteries-dolmens.url | absolute_url }}</loc>
+        <image:image>
+            <image:loc>{{ mysteries-dolmens.cover-img | absolute_url }}</image:loc>
+            <image:title>{{ mysteries-dolmens.title | xml_escape }}</image:title>
+        </image:image>
+    <xhtml:link rel="amphtml" href="{{ mysteries-dolmens.url | absolute_url | replace:'.io/','.io/amp/' }}" />
+    <lastmod>{{ mysteries-dolmens.last_modified_at | date_to_xmlschema }}</lastmod>
+</url>
 {% endfor %}
--->
+
 {% for category in site.categories %}
     {% capture category_link %} blog/{{ category[0] }}/index.html {% endcapture %}
     <url>

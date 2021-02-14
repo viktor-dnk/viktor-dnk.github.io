@@ -2,6 +2,7 @@ User-agent: Yandex
 Disallow: /amp/*
 Allow: /assets/css/*.css
 Allow: /assets/js/*.js
+Allow: /img/*.webp
 Allow: /img/*.jpg
 Allow: /img/*.jpeg
 Allow: /img/*.png
@@ -12,6 +13,7 @@ Sitemap: https://viktor-dnk.github.io/sitemap-yandex
 User-agent: Googlebot
 Allow: /assets/css/*.css
 Allow: /assets/js/*.js
+Allow: /img/*.webp
 Allow: /img/*.jpg
 Allow: /img/*.jpeg
 Allow: /img/*.png
@@ -21,6 +23,7 @@ Sitemap: https://viktor-dnk.github.io/sitemap-amp
 User-agent: *
 Allow: /assets/css/*.css
 Allow: /assets/js/*.js
+Allow: /img/*.webp
 Allow: /img/*.jpg
 Allow: /img/*.jpeg
 Allow: /img/*.png

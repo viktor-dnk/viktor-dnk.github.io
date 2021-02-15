@@ -26,7 +26,6 @@
         "resources": [
           "/assets/js/beautifuljekyll.js",
           "/assets/js/material-scrolltop.js",
-          "/assets/js/staticman.js",
           "/assets/css/bootstrap-social.css",
           "/assets/css/beautifuljekyll.css",
           "/assets/css/material-scrolltop.css",

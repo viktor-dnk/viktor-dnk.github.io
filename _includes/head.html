@@ -99,13 +99,13 @@
 
   {% if layout.common-css %}
     {% for css in layout.common-css %}
-      <link rel="preload" href="{{ css | relative_url }}" as="style" onload="this.rel='stylesheet'">
+      <<link rel="stylesheet" href="{{ css | relative_url }}">
     {% endfor %}
   {% endif %}
 
   {% if site.site-css %}
     {% for css in site.site-css %}
-      <link rel="preload" href="{{ css | relative_url }}" as="style" onload="this.rel='stylesheet'">
+      <<link rel="stylesheet" href="{{ css | relative_url }}">
     {% endfor %}
   {% endif %}
 
@@ -117,7 +117,7 @@
 
   {% if page.css %}
     {% for css in page.css %}    
-      <link rel="preload" href="{{ css | relative_url }}" as="style" onload="this.rel='stylesheet'">
+      <<link rel="stylesheet" href="{{ css | relative_url }}">
     {% endfor %}
   {% endif %}
 

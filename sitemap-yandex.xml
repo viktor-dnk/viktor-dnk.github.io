@@ -17,9 +17,9 @@ layout: null
                 <image:loc>{{ toponymy.cover-img | absolute_url }}</image:loc>
                 <image:caption>{{ toponymy.img-caption | xml_escape }}</image:caption>
                 <image:title>{{ toponymy.title | xml_escape }}</image:title>
-                {% if toponymy.location %}
-        	        <image:geo_location>{{ toponymy.location }}</image:geo_location>
-                {% endif %}                
+            {% if toponymy.location %}
+        	    <image:geo_location>{{ toponymy.location }}</image:geo_location>
+            {% endif %}                
             </image:image>
         <lastmod>{{ toponymy.last_modified_at | date_to_xmlschema }}</lastmod>
     </url>
@@ -30,9 +30,9 @@ layout: null
     <loc>{{ mysteries-dolmens.url | absolute_url }}</loc>
         <image:image>
             <image:loc>{{ mysteries-dolmens.cover-img | absolute_url }}</image:loc>
-            {% if mysteries-dolmens.img-caption %}
-    	        <image:caption>{{ mysteries-dolmens.img-caption }}</image:caption>
-            {% endif %}
+        {% if mysteries-dolmens.img-caption %}
+    	    <image:caption>{{ mysteries-dolmens.img-caption }}</image:caption>
+        {% endif %}
             <image:title>{{ mysteries-dolmens.title | xml_escape }}</image:title>
         {% if mysteries-dolmens.location %}
 	        <image:geo_location>{{ mysteries-dolmens.location }}</image:geo_location>

@@ -3,7 +3,7 @@ layout: post
 title: Список основных использованных источников и литературы
 subtitle: Из истории дольменов Западного Кавказа <br>© В.Н. Ковешников
 share-description: Общий список использованных источников и литературы.
-cover-img: /img/mysteries-dolmens/list/cover.webp
+cover-img: /img/mysteries-dolmens/list/cover.jpg
 thumbnail-img: /img/mysteries-dolmens/list/thumb.webp
 language: ru
 last_modified_at: 2021-02-16 14:00:00 +0300

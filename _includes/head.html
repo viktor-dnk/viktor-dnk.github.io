@@ -51,9 +51,9 @@
 	},    
 	"headline": "{{ title }}",
     "image": [
-		"{{ page.cover-img | absolute_url | replace:'.webp','1x1.webp'}}",
-		"{{ page.cover-img | absolute_url | replace:'.webp','4x3.webp'}}",
-		"{{ page.cover-img | absolute_url | replace:'.webp','16x9.webp'}}"
+		"{{ page.cover-img | absolute_url | replace:'.jpg','1x1.jpg'}}",
+		"{{ page.cover-img | absolute_url | replace:'.jpg','4x3.jpg'}}",
+		"{{ page.cover-img | absolute_url | replace:'.jpg','16x9.jpg'}}"
 	],    
 	"datePublished": "{{ page.date | date_to_xmlschema }}",
 	"dateModified": "{{ page.last_modified_at | date_to_xmlschema }}",

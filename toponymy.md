@@ -2,7 +2,7 @@
 layout: page
 title: Топонимика
 subtitle: Очерки по топонимике Кубани
-cover-img: /img/example-logos/main-cover.webp
+cover-img: /img/example-logos/main-cover.jpg
 language: ru
 head-extra: _toponymy.html
 ---

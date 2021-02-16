@@ -2,7 +2,7 @@
 layout: page
 title: Тайны тысячелетних дольменов Кубани
 subtitle: Публикация посвящена памятникам археологии — дольменам Западного Кавказа
-cover-img: /img/example-logos/main-cover.webp
+cover-img: /img/example-logos/main-cover.jpg
 language: ru
 head-extra: _mysteries-dolmens.html
 ---

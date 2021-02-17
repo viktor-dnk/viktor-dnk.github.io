@@ -11,15 +11,39 @@
   <span class="sr-only">Share: </span>
 
   {% if site.share-links-active.vk %}
-    <a href="https://vk.com/share.php?url={{ page.url | absolute_url | url_encode }}"
+    <a href="https://vk.com/share.php?url={{ page.url | absolute_url | url_encode }}&title={{ page.title | url_encode }}&image={{ page.cover-img | absolute_url }}&utm_source=share2"
       class="btn btn-social-icon btn-vk" title="Share on VK">
       <span class="fab fa-fw fa-vk" aria-hidden="true"></span>
       <span class="sr-only">VK</span>
     </a>
   {% endif %}
   
+  <a href="https://api.whatsapp.com/send?text={{ page.title | url_encode }}%20{{ page.url | absolute_url | url_encode }}&utm_source=share2"
+    class="btn btn-social-icon btn-whatsapp" title="Share on VK">
+    <span class="fab fa-fw fa-whatsapp" aria-hidden="true"></span>
+    <span class="sr-only">VK</span>
+  </a>  
+  
+  <a href="https://connect.ok.ru/offer?url={{ page.url | absolute_url | url_encode }}&title={{ page.title | url_encode }}&imageUrl={{ page.cover-img | absolute_url }}&utm_source=share2"
+    class="btn btn-social-icon btn-odnoklassniki" title="Share on VK">
+    <span class="fab fa-fw fa-odnoklassniki" aria-hidden="true"></span>
+    <span class="sr-only">VK</span>
+  </a> 
+  
+  <a href="https://t.me/share/url?url={{ page.url | absolute_url | url_encode }}&text={{ page.title | url_encode }}&utm_source=share2"
+    class="btn btn-social-icon btn-telegram-plane" title="Share on VK">
+    <span class="fab fa-fw fa-telegram-plane" aria-hidden="true"></span>
+    <span class="sr-only">VK</span>
+  </a>
+  
+  <a href="https://www.livejournal.com/update.bml?subject={{ page.title | url_encode }}&event={{ page.url | absolute_url | url_encode }}&utm_source=share2"
+    class="btn btn-social-icon btn-lj" title="Share on VK">
+    <span class="fab fa-fw fa-lj" aria-hidden="true"></span>
+    <span class="sr-only">VK</span>
+  </a>
+  
   {% if site.share-links-active.twitter %}
-    <a href="https://twitter.com/intent/tweet?text={{ page.title | url_encode }}&url={{ page.url | absolute_url | url_encode }}"
+    <a href="https://twitter.com/intent/tweet?text={{ page.title | url_encode }}&url={{ page.url | absolute_url | url_encode }}&utm_source=share2"
       class="btn btn-social-icon btn-twitter" title="Share on Twitter">
       <span class="fab fa-fw fa-twitter" aria-hidden="true"></span>
       <span class="sr-only">Twitter</span>
@@ -27,7 +51,7 @@
   {% endif %}
 
   {% if site.share-links-active.facebook %}
-    <a href="https://www.facebook.com/sharer/sharer.php?u={{ page.url | absolute_url | url_encode }}"
+    <a href="https://www.facebook.com/sharer.php?src=sp&u={{ page.url | absolute_url | url_encode }}&title={{ page.title | url_encode }}&picture={{ page.cover-img | absolute_url }}&utm_source=share2"
       class="btn btn-social-icon btn-facebook" title="Share on Facebook">
       <span class="fab fa-fw fa-facebook" aria-hidden="true"></span>
       <span class="sr-only">Facebook</span>
@@ -35,7 +59,7 @@
   {% endif %}
 
   {% if site.share-links-active.linkedin %}
-    <a href="https://www.linkedin.com/shareArticle?mini=true&url={{ page.url | absolute_url | url_encode }}"
+    <a href="https://www.linkedin.com/shareArticle?mini=true&url={{ page.url | absolute_url | url_encode }}&title={{ page.title | url_encode }}&utm_source=share2"
       class="btn btn-social-icon btn-linkedin" title="Share on LinkedIn">
       <span class="fab fa-fw fa-linkedin" aria-hidden="true"></span>
       <span class="sr-only">LinkedIn</span>
@@ -43,7 +67,7 @@
   {% endif %}
   
   {% if site.share-links-active.pinterest %}
-    <a  href="https://www.pinterest.com/pin/create/button/?url={{ page.url | absolute_url | url_encode }}"
+    <a  href="https://pinterest.com/pin/create/button/?url={{ page.url | absolute_url | url_encode }}&media={{ page.cover-img | absolute_url }}&description={{ page.title | url_encode }}&utm_source=share2"
       class="btn btn-social-icon btn-pinterest" title="Share on Pinterest">
       <span class="fab fa-fw fa-pinterest" aria-hidden="true"></span>
       <span class="sr-only">Pinterest</span>
@@ -51,7 +75,7 @@
   {% endif %}
 
   {% if site.share-links-active.tumblr %}
-    <a  href="https://www.tumblr.com/share/link?url={{ page.url | absolute_url | url_encode }}"
+    <a  href="https://www.tumblr.com/share/link?url={{ page.url | absolute_url | url_encode }}&utm_source=share2"
         class="btn btn-social-icon btn-tumblr" title="Share on tumblr">
         <span class="fab fa-fw fa-tumblr" aria-hidden="true"></span>
         <span class="sr-only">tumblr</span>

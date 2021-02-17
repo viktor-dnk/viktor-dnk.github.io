@@ -1,0 +1,21 @@
+rel="nofollow noopener" target="_blank" title="ВКонтакте"
+
+https://vk.com/share.php?url={{ page.url | absolute_url | url_encode }}&title={{ page.title | url_encode }}&image={{ page.cover-img | absolute_url }}&utm_source=share2
+
+https://connect.ok.ru/offer?url={{ page.url | absolute_url | url_encode }}&title={{ page.title | url_encode }}&imageUrl={{ page.cover-img | absolute_url }}&utm_source=share2
+
+https://api.whatsapp.com/send?text={{ page.title | url_encode }}%20{{ page.url | absolute_url | url_encode }}&utm_source=share2
+
+https://t.me/share/url?url={{ page.url | absolute_url | url_encode }}&text={{ page.title | url_encode }}&utm_source=share2
+
+https://www.facebook.com/sharer.php?src=sp&u={{ page.url | absolute_url | url_encode }}&title={{ page.title | url_encode }}&picture={{ page.cover-img | absolute_url }}&utm_source=share2
+
+https://twitter.com/intent/tweet?text={{ page.title | url_encode }}&url={{ page.url | absolute_url | url_encode }}&utm_source=share2
+
+https://www.linkedin.com/shareArticle?mini=true&url={{ page.url | absolute_url | url_encode }}&title={{ page.title | url_encode }}&utm_source=share2
+
+https://www.tumblr.com/share/link?url={{ page.url | absolute_url | url_encode }}&utm_source=share2
+
+https://pinterest.com/pin/create/button/?url={{ page.url | absolute_url | url_encode }}&media={{ page.cover-img | absolute_url }}&description={{ page.title | url_encode }}&utm_source=share2
+
+https://www.livejournal.com/update.bml?subject={{ page.title | url_encode }}&event={{ page.url | absolute_url | url_encode }}&utm_source=share2

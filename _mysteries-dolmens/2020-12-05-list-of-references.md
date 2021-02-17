@@ -17,6 +17,7 @@ tags:
 description: Общий список использованных источников и литературы.
 head-extra: _noindex.html
 img-caption: Karte des Kaukasischen Isthmus 1856
+social-share: true
 ---
 {: .box-note}
 ## Список основных использованных источников и литературы (общий)

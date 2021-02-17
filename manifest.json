@@ -2,6 +2,7 @@
     "name": "\u0414\u043e\u0440\u043e\u0433\u0430 \u043d\u0435 \u043a\u043e\u043d\u0447\u0430\u0435\u0442\u0441\u044f",
     "short_name": "viktor-dnk",
     "lang": "ru",
+    "description": "Очерки о топонимике, истории и географии Кубани",
     "icons": [
         {
             "src": "/android-chrome-192x192.png",
@@ -16,6 +17,15 @@
     ],
     "theme_color": "#87ceeb",
     "background_color": "#87ceeb",
+    "screenshots": [{
+        "src": "/img/example-logos/main-cover640x480.jpg",
+        "sizes": "640x480",
+        "type": "image/jpeg"
+    },{
+        "src": "/img/example-logos/main-cover1280x920.jpg",
+        "sizes": "1280x920",
+        "type": "image/jpeg"
+    }],
     "display": "standalone",
     "start_url": "https://viktor-dnk.github.io/",
     "scope": "https://viktor-dnk.github.io/",

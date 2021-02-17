@@ -82,8 +82,8 @@ _«Даже самое удачное толкование истории сло
       <span>Метки:</span>
       {% for tag in toponymy.tags %}
       <a href="{{ '/tags' | absolute_url }}#{{- tag -}}">{{- tag -}}</a>
-      <div class="ya-share2" data-curtain data-use-links data-shape="round" data-direction="vertical" data-limit="0" data-size="s" data-more-button-type="short" data-services="vkontakte,odnoklassniki,whatsapp,telegram,facebook,twitter,linkedin,tumblr,pinterest,lj" data-title="{{ page.title }}" data-image="{{ page.cover-img | absolute_url }}" data-description="{{ description }}"></div>
       {% endfor %}
+      <div class="ya-share2" data-curtain data-use-links data-shape="round" data-direction="vertical" data-limit="0" data-size="s" data-more-button-type="short" data-services="vkontakte,odnoklassniki,whatsapp,telegram,facebook,twitter,linkedin,tumblr,pinterest,lj" data-title="{{ page.title }}" data-image="{{ page.cover-img | absolute_url }}" data-description="{{ description }}"></div>
     </div>
     {% endif %}
 

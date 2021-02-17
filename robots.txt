@@ -7,6 +7,7 @@ Sitemap: https://viktor-dnk.github.io/sitemap-amp
 
 User-agent: Yandex
 Disallow: /amp/*
+Disallow: /sitemap-amp
 Allow: /assets/css/*.css
 Allow: /assets/js/*.js
 Allow: /img/*/*/*.webp

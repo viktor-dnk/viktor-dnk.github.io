@@ -81,6 +81,11 @@ share-links-active:
   facebook: true
   linkedin: true
   vk: true
+  pinterest: true
+  tumblr: true
+  email: false
+  telegram: false
+  whatsapp: false
 
 # How to display the link to your website in the footer
 # Remove this if you don't want a link in the footer

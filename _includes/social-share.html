@@ -10,6 +10,14 @@
 <section id = "social-share-section">
   <span class="sr-only">Share: </span>
 
+  {% if site.share-links-active.vk %}
+    <a href="https://vk.com/share.php?url={{ page.url | absolute_url | url_encode }}"
+      class="btn btn-social-icon btn-vk" title="Share on VK">
+      <span class="fab fa-fw fa-vk" aria-hidden="true"></span>
+      <span class="sr-only">VK</span>
+    </a>
+  {% endif %}
+  
   {% if site.share-links-active.twitter %}
     <a href="https://twitter.com/intent/tweet?text={{ page.title | url_encode }}&url={{ page.url | absolute_url | url_encode }}"
       class="btn btn-social-icon btn-twitter" title="Share on Twitter">
@@ -33,14 +41,33 @@
       <span class="sr-only">LinkedIn</span>
     </a>
   {% endif %}
-
-  {% if site.share-links-active.vk %}
-    <a href="https://vk.com/share.php?url={{ page.url | absolute_url | url_encode }}"
-      class="btn btn-social-icon btn-vk" title="Share on VK">
-      <span class="fab fa-fw fa-vk" aria-hidden="true"></span>
-      <span class="sr-only">VK</span>
+  
+  {% if site.share-links-active.pinterest %}
+    <a  href="https://www.pinterest.com/pin/create/button/?url={{ page.url | absolute_url | url_encode }}"
+      class="btn btn-social-icon btn-pinterest" title="Share on Pinterest">
+      <span class="fab fa-fw fa-pinterest" aria-hidden="true"></span>
+      <span class="sr-only">Pinterest</span>
     </a>
   {% endif %}
+
+  {% if site.share-links-active.tumblr %}
+    <a  href="https://www.tumblr.com/share/link?url={{ page.url | absolute_url | url_encode }}"
+        class="btn btn-social-icon btn-tumblr" title="Share on tumblr">
+        <span class="fab fa-fw fa-tumblr" aria-hidden="true"></span>
+        <span class="sr-only">tumblr</span>
+    </a>
+  {% endif %}
+  
+  {% if site.share-links-active.email %}
+    <a  href="mailto:?subject={{ page.title }}&amp;body=Посмотри эту страницу: {{ page.url | absolute_url | url_encode }}"
+        class="btn btn-social-icon btn-tumblr" title="Share via Email">
+        <span class="fab fa-fw fa-envelope" aria-hidden="true"></span>
+        <span class="sr-only">Email</span>        
+        
+        title="Share via Email" >
+        <i class="fa fa-envelope share-button">email</i>
+    </a>
+  {% endif %}    
 
 </section>
 

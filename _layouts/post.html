@@ -45,7 +45,7 @@ layout: base
 
       {% if page.tags.size > 0 %}
         <div class="blog-tags">
-          <span><div class="ya-share2" data-curtain data-use-links data-shape="round"  data-more-button-type="long" data-direction="vertical" data-limit="0" data-size="s" data-more-button-type="short" data-services="vkontakte,odnoklassniki,whatsapp,telegram,facebook,twitter,linkedin,tumblr,pinterest,lj" data-title="{{ page.title }}" data-image="{{ page.cover-img | absolute_url }}" data-description="{{ description }}"></div>Метки:</span>
+          <span>Метки:</span>
           {% for tag in page.tags %}
             <a href="{{ '/tags' | relative_url }}#{{- tag -}}">{{- tag -}}</a>
           {% endfor %}
@@ -70,6 +70,9 @@ layout: base
           <a class="page-link" href="{{ page.previous.url | relative_url }}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title}}">&larr; Предыдущий пост</a>
         </li>
         {% endif %}
+        <li>
+            <div class="ya-share2" data-curtain data-use-links data-shape="round"  data-more-button-type="long" data-direction="vertical" data-limit="0" data-size="s" data-more-button-type="short" data-services="vkontakte,odnoklassniki,whatsapp,telegram,facebook,twitter,linkedin,tumblr,pinterest,lj" data-title="{{ page.title }}" data-image="{{ page.cover-img | absolute_url }}" data-description="{{ description }}"></div>
+        </li>
         {% if page.next.url %}
         <li class="page-item next">
           <a class="page-link" href="{{ page.next.url | relative_url }}" data-toggle="tooltip" data-placement="top" title="{{page.next.title}}">Следующий пост &rarr;</a>

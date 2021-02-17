@@ -77,15 +77,18 @@ rss-description: Ковешников В.Н. - блог географа-кра�
 
 # Select which social network share links to show in posts
 share-links-active:
-  twitter: true
-  facebook: true
-  linkedin: true
   vk: true
-  pinterest: true
-  tumblr: true
-  email: false
-  telegram: false
+  ok: false
   whatsapp: false
+  telegram: false
+  facebook: true
+  twitter: true
+  linkedin: true
+  tumblr: true
+  pinterest: true
+  email: false
+  
+
 
 # How to display the link to your website in the footer
 # Remove this if you don't want a link in the footer

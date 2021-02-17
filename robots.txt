@@ -1,4 +1,6 @@
 User-agent: Googlebot
+Disallow: /sitemap-yandex
+Disallow: /sitemap-yandex.xml
 Allow: /assets/css/*.css
 Allow: /assets/js/*.js
 Allow: /img/*/*/*.webp
@@ -8,6 +10,7 @@ Sitemap: https://viktor-dnk.github.io/sitemap-amp
 User-agent: Yandex
 Disallow: /amp/*
 Disallow: /sitemap-amp
+Disallow: /sitemap-amp.xml
 Allow: /assets/css/*.css
 Allow: /assets/js/*.js
 Allow: /img/*/*/*.webp

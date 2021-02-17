@@ -45,7 +45,7 @@ layout: base
 
       {% if page.tags.size > 0 %}
         <div class="blog-tags">
-          <div class="ya-share2" data-curtain data-use-links data-shape="round"  data-more-button-type="long" data-direction="vertical" data-limit="0" data-size="s" data-more-button-type="short" data-services="vkontakte,odnoklassniki,whatsapp,telegram,facebook,twitter,linkedin,tumblr,pinterest,lj" data-title="{{ page.title }}" data-image="{{ page.cover-img | absolute_url }}" data-description="{{ description }}"></div><span>Метки:</span>
+          <span><div class="ya-share2" data-curtain data-use-links data-shape="round"  data-more-button-type="long" data-direction="vertical" data-limit="0" data-size="s" data-more-button-type="short" data-services="vkontakte,odnoklassniki,whatsapp,telegram,facebook,twitter,linkedin,tumblr,pinterest,lj" data-title="{{ page.title }}" data-image="{{ page.cover-img | absolute_url }}" data-description="{{ description }}"></div>Метки:</span>
           {% for tag in page.tags %}
             <a href="{{ '/tags' | relative_url }}#{{- tag -}}">{{- tag -}}</a>
           {% endfor %}

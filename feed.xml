@@ -26,7 +26,6 @@ layout: null
           {{ post.share-description }}
         </description>
         <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
-        <author>Ковешников В.Н.</author>
         <link>{{ post.url | absolute_url }}</link>
         <category>{{post.tags | sort | join: ", "}}</category> 
         <guid isPermaLink="true">{{ post.url | absolute_url }}</guid>

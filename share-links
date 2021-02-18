@@ -1,3 +1,6 @@
+<style type="text/css">
+
+</style>
 <a class="scl-btn scl-crcl shadow fab fa-vk" rel="nofollow noopener" target="_blank"
 	href="https://vk.com/share.php?url={{ page.url | absolute_url | url_encode }}&title={{ page.title | url_encode }}&image={{ page.cover-img | absolute_url | replace:'.jpg','4x3.jpg'}}&utm_source=share2"
 	title="">

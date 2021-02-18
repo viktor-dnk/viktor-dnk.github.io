@@ -7,92 +7,56 @@
 {% endfor %}
 
 {% if any-share-links %}
-<section id = "social-share-section">
-  <span class="sr-only">Share: </span>
+<div class="col-lg-12 text-center">
+    <a class="scl-btn scl-crcl shadow fab fa-vk" rel="nofollow noopener" target="_blank"
+	href="https://vk.com/share.php?url={{ page.url | absolute_url | url_encode }}&title={{ page.title | url_encode }}&image={{ page.cover-img | absolute_url }}&utm_source=share2"
+	title="">
+</a>
 
-  {% if site.share-links-active.vk %}
-    <a href="https://vk.com/share.php?url={{ page.url | absolute_url | url_encode }}&title={{ page.title | url_encode }}&image={{ page.cover-img | absolute_url }}&utm_source=share2"
-      class="btn btn-social-icon btn-vk" title="Share on VK">
-      <span class="fab fa-fw fa-vk" aria-hidden="true"></span>
-      <span class="sr-only">VK</span>
-    </a>
-  {% endif %}
-  
-  <a href="https://api.whatsapp.com/send?text={{ page.title | url_encode }}%20{{ page.url | absolute_url | url_encode }}&utm_source=share2"
-    class="btn btn-social-icon btn-whatsapp" title="Share on VK">
-    <span class="fab fa-fw fa-whatsapp" aria-hidden="true"></span>
-    <span class="sr-only">VK</span>
-  </a>  
-  
-  <a href="https://connect.ok.ru/offer?url={{ page.url | absolute_url | url_encode }}&title={{ page.title | url_encode }}&imageUrl={{ page.cover-img | absolute_url }}&utm_source=share2"
-    class="btn btn-social-icon btn-odnoklassniki" title="Share on VK">
-    <span class="fab fa-fw fa-odnoklassniki" aria-hidden="true"></span>
-    <span class="sr-only">VK</span>
-  </a> 
-  
-  <a href="https://t.me/share/url?url={{ page.url | absolute_url | url_encode }}&text={{ page.title | url_encode }}&utm_source=share2"
-    class="btn btn-social-icon btn-telegram-plane" title="Share on VK">
-    <span class="fab fa-fw fa-telegram-plane" aria-hidden="true"></span>
-    <span class="sr-only">VK</span>
-  </a>
-  
-  <a href="https://www.livejournal.com/update.bml?subject={{ page.title | url_encode }}&event={{ page.url | absolute_url | url_encode }}&utm_source=share2"
-    class="btn btn-social-icon btn-lj" title="Share on VK">
-    <span class="fab fa-fw fa-lj" aria-hidden="true"></span>
-    <span class="sr-only">VK</span>
-  </a>
-  
-  {% if site.share-links-active.twitter %}
-    <a href="https://twitter.com/intent/tweet?text={{ page.title | url_encode }}&url={{ page.url | absolute_url | url_encode }}&utm_source=share2"
-      class="btn btn-social-icon btn-twitter" title="Share on Twitter">
-      <span class="fab fa-fw fa-twitter" aria-hidden="true"></span>
-      <span class="sr-only">Twitter</span>
-    </a>
-  {% endif %}
+<a class="scl-btn scl-crcl shadow fab fa-odnoklassniki" rel="nofollow noopener" target="_blank"
+	href="https://connect.ok.ru/offer?url={{ page.url | absolute_url | url_encode }}&title={{ page.title | url_encode }}&imageUrl={{ page.cover-img | absolute_url }}&utm_source=share2"
+	title="">
+</a>
 
-  {% if site.share-links-active.facebook %}
-    <a href="https://www.facebook.com/sharer.php?src=sp&u={{ page.url | absolute_url | url_encode }}&title={{ page.title | url_encode }}&picture={{ page.cover-img | absolute_url }}&utm_source=share2"
-      class="btn btn-social-icon btn-facebook" title="Share on Facebook">
-      <span class="fab fa-fw fa-facebook" aria-hidden="true"></span>
-      <span class="sr-only">Facebook</span>
-    </a>
-  {% endif %}
+<a class="scl-btn scl-crcl shadow fab fa-whatsapp" rel="nofollow noopener" target="_blank"
+	href="https://api.whatsapp.com/send?text={{ page.title | url_encode }}%20{{ page.url | absolute_url | url_encode }}&utm_source=share2"
+	title="">
+</a>
 
-  {% if site.share-links-active.linkedin %}
-    <a href="https://www.linkedin.com/shareArticle?mini=true&url={{ page.url | absolute_url | url_encode }}&title={{ page.title | url_encode }}&utm_source=share2"
-      class="btn btn-social-icon btn-linkedin" title="Share on LinkedIn">
-      <span class="fab fa-fw fa-linkedin" aria-hidden="true"></span>
-      <span class="sr-only">LinkedIn</span>
-    </a>
-  {% endif %}
-  
-  {% if site.share-links-active.pinterest %}
-    <a  href="https://pinterest.com/pin/create/button/?url={{ page.url | absolute_url | url_encode }}&media={{ page.cover-img | absolute_url }}&description={{ page.title | url_encode }}&utm_source=share2"
-      class="btn btn-social-icon btn-pinterest" title="Share on Pinterest">
-      <span class="fab fa-fw fa-pinterest" aria-hidden="true"></span>
-      <span class="sr-only">Pinterest</span>
-    </a>
-  {% endif %}
+<a class="scl-btn scl-crcl shadow fab fa-telegram-plane" rel="nofollow noopener" target="_blank"
+	href="https://t.me/share/url?url={{ page.url | absolute_url | url_encode }}&text={{ page.title | url_encode }}&utm_source=share2"
+	title="">
+</a>
 
-  {% if site.share-links-active.tumblr %}
-    <a  href="https://www.tumblr.com/share/link?url={{ page.url | absolute_url | url_encode }}&utm_source=share2"
-        class="btn btn-social-icon btn-tumblr" title="Share on tumblr">
-        <span class="fab fa-fw fa-tumblr" aria-hidden="true"></span>
-        <span class="sr-only">tumblr</span>
-    </a>
-  {% endif %}
-  
-  {% if site.share-links-active.email %}
-    <a  href="mailto:?subject={{ page.title }}&amp;body=Посмотри эту страницу: {{ page.url | absolute_url | url_encode }}"
-        class="btn btn-social-icon btn-tumblr" title="Share via Email">
-        <span class="fab fa-fw fa-envelope" aria-hidden="true"></span>
-        <span class="sr-only">Email</span>        
-        
-        title="Share via Email" >
-        <i class="fa fa-envelope share-button">email</i>
-    </a>
-  {% endif %}    
+<a class="scl-btn scl-crcl shadow fab fa-facebook-f" rel="nofollow noopener" target="_blank"
+	href="https://www.facebook.com/sharer.php?src=sp&u={{ page.url | absolute_url | url_encode }}&title={{ page.title | url_encode }}&picture={{ page.cover-img | absolute_url }}&utm_source=share2"
+	title="">
+</a>
 
-</section>
+<a class="scl-btn scl-crcl shadow fab fa-twitter" rel="nofollow noopener" target="_blank"
+	href="https://twitter.com/intent/tweet?text={{ page.title | url_encode }}&url={{ page.url | absolute_url | url_encode }}&utm_source=share2"
+	title="">
+</a>
+
+<a class="scl-btn scl-crcl shadow fab fa-linkedin-in" rel="nofollow noopener" target="_blank"
+	href="https://www.linkedin.com/shareArticle?mini=true&url={{ page.url | absolute_url | url_encode }}&title={{ page.title | url_encode }}&utm_source=share2"
+	title="">
+</a>
+
+<a class="scl-btn scl-crcl shadow fab fa-tumblr" rel="nofollow noopener" target="_blank"
+	href="https://www.tumblr.com/share/link?url={{ page.url | absolute_url | url_encode }}&utm_source=share2"
+	title="">
+</a>
+
+<a class="scl-btn scl-crcl shadow fab fa-pinterest" rel="nofollow noopener" target="_blank"
+	href="https://pinterest.com/pin/create/button/?url={{ page.url | absolute_url | url_encode }}&media={{ page.cover-img | absolute_url }}&description={{ page.title | url_encode }}&utm_source=share2"
+	title="">
+</a>
+
+<a class="scl-btn scl-crcl shadow fab fa-envelope" rel="nofollow noopener" target="_blank"
+    href="mailto:?subject={{ page.title }}&amp;body=Посмотри эту страницу: {{ page.url | absolute_url | url_encode }}"
+    title="">
+</a>
+</div>
 
 {% endif %}

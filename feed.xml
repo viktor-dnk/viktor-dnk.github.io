@@ -5,7 +5,15 @@ layout: null
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Дорога не кончается</title>
-    <description>Блог географа-краеведа</description>
+    <description>Заметки географа</description>
+    <image>
+      <url>https://viktor-dnk.github.io/img/example-logos/rss.png</url>
+      <title>Дорога не кончается</title>
+      <link>{{ '' | absolute_url }}</link>
+      <width>88</width>
+      <height>88</height>
+      <description>Заметки географа</description>
+    </image>    
     <language>ru</language>
     <link>{{ '' | absolute_url }}</link>
     <atom:link href="{{ 'feed.xml' | absolute_url }}" rel="self" type="application/rss+xml" />
@@ -15,12 +23,12 @@ layout: null
         <title>{{ post.title | xml_escape }}</title>
         <description>
           {% if post.subtitle %}{{ post.subtitle | xml_escape }} - {% endif %}
-          {{ page.share-description }}
+          {{ post.share-description }}
         </description>
         <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
         <author>Ковешников В.Н.</author>
         <link>{{ post.url | absolute_url }}</link>
-        <item-tags>{{page.tags | sort | join: ", "}}</item-tags>
+        <category>{{post.tags | sort | join: ", "}}</category> 
         <guid isPermaLink="true">{{ post.url | absolute_url }}</guid>
       </item>
     {% endfor %}

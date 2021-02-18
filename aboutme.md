@@ -4,6 +4,7 @@ title: Об авторе
 subtitle: Дорога не кончается
 share-description: Ковешников В.Н. - географ-краевед из Краснодара
 cover-img: /img/example-logos/main-cover.jpg
+share-img: /img/example-logos/main-cover4x3.jpg
 language: ru
 tags: [информация]
 ---

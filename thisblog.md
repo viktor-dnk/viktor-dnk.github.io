@@ -3,6 +3,7 @@ layout: page
 title: Об этом блоге
 subtitle: Анонсы. Планы. Текущая работа.
 cover-img: /img/example-logos/main-cover.jpg
+share-img: /img/example-logos/main-cover4x3.jpg
 language: ru
 sitemap: false
 tags: [информация]

@@ -4,6 +4,7 @@ title: Поиск
 subtitle: Работает поиск по сайту от Yandex
 language: ru
 cover-img: /img/example-logos/main-cover.jpg
+share-img: /img/example-logos/main-cover4x3.jpg
 sitemap: false
 head-extra: _search.html
 ---

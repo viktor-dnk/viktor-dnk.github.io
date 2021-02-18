@@ -10,13 +10,13 @@
 <section id = "social-share-section">
   <span class="sr-only">Share: </span>
 
-    <a rel="nofollow noopener" target="_blank" href="https://vk.com/share.php?url={{ page.url | absolute_url | url_encode }}&image={{ page.cover-img | absolute_url | replace:'.jpg','4x3.jpg'}}&utm_source=share2"
+    <a rel="nofollow noopener" target="_blank" href="https://vk.com/share.php?url={{ page.url | absolute_url | url_encode }}&title={{ page.title | url_encode }}&image={{ page.cover-img | absolute_url | replace:'.jpg','4x3.jpg'}}&utm_source=share2"
         class="btn btn-social-icon btn-vk" title="Опубликовать Вконтакте">
 <span class="fab fa-fw fa-vk" aria-hidden="true"></span>
 <span class="sr-only">vk</span>	
 </a>
 
-<a rel="nofollow noopener" target="_blank" href="https://connect.ok.ru/offer?url={{ page.url | absolute_url | url_encode }}imageUrl={{ page.cover-img | absolute_url | replace:'.jpg','4x3.jpg'}}&utm_source=share2" 
+<a rel="nofollow noopener" target="_blank" href="https://connect.ok.ru/offer?url={{ page.url | absolute_url | url_encode }}&title={{ page.title | url_encode }}&imageUrl={{ page.cover-img | absolute_url | replace:'.jpg','4x3.jpg'}}&utm_source=share2" 
 class="btn btn-social-icon btn-odnoklassniki" title="Разместить в Одноклассниках">
 <span class="fab fa-fw fa-odnoklassniki" aria-hidden="true"></span>
 <span class="sr-only">odnoklassniki</span>
@@ -28,25 +28,25 @@ class="btn btn-social-icon btn-whatsapp" title="Отправить в Whatsapp">
 <span class="sr-only">whatsapp</span>
 </a>
 
-<a rel="nofollow noopener" target="_blank" href="https://t.me/share/url?url={{ page.url | absolute_url | url_encode }}&utm_source=share2"
+<a rel="nofollow noopener" target="_blank" href="https://t.me/share/url?url={{ page.url | absolute_url | url_encode }}&text={{ page.title | url_encode }}&utm_source=share2"
 class="btn btn-social-icon btn-telegram" title="Отправить в Телеграмм">
 <span class="fab fa-fw fa-telegram-plane" aria-hidden="true"></span>
 <span class="sr-only">telegram-plane</span>
 </a>
 
-<a rel="nofollow noopener" target="_blank" href="https://www.facebook.com/sharer.php?src=sp&u={{ page.url | absolute_url | url_encode }}picture={{ page.cover-img | absolute_url | replace:'.jpg','4x3.jpg'}}&utm_source=share2"
+<a rel="nofollow noopener" target="_blank" href="https://www.facebook.com/sharer.php?src=sp&u={{ page.url | absolute_url | url_encode }}&title={{ page.title | url_encode }}&picture={{ page.cover-img | absolute_url | replace:'.jpg','4x3.jpg'}}&utm_source=share2"
 class="btn btn-social-icon btn-facebook" title="Запостить в Фейсбук">
 <span class="fab fa-fw fa-facebook" aria-hidden="true"></span>
 <span class="sr-only">Facebook</span>
 </a>
 
-<a rel="nofollow noopener" target="_blank" href="https://twitter.com/intent/tweet?url={{ page.url | absolute_url | url_encode }}&utm_source=share2"
+<a rel="nofollow noopener" target="_blank" href="https://twitter.com/intent/tweet?text={{ page.title | url_encode }}&url={{ page.url | absolute_url | url_encode }}&utm_source=share2"
 class="btn btn-social-icon btn-twitter" title="Твитнуть">
 <span class="fab fa-fw fa-twitter" aria-hidden="true"></span>
 <span class="sr-only">twitter</span>
 </a>
 
-<a rel="nofollow noopener" target="_blank" href="https://www.linkedin.com/shareArticle?mini=true&url={{ page.url | absolute_url | url_encode }}utm_source=share2"
+<a rel="nofollow noopener" target="_blank" href="https://www.linkedin.com/shareArticle?mini=true&url={{ page.url | absolute_url | url_encode }}&title={{ page.title | url_encode }}&utm_source=share2"
 class="btn btn-social-icon btn-linkedin"  title="Разместить в Linkedin-IN">
 <span class="fab fa-fw fa-linkedin" aria-hidden="true"></span>
 <span class="sr-only">LinkedIn</span>

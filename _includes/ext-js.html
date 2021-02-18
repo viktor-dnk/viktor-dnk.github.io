@@ -1,8 +1,5 @@
 {% if include.js.sri %}
-  <!--
   <script src="{{ include.js.href }}" integrity="{{ include.js.sri }}" crossorigin="anonymous"></script>
-  -->
-  <link rel="preload" href="{{ include.js.href }}" as="script" integrity="{{ include.js.sri }}" crossorigin="anonymous">
 {% elsif include.js.href %}
   <script src="{{ include.js.href }}"></script>
 {% else %}

@@ -1,4 +1,6 @@
 User-agent: Googlebot
+Disallow: /sitemap
+Disallow: /sitemap.xml
 Disallow: /sitemap-yandex
 Disallow: /sitemap-yandex.xml
 Allow: /manifest.json
@@ -10,6 +12,8 @@ Sitemap: https://viktor-dnk.github.io/sitemap-amp
 
 User-agent: Yandex
 Disallow: /amp/*
+Disallow: /sitemap
+Disallow: /sitemap.xml
 Disallow: /sitemap-amp
 Disallow: /sitemap-amp.xml
 Allow: /manifest.json
@@ -44,6 +48,8 @@ Disallow: /page/4
 Disallow: /page/2/
 Disallow: /page/3/
 Disallow: /page/4/
+Disallow: /sitemap
+Disallow: /sitemap.xml
 Sitemap: https://viktor-dnk.github.io/sitemap-yandex
 
 Host: https://viktor-dnk.github.io/

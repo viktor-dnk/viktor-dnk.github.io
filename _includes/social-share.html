@@ -10,67 +10,58 @@
 <section id = "social-share-section">
   <span class="sr-only">Share: </span>
 
-    <a href="https://vk.com/share.php?url={{ page.url | absolute_url | url_encode }}&title={{ page.title | url_encode }}&image={{ page.cover-img | absolute_url | replace:'.jpg','4x3.jpg'}}&utm_source=share2" title="Опубликовать Вконтакте"
-        class="btn btn-social-icon btn-vk"
+    <a href="https://vk.com/share.php?url={{ page.url | absolute_url | url_encode }}&title={{ page.title | url_encode }}&image={{ page.cover-img | absolute_url | replace:'.jpg','4x3.jpg'}}&utm_source=share2"
+        class="btn btn-social-icon btn-vk" title="Опубликовать Вконтакте" rel="nofollow noopener" target="_blank"
 <span class="fab fa-fw fa-vk" aria-hidden="true"></span>
-<span class="sr-only">vk</span>
-rel="nofollow noopener" target="_blank"	
+<span class="sr-only">vk</span>	
 </a>
 
-<a href="https://connect.ok.ru/offer?url={{ page.url | absolute_url | url_encode }}&title={{ page.title | url_encode }}&imageUrl={{ page.cover-img | absolute_url | replace:'.jpg','4x3.jpg'}}&utm_source=share2" title="Разместить в Одноклассниках"
-class="btn btn-social-icon btn-odnoklassniki"
+<a href="https://connect.ok.ru/offer?url={{ page.url | absolute_url | url_encode }}&title={{ page.title | url_encode }}&imageUrl={{ page.cover-img | absolute_url | replace:'.jpg','4x3.jpg'}}&utm_source=share2" 
+class="btn btn-social-icon btn-odnoklassniki" title="Разместить в Одноклассниках" rel="nofollow noopener" target="_blank"
 <span class="fab fa-fw fa-odnoklassniki" aria-hidden="true"></span>
 <span class="sr-only">odnoklassniki</span>
-rel="nofollow noopener" target="_blank"
 </a>
 
-<a href="https://api.whatsapp.com/send?text={{ page.title | url_encode }}%20{{ page.url | absolute_url | url_encode }}&utm_source=share2" title="Отправить в Whatsapp"
-class="btn btn-social-icon btn-whatsapp"
+<a href="https://api.whatsapp.com/send?text={{ page.title | url_encode }}%20{{ page.url | absolute_url | url_encode }}&utm_source=share2"
+class="btn btn-social-icon btn-whatsapp" title="Отправить в Whatsapp" rel="nofollow noopener" target="_blank"
 <span class="fab fa-fw fa-whatsapp" aria-hidden="true"></span>
 <span class="sr-only">whatsapp</span>
-rel="nofollow noopener" target="_blank"
 </a>
 
-<a href="https://t.me/share/url?url={{ page.url | absolute_url | url_encode }}&text={{ page.title | url_encode }}&utm_source=share2" title="Отправить в Телеграмм"
-class="btn btn-social-icon btn-telegram-plane"
+<a href="https://t.me/share/url?url={{ page.url | absolute_url | url_encode }}&text={{ page.title | url_encode }}&utm_source=share2"
+class="btn btn-social-icon btn-telegram-plane" title="Отправить в Телеграмм" rel="nofollow noopener" target="_blank"
 <span class="fab fa-fw fa-telegram-plane" aria-hidden="true"></span>
 <span class="sr-only">telegram-plane</span>
-rel="nofollow noopener" target="_blank"
 </a>
 
-<a href="https://www.facebook.com/sharer.php?src=sp&u={{ page.url | absolute_url | url_encode }}&title={{ page.title | url_encode }}&picture={{ page.cover-img | absolute_url | replace:'.jpg','4x3.jpg'}}&utm_source=share2" title="Запостить в Фейсбук"
-class="btn btn-social-icon btn-facebook-f"
+<a href="https://www.facebook.com/sharer.php?src=sp&u={{ page.url | absolute_url | url_encode }}&title={{ page.title | url_encode }}&picture={{ page.cover-img | absolute_url | replace:'.jpg','4x3.jpg'}}&utm_source=share2"
+class="btn btn-social-icon btn-facebook-f" title="Запостить в Фейсбук" rel="nofollow noopener" target="_blank"
 <span class="fab fa-fw fa-facebook-f" aria-hidden="true"></span>
 <span class="sr-only">facebook-f</span>
-rel="nofollow noopener" target="_blank"
 </a>
 
-<a href="https://twitter.com/intent/tweet?text={{ page.title | url_encode }}&url={{ page.url | absolute_url | url_encode }}&utm_source=share2" title="Твитнуть"
-class="btn btn-social-icon btn-twitter"
+<a href="https://twitter.com/intent/tweet?text={{ page.title | url_encode }}&url={{ page.url | absolute_url | url_encode }}&utm_source=share2"
+class="btn btn-social-icon btn-twitter" title="Твитнуть" rel="nofollow noopener" target="_blank"
 <span class="fab fa-fw fa-twitter" aria-hidden="true"></span>
 <span class="sr-only">twitter</span>
-rel="nofollow noopener" target="_blank"
 </a>
 
-<a href="https://www.linkedin.com/shareArticle?mini=true&url={{ page.url | absolute_url | url_encode }}&title={{ page.title | url_encode }}&utm_source=share2" title="Разместить в Linkedin-IN"
-class="btn btn-social-icon btn-linkedin-in"
+<a href="https://www.linkedin.com/shareArticle?mini=true&url={{ page.url | absolute_url | url_encode }}&title={{ page.title | url_encode }}&utm_source=share2"
+class="btn btn-social-icon btn-linkedin-in"  title="Разместить в Linkedin-IN" rel="nofollow noopener" target="_blank"
 <span class="fab fa-fw fa-linkedin-in" aria-hidden="true"></span>
 <span class="sr-only">linkedin-in</span>
-rel="nofollow noopener" target="_blank"
 </a>
 
-<a href="https://www.tumblr.com/share/link?url={{ page.url | absolute_url | url_encode }}&utm_source=share2" title="Поделиться в Тумблере"
-class="btn btn-social-icon btn-tumblr"
+<a href="https://www.tumblr.com/share/link?url={{ page.url | absolute_url | url_encode }}&utm_source=share2"
+class="btn btn-social-icon btn-tumblr"  title="Поделиться в Тумблере" rel="nofollow noopener" target="_blank"
 <span class="fab fa-fw fa-tumblr" aria-hidden="true"></span>
 <span class="sr-only">tumblr</span>
-rel="nofollow noopener" target="_blank"
 </a>
 
-<a href="https://pinterest.com/pin/create/button/?url={{ page.url | absolute_url | url_encode }}&media={{ page.cover-img | absolute_url | replace:'.jpg','4x3.jpg'}}&description={{ page.title | url_encode }}&utm_source=share2" title="Сохранить в Pinterest"
-class="btn btn-social-icon btn-pinterest"
+<a href="https://pinterest.com/pin/create/button/?url={{ page.url | absolute_url | url_encode }}&media={{ page.cover-img | absolute_url | replace:'.jpg','4x3.jpg'}}&description={{ page.title | url_encode }}&utm_source=share2"
+class="btn btn-social-icon btn-pinterest" title="Сохранить в Pinterest" rel="nofollow noopener" target="_blank"
 <span class="fab fa-fw fa-pinterest" aria-hidden="true"></span>
 <span class="sr-only">pinterest</span>
-rel="nofollow noopener" target="_blank"
 </a>
 
 </section>

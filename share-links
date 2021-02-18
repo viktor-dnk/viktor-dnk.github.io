@@ -1,10 +1,10 @@
 <a class="scl-btn scl-crcl shadow fab fa-vk" rel="nofollow noopener" target="_blank"
-	href="https://vk.com/share.php?url={{ page.url | absolute_url | url_encode }}&title={{ page.title | url_encode }}&image={{ page.cover-img | absolute_url }}&utm_source=share2"
+	href="https://vk.com/share.php?url={{ page.url | absolute_url | url_encode }}&title={{ page.title | url_encode }}&image={{ page.cover-img | absolute_url | replace:'.jpg','4x3.jpg'}}&utm_source=share2"
 	title="">
 </a>
 
 <a class="scl-btn scl-crcl shadow fab fa-odnoklassniki" rel="nofollow noopener" target="_blank"
-	href="https://connect.ok.ru/offer?url={{ page.url | absolute_url | url_encode }}&title={{ page.title | url_encode }}&imageUrl={{ page.cover-img | absolute_url }}&utm_source=share2"
+	href="https://connect.ok.ru/offer?url={{ page.url | absolute_url | url_encode }}&title={{ page.title | url_encode }}&imageUrl={{ page.cover-img | absolute_url | replace:'.jpg','4x3.jpg'}}&utm_source=share2"
 	title="">
 </a>
 
@@ -19,7 +19,7 @@
 </a>
 
 <a class="scl-btn scl-crcl shadow fab fa-facebook-f" rel="nofollow noopener" target="_blank"
-	href="https://www.facebook.com/sharer.php?src=sp&u={{ page.url | absolute_url | url_encode }}&title={{ page.title | url_encode }}&picture={{ page.cover-img | absolute_url }}&utm_source=share2"
+	href="https://www.facebook.com/sharer.php?src=sp&u={{ page.url | absolute_url | url_encode }}&title={{ page.title | url_encode }}&picture={{ page.cover-img | absolute_url | replace:'.jpg','4x3.jpg'}}&utm_source=share2"
 	title="">
 </a>
 
@@ -39,7 +39,7 @@
 </a>
 
 <a class="scl-btn scl-crcl shadow fab fa-pinterest" rel="nofollow noopener" target="_blank"
-	href="https://pinterest.com/pin/create/button/?url={{ page.url | absolute_url | url_encode }}&media={{ page.cover-img | absolute_url }}&description={{ page.title | url_encode }}&utm_source=share2"
+	href="https://pinterest.com/pin/create/button/?url={{ page.url | absolute_url | url_encode }}&media={{ page.cover-img | absolute_url | replace:'.jpg','4x3.jpg'}}&description={{ page.title | url_encode }}&utm_source=share2"
 	title="">
 </a>
 

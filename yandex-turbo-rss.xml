@@ -55,9 +55,6 @@ layout: null
                   {% assign preprocessed_content=preprocessed_content | replace: '<br />', '__br/__' %}
                   {% assign preprocessed_content=preprocessed_content | replace: '<a href="/', '__a href__' %}
                   {% assign preprocessed_content=preprocessed_content | replace: '</a>', '__/a__' %}
-                  {% assign preprocessed_content=preprocessed_content | replace: '"{"/img/', '"/img/' %}
-                  {% assign preprocessed_content=preprocessed_content | replace: '=>', ' titele=' %}
-                  {% assign preprocessed_content=preprocessed_content | replace: '"}">', ' ">' %}
                       {% assign truncated_content=preprocessed_content | strip_html %}
                   {% assign cleaned_content=truncated_content | replace: '__p__', '<p>' %}
                   {% assign cleaned_content=cleaned_content | replace: '__/p__', '</p>' %}
@@ -88,6 +85,9 @@ layout: null
                   {% assign cleaned_content=cleaned_content | replace: '<li></a>', '<li>' %}
                   {% assign cleaned_content=cleaned_content | replace: 'src="/img/mysteries-dolmens/', 'src="https://viktor-dnk.github.io/img/mysteries-dolmens/' %}
                   {% assign cleaned_content=cleaned_content | replace: 'src="/img/toponymy/', 'src="https://viktor-dnk.github.io/img/toponymy/' %}
+                  {% assign preprocessed_content=preprocessed_content | replace: '"{"/img/', '"/img/' %}
+                  {% assign preprocessed_content=preprocessed_content | replace: '=>', ' titele=' %}
+                  {% assign preprocessed_content=preprocessed_content | replace: '"}">', ' ">' %}
           				    {{ cleaned_content }}
                   <button formaction="{{ toponymy.url | absolute_url }}"
                   					data-background-color="#87CEEB"
@@ -146,9 +146,6 @@ layout: null
                 {% assign preprocessed_content=preprocessed_content | replace: '<br />', '__br/__' %}
                 {% assign preprocessed_content=preprocessed_content | replace: '<a href="/', '__a href__' %}
                 {% assign preprocessed_content=preprocessed_content | replace: '</a>', '__/a__' %}
-                {% assign preprocessed_content=preprocessed_content | replace: '"{"/img/', '"/img/' %}
-                {% assign preprocessed_content=preprocessed_content | replace: '=>', ' titele=' %}
-                {% assign preprocessed_content=preprocessed_content | replace: '"}">', ' ">' %}
                     {% assign truncated_content=preprocessed_content | strip_html %}
                 {% assign cleaned_content=truncated_content | replace: '__p__', '<p>' %}
                 {% assign cleaned_content=cleaned_content | replace: '__/p__', '</p>' %}
@@ -179,6 +176,9 @@ layout: null
                 {% assign cleaned_content=cleaned_content | replace: '<li></a>', '<li>' %}
                 {% assign cleaned_content=cleaned_content | replace: 'src="/img/mysteries-dolmens/', 'src="https://viktor-dnk.github.io/img/mysteries-dolmens/' %}
                 {% assign cleaned_content=cleaned_content | replace: 'src="/img/toponymy/', 'src="https://viktor-dnk.github.io/img/toponymy/' %}
+                {% assign preprocessed_content=preprocessed_content | replace: '"{"/img/', '"/img/' %}
+                {% assign preprocessed_content=preprocessed_content | replace: '=>', ' titele=' %}
+                {% assign preprocessed_content=preprocessed_content | replace: '"}">', ' ">' %}
         				    {{ cleaned_content }}
                 <button formaction="{{ mysteries-dolmens.url | absolute_url }}"
                 					data-background-color="#87CEEB"

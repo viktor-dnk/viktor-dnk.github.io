@@ -1,0 +1,56 @@
+---
+layout: null
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:yandex="http://news.yandex.ru"
+     xmlns:media="http://search.yahoo.com/mrss/"
+     xmlns:turbo="http://turbo.yandex.ru"
+     version="2.0">
+  <channel>
+    <title>Дорога не кончается</title>
+    <link>{{ '' | absolute_url }}</link>
+    <description>Блог географа-краеведа</description>
+		<language>ru</language>
+    <turbo:analytics type="Yandex" id="69067006"></turbo:analytics>
+    <turbo:analytics type="Google" id="UA-169383032-2"></turbo:analytics>
+	  {% assign excerpt_length = site.excerpt_length | default: 50 %}
+<!--генериурем страницы из раздела по топонимике -->
+      {% for toponymy in site.toponymy limit:100 %}
+      <item turbo="true">
+          <turbo:extendedHtml>true</turbo:extendedHtml>
+          <link>{{ toponymy.url | absolute_url }}</link>
+          <turbo:source>{{ toponymy.url | absolute_url }}</turbo:source>
+          <turbo:topic>{{ toponymy.title | xml_escape }}</turbo:topic>
+          <pubDate>{{ toponymy.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
+          <author>Ковешников В.Н.</author>
+          <title>{{ toponymy.title | xml_escape }}</title>
+          <turbo:content>
+              <![CDATA[
+                  <figure>
+                    <img src="{{ toponymy.share-img }}">
+                  </figure>
+                  <button formaction="{{ toponymy.url | absolute_url }}"
+                    data-background-color="#87CEEB"
+          					data-color="white"
+          					data-turbo="false"
+          					data-primary="true">Читать оригинал</button>
+          				    {{ content }}
+                  <button formaction="{{ toponymy.url | absolute_url }}"
+                  					data-background-color="#87CEEB"
+                  					data-color="white"
+                  					data-turbo="false"
+                  					data-primary="true">Перейти на сайт автора</button>
+                  <figure>
+                    <img src="{{ toponymy.thumbnail-img }}">
+                  </figure>
+                  <div data-block="widget-feedback" data-stick="right">
+                      <div data-block="chat" data-type="telegram" data-url="https://t.me/toponim"></div>
+                      <div data-type="mail" data-url="mailto:dnk_v@list.ru"></div>
+                  </div>
+              ]]>
+          </turbo:content>
+         </item>
+      {% endfor %}
+
+  </channel>
+</rss>

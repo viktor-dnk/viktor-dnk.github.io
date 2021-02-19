@@ -26,7 +26,7 @@ layout: null
           <turbo:content>
               <![CDATA[
                   <figure>
-                    <img src="{{ toponymy.cover-img }}">
+                    <img src="{{ toponymy.share-img }}">
                   </figure>
                   <button formaction="{{ toponymy.url | absolute_url }}"
                     data-background-color="#87CEEB"
@@ -85,9 +85,6 @@ layout: null
                   {% assign cleaned_content=cleaned_content | replace: '<li></a>', '<li>' %}
                   {% assign cleaned_content=cleaned_content | replace: 'src="/img/mysteries-dolmens/', 'src="https://viktor-dnk.github.io/img/mysteries-dolmens/' %}
                   {% assign cleaned_content=cleaned_content | replace: 'src="/img/toponymy/', 'src="https://viktor-dnk.github.io/img/toponymy/' %}
-                  {% assign preprocessed_content=preprocessed_content | replace: '"{"/img/', '"/img/' %}
-                  {% assign preprocessed_content=preprocessed_content | replace: '=>', ' titele=' %}
-                  {% assign preprocessed_content=preprocessed_content | replace: '"}">', ' ">' %}
           				    {{ cleaned_content }}
                   <button formaction="{{ toponymy.url | absolute_url }}"
                   					data-background-color="#87CEEB"
@@ -117,7 +114,7 @@ layout: null
         <turbo:content>
             <![CDATA[
                 <figure>
-                  <img src="{{ mysteries-dolmens.cover-img }}">
+                  <img src="{{ mysteries-dolmens.share-img }}">
                 </figure>
                 <button formaction="{{ mysteries-dolmens.url | absolute_url }}"
                   data-background-color="#87CEEB"
@@ -176,9 +173,6 @@ layout: null
                 {% assign cleaned_content=cleaned_content | replace: '<li></a>', '<li>' %}
                 {% assign cleaned_content=cleaned_content | replace: 'src="/img/mysteries-dolmens/', 'src="https://viktor-dnk.github.io/img/mysteries-dolmens/' %}
                 {% assign cleaned_content=cleaned_content | replace: 'src="/img/toponymy/', 'src="https://viktor-dnk.github.io/img/toponymy/' %}
-                {% assign preprocessed_content=preprocessed_content | replace: '"{"/img/', '"/img/' %}
-                {% assign preprocessed_content=preprocessed_content | replace: '=>', ' titele=' %}
-                {% assign preprocessed_content=preprocessed_content | replace: '"}">', ' ">' %}
         				    {{ cleaned_content }}
                 <button formaction="{{ mysteries-dolmens.url | absolute_url }}"
                 					data-background-color="#87CEEB"

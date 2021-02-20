@@ -5,7 +5,7 @@ subtitle: Из истории дольменов Западного Кавказ
 share-description: Одна из основных целей публикации, найти ответы на десятки вопросов связанных с историей дольменов.
 description: Одна из основных целей публикации, найти ответы на десятки вопросов связанных с историей дольменов.
 cover-img: /img/mysteries-dolmens/222.jpg
-share-img: /img/mysteries-dolmens/2224x3.jpg
+share-img: /img/mysteries-dolmens/222-s.jpg
 date: 2020-09-10 15:00:00 +0300
 last_modified_at: 2021-02-04 17:00:00 +0300
 sitemap: false

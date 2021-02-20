@@ -5,7 +5,7 @@ subtitle: Из истории дольменов Западного Кавказ
 share-description: Термин дольмен, для названия мегалитических памятников археологии на Западном Кавказе, стал применяться с конца 60-х годов ХIХ в.
 description: Термин дольмен, для названия мегалитических памятников археологии на Западном Кавказе, стал применяться с конца 60-х годов ХIХ в.
 cover-img: /img/mysteries-dolmens/111.jpg
-share-img: /img/mysteries-dolmens/1114x3.jpg
+share-img: /img/mysteries-dolmens/111-s.jpg
 date: 2020-09-11 15:00:00 +0300
 last_modified_at: 2021-02-04 17:00:00 +0300
 sitemap: false

@@ -94,6 +94,7 @@ layout: null
                   <figure>
                     <img src="{{ toponymy.thumbnail-img }}">
                   </figure>
+                  <div data-block="share">
                   <div data-block="widget-feedback" data-stick="right">
                       <div data-block="chat" data-type="telegram" data-url="https://t.me/toponim"></div>
                       <div data-type="mail" data-url="mailto:dnk_v@list.ru"></div>
@@ -182,6 +183,7 @@ layout: null
                 <figure>
                   <img src="{{ mysteries-dolmens.thumbnail-img }}">
                 </figure>
+                <div data-block="share">
                 <div data-block="widget-feedback" data-stick="right">
                     <div data-block="chat" data-type="telegram" data-url="https://t.me/toponim"></div>
                     <div data-type="mail" data-url="mailto:dnk_v@list.ru"></div>

@@ -5,7 +5,7 @@ subtitle: Из истории дольменов Западного Кавказ
 share-description: Не будем гадать, сколько времени занимало сооружение дольменов. Ведь постройки создавали не только качественно, но и архитектурно обдуманными.
 description: Не будем гадать, сколько времени занимало сооружение дольменов. Ведь постройки создавали не только качественно, но и архитектурно обдуманными.
 cover-img: /img/mysteries-dolmens/1-3/cover.jpg
-share-img: /img/mysteries-dolmens/1-3/cover4x3.jpg
+share-img: /img/mysteries-dolmens/1-3/cover-s.jpg
 date: 2020-09-13 15:00:00 +0300
 last_modified_at: 2021-02-04 17:00:00 +0300
 sitemap: false

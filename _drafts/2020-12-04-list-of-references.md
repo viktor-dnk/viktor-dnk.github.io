@@ -4,7 +4,7 @@ title: Список основных использованных источни
 subtitle: Из истории дольменов Западного Кавказа <br>© В.Н. Ковешников
 share-description: Современные географические названия или топонимы Кубани, формировались в большинстве на основе абхаза-адыгской языковой группы, восточнославянской ветви и иранской группы индоевропейской языковой семьи, и тюркской языковой семьи.
 cover-img: /img/mysteries-dolmens/outro/cover.jpg
-share-img: /img/mysteries-dolmens/outro/cover4x3.jpg
+share-img: /img/mysteries-dolmens/outro/cover-s.jpg
 thumbnail-img: /img/mysteries-dolmens/outro/thumb.jpg
 language: ru
 readtime: true

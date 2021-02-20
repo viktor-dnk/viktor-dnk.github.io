@@ -52,8 +52,8 @@
 	"headline": "{{ title }}",
     "image": [
 		"{{ page.share-img | absolute_url }}",
-		"{{ page.share-img | absolute_url | replace:'4x3.jpg','1x1.jpg' }}",
-		"{{ page.cover-img | absolute_url | replace:'4x3.jpg','16x9.jpg' }}"
+        "{{ page.cover-img | absolute_url | replace:'4x3.jpg','16x9.jpg' }}",
+		"{{ page.share-img | absolute_url | replace:'4x3.jpg','1x1.jpg' }}"
 	],    
 	"datePublished": "{{ page.date | date_to_xmlschema }}",
 	"dateModified": "{{ page.last_modified_at | date_to_xmlschema }}",

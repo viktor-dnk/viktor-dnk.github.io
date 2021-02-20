@@ -18,7 +18,7 @@
 <meta name="msapplication-TileColor" content="#87ceeb">
 <meta name="msapplication-TileImage" content="/mstile-144x144.png">
 <meta name="theme-color" content="#87ceeb">
-<link rel="canonical" href="{{ page.url | absolute_url }}">
+
   {% capture title %}
     {%- if page.share-title -%}
       {{ page.share-title }}
@@ -123,48 +123,69 @@
     {% endfor %}
   {% endif %}
 
-  
-    {%- capture img -%}
-      {%- if page.share-img -%}
-        {{ page.share-img }}
-      {%- elsif page.cover-img -%}
-        {%- if page.cover-img.first -%}
-          {{ page.cover-img[0].first.first }}
-        {%- else -%}
-          {{ page.cover-img }}
-        {%- endif -%}
-      {%- elsif page.thumbnail-img -%}
-        {{ page.thumbnail-img }}
-      {%- elsif site.avatar -%}
-        {{ site.avatar }}
-      {% endif %}
-    {%- endcapture -%}
-    {%- assign img=img | strip -%}
-    
-<meta property="og:site_name" content="{{ site.title }}">
-<meta property="og:url" content="{{ page.url | absolute_url }}" />  
-<meta property="og:type" content="article" />
-<meta property="og:article:author" content="Ковешников В.Н." />
-<meta property="og:article:section" content="{{ page.categories }}" />
-<meta property="og:article:tag" content="{{page.tags | sort | join: ", "}}" />
-<meta property="og: article:published_time" content="{{ page.date | date_to_xmlschema }}" />
-<meta property="og: article:modified_time" content="{{ page.last_modified_at | date_to_xmlschema }}" />
-<meta property="og:title" content="{{ page.title }}" />
-<meta property="og:description" content="{{ description  }}" />
-<meta property="og:image" content="{{ img | absolute_url }}" />
-<meta property="og:image:type" content="image/jpeg" />
-<meta property="og:image:width" content="1200" />
-<meta property="og:image:height" content="900" />
-<meta property="og:image:alt" content="{{ page.title }}" />
-<meta property="og:locale" content="ru_RU" />
+  {% if site.fb_app_id %}
+  <meta property="fb:app_id" content="{{ site.fb_app_id }}">
+  {% endif %}
 
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:site" content="@2leack">
-<meta name="twitter:title" content="{{ page.title }}">
-<meta name="twitter:description" content="{{ description  }}">
-<meta name="twitter:image" content="{{ img | absolute_url }}">
-  
+  {% if site.title %}
+  <meta property="og:site_name" content="{{ site.title }}">
+  {% endif %}
 
+  {%- capture img -%}
+    {%- if page.share-img -%}
+      {{ page.share-img }}
+    {%- elsif page.cover-img -%}
+      {%- if page.cover-img.first -%}
+        {{ page.cover-img[0].first.first }}
+      {%- else -%}
+        {{ page.cover-img }}
+      {%- endif -%}
+    {%- elsif page.thumbnail-img -%}
+      {{ page.thumbnail-img }}
+    {%- elsif site.avatar -%}
+      {{ site.avatar }}
+    {% endif %}
+  {%- endcapture -%}
+  {%- assign img=img | strip -%}
+
+  <meta property="og:title" content="{{ title }}">
+  <meta property="og:description" content="{{ description }}">
+  <meta property="og:locale" content="ru_RU" />
+  {% if img != "" %}
+  <meta property="og:image" content="{{ img | absolute_url }}">
+  <meta property="og:image:alt" content="{{ title }}" />
+  <meta property="og:image:type" content="image/jpeg" />
+  {% endif %}
+
+  {% if page.id %}
+  <meta property="og:type" content="article">
+  <meta property="og:article:author" content="Ковешников В.Н.">
+  <meta property="og:article:section" content="{{ page.categories }}">
+  <meta property="og:article:tag" content="{{page.tags | sort | join: ", "}}">
+  <meta property="og:url" content="{{ page.url | absolute_url }}">
+  <meta property="og: article:published_time" content="{{ page.date | date_to_xmlschema }}">
+  <meta property="og: article:modified_time" content="{{ page.last_modified_at | date_to_xmlschema }}">
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
+  {% else %}
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="{{ page.url | absolute_url | strip_index }}">
+  <link rel="canonical" href="{{ page.url | absolute_url | strip_index }}">
+  {% endif %}
+
+  {% if img != "" and img != site.avatar %}
+  <meta name="twitter:card" content="summary_large_image">
+  {% else %}
+  <meta name="twitter:card" content="summary">
+  {% endif %}
+  <meta name="twitter:site" content="@2leack">
+  <meta name="twitter:creator" content="@{{ site.social-network-links.twitter }}">
+
+  <meta property="twitter:title" content="{{ title }}">
+  <meta property="twitter:description" content="{{ description }}">
+
+  {% if img != "" %}
+  <meta name="twitter:image" content="{{ img | absolute_url }}">
+  {% endif %}
 
   {% include matomo.html %}
 

@@ -4,7 +4,7 @@ title: Реки Краснодара
 subtitle: © В.Н. Ковешников
 share-description: Город Краснодар был основан как Екатеринодар в 1793 г. у излучины правого берега реки Кубань в урочище Карасунский кут.
 cover-img: ["/img/toponymy/k-town-rivers/cover.jpg" : "Река Теберда в нижнем течении, левый приток реки Кубань, расположен за пределами Краснодарского края"]
-share-img: /img/toponymy/k-town-rivers/cover4x3.jpg
+share-img: /img/toponymy/k-town-rivers/cover-s.jpg
 thumbnail-img: /img/toponymy/k-town-rivers/thumb.webp
 language: ru
 last_modified_at: 2021-02-10 02:30:00 +0300

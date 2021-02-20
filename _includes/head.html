@@ -123,6 +123,24 @@
     {% endfor %}
   {% endif %}
 
+  
+    {%- capture img -%}
+      {%- if page.share-img -%}
+        {{ page.share-img }}
+      {%- elsif page.cover-img -%}
+        {%- if page.cover-img.first -%}
+          {{ page.cover-img[0].first.first }}
+        {%- else -%}
+          {{ page.cover-img }}
+        {%- endif -%}
+      {%- elsif page.thumbnail-img -%}
+        {{ page.thumbnail-img }}
+      {%- elsif site.avatar -%}
+        {{ site.avatar }}
+      {% endif %}
+    {%- endcapture -%}
+    {%- assign img=img | strip -%}
+    
 <meta property="og:site_name" content="{{ site.title }}">
 <meta property="og:url" content="{{ page.url | absolute_url }}" />  
 <meta property="og:type" content="article" />
@@ -144,7 +162,7 @@
 <meta name="twitter:site" content="@2leack">
 <meta name="twitter:title" content="{{ page.title }}">
 <meta name="twitter:description" content="{{ page.share-description }}">
-<meta name="twitter:image" content="{{ page.share-img }}">
+<meta name="twitter:image" content="{{ page.share-img | absolute_url }}">
   
 
 

@@ -1,28 +1,22 @@
 User-agent: Googlebot
 Disallow: /sitemap
 Disallow: /sitemap.xml
-Disallow: /sitemap-yandex
-Disallow: /sitemap-yandex.xml
 Allow: /manifest.json
 Allow: /assets/css/*.css
 Allow: /assets/js/*.js
 Allow: /img/*/*/*.webp
 Allow: /img/*/*/*.jpg
-Sitemap: https://viktor-dnk.github.io/sitemap-amp
 
 User-agent: Yandex
 Disallow: /amp/*
 Disallow: /sitemap
 Disallow: /sitemap.xml
-Disallow: /sitemap-amp
-Disallow: /sitemap-amp.xml
 Allow: /manifest.json
 Allow: /assets/css/*.css
 Allow: /assets/js/*.js
 Allow: /img/*/*/*.webp
 Allow: /img/*/*/*.jpg
 Clean-param: utm_source&utm_medium&utm_term&utm_content&utm_campaign&yclid&gclid&_openstat&from /
-Sitemap: https://viktor-dnk.github.io/sitemap-yandex
 
 User-agent: *
 Allow: /manifest.json
@@ -50,6 +44,6 @@ Disallow: /page/3/
 Disallow: /page/4/
 Disallow: /sitemap
 Disallow: /sitemap.xml
-Sitemap: https://viktor-dnk.github.io/sitemap-yandex
 
+Sitemap: https://viktor-dnk.github.io/sitemap-yandex
 Host: https://viktor-dnk.github.io/

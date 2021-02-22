@@ -1,11 +1,10 @@
 User-agent: Googlebot
-Disallow: /sitemap
-Disallow: /sitemap.xml
 Allow: /manifest.json
 Allow: /assets/css/*.css
 Allow: /assets/js/*.js
 Allow: /img/*/*/*.webp
 Allow: /img/*/*/*.jpg
+Sitemap: https://viktor-dnk.github.io/sitemap-google
 
 User-agent: Yandex
 Disallow: /amp/*

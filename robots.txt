@@ -41,8 +41,6 @@ Disallow: /page/4
 Disallow: /page/2/
 Disallow: /page/3/
 Disallow: /page/4/
-Disallow: /sitemap
-Disallow: /sitemap.xml
 
 Sitemap: https://viktor-dnk.github.io/sitemap-yandex
 Host: https://viktor-dnk.github.io/

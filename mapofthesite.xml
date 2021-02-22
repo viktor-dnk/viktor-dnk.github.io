@@ -3,29 +3,44 @@ layout: null
 ---
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+    <loc>https://viktor-dnk.github.io/</loc>
+    </url>
+    <url>
+    <loc>https://viktor-dnk.github.io/aboutme/</loc>
+    </url>
+    <url>
+    <loc>https://viktor-dnk.github.io/thisblog/</loc>
+    </url>
+    <url>
+    <loc>https://viktor-dnk.github.io/search/</loc>
+    </url>
+    <url>
+    <loc>https://viktor-dnk.github.io/info/telegram/</loc>
+    </url> 
 {% for toponymy in site.toponymy %}
 <url>
 <loc>{{ toponymy.url | absolute_url }}</loc>
+<lastmod>{{ toponymy.last_modified_at | date_to_xmlschema }}</lastmod>
 <image:image>
 <image:loc>{{ toponymy.share-img | absolute_url }}</image:loc>
 <image:caption>{{ toponymy.img-caption | xml_escape }}</image:caption>
-<image:title><![CDATA[{{ toponymy.title | xml_escape }}]]></image:title>
-{% if toponymy.location %}<image:geo_location><![CDATA[{{ toponymy.location }}]]></image:geo_location>{% endif %}                  
+<image:title>{{ toponymy.title | xml_escape }}></image:title>
+{% if toponymy.location %}<image:geo_location>{{ toponymy.location }}</image:geo_location>{% endif %}                  
 </image:image>
-<lastmod>{{ toponymy.last_modified_at | date_to_xmlschema }}</lastmod>
 </url>
 {% endfor %}
 
 {% for mysteries-dolmens in site.mysteries-dolmens %}
 <url>
 <loc>{{ mysteries-dolmens.url | absolute_url }}</loc>
+<lastmod>{{ mysteries-dolmens.last_modified_at | date_to_xmlschema }}</lastmod>
 <image:image>
 <image:loc>{{ mysteries-dolmens.share-img | absolute_url }}</image:loc>
-{% if mysteries-dolmens.img-caption %}<image:caption><![CDATA[{{ mysteries-dolmens.img-caption }}]]></image:caption>{% endif %}
-<image:title><![CDATA[{{ mysteries-dolmens.title | xml_escape }}]]></image:title>
-{% if mysteries-dolmens.location %}<image:geo_location><![CDATA[{{ mysteries-dolmens.location }}]]></image:geo_location>{% endif %}
+{% if mysteries-dolmens.img-caption %}<image:caption>{{ mysteries-dolmens.img-caption }}</image:caption>{% endif %}
+<image:title>{{ mysteries-dolmens.title | xml_escape }}</image:title>
+{% if mysteries-dolmens.location %}<image:geo_location>{{ mysteries-dolmens.location }}</image:geo_location>{% endif %}
 </image:image>
-<lastmod>{{ mysteries-dolmens.last_modified_at | date_to_xmlschema }}</lastmod>
 </url>
 {% endfor %}
 
@@ -35,19 +50,4 @@ layout: null
 <loc>{{ site.url }}/{{ category[0] }}/</loc>
 </url>
 {% endfor %}
-<url>
-<loc>https://viktor-dnk.github.io/</loc>
-</url>
-<url>
-<loc>https://viktor-dnk.github.io/aboutme/</loc>
-</url>
-<url>
-<loc>https://viktor-dnk.github.io/thisblog/</loc>
-</url>
-<url>
-<loc>https://viktor-dnk.github.io/search/</loc>
-</url>
-<url>
-<loc>https://viktor-dnk.github.io/info/telegram/</loc>
-</url> 
 </urlset>

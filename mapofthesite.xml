@@ -8,9 +8,9 @@ layout: null
 <loc>{{ toponymy.url | absolute_url }}</loc>
 <image:image>
 <image:loc>{{ toponymy.share-img | absolute_url }}</image:loc>
-<image:caption>{{ toponymy.img-caption | xml_escape }}</image:caption>
-<image:title>{{ toponymy.title | xml_escape }}</image:title>
-{% if toponymy.location %}<image:geo_location>{{ toponymy.location }}</image:geo_location>{% endif %}                  
+<image:caption><![CDATA[{{ toponymy.img-caption | xml_escape }}]]></image:caption>
+<image:title><![CDATA[{{ toponymy.title | xml_escape }}]]></image:title>
+{% if toponymy.location %}<image:geo_location><![CDATA[{{ toponymy.location }}]]></image:geo_location>{% endif %}                  
 </image:image>
 <lastmod>{{ toponymy.last_modified_at | date_to_xmlschema }}</lastmod>
 </url>
@@ -21,9 +21,9 @@ layout: null
 <loc>{{ mysteries-dolmens.url | absolute_url }}</loc>
 <image:image>
 <image:loc>{{ mysteries-dolmens.share-img | absolute_url }}</image:loc>
-{% if mysteries-dolmens.img-caption %}<image:caption>{{ mysteries-dolmens.img-caption }}</image:caption>{% endif %}
-<image:title>{{ mysteries-dolmens.title | xml_escape }}</image:title>
-{% if mysteries-dolmens.location %}<image:geo_location>{{ mysteries-dolmens.location }}</image:geo_location>{% endif %}
+{% if mysteries-dolmens.img-caption %}<image:caption><![CDATA[{{ mysteries-dolmens.img-caption }}]]></image:caption>{% endif %}
+<image:title><![CDATA[{{ mysteries-dolmens.title | xml_escape }}]]></image:title>
+{% if mysteries-dolmens.location %}<image:geo_location><![CDATA[{{ mysteries-dolmens.location }}]]></image:geo_location>{% endif %}
 </image:image>
 <lastmod>{{ mysteries-dolmens.last_modified_at | date_to_xmlschema }}</lastmod>
 </url>

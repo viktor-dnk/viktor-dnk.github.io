@@ -8,7 +8,7 @@ layout: null
 <loc>{{ toponymy.url | absolute_url }}</loc>
 <image:image>
 <image:loc>{{ toponymy.share-img | absolute_url }}</image:loc>
-<image:caption><![CDATA[{{ toponymy.img-caption | xml_escape }}]]></image:caption>
+<image:caption>{{ toponymy.img-caption | xml_escape }}</image:caption>
 <image:title><![CDATA[{{ toponymy.title | xml_escape }}]]></image:title>
 {% if toponymy.location %}<image:geo_location><![CDATA[{{ toponymy.location }}]]></image:geo_location>{% endif %}                  
 </image:image>

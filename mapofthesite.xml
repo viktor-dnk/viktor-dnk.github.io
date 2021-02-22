@@ -3,21 +3,21 @@ layout: null
 ---
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-    <url>
-    <loc>https://viktor-dnk.github.io/</loc>
-    </url>
-    <url>
-    <loc>https://viktor-dnk.github.io/aboutme/</loc>
-    </url>
-    <url>
-    <loc>https://viktor-dnk.github.io/thisblog/</loc>
-    </url>
-    <url>
-    <loc>https://viktor-dnk.github.io/search/</loc>
-    </url>
-    <url>
-    <loc>https://viktor-dnk.github.io/info/telegram/</loc>
-    </url> 
+<url>
+<loc>https://viktor-dnk.github.io/</loc>
+</url>
+<url>
+<loc>https://viktor-dnk.github.io/aboutme/</loc>
+</url>
+<url>
+<loc>https://viktor-dnk.github.io/thisblog/</loc>
+</url>
+<url>
+<loc>https://viktor-dnk.github.io/search/</loc>
+</url>
+<url>
+<loc>https://viktor-dnk.github.io/info/telegram/</loc>
+</url> 
 {% for toponymy in site.toponymy %}<url>
 <loc>{{ toponymy.url | absolute_url }}</loc>
 <lastmod>{{ toponymy.last_modified_at | date_to_xmlschema }}</lastmod>
@@ -38,7 +38,6 @@ layout: null
 {% if mysteries-dolmens.location %}<image:geo_location>{{ mysteries-dolmens.location }}</image:geo_location>{% endif %}
 </image:image>
 </url>{% endfor %}
-
 {% for category in site.categories %}{% capture category_link %} blog/{{ category[0] }}/index.html {% endcapture %}<url>
 <loc>{{ site.url }}/{{ category[0] }}/</loc>
 </url>{% endfor %}

@@ -4,5 +4,7 @@
     <image:image>
     <image:loc>{{page.share-img | absolute_urll }}</image:loc>
     <image:title>{{page.title | xml_escape }}</image:title>
+    {% if page.img-caption %}<image:caption>{{ page.img-caption }}</image:caption>{% endif %}
+    {% if page.location %}<image:geo_location>{{ page.location }}</image:geo_location>{% endif %}  
   </image:image>
 </url>

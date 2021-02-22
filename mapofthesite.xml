@@ -18,8 +18,7 @@ layout: null
     <url>
     <loc>https://viktor-dnk.github.io/info/telegram/</loc>
     </url> 
-{% for toponymy in site.toponymy %}
-<url>
+{% for toponymy in site.toponymy %}<url>
 <loc>{{ toponymy.url | absolute_url }}</loc>
 <lastmod>{{ toponymy.last_modified_at | date_to_xmlschema }}</lastmod>
 <image:image>
@@ -28,11 +27,8 @@ layout: null
 <image:title>{{ toponymy.title | xml_escape }}></image:title>
 {% if toponymy.location %}<image:geo_location>{{ toponymy.location }}</image:geo_location>{% endif %}                  
 </image:image>
-</url>
-{% endfor %}
-
-{% for mysteries-dolmens in site.mysteries-dolmens %}
-<url>
+</url>{% endfor %}
+{% for mysteries-dolmens in site.mysteries-dolmens %}<url>
 <loc>{{ mysteries-dolmens.url | absolute_url }}</loc>
 <lastmod>{{ mysteries-dolmens.last_modified_at | date_to_xmlschema }}</lastmod>
 <image:image>
@@ -41,13 +37,9 @@ layout: null
 <image:title>{{ mysteries-dolmens.title | xml_escape }}</image:title>
 {% if mysteries-dolmens.location %}<image:geo_location>{{ mysteries-dolmens.location }}</image:geo_location>{% endif %}
 </image:image>
-</url>
-{% endfor %}
+</url>{% endfor %}
 
-{% for category in site.categories %}
-{% capture category_link %} blog/{{ category[0] }}/index.html {% endcapture %}
-<url>
+{% for category in site.categories %}{% capture category_link %} blog/{{ category[0] }}/index.html {% endcapture %}<url>
 <loc>{{ site.url }}/{{ category[0] }}/</loc>
-</url>
-{% endfor %}
+</url>{% endfor %}
 </urlset>

@@ -138,7 +138,7 @@ mobile-theme-col: "#87ceeb"
 # --- Web Analytics Section --- #
 
 # Fill in your Google Analytics gtag.js ID to track your website using gtag
-gtag: "UA-169383032-2"
+#gtag: "UA-169383032-2"
 
 # Google Tag Manager ID
 gtm: "GTM-NJDL82R"

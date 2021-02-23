@@ -9,8 +9,8 @@ layout: null
         <image:image>
             <image:loc>{{ toponymy.share-img | absolute_url }}</image:loc>
             <image:title>{{ toponymy.title | xml_escape }}</image:title>
-            <image:caption></image:caption>
-            <image:geo_location></image:geo_location>
+            { % if img-caption % }<image:caption>{{ toponymy.img-caption | xml_escape }}</image:caption>{ % endif % }
+            { % if location % }<image:geo_location>{{ toponymy.location | xml_escape }}</image:geo_location>{ % endif % }
         </image:image>
         <xhtml:link rel="amphtml" href="{{ toponymy.url | absolute_url | replace:'.io/','.io/amp/' }}" />
         <lastmod>{{ toponymy.last_modified_at | date_to_xmlschema }}</lastmod>

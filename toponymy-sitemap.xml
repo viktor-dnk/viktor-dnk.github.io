@@ -7,5 +7,11 @@ layout: null
     <url>
         <loc>{{ toponymy.url | absolute_url }}</loc>
         <lastmod>{{ toponymy.last_modified_at | date_to_xmlschema }}</lastmod>
+        <image:image>
+            <image:loc>{{ toponymy.share-img | absolute_url }}</image:loc>
+            <image:caption>{{ toponymy.img-caption | xml_escape }}</image:caption>
+            <image:title>{{ toponymy.title | xml_escape }}></image:title>
+            {% if toponymy.location %}<image:geo_location>{{ toponymy.location }}</image:geo_location>{% endif %}                  
+        </image:image>
     </url>{% endfor %}
     </urlset>

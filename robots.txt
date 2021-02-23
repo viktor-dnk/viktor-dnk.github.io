@@ -42,5 +42,5 @@ Disallow: /page/2/
 Disallow: /page/3/
 Disallow: /page/4/
 
-Sitemap: https://viktor-dnk.github.io/mapofthesite
+Sitemap: https://viktor-dnk.github.io/sm
 Host: https://viktor-dnk.github.io/

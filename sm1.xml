@@ -12,7 +12,7 @@ layout: null
             {% if toponymy.img-caption %}<image:caption>{{ toponymy.img-caption | xml_escape }}</image:caption>{% endif %}
             {% if toponymy.location %}<image:geo_location>{{ toponymy.location | xml_escape }}</image:geo_location>{% endif %}
         </image:image>
-        <xhtml:link rel="amphtml" href="{{ toponymy.url | absolute_url | replace:'.io/','.io/amp/' }}" />
+        <xhtml:link rel="amphtml" href="{{ toponymy.url | absolute_url | replace:'.io/','.io/amp/' }}"/>
         <lastmod>{{ toponymy.last_modified_at | date_to_xmlschema }}</lastmod>
     </url>
     {% endfor %}

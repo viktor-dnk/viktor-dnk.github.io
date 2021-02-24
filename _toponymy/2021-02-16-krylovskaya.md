@@ -3,7 +3,7 @@ layout: post
 title: О станицах Крыловских Краснодарского края
 subtitle: © В.Н. Ковешников
 share-description: Как оказывается на картах Краснодарского края, изданных после 1961 г., можно обнаружить две станицы под названием Крыловская.
-cover-img: ["/img/toponymy/krylovskaya/cover.jpg" : "Карта Кавказского края (1877 г.) 1:210000"]
+cover-img: ["/img/toponymy/krylovskaya/cover.jpg" : "Карта генштаб 1:5000 (1986 г.)", "/img/toponymy/krylovskaya/cover1.jpg" : "Карта генштаб 1:10000 (1986 г.)"]
 share-img: /img/toponymy/krylovskaya/cover-s.jpg
 thumbnail-img: /img/toponymy/krylovskaya/thumb.webp
 language: ru

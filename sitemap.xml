@@ -33,12 +33,12 @@ layout: null
 {% capture category_link %} blog/{{ category[0] }}/index.html {% endcapture %}
     <url>
         <loc>{{ site.url }}/{{ category[0] }}/</loc>
-        <lastmod>{{ page.last_modified_at | date_to_xmlschema }}</lastmod>
+        <lastmod>{{ category.last_modified_at | date_to_xmlschema }}</lastmod>
     </url>
     {% endfor %}
     <url>
         <loc>https://viktor-dnk.github.io/</loc>
-        <lastmod>{{ page.last_modified_at | date_to_xmlschema }}</lastmod>
+        <lastmod>{{ site.last_modified_at | date_to_xmlschema }}</lastmod>
     </url>
     <url>
         <loc>https://viktor-dnk.github.io/aboutme/</loc>

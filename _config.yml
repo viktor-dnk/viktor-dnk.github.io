@@ -120,15 +120,6 @@ hover-col: "#0085A1"
 footer-col: "#87CEEB"
 footer-text-col: "#777777"
 footer-link-col: "#404040"
-
-# Alternatively, the navbar, footer, and page background can be set to an image
-# instead of colour
-
-#navbar-img: "/img/example-logos/main-cover.jpg"
-#footer-img: "/img/example-logos/main-cover.jpg"
-#page-img: "/img/example-logos/main-cover.jpg"
-
-# Suggest a colour for mobile browsers to use as the browser's theme. This is only supported by a few mobile browsers.
 mobile-theme-col: "#87ceeb"
 
 # For any extra customization, you can include additional CSS files in every page on your site. List any custom CSS files here
@@ -143,31 +134,12 @@ mobile-theme-col: "#87ceeb"
 # Google Tag Manager ID
 gtm: "GTM-NJDL82R"
 
-# Matomo (aka Piwik) Web statistics
-# Unent the following section to enable Matomo. The opt-out parameter controls
-# whether or not you want to allow users to opt out of tracking.
-#matomo:
-#  site_id: "9"
-#  uri: "demo.wiki.pro"
-#  opt-out: true
 
 # --- Comments --- #
 
 # To use Disqus comments, sign up to https://disqus.com and fill in your Disqus shortname (NOT the userid)
 #disqus: "https-viktor-dnk-github-io"
 
-# To use Facebook Comments, create a Facebook app and fill in the Facebook App ID
-#fb_comment_id: ""
-
-# To use Utterances comments: (0) uncomment the following section, (1) fill in
-# "repository" (make sure the repository is public), (2) Enable Issues in your repository,
-# (3) Install the Utterances app in your repository https://github.com/apps/utterances
-# See more details about the parameters below at https://utteranc.es/
-#utterances:
-#  repository: "viktor-dnk/viktor-dnk.github.io"
-#  issue-term: Заголовок
-#  theme: github-light
-#  label: blog-comments
 
 # To use Staticman comments, first invite `staticmanlab` as a collaborator to your repository and
 # accept the invitation by going to `https://staticman3.herokuapp.com/v3/connect/github/<username>/<repo-name>`.
@@ -254,8 +226,7 @@ compress_html:
 
 plugins:
   - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-redirect-from
+
 # Beautiful Jekyll / Dean Attali
 # 2fc73a3a967e97599c9763d05e564189
 

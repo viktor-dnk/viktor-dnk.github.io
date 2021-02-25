@@ -5,6 +5,8 @@ subtitle: Публикация посвящена памятникам архе�
 cover-img: /img/example-logos/main-cover.jpg
 share-img: /img/example-logos/main-cover4x3.jpg
 language: ru
+last_modified_at: 2021-02-24 02:30:00 +0300
+date: 2021-02-23 15:00
 ---
 {: .box-note}
 ## <br><br><br>Тайны тысячелетних дольменов Кубани

@@ -5,7 +5,6 @@ subtitle: Публикация посвящена памятникам архе�
 cover-img: /img/example-logos/main-cover.jpg
 share-img: /img/example-logos/main-cover4x3.jpg
 language: ru
-head-extra: _mysteries-dolmens.html
 ---
 {: .box-note}
 ## <br><br><br>Тайны тысячелетних дольменов Кубани

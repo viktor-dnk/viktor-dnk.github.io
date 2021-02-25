@@ -1,7 +1,7 @@
 User-agent: Googlebot
 Disallow: /sitemap*.*
 Allow: /manifest.json
-Allow: /amp/*.html
+Allow: /amp/*
 Allow: /assets/css/*.css
 Allow: /assets/js/*.js
 Allow: /img/*/*/*.webp
@@ -15,7 +15,6 @@ Allow: /assets/css/*.css
 Allow: /assets/js/*.js
 Allow: /img/*/*/*.webp
 Allow: /img/*/*/*.jpg
-Clean-param: utm_source&utm_medium&utm_term&utm_content&utm_campaign&yclid&gclid&_openstat&from /
 
 User-agent: *
 Allow: /manifest.json

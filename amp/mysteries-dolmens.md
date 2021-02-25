@@ -33,7 +33,7 @@ language: ru
     {% if thumbnail != "" %}
     <div class="mysteries-dolmens-image mysteries-dolmens-image-normal">
       <a href="{{ mysteries-dolmens.url | absolute_url }}" aria-label="Thumbnail">
-        <amp-img src="{{ thumbnail | absolute_url }}" alt="toponymy thumbnail" layout="intrinsic" width="220" height="220"></amp-img>
+        <amp-img src="{{ thumbnail | absolute_url }}" alt="mysteries-dolmens thumbnail" layout="intrinsic" width="220" height="220"></amp-img>
       </a>
     </div>
     {% endif %}
@@ -57,7 +57,7 @@ language: ru
     {% if thumbnail != "" %}
     <div class="mysteries-dolmens-image mysteries-dolmens-image-small">
       <a href="{{ mysteries-dolmens.url | absolute_url }}" aria-label="Thumbnail">
-        <amp-img src="{{ thumbnail | absolute_url }}" alt="toponymy thumbnail" layout="intrinsic" width="220" height="220"></amp-img>
+        <amp-img src="{{ thumbnail | absolute_url }}" alt="mysteries-dolmens thumbnail" layout="intrinsic" width="220" height="220"></amp-img>
       </a>
     </div>
     {% endif %}
@@ -66,7 +66,7 @@ language: ru
     {% if thumbnail != "" %}
     <div class="mysteries-dolmens-image mysteries-dolmens-image-short">
       <a href="{{ mysteries-dolmens.url | absolute_url }}" aria-label="Thumbnail">
-        <amp-img src="{{ thumbnail | absolute_url }}" alt="toponymy thumbnail" layout="intrinsic" width="220" height="220"></amp-img>
+        <amp-img src="{{ thumbnail | absolute_url }}" alt="mysteries-dolmens thumbnail" layout="intrinsic" width="220" height="220"></amp-img>
       </a>
     </div>
     {% endif %}

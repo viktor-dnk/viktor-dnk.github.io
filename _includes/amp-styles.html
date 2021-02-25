@@ -35,13 +35,13 @@
 <meta property="og:article:author" content="Ковешников В.Н.">
 <meta property="og:article:section" content="{{ page.categories }}">
 <meta property="og:article:tag" content="{{page.tags | sort | join: ", "}}">
-<meta property="og:url" content="{{ page.url | absolute_url }}">
+<meta property="og:url" content="{{ page.url | absolute_url | replace:'.io/amp/','.io/' }}">
 <meta property="og: article:published_time" content="{{ page.date | date_to_xmlschema }}">
 <meta property="og: article:modified_time" content="{{ page.last_modified_at | date_to_xmlschema }}">
 <link rel="canonical" href="{{ page.url | absolute_url }}">
 {% else %}
 <meta property="og:type" content="website">
-<meta property="og:url" content="{{ page.url | absolute_url | strip_index }}">
+<meta property="og:url" content="{{ page.url | absolute_url | replace:'.io/amp/','.io/' }}">
 {% endif %}
 
 {% if img != "" and img != site.avatar %}

@@ -1,6 +1,7 @@
 User-agent: Googlebot
 Disallow: /sitemap*.*
 Allow: /manifest.json
+Allow: /amp/*.html
 Allow: /assets/css/*.css
 Allow: /assets/js/*.js
 Allow: /img/*/*/*.webp
@@ -22,6 +23,7 @@ Allow: /assets/css/*.css
 Allow: /assets/js/*.js
 Allow: /img/*/*/*.webp
 Allow: /img/*/*/*.jpg
+Disallow: /amp/*
 Disallow: /sitemap*.*
 Disallow: /*utm
 Disallow: /*clid=

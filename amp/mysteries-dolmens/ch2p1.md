@@ -24,6 +24,8 @@ _В этой главе представлена информация, где н
 - [Волконский дольмен-монолит](#2-1-6)  
 - [О дольменах, расположенных в населённых пунктах городского округа Сочи](#2-1-7)
 
+<ul class="pagination blog-pager"><li class="page-item previous"><figure><a class="page-link" href="{{ page.url | absolute_url | strip_index | replace:'/amp/','/' }}" data-toggle="tooltip" data-placement="top" title="Перейти на основную версию сайта">Читать статью на сайте автора</a></figure></li></ul>
+
 {: .box-note}
 **<a name="2-1-1"></a>Где находятся самые близкие к городу Краснодару дольмены?**
 

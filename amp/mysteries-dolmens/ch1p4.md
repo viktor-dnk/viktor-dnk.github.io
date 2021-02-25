@@ -16,6 +16,8 @@ social-share: true
 
 _«История вопроса о вариантах происхождения западно-кавказских мегалитических памятников полна ярких примеров дезориентации исследователей в историческом пространстве и времени благодаря заблуждениям относительно возраста дольменов»_
 
+<ul class="pagination blog-pager"><li class="page-item previous"><figure><a class="page-link" href="{{ page.url | absolute_url | strip_index | replace:'/amp/','/' }}" data-toggle="tooltip" data-placement="top" title="Перейти на основную версию сайта">Читать статью на сайте автора</a></figure></li></ul>
+
 <figure>
 	<a title="Реконструкция дольмена  № 1 у села Эшера Абхазия. Покровная плита дольмена имела вес более 50 тонн" href="/img/mysteries-dolmens/1-4/4-1.webp"><amp-img alt="Реконструкция дольмена  № 1 у села Эшера Абхазия. Покровная плита дольмена имела вес более 50 тонн" layout="intrinsic" width="693" height="388" src="/img/mysteries-dolmens/1-4/4-1-s.webp"></amp-img></a>
 	<figcaption>Реконструкция дольмена  № 1 у села Эшера Абхазия. Покровная плита дольмена имела вес более 50 тонн <a href="#1.4.-12">[12]</a></figcaption>

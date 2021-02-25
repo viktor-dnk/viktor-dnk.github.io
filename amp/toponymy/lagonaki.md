@@ -15,6 +15,8 @@ social-share: true
 {: .box-note}
 ## <br><br><br>Что мы знаем о Лагонаки? <br>© В.Н. Ковешников
 
+<ul class="pagination blog-pager"><li class="page-item previous"><figure><a class="page-link" href="{{ page.url | absolute_url | strip_index | replace:'/amp/','/' }}" data-toggle="tooltip" data-placement="top" title="Перейти на основную версию сайта">Читать статью на сайте автора</a></figure></li></ul>
+
 <figure>
 	<a title="Схема транспортной доступности Лагонакского нагорья" href="/img/toponymy/lago-naki/01.webp"><amp-img alt="Схема транспортной доступности Лагонакского нагорья" layout="intrinsic" width="480" height="578" src="/img/toponymy/lago-naki/01-s.webp"></amp-img></a>
 	<figcaption>Схема транспортной доступности Лагонакского нагорья (цифрами показано примерное расстояние в км между населенными пунктами) </figcaption>

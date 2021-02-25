@@ -16,6 +16,8 @@ social-share: true
 {: .box-note}
 # Оглавление
 
+<ul class="pagination blog-pager"><li class="page-item previous"><figure><a class="page-link" href="{{ page.url | absolute_url | strip_index | replace:'/amp/','/' }}" data-toggle="tooltip" data-placement="top" title="Перейти на основную версию сайта">Читать статью на сайте автора</a></figure></li></ul>
+
 [**Введение:**](/mysteries-dolmens/intro/)
 <figcaption>В этой публикации автор, используя данные начиная с ХIХ в. до последних открытий археологов и исследователей древностей Кубани в ХХI в., делает попытку найти правдивые ответы на множество вопросов о загадочной культуре строителей дольменов Западного Кавказа.</figcaption>
 - [Географическое положение дольменов Кубани и их общее количество;](/mysteries-dolmens/intro/#%D0%B2%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B51)

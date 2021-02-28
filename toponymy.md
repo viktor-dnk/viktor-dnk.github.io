@@ -6,8 +6,6 @@ cover-img: /img/example-logos/main-cover.jpg
 share-img: /img/example-logos/main-cover4x3.jpg
 language: ru
 head-extra: _toponymy.html
-date: 2021-01-02 18:30
-last_modified_at: 2021-02-28 17:00:00 +0300
 ---
 {: .box-note}
 ## Очерки по топонимике

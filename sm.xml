@@ -29,14 +29,20 @@ layout: null
     </url>
     {% endfor %}
 
-{% for category in site.categories %}
-{% capture category_link %} blog/{{ category[0] }}/index.html {% endcapture %}
     <url>
-        <loc>{{ site.url }}/{{ category[0] }}/</loc>
+        <loc>https://viktor-dnk.github.io/mysteries-dolmens/</loc>
+        <lastmod>{{ page.last_modified_at | date_to_xmlschema }}</lastmod>
     </url>
-    {% endfor %}
+    <url>
+        <loc>https://viktor-dnk.github.io/info/</loc>
+    </url>
+    <url>
+        <loc>https://viktor-dnk.github.io/toponymy/</loc>
+        <lastmod>{{ page.last_modified_at | date_to_xmlschema }}</lastmod>
+    </url>
     <url>
         <loc>https://viktor-dnk.github.io/</loc>
+        <lastmod>{{ page.last_modified_at | date_to_xmlschema }}</lastmod>
     </url>
     <url>
         <loc>https://viktor-dnk.github.io/aboutme/</loc>

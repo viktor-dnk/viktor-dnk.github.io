@@ -6,6 +6,8 @@ cover-img: /img/example-logos/main-cover.jpg
 share-img: /img/example-logos/main-cover4x3.jpg
 language: ru
 head-extra: _mysteries-dolmens.html
+date: 2020-09-09 18:30
+last_modified_at: 2021-02-27 17:00:00 +0300
 ---
 {: .box-note}
 ## Тайны тысячелетних дольменов Кубани

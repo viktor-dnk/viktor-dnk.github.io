@@ -31,18 +31,18 @@ layout: null
 
     <url>
         <loc>https://viktor-dnk.github.io/mysteries-dolmens/</loc>
-        <lastmod>{{ page.last_modified_at | date_to_xmlschema }}</lastmod>
+        <lastmod>2021-02-27T17:00:00+03:00</lastmod>
     </url>
     <url>
         <loc>https://viktor-dnk.github.io/info/</loc>
     </url>
     <url>
         <loc>https://viktor-dnk.github.io/toponymy/</loc>
-        <lastmod>{{ page.last_modified_at | date_to_xmlschema }}</lastmod>
+        <lastmod>2021-02-28T17:00:00+03:00</lastmod>
     </url>
     <url>
         <loc>https://viktor-dnk.github.io/</loc>
-        <lastmod>{{ page.last_modified_at | date_to_xmlschema }}</lastmod>
+        <lastmod>2021-02-28T17:00:00+03:00</lastmod>
     </url>
     <url>
         <loc>https://viktor-dnk.github.io/aboutme/</loc>

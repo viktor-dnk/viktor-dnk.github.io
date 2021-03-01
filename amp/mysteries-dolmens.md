@@ -83,7 +83,7 @@ date: 2021-02-23 15:00
     <div class="blog-tags">
       <span>Метки:</span>
       {% for tag in mysteries-dolmens.tags %}
-      <a href="{{ '/tags' | absolute_url }}#{{- tag -}}">{{- tag -}}</a>
+      <a href="{{ '/tags/' | absolute_url }}#{{- tag -}}">{{- tag -}}</a>
       {% endfor %}
     </div>
     {% endif %}

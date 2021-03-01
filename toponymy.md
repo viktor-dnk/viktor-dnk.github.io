@@ -84,7 +84,7 @@ _«Даже самое удачное толкование истории сло
     <div class="blog-tags">
       <span>Метки:</span>
       {% for tag in toponymy.tags %}
-      <a href="{{ '/tags' | absolute_url }}#{{- tag -}}">{{- tag -}}</a>
+      <a href="{{ '/tags/' | absolute_url }}#{{- tag -}}">{{- tag -}}</a>
       {% endfor %}
     </div>
     {% endif %}

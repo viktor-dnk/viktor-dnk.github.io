@@ -6,6 +6,8 @@ cover-img: /img/example-logos/main-cover.jpg
 share-img: /img/example-logos/main-cover4x3.jpg
 language: ru
 head-extra: _toponymy.html
+last_modified_at: 2021-02-27 17:00:00 +0300
+date: 2021-01-02 16:00
 ---
 _«Даже самое удачное толкование истории слова может быть пересмотрено, как только найдутся новые данные. Ничего страшного в этом нет» (Л.В. Успенский, 1960 г.)_
 

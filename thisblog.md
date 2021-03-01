@@ -7,6 +7,8 @@ share-img: /img/example-logos/main-cover4x3.jpg
 language: ru
 sitemap: false
 tags: [информация]
+last_modified_at: 2021-02-27 17:00:00 +0300
+date: 2020-09-08 16:00
 ---
 - [X]  _9 сентября 2020:_ Начинаем оформление цикла очерков [о загадочных дольменах Западного Кавказа][bfc69183]
 

@@ -209,6 +209,7 @@ exclude:
   - LICENSE
   - README.md
   - screenshot.png
+  - regex
   - docs/
 compress_html:
   clippings: all

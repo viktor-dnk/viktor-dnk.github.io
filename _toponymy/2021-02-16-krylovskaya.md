@@ -3,7 +3,7 @@ layout: post
 title: О станицах Крыловских Краснодарского края
 subtitle: © В.Н. Ковешников
 share-description: Как оказывается на картах Краснодарского края, изданных после 1961 г., можно обнаружить две станицы под названием Крыловская.
-cover-img: ["/img/toponymy/krylovskaya/cover.jpg" : "Карта генштаб 1:5000 (1986 г.), здесь значится станица Крыловская и станица Крыловская бывшая Екатериновская", "/img/toponymy/krylovskaya/cover1.jpg" : "Карта генштаб 1:10000 (1986 г.), здесь значится станица Крыловская и станица Крыловская бывшая Екатериновская"]
+cover-img: ["/img/toponymy/krylovskaya/cover3.jpg" : "Станица Крыловская Ленинградского района, памятник В.И. Ленину (https://www.komandirovka.ru).", "/img/toponymy/krylovskaya/cover4.jpg" : "Станица Крыловская Крыловского района, административные здания (http://www.krilovskaya.ru/)."]
 share-img: /img/toponymy/krylovskaya/cover-s.jpg
 thumbnail-img: /img/toponymy/krylovskaya/thumb.webp
 language: ru

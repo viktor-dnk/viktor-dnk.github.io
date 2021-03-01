@@ -5,17 +5,17 @@ author: © Ковешников Виктор
 
 navbar-links:
   Разделы сайта:
-    - Топонимика: "/toponymy"
-    - Тайны дольменов: "/mysteries-dolmens"  
+    - Топонимика: "/toponymy/"
+    - Тайны дольменов: "/mysteries-dolmens/"  
   Информация:
-    - Об этом блоге: "thisblog"
-    - Об авторе: "aboutme"
+    - Об этом блоге: "/thisblog/"
+    - Об авторе: "/aboutme/"
     - Случайный пост: "random"
   Полезные ссылки:
     - Территория Поиска: "http://iskatelklada.tuapse.ru"
     - Российское географическое общество: "https://www.rgo.ru/ru/article/prezentaciya-knigi-kratkiy-toponimicheskiy-slovar-naselennye-punkty-kubani-0"
     - Российская государственная библиотека: "https://search.rsl.ru/ru/record/01008635856"
-  🔍: "search"
+  🔍: "/search/"
  # Author's home: "https://deanattali.com"
 
 collections:

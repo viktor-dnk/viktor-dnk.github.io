@@ -12,7 +12,6 @@ readtime: false
 share-description: Общий список использованных источников и литературы.
 share-img: /img/mysteries-dolmens/list/cover-s.jpg
 img-caption: Karte des Kaukasischen Isthmus 1856
-social-share: true
 ---
 {: .box-note}
 ## Список основных использованных источников и литературы (общий)

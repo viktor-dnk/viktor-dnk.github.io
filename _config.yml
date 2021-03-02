@@ -205,7 +205,7 @@ defaults:
   -
     scope:
       path: ""
-      type: toponymy
+      type: [toponymy, mysteries-dolmens]
     values:
       layout: post
       comments: false

@@ -202,6 +202,15 @@ defaults:
     values:
       sitemap: false
       layout: amp
+  -
+    scope:
+      path: "toponymy"
+    values:
+      layout: post
+      comments: false
+      social-share: true
+      readtime: true
+      language: ru      
 
 # Exclude these files from production site
 exclude:

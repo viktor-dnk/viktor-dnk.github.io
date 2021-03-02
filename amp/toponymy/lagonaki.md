@@ -1,5 +1,4 @@
 ---
-layout: amp
 title: Что мы знаем о Лагонаки?
 subtitle: © В.Н. Ковешников
 share-title: Топоним Лагонаки

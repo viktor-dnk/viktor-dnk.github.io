@@ -1,5 +1,4 @@
 ---
-layout: amp
 title: Топонимика
 subtitle: Очерки по топонимике Кубани
 cover-img: /img/example-logos/main-cover.jpg

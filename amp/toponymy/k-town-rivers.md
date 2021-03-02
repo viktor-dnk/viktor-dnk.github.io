@@ -1,5 +1,4 @@
 ---
-layout: amp
 title: Реки Краснодара
 subtitle: © В.Н. Ковешников
 share-title: Гидронимы Краснодара

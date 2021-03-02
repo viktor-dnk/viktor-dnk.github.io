@@ -168,7 +168,7 @@ markdown: kramdown
 highlighter: rouge
 permalink: /:categories/:title/
 paginate: 10
-paginate_path: ?p:num/
+paginate_path: index.html?p:num
 
 kramdown:
   input: GFM

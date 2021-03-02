@@ -16,7 +16,6 @@ sitemap: false
 tags:
 - информация
 description: Общий список использованных источников и литературы.
-head-extra: _noindex.html
 img-caption: Karte des Kaukasischen Isthmus 1856
 social-share: true
 ---

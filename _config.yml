@@ -205,13 +205,24 @@ defaults:
   -
     scope:
       path: ""
-      type: [toponymy, mysteries-dolmens]
+      type: toponymy
     values:
       layout: post
       comments: false
       social-share: true
       readtime: true
-      language: ru      
+      language: ru   
+  -
+    scope:
+      path: ""
+      type: mysteries-dolmens
+    values:
+      layout: post
+      comments: false
+      social-share: true
+      readtime: true
+      language: ru   
+
 
 # Exclude these files from production site
 exclude:

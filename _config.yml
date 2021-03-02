@@ -204,7 +204,8 @@ defaults:
       layout: amp
   -
     scope:
-      path: "toponymy"
+      path: ""
+      type: toponymy
     values:
       layout: post
       comments: false

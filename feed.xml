@@ -22,7 +22,7 @@ layout: null
       <item>
         <title>{{ post.title | xml_escape }}</title>
         <description>
-          {% if post.share-image %}&lt;p&gt;&lt;img src="{{ post.share-image | prepend: site.baseurl | prepend: site.url }}" alt="{{ post.title }}" class="webfeedsFeaturedVisual"&gt;&lt;/p&gt;{% endif %}{{ post.share-description }}
+          {% if post.share-img %}&lt;p&gt;&lt;img src="{{ post.share-img | prepend: site.baseurl | prepend: site.url }}" alt="{{ post.title }}" class="webfeedsFeaturedVisual"&gt;&lt;/p&gt;{% endif %}{{ post.share-description }}
         </description>
         <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
         <link>{{ post.url | absolute_url }}</link>

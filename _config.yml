@@ -16,7 +16,7 @@ navbar-links:
     - Российское географическое общество: "https://www.rgo.ru/ru/article/prezentaciya-knigi-kratkiy-toponimicheskiy-slovar-naselennye-punkty-kubani-0"
     - Российская государственная библиотека: "https://search.rsl.ru/ru/record/01008635856"
   🔍: "/search/"
- # Author's home: "https://deanattali.com"
+# Author's home: "https://deanattali.com"
 
 collections:
   mysteries-dolmens:

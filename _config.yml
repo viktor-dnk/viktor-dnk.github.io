@@ -190,7 +190,7 @@ defaults:
       path: "" # any file that's not a post will be a "page" layout by default
     values:
       layout: "page"
-      sitemap: "false"
+      sitemap: false
   -
     scope:
       path: "page"
@@ -201,6 +201,17 @@ defaults:
       path: "amp"
     values:
       sitemap: false
+      layout: amp
+  -
+    scope:
+      path: "toponymy"
+      type: toponymy
+    values:
+      layout: post
+      comments: false
+      social-share: true
+      readtime: true
+      language: ru      
 
 # Exclude these files from production site
 exclude:

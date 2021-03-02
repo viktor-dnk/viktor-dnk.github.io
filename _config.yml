@@ -16,7 +16,7 @@ navbar-links:
     - Российское географическое общество: "https://www.rgo.ru/ru/article/prezentaciya-knigi-kratkiy-toponimicheskiy-slovar-naselennye-punkty-kubani-0"
     - Российская государственная библиотека: "https://search.rsl.ru/ru/record/01008635856"
   🔍: "/search/"
-# Author's home: "https://deanattali.com"
+ # Author's home: "https://deanattali.com"
 
 collections:
   mysteries-dolmens:
@@ -183,6 +183,8 @@ defaults:
       layout: "post"
       comments: false  # add comments to all blog posts
       social-share: true # add social media sharing buttons to all blog posts
+      readtime: true
+      language: ru
   -
     scope:
       path: "" # any file that's not a post will be a "page" layout by default
@@ -199,17 +201,7 @@ defaults:
       path: "amp"
     values:
       sitemap: false
-  -
-    scope:
-      path: ""
-      type: "toponymy"
-    values:
-      layout: "post"
-      comments: false
-      social-share: true
-      language: "ru"
-      readtime: true
-      
+
 # Exclude these files from production site
 exclude:
   - CHANGELOG.md

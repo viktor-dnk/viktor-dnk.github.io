@@ -7,8 +7,6 @@ cover-img: /img/mysteries-dolmens/222.jpg
 share-img: /img/mysteries-dolmens/222-s.jpg
 date: 2020-09-14 15:00:00 +0300
 last_modified_at: 2021-02-04 17:00:00 +0300
-sitemap: false
-social-share: true
 ---
 {: .box-note}
 ## <br><br><br>1.4. Когда строили дольмены?

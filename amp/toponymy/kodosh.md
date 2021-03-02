@@ -8,8 +8,6 @@ cover-img: /img/toponymy/kodosh/cover.jpg
 share-img: /img/toponymy/kodosh/cover-s.jpg
 last_modified_at: 2021-02-10 02:30:00 +0300
 date: 2021-01-07 19:00
-sitemap: false
-social-share: true
 ---
 {: .box-note}
 ## <br><br><br>Топоним Кодош на карте Кубани <br>© В.Н. Ковешников

@@ -8,8 +8,6 @@ cover-img: /img/toponymy/primorsko-akhtarsk/cover.jpg
 share-img: /img/toponymy/primorsko-akhtarsk/cover-s.jpg
 last_modified_at: 2021-02-10 02:30:00 +0300
 date: 2021-01-09 16:00
-sitemap: false
-social-share: true
 ---
 {: .box-note}
 ## <br><br><br>Приморско-Ахтарск … Ахтари … Ахтар-Бахтар … Батиар <br>© В.Н. Ковешников

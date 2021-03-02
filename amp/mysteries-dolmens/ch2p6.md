@@ -8,8 +8,6 @@ cover-img: /img/mysteries-dolmens/2-6/cover.jpg
 share-img: /img/mysteries-dolmens/2-6/cover-s.jpg
 date: 2020-10-23 15:00:00 +0300
 last_modified_at: 2021-02-04 17:00:00 +0300
-sitemap: false
-social-share: true
 ---
 {: .box-note}
 ## <br><br><br>2.6. К мегалитам Мостовского района

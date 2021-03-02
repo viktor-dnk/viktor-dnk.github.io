@@ -200,9 +200,7 @@ defaults:
     scope:
       path: "amp"
     values:
-      sitemap: false
       layout: amp
-      sitemap: false
       social-share: true
   -
     scope:

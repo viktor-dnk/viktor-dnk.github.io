@@ -7,8 +7,6 @@ cover-img: /img/mysteries-dolmens/outro/cover.jpg
 share-img: /img/mysteries-dolmens/outro/cover-s.jpg
 date: 2020-12-04 15:40 +0300
 last_modified_at: 2021-02-04 17:00:00 +0300
-sitemap: false
-social-share: true
 ---
 {: .box-note}
 ## <br><br><br>Заключение

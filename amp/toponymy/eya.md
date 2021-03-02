@@ -8,8 +8,6 @@ cover-img: /img/toponymy/eya/cover.jpg
 share-img: /img/toponymy/eya/cover-s.jpg
 last_modified_at: 2021-02-10 02:30:00 +0300
 date: 2021-01-07 17:00
-sitemap: false
-social-share: true
 ---
 {: .box-note}
 ## <br><br><br>О спорных вопросах в описании реки Ея и этимологии названия <br>© В.Н. Ковешников

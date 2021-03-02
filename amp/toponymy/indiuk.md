@@ -8,8 +8,6 @@ cover-img: /img/toponymy/turkey/cover.jpg
 share-img: /img/toponymy/turkey/cover-s.jpg
 last_modified_at: 2021-02-10 02:30:00 +0300
 date: 2021-01-04 23:00
-sitemap: false
-social-share: true
 ---
 {: .box-note}
 ## <br><br><br>Гора Индюк до ХХ века называлась Чилипси <br>© В.Н. Ковешников

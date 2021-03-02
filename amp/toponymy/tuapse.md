@@ -8,8 +8,6 @@ cover-img: /img/toponymy/2apse/cover.jpg
 share-img: /img/toponymy/2apse/cover-s.jpg
 last_modified_at: 2021-02-22 17:00:00 +0300
 date: 2021-02-22 16:00
-sitemap: false
-social-share: true
 ---
 {: .box-note}
 ## <br><br><br>Из истории топонима Туапсе. А что он означает? <br>© В.Н. Ковешников

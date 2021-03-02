@@ -8,8 +8,6 @@ cover-img: /img/toponymy/krylovskaya/cover.jpg
 share-img: /img/toponymy/krylovskaya/cover-s.jpg
 last_modified_at: 2021-02-16 18:35:00 +0300
 date: 2021-01-07 19:00
-sitemap: false
-social-share: true
 ---
 {: .box-note}
 ## <br><br><br>О станицах Крыловских Краснодарского края

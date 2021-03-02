@@ -7,26 +7,26 @@ includeInSearch: false
 	{% for mysteries-dolmens in site.mysteries-dolmens %},
 	{
 	"type": "page",
-	"title": "{{ p.title }}",
-	"categories": [{% for cat in p.categories %}"{{ cat }}"{% unless forloop.last %},{% endunless %}{% endfor %}],	
-	"tags": [{% for tag in p.tags %}"{{ tag }}"{% unless forloop.last %},{% endunless %}{% endfor %}],
-	"url": "{{ p.url }}",
-	"content":{{ p.content | strip_html | json_escape | jsonify}},
-	"excerpt": {{ p.excerpt | rstrip | json_escape | jsonify }},
-	"description": {{ p.description | json_escape | jsonify }}
+	"title": "{{ mysteries-dolmens.title }}",
+	"categories": [{% for cat in mysteries-dolmens.categories %}"{{ cat }}"{% unless forloop.last %},{% endunless %}{% endfor %}],	
+	"tags": [{% for tag in mysteries-dolmens.tags %}"{{ tag }}"{% unless forloop.last %},{% endunless %}{% endfor %}],
+	"url": "{{ mysteries-dolmens.url }}",
+	"content":{{ mysteries-dolmens.content | strip_html | json_escape | jsonify}},
+	"excerpt": {{ mysteries-dolmens.excerpt | rstrip | json_escape | jsonify }},
+	"description": {{ mysteries-dolmens.description | json_escape | jsonify }}
     }
     {% endfor %}
 	
 	{% for toponymy in site.toponymy %},
 	{
 	"type": "page",
-	"title": "{{ p.title }}",
-	"categories": [{% for cat in p.categories %}"{{ cat }}"{% unless forloop.last %},{% endunless %}{% endfor %}],	
-	"tags": [{% for tag in p.tags %}"{{ tag }}"{% unless forloop.last %},{% endunless %}{% endfor %}],
-	"url": "{{ p.url }}",
-	"content":{{ p.content | strip_html | json_escape | jsonify}},
-	"excerpt": {{ p.excerpt | rstrip | json_escape | jsonify }},
-	"description": {{ p.description | json_escape | jsonify }}
+	"title": "{{ toponymy.title }}",
+	"categories": [{% for cat in toponymy.categories %}"{{ cat }}"{% unless forloop.last %},{% endunless %}{% endfor %}],	
+	"tags": [{% for tag in toponymy.tags %}"{{ tag }}"{% unless forloop.last %},{% endunless %}{% endfor %}],
+	"url": "{{ toponymy.url }}",
+	"content":{{ toponymy.content | strip_html | json_escape | jsonify}},
+	"excerpt": {{ toponymy.excerpt | rstrip | json_escape | jsonify }},
+	"description": {{ toponymy.description | json_escape | jsonify }}
 	}
 	{% endfor %}
 ]

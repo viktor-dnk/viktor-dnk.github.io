@@ -25,6 +25,10 @@ collections:
   toponymy:
     output: true
     permalink: /toponymy/:title/
+    comments: false
+    social-share: true
+    readtime: true
+    language: ru    
   info:
     output: true
     permalink: /info/:title/

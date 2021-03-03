@@ -22,6 +22,8 @@ date: 2020-09-08 16:00
 
 - [ ]  _7 января 2021:_ Наполняем раздел ["Топонимика"][4c3b19e6] свежими статьями
 
+<ul class="pagination blog-pager"><li class="page-item previous"><figure><a class="page-link" href="/info/" data-toggle="tooltip" data-placement="top" title="Инфо">Перейти в раздел "Информация"</a></figure></li></ul>
+
   [60031656]: /mysteries-dolmens/outro/ "Заключение"
   [bfc69183]: /mysteries-dolmens/intro/ "Тайны тысячелетних дольменов Кубани"
   [a85077ec]: /info/telegram/ "Информационный канал в поддержку этого блога"

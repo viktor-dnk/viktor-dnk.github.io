@@ -74,15 +74,15 @@ rss-description: Ковешников В.Н. - блог географа-кра�
 # Select which social network share links to show in posts
 share-links-active:
   vk: true
-  ok: false
-  whatsapp: false
-  telegram: false
+  ok: true
+  whatsapp: true
+  telegram: true
   facebook: true
   twitter: true
   linkedin: true
   tumblr: true
   pinterest: true
-  email: false
+  
   
 
 
@@ -211,7 +211,8 @@ defaults:
       comments: false
       social-share: true
       readtime: true
-      language: ru   
+      language: ru
+      share-img: {{ toponymy.thumbnail-img | replace: 'thumb.webp', 'cover-s.jpg'}} 
   -
     scope:
       path: ""

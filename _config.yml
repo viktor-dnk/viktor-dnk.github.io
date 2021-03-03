@@ -212,7 +212,6 @@ defaults:
       social-share: true
       readtime: true
       language: ru
-      share-img: {{ toponymy.thumbnail-img | replace: 'thumb.webp', 'cover-s.jpg' }} 
   -
     scope:
       path: ""

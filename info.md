@@ -27,14 +27,14 @@ language: ru
     {% if site.feed_show_excerpt == false %}
     {% if thumbnail != "" %}
     <div class="post-image post-image-normal">
-      <a href="{{ page.url | absolute_url }}" aria-label="Thumbnail">
+      <a href="{{ info.url | absolute_url }}" aria-label="Thumbnail">
         <img src="{{ thumbnail | absolute_url }}" alt="page thumbnail">
       </a>
     </div>
     {% endif %}
     {% endif %}
 
-    <a href="{{ page.url | absolute_url }}">
+    <a href="{{ info.url | absolute_url }}">
       <h2 class="post-title">{{ page.title }}</h2>
 
       {% if page.subtitle %}
@@ -51,7 +51,7 @@ language: ru
 
     {% if thumbnail != "" %}
     <div class="post-image post-image-small">
-      <a href="{{ page.url | absolute_url }}" aria-label="Thumbnail">
+      <a href="{{ info.url | absolute_url }}" aria-label="Thumbnail">
         <img src="{{ thumbnail | absolute_url }}" alt="page thumbnail">
       </a>
     </div>
@@ -60,7 +60,7 @@ language: ru
     {% unless site.feed_show_excerpt == false %}
     {% if thumbnail != "" %}
     <div class="post-image post-image-short">
-      <a href="{{ page.url | absolute_url }}" aria-label="Thumbnail">
+      <a href="{{ info.url | absolute_url }}" aria-label="Thumbnail">
         <img src="{{ thumbnail | absolute_url }}" alt="page thumbnail">
       </a>
     </div>
@@ -68,7 +68,7 @@ language: ru
 
     <div class="post-entry">
       {{ page.description }}
-      <a href="{{ page.url | absolute_url }}" class="post-read-more">[Читать&nbsp;далее]</a>
+      <a href="{{ info.url | absolute_url }}" class="post-read-more">[Читать&nbsp;далее]</a>
     </div>
     {% endunless %}
 

@@ -1,8 +1,4 @@
 {% if paginator.total_pages > 1 %}
-    {% if paginator.previous_page %}
-<link rel="prev" href="{{ paginator.previous_page_path | absolute_url }}">
-    {% endif %}
-    {% if paginator.next_page %}
-<link rel="next" href="{{ paginator.next_page_path | absolute_url }}">
-    {% endif %}
+{% if paginator.previous_page %}<link rel="prev" href="{{ paginator.previous_page_path | absolute_url }}">{% endif %}
+{% if paginator.next_page %}<link rel="next" href="{{ paginator.next_page_path | absolute_url }}">{% endif %}
 {% endif %}

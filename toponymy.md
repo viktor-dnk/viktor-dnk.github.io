@@ -5,7 +5,6 @@ subtitle: Очерки по топонимике Кубани
 cover-img: /img/example-logos/main-cover.jpg
 share-img: /img/example-logos/main-cover4x3.jpg
 language: ru
-head-extra: _toponymy.html
 last_modified_at: 2021-02-27 17:00:00 +0300
 date: 2021-01-02 16:00
 ---
@@ -14,9 +13,9 @@ _«Даже самое удачное толкование истории сло
 Видимо, многие задумывались, что означают географические названия?  **Топонимика** (от греческих слов _topos_ - «место» и _onyma_ - «имя, название», то есть «имя места») раздел ономастики, изучающий историю происхождения географических названий: населенных пунктов, морей, рек, озер, гор и др. Термин географическое название, является синонимом слова топоним. **Ономастика** (от греческого _onomastikys_ - «искусство давать имена») наука, изучающая имена собственные всех типов и их происхождение.
 Изучение происхождения топонимов – дело не из простых, и иногда попытки объяснить многие из них носят случайный характер. Но как правило, перевод топонимов требует учета многих факторов, в том числе географических, исторических и языковых особенностей, а также использования максимального количества различных карт и литературы. Для выявления истории происхождения некоторых топонимов, приходится проводить камеральные исследования, которые «превращаются» в очерки. Помогает решать непростые вопросы топонимики **историческая география** — дисциплина, изучающая конкретную географию прошлого той или иной территории.
 
-<div class="toponymy-list">
+<div class="posts-list">
   {% for toponymy in site.toponymy %}
-  <article class="toponymy-preview">
+  <article class="post-preview">
 
     {%- capture thumbnail -%}
       {% if toponymy.thumbnail-img %}
@@ -34,49 +33,49 @@ _«Даже самое удачное толкование истории сло
 
     {% if site.feed_show_excerpt == false %}
     {% if thumbnail != "" %}
-    <div class="toponymy-image toponymy-image-normal">
+    <div class="post-image post-image-normal">
       <a href="{{ toponymy.url | absolute_url }}" aria-label="Thumbnail">
-        <img src="{{ thumbnail | absolute_url }}" alt="toponymy thumbnail">
+        <img src="{{ thumbnail | absolute_url }}" alt="page thumbnail">
       </a>
     </div>
     {% endif %}
     {% endif %}
 
     <a href="{{ toponymy.url | absolute_url }}">
-      <h2 class="toponymy-title">{{ toponymy.title }}</h2>
+      <h2 class="post-title">{{ toponymy.title }}</h2>
 
       {% if toponymy.subtitle %}
-        <h3 class="toponymy-subtitle">
+        <h3 class="post-subtitle">
         {{ toponymy.subtitle }}
         </h3>
       {% endif %}
     </a>
 
-    <p class="toponymy-meta">
+    <p class="post-meta">
       {% assign date_format = site.date_format | default: "%B %-d, %Y" %}
       Дата публикации {{ toponymy.date | date: date_format }}
     </p>
 
     {% if thumbnail != "" %}
-    <div class="toponymy-image toponymy-image-small">
+    <div class="post-image post-image-small">
       <a href="{{ toponymy.url | absolute_url }}" aria-label="Thumbnail">
-        <img src="{{ thumbnail | absolute_url }}" alt="toponymy thumbnail">
+        <img src="{{ thumbnail | absolute_url }}" alt="page thumbnail">
       </a>
     </div>
     {% endif %}
 
     {% unless site.feed_show_excerpt == false %}
     {% if thumbnail != "" %}
-    <div class="toponymy-image toponymy-image-short">
+    <div class="post-image post-image-short">
       <a href="{{ toponymy.url | absolute_url }}" aria-label="Thumbnail">
-        <img src="{{ thumbnail | absolute_url }}" alt="toponymy thumbnail">
+        <img src="{{ thumbnail | absolute_url }}" alt="page thumbnail">
       </a>
     </div>
     {% endif %}
 
-    <div class="toponymy-entry">
+    <div class="post-entry">
       {{ toponymy.description }}
-      <a href="{{ toponymy.url | absolute_url }}" class="toponymy-read-more">[Читать&nbsp;далее]</a>
+      <a href="{{ toponymy.url | absolute_url }}" class="post-read-more">[Читать&nbsp;далее]</a>
     </div>
     {% endunless %}
 

@@ -11,13 +11,13 @@ language: ru
   <article class="post-preview">
 
     {%- capture thumbnail -%}
-      {% if page.thumbnail-img %}
-        {{ page.thumbnail-img }}
-      {% elsif page.cover-img %}
-        {% if page.cover-img.first %}
-          {{ page.cover-img[0].first.first }}
+      {% if info.thumbnail-img %}
+        {{ info.thumbnail-img }}
+      {% elsif info.cover-img %}
+        {% if info.cover-img.first %}
+          {{ info.cover-img[0].first.first }}
         {% else %}
-          {{ page.cover-img }}
+          {{ info.cover-img }}
         {% endif %}
       {% else %}
       {% endif %}
@@ -35,18 +35,18 @@ language: ru
     {% endif %}
 
     <a href="{{ info.url | absolute_url }}">
-      <h2 class="post-title">{{ page.title }}</h2>
+      <h2 class="post-title">{{ info.title }}</h2>
 
-      {% if page.subtitle %}
+      {% if info.subtitle %}
         <h3 class="post-subtitle">
-        {{ page.subtitle }}
+        {{ info.subtitle }}
         </h3>
       {% endif %}
     </a>
 
     <p class="post-meta">
       {% assign date_format = site.date_format | default: "%B %-d, %Y" %}
-      Дата публикации {{ page.date | date: date_format }}
+      Дата публикации {{ info.date | date: date_format }}
     </p>
 
     {% if thumbnail != "" %}
@@ -67,15 +67,15 @@ language: ru
     {% endif %}
 
     <div class="post-entry">
-      {{ page.description }}
+      {{ info.description }}
       <a href="{{ info.url | absolute_url }}" class="post-read-more">[Читать&nbsp;далее]</a>
     </div>
     {% endunless %}
 
-    {% if site.feed_show_tags != false and page.tags.size > 0 %}
+    {% if site.feed_show_tags != false and info.tags.size > 0 %}
     <div class="blog-tags">
       <span>Метки:</span>
-      {% for tag in page.tags %}
+      {% for tag in info.tags %}
       <a href="{{ '/tags/' | absolute_url }}#{{- tag -}}">{{- tag -}}</a>
       {% endfor %}
     </div>

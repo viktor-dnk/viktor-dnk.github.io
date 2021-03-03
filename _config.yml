@@ -196,7 +196,6 @@ defaults:
       path: "page"
     values:
       sitemap: false
-      head-extra: "_noindex.html"
   -
     scope:
       path: "amp"

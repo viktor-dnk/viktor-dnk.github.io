@@ -18,7 +18,7 @@
 <meta name="msapplication-TileColor" content="#87ceeb">
 <meta name="msapplication-TileImage" content="/mstile-144x144.png">
 <meta name="theme-color" content="#87ceeb">
-<link rel="canonical" href="{{ page.url | absolute_url | strip_index }}">
+<link rel="canonical" href="{{ page.url | absolute_url | strip_index | replace:'.io/page/2/','.io/' | replace:'.io/page/3/','.io/' | replace:'.io/page/4/','.io/' | replace:'.io/page/5/','.io/' }}">
 {% if page.head-extra %}{% for file in page.head-extra %}{% include {{ file }} %}{% endfor %}{% endif %}
 
   {% capture title %}

@@ -11,7 +11,7 @@ tags: [топонимика, ойконим]
 share-title: Из истории топонима Приморско-Ахтарск
 share-description: Город Приморско-Ахтарск, расположен на берегу юго-восточной части Ясенского залива Азовского моря, где залив соединяется лиманом.
 share-img: /img/toponymy/primorsko-akhtarsk/cover-s.jpg
-head-extra: link_amp.html
+head-extra: amp_link.html
 social-share: true
 location: г. Приморско-Ахтарск, Краснодарский край
 img-caption: Памятник морякам Азовской военной флотилии

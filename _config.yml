@@ -231,7 +231,7 @@ defaults:
       layout: post
       comments: false
       social-share: true
-      readtime: true
+      readtime: false
       language: ru
       categories: info
 

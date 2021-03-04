@@ -234,8 +234,8 @@ defaults:
       readtime: false
       language: ru
       categories: info
-      thumbnail-img: site.url
-      cover-img: page.url
+      thumbnail-img: {{ site }}
+      cover-img: {{ page }}
 
 # Exclude these files from production site
 exclude:

@@ -1,5 +1,5 @@
 title: Дорога не кончается
-author: © Ковешников Виктор
+author: Ковешников В.Н.
 
 # --- List of links in the navigation bar --- #
 
@@ -234,6 +234,7 @@ defaults:
       readtime: false
       language: ru
       categories: info
+      after-content: _social-share.html
 
 # Exclude these files from production site
 exclude:

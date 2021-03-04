@@ -234,8 +234,8 @@ defaults:
       readtime: false
       language: ru
       categories: info
-      thumbnail-img: "/img/{{ permalink }}/thumb.jpg"
-      cover-img: "/img/{{ permalink }}/cover.jpg"
+      thumbnail-img: { info.url | absolute_url }
+      cover-img: { page.url | absolute_url }
 
 # Exclude these files from production site
 exclude:

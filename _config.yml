@@ -175,7 +175,6 @@ kramdown:
 
 # Default YAML values (more information on Jekyll's site)
 defaults:
-  permalink: img # /img/:categories/:title
   -
     scope:
       path: ""

@@ -28,6 +28,12 @@ layout: null
         <lastmod>{{ mysteries-dolmens.last_modified_at | date_to_xmlschema }}</lastmod>
     </url>
     {% endfor %}
+    
+    {% for info in site.info %}
+    <url>
+        <loc>{{ info.url | absolute_url }}</loc>
+    </url>
+    {% endfor %}    
 
     <url>
         <loc>https://viktor-dnk.github.io/mysteries-dolmens/</loc>

@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row">
             <div class="col">
-                <div class="text-left text-muted small">
+                <div class="text-left text-muted">
                     <strong>Разделы сайта</strong>
                     <ul>
                        <li><a href="/toponymy/">Очерки по топонимике</a></li>
@@ -11,8 +11,8 @@
                     </ul>
                 </div>
             </div>
-            <div class="col-8">
-                <div class="text-left text-muted small">
+            <div class="col-7">
+                <div class="text-left text-muted">
                     <strong>Популярные статьи:</strong>
                     <ul>
                         <li><a href="/mysteries-dolmens/ch1p4/">Когда строили дольмены?</a></li>
@@ -29,7 +29,7 @@
                 </div>
             </div>
             <div class="col">
-                <div class="copyright text-muted small">
+                <div class="copyright text-muted">
                     {% if site.author %}
                       {{ site.author }}
                       &nbsp;&bull;&nbsp;
@@ -38,9 +38,7 @@
               
                     {% if site.url-pretty %}
                       &nbsp;&bull;&nbsp;
-                      <span class="author-site">
                         <a href="{% if site.url-canonical %}{{ site.url-canonical }}{% else %}{{ '' | absolute_url }}{% endif %}">{{ site.url-pretty }}</a>
-                      </span>
                     {% endif %}
                 </div>
             </div>

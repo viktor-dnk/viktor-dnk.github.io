@@ -223,7 +223,17 @@ defaults:
       social-share: true
       readtime: true
       language: ru   
-
+  -
+    scope:
+      path: ""
+      type: info
+    values:
+      layout: post
+      comments: false
+      social-share: true
+      readtime: true
+      language: ru
+      categories: info
 
 # Exclude these files from production site
 exclude:

@@ -151,7 +151,7 @@
   {%- assign img=img | strip -%}
 
   <meta property="og:title" content="{{ title }}">
-  <meta property="og:url" content="{{ page.url | absolute_url }}">
+  <meta property="og:url" content="{{ page.url | absolute_url | strip_index | replace:'.io/page/2/','.io/' | replace:'.io/page/3/','.io/' | replace:'.io/page/4/','.io/' | replace:'.io/page/5/','.io/' }}">
   <meta property="og:description" content="{{ description }}">
   <meta property="og:locale" content="ru_RU" />
   {% if img != "" %}
@@ -171,7 +171,7 @@
         <meta property="og: article:modified_time" content="{{ page.last_modified_at | date_to_xmlschema }}">
   {% else %}
   <meta property="og:type" content="website">
-  <meta property="og:url" content="{{ page.url | absolute_url | strip_index }}">
+  <meta property="og:url" content="{{ page.url | absolute_url | strip_index | replace:'.io/page/2/','.io/' | replace:'.io/page/3/','.io/' | replace:'.io/page/4/','.io/' | replace:'.io/page/5/','.io/' }}">
   {% endif %}
 
   {% if img != "" and img != site.avatar %}

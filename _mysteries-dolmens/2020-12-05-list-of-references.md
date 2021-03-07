@@ -8,7 +8,7 @@ date: 2020-12-05 17:00
 last_modified_at: 2021-02-18 19:00:00 +0300
 categories: mysteries-dolmens
 tags: [информация]
-keywords: дольмены, мегалиты, дольмен, мегалит
+keywords: дольмены, мегалиты, дольмен, мегалит, литература, список
 readtime: false
 share-description: Общий список использованных источников и литературы.
 share-img: /img/mysteries-dolmens/list-of-references/cover-s.jpg

@@ -5,6 +5,7 @@ subtitle: Публикация посвящена памятникам архе�
 cover-img: /img/example-logos/main-cover.jpg
 share-img: /img/example-logos/main-cover4x3.jpg
 language: ru
+keywords: древность, археология
 last_modified_at: 2021-02-27 17:00:00 +0300
 date: 2020-09-09 16:00
 head-extra: amp_link.html

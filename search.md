@@ -5,7 +5,7 @@ subtitle: Работает поиск по сайту от Yandex
 language: ru
 cover-img: /img/example-logos/main-cover.jpg
 share-img: /img/example-logos/main-cover4x3.jpg
-sitemap: true
+keywords: поиск, search, яндекс
 head-extra: _search.html
 last_modified_at: 2021-02-10 02:30:00 +0300
 date: 2021-10-09 16:00

@@ -8,6 +8,7 @@ cover-img: /img/example-logos/main-cover.jpg
 share-img: /img/example-logos/main-cover4x3.jpg
 language: ru
 tags: [информация]
+keywords: автор, публикация
 date: 2020-12-19 23:00:00 +0300
 last_modified_at: 2021-02-10 02:30:00 +0300
 head-extra: _aboutme.html

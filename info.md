@@ -5,6 +5,7 @@ subtitle: Об этом сайте
 cover-img: /img/example-logos/main-cover.jpg
 share-img: /img/example-logos/main-cover4x3.jpg
 language: ru
+keywords: информация, контакты
 ---
 <div class="posts-list">
   {% for info in site.info %}

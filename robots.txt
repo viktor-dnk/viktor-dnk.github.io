@@ -31,20 +31,6 @@ Disallow: /*utm
 Disallow: /*clid=
 Disallow: /*openstat
 Disallow: /*from
-Disallow: /page1/
-Disallow: /page2/
-Disallow: /page3/
-Disallow: /page4/
-Disallow: /page1
-Disallow: /page2
-Disallow: /page3
-Disallow: /page4
-Disallow: /page/2
-Disallow: /page/3
-Disallow: /page/4
-Disallow: /page/2/
-Disallow: /page/3/
-Disallow: /page/4/
 
 Sitemap: https://viktor-dnk.github.io/sm
 Host: https://viktor-dnk.github.io/

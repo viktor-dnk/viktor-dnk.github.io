@@ -10,6 +10,7 @@ navbar-links:
   Информация:
     - Об этом блоге: "/thisblog/"
     - Об авторе: "/aboutme/"
+    - Указатель меток: "/tags/"
     - Случайный пост: "random"
   Полезные ссылки:
     - Территория Поиска: "http://iskatelklada.tuapse.ru"

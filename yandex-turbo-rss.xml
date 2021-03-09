@@ -81,7 +81,6 @@ layout: null
                   {% assign cleaned_content=cleaned_content | replace: '__a href#__', '<a href="#' %}
                   {% assign cleaned_content=cleaned_content | replace: '__/a__', '</a>' %}
                   {% assign cleaned_content=cleaned_content | replace: '" /></a>', '" />' %}
-                  {% assign cleaned_content=cleaned_content | replace: ']</a>', ']' %}
                   {% assign cleaned_content=cleaned_content | replace: '</a></li>', '</li>' %}
                   {% assign cleaned_content=cleaned_content | replace: '<strong></a>', '<strong>' %}
                   {% assign cleaned_content=cleaned_content | replace: '<li></a>', '<li>' %}

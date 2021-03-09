@@ -4,6 +4,7 @@ title: Тайны тысячелетних дольменов Кубани
 subtitle: Публикация посвящена памятникам археологии — дольменам Западного Кавказа
 cover-img: /img/example-logos/main-cover.jpg
 share-img: /img/example-logos/main-cover4x3.jpg
+share-title: Тайны дольменов
 language: ru
 keywords: древность, археология
 last_modified_at: 2021-02-27 17:00:00 +0300

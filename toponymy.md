@@ -4,6 +4,7 @@ title: Топонимика
 subtitle: Очерки по топонимике Кубани
 cover-img: /img/example-logos/main-cover.jpg
 share-img: /img/example-logos/main-cover4x3.jpg
+share-title: Очерки по топонимике
 language: ru
 keywords: карты, история, география, ономастика
 last_modified_at: 2021-02-27 17:00:00 +0300

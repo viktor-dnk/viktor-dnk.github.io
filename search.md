@@ -4,6 +4,7 @@ title: Поиск
 subtitle: Работает поиск по сайту от Yandex
 language: ru
 cover-img: /img/example-logos/main-cover.jpg
+share-title: Поиск по сайту
 share-img: /img/example-logos/main-cover4x3.jpg
 keywords: поиск, search, яндекс
 head-extra: _search.html

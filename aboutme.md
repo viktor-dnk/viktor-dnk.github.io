@@ -1,4 +1,4 @@
-﻿---
+---
 layout: page
 title: Об авторе
 subtitle: Дорога не кончается

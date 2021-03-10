@@ -3,7 +3,7 @@ layout: page
 title: Об авторе
 subtitle: Дорога не кончается
 share-title: Ковешников В.Н.
-share-description: Ковешников В.Н. - географ-краевед из Краснодара
+share-description: Ковешников В.Н. — географ-краевед из Краснодара
 cover-img: /img/example-logos/main-cover.jpg
 share-img: /img/example-logos/main-cover4x3.jpg
 language: ru
@@ -17,6 +17,6 @@ head-extra: _aboutme.html
 
 Издано моих более 65 публикаций, различного объема по географии, истории и туристским возможностям Кубани (путеводители, топонимические словари, карты, географо-исторические и исторические очерки). Из них 11 книг и более 10 брошюр (некоторые в соавторстве). Также в соавторстве принимал участие в издании двух атласов: «Краснодарский край. Республика Адыгея», учебно-справочное пособие, Минск, 1996 г.; «Природные ресурсы Кубани», атлас-справочник, Ростов-на-Дону, 2004 г.
 
-С декабря 2015 г. по сентябрь 2020 г., опубликовал 43 очерка на сайте «Территория Поиска». Их можно прочитать в разделах сайта: [«Маршруты Кубани и Кавказа (География, путешествия)»](http://iskatelklada.tuapse.ru/razdely-sajta/velomarshruty.html) - 36 очерков; [«Загадки (тайны) и факты истории»](http://iskatelklada.tuapse.ru/razdely-sajta/zagadki-istorii.html) - 3 очерка; [«Клады, находки, археология»](http://iskatelklada.tuapse.ru/razdely-sajta/klady-nakhodki.html) - 3 очерка; [«Великая Отечественная война»][d232ab53] - 1 очерк.
+С декабря 2015 г. по сентябрь 2020 г., опубликовал 43 очерка на сайте «Территория Поиска». Их можно прочитать в разделах сайта: [«Маршруты Кубани и Кавказа (География, путешествия)»](http://iskatelklada.tuapse.ru/razdely-sajta/velomarshruty.html) — 36 очерков; [«Загадки (тайны) и факты истории»](http://iskatelklada.tuapse.ru/razdely-sajta/zagadki-istorii.html) — 3 очерка; [«Клады, находки, археология»](http://iskatelklada.tuapse.ru/razdely-sajta/klady-nakhodki.html) — 3 очерка; [«Великая Отечественная война»][d232ab53] — 1 очерк.
 
   [d232ab53]: http://iskatelklada.tuapse.ru/razdely-sajta/velikaya-otechestvennaya-vojna/o-mogile-voinov-aviatorov-na-r-adegoj.html "О могиле летчиков на реке Адегой"

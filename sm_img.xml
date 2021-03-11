@@ -1,64 +1,56 @@
 <?xml version="1.0" encoding="utf-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
-  <url>
-    <loc>https://viktor-dnk.github.io/toponymy/primorsko-akhtarsk/</loc>
-      <image:image>
-        <image:loc>https://viktor-dnk.github.io/img/toponymy/primorsko-akhtarsk/01.webp</image:loc>
-        <image:caption>Город Приморско-Ахтарск, дом 1901 г. постройки (фото Н. Машковой)</image:caption>
-      </image:image>
-      <image:image>
-        <image:loc>https://viktor-dnk.github.io/img/toponymy/primorsko-akhtarsk/02.webp</image:loc>
-        <image:caption>Герб города Приморско-Ахтарск (2006 г.)</image:caption>
-      </image:image>
-      <image:image>
-        <image:loc>https://viktor-dnk.github.io/img/toponymy/primorsko-akhtarsk/03.webp</image:loc>
-        <image:caption>Ахтарский маяк, вид со стороны моря (с запада)</image:caption>
-      </image:image>
-      <image:image>
-        <image:loc>https://viktor-dnk.github.io/img/toponymy/primorsko-akhtarsk/04.webp</image:loc>
-        <image:caption>Ахтарский маяк, вид с севера</image:caption>
-      </image:image>
-      <image:image>
-        <image:loc>https://viktor-dnk.github.io/img/toponymy/primorsko-akhtarsk/05.webp</image:loc>
-        <image:caption>Ахтарский маяк, вид с юга</image:caption>
-      </image:image>
-      <image:image>
-        <image:loc>https://viktor-dnk.github.io/img/toponymy/primorsko-akhtarsk/06-s.webp</image:loc>
-        <image:caption>Здание ж/д вокзала станции Ахтари, построен в 1912 г</image:caption>
-      </image:image>
-      <image:image>
-        <image:loc>https://viktor-dnk.github.io/img/toponymy/primorsko-akhtarsk/07.webp</image:loc>
-        <image:caption>Фрагмент карты Кубанской области (1904 г.), берег севернее станицы Приморскоахтарской, обозначен как Железный обрыв</image:caption>
-      </image:image>
-      <image:image>
-        <image:loc>https://viktor-dnk.github.io/img/toponymy/primorsko-akhtarsk/08.webp</image:loc>
-        <image:caption>Схема участка восточного берега Азовского моря по Зенковичу В.П.</image:caption>
-      </image:image>
-      <image:image>
-        <image:loc>https://viktor-dnk.github.io/img/toponymy/primorsko-akhtarsk/09.webp</image:loc>
-        <image:caption>Посёлок Ахтарский на военно-исторической карте Фелицына Е.Д. (1898 г.) периода с 1774-1664 гг. Восточнее, юго-восточнее и южнее посёлка указаны заставы, посты или пикеты</image:caption>
-      </image:image>
-      <image:image>
-        <image:loc>https://viktor-dnk.github.io/img/toponymy/primorsko-akhtarsk/10.webp</image:loc>
-        <image:caption>Казачья вышка у пикета или поста</image:caption>
-      </image:image>
-      <image:image>
-        <image:loc>https://viktor-dnk.github.io/img/toponymy/primorsko-akhtarsk/11-s.webp</image:loc>
-        <image:caption>Казачья вышка у пикета или поста</image:caption>
-      </image:image>
-      <image:image>
-        <image:loc>https://viktor-dnk.github.io/img/toponymy/primorsko-akhtarsk/12.webp</image:loc>
-        <image:caption>Лиман Ахтаръ бахтаръ на Российской карте 1745 г., западнее лимана видна Ачуевская коса, севернее лимана выделяется контур полуострова Ахтарский, а за ним обозначен лиманъ быссуга (Бейсугский)</image:caption>
-      </image:image>
-      <image:image>
-        <image:loc>https://viktor-dnk.github.io/img/toponymy/primorsko-akhtarsk/06.webp</image:loc>
-        <image:caption></image:caption>
-      </image:image>
-      <image:image>
-        <image:loc>https://viktor-dnk.github.io/img/toponymy/primorsko-akhtarsk/11.webp</image:loc>
-        <image:caption></image:caption>
-      </image:image>
-  </url>
+    <url>
+      <loc>https://viktor-dnk.github.io/toponymy/primorsko-akhtarsk/</loc>
+        <image:image>
+          <image:loc>https://viktor-dnk.github.io/img/toponymy/primorsko-akhtarsk/the-city-of-Primorsko-Akhtarsk-house-built-in-1901.webp</image:loc>
+          <image:title>Город Приморско-Ахтарск, дом 1901 г. постройки</image:title>
+        </image:image>
+        <image:image>
+          <image:loc>https://viktor-dnk.github.io/img/toponymy/primorsko-akhtarsk/Coat-of-arms-of-the-city-of-Primorsko-Akhtarsk.webp</image:loc>
+          <image:title>Герб города Приморско-Ахтарск</image:title>
+        </image:image>
+        <image:image>
+          <image:loc>https://viktor-dnk.github.io/img/toponymy/primorsko-akhtarsk/Akhtarsky-lighthouse-view-from-the-sea.webp</image:loc>
+          <image:title>Ахтарский маяк, вид со стороны моря (с запада)</image:title>
+        </image:image>
+        <image:image>
+          <image:loc>https://viktor-dnk.github.io/img/toponymy/primorsko-akhtarsk/Akhtarsky-lighthouse-view-from-the-north.webp</image:loc>
+          <image:title>Ахтарский маяк, вид с севера</image:title>
+        </image:image>
+        <image:image>
+          <image:loc>https://viktor-dnk.github.io/img/toponymy/primorsko-akhtarsk/Akhtarsky-lighthouse-view-from-the-south.webp</image:loc>
+          <image:title>Ахтарский маяк, вид с юга</image:title>
+        </image:image>
+        <image:image>
+          <image:loc>https://viktor-dnk.github.io/img/toponymy/primorsko-akhtarsk/railway-station-Akhtari.webp</image:loc>
+          <image:title>Здание ж/д вокзала станции Ахтари, построен в 1912 г</image:title>
+        </image:image>
+        <image:image>
+          <image:loc>https://viktor-dnk.github.io/img/toponymy/primorsko-akhtarsk/Fragment-of-a-map-of-the-Kuban-region-in-1904.webp</image:loc>
+          <image:title>Фрагмент карты Кубанской области (1904 г.)</image:title>
+        </image:image>
+        <image:image>
+          <image:loc>https://viktor-dnk.github.io/img/toponymy/primorsko-akhtarsk/Scheme-of-a-section-of-the-eastern-coast-of-the-Azov-Sea.webp</image:loc>
+          <image:title>Схема участка восточного берега Азовского моря по Зенковичу В.П.</image:title>
+        </image:image>
+        <image:image>
+          <image:loc>https://viktor-dnk.github.io/img/toponymy/primorsko-akhtarsk/The-village-of-Akhtarsky-on-the-military-historical-map-of-1898.webp</image:loc>
+          <image:title>Посёлок Ахтарский на военно-исторической карте Фелицына Е.Д. (1898 г.)</image:title>
+        </image:image>
+        <image:image>
+          <image:loc>https://viktor-dnk.github.io/img/toponymy/primorsko-akhtarsk/Cossack-tower-at-the-picket.webp</image:loc>
+          <image:title>Казачья вышка у пикета или поста</image:title>
+        </image:image>
+        <image:image>
+          <image:loc>https://viktor-dnk.github.io/img/toponymy/primorsko-akhtarsk/Cossack-tower-at-the-post.webp</image:loc>
+          <image:title>Казачья вышка у пикета или поста</image:title>
+        </image:image>
+        <image:image>
+          <image:loc>https://viktor-dnk.github.io/img/toponymy/primorsko-akhtarsk/Liman-Akhtar-bakhtar-on-the-map-of-1745.webp</image:loc>
+          <image:title>Лиман Ахтаръ бахтаръ на Российской карте 1745 г.</image:title>
+        </image:image>
+    </url>
   <url>
     <loc>https://viktor-dnk.github.io/mysteries-dolmens/ch1p1/</loc>
       <image:image>

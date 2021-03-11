@@ -31,3 +31,16 @@
 замены размеров изображения в теге
 style="width:(.*)px;"
 width="$1" height=""
+
+переименование файлов
+-s.webp"/></a>
+^web-small
+.webp"/></a>
+
+.webp"/>
+&web-norm
+.webp"/>
+
+.webp"><img
+#web-big
+-b.webp"><img

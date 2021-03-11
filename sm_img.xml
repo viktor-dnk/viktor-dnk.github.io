@@ -1107,72 +1107,71 @@
   </url>
   <url>
     <loc>https://viktor-dnk.github.io/toponymy/k-town-rivers/</loc>
-      <image:image>
-        <image:loc>https://viktor-dnk.github.io/img/toponymy/k-town-rivers/river-scheme-of-Krasnodar-s.webp</image:loc>
-        <image:caption>На схеме, кроме реки Карасун, изображены озеро Старая Кубань и участок русла реки Кубань на южной окраин городского округа Краснодар</image:caption>
+       <image:image>
+        <image:loc>https://viktor-dnk.github.io/img/toponymy/k-town-rivers/river-scheme-of-Krasnodar.webp</image:loc>
+        <image:caption>На схеме, кроме реки Карасун, изображены озеро Старая Кубань и участок русла реки Кубань</image:caption>
       </image:image>
       <image:image>
-        <image:loc>https://viktor-dnk.github.io/img/toponymy/k-town-rivers/02-s.webp</image:loc>
+        <image:loc>https://viktor-dnk.github.io/img/toponymy/k-town-rivers/lake-Karasun.webp</image:loc>
         <image:caption>Одно из Карасунских озёр в Калининской балке</image:caption>
       </image:image>
       <image:image>
-        <image:loc>https://viktor-dnk.github.io/img/toponymy/k-town-rivers/03-s.webp</image:loc>
+        <image:loc>https://viktor-dnk.github.io/img/toponymy/k-town-rivers/Osechki-river.webp</image:loc>
         <image:caption>Речка Осечки, в районе Баскет-холла, на западной окраине Горхутора город Краснодар</image:caption>
       </image:image>
       <image:image>
-        <image:loc>https://viktor-dnk.github.io/img/toponymy/k-town-rivers/04-s.webp</image:loc>
+        <image:loc>https://viktor-dnk.github.io/img/toponymy/k-town-rivers/lake-Staraya-Kuban.webp</image:loc>
         <image:caption>Озеро Старая Кубань, вид с моста на юго-западную часть озера</image:caption>
       </image:image>
       <image:image>
-        <image:loc>https://viktor-dnk.github.io/img/toponymy/k-town-rivers/05-s.webp</image:loc>
+        <image:loc>https://viktor-dnk.github.io/img/toponymy/k-town-rivers/Eric-duct.webp</image:loc>
         <image:caption>Протока Ерик, соединяющая ложе озера Старая Кубань</image:caption>
       </image:image>
       <image:image>
-        <image:loc>https://viktor-dnk.github.io/img/toponymy/k-town-rivers/06-s.webp</image:loc>
+        <image:loc>https://viktor-dnk.github.io/img/toponymy/k-town-rivers/Kuban-river-in-the-area-of-the-Turgenevsky-bridge.webp</image:loc>
         <image:caption>Река Кубань в районе Тургеневского моста</image:caption>
       </image:image>
       <image:image>
-        <image:loc>https://viktor-dnk.github.io/img/toponymy/k-town-rivers/07-s.webp</image:loc>
+        <image:loc>https://viktor-dnk.github.io/img/toponymy/k-town-rivers/Teberda-river.webp</image:loc>
         <image:caption>Река Теберда в нижнем течении, левый приток реки Кубань, расположен за пределами Краснодарского края</image:caption>
       </image:image>
       <image:image>
-        <image:loc>https://viktor-dnk.github.io/img/toponymy/k-town-rivers/08.webp</image:loc>
-        <image:caption>Екатеринодар на 5-ти вёрстной карте конца ХIХ в. На карте видно, что уже сформировалась старица и протока (Ерик) озеро Старая Кубань, которая соприкасается с рекой Карасун и формируется старица озера Подковы</image:caption>
+        <image:loc>https://viktor-dnk.github.io/img/toponymy/k-town-rivers/Ekaterinodar-fragment-map-19c.webp</image:loc>
+        <image:caption>Екатеринодар на 5-ти вёрстной карте конца ХIХ в.</image:caption>
       </image:image>
       <image:image>
-        <image:loc>https://viktor-dnk.github.io/img/toponymy/k-town-rivers/09.webp</image:loc>
-        <image:caption>Станица Елизаветинская на 5-ти вёрстной карте конца ХIХ в. На карте видно, речка (протока) Свинушка, расположенная между руслом реки Кубань и станицей.</image:caption>
+        <image:loc>https://viktor-dnk.github.io/img/toponymy/k-town-rivers/stanitsa-Elizavetinskaya-fragment-map-19c.webp</image:loc>
+        <image:caption>Станица Елизаветинская на 5-ти вёрстной карте конца ХIХ в.</image:caption>
       </image:image>
       <image:image>
-        <image:loc>https://viktor-dnk.github.io/img/toponymy/k-town-rivers/river-scheme-of-Krasnodar.webp</image:loc>
+        <image:loc>https://viktor-dnk.github.io/img/toponymy/k-town-rivers/river-scheme-of-Krasnodar-b.webp</image:loc>
         <image:caption></image:caption>
       </image:image>
       <image:image>
-        <image:loc>https://viktor-dnk.github.io/img/toponymy/k-town-rivers/02.webp</image:loc>
+        <image:loc>https://viktor-dnk.github.io/img/toponymy/k-town-rivers/lake-Karasun-b.webp</image:loc>
         <image:caption></image:caption>
       </image:image>
       <image:image>
-        <image:loc>https://viktor-dnk.github.io/img/toponymy/k-town-rivers/03.webp</image:loc>
+        <image:loc>https://viktor-dnk.github.io/img/toponymy/k-town-rivers/Osechki-river-b.webp</image:loc>
         <image:caption></image:caption>
       </image:image>
       <image:image>
-        <image:loc>https://viktor-dnk.github.io/img/toponymy/k-town-rivers/04.webp</image:loc>
+        <image:loc>https://viktor-dnk.github.io/img/toponymy/k-town-rivers/lake-Staraya-Kuban-b.webp</image:loc>
         <image:caption></image:caption>
       </image:image>
       <image:image>
-        <image:loc>https://viktor-dnk.github.io/img/toponymy/k-town-rivers/05.webp</image:loc>
+        <image:loc>https://viktor-dnk.github.io/img/toponymy/k-town-rivers/Eric-duct-b.webp</image:loc>
         <image:caption></image:caption>
       </image:image>
       <image:image>
-        <image:loc>https://viktor-dnk.github.io/img/toponymy/k-town-rivers/06.webp</image:loc>
+        <image:loc>https://viktor-dnk.github.io/img/toponymy/k-town-rivers/Kuban-river-in-the-area-of-the-Turgenevsky-bridge-b.webp</image:loc>
         <image:caption></image:caption>
       </image:image>
       <image:image>
-        <image:loc>https://viktor-dnk.github.io/img/toponymy/k-town-rivers/07.webp</image:loc>
+        <image:loc>https://viktor-dnk.github.io/img/toponymy/k-town-rivers/Teberda-river-b.webp</image:loc>
         <image:caption></image:caption>
       </image:image>
   </url>
-  <url>
     <loc>https://viktor-dnk.github.io/mysteries-dolmens/outro/</loc>
       <image:image>
         <image:loc>https://viktor-dnk.github.io/img/mysteries-dolmens/outro/11.1-s.webp</image:loc>

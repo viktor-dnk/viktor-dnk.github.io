@@ -180,7 +180,7 @@
   <url>
     <loc>https://viktor-dnk.github.io/toponymy/tuapse/</loc>
       <image:image>
-        <image:loc>https://viktor-dnk.github.io/img/toponymy/tuapse/Tuapse-first-railway-station-s.webp</image:loc>
+        <image:loc>https://viktor-dnk.github.io/img/toponymy/tuapse/Tuapse-first-railway-station.webp</image:loc>
         <image:caption>Здание первого ж/д вокзала в городе Туапсе, сейчас это автовокзал</image:caption>
       </image:image>
       <image:image>
@@ -196,123 +196,115 @@
         <image:caption>Герб Туапсе — 2005 г.</image:caption>
       </image:image>
       <image:image>
-        <image:loc>https://viktor-dnk.github.io/img/toponymy/tuapse/Tuapse-Museum-Local-Lore-s.webp</image:loc>
-        <image:caption>Исторический уголок у краеведческого музея города Туапсе, находится на горке Героев. Слева направо, расположены стволы пушек, дольмен и якорь</image:caption>
+        <image:loc>https://viktor-dnk.github.io/img/toponymy/tuapse/Tuapse-Museum-Local-Lore.webp</image:loc>
+        <image:caption>Исторический уголок у краеведческого музея города Туапсе, находится на горке Героев</image:caption>
       </image:image>
       <image:image>
-        <image:loc>https://viktor-dnk.github.io/img/toponymy/tuapse/Tuapse-Obelisk-Fighters-Soviet-Power-s.webp</image:loc>
-        <image:caption>Обелиск Борцам за власть Советов (1969 г.), посвящён защитникам города Туапсе в годы Гражданской и Великой Отечественной войн</image:caption>
+        <image:loc>https://viktor-dnk.github.io/img/toponymy/tuapse/Tuapse-Obelisk-Fighters-Soviet-Power.webp</image:loc>
+        <image:caption>Обелиск Борцам за власть Советов (1969 г.), посвящён защитникам города Туапсе</image:caption>
       </image:image>
       <image:image>
         <image:loc>https://viktor-dnk.github.io/img/toponymy/tuapse/Topsida-mythical-name.webp</image:loc>
         <image:caption>Схема восточной части Чёрного моря с мифическим названием Топсида</image:caption>
       </image:image>
       <image:image>
-        <image:loc>https://viktor-dnk.github.io/img/toponymy/tuapse/valley-Tuapse-river-s.webp</image:loc>
+        <image:loc>https://viktor-dnk.github.io/img/toponymy/tuapse/valley-Tuapse-river.webp</image:loc>
         <image:caption>Вид на долину реки Туапсе с горы Индюк, до начала ХХ в. гора называлась скала Чилипси</image:caption>
       </image:image>
       <image:image>
-        <image:loc>https://viktor-dnk.github.io/img/toponymy/tuapse/view-from-Turkey-Mountain-s.webp</image:loc>
+        <image:loc>https://viktor-dnk.github.io/img/toponymy/tuapse/view-from-Turkey-Mountain.webp</image:loc>
         <image:caption>Вид с горы Индюшка на верховья долины реки Чилипси</image:caption>
       </image:image>
       <image:image>
         <image:loc>https://viktor-dnk.github.io/img/toponymy/tuapse/Map-fragment-1990.webp</image:loc>
-        <image:caption>Фрагмент карты издания 1990 г. масштаба в 1:100 000. Исток реки Туапсе значится на склоне ГКХ. Название рек Туапсе и Чилипси, находятся на одной широте</image:caption>
+        <image:caption>Фрагмент карты издания 1990 г. Исток реки Туапсе значится на склоне ГКХ.</image:caption>
       </image:image>
       <image:image>
-        <image:loc>https://viktor-dnk.github.io/img/toponymy/tuapse/railway-bridge-over-Turkey-river-s.webp</image:loc>
-        <image:caption>Ж/д мост через речку Индюшка, изначально она называлась Чилипси, а с начала ХХ в. до 30-х годов, значилась на картах под названием Еликъ</image:caption>
+        <image:loc>https://viktor-dnk.github.io/img/toponymy/tuapse/railway-bridge-over-Turkey-river.webp</image:loc>
+        <image:caption>Ж/д мост через речку Индюшка</image:caption>
       </image:image>
       <image:image>
-        <image:loc>https://viktor-dnk.github.io/img/toponymy/tuapse/Tuapse-port-Postcard-1910-s.webp</image:loc>
+        <image:loc>https://viktor-dnk.github.io/img/toponymy/tuapse/Tuapse-port-Postcard-1910.webp</image:loc>
         <image:caption>Туапсинский порт. Открытка 1910 г.</image:caption>
       </image:image>
       <image:image>
-        <image:loc>https://viktor-dnk.github.io/img/toponymy/tuapse/View-Tuapse-from-Church-Hill-Postcard-1920-s.webp</image:loc>
+        <image:loc>https://viktor-dnk.github.io/img/toponymy/tuapse/View-Tuapse-from-Church-Hill-Postcard-1920.webp</image:loc>
         <image:caption>Туапсе. Вид на город с Церковной горки. Открытка 1920 г.</image:caption>
       </image:image>
       <image:image>
-        <image:loc>https://viktor-dnk.github.io/img/toponymy/tuapse/Tuapse-Modern-view-central-part-city-s.webp</image:loc>
+        <image:loc>https://viktor-dnk.github.io/img/toponymy/tuapse/Tuapse-Modern-view-central-part-city.webp</image:loc>
         <image:caption>Современный вид на центральную часть города Туапсе с юго-восточной стороны</image:caption>
       </image:image>
       <image:image>
-        <image:loc>https://viktor-dnk.github.io/img/toponymy/tuapse/Tuapse-map-fragment-1834-s.webp</image:loc>
-        <image:caption>Фрагмент карты Восточного берега Чёрного моря, выполненной в 1834 г., из атласа Манганари Е.П. (1841 г.)</image:caption>
+        <image:loc>https://viktor-dnk.github.io/img/toponymy/tuapse/Tuapse-map-fragment-1834.webp</image:loc>
+        <image:caption>Фрагмент карты Восточного берега Чёрного моря, выполненной в 1834 г., из атласа Манганари Е.П.</image:caption>
       </image:image>
       <image:image>
         <image:loc>https://viktor-dnk.github.io/img/toponymy/tuapse/Tuapse-map-fragment-1819.webp</image:loc>
         <image:caption>Фрагмент Российской карты 1819 г., где на территории Большой Абазы, значится залив Кодосъ</image:caption>
       </image:image>
       <image:image>
-        <image:loc>https://viktor-dnk.github.io/img/toponymy/tuapse/Tuapse-map-fragment-1838-s.webp</image:loc>
-        <image:caption>План высадки десанта в 1838 г. в устье реки Тугапсе (сейчас Туапсе).</image:caption>
+        <image:loc>https://viktor-dnk.github.io/img/toponymy/tuapse/Tuapse-map-fragment-1838.webp</image:loc>
+        <image:caption>План высадки десанта в 1838 г. в устье реки Тугапсе (сейчас Туапсе)</image:caption>
       </image:image>
       <image:image>
         <image:loc>https://viktor-dnk.github.io/img/toponymy/tuapse/Tuapse-map-fragment-1799.webp</image:loc>
         <image:caption>Фрагмент генеральной карты Российской империи, 1799 г. На карте обозначен участок Большой Абазы</image:caption>
       </image:image>
       <image:image>
-        <image:loc>https://viktor-dnk.github.io/img/toponymy/tuapse/Tuapse-map-fragment-1911-s.webp</image:loc>
+        <image:loc>https://viktor-dnk.github.io/img/toponymy/tuapse/Tuapse-map-fragment-1911.webp</image:loc>
         <image:caption>Схема Вельяминовского форта (Военная энциклопедия. Том 5. М., 1911 г.)</image:caption>
       </image:image>
       <image:image>
         <image:loc>https://viktor-dnk.github.io/img/toponymy/tuapse/Tuapse-UK-map-fragment-1855.webp</image:loc>
-        <image:caption>Фрагмент британской карты 1855 г., где у форда Вельяминов, значится селение Tugapse (Тугапсе), река обозначена как Thuapse (Туапсе), а бухта в которую она впадает называется Tuaps</image:caption>
+        <image:caption>Фрагмент британской карты 1855 г., где значится селение Tugapse, река Thuapse и бухта Tuaps</image:caption>
       </image:image>
       <image:image>
         <image:loc>https://viktor-dnk.github.io/img/toponymy/tuapse/Tuapse-DE-map-fragment-1855.webp</image:loc>
-        <image:caption>Фрагмент карты на немецком языке 1855 г., где значится форд Вельяминовск, а восточнее селение Tugapse (Тугапсе)</image:caption>
+        <image:caption>Фрагмент карты на немецком языке 1855 г., где значится форд Вельяминовск и селение Tugapse</image:caption>
       </image:image>
       <image:image>
         <image:loc>https://viktor-dnk.github.io/img/toponymy/tuapse/Tuapse-map-fragment-1847.webp</image:loc>
-        <image:caption>Фрагмент карты Кавказского края 1847 г. На карте севернее Вельяминовского укрепления чёрными точками, обозначены аулы Мелькошъ-Егерокъ и Ганаха-Гагуакъ</image:caption>
+        <image:caption>Карта Кавказского края 1847 г. Севернее укрепления обозначены аулы Мелькошъ-Егерокъ и Ганаха-Гагуакъ</image:caption>
       </image:image>
       <image:image>
-        <image:loc>https://viktor-dnk.github.io/img/toponymy/tuapse/Tuapse-first-railway-station.webp</image:loc>
+        <image:loc>https://viktor-dnk.github.io/img/toponymy/tuapse/Tuapse-Obelisk-Fighters-Soviet-Power-b.webp</image:loc>
         <image:caption></image:caption>
       </image:image>
       <image:image>
-        <image:loc>https://viktor-dnk.github.io/img/toponymy/tuapse/Tuapse-Museum-Local-Lore.webp</image:loc>
+        <image:loc>https://viktor-dnk.github.io/img/toponymy/tuapse/valley-Tuapse-river-b.webp</image:loc>
         <image:caption></image:caption>
       </image:image>
       <image:image>
-        <image:loc>https://viktor-dnk.github.io/img/toponymy/tuapse/Tuapse-Obelisk-Fighters-Soviet-Power.webp</image:loc>
+        <image:loc>https://viktor-dnk.github.io/img/toponymy/tuapse/view-from-Turkey-Mountain-b.webp</image:loc>
         <image:caption></image:caption>
       </image:image>
       <image:image>
-        <image:loc>https://viktor-dnk.github.io/img/toponymy/tuapse/valley-Tuapse-river.webp</image:loc>
+        <image:loc>https://viktor-dnk.github.io/img/toponymy/tuapse/railway-bridge-over-Turkey-river-b.webp</image:loc>
         <image:caption></image:caption>
       </image:image>
       <image:image>
-        <image:loc>https://viktor-dnk.github.io/img/toponymy/tuapse/view-from-Turkey-Mountain.webp</image:loc>
+        <image:loc>https://viktor-dnk.github.io/img/toponymy/tuapse/Tuapse-port-Postcard-1910-b.webp</image:loc>
         <image:caption></image:caption>
       </image:image>
       <image:image>
-        <image:loc>https://viktor-dnk.github.io/img/toponymy/tuapse/railway-bridge-over-Turkey-river.webp</image:loc>
+        <image:loc>https://viktor-dnk.github.io/img/toponymy/tuapse/View-Tuapse-from-Church-Hill-Postcard-1920-b.webp</image:loc>
         <image:caption></image:caption>
       </image:image>
       <image:image>
-        <image:loc>https://viktor-dnk.github.io/img/toponymy/tuapse/Tuapse-port-Postcard-1910.webp</image:loc>
+        <image:loc>https://viktor-dnk.github.io/img/toponymy/tuapse/Tuapse-Modern-view-central-part-city-b.webp</image:loc>
         <image:caption></image:caption>
       </image:image>
       <image:image>
-        <image:loc>https://viktor-dnk.github.io/img/toponymy/tuapse/View-Tuapse-from-Church-Hill-Postcard-1920.webp</image:loc>
+        <image:loc>https://viktor-dnk.github.io/img/toponymy/tuapse/Tuapse-map-fragment-1834-b.webp</image:loc>
         <image:caption></image:caption>
       </image:image>
       <image:image>
-        <image:loc>https://viktor-dnk.github.io/img/toponymy/tuapse/Tuapse-Modern-view-central-part-city.webp</image:loc>
+        <image:loc>https://viktor-dnk.github.io/img/toponymy/tuapse/Tuapse-map-fragment-1838-b.webp</image:loc>
         <image:caption></image:caption>
       </image:image>
       <image:image>
-        <image:loc>https://viktor-dnk.github.io/img/toponymy/tuapse/Tuapse-map-fragment-1834.webp</image:loc>
-        <image:caption></image:caption>
-      </image:image>
-      <image:image>
-        <image:loc>https://viktor-dnk.github.io/img/toponymy/tuapse/Tuapse-map-fragment-1838.webp</image:loc>
-        <image:caption></image:caption>
-      </image:image>
-      <image:image>
-        <image:loc>https://viktor-dnk.github.io/img/toponymy/tuapse/Tuapse-map-fragment-1911.webp</image:loc>
+        <image:loc>https://viktor-dnk.github.io/img/toponymy/tuapse/Tuapse-map-fragment-1911-b.webp</image:loc>
         <image:caption></image:caption>
       </image:image>
   </url>

@@ -6,7 +6,7 @@ share-description: Многие жители Краснодарского кра
 description: Многие жители Краснодарского края и гости Кубани, посещали Большую Азишскую пещеру, которая относится к популярным природным экскурсионным объектам.
 cover-img: /img/toponymy/azish-tau/cover.jpg
 share-img: /img/toponymy/azish-tau/cover-s.jpg
-last_modified_at: 2021-02-10 02:30:00 +0300
+last_modified_at: 2021-03-13 16:30:00 +0300
 date: 2021-01-02 15:00
 ---
 {: .box-note}

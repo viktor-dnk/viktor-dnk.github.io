@@ -5,7 +5,7 @@ description: Общий список использованных источни
 cover-img: ["/img/mysteries-dolmens/list-of-references/cover.jpg" : "Karte des Kaukasischen Isthmus 1856"]
 thumbnail-img: /img/mysteries-dolmens/list-of-references/thumb.webp
 date: 2020-12-05 17:00
-last_modified_at: 2021-03-11 23:00:00 +0300
+last_modified_at: 2021-03-14 23:00:00 +0300
 categories: mysteries-dolmens
 tags: [информация]
 keywords: дольмены, мегалиты, дольмен, мегалит, литература, список
@@ -242,6 +242,6 @@ img-caption: Karte des Kaukasischen Isthmus 1856
 221. Энциклопедический словарь символов (автор-составитель Н.А. Истомина). М., 2003.  
 
 <figure>
-	<a title="Петроглифы и рисунки на каменных плитах дольменов Западного Кавказа" href="/mysteries-dolmens/ch1p12/"><img alt="Прорисовка петроглифов на Джубгинском дольмене" style="width: 720px;" src="/img/mysteries-dolmens/ch1p12/mysteries-dolmens-ch1p12-12.15-s.webp"/></a>
+	<a title="Петроглифы и рисунки на каменных плитах дольменов Западного Кавказа" href="/mysteries-dolmens/ch1p12/"><img alt="Прорисовка петроглифов на Джубгинском дольмене" width="720" height="480" src="/img/mysteries-dolmens/ch1p12/mysteries-dolmens-ch1p12-12.15.webp"/></a>
 	<figcaption>Прорисовка петроглифов на Джубгинском дольмене</figcaption>
 </figure>

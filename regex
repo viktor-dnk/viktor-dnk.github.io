@@ -32,12 +32,18 @@
 style="width: (.*)px;"
 width="$1" height=""
 
+замена ахреф на просто имг
+<a(.*.webp">)<img alt="(.*)" style(.*)</a>
+<img alt="$2" title="$2" style$3
+
 переименование файлов
 -s.webp"/></a>
 ^web-small
 .webp"/></a>
 
-.webp"/>
+.webp"/>  
+ 
+ [[;ffffffffdfff
 &web-norm
 .webp"/>
 

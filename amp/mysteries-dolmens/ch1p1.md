@@ -12,7 +12,7 @@ last_modified_at: 2021-02-04 17:00:00 +0300
 {: .box-note}
 ## <br><br><br>1.1. Что означает термин дольмен? Почему дольмены ещё называют мегалитами?
 
-_«Уже к середине ХIХ века в ученых трудах слово «дольмен» закрепилось за древними постройками Западного Кавказа ...»_
+_«Уже к середине ХIХ века в ученых трудах слово «дольмен» закрепилось за древними постройками Западного Кавказа...»_
 
 <ul class="pagination blog-pager"><li class="page-item previous"><figure><a class="page-link" href="{{ page.url | absolute_url | strip_index | replace:'/amp/','/' }}" data-toggle="tooltip" data-placement="top" title="Перейти на основную версию сайта">Читать статью на сайте автора</a></figure></li></ul>
 

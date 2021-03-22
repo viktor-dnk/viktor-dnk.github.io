@@ -36,36 +36,36 @@ layout: null
     {% endfor %}    
 
     <url>
-        <loc>https://viktor-dnk.github.io/mysteries-dolmens/</loc>
+        <loc>https://viktor-dnk.ru/mysteries-dolmens/</loc>
         <lastmod>2021-02-27T17:00:00+03:00</lastmod>
     </url>
     <url>
-        <loc>https://viktor-dnk.github.io/info/</loc>
+        <loc>https://viktor-dnk.ru/info/</loc>
     </url>
     <url>
-        <loc>https://viktor-dnk.github.io/toponymy/</loc>
+        <loc>https://viktor-dnk.ru/toponymy/</loc>
         <lastmod>2021-02-28T17:00:00+03:00</lastmod>
     </url>
     <url>
-        <loc>https://viktor-dnk.github.io/</loc>
+        <loc>https://viktor-dnk.ru/</loc>
         <lastmod>2021-02-28T17:00:00+03:00</lastmod>
     </url>
     <url>
-        <loc>https://viktor-dnk.github.io/page/2/</loc>
+        <loc>https://viktor-dnk.ru/page/2/</loc>
     </url>
     <url>
-        <loc>https://viktor-dnk.github.io/page/3/</loc>
+        <loc>https://viktor-dnk.ru/page/3/</loc>
     </url>
     <url>
-        <loc>https://viktor-dnk.github.io/page/4/</loc>
+        <loc>https://viktor-dnk.ru/page/4/</loc>
     </url>            
     <url>
-        <loc>https://viktor-dnk.github.io/aboutme/</loc>
+        <loc>https://viktor-dnk.ru/aboutme/</loc>
     </url>
     <url>
-        <loc>https://viktor-dnk.github.io/thisblog/</loc>
+        <loc>https://viktor-dnk.ru/thisblog/</loc>
     </url>
     <url>
-        <loc>https://viktor-dnk.github.io/search/</loc>
+        <loc>https://viktor-dnk.ru/search/</loc>
     </url>
 </urlset>

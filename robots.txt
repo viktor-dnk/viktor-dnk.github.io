@@ -32,5 +32,5 @@ Disallow: /*clid=
 Disallow: /*openstat
 Disallow: /*from
 
-Sitemap: https://viktor-dnk.github.io/sm
-Host: https://viktor-dnk.github.io/
+Sitemap: https://viktor-dnk.ru/sm
+Host: https://viktor-dnk.ru/

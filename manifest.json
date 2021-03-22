@@ -27,8 +27,8 @@
         "type": "image/jpeg"
     }],
     "display": "standalone",
-    "start_url": "https://viktor-dnk.github.io/",
-    "scope": "https://viktor-dnk.github.io/",
+    "start_url": "https://viktor-dnk.ru/",
+    "scope": "https://viktor-dnk.ru/",
     "yandex": {
       "manifest_version": 1,
       "app_version": "1.0.0",

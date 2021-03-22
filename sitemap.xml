@@ -36,15 +36,15 @@ layout: null
     </url>
     {% endfor %}
     <url>
-        <loc>https://viktor-dnk.github.io/</loc>
+        <loc>https://viktor-dnk.ru/</loc>
     </url>
     <url>
-        <loc>https://viktor-dnk.github.io/aboutme/</loc>
+        <loc>https://viktor-dnk.ru/aboutme/</loc>
     </url>
     <url>
-        <loc>https://viktor-dnk.github.io/thisblog/</loc>
+        <loc>https://viktor-dnk.ru/thisblog/</loc>
     </url>
     <url>
-        <loc>https://viktor-dnk.github.io/search/</loc>
+        <loc>https://viktor-dnk.ru/search/</loc>
     </url>
 </urlset>

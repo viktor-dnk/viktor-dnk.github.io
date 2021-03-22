@@ -7,7 +7,7 @@ layout: null
     <title>Дорога не кончается</title>
     <description>Заметки географа</description>
     <image>
-      <url>https://viktor-dnk.github.io/img/example-logos/rss.png</url>
+      <url>https://viktor-dnk.ru/img/example-logos/rss.png</url>
       <title>Дорога не кончается</title>
       <link>{{ '' | absolute_url }}</link>
       <width>88</width>

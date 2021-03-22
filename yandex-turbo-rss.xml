@@ -83,8 +83,8 @@ layout: null
                   {% assign cleaned_content=cleaned_content | replace: '</a></li>', '</li>' %}
                   {% assign cleaned_content=cleaned_content | replace: '<strong></a>', '<strong>' %}
                   {% assign cleaned_content=cleaned_content | replace: '<li></a>', '<li>' %}
-                  {% assign cleaned_content=cleaned_content | replace: 'src="/img/mysteries-dolmens/', 'src="https://viktor-dnk.github.io/img/mysteries-dolmens/' %}
-                  {% assign cleaned_content=cleaned_content | replace: 'src="/img/toponymy/', 'src="https://viktor-dnk.github.io/img/toponymy/' %}
+                  {% assign cleaned_content=cleaned_content | replace: 'src="/img/mysteries-dolmens/', 'src="https://viktor-dnk.ru/img/mysteries-dolmens/' %}
+                  {% assign cleaned_content=cleaned_content | replace: 'src="/img/toponymy/', 'src="https://viktor-dnk.ru/img/toponymy/' %}
           				    {{ cleaned_content }}
                   <button formaction="{{ toponymy.url | absolute_url }}"
                   					data-background-color="#87CEEB"
@@ -172,8 +172,8 @@ layout: null
                 {% assign cleaned_content=cleaned_content | replace: '</a></li>', '</li>' %}
                 {% assign cleaned_content=cleaned_content | replace: '<strong></a>', '<strong>' %}
                 {% assign cleaned_content=cleaned_content | replace: '<li></a>', '<li>' %}
-                {% assign cleaned_content=cleaned_content | replace: 'src="/img/mysteries-dolmens/', 'src="https://viktor-dnk.github.io/img/mysteries-dolmens/' %}
-                {% assign cleaned_content=cleaned_content | replace: 'src="/img/toponymy/', 'src="https://viktor-dnk.github.io/img/toponymy/' %}
+                {% assign cleaned_content=cleaned_content | replace: 'src="/img/mysteries-dolmens/', 'src="https://viktor-dnk.ru/img/mysteries-dolmens/' %}
+                {% assign cleaned_content=cleaned_content | replace: 'src="/img/toponymy/', 'src="https://viktor-dnk.ru/img/toponymy/' %}
         				    {{ cleaned_content }}
                 <button formaction="{{ mysteries-dolmens.url | absolute_url }}"
                 					data-background-color="#87CEEB"

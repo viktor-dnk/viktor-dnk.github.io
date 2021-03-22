@@ -1,5 +1,4 @@
 User-agent: Googlebot
-Disallow: /sitemap*.*
 Allow: /manifest.json
 Allow: /amp/*
 Allow: /feed.xml
@@ -10,7 +9,6 @@ Allow: /img/*/*/*.jpg
 
 User-agent: Yandex
 Disallow: /amp/*
-Disallow: /sitemap*.*
 Allow: /feed.xml
 Allow: /manifest.json
 Allow: /assets/css/*.css

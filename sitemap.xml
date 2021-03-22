@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-  <sitemapindex xmlns:xsi="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-    <sitemap>
-      <loc>https://viktor-dnk.ru/sm.xml</loc>
-    </sitemap>
-    <sitemap>
-      <loc>https://viktor-dnk.ru/sm_img.xml</loc>
-    </sitemap>
-  </sitemapindex>
+<sitemapindex xmlns:xsi="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+  <sitemap>
+    <loc>https://viktor-dnk.ru/sm.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://viktor-dnk.ru/sm_img.xml</loc>
+  </sitemap>
+</sitemapindex>

@@ -6,7 +6,7 @@ author: Ковешников В.Н.
 navbar-links:
   Разделы сайта:
     - Топонимика: "/toponymy/"
-    - Тайны дольменов: "/mysteries-dolmens/"  
+    - Тайны дольменов: "/mysteries-dolmens/"
   Информация:
     - Об этом сайте: "/thisblog/"
     - Об авторе: "/aboutme/"
@@ -84,9 +84,6 @@ share-links-active:
   linkedin: true
   tumblr: true
   pinterest: true
-  
-  
-
 
 # How to display the link to your website in the footer
 # Remove this if you don't want a link in the footer
@@ -131,28 +128,6 @@ mobile-theme-col: "#87ceeb"
 
 # Google Tag Manager ID
 gtm: "GTM-NJDL82R"
-
-
-# --- Comments --- #
-
-# To use Disqus comments, sign up to https://disqus.com and fill in your Disqus shortname (NOT the userid)
-#disqus: "https-viktor-dnk-github-io"
-
-
-# To use Staticman comments, first invite `staticmanlab` as a collaborator to your repository and
-# accept the invitation by going to `https://staticman3.herokuapp.com/v3/connect/github/<username>/<repo-name>`.
-# Then uncomment the following section and fill in "repository" and "branch".
-# If you want to use reCaptcha for staticman (optional for spam protection), then fill
-# in the "siteKey" and "secret" parameters below and also in `staticman.yml`.
-# See more details at https://staticman.net/
-#staticman_url: https://viktor-dnk.herokuapp.com/v2/entry/viktor-dnk/viktor-dnk.ru/master/comments
-#staticman:
-#  repository: "viktor-dnk/viktor-dnk.ru"
-#  branch: master
-#  endpoint: https://viktor-dnk.herokuapp.com/v2/connect/viktor-dnk/viktor-dnk.ru
-#  reCaptcha:
-#    siteKey: 6LdJLOwZAAAAAMopr1XZt4nZ7MNPLHBTnN71AERw
-#    secret: "V573feaT1i0aUDZv5s01e5+IkHEOzedm7F/6I/Y/u18qaK91rIY7Fw2VePQE3Mr4wGd70uwZbkdGBXqT07jP797x9NjNVDdcMx12d3oDmyWM0hE9UxxW0NzHu5up8zTSGODAIC2nm+e75cNco0l5DqcZ1gCcD0tp5iYqghJqMmTD4FW79ZCN7O5lq7wAm5jetIlc64FDZ/emmPLToipwuyBfmDoZOSCqBHLBTL2t+PIcOZqP2cnpF5HQ8QIs3MtsfQqbhLDM8wSAjwxdu9+W5Xz80D4H66j5l/bFvZvOTTKkDASu9CU43e50i8DuPUtZPcMdh65l9p8lBJ3NsH2Xcg=="
 
 # --- Misc --- #
 
@@ -224,7 +199,7 @@ defaults:
       comments: false
       social-share: true
       readtime: true
-      language: ru   
+      language: ru
   -
     scope:
       path: ""
@@ -249,15 +224,6 @@ exclude:
   - screenshot.png
   - regex
   - docs/
-compress_html:
-  clippings: all
-  comments: all
-  endings: all
-  ignore:
-    envs: [local]
-  blanklines: false
-  profile: false
-  startings: [html, head, body]
 
 plugins:
   - jekyll-paginate

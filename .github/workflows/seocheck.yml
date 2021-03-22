@@ -1,0 +1,20 @@
+name: check
+
+on: pull_request_target
+
+jobs:
+  seocheck:
+    name: Markdown SEO Check
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+      - name: Markdown SEO Check
+        uses: zentered/markdown-seo-check@v1.1.0
+        with:
+          max_title_length: 70
+          max_description_length: 150
+          max_slug_length: 100
+        env:
+          GITHUB_TOKEN: b7ad110b7e168c746a75404296f75215e515af0d

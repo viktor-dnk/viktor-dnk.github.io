@@ -1,9 +1,14 @@
 ---
-layout: page
-head-extra: amp_link.html
+layout: amp
+title: Заметки географа
+cover-img: /img/example-logos/main-cover.jpg
+share-img: /img/example-logos/main-cover-s.jpg
+language: ru
+last_modified_at: 2021-03-23 17:00:00 +0300
+date: 2020-09-08 16:00
 ---
-
-{{ content }}
+{: .box-note}
+## <br><br><br>Заметки географа
 
 {% assign posts = paginator.posts | default: site.posts %}
 
@@ -29,7 +34,7 @@ head-extra: amp_link.html
     {% if thumbnail != "" %}
     <div class="post-image post-image-normal">
       <a href="{{ post.url | absolute_url }}" aria-label="Thumbnail">
-        <img src="{{ thumbnail | absolute_url }}" alt="Post thumbnail">
+        <amp-img src="{{ thumbnail | absolute_url }}" alt="page thumbnail" layout="intrinsic" width="220" height="220"></amp-img>
       </a>
     </div>
     {% endif %}
@@ -53,7 +58,7 @@ head-extra: amp_link.html
     {% if thumbnail != "" %}
     <div class="post-image post-image-small">
       <a href="{{ post.url | absolute_url }}" aria-label="Thumbnail">
-        <img src="{{ thumbnail | absolute_url }}" alt="Post thumbnail">
+        <amp-img src="{{ thumbnail | absolute_url }}" alt="page thumbnail" layout="intrinsic" width="220" height="220"></amp-img>
       </a>
     </div>
     {% endif %}
@@ -62,7 +67,7 @@ head-extra: amp_link.html
     {% if thumbnail != "" %}
     <div class="post-image post-image-short">
       <a href="{{ post.url | absolute_url }}" aria-label="Thumbnail">
-        <img src="{{ thumbnail | absolute_url }}" alt="Post thumbnail">
+        <amp-img src="{{ thumbnail | absolute_url }}" alt="page thumbnail" layout="intrinsic" width="220" height="220"></amp-img>
       </a>
     </div>
     {% endif %}

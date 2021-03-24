@@ -37,18 +37,18 @@ layout: null
 
     <url>
         <loc>https://viktor-dnk.ru/mysteries-dolmens/</loc>
-        <lastmod>2021-02-27T17:00:00+03:00</lastmod>
+        <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
     </url>
     <url>
         <loc>https://viktor-dnk.ru/info/</loc>
     </url>
     <url>
         <loc>https://viktor-dnk.ru/toponymy/</loc>
-        <lastmod>2021-02-28T17:00:00+03:00</lastmod>
+        <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
     </url>
     <url>
         <loc>https://viktor-dnk.ru/</loc>
-        <lastmod>2021-02-28T17:00:00+03:00</lastmod>
+        <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
     </url>
     <url>
         <loc>https://viktor-dnk.ru/page/2/</loc>

@@ -4,7 +4,7 @@ subtitle: © В.Н. Ковешников
 share-title: Из истории топонима Туапсе.
 share-description: Город-порт Туапсе, расположен в устье реки Туапсе на берегу Чёрного моря, является промышленным центром и транспортным узлом.
 description: Город-порт Туапсе, расположен в устье реки Туапсе на берегу Чёрного моря, является промышленным центром и транспортным узлом.
-cover-img: /img/toponymy/tuapse/cover.jpg
+cover-img: /img/toponymy/tuapse/cover.webp
 share-img: /img/toponymy/tuapse/cover-s.jpg
 last_modified_at: 2021-03-11 17:50:00 +0300
 date: 2021-02-22 16:00

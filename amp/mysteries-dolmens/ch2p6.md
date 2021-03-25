@@ -4,7 +4,7 @@ subtitle: Путеводитель — описание маршрутов к д
 share-title: Дольмены Мостовского района
 share-description: Дольмены Мостовского района расположены в долинах рек Губс, Гурмай и Кизинчи, все левые притоки реки Ходзь, левого притока реки Лаба.
 description: Дольмены Мостовского района расположены в долинах рек Губс, Гурмай и Кизинчи, все левые притоки реки Ходзь, левого притока реки Лаба.
-cover-img: /img/mysteries-dolmens/ch2p6/cover.jpg
+cover-img: /img/mysteries-dolmens/ch2p6/cover.webp
 share-img: /img/mysteries-dolmens/ch2p6/cover-s.jpg
 date: 2020-10-23 15:00:00 +0300
 last_modified_at: 2021-02-04 17:00:00 +0300

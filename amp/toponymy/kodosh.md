@@ -4,7 +4,7 @@ subtitle: © В.Н. Ковешников
 share-title: Топоним Кодош в Краснодарском крае
 share-description: На картах и описаниях Кавказа и Кубани в ХVIII-ХIХ вв. топоним Кодош, встречается в названии залива и населённого пункта, расположенных в устье реки Туапсе.
 description: На картах и описаниях Кавказа и Кубани в ХVIII-ХIХ вв. топоним Кодош, встречается в названии залива и населённого пункта, расположенных в устье реки Туапсе.
-cover-img: /img/toponymy/kodosh/cover.jpg
+cover-img: /img/toponymy/kodosh/cover.webp
 share-img: /img/toponymy/kodosh/cover-s.jpg
 last_modified_at: 2021-03-13 16:30:00 +0300
 date: 2021-01-07 19:00

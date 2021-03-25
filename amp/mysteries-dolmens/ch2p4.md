@@ -4,7 +4,7 @@ subtitle: Путеводитель — описание маршрутов к д
 share-title: К дольменам в долине реки Пшада
 share-description: Среди дольменов Геленджикского района наибольшую известность, получили мегалиты долины реки Пшада.
 description: Среди дольменов Геленджикского района наибольшую известность, получили мегалиты долины реки Пшада.
-cover-img: /img/mysteries-dolmens/ch2p4/cover.jpg
+cover-img: /img/mysteries-dolmens/ch2p4/cover.webp
 share-img: /img/mysteries-dolmens/ch2p4/cover-s.jpg
 date: 2020-10-20 15:00:00 +0300
 last_modified_at: 2021-02-04 17:00:00 +0300

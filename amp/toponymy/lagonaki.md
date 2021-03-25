@@ -4,7 +4,7 @@ subtitle: © В.Н. Ковешников
 share-title: Топоним Лагонаки
 share-description: Лагонаки — довольно известное географическое название и объект для жителей Кубани и её гостей.
 description: Лагонаки — довольно известное географическое название и объект для жителей Кубани и её гостей.
-cover-img: /img/toponymy/lagonaki/cover.jpg
+cover-img: /img/toponymy/lagonaki/cover.webp
 share-img: /img/toponymy/lagonaki/cover-s.jpg
 last_modified_at: 2021-03-11 22:30:00 +0300
 date: 2021-01-26 23:00

@@ -4,7 +4,7 @@ subtitle: © В.Н. Ковешников
 share-title: О станицах Крыловских — куренных селениях на Кубани
 share-description: Как оказывается, на картах Краснодарского края, изданных после 1961 г., можно обнаружить две станицы под названием Крыловская.
 description: Как оказывается, на картах Краснодарского края, изданных после 1961 г., можно обнаружить две станицы под названием Крыловская. устье реки Туапсе.
-cover-img: /img/toponymy/krylovskaya/cover.jpg
+cover-img: /img/toponymy/krylovskaya/cover.webp
 share-img: /img/toponymy/krylovskaya/cover-s.jpg
 last_modified_at: 2021-02-16 18:35:00 +0300
 date: 2021-01-07 19:00

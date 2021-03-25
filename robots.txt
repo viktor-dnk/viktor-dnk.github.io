@@ -9,6 +9,7 @@ Allow: /img/*/*/*.jpg
 
 User-agent: Yandex
 Disallow: /amp/*
+Disallow: /amp
 Allow: /feed.xml
 Allow: /manifest.json
 Allow: /assets/css/*.css
@@ -24,6 +25,7 @@ Allow: /assets/js/*.js
 Allow: /img/*/*/*.webp
 Allow: /img/*/*/*.jpg
 Disallow: /amp/*
+Disallow: /amp
 Disallow: /*utm
 Disallow: /*clid=
 Disallow: /*openstat

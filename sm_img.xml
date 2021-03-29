@@ -2441,55 +2441,55 @@ layout: null
     <loc>{{ site.url }}/toponymy/kardyvach/</loc>
       <image:image>
         <image:loc>{{ site.url }}/img/toponymy/kardyvach/View-from-the-spur-of-Mount-Kuteheku.webp</image:loc>
-        <image:title>Вид с отрога горы Кутехеку, на панораму горного узла Кардывач</image:title>
+        <image:caption>Вид с отрога горы Кутехеку, на панораму горного узла Кардывач</image:caption>
       </image:image>
       <image:image>
         <image:loc>{{ site.url }}/img/toponymy/kardyvach/The-scheme-of-the-mountain-node-Kardyvach.webp</image:loc>
-        <image:title>Схема горного узла Кардывач.</image:title>
+        <image:caption>Схема горного узла Кардывач.</image:caption>
       </image:image>
       <image:image>
         <image:loc>{{ site.url }}/img/toponymy/kardyvach/Lake-Kardyvach-view-from-the-spur-of-Mount-Kuteheku.webp</image:loc>
-        <image:title>Озеро Кардывач, вид с отрога горы Кутехеку</image:title>
+        <image:caption>Озеро Кардывач, вид с отрога горы Кутехеку</image:caption>
       </image:image>
       <image:image>
         <image:loc>{{ site.url }}/img/toponymy/kardyvach/Lake-Kardyvach-view-from-the-southwest-side.webp</image:loc>
-        <image:title>Озеро Кардывач, вид с юго-западной стороны.</image:title>
+        <image:caption>Озеро Кардывач, вид с юго-западной стороны.</image:caption>
       </image:image>
       <image:image>
         <image:loc>{{ site.url }}/img/toponymy/kardyvach/Lake-Verkhniy-Kardyvach.webp</image:loc>
-        <image:title>На переднем плане озеро Верхний Кардывач, за ним массив гора Лоюб.</image:title>
+        <image:caption>На переднем плане озеро Верхний Кардывач, за ним массив гора Лоюб.</image:caption>
       </image:image>
       <image:image>
         <image:loc>{{ site.url }}/img/toponymy/kardyvach/Peak-Akaragvart-or-Smidovich.webp</image:loc>
-        <image:title>Пик Акарагварта или Смидовича.</image:title>
+        <image:caption>Пик Акарагварта или Смидовича.</image:caption>
       </image:image>
       <image:image>
         <image:loc>{{ site.url }}/img/toponymy/kardyvach/Mountain-knot-Kardyvach.webp</image:loc>
-        <image:title>Горный узел Кардывач</image:title>
+        <image:caption>Горный узел Кардывач</image:caption>
       </image:image>
       <image:image>
         <image:loc>{{ site.url }}/img/toponymy/kardyvach/View-from-the-spur-of-Mount-Kuteheku-b.webp</image:loc>
-        <image:title></image:title>
+        <image:caption></image:caption>
       </image:image>
       <image:image>
         <image:loc>{{ site.url }}/img/toponymy/kardyvach/The-scheme-of-the-mountain-node-Kardyvach-b.webp</image:loc>
-        <image:title></image:title>
+        <image:caption></image:caption>
       </image:image>
       <image:image>
         <image:loc>{{ site.url }}/img/toponymy/kardyvach/Lake-Kardyvach-view-from-the-spur-of-Mount-Kuteheku-b.webp</image:loc>
-        <image:title></image:title>
+        <image:caption></image:caption>
       </image:image>
       <image:image>
         <image:loc>{{ site.url }}/img/toponymy/kardyvach/Lake-Kardyvach-view-from-the-southwest-side-b.webp</image:loc>
-        <image:title></image:title>
+        <image:caption></image:caption>
       </image:image>
       <image:image>
         <image:loc>{{ site.url }}/img/toponymy/kardyvach/Lake-Verkhniy-Kardyvach-b.webp</image:loc>
-        <image:title></image:title>
+        <image:caption></image:caption>
       </image:image>
       <image:image>
         <image:loc>{{ site.url }}/img/toponymy/kardyvach/Peak-Akaragvart-or-Smidovich-b.webp</image:loc>
-        <image:title></image:title>
+        <image:caption></image:caption>
       </image:image>
   </url>
 </urlset>

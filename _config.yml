@@ -11,7 +11,6 @@ navbar-links:
     - Об этом сайте: "/thisblog/"
     - Об авторе: "/aboutme/"
     - Указатель меток: "/tags/"
-    - Случайный пост: "random"
   Полезные ссылки:
     - Территория Поиска: "http://iskatelklada.tuapse.ru"
     - Российское географическое общество: "https://www.rgo.ru/ru/article/prezentaciya-knigi-kratkiy-toponimicheskiy-slovar-naselennye-punkty-kubani-0"

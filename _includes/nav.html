@@ -20,7 +20,6 @@
               {%- for childlink in link[1] -%}
                 {%- for linkparts in childlink %}
                   <a class="dropdown-item" href="{{ linkparts[1] | relative_url }}">{{ linkparts[0] }}</a>
-                  <a class="dropdown-item" rel="nofollow noopener" href="/random">Случайная статья</a>
                 {%- endfor -%}
               {%- endfor %}
             </div>

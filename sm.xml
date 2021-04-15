@@ -28,12 +28,12 @@ layout: null
         <lastmod>{{ mysteries-dolmens.last_modified_at | date_to_xmlschema }}</lastmod>
     </url>
     {% endfor %}
-    
+
     {% for info in site.info %}
     <url>
         <loc>{{ info.url | absolute_url }}</loc>
     </url>
-    {% endfor %}    
+    {% endfor %}
 
     <url>
         <loc>https://viktor-dnk.ru/mysteries-dolmens/</loc>
@@ -58,9 +58,14 @@ layout: null
     </url>
     <url>
         <loc>https://viktor-dnk.ru/page/4/</loc>
-    </url>            
+    </url>
     <url>
         <loc>https://viktor-dnk.ru/aboutme/</loc>
+        <image:image>
+          <image:loc>{{ site.url }}/img/example-logos/stamp.png</image:loc>
+          <image:title>Дорога не кончается</image:title>
+          <image:caption>Заметки географа</image:caption>
+        </image:image>
     </url>
     <url>
         <loc>https://viktor-dnk.ru/thisblog/</loc>

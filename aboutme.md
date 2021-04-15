@@ -19,4 +19,8 @@ head-extra: _aboutme.html
 
 С декабря 2015 г. по сентябрь 2020 г., опубликовал 43 очерка на сайте «Территория Поиска». Их можно прочитать в разделах сайта: [«Маршруты Кубани и Кавказа (География, путешествия)»](http://iskatelklada.tuapse.ru/razdely-sajta/velomarshruty.html) — 36 очерков; [«Загадки (тайны) и факты истории»](http://iskatelklada.tuapse.ru/razdely-sajta/zagadki-istorii.html) — 3 очерка; [«Клады, находки, археология»](http://iskatelklada.tuapse.ru/razdely-sajta/klady-nakhodki.html) — 3 очерка; [«Великая Отечественная война»][d232ab53] — 1 очерк.
 
+<figure>
+	<img title="Дорога не кончается" alt="Дорога не кончается" width="300" height="300" src="/img/example-logos/stamp.png"/>
+</figure>
+
   [d232ab53]: http://iskatelklada.tuapse.ru/razdely-sajta/velikaya-otechestvennaya-vojna/o-mogile-voinov-aviatorov-na-r-adegoj.html "О могиле лётчиков на реке Адегой"

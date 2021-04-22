@@ -5,7 +5,7 @@ description: Краснодар — современное название ад
 cover-img: ["/img/toponymy/krasnodar/cover.webp" : "Памятник Екатерине II в Краснодаре."]
 thumbnail-img: /img/toponymy/krasnodar/thumb.webp
 date: 2021-04-21 13:00
-last_modified_at: 2021-04-21 13:10 +0300
+last_modified_at: 2021-04-22 20:50 +0300
 categories: toponymy
 tags: [топонимика, ойконим, антропоним, топоним]
 share-title: Населенные места Краснодара

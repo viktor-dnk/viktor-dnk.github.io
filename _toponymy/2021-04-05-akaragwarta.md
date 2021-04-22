@@ -5,7 +5,7 @@ description: Акарагварта, гора, высотой 3141 м. Расп�
 cover-img: ["/img/toponymy/akaragwarta/cover.webp" : "Пик Акарагварта или Смидовича"]
 thumbnail-img: /img/toponymy/akaragwarta/thumb.webp
 date: 2021-04-05 18:20
-last_modified_at: 2021-04-05 18:20 +0300
+last_modified_at: 2021-04-22 20:50 +0300
 categories: toponymy
 tags: [топонимика, топоним]
 share-title: Акарагварта — тайна горного узла Кардывач

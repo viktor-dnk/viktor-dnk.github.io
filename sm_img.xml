@@ -2492,4 +2492,98 @@ layout: null
         <image:caption></image:caption>
       </image:image>
   </url>
+  <url>
+    <loc>{{ site.url }}/toponymy/akaragwarta/</loc>
+      <image:image>
+        <image:loc>{{ site.url }}/img/toponymy/akaragwarta/Orographic-scheme-of-the-Kardyvach-mountain-knot.webp</image:loc>
+        <image:caption>Орографическая схема горного узла Кардывач</image:caption>
+      </image:image>
+      <image:image>
+        <image:loc>{{ site.url }}/img/toponymy/akaragwarta/Mountain-knot-Kardyvach.webp</image:loc>
+        <image:caption>Горный узел Кардывач на карте издания 1978 г.</image:caption>
+      </image:image>
+      <image:image>
+        <image:loc>{{ site.url }}/img/toponymy/akaragwarta/Peak-Akaragvart-or-Smidovich.webp</image:loc>
+        <image:caption>Пик Акарагварта или Смидовича</image:caption>
+      </image:image>
+      <image:image>
+        <image:loc>{{ site.url }}/img/toponymy/akaragwarta/Peak-Akaragvart-or-Smidovich-b.webp</image:loc>
+        <image:caption></image:caption>
+      </image:image>
+  </url>
+  <url>
+    <loc>{{ site.url }}/toponymy/krasnodar/</loc>
+      <image:image>
+        <image:loc>{{ site.url }}/img/toponymy/krasnodar/Memorable-sign-in-the-city-of-Krasnodar.webp</image:loc>
+        <image:caption>Памятный знак в городе Краснодаре</image:caption>
+      </image:image>
+      <image:image>
+        <image:loc>{{ site.url }}/img/toponymy/krasnodar/Archaeological-sites-of-Krasnodar.webp</image:loc>
+        <image:caption>Археологические памятники Краснодара</image:caption>
+      </image:image>
+      <image:image>
+        <image:loc>{{ site.url }}/img/toponymy/krasnodar/Karasunsky-kut-plan.webp</image:loc>
+        <image:caption>План Карасунского кута в конце ХVIII в.</image:caption>
+      </image:image>
+      <image:image>
+        <image:loc>{{ site.url }}/img/toponymy/krasnodar/Monument-to-Catherine-II-in-Krasnodar.webp</image:loc>
+        <image:caption>Памятник Екатерине II в Краснодаре</image:caption>
+      </image:image>
+      <image:image>
+        <image:loc>{{ site.url }}/img/toponymy/krasnodar/Monument-to-Suvorov-in-Krasnodar.webp</image:loc>
+        <image:caption>Памятник Суворову А.В. в Краснодаре</image:caption>
+      </image:image>
+      <image:image>
+        <image:loc>{{ site.url }}/img/toponymy/krasnodar/Coat-of-arms-of-Yekaterinodar-1849.webp</image:loc>
+        <image:caption>Герб Екатеринодара 1849 г.</image:caption>
+      </image:image>
+      <image:image>
+        <image:loc>{{ site.url }}/img/toponymy/krasnodar/Coat-of-arms-of-Krasnodar-1967.webp</image:loc>
+        <image:caption>Герб Краснодара 1967 г.</image:caption>
+      </image:image>
+      <image:image>
+        <image:loc>{{ site.url }}/img/toponymy/krasnodar/Coat-of-arms-of-Krasnodar-1979.webp</image:loc>
+        <image:caption>Герб Краснодара 1979 г.</image:caption>
+      </image:image>
+      <image:image>
+        <image:loc>{{ site.url }}/img/toponymy/krasnodar/Ekaterinodar-1890.webp</image:loc>
+        <image:caption>Екатеринодар 1890 г.</image:caption>
+      </image:image>
+      <image:image>
+        <image:loc>{{ site.url }}/img/toponymy/krasnodar/New-Krasnodar-on-the-banks-of-the-old-Kuban.webp</image:loc>
+        <image:caption>Новый Краснодар на берегу старой Кубани</image:caption>
+      </image:image>
+      <image:image>
+        <image:loc>{{ site.url }}/img/toponymy/krasnodar/The-village-of-Elizavetinskaya.webp</image:loc>
+        <image:caption>Станица Елизаветинская ХIХ в.</image:caption>
+      </image:image>
+      <image:image>
+        <image:loc>{{ site.url }}/img/toponymy/krasnodar/Farms-of-Kopanskaya-and-Chernikov.webp</image:loc>
+        <image:caption>Хутора Копанской и Черников 1941 г.</image:caption>
+      </image:image>
+      <image:image>
+        <image:loc>{{ site.url }}/img/toponymy/krasnodar/Departure-Loris-and-the-village-of-Zonal.webp</image:loc>
+        <image:caption>Разъезд Лорис и посёлок Зональный 1990 г.</image:caption>
+      </image:image>
+      <image:image>
+        <image:loc>{{ site.url }}/img/toponymy/krasnodar/Memorable-sign-in-the-city-of-Krasnodar-b.webp</image:loc>
+        <image:caption></image:caption>
+      </image:image>
+      <image:image>
+        <image:loc>{{ site.url }}/img/toponymy/krasnodar/Archaeological-sites-of-Krasnodar-b.webp</image:loc>
+        <image:caption></image:caption>
+      </image:image>
+      <image:image>
+        <image:loc>{{ site.url }}/img/toponymy/krasnodar/Karasunsky-kut-plan-b.webp</image:loc>
+        <image:caption></image:caption>
+      </image:image>
+      <image:image>
+        <image:loc>{{ site.url }}/img/toponymy/krasnodar/Monument-to-Catherine-II-in-Krasnodar-b.webp</image:loc>
+        <image:caption></image:caption>
+      </image:image>
+      <image:image>
+        <image:loc>{{ site.url }}/img/toponymy/krasnodar/Monument-to-Suvorov-in-Krasnodar-b.webp</image:loc>
+        <image:caption></image:caption>
+      </image:image>
+  </url>
 </urlset>

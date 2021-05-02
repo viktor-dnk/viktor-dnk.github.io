@@ -2586,4 +2586,75 @@ layout: null
         <image:caption></image:caption>
       </image:image>
   </url>
+  <url>
+    <loc>{{ site.url }}/toponymy/kalinino/</loc>
+      <image:image>
+        <image:loc>{{ site.url }}/img/toponymy/kalinino/The-village-of-Kalinino-on-a-map-in-1926.webp</image:loc>
+        <image:caption>Село Калинино на карте 1926 г</image:caption>
+      </image:image>
+      <image:image>
+        <image:loc>{{ site.url }}/img/toponymy/kalinino/The-village-of-Kalinino-on-the-map-1941.webp</image:loc>
+        <image:caption>Село Калинино на карте 1941 г</image:caption>
+      </image:image>
+      <image:image>
+        <image:loc>{{ site.url }}/img/toponymy/kalinino/The-village-of-Kalinino-on-the-map-of-1990.webp</image:loc>
+        <image:caption>Посёлок Калинино на карте 1990 г</image:caption>
+      </image:image>
+      <image:image>
+        <image:loc>{{ site.url }}/img/toponymy/kalinino/Old-school-building-number-65.webp</image:loc>
+        <image:caption>Старое здание школы № 65</image:caption>
+      </image:image>
+      <image:image>
+        <image:loc>{{ site.url }}/img/toponymy/kalinino/Burnt-wooden-church-foundation.webp</image:loc>
+        <image:caption>Фундамент сгоревшей деревянной церкви</image:caption>
+      </image:image>
+      <image:image>
+        <image:loc>{{ site.url }}/img/toponymy/kalinino/Church-of-St-Catherine.webp</image:loc>
+        <image:caption>Церковь Святой Екатерины</image:caption>
+      </image:image>
+      <image:image>
+        <image:loc>{{ site.url }}/img/toponymy/kalinino/St-Catherine-Cathedral.webp</image:loc>
+        <image:caption>Свято-Екатерининский кафедральный собор</image:caption>
+      </image:image>
+      <image:image>
+        <image:loc>{{ site.url }}/img/toponymy/kalinino/Former-Church-of-St-Catherine.webp</image:loc>
+        <image:caption>Бывшая церковь Святой Екатерины</image:caption>
+      </image:image>
+      <image:image>
+        <image:loc>{{ site.url }}/img/toponymy/kalinino/New-Church-of-the-Nativity-of-the-Blessed-Virgin.webp</image:loc>
+        <image:caption>Новая церковь Рождества Пресвятой Богородицы</image:caption>
+      </image:image>
+      <image:image>
+        <image:loc>{{ site.url }}/img/toponymy/kalinino/Sweet-cherry.webp</image:loc>
+        <image:caption>Так цвели черешни в садах Калинино</image:caption>
+      </image:image>
+      <image:image>
+        <image:loc>{{ site.url }}/img/toponymy/kalinino/Old-school-building-number-65-b.webp</image:loc>
+        <image:caption></image:caption>
+      </image:image>
+      <image:image>
+        <image:loc>{{ site.url }}/img/toponymy/kalinino/Burnt-wooden-church-foundation-b.webp</image:loc>
+        <image:caption></image:caption>
+      </image:image>
+      <image:image>
+        <image:loc>{{ site.url }}/img/toponymy/kalinino/Church-of-St-Catherine-b.webp</image:loc>
+        <image:caption></image:caption>
+      </image:image>
+      <image:image>
+        <image:loc>{{ site.url }}/img/toponymy/kalinino/St-Catherine-Cathedral-b.webp</image:loc>
+        <image:caption></image:caption>
+      </image:image>
+      <image:image>
+        <image:loc>{{ site.url }}/img/toponymy/kalinino/Former-Church-of-St-Catherine-b.webp</image:loc>
+        <image:caption></image:caption>
+      </image:image>
+      <image:image>
+        <image:loc>{{ site.url }}/img/toponymy/kalinino/New-Church-of-the-Nativity-of-the-Blessed-Virgin-b.webp</image:loc>
+        <image:caption></image:caption>
+      </image:image>
+      <image:image>
+        <image:loc>{{ site.url }}/img/toponymy/kalinino/Sweet-cherry-b.webp</image:loc>
+        <image:caption></image:caption>
+      </image:image>
+  </url>
 </urlset>

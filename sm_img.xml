@@ -2657,4 +2657,103 @@ layout: null
         <image:caption></image:caption>
       </image:image>
   </url>
+  <url>
+    <loc>{{ site.url }}/toponymy/kerch-ferrys/</loc>
+      <image:image>
+        <image:loc>{{ site.url }}/img/toponymy/kerch-ferrys/Kerch-Strait-on-the-map-of-the-Sea-of-Azov-in-1855.webp</image:loc>
+        <image:caption>Керченский пролив на карте Азовского моря 1855 г.</image:caption>
+      </image:image>
+      <image:image>
+        <image:loc>{{ site.url }}/img/toponymy/kerch-ferrys/Kerch-Strait-on-a-1940-map.webp</image:loc>
+        <image:caption>Керченский пролив на карте 1940 г.</image:caption>
+      </image:image>
+      <image:image>
+        <image:loc>{{ site.url }}/img/toponymy/kerch-ferrys/Image-of-the-Cimmerians-on-an-Etruscan-vase.webp</image:loc>
+        <image:caption>Изображение киммерийцев на этрусской вазе</image:caption>
+      </image:image>
+      <image:image>
+        <image:loc>{{ site.url }}/img/mysteries-dolmens/ch1p16/mysteries-dolmens-ch1p16-16.5-s.webp</image:loc>
+        <image:caption>Керченский пролив, вид с косы Чушка</image:caption>
+      </image:image>
+      <image:image>
+        <image:loc>{{ site.url }}/img/toponymy/kerch-ferrys/German-cable-car-crossing-the-Kerch-Strait.webp</image:loc>
+        <image:caption>Германская канатная переправа через Керченский пролив</image:caption>
+      </image:image>
+      <image:image>
+        <image:loc>{{ site.url }}/img/toponymy/kerch-ferrys/Soviet-railway-bridge-across-the-Kerch-Strait.webp</image:loc>
+        <image:caption>Советский ж/д мост через Керченский пролив</image:caption>
+      </image:image>
+      <image:image>
+        <image:loc>{{ site.url }}/img/mysteries-dolmens/ch1p16/mysteries-dolmens-ch1p16-16.4-s.webp</image:loc>
+        <image:caption>Вид на косу и озеро Тузла</image:caption>
+      </image:image>
+      <image:image>
+        <image:loc>{{ site.url }}/img/toponymy/kerch-ferrys/View-of-Cape-Tuzla-from-the-north.webp</image:loc>
+        <image:caption>Вид на мыс Тузла с севера</image:caption>
+      </image:image>
+      <image:image>
+        <image:loc>{{ site.url }}/img/mysteries-dolmens/ch1p16/mysteries-dolmens-ch1p16-16.15-s.webp</image:loc>
+        <image:caption>Схема предполагаемых островов в пределах Таманского полуострова в I веке нашей эры.</image:caption>
+      </image:image>
+      <image:image>
+        <image:loc>{{ site.url }}/img/toponymy/kerch-ferrys/Fragment-of-a-map-of-1817.webp</image:loc>
+        <image:caption>Фрагмент карты 1817 г</image:caption>
+      </image:image>
+      <image:image>
+        <image:loc>{{ site.url }}/img/toponymy/kerch-ferrys/View-of-the-Kerch-Peninsula-from-the-ferry.webp</image:loc>
+        <image:caption>Вид на Керченский полуостров с парома</image:caption>
+      </image:image>
+      <image:image>
+        <image:loc>{{ site.url }}/img/toponymy/kerch-ferrys/Kavkaz-port-water-area.webp</image:loc>
+        <image:caption>Акватория порта Кавказ</image:caption>
+      </image:image>
+      <image:image>
+        <image:loc>{{ site.url }}/img/toponymy/kerch-ferrys/Spit-Tuzla-on-the-map-1904.webp</image:loc>
+        <image:caption>Коса Тузла на карте 1904 г</image:caption>
+      </image:image>
+      <image:image>
+        <image:loc>{{ site.url }}/img/toponymy/kerch-ferrys/View-of-the-Chushka-spit-from-the-northwest-side.webp</image:loc>
+        <image:caption>Вид на косу Чушка с северо-западной стороны</image:caption>
+      </image:image>
+      <image:image>
+        <image:loc>{{ site.url }}/img/toponymy/kerch-ferrys/Kerch-Strait-on-the-map-of-the-Sea-of-Azov-in-1855-b.webp</image:loc>
+        <image:caption></image:caption>
+      </image:image>
+      <image:image>
+        <image:loc>{{ site.url }}/img/toponymy/kerch-ferrys/Image-of-the-Cimmerians-on-an-Etruscan-vase-b.webp</image:loc>
+        <image:caption></image:caption>
+      </image:image>
+      <image:image>
+        <image:loc>{{ site.url }}/img/mysteries-dolmens/ch1p16/mysteries-dolmens-ch1p16-16.5.webp</image:loc>
+        <image:caption></image:caption>
+      </image:image>
+      <image:image>
+        <image:loc>{{ site.url }}/img/toponymy/kerch-ferrys/Soviet-railway-bridge-across-the-Kerch-Strait-b.webp</image:loc>
+        <image:caption></image:caption>
+      </image:image>
+      <image:image>
+        <image:loc>{{ site.url }}/img/mysteries-dolmens/ch1p16/mysteries-dolmens-ch1p16-16.4.webp</image:loc>
+        <image:caption></image:caption>
+      </image:image>
+      <image:image>
+        <image:loc>{{ site.url }}/img/toponymy/kerch-ferrys/View-of-Cape-Tuzla-from-the-north-b.webp</image:loc>
+        <image:caption></image:caption>
+      </image:image>
+      <image:image>
+        <image:loc>{{ site.url }}/img/mysteries-dolmens/ch1p16/mysteries-dolmens-ch1p16-16.15.webp</image:loc>
+        <image:caption></image:caption>
+      </image:image>
+      <image:image>
+        <image:loc>{{ site.url }}/img/toponymy/kerch-ferrys/View-of-the-Kerch-Peninsula-from-the-ferry-b.webp</image:loc>
+        <image:caption></image:caption>
+      </image:image>
+      <image:image>
+        <image:loc>{{ site.url }}/img/toponymy/kerch-ferrys/Kavkaz-port-water-area-b.webp</image:loc>
+        <image:caption></image:caption>
+      </image:image>
+      <image:image>
+        <image:loc>{{ site.url }}/img/toponymy/kerch-ferrys/View-of-the-Chushka-spit-from-the-northwest-side-b.webp</image:loc>
+        <image:caption></image:caption>
+      </image:image>
+  </url>
 </urlset>

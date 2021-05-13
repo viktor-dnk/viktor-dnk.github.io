@@ -5,7 +5,7 @@ description: В античное время пролив называли Бос
 cover-img: ["/img/mysteries-dolmens/ch1p16/cover.webp" : "Керченский пролив, вид с косы Чушка"]
 thumbnail-img: /img/toponymy/kerch-ferrys/thumb.webp
 date: 2021-05-12 21:20
-last_modified_at: 2021-05-12 21:20 +0300
+last_modified_at: 2021-05-13 07:10 +0300
 categories: toponymy
 tags: [топонимика]
 share-title: Керченская переправа

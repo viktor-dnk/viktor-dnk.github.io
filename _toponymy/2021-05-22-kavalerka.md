@@ -7,7 +7,7 @@ thumbnail-img: /img/toponymy/kavalerka/thumb.webp
 date: 2021-05-22 19:50
 last_modified_at: 2021-05-22 19:50 +0300
 categories: toponymy
-tags: [топонимика]
+tags: [топонимика, гидроним]
 share-title: Топоним Кавалерка
 share-description: Река является правым притоком реки Ея, впадает в неё между станицами Кисляковской и Кущёвской
 share-img: /img/toponymy/kavalerka/cover-s.jpg

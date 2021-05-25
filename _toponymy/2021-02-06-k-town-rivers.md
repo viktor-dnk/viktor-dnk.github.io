@@ -5,7 +5,7 @@ description: Город Краснодар был основан как Екат
 cover-img: ["/img/toponymy/k-town-rivers/cover.webp" : "Река Теберда в нижнем течении, левый приток реки Кубань, расположен за пределами Краснодарского края"]
 thumbnail-img: /img/toponymy/k-town-rivers/thumb.webp
 date: 2021-02-06 19:10
-last_modified_at: 2021-03-11 21:30:00 +0300
+last_modified_at: 2021-05-25 11:00:00 +0300
 categories: toponymy
 tags: [топонимика, гидроним]
 share-title: Гидронимы Краснодара

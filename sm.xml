@@ -60,6 +60,9 @@ layout: null
         <loc>https://viktor-dnk.ru/page/4/</loc>
     </url>
     <url>
+        <loc>https://viktor-dnk.ru/page/5/</loc>
+    </url>
+    <url>
         <loc>https://viktor-dnk.ru/aboutme/</loc>
         <image:image>
           <image:loc>{{ site.url }}/img/example-logos/stamp.png</image:loc>

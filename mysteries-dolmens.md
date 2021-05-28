@@ -7,7 +7,7 @@ share-img: /img/example-logos/main-cover4x3.jpg
 share-title: Тайны дольменов
 language: ru
 keywords: древность, археология
-last_modified_at: 2021-02-27 17:00:00 +0300
+last_modified_at: 2021-05-28 11:00:00 +0300
 date: 2020-09-09 16:00
 head-extra: amp_link.html
 ---

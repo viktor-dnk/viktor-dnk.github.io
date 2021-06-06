@@ -2756,4 +2756,121 @@ layout: null
         <image:caption></image:caption>
       </image:image>
   </url>
+  <url>
+  <loc>{{ site.url }}/toponymy/kavalerka/</loc>
+    <image:image>
+      <image:loc>{{ site.url }}/img/toponymy/kavalerka/Road-sign-r-Cavalier.webp</image:loc>
+      <image:caption>Дорожный указатель «р. Кавалерка»</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>{{ site.url }}/img/toponymy/kavalerka/The-name-of-the-Kavalerka-river-on-the-Russian-map-of-1807.webp</image:loc>
+      <image:caption>Название реки Кавалерка на Российской карте 1807 г</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>{{ site.url }}/img/toponymy/kavalerka/Fragment-of-1-map-of-1941-of-the-South-of-Russia.webp</image:loc>
+      <image:caption>Фрагмент 1 карты 1941 г. Юга России</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>{{ site.url }}/img/toponymy/kavalerka/Fragment-2-of-a-1941-map-of-the-South-of-Russia.webp</image:loc>
+      <image:caption>Фрагмент 2 карты 1941 г. Юга России</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>{{ site.url }}/img/toponymy/kavalerka/River-Kavalerka-near-the-mouth.webp</image:loc>
+      <image:caption>Река Кавалерка недалеко от устья</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>{{ site.url }}/img/toponymy/kavalerka/Road-sign-r-Cavalier-b.webp</image:loc>
+      <image:caption></image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>{{ site.url }}/img/toponymy/kavalerka/River-Kavalerka-near-the-mouth-b.webp</image:loc>
+      <image:caption></image:caption>
+    </image:image>
+</url>
+ <url>
+  <loc>{{ site.url }}/toponymy/kisha/</loc>
+    <image:image>
+      <image:loc>{{ site.url }}/img/toponymy/kisha/Fragment-of-a-1940-map-with-the-source-of-the-Belaya-River.webp</image:loc>
+      <image:caption>Фрагмент карты 1940 г. c истоком реки Белой</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>{{ site.url }}/img/toponymy/kisha/The-Kisha-River-in-the-lower-reaches.webp</image:loc>
+      <image:caption>Река Киша в нижнем течении</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>{{ site.url }}/img/toponymy/kisha/Valley-of-the-Kish-river-on-the-map-of-the-Kuban-region-1904.webp</image:loc>
+      <image:caption>Долина реки Киша на карте Кубанской области 1904</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>{{ site.url }}/img/toponymy/kisha/Chugush-mountain-massif.webp</image:loc>
+      <image:caption>Массив горы Чугуш</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>{{ site.url }}/img/toponymy/kisha/Mount-Chugush.webp</image:loc>
+      <image:caption>Гора Чугуш</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>{{ site.url }}/img/toponymy/kisha/Fragment-of-a-1926-map-of-the-sources-of-the-Kish-River.webp</image:loc>
+      <image:caption>Фрагмент карты 1926 г. истоков реки Киша</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>{{ site.url }}/img/toponymy/kisha/The-Kisha-River-in-the-lower-reaches-b.webp</image:loc>
+      <image:caption></image:caption>
+    </image:image>
+</url>
+<url>
+  <loc>{{ site.url }}/toponymy/krasnaya-polyana/</loc>
+    <image:image>
+      <image:loc>{{ site.url }}/img/toponymy/krasnaya-polyana/Modern-scheme-of-the-entrance-to-Krasnaya-Polyana.webp</image:loc>
+      <image:caption>Современная схема подъезда в Красную Поляну</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>{{ site.url }}/img/toponymy/krasnaya-polyana/Bison-in-the-aviary-complex-Laura.webp</image:loc>
+      <image:caption>Зубр в  вольерном комплексе Лаура</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>{{ site.url }}/img/toponymy/krasnaya-polyana/View-of-the-Mzymta-river-valley.webp</image:loc>
+      <image:caption>Вид на долину реки Мзымта</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>{{ site.url }}/img/toponymy/krasnaya-polyana/The-most-famous-tiled-dolmen.webp</image:loc>
+      <image:caption>Самый известный плиточный дольмен</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>{{ site.url }}/img/toponymy/krasnaya-polyana/Krasnopolyanskaya-hydroelectric-power-station-on-the-Mzymta-river.webp</image:loc>
+      <image:caption>Краснополянская ГЭС на реке Мзымта</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>{{ site.url }}/img/toponymy/krasnaya-polyana/Fragment-of-a-5-verst-map-of-the-Caucasian-Territory.webp</image:loc>
+      <image:caption>Фрагмент 5-ти верстной карты Кавказского края</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>{{ site.url }}/img/toponymy/krasnaya-polyana/Fragment-of-a-map-of-the-Kuban-region-of-1904.webp</image:loc>
+      <image:caption>Фрагмент карты Кубанской области 1904 г</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>{{ site.url }}/img/toponymy/krasnaya-polyana/Aibga-ridge-view.webp</image:loc>
+      <image:caption>Вид на хребет Аибга</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>{{ site.url }}/img/toponymy/krasnaya-polyana/The-village-of-Krasnaya-Polyana-on-the-map-of-1990.webp</image:loc>
+      <image:caption>Поселок Красная Поляна на карте 1990 гг.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>{{ site.url }}/img/toponymy/krasnaya-polyana/Bison-in-the-aviary-complex-Laura-b.webp</image:loc>
+      <image:caption></image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>{{ site.url }}/img/toponymy/krasnaya-polyana/View-of-the-Mzymta-river-valley-b.webp</image:loc>
+      <image:caption></image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>{{ site.url }}/img/toponymy/krasnaya-polyana/The-most-famous-tiled-dolmen-b.webp</image:loc>
+      <image:caption></image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>{{ site.url }}/img/toponymy/krasnaya-polyana/Aibga-ridge-view-b.webp</image:loc>
+      <image:caption></image:caption>
+    </image:image>
+</url>
 </urlset>

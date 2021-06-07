@@ -1,8 +1,8 @@
 ---
-title: Поселок Красная Поляна бывший город Романовск
+title: Поселок Красная Поляна - бывший город Романовск
 subtitle: © В.Н. Ковешников
 share-title: Топоним Красная Поляна
-share-description: Поселок Красная Поляна бывший город Романовск
+share-description: Поселок Красная Поляна - бывший город Романовск
 description: Расположен посёлок среди южных отрогов Главного Кавказского хребта
 cover-img: /img/toponymy/krasnaya-polyana/cover.webp
 share-img: /img/toponymy/krasnaya-polyana/cover-s.jpg
@@ -11,7 +11,7 @@ last_modified_at: 2021-06-06 13:50 +0300
 ---
 
 {: .box-note}
-## <br><br><br>Поселок Красная Поляна бывший город Романовск
+## <br><br><br>Поселок Красная Поляна - бывший город Романовск
 
 <ul class="pagination blog-pager"><li class="page-item previous"><figure><a class="page-link" href="{{ page.url | absolute_url | strip_index | replace:'/amp/','/' }}" data-toggle="tooltip" data-placement="top" title="Перейти на основную версию сайта">Читать статью на сайте автора</a></figure></li></ul>
 

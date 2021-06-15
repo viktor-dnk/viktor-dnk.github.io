@@ -15,7 +15,6 @@
           "category" : "{{ toponymy.tags | join: \', \' }}", \
           "url"      : "{{ site.baseurl }}{{ toponymy.url }}", \
           "date"     : "{{ toponymy.date | date: "%B %e, %Y" | default: "January 1, 1970" }}" \
-          "content"  : {{ toponymy.content | jsonify }} \
         }, \
       {% endfor %} \
       {% for mysteries-dolmens in site.mysteries-dolmens %} \
@@ -24,7 +23,6 @@
           "category" : "{{ mysteries-dolmens.tags | join: \', \' }}", \
           "url"      : "{{ site.baseurl }}{{ mysteries-dolmens.url }}", \
           "date"     : "{{ mysteries-dolmens.date | date: "%B %e, %Y" | default: "January 1, 1970" }}" \
-          "content"  : {{ mysteries-dolmens.content | jsonify }} \
         }, \
       {% endfor %} \
       {% for info in site.info %} \
@@ -33,7 +31,6 @@
           "category" : "{{ info.tags | join: \', \' }}", \
           "url"      : "{{ site.baseurl }}{{ info.url }}", \
           "date"     : "{{ info.date | date: "%B %e, %Y" | default: "January 1, 1970" }}" \
-          "content"  : {{ info.content | jsonify }} \
         }, \
       {% endfor %} \
       {% for page in site.html_pages %}{% if page.title != "{title}" and page.title != "404 - Page not found" %} \
@@ -42,7 +39,6 @@
           "category" : "{% if page.tags %}{{ page.tags | join: \', \' }}{% else %}page{% endif %}", \
           "url"      : "{{ site.baseurl }}{{ page.url }}", \
           "date"     : "{{ page.date | date: '%B %e, %Y' | default: "January 1, 1970" }}" \
-          "content"  : {{ page.content | jsonify }} \
         }{% unless forloop.last %},{% endunless %} \
       {% endif %}{% endfor %} \
     ]';

@@ -9,29 +9,30 @@
   <script src="https://unpkg.com/simple-jekyll-search@latest/dest/simple-jekyll-search.min.js"></script>
   <script>
     var searchjson = '[ \
-  {% for post in site.posts %} \
-    { \
-      "title"    : "{{ post.title | escape }}", \
-      "category" : "{{ post.category }}", \
-      "tags"     : "{{ post.tags | join: ', ' }}", \
-      "url"      : "{{ site.baseurl }}{{ post.url }}", \
-      "date"     : "{{ post.date }}", \
-      "content": "{{ page.content | strip_html | strip_newlines | remove_chars | escape }}" \
-    } {% unless forloop.last %},{% endunless %} \
-  {% endfor %} \
-  , \
-  {% for page in site.pages %} \
-   { \
-     {% if page.title != nil %} \
-        "title"    : "{{ page.title | escape }}", \
-        "category" : "{{ page.category }}", \
-        "tags"     : "{{ page.tags | join: ', ' }}", \
-        "url"      : "{{ site.baseurl }}{{ page.url }}", \
-        "date"     : "{{ page.date }}", \
-        "content": "{{ page.content | strip_html | strip_newlines | remove_chars | escape }}" \
-     {% endif %} \
-   } {% unless forloop.last %},{% endunless %} \
-  {% endfor %} \
+      {% for toponymy in site.toponymy %} \
+        { \
+          "title"    : "{% if toponymy.title != "" %}{{ toponymy.title | escape }}{% else %}{{ toponymy.excerpt | strip_html | escape | strip }}{%endif%}", \
+          "category" : "{{ toponymy.tags | join: \', \' }}", \
+          "url"      : "{{ site.baseurl }}{{ toponymy.url }}", \
+          "date"     : "{{ toponymy.date | date: "%B %e, %Y" | default: "January 1, 1970" }}" \
+        }, \
+      {% endfor %} \
+      {% for mysteries-dolmens in site.mysteries-dolmens %} \
+        { \
+          "title"    : "{% if mysteries-dolmens.title != "" %}{{ mysteries-dolmens.title | escape }}{% else %}{{ mysteries-dolmens.excerpt | strip_html | escape | strip }}{%endif%}", \
+          "category" : "{{ mysteries-dolmens.tags | join: \', \' }}", \
+          "url"      : "{{ site.baseurl }}{{ mysteries-dolmens.url }}", \
+          "date"     : "{{ mysteries-dolmens.date | date: "%B %e, %Y" | default: "January 1, 1970" }}" \
+        }, \
+      {% endfor %} \
+      {% for info in site.info %} \
+        { \
+          "title"    : "{% if info.title != "" %}{{ info.title | escape }}{% else %}{{ info.excerpt | strip_html | escape | strip }}{%endif%}", \
+          "category" : "{{ info.tags | join: \', \' }}", \
+          "url"      : "{{ site.baseurl }}{{ info.url }}", \
+          "date"     : "{{ info.date | date: "%B %e, %Y" | default: "January 1, 1970" }}" \
+        }, \
+      {% endfor %} \
 ]';
     searchjson = JSON.parse(searchjson);
 

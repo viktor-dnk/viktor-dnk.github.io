@@ -32,8 +32,7 @@
           "url"      : "{{ site.baseurl }}{{ info.url }}", \
           "date"     : "{{ info.date | date: "%B %e, %Y" | default: "January 1, 1970" }}" \
         }, \
-        }{% unless forloop.last %},{% endunless %} \
-      {% endif %}{% endfor %} \
+      {% endfor %} \
     ]';
     searchjson = JSON.parse(searchjson);
 

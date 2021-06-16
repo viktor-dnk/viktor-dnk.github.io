@@ -5,42 +5,28 @@
   <div id="nav-search-exit" title="Exit search">✕</div>
   <input type="text" id="nav-search-input" placeholder="Поиск по сайту">
   <ul id="search-results-container"></ul>
-  
+
   <script src="https://unpkg.com/simple-jekyll-search@latest/dest/simple-jekyll-search.min.js"></script>
   <script>
     var searchjson = '[ \
-      {% for toponymy in site.toponymy %} \
-        { \
-          "title"    : "{% if toponymy.title != "" %}{{ toponymy.title | escape }}{% else %}{{ toponymy.excerpt | strip_html | escape | strip }}{%endif%}", \
-          "category" : "{{ toponymy.tags | join: \', \' }}", \
-          "url"      : "{{ site.baseurl }}{{ toponymy.url }}", \
-          "date"     : "{{ toponymy.date | date: "%B %e, %Y" | default: "January 1, 1970" }}" \
-        }, \
-      {% endfor %} \
-      {% for mysteries-dolmens in site.mysteries-dolmens %} \
-        { \
-          "title"    : "{% if mysteries-dolmens.title != "" %}{{ mysteries-dolmens.title | escape }}{% else %}{{ mysteries-dolmens.excerpt | strip_html | escape | strip }}{%endif%}", \
-          "category" : "{{ mysteries-dolmens.tags | join: \', \' }}", \
-          "url"      : "{{ site.baseurl }}{{ mysteries-dolmens.url }}", \
-          "date"     : "{{ mysteries-dolmens.date | date: "%B %e, %Y" | default: "January 1, 1970" }}" \
-        }, \
-      {% endfor %} \
-      {% for info in site.info %} \
-        { \
-          "title"    : "{% if info.title != "" %}{{ info.title | escape }}{% else %}{{ info.excerpt | strip_html | escape | strip }}{%endif%}", \
-          "category" : "{{ info.tags | join: \', \' }}", \
-          "url"      : "{{ site.baseurl }}{{ info.url }}", \
-          "date"     : "{{ info.date | date: "%B %e, %Y" | default: "January 1, 1970" }}" \
-        }, \
-      {% endfor %} \
-      {% for page in site.html_pages %}{% if page.title != "{title}" and page.title != "Страница не найдена" %} \
-        { \
-          "title"    : "{% if page.title != "" %}{{ page.title | escape }}{% else %}{{ page.excerpt | strip_html | escape | strip }}{% endif %}", \
-          "category" : "{% if page.tags %}{{ page.tags | join: \', \' }}{% else %}page{% endif %}", \
-          "url"      : "{{ site.baseurl }}{{ page.url }}", \
-          "date"     : "{{ page.date | date: '%B %e, %Y' | default: "January 1, 1970" }}" \
-        }{% unless forloop.last %},{% endunless %} \
-      {% endif %}{% endfor %} \
+    {% for post in site.posts %} \
+      { \
+        "title"    : "{% if post.title != "" %}{{ post.title | escape }}{% else %}{{ post.excerpt | strip_html | escape | strip }}{%endif%}", \
+        "category" : "{{ post.tags | join: \', \' }}", \
+        "url"      : "{{ site.baseurl }}{{ post.url }}", \
+        "date"     : "{{ post.date | date: "%B %e, %Y" | default: "January 1, 1970" }}" \
+        "content"  : "{{ post.content | strip_html | strip_newlines }}" \
+      }, \
+    {% endfor %} \
+    {% for page in site.html_pages %}{% if page.title != "{title}" and page.title != "404 - Page not found" %} \
+      { \
+        "title"    : "{% if page.title != "" %}{{ page.title | escape }}{% else %}{{ page.excerpt | strip_html | escape | strip }}{% endif %}", \
+        "category" : "{% if page.tags %}{{ page.tags | join: \', \' }}{% else %}page{% endif %}", \
+        "url"      : "{{ site.baseurl }}{{ page.url }}", \
+        "date"     : "{{ page.date | date: '%B %e, %Y' | default: "January 1, 1970" }}" \
+        "content"  : "{{ page.content | strip_html | strip_newlines }}" \
+      }{% unless forloop.last %},{% endunless %} \
+    {% endif %}{% endfor %} \
     ]';
     searchjson = JSON.parse(searchjson);
 

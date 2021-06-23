@@ -6,7 +6,7 @@ share-description: Иногда возникают несколько наиме
 cover-img: /img/toponymy/gaiman-gate/cover.jpg
 share-img: /img/toponymy/gaiman-gate/cover-s.jpg
 thumbnail-img: /img/toponymy/gaiman-gate/thumb.webp
-thumbnail-caption: "Горный массив Оштен"
+thumbnail-caption: Горный массив Оштен
 categories: toponymy
 date: 2021-06-18 22:10
 tags: [топонимика]

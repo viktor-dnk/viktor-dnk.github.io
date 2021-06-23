@@ -6,6 +6,7 @@ share-description: Город Краснодар был основан как Е
 cover-img: /img/toponymy/k-town-rivers/cover.jpg
 share-img: /img/toponymy/k-town-rivers/cover-s.jpg
 thumbnail-img: /img/toponymy/k-town-rivers/thumb.webp
+thumbnail-caption: Екатеринодар на 5-ти вёрстной карте конца ХIХ в
 categories: toponymy
 date: 2021-02-06 19:10
 tags: [топонимика, гидроним]

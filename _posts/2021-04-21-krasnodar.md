@@ -6,6 +6,7 @@ share-description: Официально Екатеринодару статус 
 cover-img: /img/toponymy/krasnodar/cover.jpg
 share-img: /img/toponymy/krasnodar/cover-s.jpg
 thumbnail-img: /img/toponymy/krasnodar/thumb.webp
+thumbnail-caption: Герб Екатеринодара 1849 г., переутверждён в 2005 г.
 categories: toponymy
 date: 2021-04-21 13:00
 tags: [топонимика, ойконим, антропоним, топоним]

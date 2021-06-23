@@ -6,6 +6,7 @@ share-description: Из истории перевалов Грачёвский, 
 cover-img: /img/toponymy/grachevsky/cover.jpg
 share-img: /img/toponymy/grachevsky/cover-s.jpg
 thumbnail-img: /img/toponymy/grachevsky/thumb.webp
+thumbnail-caption: Памятный знак Аркадию Гайдару
 categories: toponymy
 date: 2021-06-13 18:00
 tags: [топонимика]

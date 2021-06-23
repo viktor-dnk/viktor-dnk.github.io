@@ -38,7 +38,7 @@ _«Даже самое удачное толкование истории сло
     {% if thumbnail != "" %}
     <div class="post-image post-image-normal">
       <a href="{{ toponymy.url | absolute_url }}" aria-label="Thumbnail">
-        <img src="{{ thumbnail | absolute_url }}" alt="page thumbnail">
+        <img src="{{ thumbnail | absolute_url }}" alt="{{ toponymy.thumbnail-caption }}" title="{{ toponymy.thumbnail-caption }}">
       </a>
     </div>
     {% endif %}
@@ -62,7 +62,7 @@ _«Даже самое удачное толкование истории сло
     {% if thumbnail != "" %}
     <div class="post-image post-image-small">
       <a href="{{ toponymy.url | absolute_url }}" aria-label="Thumbnail">
-        <img src="{{ thumbnail | absolute_url }}" alt="page thumbnail">
+        <img src="{{ thumbnail | absolute_url }}" alt="{{ toponymy.thumbnail-caption }}" title="{{ toponymy.thumbnail-caption }}">
       </a>
     </div>
     {% endif %}
@@ -71,7 +71,7 @@ _«Даже самое удачное толкование истории сло
     {% if thumbnail != "" %}
     <div class="post-image post-image-short">
       <a href="{{ toponymy.url | absolute_url }}" aria-label="Thumbnail">
-        <img src="{{ thumbnail | absolute_url }}" alt="page thumbnail">
+        <img src="{{ thumbnail | absolute_url }}" alt="{{ toponymy.thumbnail-caption }}" title="{{ toponymy.thumbnail-caption }}">
       </a>
     </div>
     {% endif %}

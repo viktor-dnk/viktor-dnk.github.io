@@ -6,6 +6,7 @@ share-description: Кардывачский горный узел, являет�
 cover-img: /img/toponymy/kardyvach/cover.jpg
 share-img: /img/toponymy/kardyvach/cover-s.jpg
 thumbnail-img: /img/toponymy/kardyvach/thumb.webp
+thumbnail-caption: озеро Верхний Кардывач
 categories: toponymy
 date: 2021-03-28 21:40
 tags: [топонимика, топоним]

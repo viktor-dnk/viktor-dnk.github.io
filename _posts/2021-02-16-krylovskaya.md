@@ -6,6 +6,7 @@ share-description: Как оказывается, на картах Красно
 cover-img: /img/toponymy/krylovskaya/cover.jpg
 share-img: /img/toponymy/krylovskaya/cover-s.jpg
 thumbnail-img: /img/toponymy/krylovskaya/thumb.webp
+thumbnail-caption: Станица Екатериновская на реке Ея, фрагмент карты 1941 г.
 categories: toponymy
 date: 2021-02-16 18:30
 tags: [топонимика, ойконим, антропоним]

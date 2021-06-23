@@ -6,6 +6,7 @@ share-description: Река является правым притоком ре�
 cover-img: /img/toponymy/kavalerka/cover.jpg
 share-img: /img/toponymy/kavalerka/cover-s.jpg
 thumbnail-img: /img/toponymy/kavalerka/thumb.webp
+thumbnail-caption: Дорожный указатель р. Кавалерка
 categories: toponymy
 date: 2021-05-22 19:50
 tags: [топонимика, гидроним]

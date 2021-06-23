@@ -6,6 +6,7 @@ share-description: Город Приморско-Ахтарск, располо�
 cover-img: /img/toponymy/primorsko-akhtarsk/cover.jpg
 share-img: /img/toponymy/primorsko-akhtarsk/cover-s.jpg
 thumbnail-img: /img/toponymy/primorsko-akhtarsk/thumb.webp
+thumbnail-caption: Ахтарский маяк, вид с юга
 categories: toponymy
 date: 2021-01-09 16:00
 tags: [топонимика, ойконим]

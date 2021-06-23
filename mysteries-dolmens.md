@@ -35,7 +35,7 @@ head-extra: amp_link.html
     {% if thumbnail != "" %}
     <div class="post-image post-image-normal">
       <a href="{{ mysteries-dolmens.url | absolute_url }}" aria-label="Thumbnail">
-        <img src="{{ thumbnail | absolute_url }}" alt="page thumbnail">
+        <img src="{{ thumbnail | absolute_url }}" alt="{{ mysteries-dolmens.thumbnail-caption }}" title="{{ mysteries-dolmens.thumbnail-caption }}">
       </a>
     </div>
     {% endif %}
@@ -59,7 +59,7 @@ head-extra: amp_link.html
     {% if thumbnail != "" %}
     <div class="post-image post-image-small">
       <a href="{{ mysteries-dolmens.url | absolute_url }}" aria-label="Thumbnail">
-        <img src="{{ thumbnail | absolute_url }}" alt="page thumbnail">
+        <img src="{{ thumbnail | absolute_url }}" alt="{{ mysteries-dolmens.thumbnail-caption }}" title="{{ mysteries-dolmens.thumbnail-caption }}">
       </a>
     </div>
     {% endif %}
@@ -68,7 +68,7 @@ head-extra: amp_link.html
     {% if thumbnail != "" %}
     <div class="post-image post-image-short">
       <a href="{{ mysteries-dolmens.url | absolute_url }}" aria-label="Thumbnail">
-        <img src="{{ thumbnail | absolute_url }}" alt="page thumbnail">
+        <img src="{{ thumbnail | absolute_url }}" alt="{{ mysteries-dolmens.thumbnail-caption }}" title="{{ mysteries-dolmens.thumbnail-caption }}">
       </a>
     </div>
     {% endif %}

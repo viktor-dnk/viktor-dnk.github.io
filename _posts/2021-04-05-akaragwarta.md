@@ -6,6 +6,7 @@ share-description: Топоним Акарагварта имеет сложно
 cover-img: /img/toponymy/akaragwarta/cover.jpg
 share-img: /img/toponymy/akaragwarta/cover-s.jpg
 thumbnail-img: /img/toponymy/akaragwarta/thumb.webp
+thumbnail-caption: Пик Акарагварта или Смидовича
 categories: toponymy
 date: 2021-04-05 18:40
 tags: [топонимика, топоним]

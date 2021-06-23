@@ -6,6 +6,7 @@ share-description: В античное время Керченский прол�
 cover-img: /img/mysteries-dolmens/ch1p16/cover.jpg
 share-img: /img/mysteries-dolmens/ch1p16/cover-s.jpg
 thumbnail-img: /img/toponymy/kerch-ferrys/thumb.webp
+thumbnail-caption: Вид на мыс Тузла с севера
 categories: toponymy
 date: 2021-05-12 21:20
 tags: [топонимика]

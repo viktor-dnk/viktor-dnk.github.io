@@ -6,6 +6,7 @@ share-description: Поселок Красная Поляна — бывший �
 cover-img: /img/toponymy/krasnaya-polyana/cover.jpg
 share-img: /img/toponymy/krasnaya-polyana/cover-s.jpg
 thumbnail-img: /img/toponymy/krasnaya-polyana/thumb.webp
+thumbnail-caption: Зубр в вольерном комплексе Лаура
 categories: toponymy
 date: 2021-06-06 13:50
 tags: [топонимика, ойконим]

@@ -43,8 +43,8 @@ img-caption: Здание ж/д вокзала станции Ахтари, по
 - **Ахтарский маяк**, сооружён в начале ХХ в. на берегу Ясенского залива, в средней части береговой линии между основаниями Ахтарской и Ясенской кос. Маяк находится примерно в 4-х км севернее города Приморско-Ахтарск на абсолютной высоте 7,1 м. Приблизительная высота маяка, составляет не более 20 м, он погашен;
 
 <figure>
-	<img title="Ахтарский маяк, вид со стороны моря (с запада)" alt="Ахтарский маяк, вид со стороны моря (с запада)" width="640" height="465" src="/img/toponymy/primorsko-akhtarsk/Akhtarsky-lighthouse-view-from-the-sea.webp"/>
-	<figcaption>Ахтарский маяк, вид со стороны моря (с запада) (https://ok.ru/azovskoemore)</figcaption>
+	<a title="Ахтарский маяк, вид со стороны моря (с запада)" href="/img/toponymy/primorsko-akhtarsk/Akhtarsky-lighthouse-view-from-the-sea-b.webp"><img alt="Ахтарский маяк, вид со стороны моря (с запада)" width="480" height="640" src="/img/toponymy/primorsko-akhtarsk/Akhtarsky-lighthouse-view-from-the-sea.webp"/></a>
+	<figcaption>Ахтарский маяк, вид со стороны моря (с запада) (июль 2021, фото Рублёва Елена)</figcaption>
 </figure>
 
 <figure>

@@ -7,7 +7,7 @@ share-img: /img/example-logos/main-cover4x3.jpg
 share-title: Тайны дольменов
 language: ru
 keywords: древность, археология
-last_modified_at: 2021-05-28 11:00:00 +0300
+last_modified_at: 2021-08-05 16:00:00 +0300
 date: 2020-09-09 16:00
 head-extra: amp_link.html
 ---
@@ -41,7 +41,7 @@ head-extra: amp_link.html
     {% endif %}
     {% endif %}
 
-    <a href="{{ mysteries-dolmens.url | absolute_url }}">
+    <a title="{{ mysteries-dolmens.share-title }}" href="{{ mysteries-dolmens.url | absolute_url }}">
       <h2 class="post-title">{{ mysteries-dolmens.title }}</h2>
 
       {% if mysteries-dolmens.subtitle %}
@@ -75,7 +75,7 @@ head-extra: amp_link.html
 
     <div class="post-entry">
       {{ mysteries-dolmens.description }}
-      <a href="{{ mysteries-dolmens.url | absolute_url }}" class="post-read-more">[Читать&nbsp;далее]</a>
+      <a title="{{ mysteries-dolmens.share-title }}" href="{{ mysteries-dolmens.url | absolute_url }}" class="post-read-more">[Читать&nbsp;далее]</a>
     </div>
     {% endunless %}
 

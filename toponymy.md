@@ -7,7 +7,7 @@ share-img: /img/example-logos/main-cover4x3.jpg
 share-title: Очерки по топонимике
 language: ru
 keywords: карты, история, география, ономастика
-last_modified_at: 2021-05-28 11:00:00 +0300
+last_modified_at: 2021-08-05 16:00:00 +0300
 date: 2021-01-02 16:00
 head-extra: amp_link.html
 ---
@@ -44,7 +44,7 @@ _«Даже самое удачное толкование истории сло
     {% endif %}
     {% endif %}
 
-    <a href="{{ toponymy.url | absolute_url }}">
+    <a title="{{ toponymy.share-title }}" href="{{ toponymy.url | absolute_url }}">
       <h2 class="post-title">{{ toponymy.title }}</h2>
 
       {% if toponymy.subtitle %}
@@ -78,7 +78,7 @@ _«Даже самое удачное толкование истории сло
 
     <div class="post-entry">
       {{ toponymy.description }}
-      <a href="{{ toponymy.url | absolute_url }}" class="post-read-more">[Читать&nbsp;далее]</a>
+      <a title="{{ toponymy.share-title }}" href="{{ toponymy.url | absolute_url }}" class="post-read-more">[Читать&nbsp;далее]</a>
     </div>
     {% endunless %}
 

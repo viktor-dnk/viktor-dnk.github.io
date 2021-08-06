@@ -18,7 +18,7 @@
 <meta name="msapplication-TileColor" content="#87ceeb">
 <meta name="msapplication-TileImage" content="/mstile-144x144.png">
 <meta name="theme-color" content="#87ceeb">
-<link rel="canonical" href="{{ page.url | absolute_url | strip_index | replace:'.ru/page/2/','.ru/' | replace:'.ru/page/3/','.ru/' | replace:'.ru/page/4/','.ru/' | replace:'.ru/page/5/','.ru/' | replace:'.ru/page/6/','.ru/' }}">
+<link rel="canonical" href="{{ page.url | absolute_url | strip_index | replace:'.ru/page/2/','.ru/' | replace:'.ru/page/3/','.ru/' | replace:'.ru/page/4/','.ru/' | replace:'.ru/page/5/','.ru/' | replace:'.ru/page/6/','.ru/' | replace:'.ru/page/7/','.ru/' }}">
 {% if page.head-extra %}{% for file in page.head-extra %}{% include {{ file }} %}{% endfor %}{% endif %}
 
   {% capture title %}
@@ -49,7 +49,7 @@
 	"@type": "Article",
     "mainEntityOfPage": {
 		"@type": "WebPage",
-		"@id": "{{ page.url | absolute_url | strip_index | replace:'.ru/page/2/','.ru/' | replace:'.ru/page/3/','.ru/' | replace:'.ru/page/4/','.ru/' | replace:'.ru/page/5/','.ru/' | replace:'.ru/page/6/','.ru/' }}"
+		"@id": "{{ page.url | absolute_url | strip_index | replace:'.ru/page/2/','.ru/' | replace:'.ru/page/3/','.ru/' | replace:'.ru/page/4/','.ru/' | replace:'.ru/page/5/','.ru/' | replace:'.ru/page/6/','.ru/' | replace:'.ru/page/7/','.ru/' }}"
 	},
 	"headline": "{{ title }}",
     "image": [
@@ -151,7 +151,7 @@
   {%- assign img=img | strip -%}
 
   <meta property="og:title" content="{{ title }}">
-  <meta property="og:url" content="{{ page.url | absolute_url | strip_index | replace:'.ru/page/2/','.ru/' | replace:'.ru/page/3/','.ru/' | replace:'.ru/page/4/','.ru/' | replace:'.ru/page/5/','.ru/' | replace:'.ru/page/6/','.ru/' }}">
+  <meta property="og:url" content="{{ page.url | absolute_url | strip_index | replace:'.ru/page/2/','.ru/' | replace:'.ru/page/3/','.ru/' | replace:'.ru/page/4/','.ru/' | replace:'.ru/page/5/','.ru/' | replace:'.ru/page/6/','.ru/' | replace:'.ru/page/7/','.ru/' }}">
   <meta property="og:description" content="{{ description }}">
   <meta property="og:locale" content="ru_RU" />
   {% if img != "" %}
@@ -171,7 +171,7 @@
         <meta property="og: article:modified_time" content="{{ page.last_modified_at | date_to_xmlschema }}">
   {% else %}
   <meta property="og:type" content="website">
-  <meta property="og:url" content="{{ page.url | absolute_url | strip_index | replace:'.ru/page/2/','.ru/' | replace:'.ru/page/3/','.ru/' | replace:'.ru/page/4/','.ru/' | replace:'.ru/page/5/','.ru/' | replace:'.ru/page/6/','.ru/' }}">
+  <meta property="og:url" content="{{ page.url | absolute_url | strip_index | replace:'.ru/page/2/','.ru/' | replace:'.ru/page/3/','.ru/' | replace:'.ru/page/4/','.ru/' | replace:'.ru/page/5/','.ru/' | replace:'.ru/page/6/','.ru/' | replace:'.ru/page/7/','.ru/' }}">
   {% endif %}
 
   {% if img != "" and img != site.avatar %}

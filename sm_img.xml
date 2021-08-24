@@ -1344,6 +1344,10 @@ layout: null
         <image:loc>{{ site.url }}/img/mysteries-dolmens/ch1p15/mysteries-dolmens-ch1p15-15.12.webp</image:loc>
         <image:title>Роспись на стенах двухкамерной подкурганной мегалитической гробницы.</image:title>
       </image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/mysteries-dolmens/ch1p15/Female-skull-with-hole-after-trepanation-b.webp</image:loc>
+			<image:title>Женский череп с отверстием после трепанации</image:title>
+		</image:image>	  
   </url>
   <url>
     <loc>{{ site.url }}/toponymy/krylovskaya/</loc>

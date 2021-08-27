@@ -2565,4 +2565,62 @@ layout: null
         <image:title>Горный узел Кардывач</image:title>
       </image:image>
   </url>
+  <url>
+    <loc>{{ site.url }}/toponymy/abrau/</loc>
+    <lastmod>2021-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+		<image:image>
+			<image:loc>https://viktor-dnk.ru/img/toponymy/abrau/Scheme-of-the-Abrau-Peninsula-b.webp</image:loc>
+			<image:title>Схема полуострова Абрау</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>https://viktor-dnk.ru/img/toponymy/abrau/Abrau-Peninsula-in-the-Dyurso-Bay-area-b.webp</image:loc>
+			<image:title>Полуостров Абрау в районе бухты Дюрсо</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>https://viktor-dnk.ru/img/toponymy/abrau/Lake-Abrau-view-from-the-east-coast-b.webp</image:loc>
+			<image:title> Озеро Абрау, вид с восточного берега</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>https://viktor-dnk.ru/img/toponymy/abrau/Bay-at-the-mouth-of-the-Dyurso-river-b.webp</image:loc>
+			<image:title>Бухта в устье речки Дюрсо</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>https://viktor-dnk.ru/img/toponymy/abrau/Fragment-of-the-juniper-forest-b.webp</image:loc>
+			<image:title>Фрагмент можжевелового леса</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>https://viktor-dnk.ru/img/toponymy/abrau/Gazebo-at-the-Murkin-Pass-b.webp</image:loc>
+			<image:title>Беседка у перевала Муркин</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>https://viktor-dnk.ru/img/toponymy/abrau/Fragment-of-the-2000-Krasnodar-Territory-map.webp</image:loc>
+			<image:title>Фрагмент карты Краснодарского края 2000 г.</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>https://viktor-dnk.ru/img/toponymy/abrau/Fragment-of-a-map-of-the-Krasnodar-Territory-in-1942.webp</image:loc>
+			<image:title>Фрагмент карты Краснодарского края 1942 г.</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>https://viktor-dnk.ru/img/toponymy/abrau/Cape-and-island-Utrish-from-above.webp</image:loc>
+			<image:title>Мыс и остров Утриш с высоты</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>https://viktor-dnk.ru/img/toponymy/abrau/Cape-and-island-Utrish,-view-from-the-high-coast-b.webp</image:loc>
+			<image:title>Мыс и остров Утриш, вид с высокого берега</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>https://viktor-dnk.ru/img/toponymy/abrau/Cape-Mal-Utrish-or-Utrishonok-b.webp</image:loc>
+			<image:title>Мыс Мал. Утриш или Утришонок</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>https://viktor-dnk.ru/img/toponymy/abrau/Fragment-of-a-map-of-the-Krasnodar-Territory-in-1942-1.webp</image:loc>
+			<image:title>Фрагмент карты Краснодарского края 1942 г.</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>https://viktor-dnk.ru/img/toponymy/abrau/The-city-of-Novorossiysk---Cape-of-Love-view-from-the-south-side-b.webp</image:loc>
+			<image:title>Город Новороссийск — мыс Любви вид с южной стороны</image:title>
+		</image:image>
+  </url>	
 </urlset>

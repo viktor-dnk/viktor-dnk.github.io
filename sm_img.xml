@@ -2622,5 +2622,87 @@ layout: null
 			<image:loc>https://viktor-dnk.ru/img/toponymy/abrau/The-city-of-Novorossiysk-Cape-of-Love-view-from-the-south-side-b.webp</image:loc>
 			<image:title>Город Новороссийск — мыс Любви вид с южной стороны</image:title>
 		</image:image>
-  </url>	
+  </url>
+  <url>
+    <loc>{{ site.url }}/toponymy/belaya/</loc>
+    <lastmod>2021-09-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+		<image:image>
+			<image:loc>https://viktor-dnk.ru/img/toponymy/belaya/Valley-of-the-Belaya-River-at-the-source-b.webp</image:loc>
+			<image:title>Долина реки Белой в истоках</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>https://viktor-dnk.ru/img/toponymy/belaya/The-Belaya-river-at-the-sources-in-the-area-of-​​the-glade-b.webp</image:loc>
+			<image:title>Река Белая в истоках в районе поляны</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>https://viktor-dnk.ru/img/toponymy/belaya/Belaya-River-near-the-village-of-Guzeripl-b.webp</image:loc>
+			<image:title>Река Белая в районе поселка Гузерипль</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>https://viktor-dnk.ru/img/toponymy/belaya/Fragment-of-the-map-of-Colonel-Strelbitsky.webp</image:loc>
+			<image:title>Фрагмент карты полковника Стрельбицкого</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>https://viktor-dnk.ru/img/toponymy/belaya/Maikop-gorge-1863.webp</image:loc>
+			<image:title>Майкопское ущелье 1863</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>https://viktor-dnk.ru/img/toponymy/belaya/Section-of-the-river-Belaya-karta-1971.webp</image:loc>
+			<image:title>Участок реки Белой карта 1971</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>https://viktor-dnk.ru/img/toponymy/belaya/Belaya-River-after-the-Khadzhokh-Gorge-b.webp</image:loc>
+			<image:title>Река Белая после Хаджохской теснины</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>https://viktor-dnk.ru/img/toponymy/belaya/Drawing-Bridge-on-the-White-River-1863-b.webp</image:loc>
+			<image:title>Рисунок Мост на реке Белой 1863</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>https://viktor-dnk.ru/img/toponymy/belaya/The-southern-part-of-the-village-of-Kamennomostsky-view-from-a-height-b.webp</image:loc>
+			<image:title>Южная часть поселка Каменномостского вид с высоты</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>https://viktor-dnk.ru/img/toponymy/belaya/Fragment-of-map-1941.webp</image:loc>
+			<image:title>Фрагмент карты 1941</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>https://viktor-dnk.ru/img/toponymy/belaya/View-of-the-Rocky-Gorge.webp</image:loc>
+			<image:title>Вид на Скалистое ущелье</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>https://viktor-dnk.ru/img/toponymy/belaya/Belaya-River-in-the-Rocky-Gorge-b.webp</image:loc>
+			<image:title>Река Белая в Скалистом ущелье</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>https://viktor-dnk.ru/img/toponymy/belaya/Valley-of-the-Belaya-River-above-the-Rocky-Gorge-b.webp</image:loc>
+			<image:title>Долина реки Белой выше Скалистого ущелья</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>https://viktor-dnk.ru/img/toponymy/belaya/Dakhovsky-expansion-b.webp</image:loc>
+			<image:title>Даховское расширение</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>https://viktor-dnk.ru/img/toponymy/belaya/Granite-gorge-b.webp</image:loc>
+			<image:title>Гранитное ущелье</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>https://viktor-dnk.ru/img/toponymy/belaya/Mount-Blockhouse-b.webp</image:loc>
+			<image:title>Гора Блокгауз</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>https://viktor-dnk.ru/img/toponymy/belaya/Khamyshensky-expansion-in-the-Belaya-river-valley-b.webp</image:loc>
+			<image:title>Хамышенское расширение в долине реки Белой</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>https://viktor-dnk.ru/img/toponymy/belaya/Belaya-River-near-the-village-of-Gezeripl-b.webp</image:loc>
+			<image:title>Река Белая в районе поселка Гезерипль</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>https://viktor-dnk.ru/img/toponymy/belaya/Guzeripl-gorge-on-maps-of-the-19th-century.webp</image:loc>
+			<image:title>Ущелье Гузерипль на картах 19 века</image:title>
+		</image:image>
+  </url>
 </urlset>

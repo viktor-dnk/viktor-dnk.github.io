@@ -291,7 +291,7 @@ layout: null
 		<image:image>
 			<image:loc>{{ site.url }}/img/toponymy/gaiman-gate/Great-Guzeripl-Dolmen-b.webp</image:loc>
 			<image:title>Большой Гузерипльский дольмен</image:title>
-		</image:image>		
+		</image:image>
 		<image:image>
 			<image:loc>{{ site.url }}/img/toponymy/gaiman-gate/Oshten-mountain-range-and-Uzurub-tract-b.webp</image:loc>
 			<image:title>Горный массив Оштен и урочище Узуруб</image:title>
@@ -299,7 +299,7 @@ layout: null
 		<image:image>
 			<image:loc>{{ site.url }}/img/toponymy/gaiman-gate/Lagonaki-highway-b.webp</image:loc>
 			<image:title>Лагонакское шоссе</image:title>
-		</image:image>		
+		</image:image>
   </url>
   <url>
     <loc>{{ site.url }}/toponymy/kavalerka/</loc>
@@ -463,7 +463,7 @@ layout: null
 		<image:image>
 			<image:loc>{{ site.url }}/img/toponymy/mzymta/Bison-star-of-the-Caucasian-state-reserve-b.webp</image:loc>
 			<image:title>Зубр - звезда Кавказского государственного заповедника</image:title>
-		</image:image>	
+		</image:image>
   </url>
   <url>
     <loc>{{ site.url }}/mysteries-dolmens/ch1p13/</loc>
@@ -553,11 +553,11 @@ layout: null
 		<image:image>
 			<image:loc>{{ site.url }}/img/toponymy/maykop/Coat-of-arms-of-the-city-of-Maykop-2005.webp</image:loc>
 			<image:title>Герб города Майкопа 2005 г</image:title>
-		</image:image>		
+		</image:image>
 		<image:image>
 			<image:loc>{{ site.url }}/img/toponymy/maykop/Cathedral-mosque-of-Maykop-main-in-the-city-b.webp</image:loc>
 			<image:title>Соборная мечеть Майкопа главная в городе</image:title>
-		</image:image>		
+		</image:image>
 		<image:image>
 			<image:loc>{{ site.url }}/img/toponymy/maykop/Maykop-hydroelectric-power-station-on-the-Belaya-river.webp</image:loc>
 			<image:title>Майкопская ГЭС на реке Белой</image:title>
@@ -573,7 +573,7 @@ layout: null
 		<image:image>
 			<image:loc>{{ site.url }}/img/toponymy/maykop/Outdoor-public-pool-in-the-city-of-Maykop-b.webp</image:loc>
 			<image:title>Открытый городской бассейн в городе Майкоп</image:title>
-		</image:image>		
+		</image:image>
   </url>
   <url>
     <loc>{{ site.url }}/toponymy/lagonaki/</loc>
@@ -803,7 +803,7 @@ layout: null
 		<image:image>
 			<image:loc>{{ site.url }}/img/toponymy/anapa/Turkish-fortress-Anapa-b.webp</image:loc>
 			<image:title>Турецкая крепость Анапа</image:title>
-		</image:image>	
+		</image:image>
   </url>
   <url>
     <loc>{{ site.url }}/toponymy/hajokh/</loc>
@@ -849,7 +849,7 @@ layout: null
 		<image:image>
 			<image:loc>{{ site.url }}/img/toponymy/hajokh/Fragment-of-a-map-of-1871.webp</image:loc>
 			<image:title>Фрагмент карты 1871 г</image:title>
-		</image:image>	
+		</image:image>
   </url>
   <url>
     <loc>{{ site.url }}/toponymy/primorsko-akhtarsk/</loc>
@@ -1347,7 +1347,7 @@ layout: null
 		<image:image>
 			<image:loc>{{ site.url }}/img/mysteries-dolmens/ch1p15/Female-skull-with-hole-after-trepanation-b.webp</image:loc>
 			<image:title>Женский череп с отверстием после трепанации</image:title>
-		</image:image>	  
+		</image:image>
   </url>
   <url>
     <loc>{{ site.url }}/toponymy/krylovskaya/</loc>
@@ -2571,55 +2571,55 @@ layout: null
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
 		<image:image>
-			<image:loc>https://viktor-dnk.ru/img/toponymy/abrau/Scheme-of-the-Abrau-Peninsula-b.webp</image:loc>
+			<image:loc>{{ site.url }}/img/toponymy/abrau/Scheme-of-the-Abrau-Peninsula-b.webp</image:loc>
 			<image:title>Схема полуострова Абрау</image:title>
 		</image:image>
 		<image:image>
-			<image:loc>https://viktor-dnk.ru/img/toponymy/abrau/Abrau-Peninsula-in-the-Dyurso-Bay-area-b.webp</image:loc>
+			<image:loc>{{ site.url }}/img/toponymy/abrau/Abrau-Peninsula-in-the-Dyurso-Bay-area-b.webp</image:loc>
 			<image:title>Полуостров Абрау в районе бухты Дюрсо</image:title>
 		</image:image>
 		<image:image>
-			<image:loc>https://viktor-dnk.ru/img/toponymy/abrau/Lake-Abrau-view-from-the-east-coast-b.webp</image:loc>
+			<image:loc>{{ site.url }}/img/toponymy/abrau/Lake-Abrau-view-from-the-east-coast-b.webp</image:loc>
 			<image:title> Озеро Абрау, вид с восточного берега</image:title>
 		</image:image>
 		<image:image>
-			<image:loc>https://viktor-dnk.ru/img/toponymy/abrau/Bay-at-the-mouth-of-the-Dyurso-river-b.webp</image:loc>
+			<image:loc>{{ site.url }}/img/toponymy/abrau/Bay-at-the-mouth-of-the-Dyurso-river-b.webp</image:loc>
 			<image:title>Бухта в устье речки Дюрсо</image:title>
 		</image:image>
 		<image:image>
-			<image:loc>https://viktor-dnk.ru/img/toponymy/abrau/Fragment-of-the-juniper-forest-b.webp</image:loc>
+			<image:loc>{{ site.url }}/img/toponymy/abrau/Fragment-of-the-juniper-forest-b.webp</image:loc>
 			<image:title>Фрагмент можжевелового леса</image:title>
 		</image:image>
 		<image:image>
-			<image:loc>https://viktor-dnk.ru/img/toponymy/abrau/Gazebo-at-the-Murkin-Pass-b.webp</image:loc>
+			<image:loc>{{ site.url }}/img/toponymy/abrau/Gazebo-at-the-Murkin-Pass-b.webp</image:loc>
 			<image:title>Беседка у перевала Муркин</image:title>
 		</image:image>
 		<image:image>
-			<image:loc>https://viktor-dnk.ru/img/toponymy/abrau/Fragment-of-the-2000-Krasnodar-Territory-map.webp</image:loc>
+			<image:loc>{{ site.url }}/img/toponymy/abrau/Fragment-of-the-2000-Krasnodar-Territory-map.webp</image:loc>
 			<image:title>Фрагмент карты Краснодарского края 2000 г.</image:title>
 		</image:image>
 		<image:image>
-			<image:loc>https://viktor-dnk.ru/img/toponymy/abrau/Fragment-of-a-map-of-the-Krasnodar-Territory-in-1942.webp</image:loc>
+			<image:loc>{{ site.url }}/img/toponymy/abrau/Fragment-of-a-map-of-the-Krasnodar-Territory-in-1942.webp</image:loc>
 			<image:title>Фрагмент карты Краснодарского края 1942 г.</image:title>
 		</image:image>
 		<image:image>
-			<image:loc>https://viktor-dnk.ru/img/toponymy/abrau/Cape-and-island-Utrish-from-above.webp</image:loc>
+			<image:loc>{{ site.url }}/img/toponymy/abrau/Cape-and-island-Utrish-from-above.webp</image:loc>
 			<image:title>Мыс и остров Утриш с высоты</image:title>
 		</image:image>
 		<image:image>
-			<image:loc>https://viktor-dnk.ru/img/toponymy/abrau/Cape-and-island-Utrish-view-from-the-high-coast-b.webp</image:loc>
+			<image:loc>{{ site.url }}/img/toponymy/abrau/Cape-and-island-Utrish-view-from-the-high-coast-b.webp</image:loc>
 			<image:title>Мыс и остров Утриш, вид с высокого берега</image:title>
 		</image:image>
 		<image:image>
-			<image:loc>https://viktor-dnk.ru/img/toponymy/abrau/Cape-Mal-Utrish-or-Utrishonok-b.webp</image:loc>
+			<image:loc>{{ site.url }}/img/toponymy/abrau/Cape-Mal-Utrish-or-Utrishonok-b.webp</image:loc>
 			<image:title>Мыс Мал. Утриш или Утришонок</image:title>
 		</image:image>
 		<image:image>
-			<image:loc>https://viktor-dnk.ru/img/toponymy/abrau/Fragment-of-a-map-of-the-Krasnodar-Territory-in-1942-1.webp</image:loc>
+			<image:loc>{{ site.url }}/img/toponymy/abrau/Fragment-of-a-map-of-the-Krasnodar-Territory-in-1942-1.webp</image:loc>
 			<image:title>Фрагмент карты Краснодарского края 1942 г.</image:title>
 		</image:image>
 		<image:image>
-			<image:loc>https://viktor-dnk.ru/img/toponymy/abrau/The-city-of-Novorossiysk-Cape-of-Love-view-from-the-south-side-b.webp</image:loc>
+			<image:loc>{{ site.url }}/img/toponymy/abrau/The-city-of-Novorossiysk-Cape-of-Love-view-from-the-south-side-b.webp</image:loc>
 			<image:title>Город Новороссийск — мыс Любви вид с южной стороны</image:title>
 		</image:image>
   </url>
@@ -2629,76 +2629,86 @@ layout: null
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
 		<image:image>
-			<image:loc>https://viktor-dnk.ru/img/toponymy/belaya/Valley-of-the-Belaya-River-at-the-source-b.webp</image:loc>
+			<image:loc>{{ site.url }}/img/toponymy/belaya/Valley-of-the-Belaya-River-at-the-source-b.webp</image:loc>
 			<image:title>Долина реки Белой в истоках</image:title>
 		</image:image>
 		<image:image>
-			<image:loc>https://viktor-dnk.ru/img/toponymy/belaya/The-Belaya-river-at-the-sources-in-the-area-of-​​the-glade-b.webp</image:loc>
+			<image:loc>{{ site.url }}/img/toponymy/belaya/The-Belaya-river-at-the-sources-in-the-area-of-​​the-glade-b.webp</image:loc>
 			<image:title>Река Белая в истоках в районе поляны</image:title>
 		</image:image>
 		<image:image>
-			<image:loc>https://viktor-dnk.ru/img/toponymy/belaya/Belaya-River-near-the-village-of-Guzeripl-b.webp</image:loc>
+			<image:loc>{{ site.url }}/img/toponymy/belaya/Belaya-River-near-the-village-of-Guzeripl-b.webp</image:loc>
 			<image:title>Река Белая в районе поселка Гузерипль</image:title>
 		</image:image>
 		<image:image>
-			<image:loc>https://viktor-dnk.ru/img/toponymy/belaya/Fragment-of-the-map-of-Colonel-Strelbitsky.webp</image:loc>
+			<image:loc>{{ site.url }}/img/toponymy/belaya/Fragment-of-the-map-of-Colonel-Strelbitsky.webp</image:loc>
 			<image:title>Фрагмент карты полковника Стрельбицкого</image:title>
 		</image:image>
 		<image:image>
-			<image:loc>https://viktor-dnk.ru/img/toponymy/belaya/Section-of-the-river-Belaya-karta-1971.webp</image:loc>
+			<image:loc>{{ site.url }}/img/toponymy/belaya/Section-of-the-river-Belaya-karta-1971.webp</image:loc>
 			<image:title>Участок реки Белой карта 1971</image:title>
 		</image:image>
 		<image:image>
-			<image:loc>https://viktor-dnk.ru/img/toponymy/belaya/Belaya-River-after-the-Khadzhokh-Gorge-b.webp</image:loc>
+			<image:loc>{{ site.url }}/img/toponymy/belaya/Belaya-River-after-the-Khadzhokh-Gorge-b.webp</image:loc>
 			<image:title>Река Белая после Хаджохской теснины</image:title>
 		</image:image>
 		<image:image>
-			<image:loc>https://viktor-dnk.ru/img/toponymy/belaya/Drawing-Bridge-on-the-White-River-1863-b.webp</image:loc>
+			<image:loc>{{ site.url }}/img/toponymy/belaya/Drawing-Bridge-on-the-White-River-1863-b.webp</image:loc>
 			<image:title>Рисунок Мост на реке Белой 1863</image:title>
 		</image:image>
 		<image:image>
-			<image:loc>https://viktor-dnk.ru/img/toponymy/belaya/The-southern-part-of-the-village-of-Kamennomostsky-view-from-a-height-b.webp</image:loc>
+			<image:loc>{{ site.url }}/img/toponymy/belaya/The-southern-part-of-the-village-of-Kamennomostsky-view-from-a-height-b.webp</image:loc>
 			<image:title>Южная часть поселка Каменномостского вид с высоты</image:title>
 		</image:image>
 		<image:image>
-			<image:loc>https://viktor-dnk.ru/img/toponymy/belaya/Fragment-of-map-1941.webp</image:loc>
+			<image:loc>{{ site.url }}/img/toponymy/belaya/Fragment-of-map-1941.webp</image:loc>
 			<image:title>Фрагмент карты 1941</image:title>
 		</image:image>
 		<image:image>
-			<image:loc>https://viktor-dnk.ru/img/toponymy/belaya/View-of-the-Rocky-Gorge.webp</image:loc>
+			<image:loc>{{ site.url }}/img/toponymy/belaya/View-of-the-Rocky-Gorge.webp</image:loc>
 			<image:title>Вид на Скалистое ущелье</image:title>
 		</image:image>
 		<image:image>
-			<image:loc>https://viktor-dnk.ru/img/toponymy/belaya/Belaya-River-in-the-Rocky-Gorge-b.webp</image:loc>
+			<image:loc>{{ site.url }}/img/toponymy/belaya/Belaya-River-in-the-Rocky-Gorge-b.webp</image:loc>
 			<image:title>Река Белая в Скалистом ущелье</image:title>
 		</image:image>
 		<image:image>
-			<image:loc>https://viktor-dnk.ru/img/toponymy/belaya/Valley-of-the-Belaya-River-above-the-Rocky-Gorge-b.webp</image:loc>
+			<image:loc>{{ site.url }}/img/toponymy/belaya/Valley-of-the-Belaya-River-above-the-Rocky-Gorge-b.webp</image:loc>
 			<image:title>Долина реки Белой выше Скалистого ущелья</image:title>
 		</image:image>
 		<image:image>
-			<image:loc>https://viktor-dnk.ru/img/toponymy/belaya/Dakhovsky-expansion-b.webp</image:loc>
+			<image:loc>{{ site.url }}/img/toponymy/belaya/Dakhovsky-expansion-b.webp</image:loc>
 			<image:title>Даховское расширение</image:title>
 		</image:image>
 		<image:image>
-			<image:loc>https://viktor-dnk.ru/img/toponymy/belaya/Granite-gorge-b.webp</image:loc>
+			<image:loc>{{ site.url }}/img/toponymy/belaya/Granite-gorge-b.webp</image:loc>
 			<image:title>Гранитное ущелье</image:title>
 		</image:image>
 		<image:image>
-			<image:loc>https://viktor-dnk.ru/img/toponymy/belaya/Mount-Blockhouse-b.webp</image:loc>
+			<image:loc>{{ site.url }}/img/toponymy/belaya/Mount-Blockhouse-b.webp</image:loc>
 			<image:title>Гора Блокгауз</image:title>
 		</image:image>
 		<image:image>
-			<image:loc>https://viktor-dnk.ru/img/toponymy/belaya/Khamyshensky-expansion-in-the-Belaya-river-valley-b.webp</image:loc>
+			<image:loc>{{ site.url }}/img/toponymy/belaya/Khamyshensky-expansion-in-the-Belaya-river-valley-b.webp</image:loc>
 			<image:title>Хамышенское расширение в долине реки Белой</image:title>
 		</image:image>
 		<image:image>
-			<image:loc>https://viktor-dnk.ru/img/toponymy/belaya/Belaya-River-near-the-village-of-Gezeripl-b.webp</image:loc>
+			<image:loc>{{ site.url }}/img/toponymy/belaya/Belaya-River-near-the-village-of-Gezeripl-b.webp</image:loc>
 			<image:title>Река Белая в районе поселка Гезерипль</image:title>
 		</image:image>
 		<image:image>
-			<image:loc>https://viktor-dnk.ru/img/toponymy/belaya/Guzeripl-gorge-on-maps-of-the-19th-century.webp</image:loc>
+			<image:loc>{{ site.url }}/img/toponymy/belaya/Guzeripl-gorge-on-maps-of-the-19th-century.webp</image:loc>
 			<image:title>Ущелье Гузерипль на картах 19 века</image:title>
 		</image:image>
+  </url>
+  <url>
+  <image:image>
+    <image:loc>{{ site.url }}/img/toponymy/mountains-black/Orographic-scheme-Western-Caucasus-b.webp</image:loc>
+    <image:title>Орографическая схема Западного Кавказа</image:title>
+  </image:image>
+  <image:image>
+    <image:loc>{{ site.url }}/img/toponymy/mountains-black/Rock-Sleeping-Circassian-Montenegro-b.webp</image:loc>
+    <image:title>Скала Спящий Черкес (Черногор)</image:title>
+  </image:image>
   </url>
 </urlset>

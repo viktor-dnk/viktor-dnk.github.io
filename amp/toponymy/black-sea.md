@@ -4,8 +4,8 @@ subtitle: © В.Н. Ковешников
 share-title: Топоним Чёрное море
 share-description: Черное море, является средиземным (внутренним) водоёмом и относится к бассейну Атлантического океана.
 description: Черное море, является средиземным (внутренним) водоёмом и относится к бассейну Атлантического океана.
-cover-img: /img/toponymy/mountains-black/cover.webp
-share-img: /img/toponymy/mountains-black/cover-s.jpg
+cover-img: /img/toponymy/black-sea/cover.webp
+share-img: /img/toponymy/black-sea/cover-s.jpg
 last_modified_at: 2021-09-30 17:00
 date: 2021-09-30 17:00
 ---

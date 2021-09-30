@@ -12,7 +12,7 @@ tags: [топонимика, ороним, мифотопоним]
 share-title: Топоним Чёрные горы
 share-description: Топоним Чёрные горы на территории Западного Кавказа фиксируется исследователями с начала ХIХ в.
 share-img: /img/toponymy/mountains-black/cover-s.jpg
-keywords: река Белая, Хаджох
+keywords: Скалистый хребет, Спящий черкес
 head-extra: amp_link.html
 location: Скала Спящий Черкес, Краснодарский край
 img-caption: Скала Спящий Черкес (Черногор), середина лета 1974 г.

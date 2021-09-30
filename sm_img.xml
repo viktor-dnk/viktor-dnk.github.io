@@ -2702,6 +2702,10 @@ layout: null
 		</image:image>
   </url>
   <url>
+    <loc>{{ site.url }}/toponymy/mountains-black/</loc>
+    <lastmod>2021-09-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   <image:image>
     <image:loc>{{ site.url }}/img/toponymy/mountains-black/Orographic-scheme-Western-Caucasus-b.webp</image:loc>
     <image:title>Орографическая схема Западного Кавказа</image:title>
@@ -2710,5 +2714,55 @@ layout: null
     <image:loc>{{ site.url }}/img/toponymy/mountains-black/Rock-Sleeping-Circassian-Montenegro-b.webp</image:loc>
     <image:title>Скала Спящий Черкес (Черногор)</image:title>
   </image:image>
+  </url>
+  <url>
+    <loc>{{ site.url }}/toponymy/black-sea/</loc>
+    <lastmod>2021-09-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+			<image:loc>{{ site.url }}/img/toponymy/black-sea/Russian-Black-Sea-coast.webp</image:loc>
+			<image:title>Российское побережье Черного моря</image:title>
+		</image:image>
+    <image:image>
+			<image:loc>{{ site.url }}/img/toponymy/black-sea/Black-and-Azov-seas-map-1851-b.webp</image:loc>
+			<image:title>Чёрное и Азовское моря на карте 1851 г.</image:title>
+		</image:image>
+    <image:image>
+			<image:loc>{{ site.url }}/img/toponymy/black-sea/Sunset-Black-Sea-Cape-Utrish-b.webp</image:loc>
+			<image:title>Закат на Чёрном море в районе мыса Утриш</image:title>
+		</image:image>
+    <image:image>
+			<image:loc>{{ site.url }}/img/toponymy/black-sea/Sunset-Black-Sea-Inal-Bay-b.webp</image:loc>
+			<image:title>Закат на Чёрном море в районе бухты Инал</image:title>
+		</image:image>
+    <image:image>
+			<image:loc>{{ site.url }}/img/toponymy/black-sea/Sunset-Black-Sea-the-territory-city-Sochi-Center-b.webp</image:loc>
+			<image:title>Закат на Чёрном море, территория города Сочи-Центр</image:title>
+		</image:image>
+    <image:image>
+			<image:loc>{{ site.url }}/img/toponymy/black-sea/Black-Sea-coast-urban-district-Gelendzhik-b.webp</image:loc>
+			<image:title>Чёрное море у берега городского округа Геленджик</image:title>
+		</image:image>
+    <image:image>
+			<image:loc>{{ site.url }}/img/toponymy/black-sea/Black-Sea-Cape-Doob-b.webp</image:loc>
+			<image:title>Чёрное море у мыса Дооб</image:title>
+		</image:image>
+    <image:image>
+			<image:loc>{{ site.url }}/img/toponymy/black-sea/Black-Sea-entrance-Balaklava-Bay-b.webp</image:loc>
+			<image:title>Чёрное море, вход в Балаклавскую бухту</image:title>
+		</image:image>
+    <image:image>
+			<image:loc>{{ site.url }}/img/toponymy/black-sea/Black-Sea-Sevastopol-Bay-b.webp</image:loc>
+			<image:title>Чёрное море, Севастопольская бухта</image:title>
+		</image:image>
+    <image:image>
+			<image:loc>{{ site.url }}/img/toponymy/black-sea/Black-Sea-Novorossiysk-Bay-b.webp</image:loc>
+			<image:title>Чёрное море, Новороссийская бухта</image:title>
+		</image:image>
+    <image:image>
+			<image:loc>{{ site.url }}/img/toponymy/black-sea/Black-Sea-Utrish-island-b.webp</image:loc>
+			<image:title>Чёрное море, остров Утриш</image:title>
+		</image:image>
   </url>
 </urlset>

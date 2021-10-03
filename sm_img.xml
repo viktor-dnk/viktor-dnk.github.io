@@ -2765,4 +2765,30 @@ layout: null
 			<image:title>Чёрное море, остров Утриш</image:title>
 		</image:image>
   </url>
+  <url>
+  <loc>{{ site.url }}/toponymy/black-toponyms/</loc>
+  <lastmod>2021-10-03</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+  <image:image>
+    <image:loc>{{ site.url }}/img/toponymy/black-toponyms/Valley-Karasun-River-b.webp</image:loc>
+    <image:title>Долина реки Карасун</image:title>
+  </image:image>
+  <image:image>
+    <image:loc>{{ site.url }}/img/toponymy/black-toponyms/Average-three-Karasunsky-lakes-Kaliniskaya-gully-b.webp</image:loc>
+    <image:title>Среднее из трёх Карасунских озёр Калиниской балки</image:title>
+  </image:image>
+  <image:image>
+    <image:loc>{{ site.url }}/img/toponymy/black-toponyms/Lake-Black-b.webp</image:loc>
+    <image:title>Озеро Черное</image:title>
+  </image:image>
+  <image:image>
+    <image:loc>{{ site.url }}/img/toponymy/black-toponyms/Entrance-Black-Cave-b.webp</image:loc>
+    <image:title>Вход в пещеру Черного</image:title>
+  </image:image>
+  <image:image>
+    <image:loc>{{ site.url }}/img/toponymy/black-toponyms/View-walls-Black-Cave.webp</image:loc>
+    <image:title>Вид на стены в пещере Чёрного</image:title>
+  </image:image>
+</url>
 </urlset>

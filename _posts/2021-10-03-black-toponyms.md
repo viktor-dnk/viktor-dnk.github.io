@@ -6,7 +6,7 @@ share-description: Чёрные реки. Озеро Чёрное. Пещера 
 cover-img: /img/toponymy/black-toponyms/cover.jpg
 share-img: /img/toponymy/black-toponyms/cover-s.jpg
 thumbnail-img: /img/toponymy/black-toponyms/thumb.webp
-thumbnail-caption: Вход в пещеру Черного
+thumbnail-caption: Вход в пещеру Чёрного
 categories: toponymy
 date: 2021-10-03 18:30
 tags: [топонимика, топоним чёрный]

@@ -1902,10 +1902,6 @@ layout: null
         <image:loc>{{ site.url }}/img/mysteries-dolmens/ch2p5/mysteries-dolmens-ch2p5-5.10.webp</image:loc>
         <image:title>Скала Спасения или Петушок у реки Псекупс в городе Горячий Ключ</image:title>
       </image:image>
-      <image:image>
-        <image:loc>{{ site.url }}/img/mysteries-dolmens/ch2p5/mysteries-dolmens-ch2p5-5.11.webp</image:loc>
-        <image:title>Вход в пещеру Чёрного</image:title>
-      </image:image>
   </url>
   <url>
     <loc>{{ site.url }}/mysteries-dolmens/ch1p11/</loc>

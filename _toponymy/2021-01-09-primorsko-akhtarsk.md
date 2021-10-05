@@ -6,10 +6,10 @@ cover-img: ["/img/toponymy/primorsko-akhtarsk/cover.webp" : "Памятник м
 thumbnail-img: /img/toponymy/primorsko-akhtarsk/thumb.webp
 thumbnail-caption: Ахтарский маяк, вид с юга
 date: 2021-01-09 16:00
-last_modified_at: 2021-03-12 00:10:00 +0300
+last_modified_at: 2021-10-05 12:00:00 +0300
 categories: toponymy
 tags: [топонимика, ойконим]
-share-title: Из истории топонима Приморско-Ахтарск
+share-title: Приморско-Ахтарск, Ахтари, Ахтар-Бахтар
 share-description: Город Приморско-Ахтарск, расположен на берегу юго-восточной части Ясенского залива Азовского моря, где залив соединяется лиманом.
 share-img: /img/toponymy/primorsko-akhtarsk/cover-s.jpg
 keywords: Приморско-Ахтарск, топоним, ойконим, Ахтари

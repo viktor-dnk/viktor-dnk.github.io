@@ -8,7 +8,7 @@ thumbnail-caption: Зубр в вольерном комплексе Лаура
 date: 2021-06-06 13:50
 last_modified_at: 2021-06-07 10:20 +0300
 categories: toponymy
-tags: [топонимика, ойконим]
+tags: [топонимика, ойконим, окрестности Сочи]
 share-title: Топоним Красная Поляна
 share-description: Посёлок Красная Поляна — бывший город Романовск
 share-img: /img/toponymy/krasnaya-polyana/cover-s.jpg

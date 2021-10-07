@@ -8,7 +8,7 @@ thumbnail-caption: Вход в пещеру Чёрного
 date: 2021-10-03 18:30
 last_modified_at: 2021-10-03 18:30 +0300
 categories: toponymy
-tags: [топонимика, топоним чёрный]
+tags: [топонимика, пещеры, топоним чёрный]
 share-title: Чёрные топонимы
 share-description: Чёрные реки. Озеро Чёрное. Пещера Чёрного.
 share-img: /img/toponymy/black-toponyms/cover-s.jpg

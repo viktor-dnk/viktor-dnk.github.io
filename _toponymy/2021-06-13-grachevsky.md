@@ -8,7 +8,7 @@ thumbnail-caption: Памятный знак Аркадию Гайдару
 date: 2021-06-13 18:00
 last_modified_at: 2021-06-13 18:00 +0300
 categories: toponymy
-tags: [топонимика]
+tags: [топонимика, горы Кубани и Адыгеи]
 share-title: Перевал Грачёвский
 share-description: Из истории перевалов Грачёвский, Тубинский
 share-img: /img/toponymy/grachevsky/cover-s.jpg

@@ -8,7 +8,7 @@ thumbnail-caption: Горный массив Оштен
 date: 2021-06-18 22:10
 last_modified_at: 2021-06-18 22:10 +0300
 categories: toponymy
-tags: [топонимика, ороним]
+tags: [топонимика, ороним, горы Кубани и Адыгеи]
 share-title: Загадки перевалов Геймановские Ворота и Гузерипль
 share-description: Иногда возникают несколько наименований у одного природного объекта
 share-img: /img/toponymy/gaiman-gate/cover-s.jpg

@@ -8,7 +8,7 @@ thumbnail-caption: Вид на мыс Тузла с севера
 date: 2021-05-12 21:20
 last_modified_at: 2021-05-25 11:00:00 +0300
 categories: toponymy
-tags: [топонимика]
+tags: [топонимика, топонимы на побережье]
 share-title: Керченская переправа
 share-description: В античное время Керченский пролив называли Боспор Киммерийский
 share-img: /img/mysteries-dolmens/ch1p16/cover-s.jpg

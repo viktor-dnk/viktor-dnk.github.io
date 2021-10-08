@@ -29,7 +29,7 @@ head-extra: _noindex.html
     <div class="post-list">
         {%- for post in site.tags[tag] -%}
             <div class="tag-entry">
-                <a href="{{ post.url | relative_url }}">{{- post.title -}}</a>
+                <a title="{{ post.share-title }}" href="{{ post.url | relative_url }}">{{- post.title -}}</a>
                 <div class="entry-date">
                     {{ post.share-description }}<br>
                     <time datetime="{{- post.date | date_to_xmlschema -}}">{{- post.date | date: date_format -}}</time>
@@ -41,5 +41,5 @@ head-extra: _noindex.html
 </div>
 
 <figure>
-	<img title="Дорога не кончается" alt="Дорога не кончается" width="300" height="300" src="/img/example-logos/stamp.png"/>
+	<img title="Дорога не кончается" alt="Заметки географа - Дорога не кончается" width="300" height="300" src="/img/example-logos/stamp.png"/>
 </figure>

@@ -2787,4 +2787,30 @@ layout: null
     <image:title>Вид на стены в пещере Чёрного</image:title>
   </image:image>
 </url>
+<url>
+<loc>{{ site.url }}/toponymy/urushten/</loc>
+<lastmod>2021-10-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+  <image:image>
+    <image:loc>{{ site.url }}/img/toponymy/urushten/Cordon-Chernorechye-b.webp</image:loc>
+    <image:title>Кордон Черноречье КГЗ</image:title>
+  </image:image>
+  <image:image>
+    <image:loc>{{ site.url }}/img/toponymy/urushten/Bridge-over-Urushten-River-Chernorechye-cordon-b.webp</image:loc>
+    <image:title>Мост через реку Уруштен у кордона Черноречье</image:title>
+  </image:image>
+  <image:image>
+    <image:loc>{{ site.url }}/img/toponymy/urushten/site-Shakhgireevsky-gorge-Malaya-Laba-River-b.webp</image:loc>
+    <image:title>Участок Шахгиреевского ущелья на реке Малая Лаба</image:title>
+  </image:image>
+  <image:image>
+    <image:loc>{{ site.url }}/img/toponymy/urushten/confluence-Urushten-River-Malaya-Laba-River-b.webp</image:loc>
+    <image:title>Место слияния реки Уруштен с рекой Малая Лаба</image:title>
+  </image:image>
+  <image:image>
+    <image:loc>{{ site.url }}/img/toponymy/urushten/section-Urushten-highlands-near-Armovka-mountain-b.webp</image:loc>
+    <image:title>Участок нагорья Уруштен у горы Армовка</image:title>
+  </image:image>
+</url>
 </urlset>

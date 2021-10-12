@@ -2813,4 +2813,42 @@ layout: null
     <image:title>Участок нагорья Уруштен у горы Армовка</image:title>
   </image:image>
 </url>
+<url>
+<loc>{{ site.url }}/toponymy/astrakhan/</loc>
+<lastmod>2021-10-12</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/astrakhan/Large-production-b.webp</image:loc>
+			<image:title>Крупная добыча. Улов в Астраханской дельте реки Волга</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/astrakhan/Astrakhan-map-Russia-1562-b.webp</image:loc>
+			<image:title>Астрахань на карте России 1562 г.</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/astrakhan/Astrakhan-Kremlin-b.webp</image:loc>
+			<image:title>Астраханский кремль</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/astrakhan/Volga-River-embankment-Astrakhan-b.webp</image:loc>
+			<image:title>Набережная реки Волга в Астрахани</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/astrakhan/Astrakhan-city-house-merchant-Tetyushinov-b.webp</image:loc>
+			<image:title>Город Астрахань, дом купца Г.В. Тетюшинова</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/astrakhan/Astrakhan-city-Nikolskaya-Street-b.webp</image:loc>
+			<image:title>Город Астрахань, улица Никольская</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/astrakhan/Astrakhan-city-view-Church-Kazan-Mother-God-b.webp</image:loc>
+			<image:title>Город Астраханнь, вид на церковь Казанской Божьей Матери</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/astrakhan/Map-Astrakhan-Diocese-1901-b.webp</image:loc>
+			<image:title>Карта Астраханской епархии 1901 г.</image:title>
+		</image:image>
+</url>	
 </urlset>

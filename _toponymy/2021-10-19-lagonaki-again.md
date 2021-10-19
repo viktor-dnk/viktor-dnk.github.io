@@ -12,7 +12,7 @@ tags: [топонимика, Лагонаки, горы Кубани и Адыг
 share-title: Лагонаки. Топонимика.
 share-description: Горный узел нагорья Лагонаки, занимает площадь ~700 кв. км, где расположены хребты, плато, отдельные вершины, речные долины.
 share-img: /img/toponymy/lagonaki-again/cover-s.jpg
-keywords: Астрахань
+keywords: Лагонаки, Фишт, Оштен, Пшехо-Су
 head-extra: amp_link.html
 location: Лагонаки
 img-caption: Ручей Молочный в нижнем течении

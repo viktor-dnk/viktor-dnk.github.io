@@ -2850,5 +2850,55 @@ layout: null
 			<image:loc>{{ site.url }}/img/toponymy/astrakhan/Map-Astrakhan-Diocese-1901-b.webp</image:loc>
 			<image:title>Карта Астраханской епархии 1901 г.</image:title>
 		</image:image>
+</url>
+<url>
+<loc>{{ site.url }}/toponymy/lagonaki-again/</loc>
+<lastmod>2021-10-19</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/lagonaki-again/Orographic-scheme-Lagonaki-Highlands-area-b.webp</image:loc>
+			<image:title>Орографическая схема района нагорья Лагонаки</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/lagonaki-again/Waterfalls-Vodopadistom-stream-b.webp</image:loc>
+			<image:title>Водопады на ручье Водопадистом, их ещё называют Пшехские</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/lagonaki-again/Fisht-mountain-range-b.webp</image:loc>
+			<image:title>Горный массив Фишт, перед массивом, виден перевал Армянский</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/lagonaki-again/Seasonal-camp-Fisht-b.webp</image:loc>
+			<image:title>Cезонная турбаза «Фишт»</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/lagonaki-again/Mount-Oshten-view-northeastern-side-b.webp</image:loc>
+			<image:title>Гора Оштен вид с северо-восточной стороны</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/lagonaki-again/Mount-Pshekho-Su.webp</image:loc>
+			<image:title>Гора Пшехо-Су</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/lagonaki-again/Lake-Psenodah-b.webp</image:loc>
+			<image:title>Озеро Псенодах</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/lagonaki-again/Kurdzhip-gorge-b.webp</image:loc>
+			<image:title>Курджипское ущелья</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/lagonaki-again/Palm-girder-b.webp</image:loc>
+			<image:title>Балка Пальмовая</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/lagonaki-again/Milk-Stream-b.webp</image:loc>
+			<image:title>Ручей Молочный</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/lagonaki-again/Kurgips-River-b.webp</image:loc>
+			<image:title>Река Курджипс</image:title>
+		</image:image>
 </url>	
 </urlset>

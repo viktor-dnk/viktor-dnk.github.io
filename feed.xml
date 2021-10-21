@@ -20,7 +20,7 @@ layout: null
     {% assign excerpt_length = site.excerpt_length | default: 50 %}
     {% for post in site.posts limit:20 %}
       <item>
-        <title>{{ post.title | xml_escape }}</title>
+        <title>{{ post.title | xml_escape | strip_html }}</title>
         <description>
           {% if post.share-img %}&lt;p&gt;&lt;img src="{{ post.share-img | prepend: site.baseurl | prepend: site.url }}" alt="{{ post.title }}" class="webfeedsFeaturedVisual"&gt;&lt;/p&gt;{% endif %}{{ post.share-description }}
         </description>

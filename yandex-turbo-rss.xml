@@ -97,6 +97,7 @@ layout: null
                   <div data-block="share">
                   <div data-block="widget-feedback" data-stick="right">
                       <div data-block="chat" data-type="telegram" data-url="https://t.me/toponim"></div>
+                      <div data-type="twitter" data-url="https://twitter.com/thekubanology"></div>
                       <div data-type="mail" data-url="mailto:dnk_v@list.ru"></div>
                   </div>
               ]]>
@@ -186,6 +187,7 @@ layout: null
                 <div data-block="share">
                 <div data-block="widget-feedback" data-stick="right">
                     <div data-block="chat" data-type="telegram" data-url="https://t.me/toponim"></div>
+                    <div data-type="twitter" data-url="https://twitter.com/thekubanology"></div>
                     <div data-type="mail" data-url="mailto:dnk_v@list.ru"></div>
                 </div>
             ]]>

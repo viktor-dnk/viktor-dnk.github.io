@@ -22,7 +22,7 @@ layout: null
           <turbo:topic>{{ toponymy.title | xml_escape }}</turbo:topic>
           <pubDate>{{ toponymy.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
           <author>Ковешников В.Н.</author>
-          <title>{{ toponymy.title | xml_escape }}</title>
+          <title>{{ toponymy.title | strip_html | xml_escape }}</title>
           <turbo:content>
               <![CDATA[
                   <figure>

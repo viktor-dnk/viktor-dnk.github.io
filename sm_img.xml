@@ -2900,5 +2900,23 @@ layout: null
 			<image:loc>{{ site.url }}/img/toponymy/lagonaki-again/Kurgips-River-b.webp</image:loc>
 			<image:title>Река Курджипс</image:title>
 		</image:image>
+</url>
+<url>
+<loc>{{ site.url }}/toponymy/tsetse/</loc>
+<lastmod>2021-10-25</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/tsetse/The-famous-difficult-canyon--Tsitsa-River.webp</image:loc>
+			<image:title>Известный, но трудно проходимый каньон реки Цица (Цеце)</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/tsetse/Tsetse-River-Canyon.webp</image:loc>
+			<image:title>Каньон реки Цеце</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/tsetse/View-spur-Mount-Zhitnaya.webp</image:loc>
+			<image:title>Вид на отрог горы Житной</image:title>
+		</image:image>
 </url>	
 </urlset>

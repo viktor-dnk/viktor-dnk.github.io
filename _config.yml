@@ -7,11 +7,11 @@ navbar-links:
   Разделы сайта:
     - Топонимика: "/toponymy/"
     - Тайны дольменов: "/mysteries-dolmens/"
-    - Указатель меток: "/tags/"    
+    - Указатель меток: "/tags/"
   Информация:
 #    - Об этом сайте: "/thisblog/"
     - Об авторе: "/aboutme/"
-#   - Контакты: "/info/contacts/" 
+    - Контакты: "/info/contacts/" 
     - Случайная статья: "/random"
   Полезные ссылки:
     - Российское географическое общество: "https://www.rgo.ru/ru/article/prezentaciya-knigi-kratkiy-toponimicheskiy-slovar-naselennye-punkty-kubani-0"

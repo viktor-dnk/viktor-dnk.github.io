@@ -7,17 +7,17 @@ navbar-links:
   Разделы сайта:
     - Топонимика: "/toponymy/"
     - Тайны дольменов: "/mysteries-dolmens/"
+    - Указатель меток: "/tags/"    
   Информация:
-    - Об этом сайте: "/thisblog/"
+#    - Об этом сайте: "/thisblog/"
     - Об авторе: "/aboutme/"
-    - Указатель меток: "/tags/"
+#   - Контакты: "/info/contacts/" 
     - Случайная статья: "/random"
   Полезные ссылки:
-    - Территория Поиска: "http://iskatelklada.tuapse.ru"
     - Российское географическое общество: "https://www.rgo.ru/ru/article/prezentaciya-knigi-kratkiy-toponimicheskiy-slovar-naselennye-punkty-kubani-0"
     - Российская государственная библиотека: "https://search.rsl.ru/ru/record/01008635856"
 #  🔍: "/search/"
- # Author's home: "https://deanattali.com"
+
 
 collections:
   mysteries-dolmens:
@@ -227,7 +227,5 @@ exclude:
 plugins:
   - jekyll-paginate
 
-# Beautiful Jekyll / Dean Attali
-# 2fc73a3a967e97599c9763d05e564189
 
 remote_theme: daattali/beautiful-jekyll@5.0.0

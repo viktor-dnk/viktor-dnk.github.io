@@ -41,6 +41,7 @@ layout: null
     </url>
     <url>
         <loc>https://viktor-dnk.ru/info/</loc>
+        <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
     </url>
     <url>
         <loc>https://viktor-dnk.ru/toponymy/</loc>
@@ -52,15 +53,27 @@ layout: null
     </url>
     <url>
         <loc>https://viktor-dnk.ru/page/2/</loc>
+        <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
     </url>
     <url>
         <loc>https://viktor-dnk.ru/page/3/</loc>
+        <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
     </url>
     <url>
         <loc>https://viktor-dnk.ru/page/4/</loc>
+        <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
     </url>
     <url>
         <loc>https://viktor-dnk.ru/page/5/</loc>
+        <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+    </url>
+    <url>
+        <loc>https://viktor-dnk.ru/page/6/</loc>
+        <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+    </url>
+    <url>
+        <loc>https://viktor-dnk.ru/page/7/</loc>
+        <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
     </url>
     <url>
         <loc>https://viktor-dnk.ru/aboutme/</loc>
@@ -69,9 +82,6 @@ layout: null
           <image:title>Дорога не кончается</image:title>
           <image:caption>Заметки географа</image:caption>
         </image:image>
-    </url>
-    <url>
-        <loc>https://viktor-dnk.ru/thisblog/</loc>
     </url>
     <url>
         <loc>https://viktor-dnk.ru/search/</loc>

@@ -28,6 +28,7 @@ layout: null
 			<link>{{ toponymy.url | absolute_url }}</link>
 			<pdalink>{{ toponymy.url | absolute_url }}</pdalink>
 			<amplink>{{ toponymy.url | absolute_url | strip_index | replace:'.ru/','.ru/amp/' }}</amplink>
+			<guid isPermaLink="true">{{ toponymy.url | absolute_url }}</guid>
 			<media:rating scheme="urn:simple">nonadult</media:rating>
 			<pubDate>{{ toponymy.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
 			<author>Ковешников В.Н.</author>
@@ -54,6 +55,7 @@ layout: null
 			<link>{{ mysteries-dolmens.url | absolute_url }}</link>
 			<pdalink>{{ mysteries-dolmens.url | absolute_url }}</pdalink>
 			<amplink>{{ mysteries-dolmens.url | absolute_url | strip_index | replace:'.ru/','.ru/amp/' }}</amplink>
+			<guid isPermaLink="true">{{ mysteries-dolmens.url | absolute_url }}</guid>
 			<media:rating scheme="urn:simple">nonadult</media:rating>
 			<pubDate>{{ mysteries-dolmens.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
 			<author>Ковешников В.Н.</author>

@@ -1,0 +1,66 @@
+---
+layout: null
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Заметки географа</title>
+    <description>Дорога не кончается</description>
+    <image>
+      <url>https://viktor-dnk.ru/img/example-logos/rss.png</url>
+      <title>Заметки географа</title>
+      <link>{{ '' | absolute_url }}</link>
+      <width>88</width>
+      <height>88</height>
+      <description>Дорога не кончается</description>
+    </image>    
+    <language>ru</language>
+    <link>{{ '' | absolute_url }}</link>
+		<!--генериурем страницы из раздела по топонимике -->
+		{% for toponymy in site.toponymy limit:100 %}	
+		<item>
+			<title>{{ toponymy.title | strip_html | xml_escape }}</title>
+			<link>{{ toponymy.url | absolute_url }}</link>
+			<pdalink>{{ toponymy.url | absolute_url }}</pdalink>
+			<amplink>{{ toponymy.url | absolute_url | strip_index | replace:'.ru/','.ru/amp/' }}</amplink>
+			<pubDate>{{ toponymy.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
+			<author>Ковешников В.Н.</author>
+			<category>{{toponymy.tags | sort | join: ", "}}</category>
+			<enclosure url="{{ toponymy.share-img | prepend: site.baseurl | prepend: site.url }}" type="image/jpeg"/>
+			<description>
+				<![CDATA[
+					{{ toponymy.description }}
+				]]>
+			</description>
+			<content:encoded>
+				<![CDATA[
+					{{ toponymy.content }}
+				]]>
+			</content:encoded>
+		</item>
+		{% endfor %}
+		<!--генериурем страницы из раздела про дольмены -->
+		{% for mysteries-dolmens in site.mysteries-dolmens limit:100 %}
+		<item>
+			<title>{{ mysteries-dolmens.title | strip_html | xml_escape }}</title>
+			<link>{{ mysteries-dolmens.url | absolute_url }}</link>
+			<pdalink>{{ mysteries-dolmens.url | absolute_url }}</pdalink>
+			<amplink>{{ mysteries-dolmens.url | absolute_url | strip_index | replace:'.ru/','.ru/amp/' }}</amplink>
+			<pubDate>{{ mysteries-dolmens.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
+			<author>Ковешников В.Н.</author>
+			<category>{{mysteries-dolmens.tags | sort | join: ", "}}</category>
+			<enclosure url="{{ mysteries-dolmens.share-img | prepend: site.baseurl | prepend: site.url }}" type="image/jpeg"/>
+			<description>
+				<![CDATA[
+					{{ mysteries-dolmens.description }}
+				]]>
+			</description>
+			<content:encoded>
+				<![CDATA[
+					{{ mysteries-dolmens.content }}
+				]]>
+			</content:encoded>
+		</item>
+		{% endfor %}
+  </channel>
+</rss>		

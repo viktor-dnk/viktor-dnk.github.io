@@ -31,7 +31,9 @@ layout: null
 			<media:rating scheme="urn:simple">nonadult</media:rating>
 			<pubDate>{{ toponymy.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
 			<author>Ковешников В.Н.</author>
-			<category>{{toponymy.tags | sort | join: ", "}}</category>
+			<category>Путешествия</category>
+			<category>Наука</category>
+			<category>Природа</category>
 			<enclosure url="{{ toponymy.share-img | prepend: site.baseurl | prepend: site.url }}" type="image/jpeg"/>
 			<description>
 				<![CDATA[
@@ -40,7 +42,7 @@ layout: null
 			</description>
 			<content:encoded>
 				<![CDATA[
-					{{ toponymy.content | replace: 'src="/img/mysteries-dolmens/', 'src="https://viktor-dnk.ru/img/mysteries-dolmens/' | replace: 'src="/img/toponymy/', 'src="https://viktor-dnk.ru/img/toponymy/' }}
+					{{ toponymy.content | replace: '/img/mysteries-dolmens/', 'https://viktor-dnk.ru/img/mysteries-dolmens/' | replace: '/img/toponymy/', 'https://viktor-dnk.ru/img/toponymy/' }}
 				]]>
 			</content:encoded>
 		</item>
@@ -55,7 +57,9 @@ layout: null
 			<media:rating scheme="urn:simple">nonadult</media:rating>
 			<pubDate>{{ mysteries-dolmens.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
 			<author>Ковешников В.Н.</author>
-			<category>{{mysteries-dolmens.tags | sort | join: ", "}}</category>
+			<category>Путешествия</category>
+			<category>Наука</category>
+			<category>Природа</category>
 			<enclosure url="{{ mysteries-dolmens.share-img | prepend: site.baseurl | prepend: site.url }}" type="image/jpeg"/>
 			<description>
 				<![CDATA[
@@ -64,7 +68,7 @@ layout: null
 			</description>
 			<content:encoded>
 				<![CDATA[
-					{{ mysteries-dolmens.content | replace: 'src="/img/mysteries-dolmens/', 'src="https://viktor-dnk.ru/img/mysteries-dolmens/' | replace: 'src="/img/toponymy/', 'src="https://viktor-dnk.ru/img/toponymy/' }}
+					{{ mysteries-dolmens.content | replace: '/img/mysteries-dolmens/', 'https://viktor-dnk.ru/img/mysteries-dolmens/' | replace: '/img/toponymy/', 'https://viktor-dnk.ru/img/toponymy/' }}
 				]]>
 			</content:encoded>
 		</item>

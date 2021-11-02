@@ -40,7 +40,7 @@ layout: null
 			</description>
 			<content:encoded>
 				<![CDATA[
-					{{ toponymy.content }}
+					{{ toponymy.content | replace: 'src="/img/mysteries-dolmens/', 'src="https://viktor-dnk.ru/img/mysteries-dolmens/' | replace: 'src="/img/toponymy/', 'src="https://viktor-dnk.ru/img/toponymy/' }}
 				]]>
 			</content:encoded>
 		</item>
@@ -64,7 +64,7 @@ layout: null
 			</description>
 			<content:encoded>
 				<![CDATA[
-					{{ mysteries-dolmens.content }}
+					{{ mysteries-dolmens.content | replace: 'src="/img/mysteries-dolmens/', 'src="https://viktor-dnk.ru/img/mysteries-dolmens/' | replace: 'src="/img/toponymy/', 'src="https://viktor-dnk.ru/img/toponymy/' }}
 				]]>
 			</content:encoded>
 		</item>

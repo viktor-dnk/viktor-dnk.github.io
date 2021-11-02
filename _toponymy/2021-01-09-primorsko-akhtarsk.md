@@ -43,7 +43,7 @@ img-caption: Здание ж/д вокзала станции Ахтари, по
 - **Ахтарский маяк**, сооружён в начале ХХ в. на берегу Ясенского залива, в средней части береговой линии между основаниями Ахтарской и Ясенской кос. Маяк находится примерно в 4-х км севернее города Приморско-Ахтарск на абсолютной высоте 7,1 м. Приблизительная высота маяка, составляет не более 20 м, он погашен;
 
 <figure>
-	<a title="Ахтарский маяк, вид со стороны моря (с запада)" href="/img/toponymy/primorsko-akhtarsk/Akhtarsky-lighthouse-view-from-the-sea-b.webp"><img alt="Ахтарский маяк, вид со стороны моря (с запада)" width="480" height="640" src="/img/toponymy/primorsko-akhtarsk/Akhtarsky-lighthouse-view-from-the-sea.webp"/></a>
+	<a href="/img/toponymy/primorsko-akhtarsk/Akhtarsky-lighthouse-view-from-the-sea-b.webp" title="Ахтарский маяк, вид со стороны моря (с запада)"><img src="/img/toponymy/primorsko-akhtarsk/Akhtarsky-lighthouse-view-from-the-sea.webp" alt="Ахтарский маяк, вид со стороны моря (с запада)" width="480" height="640"/></a>
 	<figcaption>Ахтарский маяк, вид со стороны моря (с запада) (июль 2021, фото Рублёва Елена)</figcaption>
 </figure>
 
@@ -60,7 +60,7 @@ img-caption: Здание ж/д вокзала станции Ахтари, по
 - **Ахтари железнодорожная станция**, находится в городе Приморско-Ахтарск. В 1914 г. строится железная дорога из станицы Тимашевской (с 1966 г. город), соединившая станицу Приморско-Ахтарскую с городом Екатеринодар (с 1920 г. Краснодар). Своё название ж/д станция сохранила до сих пор;
 
 <figure>
-	<a title="Здание ж/д вокзала станции Ахтари, построено в 1912 г" href="/img/toponymy/primorsko-akhtarsk/railway-station-Akhtari-b.webp"><img alt="Здание ж/д вокзала станции Ахтари, построен в 1912 г" width="640" height="480" src="/img/toponymy/primorsko-akhtarsk/railway-station-Akhtari.webp"/></a>
+	<a href="/img/toponymy/primorsko-akhtarsk/railway-station-Akhtari-b.webp" title="Здание ж/д вокзала станции Ахтари, построено в 1912 г"><img src="/img/toponymy/primorsko-akhtarsk/railway-station-Akhtari.webp" alt="Здание ж/д вокзала станции Ахтари, построен в 1912 г" width="640" height="480"/></a>
 	<figcaption>Здание ж/д вокзала станции Ахтари, построен в 1912 г. (https://nashtransport.ru)</figcaption>
 </figure>
 
@@ -125,7 +125,7 @@ img-caption: Здание ж/д вокзала станции Ахтари, по
 На «Военно-исторической карте периода с 1777 г. до окончания Кавказской войны (1864 г.)» [[25]](#t5-[25]), издана в 1898 г., недалеко от Ахтарского посёлка, обозначено три укрепления без названия. Видимо, в районе посёлка после заселения черноморскими казаками в середине ХIХ в., были сооружены обвещательные посты или коммуникационные заставы, которые не имели названия и на картах они не значились. Но по каким-то причинам были нанесены Фелицыным Е.Д. на приведённую выше карту. На подъездах к посёлку с суши расположились заставы (посты) одна с восточной стороны, другая с юго-восточной и третья с южной. Вероятно, заставы были установлены для охраны посёлка, так как война ещё не закончилась, а посёлок находился на удалении. Застава (пост), обычно состояла из куреня (хаты) и сигнальной вышки, окружённых плетнём.
 
 <figure>
-	<a title="Казачья вышка у пикета или поста" href="/img/toponymy/primorsko-akhtarsk/Cossack-tower-at-the-post-b.webp"><img alt="Казачья вышка у пикета или поста" width="693" height="480" src="/img/toponymy/primorsko-akhtarsk/Cossack-tower-at-the-post.webp"/></a>
+	<a href="/img/toponymy/primorsko-akhtarsk/Cossack-tower-at-the-post-b.webp" title="Казачья вышка у пикета или поста"><img src="/img/toponymy/primorsko-akhtarsk/Cossack-tower-at-the-post.webp" alt="Казачья вышка у пикета или поста" width="693" height="480"/></a>
 	<figcaption>Казачья вышка у пикета или поста (www.slavynsk2.ru)</figcaption>
 </figure>
 

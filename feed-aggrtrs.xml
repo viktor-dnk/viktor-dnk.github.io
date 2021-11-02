@@ -2,7 +2,12 @@
 layout: null
 ---
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0"
+    xmlns:content="http://purl.org/rss/1.0/modules/content/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:media="http://search.yahoo.com/mrss/"
+    xmlns:atom="http://www.w3.org/2005/Atom"
+    xmlns:georss="http://www.georss.org/georss">
   <channel>
     <title>Заметки географа</title>
     <description>Дорога не кончается</description>
@@ -23,6 +28,7 @@ layout: null
 			<link>{{ toponymy.url | absolute_url }}</link>
 			<pdalink>{{ toponymy.url | absolute_url }}</pdalink>
 			<amplink>{{ toponymy.url | absolute_url | strip_index | replace:'.ru/','.ru/amp/' }}</amplink>
+			<media:rating scheme="urn:simple">nonadult</media:rating>
 			<pubDate>{{ toponymy.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
 			<author>Ковешников В.Н.</author>
 			<category>{{toponymy.tags | sort | join: ", "}}</category>
@@ -46,6 +52,7 @@ layout: null
 			<link>{{ mysteries-dolmens.url | absolute_url }}</link>
 			<pdalink>{{ mysteries-dolmens.url | absolute_url }}</pdalink>
 			<amplink>{{ mysteries-dolmens.url | absolute_url | strip_index | replace:'.ru/','.ru/amp/' }}</amplink>
+			<media:rating scheme="urn:simple">nonadult</media:rating>
 			<pubDate>{{ mysteries-dolmens.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
 			<author>Ковешников В.Н.</author>
 			<category>{{mysteries-dolmens.tags | sort | join: ", "}}</category>

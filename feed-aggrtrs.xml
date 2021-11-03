@@ -43,7 +43,59 @@ layout: null
 			</description>
 			<content:encoded>
 				<![CDATA[
-					{{ toponymy.content | replace: '/img/mysteries-dolmens/', 'https://viktor-dnk.ru/img/mysteries-dolmens/' | replace: '/img/toponymy/', 'https://viktor-dnk.ru/img/toponymy/' }}
+				  {% assign preprocessed_content=toponymy.content | replace: '<p>', '__p__' %}
+                  {% assign preprocessed_content=preprocessed_content | replace: '</p>', '__/p__' %}
+                  {% assign preprocessed_content=preprocessed_content | replace: '<li>', '__li__' %}
+                  {% assign preprocessed_content=preprocessed_content | replace: '</li>', '__/li__' %}
+                  {% assign preprocessed_content=preprocessed_content | replace: '<ul>', '__ul__' %}
+                  {% assign preprocessed_content=preprocessed_content | replace: '</ul>', '__/ul__' %}
+                  {% assign preprocessed_content=preprocessed_content | replace: '<ol>', '__ol__' %}
+                  {% assign preprocessed_content=preprocessed_content | replace: '</ol>', '__/ol__' %}                  
+                  {% assign preprocessed_content=preprocessed_content | replace: '<strong>', '__strong__' %}
+                  {% assign preprocessed_content=preprocessed_content | replace: '</strong>', '__/strong__' %}
+                  {% assign preprocessed_content=preprocessed_content | replace: '<em>', '__em__' %}
+                  {% assign preprocessed_content=preprocessed_content | replace: '</em>', '__/em__' %}
+                  {% assign preprocessed_content=preprocessed_content | replace: '<figure>', '__figure__' %}
+                  {% assign preprocessed_content=preprocessed_content | replace: '</figure>', '__/figure__' %}
+                  {% assign preprocessed_content=preprocessed_content | replace: '<figcaption>', '__figcaption__' %}
+                  {% assign preprocessed_content=preprocessed_content | replace: '</figcaption>', '__/figcaption__' %}
+                  {% assign preprocessed_content=preprocessed_content | replace: '<h2', '__h2__' %}
+                  {% assign preprocessed_content=preprocessed_content | replace: '</h2>', '__/h2__' %}
+                  {% assign preprocessed_content=preprocessed_content | replace: '<img', '__img__' %}
+                  {% assign preprocessed_content=preprocessed_content | replace: '<br />', '__br/__' %}
+                  {% assign preprocessed_content=preprocessed_content | replace: '<a href="/', '__a href__' %}
+                  {% assign preprocessed_content=preprocessed_content | replace: '</a>', '__/a__' %}
+                      {% assign truncated_content=preprocessed_content | strip_html %}
+                  {% assign cleaned_content=truncated_content | replace: '__p__', '<p>' %}
+                  {% assign cleaned_content=cleaned_content | replace: '__/p__', '</p>' %}
+                  {% assign cleaned_content=cleaned_content | replace: '__li__', '<li>' %}
+                  {% assign cleaned_content=cleaned_content | replace: '__/li__', '</li>' %}
+                  {% assign cleaned_content=cleaned_content | replace: '__ul__', '<ul>' %}
+                  {% assign cleaned_content=cleaned_content | replace: '__/ul__', '</ul>' %}
+                  {% assign cleaned_content=cleaned_content | replace: '__ol__', '<ol>' %}
+                  {% assign cleaned_content=cleaned_content | replace: '__/ol__', '</ol>' %}                  
+                  {% assign cleaned_content=cleaned_content | replace: '__strong__', '<strong>' %}
+                  {% assign cleaned_content=cleaned_content | replace: '__/strong__', '</strong>' %}
+                  {% assign cleaned_content=cleaned_content | replace: '__em__', '<em>' %}
+                  {% assign cleaned_content=cleaned_content | replace: '__/em__', '</em>' %}
+                  {% assign cleaned_content=cleaned_content | replace: '__figure__', '<figure>' %}
+                  {% assign cleaned_content=cleaned_content | replace: '__/figure__', '</figure>' %}
+                  {% assign cleaned_content=cleaned_content | replace: '__figcaption__', '<figcaption>' %}
+                  {% assign cleaned_content=cleaned_content | replace: '__/figcaption__', '</figcaption>' %}
+                  {% assign cleaned_content=cleaned_content | replace: '__h2__', '<h2' %}
+                  {% assign cleaned_content=cleaned_content | replace: '__/h2__', '</h2>' %}
+                  {% assign cleaned_content=cleaned_content | replace: '__img__', '<img' %}
+                  {% assign cleaned_content=cleaned_content | replace: '__br/__', '<br />' %}
+                  {% assign cleaned_content=cleaned_content | replace: '__a href__', '<a href="/' %}
+                  {% assign cleaned_content=cleaned_content | replace: '__/a__', '</a>' %}
+                  {% assign cleaned_content=cleaned_content | replace: '" /></a>', '" />' %}
+                  {% assign cleaned_content=cleaned_content | replace: ']</a>', ']' %}
+                  {% assign cleaned_content=cleaned_content | replace: '</a></li>', '</li>' %}
+                  {% assign cleaned_content=cleaned_content | replace: '<strong></a>', '<strong>' %}
+                  {% assign cleaned_content=cleaned_content | replace: '<li></a>', '<li>' %}
+                  {% assign cleaned_content=cleaned_content | replace: 'src="/img/mysteries-dolmens/', 'src="https://viktor-dnk.ru/img/mysteries-dolmens/' %}
+                  {% assign cleaned_content=cleaned_content | replace: 'src="/img/toponymy/', 'src="https://viktor-dnk.ru/img/toponymy/' %}
+          				    {{ cleaned_content }}
 				]]>
 			</content:encoded>
 		</item>
@@ -70,7 +122,59 @@ layout: null
 			</description>
 			<content:encoded>
 				<![CDATA[
-					{{ mysteries-dolmens.content | replace: '/img/mysteries-dolmens/', 'https://viktor-dnk.ru/img/mysteries-dolmens/' | replace: '/img/toponymy/', 'https://viktor-dnk.ru/img/toponymy/' }}
+                {% assign preprocessed_content=mysteries-dolmens.content | replace: '<p>', '__p__' %}
+                {% assign preprocessed_content=preprocessed_content | replace: '</p>', '__/p__' %}
+                {% assign preprocessed_content=preprocessed_content | replace: '<li>', '__li__' %}
+                {% assign preprocessed_content=preprocessed_content | replace: '</li>', '__/li__' %}
+                {% assign preprocessed_content=preprocessed_content | replace: '<ul>', '__ul__' %}
+                {% assign preprocessed_content=preprocessed_content | replace: '</ul>', '__/ul__' %}
+                {% assign preprocessed_content=preprocessed_content | replace: '<ol>', '__ol__' %}
+                {% assign preprocessed_content=preprocessed_content | replace: '</ol>', '__/ol__' %}
+                {% assign preprocessed_content=preprocessed_content | replace: '<strong>', '__strong__' %}
+                {% assign preprocessed_content=preprocessed_content | replace: '</strong>', '__/strong__' %}
+                {% assign preprocessed_content=preprocessed_content | replace: '<em>', '__em__' %}
+                {% assign preprocessed_content=preprocessed_content | replace: '</em>', '__/em__' %}
+                {% assign preprocessed_content=preprocessed_content | replace: '<figure>', '__figure__' %}
+                {% assign preprocessed_content=preprocessed_content | replace: '</figure>', '__/figure__' %}
+                {% assign preprocessed_content=preprocessed_content | replace: '<figcaption>', '__figcaption__' %}
+                {% assign preprocessed_content=preprocessed_content | replace: '</figcaption>', '__/figcaption__' %}
+                {% assign preprocessed_content=preprocessed_content | replace: '<h2', '__h2__' %}
+                {% assign preprocessed_content=preprocessed_content | replace: '</h2>', '__/h2__' %}
+                {% assign preprocessed_content=preprocessed_content | replace: '<img', '__img__' %}
+                {% assign preprocessed_content=preprocessed_content | replace: '<br />', '__br/__' %}
+                {% assign preprocessed_content=preprocessed_content | replace: '<a href="/', '__a href__' %}
+                {% assign preprocessed_content=preprocessed_content | replace: '</a>', '__/a__' %}
+                    {% assign truncated_content=preprocessed_content | strip_html %}
+                {% assign cleaned_content=truncated_content | replace: '__p__', '<p>' %}
+                {% assign cleaned_content=cleaned_content | replace: '__/p__', '</p>' %}
+                {% assign cleaned_content=cleaned_content | replace: '__li__', '<li>' %}
+                {% assign cleaned_content=cleaned_content | replace: '__/li__', '</li>' %}
+                {% assign cleaned_content=cleaned_content | replace: '__ul__', '<ul>' %}
+                {% assign cleaned_content=cleaned_content | replace: '__/ul__', '</ul>' %}
+                {% assign cleaned_content=cleaned_content | replace: '__ol__', '<ol>' %}
+                {% assign cleaned_content=cleaned_content | replace: '__/ol__', '</ol>' %}
+                {% assign cleaned_content=cleaned_content | replace: '__strong__', '<strong>' %}
+                {% assign cleaned_content=cleaned_content | replace: '__/strong__', '</strong>' %}
+                {% assign cleaned_content=cleaned_content | replace: '__em__', '<em>' %}
+                {% assign cleaned_content=cleaned_content | replace: '__/em__', '</em>' %}
+                {% assign cleaned_content=cleaned_content | replace: '__figure__', '<figure>' %}
+                {% assign cleaned_content=cleaned_content | replace: '__/figure__', '</figure>' %}
+                {% assign cleaned_content=cleaned_content | replace: '__figcaption__', '<figcaption>' %}
+                {% assign cleaned_content=cleaned_content | replace: '__/figcaption__', '</figcaption>' %}
+                {% assign cleaned_content=cleaned_content | replace: '__h2__', '<h2' %}
+                {% assign cleaned_content=cleaned_content | replace: '__/h2__', '</h2>' %}
+                {% assign cleaned_content=cleaned_content | replace: '__img__', '<img' %}
+                {% assign cleaned_content=cleaned_content | replace: '__br/__', '<br />' %}
+                {% assign cleaned_content=cleaned_content | replace: '__a href__', '<a href="/' %}
+                {% assign cleaned_content=cleaned_content | replace: '__/a__', '</a>' %}
+                {% assign cleaned_content=cleaned_content | replace: '" /></a>', '" />' %}
+                {% assign cleaned_content=cleaned_content | replace: ']</a>', ']' %}
+                {% assign cleaned_content=cleaned_content | replace: '</a></li>', '</li>' %}
+                {% assign cleaned_content=cleaned_content | replace: '<strong></a>', '<strong>' %}
+                {% assign cleaned_content=cleaned_content | replace: '<li></a>', '<li>' %}
+                {% assign cleaned_content=cleaned_content | replace: 'src="/img/mysteries-dolmens/', 'src="https://viktor-dnk.ru/img/mysteries-dolmens/' %}
+                {% assign cleaned_content=cleaned_content | replace: 'src="/img/toponymy/', 'src="https://viktor-dnk.ru/img/toponymy/' %}
+        				    {{ cleaned_content }}
 				]]>
 			</content:encoded>
 		</item>

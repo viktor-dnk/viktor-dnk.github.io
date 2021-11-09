@@ -2905,4 +2905,34 @@ layout: null
 			<image:title>Вид на отрог горы Житной</image:title>
 		</image:image>
 </url>
+<url>
+<loc>{{ site.url }}/toponymy/semashkho/</loc>
+<lastmod>2021-11-09</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/semashkho/View-Mount-Semashkho-northern-side-b.webp</image:loc>
+			<image:title>Вид на гору Семашхо с северной стороны с поляны горы Круглой</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/semashkho/Obelisk-top-Semashkho-b.webp</image:loc>
+			<image:title>Обелиск на вершине Семашхо</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/semashkho/View-Mount-Semashkho-northwest-b.webp</image:loc>
+			<image:title>Вид с горы Семашхо на северо-запад ГКХ</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/semashkho/View-Mount-Semashkho-southeast-b.webp</image:loc>
+			<image:title>Вид с горы Семашхо на юго-восток ГКХ</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/semashkho/Mount-Semashho-view-south-side-b.webp</image:loc>
+			<image:title>Гора Семашхо вид с южной стороны со склона гора Два Брата</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/semashkho/Mount-Two-Brothers-view-Mount-Semashkho-b.webp</image:loc>
+			<image:title>Гора Два Брата вид с горы Семашхо</image:title>
+		</image:image>
+</url>
 </urlset>

@@ -119,7 +119,10 @@ layout: null
                   {% assign cleaned_content=cleaned_content | replace: '<li></a>', '<li>' %}
                   {% assign cleaned_content=cleaned_content | replace: 'src="/img/mysteries-dolmens/', 'src="https://viktor-dnk.ru/img/mysteries-dolmens/' %}
                   {% assign cleaned_content=cleaned_content | replace: 'src="/img/toponymy/', 'src="https://viktor-dnk.ru/img/toponymy/' %}
-          				    {{ cleaned_content }}
+                  {% assign cleaned_content=cleaned_content | replace: 'href="/mysteries-dolmens/', 'href="https://viktor-dnk.ru/mysteries-dolmens/' %}
+                  {% assign cleaned_content=cleaned_content | replace: 'href="/toponymy/', 'href="https://viktor-dnk.ru/toponymy/' %}          				    
+							
+							{{ cleaned_content }}
 				]]>
 			</content:encoded>
 		</item>
@@ -222,6 +225,8 @@ layout: null
                 {% assign cleaned_content=cleaned_content | replace: '<li></a>', '<li>' %}
                 {% assign cleaned_content=cleaned_content | replace: 'src="/img/mysteries-dolmens/', 'src="https://viktor-dnk.ru/img/mysteries-dolmens/' %}
                 {% assign cleaned_content=cleaned_content | replace: 'src="/img/toponymy/', 'src="https://viktor-dnk.ru/img/toponymy/' %}
+                  {% assign cleaned_content=cleaned_content | replace: 'href="/mysteries-dolmens/', 'href="https://viktor-dnk.ru/mysteries-dolmens/' %}
+                  {% assign cleaned_content=cleaned_content | replace: 'href="/toponymy/', 'href="https://viktor-dnk.ru/toponymy/' %}    				
         				    {{ cleaned_content }}
 				]]>
 			</content:encoded>

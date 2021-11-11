@@ -96,15 +96,15 @@ layout: null
                   {% assign cleaned_content=cleaned_content | replace: '__figcaption__', '<figcaption>' %}
                   {% assign cleaned_content=cleaned_content | replace: '__/figcaption__', '</figcaption>' %}
                 {% assign cleaned_content=cleaned_content | replace: '__table__', '<table>' %}
-                {% assign cleaned_content=cleaned_content | replace: '__/table__', '</table>' %}	
+                {% assign cleaned_content=cleaned_content | replace: '__/table__', '</table>' %}
                 {% assign cleaned_content=cleaned_content | replace: '__tr__', '<tr>' %}
                 {% assign cleaned_content=cleaned_content | replace: '__/tr__', '</tr>' %}
                 {% assign cleaned_content=cleaned_content | replace: '__th__', '<th>' %}
-                {% assign cleaned_content=cleaned_content | replace: '__/th__', '</th>' %}	
+                {% assign cleaned_content=cleaned_content | replace: '__/th__', '</th>' %}
                 {% assign cleaned_content=cleaned_content | replace: '__thead__', '<thead>' %}
-                {% assign cleaned_content=cleaned_content | replace: '__/thead__', '</thead>' %}	
+                {% assign cleaned_content=cleaned_content | replace: '__/thead__', '</thead>' %}
                 {% assign cleaned_content=cleaned_content | replace: '__td__', '<td>' %}
-                {% assign cleaned_content=cleaned_content | replace: '__/td__', '</td>' %}	
+                {% assign cleaned_content=cleaned_content | replace: '__/td__', '</td>' %}
                 {% assign cleaned_content=cleaned_content | replace: '__tbody__', '<tbody>' %}
                 {% assign cleaned_content=cleaned_content | replace: '__/tbody__', '</tbody>' %}
                   {% assign cleaned_content=cleaned_content | replace: '__h2__', '<h2' %}
@@ -112,9 +112,10 @@ layout: null
                   {% assign cleaned_content=cleaned_content | replace: '__img__', '<img' %}
                   {% assign cleaned_content=cleaned_content | replace: '__br/__', '<br />' %}
                   {% assign cleaned_content=cleaned_content | replace: '__a href topo__', '<a href="https://viktor-dnk.ru/toponymy/' %}
-				  {% assign cleaned_content=cleaned_content | replace: '__a href md__', '<a href="https://viktor-dnk.ru/mysteries-dolmens/' %}
+                  {% assign cleaned_content=cleaned_content | replace: '__a href md__', '<a href="https://viktor-dnk.ru/mysteries-dolmens/' %}
                   {% assign cleaned_content=cleaned_content | replace: '__/a__', '</a>' %}
                   {% assign cleaned_content=cleaned_content | replace: ']</a>', ']' %}
+                  {% assign cleaned_content=cleaned_content | replace: ' /></a>', ' />' %}
                   {% assign cleaned_content=cleaned_content | replace: '</a></li>', '</li>' %}
                   {% assign cleaned_content=cleaned_content | replace: '<strong></a>', '<strong>' %}
                   {% assign cleaned_content=cleaned_content | replace: '<li></a>', '<li>' %}
@@ -201,15 +202,15 @@ layout: null
                 {% assign cleaned_content=cleaned_content | replace: '__figcaption__', '<figcaption>' %}
                 {% assign cleaned_content=cleaned_content | replace: '__/figcaption__', '</figcaption>' %}
 			{% assign cleaned_content=cleaned_content | replace: '__table__', '<table>' %}
-			{% assign cleaned_content=cleaned_content | replace: '__/table__', '</table>' %}	
+			{% assign cleaned_content=cleaned_content | replace: '__/table__', '</table>' %}
 			{% assign cleaned_content=cleaned_content | replace: '__tr__', '<tr>' %}
 			{% assign cleaned_content=cleaned_content | replace: '__/tr__', '</tr>' %}
 			{% assign cleaned_content=cleaned_content | replace: '__th__', '<th>' %}
-			{% assign cleaned_content=cleaned_content | replace: '__/th__', '</th>' %}	
+			{% assign cleaned_content=cleaned_content | replace: '__/th__', '</th>' %}
 			{% assign cleaned_content=cleaned_content | replace: '__thead__', '<thead>' %}
 			{% assign cleaned_content=cleaned_content | replace: '__/thead__', '</thead>' %}
 			{% assign cleaned_content=cleaned_content | replace: '__td__', '<td>' %}
-			{% assign cleaned_content=cleaned_content | replace: '__/td__', '</td>' %}	
+			{% assign cleaned_content=cleaned_content | replace: '__/td__', '</td>' %}
 			{% assign cleaned_content=cleaned_content | replace: '__tbody__', '<tbody>' %}
 			{% assign cleaned_content=cleaned_content | replace: '__/tbody__', '</tbody>' %}
                 {% assign cleaned_content=cleaned_content | replace: '__h2__', '<h2' %}
@@ -217,9 +218,10 @@ layout: null
                 {% assign cleaned_content=cleaned_content | replace: '__img__', '<img' %}
                 {% assign cleaned_content=cleaned_content | replace: '__br/__', '<br />' %}
                 {% assign cleaned_content=cleaned_content | replace: '__a href topo__', '<a href="https://viktor-dnk.ru/toponymy/' %}
-				{% assign cleaned_content=cleaned_content | replace: '__a href md__', '<a href="https://viktor-dnk.ru/mysteries-dolmens/' %}
+                {% assign cleaned_content=cleaned_content | replace: '__a href md__', '<a href="https://viktor-dnk.ru/mysteries-dolmens/' %}
                 {% assign cleaned_content=cleaned_content | replace: '__/a__', '</a>' %}
                 {% assign cleaned_content=cleaned_content | replace: ']</a>', ']' %}
+                {% assign cleaned_content=cleaned_content | replace: ' /></a>', ' />' %}
                 {% assign cleaned_content=cleaned_content | replace: '</a></li>', '</li>' %}
                 {% assign cleaned_content=cleaned_content | replace: '<strong></a>', '<strong>' %}
                 {% assign cleaned_content=cleaned_content | replace: '<li></a>', '<li>' %}

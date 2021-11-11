@@ -22,7 +22,7 @@ layout: null
     <language>ru</language>
     <link>{{ '' | absolute_url }}</link>
 		<!--генериурем страницы из раздела по топонимике -->
-		{% for toponymy in site.toponymy limit:100 %}	
+		{% for toponymy in site.toponymy reversed %}	
 		<item>
 			<title>{{ toponymy.title | strip_html | xml_escape }}</title>
 			<link>{{ toponymy.url | absolute_url }}</link>
@@ -125,7 +125,7 @@ layout: null
 		</item>
 		{% endfor %}
 		<!--генериурем страницы из раздела про дольмены -->
-		{% for mysteries-dolmens in site.mysteries-dolmens limit:100 %}
+		{% for mysteries-dolmens in site.mysteries-dolmens reversed %}
 		<item>
 			<title>{{ mysteries-dolmens.title | strip_html | xml_escape }}</title>
 			<link>{{ mysteries-dolmens.url | absolute_url }}</link>

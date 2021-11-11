@@ -50,7 +50,7 @@ layout: null
                   {% assign preprocessed_content=preprocessed_content | replace: '<ul>', '__ul__' %}
                   {% assign preprocessed_content=preprocessed_content | replace: '</ul>', '__/ul__' %}
                   {% assign preprocessed_content=preprocessed_content | replace: '<ol>', '__ol__' %}
-                  {% assign preprocessed_content=preprocessed_content | replace: '</ol>', '__/ol__' %}                  
+                  {% assign preprocessed_content=preprocessed_content | replace: '</ol>', '__/ol__' %}
                   {% assign preprocessed_content=preprocessed_content | replace: '<strong>', '__strong__' %}
                   {% assign preprocessed_content=preprocessed_content | replace: '</strong>', '__/strong__' %}
                   {% assign preprocessed_content=preprocessed_content | replace: '<em>', '__em__' %}
@@ -62,7 +62,7 @@ layout: null
 	{% assign preprocessed_content=preprocessed_content | replace: '<table>', '__table__' %}
 	{% assign preprocessed_content=preprocessed_content | replace: '</table>', '__/table__' %}
 	{% assign preprocessed_content=preprocessed_content | replace: '<tr>', '__tr__' %}
-	{% assign preprocessed_content=preprocessed_content | replace: '</tr>', '__/tr__' %}				
+	{% assign preprocessed_content=preprocessed_content | replace: '</tr>', '__/tr__' %}
 	{% assign preprocessed_content=preprocessed_content | replace: '<th>', '__th__' %}
 	{% assign preprocessed_content=preprocessed_content | replace: '</th>', '__/th__' %}
 	{% assign preprocessed_content=preprocessed_content | replace: '<thead>', '__thead__' %}
@@ -85,7 +85,7 @@ layout: null
                   {% assign cleaned_content=cleaned_content | replace: '__ul__', '<ul>' %}
                   {% assign cleaned_content=cleaned_content | replace: '__/ul__', '</ul>' %}
                   {% assign cleaned_content=cleaned_content | replace: '__ol__', '<ol>' %}
-                  {% assign cleaned_content=cleaned_content | replace: '__/ol__', '</ol>' %}                  
+                  {% assign cleaned_content=cleaned_content | replace: '__/ol__', '</ol>' %}
                   {% assign cleaned_content=cleaned_content | replace: '__strong__', '<strong>' %}
                   {% assign cleaned_content=cleaned_content | replace: '__/strong__', '</strong>' %}
                   {% assign cleaned_content=cleaned_content | replace: '__em__', '<em>' %}
@@ -110,9 +110,8 @@ layout: null
                   {% assign cleaned_content=cleaned_content | replace: '__/h2__', '</h2>' %}
                   {% assign cleaned_content=cleaned_content | replace: '__img__', '<img' %}
                   {% assign cleaned_content=cleaned_content | replace: '__br/__', '<br />' %}
-                  {% assign cleaned_content=cleaned_content | replace: '__a href__', '<a href="/' %}
+                  {% assign cleaned_content=cleaned_content | replace: '__a href__', '<a href="https://viktor-dnk.ru/' %}
                   {% assign cleaned_content=cleaned_content | replace: '__/a__', '</a>' %}
-                  {% assign cleaned_content=cleaned_content | replace: '" /></a>', '" />' %}
                   {% assign cleaned_content=cleaned_content | replace: ']</a>', ']' %}
                   {% assign cleaned_content=cleaned_content | replace: '</a></li>', '</li>' %}
                   {% assign cleaned_content=cleaned_content | replace: '<strong></a>', '<strong>' %}
@@ -166,7 +165,7 @@ layout: null
 	{% assign preprocessed_content=preprocessed_content | replace: '<table>', '__table__' %}
 	{% assign preprocessed_content=preprocessed_content | replace: '</table>', '__/table__' %}
 	{% assign preprocessed_content=preprocessed_content | replace: '<tr>', '__tr__' %}
-	{% assign preprocessed_content=preprocessed_content | replace: '</tr>', '__/tr__' %}				
+	{% assign preprocessed_content=preprocessed_content | replace: '</tr>', '__/tr__' %}
 	{% assign preprocessed_content=preprocessed_content | replace: '<th>', '__th__' %}
 	{% assign preprocessed_content=preprocessed_content | replace: '</th>', '__/th__' %}
 	{% assign preprocessed_content=preprocessed_content | replace: '<thead>', '__thead__' %}
@@ -174,7 +173,7 @@ layout: null
 	{% assign preprocessed_content=preprocessed_content | replace: '<td>', '__td__' %}
 	{% assign preprocessed_content=preprocessed_content | replace: '</td>', '__/td__' %}
 	{% assign preprocessed_content=preprocessed_content | replace: '<tbody>', '__tbody__' %}
-	{% assign preprocessed_content=preprocessed_content | replace: '</tbody>', '__/tbody__' %}				
+	{% assign preprocessed_content=preprocessed_content | replace: '</tbody>', '__/tbody__' %}
                 {% assign preprocessed_content=preprocessed_content | replace: '<h2', '__h2__' %}
                 {% assign preprocessed_content=preprocessed_content | replace: '</h2>', '__/h2__' %}
                 {% assign preprocessed_content=preprocessed_content | replace: '<img', '__img__' %}
@@ -205,18 +204,17 @@ layout: null
 			{% assign cleaned_content=cleaned_content | replace: '__th__', '<th>' %}
 			{% assign cleaned_content=cleaned_content | replace: '__/th__', '</th>' %}	
 			{% assign cleaned_content=cleaned_content | replace: '__thead__', '<thead>' %}
-			{% assign cleaned_content=cleaned_content | replace: '__/thead__', '</thead>' %}	
+			{% assign cleaned_content=cleaned_content | replace: '__/thead__', '</thead>' %}
 			{% assign cleaned_content=cleaned_content | replace: '__td__', '<td>' %}
 			{% assign cleaned_content=cleaned_content | replace: '__/td__', '</td>' %}	
 			{% assign cleaned_content=cleaned_content | replace: '__tbody__', '<tbody>' %}
-			{% assign cleaned_content=cleaned_content | replace: '__/tbody__', '</tbody>' %}				
+			{% assign cleaned_content=cleaned_content | replace: '__/tbody__', '</tbody>' %}
                 {% assign cleaned_content=cleaned_content | replace: '__h2__', '<h2' %}
                 {% assign cleaned_content=cleaned_content | replace: '__/h2__', '</h2>' %}
                 {% assign cleaned_content=cleaned_content | replace: '__img__', '<img' %}
                 {% assign cleaned_content=cleaned_content | replace: '__br/__', '<br />' %}
                 {% assign cleaned_content=cleaned_content | replace: '__a href__', '<a href="/' %}
                 {% assign cleaned_content=cleaned_content | replace: '__/a__', '</a>' %}
-                {% assign cleaned_content=cleaned_content | replace: '" /></a>', '" />' %}
                 {% assign cleaned_content=cleaned_content | replace: ']</a>', ']' %}
                 {% assign cleaned_content=cleaned_content | replace: '</a></li>', '</li>' %}
                 {% assign cleaned_content=cleaned_content | replace: '<strong></a>', '<strong>' %}

@@ -10,12 +10,13 @@ categories: mysteries-dolmens
 tags: [информация]
 keywords: дольмены, мегалиты, дольмен, мегалит, литература, список
 readtime: false
+share-title: Общий список литературы
 share-description: Общий список использованных источников и литературы.
 share-img: /img/mysteries-dolmens/list-of-references/cover-s.jpg
 img-caption: Karte des Kaukasischen Isthmus 1856
 ---
 {: .box-note}
-## Список основных использованных источников и литературы (общий)
+## {{ page.share-title }}
 
 1. Абазины (историко-этнографический очерк). Черкесск, 1989.  
 2. Авдусин Д.А. Археология СССР. М., 1967 г.  

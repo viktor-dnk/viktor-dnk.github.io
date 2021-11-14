@@ -2935,4 +2935,22 @@ layout: null
 			<image:title>Гора Два Брата вид с горы Семашхо</image:title>
 		</image:image>
 </url>
+<url>
+<loc>{{ site.url }}/toponymy/semiglavaya/</loc>
+<lastmod>2021-11-14</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/semiglavaya/View-massif-Mount-Semiglavfrom-southeastern-slope-Mount-Semashkho-b.webp</image:loc>
+			<image:title>Вид на массив горы Семиглавой с юго-восточного склона горы Семашхо</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/semiglavaya/Scheme-GKH-site-b.webp</image:loc>
+			<image:title>Схема участка ГКХ</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/semiglavaya/Reconstruction-Yashkon-trail-b.webp</image:loc>
+			<image:title>Реконструкция «Яшка на тропе»</image:title>
+		</image:image>
+</url>
 </urlset>

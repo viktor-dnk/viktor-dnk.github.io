@@ -3,7 +3,7 @@ title: Из истории перевалов Грачёвский, Тубинс
 subtitle: © В.Н. Ковешников
 share-title: Перевал Грачёвский
 share-description: Из истории перевалов Грачёвский, Тубинский
-cover-img: /img/toponymy/grachevsky/cover.jpg
+cover-img: /img/toponymy/grachevsky/cover.webp
 share-img: /img/toponymy/grachevsky/cover-s.jpg
 thumbnail-img: /img/toponymy/grachevsky/thumb.webp
 thumbnail-caption: Памятный знак Аркадию Гайдару

@@ -3,7 +3,7 @@ title: Загадки горного узла Кардывач
 subtitle: © В.Н. Ковешников
 share-title: Тайны Кардывачского горного узла
 share-description: Кардывачский горный узел, является сложным орографическим участком Главного Кавказского хребта Большого Кавказа.
-cover-img: /img/toponymy/kardyvach/cover.jpg
+cover-img: /img/toponymy/kardyvach/cover.webp
 share-img: /img/toponymy/kardyvach/cover-s.jpg
 thumbnail-img: /img/toponymy/kardyvach/thumb.webp
 thumbnail-caption: озеро Верхний Кардывач

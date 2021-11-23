@@ -3,7 +3,7 @@ title: Акарагварта — одна из загадок горного у
 subtitle: (окончание очерка «Загадки горного узла Кардывач») <br>© В.Н. Ковешников
 share-title: Акарагварта — тайна горного узла Кардывач
 share-description: Топоним Акарагварта имеет сложное строение, что создает определенную трудность и неоднозначность его этимологии.
-cover-img: /img/toponymy/akaragwarta/cover.jpg
+cover-img: /img/toponymy/akaragwarta/cover.webp
 share-img: /img/toponymy/akaragwarta/cover-s.jpg
 thumbnail-img: /img/toponymy/akaragwarta/thumb.webp
 thumbnail-caption: Пик Акарагварта или Смидовича

@@ -3,7 +3,7 @@ title: Загадки перевалов Геймановские Ворота (
 subtitle: © В.Н. Ковешников
 share-title: Загадки перевалов Геймановские Ворота и Гузерипль
 share-description: Иногда возникают несколько наименований у одного природного объекта
-cover-img: /img/toponymy/gaiman-gate/cover.jpg
+cover-img: /img/toponymy/gaiman-gate/cover.webp
 share-img: /img/toponymy/gaiman-gate/cover-s.jpg
 thumbnail-img: /img/toponymy/gaiman-gate/thumb.webp
 thumbnail-caption: Горный массив Оштен

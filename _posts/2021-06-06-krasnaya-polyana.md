@@ -3,7 +3,7 @@ title: Поселок Красная Поляна — бывший город Р
 subtitle: © В.Н. Ковешников
 share-title: Топоним Красная Поляна
 share-description: Поселок Красная Поляна — бывший город Романовск
-cover-img: /img/toponymy/krasnaya-polyana/cover.jpg
+cover-img: /img/toponymy/krasnaya-polyana/cover.webp
 share-img: /img/toponymy/krasnaya-polyana/cover-s.jpg
 thumbnail-img: /img/toponymy/krasnaya-polyana/thumb.webp
 thumbnail-caption: Зубр в вольерном комплексе Лаура

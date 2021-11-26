@@ -2953,4 +2953,46 @@ layout: null
 			<image:title>Реконструкция «Яшка на тропе»</image:title>
 		</image:image>
 </url>
+<url>
+<loc>{{ site.url }}/toponymy/lost-world/</loc>
+<lastmod>2021-11-26</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+<image:image>
+  <image:loc>{{ site.url }}/img/toponymy/lost-world/View-from-southeastern-slope-Mount-Kashina-b.webp</image:loc>
+  <image:title>Вид с юго-восточного склона горы Кашина</image:title>
+</image:image>
+<image:image>
+  <image:loc>{{ site.url }}/img/toponymy/lost-world/Variants-location-positions-near-Batareinaya-mountain-1-b.webp</image:loc>
+  <image:title>Варианты расположения позиций у горы Батарейная</image:title>
+</image:image>
+<image:image>
+  <image:loc>{{ site.url }}/img/toponymy/lost-world/Variants-location-positions-near-Batareinaya-mountain-2-b.webp</image:loc>
+  <image:title>Варианты расположения позиций у горы Батарейная</image:title>
+</image:image>
+<image:image>
+  <image:loc>{{ site.url }}/img/toponymy/lost-world/Commemorative-plaque-artillery-battery-b.webp</image:loc>
+  <image:title>Памятная табличка артиллерийской батареи</image:title>
+</image:image>
+<image:image>
+  <image:loc>{{ site.url }}/img/toponymy/lost-world/650</image:loc>
+  <image:title>Изогнутые буки</image:title>
+</image:image>
+<image:image>
+  <image:loc>{{ site.url }}/img/toponymy/lost-world/Curved-beeches-near-Mount-Grachev-Venets-b.webp</image:loc>
+  <image:title>Изогнутые буки недалеко от горы Грачёв Венец</image:title>
+</image:image>
+<image:image>
+  <image:loc>{{ site.url }}/img/toponymy/lost-world/On-Semashkho-II-pass-b.webp</image:loc>
+  <image:title>На перевале Семашхо I</image:title>
+</image:image>
+<image:image>
+  <image:loc>{{ site.url }}/img/toponymy/lost-world/Rock-Khozhash-b.webp</image:loc>
+  <image:title>Скала Хожаш</image:title>
+</image:image>
+<image:image>
+  <image:loc>{{ site.url }}/img/toponymy/lost-world/765</image:loc>
+  <image:title>Долина реки Аше</image:title>
+</image:image>
+</url>
 </urlset>

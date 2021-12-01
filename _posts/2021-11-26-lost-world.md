@@ -3,9 +3,9 @@ title: «Затерянный мир»
 subtitle: (о топонимах Батарейная, Бекишей, Грачев Венец, Хожаш, Хакуч, Аше) © В.Н. Ковешников
 share-title: Затерянный мир
 share-description: «Затерянный мир» так назван, потому что ГКХ от перевала Семашхо-II до скалы Хожаш не часто посещается пешеходными туристами и удален от дорог с рейсовым автотранспортом
-cover-img: /img/toponymy/lost-world/cover.webp
+cover-img: /img/toponymy/lost-world/cover.jpg
 share-img: /img/toponymy/lost-world/cover-s.jpg
-thumbnail-img: /img/toponymy/lost-world/thumb.webp
+thumbnail-img: /img/toponymy/lost-world/thumb.jpg
 thumbnail-caption: Вид с юго-восточного склона горы Кашина
 categories: toponymy
 date: 2021-11-26 11:30 +0300

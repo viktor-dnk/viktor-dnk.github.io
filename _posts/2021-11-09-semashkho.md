@@ -3,9 +3,9 @@ title: О легендарной вершине Семашхо
 subtitle: © В.Н. Ковешников
 share-title: Топоним Семашхо
 share-description: Топоним Семашхо входит в наименование нескольких географических объектов Краснодарского края. Официально, согласно данных карт ГУГК СССР, в Туапсинском районе значатся гора Семашхо, скала Семашхо и хребет Каратянский Семашхо.
-cover-img: /img/toponymy/semashkho/cover.webp
+cover-img: /img/toponymy/semashkho/cover.jpg
 share-img: /img/toponymy/semashkho/cover-s.jpg
-thumbnail-img: /img/toponymy/semashkho/thumb.webp
+thumbnail-img: /img/toponymy/semashkho/thumb.jpg
 thumbnail-caption: Обелиск на вершине Семашхо
 categories: toponymy
 date: 2021-11-09 15:40 +0300

@@ -2,8 +2,8 @@
 title: Список основных использованных источников и литературы
 subtitle: Из истории дольменов Западного Кавказа <br>© В.Н. Ковешников
 description: Общий список использованных источников и литературы.
-cover-img: ["/img/mysteries-dolmens/list-of-references/cover.webp" : "Karte des Kaukasischen Isthmus 1856"]
-thumbnail-img: /img/mysteries-dolmens/list-of-references/thumb.webp
+cover-img: ["/img/mysteries-dolmens/list-of-references/cover.jpg" : "Karte des Kaukasischen Isthmus 1856"]
+thumbnail-img: /img/mysteries-dolmens/list-of-references/thumb.jpg
 date: 2020-12-05 17:00
 last_modified_at: 2021-03-14 23:00:00 +0300
 categories: mysteries-dolmens
@@ -243,6 +243,6 @@ img-caption: Karte des Kaukasischen Isthmus 1856
 221. Энциклопедический словарь символов (автор-составитель Н.А. Истомина). М., 2003.  
 
 <figure>
-	<a title="Петроглифы и рисунки на каменных плитах дольменов Западного Кавказа" href="/mysteries-dolmens/ch1p12/"><img src="/img/mysteries-dolmens/ch1p12/mysteries-dolmens-ch1p12-12.15.webp" alt="Прорисовка петроглифов на Джубгинском дольмене" width="720" height="480"/></a>
+	<a title="Петроглифы и рисунки на каменных плитах дольменов Западного Кавказа" href="/mysteries-dolmens/ch1p12/"><img src="/img/mysteries-dolmens/ch1p12/mysteries-dolmens-ch1p12-12.15.jpg" alt="Прорисовка петроглифов на Джубгинском дольмене" width="720" height="480"/></a>
 	<figcaption>Прорисовка петроглифов на Джубгинском дольмене</figcaption>
 </figure>

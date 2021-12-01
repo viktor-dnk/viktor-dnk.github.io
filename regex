@@ -31,10 +31,10 @@
 0150 - дефис
 
 стандартизация тегов
-<a title=(".*")\ href=(".*.webp")>
+<a title=(".*")\ href=(".*.jpg")>
 <a href=$2 title=$1>
 
-<img alt=(".*")\ src=(".*.webp")/>
+<img alt=(".*")\ src=(".*.jpg")/>
 <img src=$2 alt=$1>
 
 
@@ -43,20 +43,20 @@ style="width: (.*)px;"
 width="$1" height=""
 
 замена ахреф на просто имг
-<a(.*.webp">)<img alt="(.*)" style(.*)</a>
+<a(.*.jpg">)<img alt="(.*)" style(.*)</a>
 <img alt="$2" title="$2" style$3
 
 переименование файлов
--s.webp"/></a>
+-s.jpg"/></a>
 ^web-small
-.webp"/></a>
+.jpg"/></a>
 
-.webp"/>
+.jpg"/>
 
  [[;ffffffffdfff
 &web-norm
-.webp"/>
+.jpg"/>
 
-.webp"><img
+.jpg"><img
 #web-big
--b.webp"><img
+-b.jpg"><img

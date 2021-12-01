@@ -4,7 +4,7 @@ Allow: /amp/*
 Allow: /feed.xml
 Allow: /assets/css/*.css
 Allow: /assets/js/*.js
-Allow: /img/*/*/*.webp
+Allow: /img/*/*/*.jpg
 Allow: /img/*/*/*.jpg
 
 User-agent: Yandex
@@ -14,7 +14,7 @@ Allow: /feed.xml
 Allow: /manifest.json
 Allow: /assets/css/*.css
 Allow: /assets/js/*.js
-Allow: /img/*/*/*.webp
+Allow: /img/*/*/*.jpg
 Allow: /img/*/*/*.jpg
 
 User-agent: *
@@ -22,7 +22,7 @@ Allow: /manifest.json
 Allow: /feed.xml
 Allow: /assets/css/*.css
 Allow: /assets/js/*.js
-Allow: /img/*/*/*.webp
+Allow: /img/*/*/*.jpg
 Allow: /img/*/*/*.jpg
 Disallow: /amp/*
 Disallow: /amp

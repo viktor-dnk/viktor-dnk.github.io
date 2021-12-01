@@ -40,7 +40,7 @@ layout: base
       {% endif %}
 
       <article role="main" class="blog-post">
-        <time datetime="{{ page.date | date_to_xmlschema }}">
+        <time datetime="{{ page.date | date_to_xmlschema }}" readtime="{{ yesReadTime }}">
         {{ content }}
         </div>
       </article>

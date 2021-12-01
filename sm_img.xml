@@ -2959,31 +2959,31 @@ layout: null
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 <image:image>
-  <image:loc>{{ site.url }}/img/toponymy/lost-world/View-from-southeastern-slope-Mount-Kashina-b.jpg</image:loc>
+  <image:loc>{{ site.url }}/img/toponymy/lost-world/view-from-southeastern-slope-mount-kashina-b.jpg</image:loc>
   <image:title>Вид с юго-восточного склона горы Кашина</image:title>
 </image:image>
 <image:image>
-  <image:loc>{{ site.url }}/img/toponymy/lost-world/Variants-location-positions-near-Batareinaya-mountain-1-b.jpg</image:loc>
+  <image:loc>{{ site.url }}/img/toponymy/lost-world/variants-location-positions-near-batareinaya-mountain-1-b.jpg</image:loc>
   <image:title>Варианты расположения позиций у горы Батарейная</image:title>
 </image:image>
 <image:image>
-  <image:loc>{{ site.url }}/img/toponymy/lost-world/Variants-location-positions-near-Batareinaya-mountain-2-b.jpg</image:loc>
+  <image:loc>{{ site.url }}/img/toponymy/lost-world/variants-location-positions-near-batareinaya-mountain-2-b.jpg</image:loc>
   <image:title>Варианты расположения позиций у горы Батарейная</image:title>
 </image:image>
 <image:image>
-  <image:loc>{{ site.url }}/img/toponymy/lost-world/Commemorative-plaque-artillery-battery-b.jpg</image:loc>
+  <image:loc>{{ site.url }}/img/toponymy/lost-world/commemorative-plaque-artillery-battery-b.jpg</image:loc>
   <image:title>Памятная табличка артиллерийской батареи</image:title>
 </image:image>
 <image:image>
-  <image:loc>{{ site.url }}/img/toponymy/lost-world/650</image:loc>
+  <image:loc>{{ site.url }}/img/toponymy/lost-world/curved-beeches.jpg</image:loc>
   <image:title>Изогнутые буки</image:title>
 </image:image>
 <image:image>
-  <image:loc>{{ site.url }}/img/toponymy/lost-world/Curved-beeches-near-Mount-Grachev-Venets-b.jpg</image:loc>
+  <image:loc>{{ site.url }}/img/toponymy/lost-world/curved-beeches-near-mount-grachev-venets-b.jpg</image:loc>
   <image:title>Изогнутые буки недалеко от горы Грачёв Венец</image:title>
 </image:image>
 <image:image>
-  <image:loc>{{ site.url }}/img/toponymy/lost-world/On-Semashkho-II-pass-b.jpg</image:loc>
+  <image:loc>{{ site.url }}/img/toponymy/lost-world/on-semashkho-ii-pass-b.jpg</image:loc>
   <image:title>На перевале Семашхо I</image:title>
 </image:image>
 <image:image>
@@ -2991,7 +2991,7 @@ layout: null
   <image:title>Скала Хожаш</image:title>
 </image:image>
 <image:image>
-  <image:loc>{{ site.url }}/img/toponymy/lost-world/765</image:loc>
+  <image:loc>{{ site.url }}/img/toponymy/lost-world/valley-river-ashe.jpg</image:loc>
   <image:title>Долина реки Аше</image:title>
 </image:image>
 </url>

@@ -38,11 +38,11 @@ layout: base
           {% endfor %}
         </div>
       {% endif %}
-
+      <iv-data datetime="{{ page.date | date_to_xmlschema }}" readtime="{{ yesReadTime }}">
       <article role="main" class="blog-post">
-        <time datetime="{{ page.date | date_to_xmlschema }}" readtime="{{ yesReadTime }}">
         {{ content }}
       </article>
+      </iv-data>
 
       {% if page.tags.size > 0 %}
         <div class="blog-tags">

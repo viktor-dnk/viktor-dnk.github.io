@@ -2676,7 +2676,7 @@ layout: null
 		</image:image>
 		<image:image>
 			<image:loc>{{ site.url }}/img/toponymy/belaya/Belaya-River-near-the-village-of-Gezeripl-b.jpg</image:loc>
-			<image:title>Река Белая в районе поселка Гезерипль</image:title>
+			<image:title>Река Белая в районе поселка Гузерипль</image:title>
 		</image:image>
 		<image:image>
 			<image:loc>{{ site.url }}/img/toponymy/belaya/Guzeripl-gorge-on-maps-of-the-19th-century.jpg</image:loc>

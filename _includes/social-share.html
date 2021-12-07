@@ -28,7 +28,7 @@ class="btn btn-social-icon btn-whatsapp" title="Отправить в Whatsapp">
 <span class="sr-only">whatsapp</span>
 </a>
 
-<a rel="nofollow noopener" target="_blank" href="https://t.me/share/url?url=https://t.me/iv?url=https%3A%2F%2Fviktor-dnk.ru%2F{{ page.category }}%2F{{ page.title }}%2F&rhash=5fef1605362cca"
+<a rel="nofollow noopener" target="_blank" href="https://t.me/share/url?url={{ page.url | absolute_url | remove:'/amp' | url_encode }}%2F&rhash=5fef1605362cca"
 class="btn btn-social-icon btn-telegram" title="Отправить в Телеграмм">
 <span class="fab fa-fw fa-telegram-plane" aria-hidden="true"></span>
 <span class="sr-only">telegram-plane</span>

@@ -2995,4 +2995,66 @@ layout: null
   <image:title>Долина реки Аше</image:title>
 </image:image>
 </url>
+<url>
+<loc>{{ site.url }}/toponymy/nvrsk/</loc>
+<lastmod>2021-12-09</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/nvrsk/Monument-Founding-Fars-Novorossiysk-b.jpg</image:loc>
+			<image:title>Памятник отцам-основателям города Новороссийск</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/nvrsk/Reconstruction-site-Otman-fortress-Sudjuk-Kale-b.jpg</image:loc>
+			<image:title>Реконструкция места расположения османской крепости Суджук-Кале</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/nvrsk/200</image:loc>
+			<image:title>Герб города Новороссийск 1914 г.</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/nvrsk/174</image:loc>
+			<image:title>Герб города Новороссийск 1968 г.</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/nvrsk/174</image:loc>
+			<image:title>Герб города Новороссийск 1974 г.</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/nvrsk/200</image:loc>
+			<image:title>Герб города Новороссийск 1993 г.</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/nvrsk/125</image:loc>
+			<image:title>Герб города Новороссийск 2006 г.</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/nvrsk/527</image:loc>
+			<image:title>Божество Ра</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/nvrsk/Cruiser-Mikhail-Kutuzov-b.jpg</image:loc>
+			<image:title>Крейсер Михаил Кутузов</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/nvrsk/View-port-Novorossiysk-b.jpg</image:loc>
+			<image:title>Вид на порт Новороссийск</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/nvrsk/View-embankment-named-after-Admiral-Serebryakov-b.jpg</image:loc>
+			<image:title>Вид на набережную имени адмирала Серебрякова</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/nvrsk/Monument-hero-film-Diamond-Arm-b.jpg</image:loc>
+			<image:title>Памятник герою фильма Бриллиантовая рука</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/nvrsk/Northwestern-part-Novorossiysk-bay-b.jpg</image:loc>
+			<image:title>Северо-западная часть Новороссийской бухты</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/nvrsk/Sujuk-lighthouse-view-north-b.jpg</image:loc>
+			<image:title>Суджукский маяк вид с севера</image:title>
+		</image:image>
+</url>
 </urlset>

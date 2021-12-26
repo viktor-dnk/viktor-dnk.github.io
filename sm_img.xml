@@ -3008,31 +3008,31 @@ layout: null
 			<image:loc>{{ site.url }}/img/toponymy/nvrsk/Reconstruction-site-Otman-fortress-Sudjuk-Kale-b.jpg</image:loc>
 			<image:title>Реконструкция места расположения османской крепости Суджук-Кале</image:title>
 		</image:image>
-		<image:image>
-			<image:loc>{{ site.url }}/img/toponymy/nvrsk/200</image:loc>
+    <image:image>
+			<image:loc>{{ site.url }}/img/toponymy/nvrsk/Coat-arms-Nvorossiysk-1914.gif</image:loc>
 			<image:title>Герб города Новороссийск 1914 г.</image:title>
 		</image:image>
-		<image:image>
-			<image:loc>{{ site.url }}/img/toponymy/nvrsk/174</image:loc>
+    <image:image>
+			<image:loc>{{ site.url }}/img/toponymy/nvrsk/Coat-arms-Nvorossiysk-1968.gif</image:loc>
 			<image:title>Герб города Новороссийск 1968 г.</image:title>
 		</image:image>
-		<image:image>
-			<image:loc>{{ site.url }}/img/toponymy/nvrsk/174</image:loc>
+    <image:image>
+			<image:loc>{{ site.url }}/img/toponymy/nvrsk/Coat-arms-Nvorossiysk-1974.gif</image:loc>
 			<image:title>Герб города Новороссийск 1974 г.</image:title>
 		</image:image>
-		<image:image>
-			<image:loc>{{ site.url }}/img/toponymy/nvrsk/200</image:loc>
+    <image:image>
+			<image:loc>{{ site.url }}/img/toponymy/nvrsk/Coat-arms-Nvorossiysk-1993.gif</image:loc>
 			<image:title>Герб города Новороссийск 1993 г.</image:title>
 		</image:image>
-		<image:image>
-			<image:loc>{{ site.url }}/img/toponymy/nvrsk/125</image:loc>
+    <image:image>
+			<image:loc>{{ site.url }}/img/toponymy/nvrsk/Coat-arms-Nvorossiysk-2006.gif</image:loc>
 			<image:title>Герб города Новороссийск 2006 г.</image:title>
 		</image:image>
-		<image:image>
-			<image:loc>{{ site.url }}/img/toponymy/nvrsk/527</image:loc>
+    <image:image>
+			<image:loc>{{ site.url }}/img/toponymy/nvrsk/Deity-Ra.jpg</image:loc>
 			<image:title>Божество Ра</image:title>
 		</image:image>
-		<image:image>
+
 			<image:loc>{{ site.url }}/img/toponymy/nvrsk/Cruiser-Mikhail-Kutuzov-b.jpg</image:loc>
 			<image:title>Крейсер Михаил Кутузов</image:title>
 		</image:image>
@@ -3056,5 +3056,55 @@ layout: null
 			<image:loc>{{ site.url }}/img/toponymy/nvrsk/Sujuk-lighthouse-view-north-b.jpg</image:loc>
 			<image:title>Суджукский маяк вид с севера</image:title>
 		</image:image>
+</url>
+<url>
+<loc>{{ site.url }}/toponymy/caucasus/</loc>
+<lastmod>2021-12-26</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+    <image:image>
+      <image:loc>{{ site.url }}/img/toponymy/caucasus/Highlands-Greater-Caucasus-b.jpg</image:loc>
+      <image:title>Высокогорье Большого Кавказа</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>{{ site.url }}/img/toponymy/caucasus/Scheme-ridges-western-part-Central-Caucasus.jpg</image:loc>
+      <image:title>Схема хребтов западной части Центрального Кавказа</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>{{ site.url }}/img/toponymy/caucasus/Scheme-ridges-eastern-part-Central-Caucasus.jpg</image:loc>
+      <image:title>Схема хребтов восточной части Центрального Кавказа</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>{{ site.url }}/img/toponymy/caucasus/Orographic-scheme-ranges-Western-Caucasus-b.jpg</image:loc>
+      <image:title>Орографическая схема хребтов Западного Кавказа</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>{{ site.url }}/img/toponymy/caucasus/View-Mount-Mashuk-b.jpg</image:loc>
+      <image:title>Вид с горы Машук</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>{{ site.url }}/img/toponymy/caucasus/Black-Sea-coast-Caucasus-b.jpg</image:loc>
+      <image:title>Черноморское побережье Кавказа</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>{{ site.url }}/img/toponymy/caucasus/Administrative-building-Caucasian-reserve-b.jpg</image:loc>
+      <image:title>Административное здание Кавказского заповедника</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>{{ site.url }}/img/toponymy/caucasus/Memorial-plaque-founder-Caucasian-reserve-b.jpg</image:loc>
+      <image:title>Мемориальная доска основателю Кавказского заповедника</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>{{ site.url }}/img/toponymy/caucasus/Coat-arms-Caucasian-rural-settlement.gif</image:loc>
+      <image:title>Герб Кавказского сельского поселения</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>{{ site.url }}/img/toponymy/caucasus/Physical-map-Caucasus-b.jpg</image:loc>
+      <image:title>Физическая карта Кавказа</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>{{ site.url }}/img/toponymy/caucasus/Orographic-scheme-Caucasus-b.jpg</image:loc>
+      <image:title>Орографическая схема Кавказа</image:title>
+    </image:image>
 </url>
 </urlset>

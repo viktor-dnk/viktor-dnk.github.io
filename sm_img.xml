@@ -3063,7 +3063,7 @@ layout: null
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
     <image:image>
-      <image:loc>{{ site.url }}/img/toponymy/caucasus/Highlands-Greater-Caucasus-b.jpg</image:loc>
+      <image:loc>{{ site.url }}/img/toponymy/caucasus/Highlands-Caucasus-b.jpg</image:loc>
       <image:title>Высокогорье Большого Кавказа</image:title>
     </image:image>
     <image:image>

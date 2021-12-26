@@ -10,7 +10,7 @@ last_modified_at: 2021-06-18 22:10
 date: 2021-06-18 22:10
 ---
 {: .box-note}
-## <br><br><br>Загадки перевалов Геймановские Ворота (Узуруб) и Гузерипль/
+## <br><br><br>Загадки перевалов Геймановские Ворота (Узуруб) и Гузерипль
 
 <ul class="pagination blog-pager"><li class="page-item previous"><figure><a class="page-link" href="{{ page.url | absolute_url | strip_index | replace:'/amp/','/' }}" data-toggle="tooltip" data-placement="top" title="Перейти на основную версию сайта">Читать статью на сайте автора</a></figure></li></ul>
 

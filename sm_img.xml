@@ -3107,4 +3107,45 @@ layout: null
       <image:title>Орографическая схема Кавказа</image:title>
     </image:image>
 </url>
+<loc>{{ site.url }}/toponymy/caucasus-part2/</loc>
+<lastmod>2021-12-29</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+    <image:image>
+      <image:loc>{{ site.url }}/img/toponymy/caucasus-part2/Caucasus-Artist-Dubovskaya-N-N.jpg</image:loc>
+      <image:title>Кавказ. Художник Дубовской Н.Н.</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>{{ site.url }}/img/toponymy/caucasus-part2/Traces-Scythian-other-synchronous-cultures-North-Caucasus.jpg</image:loc>
+      <image:title>Следы  скифской и других синхронных культур на Северном Кавказе</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>{{ site.url }}/img/toponymy/caucasus-part2/Caucasus-Artist-M-U-Lermontov-b.jpg</image:loc>
+      <image:title>Кавказ. Художник М. Ю. Лермонтов</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>{{ site.url }}/img/toponymy/caucasus-part2/Battle-Greeks-with-Amazons-1-b.jpg</image:loc>
+      <image:title>Битва греков с амазонками</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>{{ site.url }}/img/toponymy/caucasus-part2/Battle-Greeks-with-Amazons-2-b.jpg</image:loc>
+      <image:title>Битва греков с амазонками</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>{{ site.url }}/img/toponymy/caucasus-part2/Painting-front-part-transverse-slab-tomb-Klady-tract-b.jpg</image:loc>
+      <image:title>Роспись фасадной части поперечной плиты в гробнице в урочище Клады</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>{{ site.url }}/img/toponymy/caucasus-part2/View-from-Mount-Mashuk-b.jpg</image:loc>
+      <image:title>Вид с горы Машук (993,7 м)</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>{{ site.url }}/img/toponymy/caucasus-part2/Tsakhvoa-mountain-massif-b.jpg</image:loc>
+      <image:title>Массив горы Цахвоа (3345 м)</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>{{ site.url }}/img/toponymy/caucasus-part2/Caucasus-Artist-Lagorio-L-F-b.jpg</image:loc>
+      <image:title>Кавказ. Художник Лагорио Л. Ф.</image:title>
+    </image:image>
+</url>
 </urlset>

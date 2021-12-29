@@ -3032,7 +3032,7 @@ layout: null
 			<image:loc>{{ site.url }}/img/toponymy/nvrsk/Deity-Ra.jpg</image:loc>
 			<image:title>Божество Ра</image:title>
 		</image:image>
-
+    <image:image>
 			<image:loc>{{ site.url }}/img/toponymy/nvrsk/Cruiser-Mikhail-Kutuzov-b.jpg</image:loc>
 			<image:title>Крейсер Михаил Кутузов</image:title>
 		</image:image>

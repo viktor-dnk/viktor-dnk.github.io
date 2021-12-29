@@ -3106,7 +3106,8 @@ layout: null
       <image:loc>{{ site.url }}/img/toponymy/caucasus/Orographic-scheme-Caucasus-b.jpg</image:loc>
       <image:title>Орографическая схема Кавказа</image:title>
     </image:image>
-</url>
+  </url>
+<url>
 <loc>{{ site.url }}/toponymy/caucasus-part2/</loc>
 <lastmod>2021-12-29</lastmod>
 <changefreq>monthly</changefreq>

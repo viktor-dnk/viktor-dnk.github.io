@@ -21,9 +21,11 @@ navbar-links:
 
 collections:
   mysteries-dolmens:
+    label: Дольмены
     output: true
     permalink: /mysteries-dolmens/:title/
   toponymy:
+    label: Топонимика
     output: true
     permalink: /toponymy/:title/
   info:

@@ -1,0 +1,30 @@
+<script type="application/ld+json">
+{
+"@context": "https://schema.org",
+"@type": "Article",
+  "mainEntityOfPage": {
+  "@type": "WebPage",
+  "@id": "{{ page.url | absolute_url | strip_index | replace:'.ru/page/2/','.ru/' | replace:'.ru/page/3/','.ru/' | replace:'.ru/page/4/','.ru/' | replace:'.ru/page/5/','.ru/' | replace:'.ru/page/6/','.ru/' | replace:'.ru/page/7/','.ru/' | replace:'.ru/page/8/','.ru/' }}"
+},
+"headline": "{{ title }}",
+  "image": [
+  "{{ page.share-img | absolute_url | replace:'-s.jpg','4x3.jpg' }}",
+      "{{ page.share-img | absolute_url | replace:'-s.jpg','16x9.jpg' }}",
+  "{{ page.share-img | absolute_url | replace:'-s.jpg','1x1.jpg' }}"
+],
+"datePublished": "{{ page.date | date_to_xmlschema }}",
+"dateModified": "{{ page.last_modified_at | date_to_xmlschema }}",
+"author": {
+  "@type": "Person",
+  "name": "Ковешников В.Н."
+},
+"publisher": {
+  "@type": "Organization",
+  "name": "Ковешников В.Н.",
+  "logo": {
+    "@type": "ImageObject",
+    "url": "https://viktor-dnk.ru/img/example-logos/amp.jpg"
+  }
+}
+}
+  </script>

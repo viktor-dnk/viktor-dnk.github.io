@@ -1,54 +1,67 @@
 <script type="application/ld+json">
-{
-"@context": "https://schema.org",
-"@type": "Article",
-  "mainEntityOfPage": {
-  "@type": "WebPage",
-  "@id": "{{ page.url | absolute_url | strip_index | replace:'.ru/page/2/','.ru/' | replace:'.ru/page/3/','.ru/' | replace:'.ru/page/4/','.ru/' | replace:'.ru/page/5/','.ru/' | replace:'.ru/page/6/','.ru/' | replace:'.ru/page/7/','.ru/' | replace:'.ru/page/8/','.ru/' }}"
-},
-"headline": "{{ page.title }}",
-  "image": [
-  "{{ page.share-img | absolute_url | replace:'-s.jpg','4x3.jpg' }}",
-  "{{ page.share-img | absolute_url | replace:'-s.jpg','16x9.jpg' }}",
-  "{{ page.share-img | absolute_url | replace:'-s.jpg','1x1.jpg' }}"
-],
-"datePublished": "{{ page.date | date_to_xmlschema }}",
-"dateModified": "{{ page.last_modified_at | date_to_xmlschema }}",
-"author": {
-  "@type": "Person",
-  "name": "Ковешников В.Н.",
-  "url": "https://viktor-dnk.ru/aboutme/"
-},
-"publisher": {
-  "@type": "Organization",
-  "name": "Ковешников В.Н.",
-  "logo": {
-    "@type": "ImageObject",
-    "url": "https://viktor-dnk.ru/img/example-logos/amp.jpg"
+  {
+  	"@context": "https://schema.org",
+  	"@type": "Article",
+  	"mainEntityOfPage":
+  	{
+  		"@type": "WebPage",
+  		"@id": "{{ page.url | absolute_url | strip_index | replace:'.ru/page/2/','.ru/' | replace:'.ru/page/3/','.ru/' | replace:'.ru/page/4/','.ru/' | replace:'.ru/page/5/','.ru/' | replace:'.ru/page/6/','.ru/' | replace:'.ru/page/7/','.ru/' | replace:'.ru/page/8/','.ru/' }}"
+  	},
+  	"headline": "{{ page.title }}",
+  	"image": [
+  		"{{ page.share-img | absolute_url | replace:'-s.jpg','4x3.jpg' }}",
+  		"{{ page.share-img | absolute_url | replace:'-s.jpg','16x9.jpg' }}",
+  		"{{ page.share-img | absolute_url | replace:'-s.jpg','1x1.jpg' }}"
+  	],
+  	"datePublished": "{{ page.date | date_to_xmlschema }}",
+  	"dateModified": "{{ page.last_modified_at | date_to_xmlschema }}",
+  	"author":
+  	{
+  		"@type": "Person",
+  		"name": "Ковешников В.Н.",
+  		"url": "https://viktor-dnk.ru/aboutme/"
+  	},
+  	"publisher":
+  	{
+  		"@type": "Organization",
+  		"name": "Ковешников В.Н.",
+  		"logo":
+  		{
+  			"@type": "ImageObject",
+  			"url": "https://viktor-dnk.ru/img/example-logos/amp.jpg"
+  		}
+  	}
   }
-}
-}
   </script>
 
 <script type="application/ld+json">
-{
-  "@context": "https://schema.org/",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{
-    "@type": "ListItem",
-    "position": 1,
-    "item": {
-      "@id": "https://viktor-dnk.ru/{{ page.collection }}/",
-      "name": "{{ page.collection  | replace:'mysteries-dolmens','Загадочные дольмены' | replace:'toponymy','Топонимика' }}"
+  {
+  	"@context": "https://schema.org/",
+  	"@type": "BreadcrumbList",
+  	"itemListElement": [
+  	{
+  		"@type": "ListItem",
+  		"position": 1,
+  		"item":
+  		{
+  			"@id": "https://viktor-dnk.ru/{{ page.collection }}/",
+  			"name": "{{ page.collection  | replace:'mysteries-dolmens','Загадочные дольмены' | replace:'toponymy','Топонимика' }}"
+  		}
+  	},
+  	{
+  		"@type": "ListItem",
+  		"position": 2,
+  		"item":
+  		{
+  			"name": "{{ page.title | prepend:'⛺ ' }}",
+  			"alternateName": "{{ page.share-title }}",
+  			"description": "{{ page.share-description }}",
+        "image": [
+          "{{ page.share-img | absolute_url | replace:'-s.jpg','4x3.jpg' }}",
+          "{{ page.share-img | absolute_url | replace:'-s.jpg','16x9.jpg' }}",
+          "{{ page.share-img | absolute_url | replace:'-s.jpg','1x1.jpg' }}"
+        ]
+  		}
+  	}]
   }
-  },{
-    "@type": "ListItem",
-    "position": 2,
-    "item": {
-      "name": "{{ page.title | prepend:'⛺ ' }}",
-      "alternateName": "{{ page.share-title }}",
-      "description": "{{ page.share-description }}"
-}
-  }]
-}
 </script>

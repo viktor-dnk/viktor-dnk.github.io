@@ -37,7 +37,7 @@
   "itemListElement": [{
     "@type": "ListItem",
     "position": 1,
-    "name": "{{ categoty_name}}",
+    "name": "{{ category_name }}",
     "item": "{% assign crumb_limit = forloop.index | plus: 1 %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: '/' | replace:'without-plugin/','without-plugins/' }}{% endfor %}"
   },{
     "@type": "ListItem",

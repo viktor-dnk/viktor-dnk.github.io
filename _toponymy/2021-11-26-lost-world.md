@@ -7,7 +7,7 @@ thumbnail-img: /img/toponymy/lost-world/thumb.jpg
 thumbnail-caption: Вид с юго-восточного склона горы Кашина
 date: 2021-11-26 11:30 +0300
 last_modified_at: 2021-11-26 11:30 +0300
-categories: toponymy
+category: mountains
 tags: [топонимика, горы Кубани и Адыгеи]
 share-title: Затерянный мир
 share-description: «Затерянный мир» так назван, потому что ГКХ от перевала Семашхо II до скалы Хожаш нечасто посещается пешеходными туристами и удалён от дорог

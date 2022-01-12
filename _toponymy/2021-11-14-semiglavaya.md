@@ -7,7 +7,7 @@ thumbnail-img: /img/toponymy/semiglavaya/thumb.jpg
 thumbnail-caption: Вид на массив горы Семиглавой с юго-восточного склона горы Семашхо
 date: 2021-11-14 19:30 +0300
 last_modified_at: 2021-11-14 19:30 +0300
-categories: toponymy
+category: mountains
 tags: [топонимика, горы Кубани и Адыгеи]
 share-title: Гора Семиглавая
 share-description: В обиходе северо-западную часть участка ГКХ туристы называют гора Семиглавая, именно она пользуется популярностью.

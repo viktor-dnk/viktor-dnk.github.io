@@ -7,7 +7,7 @@ thumbnail-img: /img/toponymy/grachevsky/thumb.jpg
 thumbnail-caption: Памятный знак Аркадию Гайдару
 date: 2021-06-13 18:00
 last_modified_at: 2021-06-13 18:00 +0300
-categories: toponymy
+category: mountains
 tags: [топонимика, горы Кубани и Адыгеи]
 share-title: Грачёвский и Тубинский - история двух перевалов
 share-description: Из истории перевалов Грачёвский, Тубинский

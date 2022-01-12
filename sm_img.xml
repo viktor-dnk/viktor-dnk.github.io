@@ -2450,24 +2450,6 @@ layout: null
       </image:image>
   </url>
   <url>
-    <loc>{{ site.url }}/info/telegram/</loc>
-    <lastmod>2021-08-14</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-      <image:image>
-        <image:loc>{{ site.url }}/img/info/telegram/tlgrm-screen2.jpg</image:loc>
-        <image:title>Мобильное приложение</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>{{ site.url }}/img/info/telegram/tlgrm-screen1.jpg</image:loc>
-        <image:title>Настольное приложение</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>{{ site.url }}/img/example-logos/stamp.png</image:loc>
-        <image:title>Дорога не кончается</image:title>
-      </image:image>
-  </url>
-  <url>
     <loc>{{ site.url }}/toponymy/kalinino/</loc>
     <lastmod>2021-08-14</lastmod>
     <changefreq>monthly</changefreq>

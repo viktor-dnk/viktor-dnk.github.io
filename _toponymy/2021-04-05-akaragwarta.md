@@ -7,7 +7,7 @@ thumbnail-img: /img/toponymy/akaragwarta/thumb.jpg
 thumbnail-caption: Пик Акарагварта или Смидовича
 date: 2021-04-05 18:20
 last_modified_at: 2021-04-22 20:50 +0300
-category: mountains
+category: [mountains, lago-naki]
 tags: [топонимика, Лагонаки, окрестности Сочи, горы Кубани и Адыгеи]
 share-title: Акарагварта — тайна Кардывачского узла
 share-description: Топоним Акарагварта имеет сложное строение, что создает определенную трудность и неоднозначность его этимологии.

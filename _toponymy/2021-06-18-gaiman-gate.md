@@ -7,7 +7,7 @@ thumbnail-img: /img/toponymy/gaiman-gate/thumb.jpg
 thumbnail-caption: Горный массив Оштен
 date: 2021-06-18 22:10
 last_modified_at: 2021-06-18 22:10 +0300
-category: mountains
+category: [mountains, lago-naki]
 tags: [топонимика, ороним, Лагонаки, горы Кубани и Адыгеи]
 share-title: Гузерипль и Геймановские Ворота - тайны перевалов
 share-description: Иногда возникают несколько наименований у одного природного объекта

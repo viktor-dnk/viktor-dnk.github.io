@@ -1,7 +1,7 @@
 ---
 title: Ещё раз о нагорье Лагонаки <br>(о некоторых природных объектах нагорья)
 subtitle: © В.Н. Ковешников
-share-title: Лагонаки. Топонимика.
+share-title: Лагонаки - Топонимика
 share-description: Горный узел нагорья Лагонаки, занимает площадь ~700 кв. км, где расположены хребты, плато, отдельные вершины, речные долины.
 cover-img: /img/toponymy/lagonaki-again/cover.jpg
 share-img: /img/toponymy/lagonaki-again/cover-s.jpg

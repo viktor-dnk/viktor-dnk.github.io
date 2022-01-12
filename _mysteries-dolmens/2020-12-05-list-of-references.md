@@ -4,6 +4,7 @@ subtitle: Из истории дольменов Западного Кавказ
 description: Общий список использованных источников и литературы.
 cover-img: ["/img/mysteries-dolmens/list-of-references/cover.jpg" : "Karte des Kaukasischen Isthmus 1856"]
 thumbnail-img: /img/mysteries-dolmens/list-of-references/thumb.jpg
+thumbnail-caption: Karte des Kaukasischen Isthmus
 date: 2020-12-05 17:00
 last_modified_at: 2021-03-14 23:00:00 +0300
 categories: mysteries-dolmens

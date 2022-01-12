@@ -6,10 +6,10 @@ cover-img: ["/img/toponymy/grachevsky/cover.jpg" : "Фишт-Оштенский 
 thumbnail-img: /img/toponymy/grachevsky/thumb.jpg
 thumbnail-caption: Памятный знак Аркадию Гайдару
 date: 2021-06-13 18:00
-last_modified_at: 2021-06-13 18:00 +0300
+last_modified_at: 2022-01-12 16:30 +0300
 category: mountains
 tags: [топонимика, горы Кубани и Адыгеи]
-share-title: Грачёвский и Тубинский - история двух перевалов
+share-title: Грачёвский и Тубинский - об истории двух перевалов
 share-description: Из истории перевалов Грачёвский, Тубинский
 share-img: /img/toponymy/grachevsky/cover-s.jpg
 keywords: перевал Грачёвский, перевал Тубинский

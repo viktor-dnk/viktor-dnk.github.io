@@ -577,7 +577,7 @@ layout: null
   </url>
   <url>
     <loc>{{ site.url }}/toponymy/lagonaki/</loc>
-    <lastmod>2021-08-14</lastmod>
+    <lastmod>2022-01-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
       <image:image>
@@ -619,7 +619,7 @@ layout: null
   </url>
   <url>
     <loc>{{ site.url }}/toponymy/grachevsky/</loc>
-    <lastmod>2021-08-14</lastmod>
+    <lastmod>2022-01-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
       <image:image>
@@ -941,7 +941,7 @@ layout: null
   </url>
   <url>
     <loc>{{ site.url }}/mysteries-dolmens/ch1p5/</loc>
-    <lastmod>2021-08-14</lastmod>
+    <lastmod>2022-01-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
       <image:image>
@@ -983,7 +983,7 @@ layout: null
   </url>
   <url>
     <loc>{{ site.url }}/mysteries-dolmens/ch1p6/</loc>
-    <lastmod>2021-08-14</lastmod>
+    <lastmod>2022-01-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
       <image:image>
@@ -1293,7 +1293,7 @@ layout: null
   </url>
   <url>
     <loc>{{ site.url }}/mysteries-dolmens/ch1p15/</loc>
-    <lastmod>2021-08-14</lastmod>
+    <lastmod>2022-01-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
       <image:image>
@@ -1415,7 +1415,7 @@ layout: null
   </url>
   <url>
     <loc>{{ site.url }}/mysteries-dolmens/ch2p7/</loc>
-    <lastmod>2021-08-14</lastmod>
+    <lastmod>2022-01-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
       <image:image>
@@ -1721,7 +1721,7 @@ layout: null
   </url>
   <url>
     <loc>{{ site.url }}/mysteries-dolmens/ch1p12/</loc>
-    <lastmod>2021-08-14</lastmod>
+    <lastmod>2022-01-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
       <image:image>
@@ -2179,7 +2179,7 @@ layout: null
   </url>
   <url>
     <loc>{{ site.url }}/mysteries-dolmens/intro/</loc>
-    <lastmod>2021-08-14</lastmod>
+    <lastmod>2022-01-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
       <image:image>
@@ -2225,7 +2225,7 @@ layout: null
   </url>
   <url>
     <loc>{{ site.url }}/mysteries-dolmens/ch2p10/</loc>
-    <lastmod>2021-08-14</lastmod>
+    <lastmod>2022-01-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
       <image:image>
@@ -2293,7 +2293,7 @@ layout: null
   </url>
   <url>
     <loc>{{ site.url }}/toponymy/tuapse/</loc>
-    <lastmod>2021-08-14</lastmod>
+    <lastmod>2022-01-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
       <image:image>
@@ -2387,7 +2387,7 @@ layout: null
   </url>
   <url>
     <loc>{{ site.url }}/toponymy/azish-tau/</loc>
-    <lastmod>2021-08-14</lastmod>
+    <lastmod>2022-01-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
       <image:image>
@@ -2451,7 +2451,7 @@ layout: null
   </url>
   <url>
     <loc>{{ site.url }}/toponymy/kalinino/</loc>
-    <lastmod>2021-08-14</lastmod>
+    <lastmod>2022-01-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
       <image:image>
@@ -2821,7 +2821,7 @@ layout: null
 </url>
 <url>
 <loc>{{ site.url }}/toponymy/lagonaki-again/</loc>
-<lastmod>2021-10-19</lastmod>
+<lastmod>2022-01-12</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 		<image:image>

@@ -10,7 +10,7 @@ last_modified_at: 2021-05-02 20:45 +0300
 category: around-krasnodar
 tags: [топонимика, ойконим, антропоним, Краснодар и окрестности]
 share-title: Населенные места Краснодара
-share-description: Официально Екатеринодару статус города, был присвоен лишь в 1867 г.
+share-description: Краснодар — современное название центра Краснодарского края. Официально ему статус города был присвоен лишь в 1867 г.
 share-img: /img/toponymy/krasnodar/cover-s.jpg
 keywords: Краснодар, Екатеринодар
 head-extra: amp_link.html

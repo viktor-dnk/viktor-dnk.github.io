@@ -60,3 +60,9 @@ width="$1" height=""
 .jpg"><img
 #web-big
 -b.jpg"><img
+
+
+
+redirect_from:
+  - /post/123456789/
+  - /post/123456789/my-amazing-post/

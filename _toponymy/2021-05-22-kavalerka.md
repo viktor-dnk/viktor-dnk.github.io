@@ -6,7 +6,7 @@ cover-img: ["/img/toponymy/kavalerka/cover.jpg" : "Река Кавалерка �
 thumbnail-img: /img/toponymy/kavalerka/thumb.jpg
 thumbnail-caption: Дорожный указатель р. Кавалерка
 date: 2021-05-22 19:50:00 +0300
-last_modified_at: 2022-14-01 10:00:00 +0300
+last_modified_at: 2022-01-14 10:00:00 +0300
 categories: toponymy
 tags: [топонимика, гидроним]
 share-title: Топоним Кавалерка

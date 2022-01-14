@@ -6,7 +6,7 @@ cover-img: ["/img/toponymy/mountains-black/cover.jpg" : "Скала Спящий
 thumbnail-img: /img/toponymy/mountains-black/thumb.jpg
 thumbnail-caption: Скала Спящий Черкес (Черногор), Середина лета 1974 г.
 date: 2021-09-27 16:40
-last_modified_at: 2022-14-01 10:00 +0300
+last_modified_at: 2022-01-14 10:00 +0300
 category: mountains
 tags: [топонимика, топоним чёрный, ороним, мифотопоним, горы Кубани и Адыгеи]
 share-title: Топоним Чёрные горы

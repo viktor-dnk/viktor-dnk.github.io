@@ -6,7 +6,7 @@ cover-img: ["/img/mysteries-dolmens/list-of-references/cover.jpg" : "Karte des K
 thumbnail-img: /img/mysteries-dolmens/list-of-references/thumb.jpg
 thumbnail-caption: Karte des Kaukasischen Isthmus
 date: 2020-12-05 17:00
-last_modified_at: 2022-14-01 10:00:00 +0300
+last_modified_at: 2022-01-14 10:00:00 +0300
 categories: mysteries-dolmens
 tags: [информация]
 keywords: дольмены, мегалиты, дольмен, мегалит, литература, список

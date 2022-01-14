@@ -6,7 +6,7 @@ cover-img: /img/example-logos/main-cover.jpg
 share-img: /img/example-logos/main-cover4x3.jpg
 share-title: Info
 share-description: Информация об этом сайте - Дорога не кончается!
-last_modified_at: 2022-14-01 10:00:00 +0300
+last_modified_at: 2022-01-14 10:00:00 +0300
 language: ru
 keywords: информация, контакты
 ---

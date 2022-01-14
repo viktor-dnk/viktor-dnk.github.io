@@ -6,7 +6,7 @@ cover-img: ["/img/toponymy/lost-world/cover.jpg" : "Скала Хожаш (mudro
 thumbnail-img: /img/toponymy/lost-world/thumb.jpg
 thumbnail-caption: Вид с юго-восточного склона горы Кашина
 date: 2021-11-26 11:30 +0300
-last_modified_at: 2022-14-01 10:00 +0300
+last_modified_at: 2022-01-14 10:00 +0300
 category: mountains
 tags: [топонимика, горы Кубани и Адыгеи]
 share-title: Затерянный мир - Батарейная, Бекишей, Грачёв Венец, скала Хожаш

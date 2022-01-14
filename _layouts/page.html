@@ -1,7 +1,13 @@
 ---
 layout: base
 ---
-
+{% if page.microdata %}
+  <div class="microdata">
+    {% for file in page.microdata %}
+      {% include {{ file }} %}
+    {% endfor %}
+  </div>
+{% endif %}
 {% include header.html type="page" %}
 
 <div class="{% if page.full-width %} container-fluid {% else %} container-md {% endif %}" role="main">

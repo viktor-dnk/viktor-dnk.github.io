@@ -5,9 +5,10 @@ subtitle: Очерки по топонимике Кубани
 cover-img: /img/example-logos/main-cover.jpg
 share-img: /img/example-logos/main-cover4x3.jpg
 share-title: Очерки по топонимике
+share-description: Даже самое удачное толкование истории слова может быть пересмотрено, как только найдутся новые данные. Ничего страшного в этом нет
 language: ru
 keywords: карты, история, география, ономастика
-last_modified_at: 2021-08-05 16:00:00 +0300
+last_modified_at: 2022-14-01 10:00:00 +0300
 date: 2021-01-02 16:00
 head-extra: amp_link.html
 ---

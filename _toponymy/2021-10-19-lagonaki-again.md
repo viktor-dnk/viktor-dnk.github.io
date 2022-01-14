@@ -6,7 +6,7 @@ cover-img: ["/img/toponymy/lagonaki-again/cover.jpg" : "Ручей Молочн�
 thumbnail-img: /img/toponymy/lagonaki-again/thumb.jpg
 thumbnail-caption: Озеро Псенодах
 date: 2021-10-19 18:20 +0300
-last_modified_at: 2022-01-12 16:30 +0300
+last_modified_at: 2022-01-14 10:00 +0300
 category: [mountains, lago-naki]
 tags: [топонимика, Лагонаки, горы Кубани и Адыгеи]
 share-title: Лагонаки - Топонимика (о некоторых природных объектах нагорья)

@@ -6,12 +6,12 @@ cover-img: ["/img/mysteries-dolmens/list-of-references/cover.jpg" : "Karte des K
 thumbnail-img: /img/mysteries-dolmens/list-of-references/thumb.jpg
 thumbnail-caption: Karte des Kaukasischen Isthmus
 date: 2020-12-05 17:00
-last_modified_at: 2021-03-14 23:00:00 +0300
+last_modified_at: 2022-14-01 10:00:00 +0300
 categories: mysteries-dolmens
 tags: [информация]
 keywords: дольмены, мегалиты, дольмен, мегалит, литература, список
 readtime: false
-share-title: Общий список литературы
+share-title: Общий список литературы, которая использовалась при подготовке цикла очерков о загадочных дольменах Западного Кавказа.
 share-description: Общий список использованных источников и литературы.
 share-img: /img/mysteries-dolmens/list-of-references/cover-s.jpg
 img-caption: Karte des Kaukasischen Isthmus 1856

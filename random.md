@@ -30,7 +30,7 @@ Use liquid to get an the number of posts in the site
   const comingFromPost = document.referrer; 
 
   const allPosts = 
-    [{%- for post in site.posts -%}
+   [{%- for post in site.posts -%}
     {%- unless post.unlisted -%}
       {%- assign i = i | minus: 1 -%}
       "{{ site.url }}{{ post.url }}"{%- unless i == 0 -%},{%- endunless -%}

@@ -5,7 +5,7 @@ subtitle: Об этом сайте
 cover-img: /img/example-logos/main-cover.jpg
 share-img: /img/example-logos/main-cover4x3.jpg
 share-title: Info
-share-description: Информация об этом сайте - Дорога не кончается!
+share-description: Информация о сайте Заметки географа. Контакты. Условия использования. Дорога не кончается!!!
 last_modified_at: 2022-01-14 10:00:00 +0300
 language: ru
 keywords: информация, контакты

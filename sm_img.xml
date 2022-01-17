@@ -3131,4 +3131,70 @@ layout: null
       <image:title>Кавказ. Художник Лагорио Л. Ф.</image:title>
     </image:image>
 </url>
+<url>
+  <loc>{{ site.url }}/toponymy/psekups/</loc>
+  <lastmod>2022-01-17</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+  <image:image>
+    <image:loc>{{ site.url }}/img/toponymy/psekups/Coat-arms-Goryachiy-Klyuch-1976.gif</image:loc>
+    <image:title>Герб города Горячий Ключ 1976 г.</image:title>
+  </image:image>
+  <image:image>
+    <image:loc>{{ site.url }}/img/toponymy/psekups/Coat-arms-Goryachiy-Klyuch-1996.gif</image:loc>
+    <image:title>Герб города Горячий Ключ 1996 г.</image:title>
+  </image:image>
+  <image:image>
+    <image:loc>{{ site.url }}/img/toponymy/psekups/Coat-arms-Goryachiy-Klyuch-2002.gif</image:loc>
+    <image:title>Герб города Горячий Ключ 2002 г.</image:title>
+  </image:image>
+  <image:image>
+    <image:loc>{{ site.url }}/img/toponymy/psekups/View-of-Dantovo-Gorge-b.jpg</image:loc>
+    <image:title>Вид на Дантово ущелье с гребня хребта Котх</image:title>
+  </image:image>
+  <image:image>
+    <image:loc>{{ site.url }}/img/toponymy/psekups/In-Dante-Gorge-b.jpg</image:loc>
+    <image:title>В Дантовом ущелье</image:title>
+  </image:image>
+  <image:image>
+    <image:loc>{{ site.url }}/img/toponymy/psekups/View-of-entrance-to-Dantovo-Gorge-b.jpg</image:loc>
+    <image:title>Вид на Дантово ущелье с гребня хребта Котх</image:title>
+  </image:image>
+  <image:image>
+    <image:loc>{{ site.url }}/img/toponymy/psekups/river-Psekups-from-the-rock-Petushok-b.jpg</image:loc>
+    <image:title>Вид на долину реки Псекупс со скалы Петушок</image:title>
+  </image:image>
+  <image:image>
+    <image:loc>{{ site.url }}/img/toponymy/psekups/Psekups-River-1-b.jpg</image:loc>
+    <image:title>Река Псекупс в районе Курортного парка</image:title>
+  </image:image>
+  <image:image>
+    <image:loc>{{ site.url }}/img/toponymy/psekups/Psekups-River-2-b.jpg</image:loc>
+    <image:title>Река Псекупс в месте слияния с левым притоком рекой Каверзе</image:title>
+  </image:image>
+  <image:image>
+    <image:loc>{{ site.url }}/img/toponymy/psekups/Bridge-over-river-Psekups-b.jpg</image:loc>
+    <image:title>Мост через реку Псекупс</image:title>
+  </image:image>
+  <image:image>
+    <image:loc>{{ site.url }}/img/toponymy/psekups/tract-Podnavisla-b.jpg</image:loc>
+    <image:title>Урочище Поднависла вид на часовни и братскую могилу</image:title>
+  </image:image>
+  <image:image>
+    <image:loc>{{ site.url }}/img/toponymy/psekups/Kaverzinsky-waterfalls-b.jpg</image:loc>
+    <image:title>Водопад на каскаде Каверзинских водопадов</image:title>
+  </image:image>
+  <image:image>
+    <image:loc>{{ site.url }}/img/toponymy/psekups/Upper-Ayuk-waterfall-b.jpg</image:loc>
+    <image:title>Верхний Аюкский водопад</image:title>
+  </image:image>
+  <image:image>
+    <image:loc>{{ site.url }}/img/toponymy/psekups/Lower-Ayuk-waterfall-b.jpg</image:loc>
+    <image:title>Нижний Аюкский водопад</image:title>
+  </image:image>
+  <image:image>
+    <image:loc>{{ site.url }}/img/toponymy/psekups/Roman-road-b.jpg</image:loc>
+    <image:title>Римская дорога - участок дна ручья Мощёного</image:title>
+  </image:image>
+</url>
 </urlset>

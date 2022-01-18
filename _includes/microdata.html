@@ -51,21 +51,6 @@
   			"@id": "https://viktor-dnk.ru/{{ page.collection }}/",
   			"name": "{{ page.collection  | replace:'mysteries-dolmens','&#128302; Загадочные дольмены' | replace:'toponymy','&#128218; Топонимика' }}"
   		}
-  	},
-  	{
-  		"@type": "ListItem",
-  		"position": 2,
-  		"item":
-  		{
-  			"name": "{{ page.title | prepend:'⛺ ' }}",
-  			"alternateName": "{{ page.share-title }}",
-  			"description": "{{ page.share-description }}",
-        "image": [
-          "{{ page.share-img | absolute_url | replace:'-s.jpg','4x3.jpg' }}",
-          "{{ page.share-img | absolute_url | replace:'-s.jpg','16x9.jpg' }}",
-          "{{ page.share-img | absolute_url | replace:'-s.jpg','1x1.jpg' }}"
-        ]
-  		}
   	}]
   }
 </script>

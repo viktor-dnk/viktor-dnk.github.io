@@ -6,7 +6,7 @@ cover-img: ["/img/mysteries-dolmens/ch1p16/cover.jpg" : "Керченский п
 thumbnail-img: /img/toponymy/kerch-ferrys/thumb.jpg
 thumbnail-caption: Вид на мыс Тузла с севера
 date: 2021-05-12 21:20
-last_modified_at: 2021-05-25 11:00:00 +0300
+last_modified_at: 2022-01-18 11:00:00 +0300
 categories: toponymy
 tags: [топонимика, топонимы на побережье]
 share-title: Керченская переправа

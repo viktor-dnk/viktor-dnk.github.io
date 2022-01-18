@@ -1,22 +1,22 @@
 ---
 layout: page
-title: Нагорье Лагонаки
-subtitle: топонимы вокруг Лагонакского нагорья
+title: Гидронимы
+subtitle: Оронимы Кубани и Адыгеи
 cover-img: /img/example-logos/main-cover.jpg
 share-img: /img/example-logos/main-cover4x3.jpg
-share-title: Топонимика Лагонаки
+share-title: Водные объекты Кубани
 language: ru
 keywords: карты, история, география, ономастика
+last_modified_at: 2021-08-05 16:00:00 +0300
 last_modified_at: 2022-01-17 16:00:00 +0300
-date: 2021-01-02 16:00
 head-extra: _noindex.html
-permalink: /toponymy/lago-naki/
+permalink: /toponymy/rivers/
 ---
 _«Даже самое удачное толкование истории слова может быть пересмотрено, как только найдутся новые данные. Ничего страшного в этом нет» (Л.В. Успенский, 1960 г.)_
 
 <div class="posts-list">
-  {% assign lago-naki = site.toponymy | where: "category", "lago-naki" %}
-  {% for toponymy in lago-naki %}
+  {% assign rivers = site.toponymy | where: "category", "rivers" %}
+  {% for toponymy in rivers %}
   <article class="post-preview">
 
     {%- capture thumbnail -%}

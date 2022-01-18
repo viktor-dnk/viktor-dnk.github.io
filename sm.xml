@@ -77,6 +77,10 @@ layout: null
         <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
     </url>
     <url>
+        <loc>https://viktor-dnk.ru/page/8/</loc>
+        <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+    </url>
+    <url>
         <loc>https://viktor-dnk.ru/aboutme/</loc>
         <image:image>
           <image:loc>{{ site.url }}/img/example-logos/stamp.png</image:loc>

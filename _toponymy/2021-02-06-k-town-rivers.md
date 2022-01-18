@@ -7,7 +7,7 @@ thumbnail-img: /img/toponymy/k-town-rivers/thumb.jpg
 thumbnail-caption: Екатеринодар на 5-ти вёрстной карте конца ХIХ в
 date: 2021-02-06 19:10
 last_modified_at: 2021-05-25 11:00:00 +0300
-category: [around-krasnodar, rivers]
+category: [around-krasnodar, hydro]
 tags: [топонимика, гидроним, Краснодар и окрестности]
 share-title: Гидронимы Краснодара
 share-description: Город Краснодар был основан как Екатеринодар в 1793 г. у излучины правого берега реки Кубань в урочище Карасунский кут.

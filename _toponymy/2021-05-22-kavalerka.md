@@ -7,7 +7,7 @@ thumbnail-img: /img/toponymy/kavalerka/thumb.jpg
 thumbnail-caption: Дорожный указатель р. Кавалерка
 date: 2021-05-22 19:50:00 +0300
 last_modified_at: 2022-01-14 10:00:00 +0300
-categories: toponymy
+categories: rivers
 tags: [топонимика, гидроним]
 share-title: Топоним Кавалерка
 share-description: Река Кавалерка выделяется своим названием среди множества имён рек в Краснодарском крае. Протяжённость реки составляет 80 км.

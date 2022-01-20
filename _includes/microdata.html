@@ -12,6 +12,7 @@
   		"@id": "{{ page.url | absolute_url | strip_index | replace:'.ru/page/2/','.ru/' | replace:'.ru/page/3/','.ru/' | replace:'.ru/page/4/','.ru/' | replace:'.ru/page/5/','.ru/' | replace:'.ru/page/6/','.ru/' | replace:'.ru/page/7/','.ru/' | replace:'.ru/page/8/','.ru/' | replace:'.ru/page/9/','.ru/' }}"
   	},
   	"headline": "{{ page.title }}",
+    "description": "{{ page.share-description }}",
   	"image": [
   		"{{ page.share-img | absolute_url | replace:'-s.jpg','4x3.jpg' }}",
   		"{{ page.share-img | absolute_url | replace:'-s.jpg','16x9.jpg' }}",

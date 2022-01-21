@@ -7,7 +7,7 @@ thumbnail-img: /img/toponymy/black-toponyms/thumb.jpg
 thumbnail-caption: Вход в пещеру Чёрного
 date: 2021-10-03 18:30
 last_modified_at: 2022-01-17 15:30 +0300
-category: hydro
+category: [hydro, oikonyms]
 tags: [топонимика, пещеры, топоним чёрный]
 share-title: Чёрные топонимы
 share-description: Чёрные реки, озеро Чёрное, пещера Чёрного - названия объектов в которых встречается слово чёрный в Краснодарском крае.

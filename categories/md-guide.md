@@ -4,7 +4,7 @@ title: Путеводитель
 subtitle: Из истории дольменов Западного Кавказа © В.Н. Ковешников
 cover-img: /img/example-logos/main-cover.jpg
 share-img: /img/example-logos/main-cover4x3.jpg
-share-title: Топонимы возле Краснодара
+share-title: Путеводитель по дольменам ЗАпадного Кавказа
 language: ru
 keywords: карты, история, география, ономастика
 last_modified_at: 2022-01-21 10:00:00 +0300

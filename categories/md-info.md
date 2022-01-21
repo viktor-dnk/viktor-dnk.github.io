@@ -1,10 +1,10 @@
 ---
 layout: page
-title: город Краснодар и его окрестности
+title: Дополнительная информация
 subtitle: Из истории дольменов Западного Кавказа © В.Н. Ковешников
 cover-img: /img/example-logos/main-cover.jpg
 share-img: /img/example-logos/main-cover4x3.jpg
-share-title: Путеводитель - Из истории дольменов Западного Кавказа
+share-title: Дополнительная информация
 language: ru
 keywords: карты, история, география, ономастика
 last_modified_at: 2022-01-21 10:00:00 +0300

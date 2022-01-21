@@ -91,4 +91,32 @@ layout: null
     <url>
         <loc>https://viktor-dnk.ru/search/</loc>
     </url>
+    <url>
+        <loc>https://viktor-dnk.ru/toponymy/mountains/</loc>
+        <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+    </url>
+    <url>
+        <loc>https://viktor-dnk.ru/toponymy/oikonyms/</loc>
+        <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+    </url>
+    <url>
+        <loc>https://viktor-dnk.ru/toponymy/hydro/</loc>
+        <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+    </url>
+    <url>
+        <loc>https://viktor-dnk.ru/toponymy/sea-coast/</loc>
+        <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+    </url>
+    <url>
+        <loc>https://viktor-dnk.ru/toponymy/lago-naki/</loc>
+        <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+    </url>
+    <url>
+        <loc>https://viktor-dnk.ru/toponymy/around-sochi/</loc>
+        <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+    </url>
+    <url>
+        <loc>https://viktor-dnk.ru/toponymy/around-krasnodar/</loc>
+        <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+    </url>
 </urlset>

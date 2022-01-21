@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Побережье Чёрного и азовского морей
+title: Побережье Чёрного и Азовского морей
 subtitle: Топонимика на морском побережье Кубани
 cover-img: /img/example-logos/main-cover.jpg
 share-img: /img/example-logos/main-cover4x3.jpg

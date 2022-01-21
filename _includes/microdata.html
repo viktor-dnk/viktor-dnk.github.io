@@ -1,6 +1,3 @@
-<div id="{% for cat in page.category limit:1 %}{{ cat | replace:'around-krasnodar','&#127969; Краснодар' | replace:'around-sochi','&#127969; Сочи' | replace:'hydro','&#127966; Гидронимы' | replace:'lago-naki','&#127956; Лагонаки' | replace:'mountains','&#127748; Оронимы' | replace:'oikonyms','&#127963; Населённые пункты' | replace:'sea-coast','&#127749; Побережье' }}{% endfor %}">
-</div>
-
 <script type="application/ld+json">
   {
   	"@context": "https://schema.org",
@@ -51,7 +48,7 @@
       "@type": "ListItem",
       "position": 2,
       "name": "{% for cat in page.category limit:1 %}{{ cat | replace:'around-krasnodar','&#127969; Краснодар' | replace:'around-sochi','&#127969; Сочи' | replace:'hydro','&#127966; Гидронимы' | replace:'lago-naki','&#127956; Лагонаки' | replace:'mountains','&#127748; Оронимы' | replace:'oikonyms','&#127963; Населённые пункты' | replace:'sea-coast','&#127749; Побережье' }}{% endfor %}",
-      "item": "https://viktor-dnk.ru/{{ page.collection }}/{% for cat in page.category limit:1 %}{{ cat }}{% endfor %}/"  
+      "item": "https://viktor-dnk.ru/{{ page.collection }}/{% for cat in page.category limit:1 %}{{ cat }}{% endfor %}/"
     }]
   }
 </script>

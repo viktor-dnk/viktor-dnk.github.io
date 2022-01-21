@@ -1,6 +1,5 @@
-<div id="{{ page.category[0] }}">
+<div id="{% if page.category.first %}{{ page.category[0] }}{% else %}{{ page.category }}">
 </div>
-
 
 <script type="application/ld+json">
   {

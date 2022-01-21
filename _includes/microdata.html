@@ -1,5 +1,7 @@
-<div id="{% assign category.list = page.category %}{{ category.list.first }}">
+<div id="{% if page.category %}{{ page.category }}{% elsif page.category %}{% if page.category.first %}{{ page.category[0].first.first }}{% else %}{{ page.category }}{% endif %}{% else %}{% endif %}">
 </div>
+
+
 
 <script type="application/ld+json">
   {

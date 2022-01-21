@@ -11,7 +11,7 @@ last_modified_at: 2022-01-21 10:00:00 +0300
 date: 2022-01-14 16:00:00
 permalink: /mysteries-dolmens/history/
 ---
-«Даже самое удачное толкование истории слова может быть пересмотрено, как только найдутся новые данные. Ничего страшного в этом нет» (Л.В. Успенский, 1960 г.)
+Дольмены Западного Кавказа очень разнообразны
 
 <div class="posts-list">
   {% assign history = site.mysteries-dolmens | where: "category", "history" %}

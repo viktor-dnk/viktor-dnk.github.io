@@ -1,21 +1,21 @@
 ---
 layout: page
-title: Из истории дольменов Западного Кавказа
-subtitle: © В.Н. Ковешников
+title: Путеводитель
+subtitle: Из истории дольменов Западного Кавказа © В.Н. Ковешников
 cover-img: /img/example-logos/main-cover.jpg
 share-img: /img/example-logos/main-cover4x3.jpg
-share-title: Из истории дольменов Западного Кавказа
+share-title: Топонимы возле Краснодара
 language: ru
 keywords: карты, история, география, ономастика
 last_modified_at: 2022-01-21 10:00:00 +0300
 date: 2022-01-14 16:00:00
-permalink: /mysteries-dolmens/История/
+permalink: /mysteries-dolmens/guide/
 ---
 «Даже самое удачное толкование истории слова может быть пересмотрено, как только найдутся новые данные. Ничего страшного в этом нет» (Л.В. Успенский, 1960 г.)
 
 <div class="posts-list">
-  {% assign История = site.toponymy | where: "category", "История" %}
-  {% for toponymy in История %}
+  {% assign guide = site.toponymy | where: "category", "guide" %}
+  {% for toponymy in guide %}
   <article class="post-preview">
 
     {%- capture thumbnail -%}

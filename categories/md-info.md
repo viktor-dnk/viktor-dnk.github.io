@@ -1,21 +1,21 @@
 ---
 layout: page
-title: Путеводитель
+title: город Краснодар и его окрестности
 subtitle: Из истории дольменов Западного Кавказа © В.Н. Ковешников
 cover-img: /img/example-logos/main-cover.jpg
 share-img: /img/example-logos/main-cover4x3.jpg
-share-title: Топонимы возле Краснодара
+share-title: Путеводитель - Из истории дольменов Западного Кавказа
 language: ru
 keywords: карты, история, география, ономастика
 last_modified_at: 2022-01-21 10:00:00 +0300
 date: 2022-01-14 16:00:00
-permalink: /mysteries-dolmens/Путеводитель/
+permalink: /mysteries-dolmens/info/
 ---
 «Даже самое удачное толкование истории слова может быть пересмотрено, как только найдутся новые данные. Ничего страшного в этом нет» (Л.В. Успенский, 1960 г.)
 
 <div class="posts-list">
-  {% assign Путеводитель = site.toponymy | where: "category", "Путеводитель" %}
-  {% for toponymy in Путеводитель %}
+  {% assign info = site.toponymy | where: "category", "info" %}
+  {% for toponymy in info %}
   <article class="post-preview">
 
     {%- capture thumbnail -%}

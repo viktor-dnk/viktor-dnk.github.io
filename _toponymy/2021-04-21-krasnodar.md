@@ -7,7 +7,7 @@ thumbnail-img: /img/toponymy/krasnodar/thumb.jpg
 thumbnail-caption: Герб Екатеринодара 1849 г., переутверждён в 2005 г.
 date: 2021-04-21 13:00
 last_modified_at: 2021-05-02 20:45 +0300
-category: around-krasnodar
+category: [around-krasnodar, oikonyms]
 tags: [топонимика, ойконим, антропоним, Краснодар и окрестности]
 share-title: Населенные места Краснодара
 share-description: Краснодар — современное название центра Краснодарского края. Официально ему статус города был присвоен лишь в 1867 г.

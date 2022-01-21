@@ -7,7 +7,7 @@ thumbnail-img: /img/toponymy/kerch-ferrys/thumb.jpg
 thumbnail-caption: Вид на мыс Тузла с севера
 date: 2021-05-12 21:20
 last_modified_at: 2022-01-18 11:00:00 +0300
-categories: toponymy
+category: [sea-coast, hydro]
 tags: [топонимика, топонимы на побережье]
 share-title: Керченская переправа
 share-description: Пролив разделяющий Крым и Кавказ на соврменных картах обозначается Керченским, он соединяет Азовское и Чёрное моря. В античное время его называли Боспор Киммерийский

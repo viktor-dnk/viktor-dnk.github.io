@@ -7,7 +7,7 @@ thumbnail-img: /img/toponymy/krylovskaya/thumb.jpg
 thumbnail-caption: Станица Екатериновская на реке Ея, фрагмент карты 1941 г.
 date: 2021-02-16 18:30
 last_modified_at: 2021-01-18 11:00:00 +0300
-categories: toponymy
+category: oikonyms
 tags: [топонимика, ойконим, антропоним]
 share-title: Станицы Крыловские — куренные селения на Кубани
 share-description: Как оказывается, на картах Краснодарского края, изданных после 1961 г., можно обнаружить две станицы под названием Крыловская.

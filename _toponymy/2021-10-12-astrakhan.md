@@ -7,7 +7,7 @@ thumbnail-img: /img/toponymy/astrakhan/thumb.jpg
 thumbnail-caption: Город Астрахань, дом купца Г.В. Тетюшинова
 date: 2021-10-12 11:20 +0300
 last_modified_at: 2021-10-12 11:20 +0300
-categories: toponymy
+category: oikonyms
 tags: [топонимика, ойконим]
 share-title: История топонима Астрахань
 share-description: Город Астрахань расположен в дельте реки Волга, является административным центром Астраханской области, старейший среди городов России.

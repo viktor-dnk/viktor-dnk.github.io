@@ -1,4 +1,4 @@
-<div id="{% for category in page.category %}{{ page.category.first }}{% endfor %}">
+<div id="{% assign category.list = page.category | split: ', ' %}{{ category.list.first }}">
 </div>
 
 

@@ -14,18 +14,18 @@ permalink: /mysteries-dolmens/info/
 «Даже самое удачное толкование истории слова может быть пересмотрено, как только найдутся новые данные. Ничего страшного в этом нет» (Л.В. Успенский, 1960 г.)
 
 <div class="posts-list">
-  {% assign info = site.toponymy | where: "category", "info" %}
-  {% for toponymy in info %}
+  {% assign info = site.mysteries-dolmens | where: "category", "info" %}
+  {% for mysteries-dolmens in info %}
   <article class="post-preview">
 
     {%- capture thumbnail -%}
-      {% if toponymy.thumbnail-img %}
-        {{ toponymy.thumbnail-img }}
-      {% elsif toponymy.cover-img %}
-        {% if toponymy.cover-img.first %}
-          {{ toponymy.cover-img[0].first.first }}
+      {% if mysteries-dolmens.thumbnail-img %}
+        {{ mysteries-dolmens.thumbnail-img }}
+      {% elsif mysteries-dolmens.cover-img %}
+        {% if mysteries-dolmens.cover-img.first %}
+          {{ mysteries-dolmens.cover-img[0].first.first }}
         {% else %}
-          {{ toponymy.cover-img }}
+          {{ mysteries-dolmens.cover-img }}
         {% endif %}
       {% else %}
       {% endif %}
@@ -35,32 +35,32 @@ permalink: /mysteries-dolmens/info/
     {% if site.feed_show_excerpt == false %}
     {% if thumbnail != "" %}
     <div class="post-image post-image-normal">
-      <a href="{{ toponymy.url | absolute_url }}" aria-label="Thumbnail">
-        <img src="{{ thumbnail | absolute_url }}" alt="{{ toponymy.thumbnail-caption }}" title="{{ toponymy.thumbnail-caption }}">
+      <a href="{{ mysteries-dolmens.url | absolute_url }}" aria-label="Thumbnail">
+        <img src="{{ thumbnail | absolute_url }}" alt="{{ mysteries-dolmens.thumbnail-caption }}" title="{{ mysteries-dolmens.thumbnail-caption }}">
       </a>
     </div>
     {% endif %}
     {% endif %}
 
-    <a title="{{ toponymy.share-title }}" href="{{ toponymy.url | absolute_url }}">
-      <h2 class="post-title">{{ toponymy.title }}</h2>
+    <a title="{{ mysteries-dolmens.share-title }}" href="{{ mysteries-dolmens.url | absolute_url }}">
+      <h2 class="post-title">{{ mysteries-dolmens.title }}</h2>
 
-      {% if toponymy.subtitle %}
+      {% if mysteries-dolmens.subtitle %}
         <h3 class="post-subtitle">
-        {{ toponymy.subtitle }}
+        {{ mysteries-dolmens.subtitle }}
         </h3>
       {% endif %}
     </a>
 
     <p class="post-meta">
       {% assign date_format = site.date_format | default: "%B %-d, %Y" %}
-      Дата публикации {{ toponymy.date | date: date_format }}
+      Дата публикации {{ mysteries-dolmens.date | date: date_format }}
     </p>
 
     {% if thumbnail != "" %}
     <div class="post-image post-image-small">
-      <a href="{{ toponymy.url | absolute_url }}" aria-label="Thumbnail">
-        <img src="{{ thumbnail | absolute_url }}" alt="{{ toponymy.thumbnail-caption }}" title="{{ toponymy.thumbnail-caption }}">
+      <a href="{{ mysteries-dolmens.url | absolute_url }}" aria-label="Thumbnail">
+        <img src="{{ thumbnail | absolute_url }}" alt="{{ mysteries-dolmens.thumbnail-caption }}" title="{{ mysteries-dolmens.thumbnail-caption }}">
       </a>
     </div>
     {% endif %}
@@ -68,22 +68,22 @@ permalink: /mysteries-dolmens/info/
     {% unless site.feed_show_excerpt == false %}
     {% if thumbnail != "" %}
     <div class="post-image post-image-short">
-      <a href="{{ toponymy.url | absolute_url }}" aria-label="Thumbnail">
-        <img src="{{ thumbnail | absolute_url }}" alt="{{ toponymy.thumbnail-caption }}" title="{{ toponymy.thumbnail-caption }}">
+      <a href="{{ mysteries-dolmens.url | absolute_url }}" aria-label="Thumbnail">
+        <img src="{{ thumbnail | absolute_url }}" alt="{{ mysteries-dolmens.thumbnail-caption }}" title="{{ mysteries-dolmens.thumbnail-caption }}">
       </a>
     </div>
     {% endif %}
 
     <div class="post-entry">
-      {{ toponymy.description }}
-      <a title="{{ toponymy.share-title }}" href="{{ toponymy.url | absolute_url }}" class="post-read-more">[Читать&nbsp;далее]</a>
+      {{ mysteries-dolmens.description }}
+      <a title="{{ mysteries-dolmens.share-title }}" href="{{ mysteries-dolmens.url | absolute_url }}" class="post-read-more">[Читать&nbsp;далее]</a>
     </div>
     {% endunless %}
 
-    {% if site.feed_show_tags != false and toponymy.tags.size > 0 %}
+    {% if site.feed_show_tags != false and mysteries-dolmens.tags.size > 0 %}
     <div class="blog-tags">
       <span>Метки:</span>
-      {% for tag in toponymy.tags %}
+      {% for tag in mysteries-dolmens.tags %}
       <a href="{{ '/tags/' | absolute_url }}#{{- tag -}}">{{- tag -}}</a>
       {% endfor %}
     </div>

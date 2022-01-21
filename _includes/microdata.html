@@ -1,4 +1,4 @@
-<div id="{{ page.category | join: ", "}}">
+<div id="{% assign my_array = page.category | join: ", " %}{{ my_array.first }}">
 </div>
 
 

@@ -7,8 +7,8 @@ share-img: /img/example-logos/main-cover4x3.jpg
 share-title: Оронимы Кубани и Адыгеи
 language: ru
 keywords: карты, история, география, ономастика
-last_modified_at: 2021-08-05 16:00:00 +0300
-last_modified_at: 2022-01-17 16:00:00 +0300
+last_modified_at: 2022-01-21 10:00:00 +0300
+date: 2022-01-14 16:00:00
 head-extra: _noindex.html
 permalink: /toponymy/mountains/
 ---

@@ -1,14 +1,14 @@
 ---
 layout: page
-title: Побережье Чёрного И азовского морей
+title: Побережье Чёрного и азовского морей
 subtitle: Топонимика на морском побережье Кубани
 cover-img: /img/example-logos/main-cover.jpg
 share-img: /img/example-logos/main-cover4x3.jpg
 share-title: Топонимы Черноморского и Азовского побережья Кубани
 language: ru
 keywords: карты, история, география, ономастика
-last_modified_at: 2022-01-17 16:00:00 +0300
-date: 2021-01-02 16:00
+last_modified_at: 2022-01-21 10:00:00 +0300
+date: 2022-01-14 16:00:00
 head-extra: _noindex.html
 permalink: /toponymy/sea-coast/
 ---

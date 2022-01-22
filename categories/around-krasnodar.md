@@ -1,6 +1,6 @@
 ---
 layout: page
-title: город Краснодар и его окрестности
+title: Город Краснодар и его окрестности
 subtitle: топонимы вокруг столицы Кубани
 cover-img: /img/example-logos/main-cover.jpg
 share-img: /img/example-logos/main-cover4x3.jpg

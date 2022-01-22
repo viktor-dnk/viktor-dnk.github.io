@@ -4,18 +4,20 @@ author: Ковешников В.Н.
 # --- List of links in the navigation bar --- #
 
 navbar-links:
-  Разделы сайта:
-    - Топонимика: "/toponymy/"
-    - Тайны дольменов: "/mysteries-dolmens/"
-    - Указатель меток: "/tags/"
+  Топонимика:
+    - Топонимы побережья: "/toponymy/sea-coast/"
+    - Лагонаки: "/toponymy/lago-naki/"
+    - Большой Сочи: "/toponymy/around-sochi/"
+    - Окрестности Краснодара: "/toponymy/around-krasnodar/"
+    - Гидронимы: "/toponymy/hydro/"
+    - Ойконимы: "/toponymy/oikonyms/"
+    - Оронимы: "/toponymy/mountains/"
+    - Общий раздел: "/toponymy/"
+  Загадочные дольмены: "/mysteries-dolmens/"
   Информация:
-#    - Об этом сайте: "/thisblog/"
     - Об авторе: "/aboutme/"
     - Контакты: "/info/contacts/"
     - Случайная статья: "/random"
-  Полезные ссылки:
-    - Российское географическое общество: "https://www.rgo.ru/ru/article/prezentaciya-knigi-kratkiy-toponimicheskiy-slovar-naselennye-punkty-kubani-0"
-    - Российская государственная библиотека: "https://search.rsl.ru/ru/record/01008635856"
 #  🔍: "/search/"
 
 
@@ -98,7 +100,7 @@ url-pretty: "Очерки по географии, истории, археол�
 feed_show_excerpt: true
 
 # Whether or not to show a list of tags below each post preview in the feed page
-feed_show_tags: true
+feed_show_tags: false
 
 # Add a search button to the navbar
 post_search: true

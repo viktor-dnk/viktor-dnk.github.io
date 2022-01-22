@@ -5,6 +5,7 @@ subtitle: Оронимы Кубани и Адыгеи
 cover-img: /img/example-logos/main-cover.jpg
 share-img: /img/example-logos/main-cover4x3.jpg
 share-title: Оронимы Кубани и Адыгеи
+share-description: Раздел топонимики, который изучает названия вершин, горных систем, скал, перевалов, хребтов, называется оронимика, что с греческого означает «горы имя».
 language: ru
 keywords: карты, история, география, ономастика
 last_modified_at: 2022-01-21 10:00:00 +0300

@@ -8,7 +8,6 @@ thumbnail-caption: Зубр в вольерном комплексе Лаура
 date: 2021-06-06 13:50
 last_modified_at: 2021-06-07 10:20 +0300
 category: [around-sochi, oikonyms]
-tags: [топонимика, ойконим, окрестности Сочи]
 share-title: Топоним Красная Поляна
 share-description: На карте Кубанской области, составленной в 1882 г. Е.Д. Филициным, на месте посёлка Красная Поляна, значится селение Романовское (Кбаида)
 share-img: /img/toponymy/krasnaya-polyana/cover-s.jpg

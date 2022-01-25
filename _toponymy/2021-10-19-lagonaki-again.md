@@ -8,7 +8,6 @@ thumbnail-caption: Озеро Псенодах
 date: 2021-10-19 18:20 +0300
 last_modified_at: 2022-01-14 10:00 +0300
 category: [lago-naki, mountains]
-tags: [топонимика, Лагонаки, горы Кубани и Адыгеи]
 share-title: Лагонаки - Топонимика (о некоторых природных объектах нагорья)
 share-description: Горный узел нагорья Лагонаки, занимает площадь ~700 кв. км, где расположены хребты, плато, отдельные вершины, речные долины.
 share-img: /img/toponymy/lagonaki-again/cover-s.jpg

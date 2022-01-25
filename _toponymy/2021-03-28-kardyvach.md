@@ -8,7 +8,6 @@ thumbnail-caption: озеро Верхний Кардывач
 date: 2021-03-28 21:40
 last_modified_at: 2021-03-28 21:40 +0300
 category: [around-sochi, mountains]
-tags: [топонимика, окрестности Сочи, горы Кубани и Адыгеи]
 share-title: Тайны Кардывачского горного узла
 share-description: Кардывачский горный узел, является сложным орографическим участком Главного Кавказского хребта Большого Кавказа.
 share-img: /img/toponymy/kardyvach/cover-s.jpg

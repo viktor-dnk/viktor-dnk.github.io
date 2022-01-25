@@ -8,7 +8,6 @@ thumbnail-caption: Karte des Kaukasischen Isthmus
 date: 2020-12-05 17:00
 last_modified_at: 2022-01-14 10:00:00 +0300
 category: info
-tags: [информация]
 keywords: дольмены, мегалиты, дольмен, мегалит, литература, список
 readtime: false
 share-title: Общий список использованных источников и литературы.

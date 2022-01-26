@@ -8,7 +8,7 @@ share-title: Топонимы возле Краснодара
 share-description: Муниципальное образование город Краснодар расположено в центральной части Краснодарского края на правом берегу реки Кубань. Его территория составляет 841 км².
 language: ru
 keywords: карты, история, география, ономастика
-last_modified_at: 2022-01-22 17:00:00 +0300
+last_modified_at: 2022-01-26 14:00:00 +0300
 date: 2022-01-14 16:00:00
 permalink: /toponymy/around-krasnodar/
 head-extra: _micro_around-krasnodar.html

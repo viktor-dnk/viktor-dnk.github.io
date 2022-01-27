@@ -7,7 +7,7 @@ thumbnail-img: /img/toponymy/semashkho/thumb.jpg
 thumbnail-caption: Обелиск на вершине Семашхо
 date: 2021-11-09 15:40 +0300
 last_modified_at: 2021-11-09 15:40 +0300
-category: [mountains, ww2]
+category: [mountains, in-memory]
 share-title: Топоним Семашхо
 share-description: Топоним Семашхо входит в наименование нескольких объектов Краснодарского края. Официально значатся гора Семашхо, скала Семашхо и хребет Каратянский Семашхо
 share-img: /img/toponymy/semashkho/cover-s.jpg

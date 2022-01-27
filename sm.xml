@@ -91,4 +91,8 @@ layout: null
         <loc>https://viktor-dnk.ru/toponymy/around-krasnodar/</loc>
         <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
     </url>
+    <url>
+        <loc>https://viktor-dnk.ru/toponymy/in-memory/</loc>
+        <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+    </url>
 </urlset>

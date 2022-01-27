@@ -7,7 +7,6 @@ share-description: Ковешников В.Н. — географ-краевед
 cover-img: /img/example-logos/main-cover.jpg
 share-img: /img/example-logos/stamp-s.jpg
 language: ru
-tags: [информация]
 keywords: автор, публикация
 date: 2020-12-19 23:00:00 +0300
 last_modified_at: 2022-01-25 14:30:00 +0300

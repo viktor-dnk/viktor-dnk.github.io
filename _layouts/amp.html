@@ -45,7 +45,7 @@
     {% endcapture %}
 
     <title>{{ title }}</title>
-    
+
         <script type="application/ld+json">
       {
           "@context": "https://schema.org",
@@ -53,14 +53,14 @@
           "mainEntityOfPage": {
               "@type": "WebPage",
               "@id": "{{ page.url | absolute_url | strip_index }}"
-          },    
+          },
           "headline": "{{ title }}",
           "description": "{{ description }}",
           "image": [
               "{{ page.cover-img | absolute_url | replace:'.jpg','1x1.jpg'}}",
               "{{ page.cover-img | absolute_url | replace:'.jpg','4x3.jpg'}}",
               "{{ page.cover-img | absolute_url | replace:'.jpg','16x9.jpg'}}"
-          ],    
+          ],
           "datePublished": "{{ page.date | date_to_xmlschema }}",
           "dateModified": "{{ page.last_modified_at | date_to_xmlschema }}",
           "author": {
@@ -76,7 +76,7 @@
               }
           },
           "inLanguage": "Russian"
-      }	
+      }
           </script>
 
           {% include amp-styles.html %}
@@ -88,7 +88,7 @@
           <div class=" container-md ">
             <div class="row">
               <div class=" col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 ">
-                <article role="main" class="blog-post">           
+                <article role="main" class="blog-post">
           {{ content | replace:'<img','<amp-img layout="intrinsic"' | replace:'/>','></amp-img>' }}
                 </article>
 
@@ -101,7 +101,7 @@
                           <figure><a class="page-link" href="{{ page.url | absolute_url | strip_index | replace:'/amp/','/' }}" data-toggle="tooltip" data-placement="top" title="Перейти на основную версию сайта">Читать статью на сайте автора</a></figure>
                       </li>
                 </ul>
-                
+
               </div>
             </div>
         </div>

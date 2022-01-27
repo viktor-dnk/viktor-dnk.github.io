@@ -3197,4 +3197,50 @@ layout: null
     <image:title>Римская дорога - участок дна ручья Мощёного</image:title>
   </image:image>
 </url>
+<url>
+  <loc>{{ site.url }}/toponymy/sober-bash/</loc>
+  <lastmod>2022-01-27</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/sober-bash/Mount-Sober-Bash-view-from-north-side-b.jpg</image:loc>
+			<image:title>Гора Собер-Баш вид с северной стороны</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/sober-bash/Monument-to-pilots-on-Mount-Sober-Bash-b.jpg</image:loc>
+			<image:title>Памятник лётчикам на горе Собер-Баш</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/sober-bash/Memorial-plaque-at-monument-to-pilots-b.jpg</image:loc>
+			<image:title>Мемориальная доска у памятника лётчикам</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/sober-bash/Aircraft-A-20.jpg</image:loc>
+			<image:title>Самолет А-20</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/sober-bash/R-5-aircraft.jpg</image:loc>
+			<image:title>Самолёт Р-5</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/sober-bash/Waterfall-Hidden-on-stream-Duleva-Shchel-b.jpg</image:loc>
+			<image:title>Водопад Утаённый на ручье Дулева Щель</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/sober-bash/Photo-one-ruins-dolmen-near-Mount-Sober-Bash-b.jpg</image:loc>
+			<image:title>Фото одного из развалов дольмена у горы Собер-Баш</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/sober-bash/Photo-another-collapse-dolmen-b.jpg</image:loc>
+			<image:title>Фото ещё одного развала дольмена</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/sober-bash/collapse-dolmen-near-Mount-Sober-Bash.jpg</image:loc>
+			<image:title>Развал дольмена у горы Собер-Баш</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/sober-bash/summit-part-Mount-Sober-Bash-b.jpg</image:loc>
+			<image:title>Вершинная часть горы Собер-Баш, вид с севера</image:title>
+		</image:image>
+</url>
 </urlset>

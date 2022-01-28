@@ -12,7 +12,7 @@ navbar-links:
     - Гидронимы: "/toponymy/hydro/"
     - Ойконимы: "/toponymy/oikonyms/"
     - Оронимы: "/toponymy/mountains/"
-    - Память в камне: "/toponymy/in-memory/"
+    - Память в камне: ["/toponymy/in-memory/": "Памятные места связанные с историческими событиями"]
     - Общий раздел: "/toponymy/"
   Загадочные дольмены: "/mysteries-dolmens/"
   Информация:

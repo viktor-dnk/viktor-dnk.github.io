@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Нагорье Лагонаки
-subtitle: топонимы вокруг Лагонакского нагорья
+subtitle: Топонимы вокруг Лагонакского нагорья
 cover-img: /img/example-logos/main-cover.jpg
 share-img: /img/example-logos/main-cover4x3.jpg
 share-title: Топонимика Лагонаки

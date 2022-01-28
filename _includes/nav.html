@@ -19,7 +19,7 @@
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
               {%- for childlink in link[1] -%}
                 {%- for linkparts in childlink %}
-                  <a title="{{ linkparts[2] }}" class="dropdown-item" href="{{ linkparts[1] | relative_url }}">{{ linkparts[0] }}</a>
+                  <a title="{{ linkparts[1] | replace:'Топонимы побережья','Топонимы Черноморского и Азовского побережья Кубани' | replace:'Лагонаки','Топонимы вокруг Лагонакского нагорья' | replace:'Большой Сочи','Топонимика Большого Сочи и его окрестностей' | replace:'Окрестности Краснодара','Топонимы вокруг столицы Кубани' | replace:'Гидронимы','Водные объекты Кубани' | replace:'Ойконимы','Топонимика населённых пунктов Кубани и Адыгеи' | replace:'Оронимы','Топонимика горных вершин, перевалов и пр.' | replace:'Память в камне','Памятные места связанные с историческими событиями'}}" class="dropdown-item" href="{{ linkparts[1] | relative_url }}">{{ linkparts[0] }}</a>
                 {%- endfor -%}
               {%- endfor %}
             </div>

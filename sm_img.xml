@@ -3243,4 +3243,62 @@ layout: null
 			<image:title>Вершинная часть горы Собер-Баш, вид с севера</image:title>
 		</image:image>
 </url>
+<url>
+  <loc>{{ site.url }}/toponymy/papay/</loc>
+  <lastmod>2022-01-27</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/papay/Papay-chain-drawing-b.jpg</image:loc>
+			<image:title>Рисунок Папайской цепи</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/papay/Descending-southern-slope-Main-Papay-b.jpg</image:loc>
+			<image:title>Спуск по южному склону Главного Папая</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/papay/Map-showing-Mount-Papay-and-Papay-River-Valley-b.jpg</image:loc>
+			<image:title>Карта, где расположена гора Папай и долина реки Папай</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/papay/Mount-Papay-Main-view-from-south-b.jpg</image:loc>
+			<image:title>Гора Папай (Главный) вид с юга</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/papay/Northern-Papay-as-seen-from-south-b.jpg</image:loc>
+			<image:title>Северный Папай, вид с юга</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/papay/View-West-Papay-from-Main-b.jpg</image:loc>
+			<image:title>Вид на Западный Папай с Главного</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/papay/Mount-Chief-Papay-b.jpg</image:loc>
+			<image:title>Гора Главный Папай</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/papay/Papay-chain-view-from-Kotsekhur-ridge-b.jpg</image:loc>
+			<image:title>Папайская цепь вид с хребта Коцехур</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/papay/An-approximate-map-modern-distribution-carriers-haplogroup-R1a.jpg</image:loc>
+			<image:title>Примерная карта современного распространения носителей гаплогруппы R1a</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/papay/Top-with-image-Scythian-god-Papay-b.jpg</image:loc>
+			<image:title>Навершие с изображением скифского бога Папай</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/papay/Bronze-pommel-depicting-Scythian-god-Papay.jpg</image:loc>
+			<image:title>Навершие с изображением скифского бога Папай</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/papay/View-Papai-massif-from-Mount-Oblego-b.jpg</image:loc>
+			<image:title>Вид на горный массив Папай с горы Облего</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/papay/Scheme-for-description-road-gods-b.jpg</image:loc>
+			<image:title>Схема к описанию «дорога богов»</image:title>
+		</image:image>
+</url>
 </urlset>

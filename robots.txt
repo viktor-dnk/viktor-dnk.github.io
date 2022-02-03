@@ -1,5 +1,4 @@
 User-agent: Googlebot
-Disallow: /random
 Allow: /manifest.json
 Allow: /amp/*
 Allow: /feed.xml
@@ -12,7 +11,6 @@ Allow: /img/*/*/*.gif
 User-agent: Yandex
 Disallow: /amp/*
 Disallow: /amp
-Disallow: /random
 Allow: /feed.xml
 Allow: /manifest.json
 Allow: /assets/css/*.css
@@ -29,7 +27,6 @@ Allow: /img/*/*/*.jpg
 Allow: /img/*/*/*.gif
 Disallow: /amp/*
 Disallow: /amp
-Disallow: /random
 Disallow: /*utm
 Disallow: /*clid=
 Disallow: /*openstat

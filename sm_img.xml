@@ -3301,4 +3301,34 @@ layout: null
 			<image:title>Схема к описанию «дорога богов»</image:title>
 		</image:image>
 </url>
+<url>
+  <loc>{{ site.url }}/toponymy/hell-gate/</loc>
+  <lastmod>2022-02-07</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+    <image:image>
+      <image:loc>{{ site.url }}/img/toponymy/hell-gate/On-left-side-photo-Acheshbok-mountain-range-is-visible-on-horizon-b.jpg</image:loc>
+      <image:title>В левой части фото на горизонте виден горный массив Ачешбок</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>{{ site.url }}/img/toponymy/hell-gate/mountains-Bol-Thach-Mal-Thach-Asbestos-and-Devil-Gates-b.jpg</image:loc>
+      <image:title>горы Бол. Тхач, Мал. Тхач, Асбестная и Чёртовы Ворота</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>{{ site.url }}/img/toponymy/hell-gate/View-from-Azish-Tau-Ridge-at-dawn-b.jpg</image:loc>
+      <image:title>Вид с Хребта Азиш-Тау на рассвете</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>{{ site.url }}/img/toponymy/hell-gate/Mountain-range-Devil-Gate-in-distance-b.jpg</image:loc>
+      <image:title>Горный массив Чёртовы Ворота вдали</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>{{ site.url }}/img/toponymy/hell-gate/View-mountain-range-Devil-Gate-from-rock-Athos-b.jpg</image:loc>
+      <image:title>Вид на горный массив Чёртовы Ворота от скалы Афонка</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>{{ site.url }}/img/toponymy/hell-gate/Rock-Devil-finger-in-Abinsk-region-b.jpg</image:loc>
+      <image:title>Скала Чёртов палец в Абинском районе</image:title>
+    </image:image>
+</url>
 </urlset>

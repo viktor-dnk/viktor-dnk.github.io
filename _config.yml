@@ -26,6 +26,7 @@ collections:
     label: Дольмены
     output: true
     permalink: /mysteries-dolmens/:title/
+    share-img: /img/toponymy/:title/cover-s.jpg
   toponymy:
     label: Топонимика
     output: true
@@ -192,7 +193,6 @@ defaults:
       social-share: true
       readtime: true
       language: ru
-      share-img: /img/toponymy/:title/cover-s.jpg
   -
     scope:
       path: ""

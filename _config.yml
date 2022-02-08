@@ -30,7 +30,6 @@ collections:
     label: Топонимика
     output: true
     permalink: /toponymy/:title/
-    share-img: /img/toponymy/:title/cover-s.jpg    
   info:
     output: true
     permalink: /info/:title/

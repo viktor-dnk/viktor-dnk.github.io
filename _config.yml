@@ -192,6 +192,7 @@ defaults:
       social-share: true
       readtime: true
       language: ru
+      share-img: /img/:path/cover-s.jpg
   -
     scope:
       path: ""

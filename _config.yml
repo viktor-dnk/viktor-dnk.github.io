@@ -192,7 +192,7 @@ defaults:
       social-share: true
       readtime: true
       language: ru
-      share-img: /img/:path/cover-s.jpg
+      share-img: /img/toponymy/:title/cover-s.jpg
   -
     scope:
       path: ""

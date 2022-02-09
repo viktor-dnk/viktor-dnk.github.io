@@ -5,7 +5,6 @@ share-title: Загадки перевалов Геймановские Воро
 share-description: Иногда возникают несколько наименований у одного природного объекта
 description: Иногда возникают несколько наименований у одного природного объекта
 cover-img: /img/toponymy/maykop/cover.jpg
-share-img: /img/toponymy/maykop/cover-s.jpg
 last_modified_at: 2021-06-18 22:10
 date: 2021-06-18 22:10
 ---

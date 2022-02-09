@@ -5,7 +5,6 @@ share-title: Хаджохская теснина
 share-description: На современных картах топонимом Хаджох обозначены несколько географических объектов
 description: На современных картах топонимом Хаджох обозначены несколько географических объектов
 cover-img: /img/toponymy/hajokh/cover.jpg
-share-img: /img/toponymy/hajokh/cover-s.jpg
 last_modified_at: 2021-07-12 16:40
 date: 2021-07-12 16:40
 ---

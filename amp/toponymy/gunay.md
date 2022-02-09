@@ -5,7 +5,6 @@ share-title: Топоним Гунай
 share-description: В очерке приводится историко-географическая характеристика топонима Гунай
 description: В очерке приводится историко-географическая характеристика топонима Гунай
 cover-img: /img/toponymy/gunay/cover.jpg
-share-img: /img/toponymy/gunay/cover-s.jpg
 last_modified_at: 2021-03-17 17:10 +0300
 date: 2021-03-17 17:00
 ---

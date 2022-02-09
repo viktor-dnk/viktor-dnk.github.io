@@ -5,7 +5,6 @@ share-title: Майкоп - Гора меотов
 share-description: Перевод топонима Майкоп имеет не однозначный смысл.
 description: Перевод топонима Майкоп имеет не однозначный смысл.
 cover-img: /img/toponymy/maykop/cover.jpg
-share-img: /img/toponymy/maykop/cover-s.jpg
 last_modified_at: 2021-06-16 18:10
 date: 2021-06-16 18:10
 ---

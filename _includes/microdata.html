@@ -10,9 +10,9 @@
   	"headline": "{{ page.title }}",
     "description": "{{ page.share-description }}",
   	"image": [
-  		"{{ page.share-img | absolute_url | replace:'-s.jpg','4x3.jpg' }}",
-  		"{{ page.share-img | absolute_url | replace:'-s.jpg','16x9.jpg' }}",
-  		"{{ page.share-img | absolute_url | replace:'-s.jpg','1x1.jpg' }}"
+  		"{{ page.cover-img[0].first.first | absolute_url | replace:'.jpg','4x3.jpg' }}",
+  		"{{ page.cover-img[0].first.first | absolute_url | replace:'.jpg','16x9.jpg' }}",
+  		"{{ page.cover-img[0].first.first | absolute_url | replace:'.jpg','1x1.jpg' }}"
   	],
   	"datePublished": "{{ page.date | date_to_xmlschema }}",
   	"dateModified": "{{ page.last_modified_at | date_to_xmlschema }}",

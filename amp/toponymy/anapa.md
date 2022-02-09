@@ -5,7 +5,6 @@ share-title: Топоним Анапа
 share-description: Город Анапа расположен на берегу Чёрного моря, это крупный климатический и бальнеологический курорт
 description: Город Анапа расположен на берегу Чёрного моря, это крупный климатический и бальнеологический курорт
 cover-img: /img/toponymy/anapa/cover.jpg
-share-img: /img/toponymy/anapa/cover-s.jpg
 last_modified_at: 2021-08-10 21:40
 date: 2021-08-10 21:40
 ---

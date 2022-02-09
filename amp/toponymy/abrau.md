@@ -5,7 +5,6 @@ share-title: Полуостров Абрау
 share-description: Топоним Абрау образован от слова abaraka - «круглый»
 description: Топоним Абрау образован от слова abaraka - «круглый»
 cover-img: /img/toponymy/abrau/cover.jpg
-share-img: /img/toponymy/abrau/cover-s.jpg
 last_modified_at: 2021-08-27 08:10
 date: 2021-08-27 08:10
 ---

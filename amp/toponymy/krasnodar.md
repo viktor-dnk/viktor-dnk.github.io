@@ -5,7 +5,6 @@ share-title: Населенные места Краснодара
 share-description: Официально Екатеринодару статус города, был присвоен лишь в 1867 г.
 description: Краснодар — современное название административного центра Краснодарского края, крупнейшего города на юге России.
 cover-img: /img/toponymy/krasnodar/cover.jpg
-share-img: /img/toponymy/krasnodar/cover-s.jpg
 last_modified_at: 2021-05-02 20:45 +0300
 date: 2021-04-21 13:00
 ---

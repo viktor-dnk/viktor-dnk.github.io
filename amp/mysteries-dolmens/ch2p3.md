@@ -5,7 +5,6 @@ share-title: Дольмены в Абинске
 share-description: В этой главе приводится два маршрута в окрестностях станиц Шапсугской — пешеходный и Эриванской — вело или авто.
 description: В этой главе приводится два маршрута в окрестностях станиц Шапсугской — пешеходный и Эриванской — вело или авто.
 cover-img: /img/mysteries-dolmens/ch2p3/cover.jpg
-share-img: /img/mysteries-dolmens/ch2p3/cover-s.jpg
 date: 2020-10-19 15:00:00 +0300
 last_modified_at: 2021-10-05 12:00:00 +0300
 ---

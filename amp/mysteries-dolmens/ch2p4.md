@@ -5,7 +5,6 @@ share-title: Дольмены Геленджика
 share-description: Среди дольменов Геленджикского района наибольшую известность, получили мегалиты долины реки Пшада.
 description: Среди дольменов Геленджикского района наибольшую известность, получили мегалиты долины реки Пшада.
 cover-img: /img/mysteries-dolmens/ch2p4/cover.jpg
-share-img: /img/mysteries-dolmens/ch2p4/cover-s.jpg
 date: 2020-10-20 15:00:00 +0300
 last_modified_at: 2021-10-05 12:00:00 +0300
 ---

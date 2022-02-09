@@ -5,7 +5,6 @@ share-title: Достопримечательности долины реки М
 share-description: Река Мзымта самый крупный и многоводный водоток на Черноморском побережье России
 description: Река Мзымта самый крупный и многоводный водоток на Черноморском побережье России
 cover-img: /img/toponymy/mzymta/cover.jpg
-share-img: /img/toponymy/mzymta/cover-s.jpg
 last_modified_at: 2021-10-22 08:20 +0300
 date: 2021-07-02 15:00
 ---

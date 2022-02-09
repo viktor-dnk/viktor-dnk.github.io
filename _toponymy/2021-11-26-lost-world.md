@@ -10,7 +10,6 @@ last_modified_at: 2022-01-14 10:00 +0300
 category: [mountains, in-memory]
 share-title: Затерянный мир - Батарейная, Хакуч, Хожаш, Аше
 share-description: «Затерянный мир» так назван, потому что ГКХ от перевала Семашхо II до скалы Хожаш нечасто посещается пешеходными туристами и удалён от дорог
-share-img: /img/toponymy/lost-world/cover-s.jpg
 keywords: Батарейная, Бекишей, Грачёв Венец, Хожаш, Хакуч, Аше
 head-extra: amp_link.html
 location: Скала Хожаш, Краснодарский край

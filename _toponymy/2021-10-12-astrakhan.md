@@ -10,7 +10,6 @@ last_modified_at: 2021-10-12 11:20 +0300
 category: oikonyms
 share-title: История топонима Астрахань
 share-description: Город Астрахань расположен в дельте реки Волга, является административным центром Астраханской области, старейший среди городов России.
-share-img: /img/toponymy/astrakhan/cover-s.jpg
 keywords: Астрахань
 head-extra: amp_link.html
 location: г. Астрахань

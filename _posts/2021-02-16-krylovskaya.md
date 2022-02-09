@@ -4,7 +4,6 @@ subtitle: © В.Н. Ковешников
 share-title: О станицах Крыловских — куренных селениях на Кубани
 share-description: Как оказывается, на картах Краснодарского края, изданных после 1961 г., можно обнаружить две станицы под названием Крыловская.
 cover-img: /img/toponymy/krylovskaya/cover.jpg
-share-img: /img/toponymy/krylovskaya/cover-s.jpg
 thumbnail-img: /img/toponymy/krylovskaya/thumb.jpg
 thumbnail-caption: Станица Екатериновская на реке Ея, фрагмент карты 1941 г.
 categories: toponymy

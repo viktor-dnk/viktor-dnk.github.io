@@ -10,7 +10,6 @@ last_modified_at: 2022-01-14 10:00 +0300
 category: mountains
 share-title: Грачёвский и Тубинский - об истории двух перевалов
 share-description: Перевал Тубинский, получил название от наименования станицы Тубинской. Перевал Грачёвский образованы от русской фамилии Грачёв.
-share-img: /img/toponymy/grachevsky/cover-s.jpg
 keywords: перевал Грачёвский, перевал Тубинский
 head-extra: amp_link.html
 location: Фишт-Оштенский перевал, Краснодарский край

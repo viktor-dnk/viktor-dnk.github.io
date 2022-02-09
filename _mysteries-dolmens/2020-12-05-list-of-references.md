@@ -12,7 +12,6 @@ keywords: дольмены, мегалиты, дольмен, мегалит, л
 readtime: false
 share-title: Общий список использованных источников и литературы.
 share-description: Общий список литературы, которая использовалась при подготовке цикла очерков о загадочных дольменах Западного Кавказа.
-share-img: /img/mysteries-dolmens/list-of-references/cover-s.jpg
 img-caption: Karte des Kaukasischen Isthmus 1856
 ---
 {: .box-note}

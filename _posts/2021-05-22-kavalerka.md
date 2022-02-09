@@ -4,7 +4,6 @@ subtitle: © В.Н. Ковешников
 share-title: Топоним Кавалерка
 share-description: Река является правым притоком реки Ея, впадает в неё между станицами Кисляковской и Кущёвской
 cover-img: /img/toponymy/kavalerka/cover.jpg
-share-img: /img/toponymy/kavalerka/cover-s.jpg
 thumbnail-img: /img/toponymy/kavalerka/thumb.jpg
 thumbnail-caption: Дорожный указатель р. Кавалерка
 categories: toponymy

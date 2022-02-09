@@ -10,7 +10,6 @@ last_modified_at: 2022-01-17 15:30 +0300
 category: [hydro, oikonyms]
 share-title: Чёрные топонимы
 share-description: Чёрные реки, озеро Чёрное, пещера Чёрного - названия объектов в которых встречается слово чёрный в Краснодарском крае.
-share-img: /img/toponymy/black-toponyms/cover-s.jpg
 keywords: Чёрный топоним
 head-extra: amp_link.html
 location: оз. Карасун, г. Краснодар, Краснодарский край

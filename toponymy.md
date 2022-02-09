@@ -21,7 +21,7 @@ _«Даже самое удачное толкование истории сло
   {% for toponymy in site.toponymy %}
   <article class="post-preview">
 
-    {%- capture thumbnail -%}
+<!--    {%- capture thumbnail -%}
       {% if toponymy.thumbnail-img %}
         {{ toponymy.thumbnail-img }}
       {% elsif toponymy.cover-img %}
@@ -36,14 +36,14 @@ _«Даже самое удачное толкование истории сло
     {% assign thumbnail=thumbnail | strip %}
 
     {% if site.feed_show_excerpt == false %}
-    {% if thumbnail != "" %}
+    {% if thumbnail != "" %} -->
     <div class="post-image post-image-normal">
       <a href="{{ toponymy.url | absolute_url }}" aria-label="Thumbnail">
-        <img src="{{ thumbnail | absolute_url }}" alt="{{ toponymy.thumbnail-caption }}" title="{{ toponymy.thumbnail-caption }}">
+        <img src="{{ toponymy.thumbnail-img | absolute_url }}" alt="{{ toponymy.thumbnail-caption }}" title="{{ toponymy.thumbnail-caption }}">
       </a>
     </div>
-    {% endif %}
-    {% endif %}
+<!--    {% endif %}
+    {% endif %} -->
 
     <a title="{{ toponymy.share-title }}" href="{{ toponymy.url | absolute_url }}">
       <h2 class="post-title">{{ toponymy.title }}</h2>

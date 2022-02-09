@@ -4,7 +4,6 @@ subtitle: © В.Н. Ковешников
 share-title: Гора Семиглавая
 share-description: В обиходе северо-западную часть участка ГКХ туристы называют гора Семиглавая, именно она пользуется популярностью.
 cover-img: /img/toponymy/semiglavaya/cover.jpg
-share-img: /img/toponymy/semiglavaya/cover-s.jpg
 thumbnail-img: /img/toponymy/semiglavaya/thumb.jpg
 thumbnail-caption: Вид на массив горы Семиглавой с юго-восточного склона горы Семашхо
 categories: toponymy

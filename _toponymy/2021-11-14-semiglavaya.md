@@ -10,7 +10,6 @@ last_modified_at: 2022-01-18 19:30 +0300
 category: mountains
 share-title: Гора Семиглавая
 share-description: В обиходе северо-западную часть участка ГКХ туристы называют гора Семиглавая, именно она пользуется популярностью.
-share-img: /img/toponymy/semiglavaya/cover-s.jpg
 keywords: Семиглавая
 head-extra: [amp_link.html, _micro_semiglavaya.html]
 location: гора Семиглавая, Краснодарский край

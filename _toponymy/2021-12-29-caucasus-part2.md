@@ -10,7 +10,6 @@ last_modified_at: 2021-12-29 14:50 +0300
 category: mountains
 share-title: О вершинах Эльбрус и Цахвоа, и немного об амазонках
 share-description: Название Кавказ впервые встречается у древнегреческих авторов в V в. до н.э., то есть название за 25 веков сохранилось без существенных изменений.
-share-img: /img/toponymy/caucasus-part2/cover-s.jpg
 keywords: Эльбрус, Цахвоа, Кавказ, амазонки
 head-extra: amp_link.html
 location: гора Эльбрус

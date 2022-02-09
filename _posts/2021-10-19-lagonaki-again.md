@@ -4,7 +4,6 @@ subtitle: © В.Н. Ковешников
 share-title: Лагонаки - Топонимика
 share-description: Горный узел нагорья Лагонаки, занимает площадь ~700 кв. км, где расположены хребты, плато, отдельные вершины, речные долины.
 cover-img: /img/toponymy/lagonaki-again/cover.jpg
-share-img: /img/toponymy/lagonaki-again/cover-s.jpg
 thumbnail-img: /img/toponymy/lagonaki-again/thumb.jpg
 thumbnail-caption: Озеро Псенодах
 categories: toponymy

@@ -4,7 +4,6 @@ subtitle: (продолжение очерка «Топоним Кавказ») 
 share-title: О вершинах Эльбрус и Цахвоа, и немного об амазонках
 share-description: Название Кавказ впервые встречается у древнегреческих авторов в V в. до н.э., то есть название за 25 веков после первого упоминания сохранилось без существенных изменений.
 cover-img: /img/toponymy/caucasus-part2/cover.jpg
-share-img: /img/toponymy/caucasus-part2/cover-s.jpg
 thumbnail-img: /img/toponymy/caucasus-part2/thumb.jpg
 thumbnail-caption: Массив горы Цахвоа (3345 м)
 categories: toponymy

@@ -10,7 +10,6 @@ last_modified_at: 2022-01-14 10:00 +0300
 category: [lago-naki, mountains]
 share-title: Лагонаки - о некоторых природных объектах нагорья
 share-description: Горный узел нагорья Лагонаки, занимает площадь ~700 кв. км, где расположены хребты, плато, отдельные вершины, речные долины.
-share-img: /img/toponymy/lagonaki-again/cover-s.jpg
 keywords: Лагонаки, Фишт, Оштен, Пшехо-Су
 head-extra: amp_link.html
 location: Лагонаки

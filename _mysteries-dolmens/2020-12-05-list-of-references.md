@@ -3,7 +3,6 @@ title: Список основных использованных источни
 subtitle: Из истории дольменов Западного Кавказа <br>© В.Н. Ковешников
 description: Общий список использованных источников и литературы.
 cover-img: ["/img/mysteries-dolmens/list-of-references/cover.jpg" : "Karte des Kaukasischen Isthmus 1856"]
-thumbnail-img: /img/mysteries-dolmens/list-of-references/thumb.jpg
 thumbnail-caption: Karte des Kaukasischen Isthmus
 date: 2020-12-05 17:00
 last_modified_at: 2022-01-14 10:00:00 +0300

@@ -4,7 +4,6 @@ subtitle: © В.Н. Ковешников
 share-title: Чёрные топонимы
 share-description: Эта публикация, является продолжением очерков о топонимах Кубани со словом чёрный
 cover-img: /img/toponymy/black-toponyms/cover.jpg
-thumbnail-img: /img/toponymy/black-toponyms/thumb.jpg
 thumbnail-caption: Вход в пещеру Чёрного
 categories: toponymy
 date: 2021-10-03 18:30

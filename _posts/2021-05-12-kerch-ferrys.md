@@ -4,7 +4,6 @@ subtitle: © В.Н. Ковешников
 share-title: Керченская переправа
 share-description: В античное время Керченский пролив называли Боспор Киммерийский
 cover-img: /img/mysteries-dolmens/ch1p16/cover.jpg
-thumbnail-img: /img/toponymy/kerch-ferrys/thumb.jpg
 thumbnail-caption: Вид на мыс Тузла с севера
 categories: toponymy
 date: 2021-05-12 21:20

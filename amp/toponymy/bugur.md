@@ -3,7 +3,6 @@ title: Гидроним Бугур — Анапка
 subtitle: © В.Н. Ковешников
 share-title: Река Анапка - значение названия
 share-description: Гидроним Бугур (Анапка) связан с историей крепости Анапа
-description: Гидроним Бугур (Анапка) связан с историей крепости Анапа
 cover-img: /img/toponymy/bugur/cover.jpg
 last_modified_at: 2021-08-13 18:40
 date: 2021-08-13 18:40

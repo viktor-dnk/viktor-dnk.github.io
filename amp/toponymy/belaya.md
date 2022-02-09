@@ -3,7 +3,6 @@ title: Ущелья реки Белой
 subtitle: © В.Н. Ковешников
 share-title: Река Белая и её ущелья
 share-description: Река Белая самый мощный левобережный приток реки Кубань
-description: Река Белая самый мощный левобережный приток реки Кубань
 cover-img: /img/toponymy/belaya/cover.jpg
 last_modified_at: 2021-09-07 08:40
 date: 2021-09-07 08:40

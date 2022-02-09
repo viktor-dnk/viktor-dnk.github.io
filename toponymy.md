@@ -39,7 +39,7 @@ _«Даже самое удачное толкование истории сло
     {% if thumbnail != "" %} -->
     <div class="post-image post-image-normal">
       <a href="{{ toponymy.url | absolute_url }}" aria-label="Thumbnail">
-        <img src="{{ toponymy.url | absolute_url | replace:'.ru/','.ru/img/ | append: 'thumb.jpg' }}" alt="{{ toponymy.thumbnail-caption }}" title="{{ toponymy.thumbnail-caption }}">
+        <img src="{{ toponymy.url | absolute_url | replace:'.ru/','.ru/img/' | append: 'thumb.jpg' }}" alt="{{ toponymy.thumbnail-caption }}" title="{{ toponymy.thumbnail-caption }}">
       </a>
     </div>
 <!--    {% endif %}

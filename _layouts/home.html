@@ -28,7 +28,7 @@ layout: page
     {% if thumbnail != "" %} -->
     <div class="post-image post-image-normal">
       <a href="{{ post.url | absolute_url }}" aria-label="Thumbnail">
-        <img src="{{ post.url | absolute_url | replace:'.ru/','.ru/img/ | append: 'thumb.jpg' }}" alt="{{ post.thumbnail-caption }}" title="{{ post.thumbnail-caption }}">
+        <img src="{{ post.url | absolute_url | replace:'.ru/','.ru/img/' | append: 'thumb.jpg' }}" alt="{{ post.thumbnail-caption }}" title="{{ post.thumbnail-caption }}">
       </a>
     </div>
 <!--    {% endif %}

@@ -57,9 +57,9 @@
           "headline": "{{ title }}",
           "description": "{{ page.share-description }}",
           "image": [
-              "{{ page.cover-img | absolute_url | replace:'.jpg','1x1.jpg'}}",
-              "{{ page.cover-img | absolute_url | replace:'.jpg','4x3.jpg'}}",
-              "{{ page.cover-img | absolute_url | replace:'.jpg','16x9.jpg'}}"
+              "{{ page.url | absolute_url | replace:'/amp/','/' | append: 'cover1x1.jpg' }}",
+              "{{ page.url | absolute_url | replace:'/amp/','/' | append: 'cover4x3.jpg' }}",
+              "{{ page.url | absolute_url | replace:'/amp/','/' | append: 'cover16x9.jpg' }}"
           ],
           "datePublished": "{{ page.date | date_to_xmlschema }}",
           "dateModified": "{{ page.last_modified_at | date_to_xmlschema }}",

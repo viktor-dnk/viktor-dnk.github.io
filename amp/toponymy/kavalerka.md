@@ -3,7 +3,6 @@ title: Что означает название реки Кавалерка?
 subtitle: © В.Н. Ковешников
 share-title: Топоним Кавалерка
 share-description: Река является правым притоком реки Ея, впадает в неё между станицами Кисляковской и Кущёвской
-cover-img: /img/toponymy/kavalerka/cover.jpg
 date: 2021-05-22
 last_modified_at: 2021-05-22 19:50 +0300
 ---

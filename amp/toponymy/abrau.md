@@ -3,7 +3,6 @@ title: Полуостров Абрау и его мысы Анапский, Ут
 subtitle: © В.Н. Ковешников
 share-title: Полуостров Абрау
 share-description: Топоним Абрау образован от слова abaraka - «круглый»
-cover-img: /img/toponymy/abrau/cover.jpg
 last_modified_at: 2021-08-27 08:10
 date: 2021-08-27 08:10
 ---

@@ -3,7 +3,6 @@ title: Из истории перевалов Грачевский, Тубинс
 subtitle: © В.Н. Ковешников
 share-title: Перевал Грачевский
 share-description: Из истории перевалов Грачевский, Тубинский
-cover-img: /img/toponymy/grachevsky/cover.jpg
 last_modified_at: 2021-06-13 18:00
 date: 2021-06-13 18:00
 ---

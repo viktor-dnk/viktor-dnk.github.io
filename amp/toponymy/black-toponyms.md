@@ -3,7 +3,6 @@ title: Чёрные реки. Озеро Чёрное. Пещера Чёрног
 subtitle: © В.Н. Ковешников
 share-title: Чёрные топонимы
 share-description: Чёрные реки. Озеро Чёрное. Пещера Чёрного.
-cover-img: /img/toponymy/black-toponyms/cover.jpg
 last_modified_at: 2021-10-03 18:30
 date: 2021-10-03 18:30
 ---

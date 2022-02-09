@@ -36,7 +36,7 @@ permalink: /mysteries-dolmens/guide/
     {% if thumbnail != "" %} -->
     <div class="post-image post-image-normal">
       <a href="{{ mysteries-dolmens.url | absolute_url }}" aria-label="Thumbnail">
-        <img src="{{ mysteries-dolmens.url | absolute_url | append: 'thumb.jpg' }}" alt="{{ mysteries-dolmens.thumbnail-caption }}" title="{{ mysteries-dolmens.thumbnail-caption }}">
+        <img src="{{ mysteries-dolmens.url | absolute_url | replace:'.ru/','.ru/img/ | append: 'thumb.jpg' }}" alt="{{ mysteries-dolmens.thumbnail-caption }}" title="{{ mysteries-dolmens.thumbnail-caption }}">
       </a>
     </div>
 <!--    {% endif %}

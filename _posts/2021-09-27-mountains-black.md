@@ -1,9 +1,6 @@
 ---
 title: Чёрные горы
 subtitle: © В.Н. Ковешников
-share-title: Топоним Чёрные горы
-share-description: Топоним Чёрные горы на территории Западного Кавказа фиксируется исследователями с начала ХIХ в.
-cover-img: /img/toponymy/mountains-black/cover.jpg
 thumbnail-caption: Скала Спящий Черкес (Черногор), Середина лета 1974 г.
 categories: toponymy
 date: 2021-09-27 16:40

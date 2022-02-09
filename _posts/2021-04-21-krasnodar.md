@@ -1,9 +1,6 @@
 ---
 title: Населенные пункты Краснодара
 subtitle: © В.Н. Ковешников
-share-title: Населенные места Краснодара
-share-description: Официально Екатеринодару статус города, был присвоен лишь в 1867 г.
-cover-img: /img/toponymy/krasnodar/cover.jpg
 thumbnail-caption: Герб Екатеринодара 1849 г., переутверждён в 2005 г.
 categories: toponymy
 date: 2021-04-21 13:00

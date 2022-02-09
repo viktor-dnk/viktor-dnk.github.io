@@ -37,7 +37,7 @@ _«Даже самое удачное толкование истории сло
     {% if thumbnail != "" %}
     <div class="post-image post-image-normal">
       <a href="{{ toponymy.url | absolute_url }}" aria-label="Thumbnail">
-        <amp-img src="{{ thumbnail | absolute_url }}" alt="page thumbnail" layout="intrinsic" width="220" height="220"></amp-img>
+        <amp-img src="{{ toponymy.url | absolute_url | replace:'.ru/','.ru/img/' | append: 'thumb.jpg' }}" alt="page thumbnail" layout="intrinsic" width="220" height="220"></amp-img>
       </a>
     </div>
     {% endif %}
@@ -61,7 +61,7 @@ _«Даже самое удачное толкование истории сло
     {% if thumbnail != "" %}
     <div class="post-image post-image-small">
       <a href="{{ toponymy.url | absolute_url }}" aria-label="Thumbnail">
-        <amp-img src="{{ thumbnail | absolute_url }}" alt="page thumbnail" layout="intrinsic" width="220" height="220"></amp-img>
+        <amp-img src="{{ toponymy.url | absolute_url | replace:'.ru/','.ru/img/' | append: 'thumb.jpg' }}" alt="page thumbnail" layout="intrinsic" width="220" height="220"></amp-img>
       </a>
     </div>
     {% endif %}
@@ -70,7 +70,7 @@ _«Даже самое удачное толкование истории сло
     {% if thumbnail != "" %}
     <div class="post-image post-image-short">
       <a href="{{ toponymy.url | absolute_url }}" aria-label="Thumbnail">
-        <amp-img src="{{ thumbnail | absolute_url }}" alt="page thumbnail" layout="intrinsic" width="220" height="220"></amp-img>
+        <amp-img src="{{ toponymy.url | absolute_url | replace:'.ru/','.ru/img/' | append: 'thumb.jpg' }}" alt="page thumbnail" layout="intrinsic" width="220" height="220"></amp-img>
       </a>
     </div>
     {% endif %}

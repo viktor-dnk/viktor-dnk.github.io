@@ -1,7 +1,6 @@
 ---
 title: Ещё раз о нагорье Лагонаки <br>(о некоторых природных объектах нагорья)
 subtitle: © В.Н. Ковешников
-thumbnail-img: /thumb.jpg
 thumbnail-caption: Озеро Псенодах
 categories: toponymy
 date: 2021-10-19 18:20 +0300

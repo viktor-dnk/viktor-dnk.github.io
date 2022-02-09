@@ -1,7 +1,6 @@
 ---
 title: Приморско-Ахтарск … Ахтари … Ахтар-Бахтар … Батиар
 subtitle: © В.Н. Ковешников
-thumbnail-img: /thumb.jpg
 thumbnail-caption: Ахтарский маяк, вид с юга
 categories: toponymy
 date: 2021-01-09 16:00

@@ -1,7 +1,6 @@
 ---
 title: Собер-Баш - «гора-ведьм» или «гора-крепость»?
 subtitle: © В.Н. Ковешников
-thumbnail-img: /thumb.jpg
 thumbnail-caption: Гора Собер-Баш вид с северной стороны
 categories: toponymy
 date: 2022-01-27 15:40 +0300

@@ -1,7 +1,6 @@
 ---
 title: Населенные пункты Краснодара
 subtitle: © В.Н. Ковешников
-thumbnail-img: /thumb.jpg
 thumbnail-caption: Герб Екатеринодара 1849 г., переутверждён в 2005 г.
 categories: toponymy
 date: 2021-04-21 13:00

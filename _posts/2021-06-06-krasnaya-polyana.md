@@ -1,7 +1,6 @@
 ---
 title: Поселок Красная Поляна — бывший город Романовск
 subtitle: © В.Н. Ковешников
-thumbnail-img: /thumb.jpg
 thumbnail-caption: Зубр в вольерном комплексе Лаура
 categories: toponymy
 date: 2021-06-06 13:50

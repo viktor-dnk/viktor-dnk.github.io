@@ -1,7 +1,6 @@
 ---
 title: Загадки перевалов Геймановские Ворота (Узуруб) и Гузерипль
 subtitle: © В.Н. Ковешников
-thumbnail-img: /thumb.jpg
 thumbnail-caption: Горный массив Оштен
 categories: toponymy
 date: 2021-06-18 22:10

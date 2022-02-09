@@ -192,6 +192,7 @@ defaults:
       social-share: true
       readtime: true
       language: ru
+      head-extra: amp_link.html
   -
     scope:
       path: ""
@@ -202,6 +203,7 @@ defaults:
       social-share: true
       readtime: true
       language: ru
+      head-extra: amp_link.html
   -
     scope:
       path: ""

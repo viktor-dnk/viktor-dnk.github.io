@@ -1,6 +1,7 @@
 ---
 title: Реки Краснодара
 subtitle: © В.Н. Ковешников
+thumbnail-img: /thumb.jpg
 thumbnail-caption: Екатеринодар на 5-ти вёрстной карте конца ХIХ в
 categories: toponymy
 date: 2021-02-06 19:10

@@ -1,6 +1,7 @@
 ---
 title: Горный массив Семиглавая
 subtitle: © В.Н. Ковешников
+thumbnail-img: /thumb.jpg
 thumbnail-caption: Вид на массив горы Семиглавой с юго-восточного склона горы Семашхо
 categories: toponymy
 date: 2021-11-14 19:30 +0300

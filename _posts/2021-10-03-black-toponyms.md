@@ -1,6 +1,7 @@
 ---
 title: Чёрные реки. Озеро Чёрное. Пещера Чёрного.
 subtitle: © В.Н. Ковешников
+thumbnail-img: /thumb.jpg
 thumbnail-caption: Вход в пещеру Чёрного
 categories: toponymy
 date: 2021-10-03 18:30

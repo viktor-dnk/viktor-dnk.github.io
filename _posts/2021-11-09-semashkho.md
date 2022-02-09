@@ -1,6 +1,7 @@
 ---
 title: О легендарной вершине Семашхо
 subtitle: © В.Н. Ковешников
+thumbnail-img: /thumb.jpg
 thumbnail-caption: Обелиск на вершине Семашхо
 categories: toponymy
 date: 2021-11-09 15:40 +0300

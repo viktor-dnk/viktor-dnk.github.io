@@ -1,6 +1,7 @@
 ---
 title: Керченские переправы
 subtitle: © В.Н. Ковешников
+thumbnail-img: /thumb.jpg
 thumbnail-caption: Вид на мыс Тузла с севера
 categories: toponymy
 date: 2021-05-12 21:20

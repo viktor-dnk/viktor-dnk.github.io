@@ -1,6 +1,7 @@
 ---
 title: Из истории перевалов Грачёвский, Тубинский
 subtitle: © В.Н. Ковешников
+thumbnail-img: /thumb.jpg
 thumbnail-caption: Памятный знак Аркадию Гайдару
 categories: toponymy
 date: 2021-06-13 18:00

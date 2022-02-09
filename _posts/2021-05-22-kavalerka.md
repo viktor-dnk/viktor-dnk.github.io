@@ -1,6 +1,7 @@
 ---
 title: Что означает название реки Кавалерка?
 subtitle: © В.Н. Ковешников
+thumbnail-img: /thumb.jpg
 thumbnail-caption: Дорожный указатель р. Кавалерка
 categories: toponymy
 date: 2021-05-22 19:50

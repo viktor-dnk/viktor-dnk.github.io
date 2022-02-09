@@ -1,6 +1,7 @@
 ---
 title: О станицах Крыловских Краснодарского края
 subtitle: © В.Н. Ковешников
+thumbnail-img: /thumb.jpg
 thumbnail-caption: Станица Екатериновская на реке Ея, фрагмент карты 1941 г.
 categories: toponymy
 date: 2021-02-16 18:30

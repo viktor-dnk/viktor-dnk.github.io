@@ -1,6 +1,7 @@
 ---
 title: Из истории происхождения названия города Астрахань
 subtitle: © В.Н. Ковешников
+thumbnail-img: /thumb.jpg
 thumbnail-caption: Город Астрахань, дом купца Г.В. Тетюшинова
 categories: toponymy
 date: 2021-10-12 11:20 +0300

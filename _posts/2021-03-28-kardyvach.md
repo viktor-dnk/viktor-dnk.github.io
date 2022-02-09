@@ -1,6 +1,7 @@
 ---
 title: Загадки горного узла Кардывач
 subtitle: © В.Н. Ковешников
+thumbnail-img: /thumb.jpg
 thumbnail-caption: озеро Верхний Кардывач
 categories: toponymy
 date: 2021-03-28 21:40

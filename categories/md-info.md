@@ -60,7 +60,7 @@ permalink: /mysteries-dolmens/info/
     {% if thumbnail != "" %}
     <div class="post-image post-image-small">
       <a href="{{ mysteries-dolmens.url | absolute_url }}" aria-label="Thumbnail">
-        <img src="{{ thumbnail | absolute_url }}" alt="{{ mysteries-dolmens.thumbnail-caption }}" title="{{ mysteries-dolmens.thumbnail-caption }}">
+        <img src="{{ mysteries-dolmens.url | absolute_url | replace:'.ru/','.ru/img/' | append: 'thumb.jpg' }} alt="{{ mysteries-dolmens.thumbnail-caption }}" title="{{ mysteries-dolmens.thumbnail-caption }}">
       </a>
     </div>
     {% endif %}
@@ -69,7 +69,7 @@ permalink: /mysteries-dolmens/info/
     {% if thumbnail != "" %}
     <div class="post-image post-image-short">
       <a href="{{ mysteries-dolmens.url | absolute_url }}" aria-label="Thumbnail">
-        <img src="{{ thumbnail | absolute_url }}" alt="{{ mysteries-dolmens.thumbnail-caption }}" title="{{ mysteries-dolmens.thumbnail-caption }}">
+        <img src="{{ mysteries-dolmens.url | absolute_url | replace:'.ru/','.ru/img/' | append: 'thumb.jpg' }} alt="{{ mysteries-dolmens.thumbnail-caption }}" title="{{ mysteries-dolmens.thumbnail-caption }}">
       </a>
     </div>
     {% endif %}

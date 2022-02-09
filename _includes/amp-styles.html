@@ -20,7 +20,7 @@
 {%- assign img=img | strip -%}
 
 <meta property="og:title" content="{{ title }}">
-<meta property="og:description" content="{{ share-description }}">
+<meta property="og:description" content="{{ page.share-description }}">
 <meta property="og:locale" content="ru_RU" />
 {% if img != "" %}
 <meta property="og:image" content="{{ page.cover-img | absolute_url | replace: '.jpg','-s.jpg' }}">
@@ -53,7 +53,7 @@
 <meta name="twitter:creator" content="@{{ site.social-network-links.twitter }}">
 
 <meta property="twitter:title" content="{{ title }}">
-<meta property="twitter:description" content="{{ share-description }}">
+<meta property="twitter:description" content="{{ page.share-description }}">
 
 {% if img != "" %}
 <meta name="twitter:image" content="{{ page.cover-img | absolute_url | replace: '.jpg','-s.jpg' }}">

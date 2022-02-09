@@ -18,7 +18,7 @@ permalink: /mysteries-dolmens/guide/
   {% for mysteries-dolmens in guide %}
   <article class="post-preview">
 
-    {%- capture thumbnail -%}
+<!--    {%- capture thumbnail -%}
       {% if mysteries-dolmens.thumbnail-img %}
         {{ mysteries-dolmens.thumbnail-img }}
       {% elsif mysteries-dolmens.cover-img %}
@@ -33,14 +33,14 @@ permalink: /mysteries-dolmens/guide/
     {% assign thumbnail=thumbnail | strip %}
 
     {% if site.feed_show_excerpt == false %}
-    {% if thumbnail != "" %}
+    {% if thumbnail != "" %} -->
     <div class="post-image post-image-normal">
       <a href="{{ mysteries-dolmens.url | absolute_url }}" aria-label="Thumbnail">
-        <img src="{{ thumbnail | absolute_url }}" alt="{{ mysteries-dolmens.thumbnail-caption }}" title="{{ mysteries-dolmens.thumbnail-caption }}">
+        <img src="{{ mysteries-dolmens.url | absolute_url | append: 'thumb.jpg' }}" alt="{{ mysteries-dolmens.thumbnail-caption }}" title="{{ mysteries-dolmens.thumbnail-caption }}">
       </a>
     </div>
-    {% endif %}
-    {% endif %}
+<!--    {% endif %}
+    {% endif %} -->
 
     <a title="{{ mysteries-dolmens.share-title }}" href="{{ mysteries-dolmens.url | absolute_url }}">
       <h2 class="post-title">{{ mysteries-dolmens.title }}</h2>

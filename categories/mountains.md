@@ -20,29 +20,29 @@ head-extra: [_micro_mountains.html, _aboutme.html]
   {% for toponymy in mountains %}
   <article class="post-preview">
 
-    {%- capture thumbnail -%}
-      {% if toponymy.thumbnail-img %}
-        {{ toponymy.thumbnail-img }}
-      {% elsif toponymy.cover-img %}
-        {% if toponymy.cover-img.first %}
-          {{ toponymy.cover-img[0].first.first }}
+  <!--    {%- capture thumbnail -%}
+        {% if toponymy.thumbnail-img %}
+          {{ toponymy.thumbnail-img }}
+        {% elsif toponymy.cover-img %}
+          {% if toponymy.cover-img.first %}
+            {{ toponymy.cover-img[0].first.first }}
+          {% else %}
+            {{ toponymy.cover-img }}
+          {% endif %}
         {% else %}
-          {{ toponymy.cover-img }}
         {% endif %}
-      {% else %}
-      {% endif %}
-    {% endcapture %}
-    {% assign thumbnail=thumbnail | strip %}
+      {% endcapture %}
+      {% assign thumbnail=thumbnail | strip %}
 
-    {% if site.feed_show_excerpt == false %}
-    {% if thumbnail != "" %}
-    <div class="post-image post-image-normal">
-      <a href="{{ toponymy.url | absolute_url }}" aria-label="Thumbnail">
-        <img src="{{ thumbnail | absolute_url }}" alt="{{ toponymy.thumbnail-caption }}" title="{{ toponymy.thumbnail-caption }}">
-      </a>
-    </div>
-    {% endif %}
-    {% endif %}
+      {% if site.feed_show_excerpt == false %}
+      {% if thumbnail != "" %} -->
+      <div class="post-image post-image-normal">
+        <a href="{{ toponymy.url | absolute_url }}" aria-label="Thumbnail">
+          <img src="{{ toponymy.url | absolute_url | append: 'thumb.jpg' }}" alt="{{ toponymy.thumbnail-caption }}" title="{{ toponymy.thumbnail-caption }}">
+        </a>
+      </div>
+  <!--    {% endif %}
+      {% endif %} -->
 
     <a title="{{ toponymy.share-title }}" href="{{ toponymy.url | absolute_url }}">
       <h2 class="post-title">{{ toponymy.title }}</h2>

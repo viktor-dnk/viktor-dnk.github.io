@@ -18,29 +18,29 @@ permalink: /mysteries-dolmens/history/
   {% for mysteries-dolmens in history %}
   <article class="post-preview">
 
-    {%- capture thumbnail -%}
-      {% if mysteries-dolmens.thumbnail-img %}
-        {{ mysteries-dolmens.thumbnail-img }}
-      {% elsif mysteries-dolmens.cover-img %}
-        {% if mysteries-dolmens.cover-img.first %}
-          {{ mysteries-dolmens.cover-img[0].first.first }}
+  <!--    {%- capture thumbnail -%}
+        {% if mysteries-dolmens.thumbnail-img %}
+          {{ mysteries-dolmens.thumbnail-img }}
+        {% elsif mysteries-dolmens.cover-img %}
+          {% if mysteries-dolmens.cover-img.first %}
+            {{ mysteries-dolmens.cover-img[0].first.first }}
+          {% else %}
+            {{ mysteries-dolmens.cover-img }}
+          {% endif %}
         {% else %}
-          {{ mysteries-dolmens.cover-img }}
         {% endif %}
-      {% else %}
-      {% endif %}
-    {% endcapture %}
-    {% assign thumbnail=thumbnail | strip %}
+      {% endcapture %}
+      {% assign thumbnail=thumbnail | strip %}
 
-    {% if site.feed_show_excerpt == false %}
-    {% if thumbnail != "" %}
-    <div class="post-image post-image-normal">
-      <a href="{{ mysteries-dolmens.url | absolute_url }}" aria-label="Thumbnail">
-        <img src="{{ thumbnail | absolute_url }}" alt="{{ mysteries-dolmens.thumbnail-caption }}" title="{{ mysteries-dolmens.thumbnail-caption }}">
-      </a>
-    </div>
-    {% endif %}
-    {% endif %}
+      {% if site.feed_show_excerpt == false %}
+      {% if thumbnail != "" %} -->
+      <div class="post-image post-image-normal">
+        <a href="{{ mysteries-dolmens.url | absolute_url }}" aria-label="Thumbnail">
+          <img src="{{ mysteries-dolmens.url | absolute_url | append: 'thumb.jpg' }}" alt="{{ mysteries-dolmens.thumbnail-caption }}" title="{{ mysteries-dolmens.thumbnail-caption }}">
+        </a>
+      </div>
+  <!--    {% endif %}
+      {% endif %} -->
 
     <a title="{{ mysteries-dolmens.share-title }}" href="{{ mysteries-dolmens.url | absolute_url }}">
       <h2 class="post-title">{{ mysteries-dolmens.title }}</h2>

@@ -10,7 +10,7 @@ layout: page
   {% for post in posts %}
   <article class="post-preview">
 
-    {%- capture thumbnail -%}
+<!--    {%- capture thumbnail -%}
       {% if post.thumbnail-img %}
         {{ post.thumbnail-img }}
       {% elsif post.cover-img %}
@@ -25,14 +25,14 @@ layout: page
     {% assign thumbnail=thumbnail | strip %}
 
     {% if site.feed_show_excerpt == false %}
-    {% if thumbnail != "" %}
+    {% if thumbnail != "" %} -->
     <div class="post-image post-image-normal">
       <a href="{{ post.url | absolute_url }}" aria-label="Thumbnail">
-        <img src="{{ thumbnail | absolute_url }}" alt="{{ post.thumbnail-caption }}" title="{{ post.thumbnail-caption }}">
+        <img src="{{ post.url | absolute_url | append: 'thumb.jpg' }}" alt="{{ post.thumbnail-caption }}" title="{{ post.thumbnail-caption }}">
       </a>
     </div>
-    {% endif %}
-    {% endif %}
+<!--    {% endif %}
+    {% endif %} -->
 
     <a title="{{ post.share-title }}" href="{{ post.url | absolute_url }}">
       <h2 class="post-title">{{ post.title }}</h2>

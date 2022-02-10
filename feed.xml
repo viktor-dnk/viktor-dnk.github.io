@@ -28,7 +28,7 @@ layout: null
         <link>{{ post.url | absolute_url }}</link>
         <category>{{post.tags | sort | join: ", "}}</category>
         <author>Ковешников В.Н.</author>
-        <enclosure url="{{ post.url | absolute_url | replace:'.ru/','.ru/img/' | append: 'cover-s.jpg'" type="image/jpeg"/>
+        <enclosure url="{{ post.url | absolute_url | replace:'.ru/','.ru/img/' | append: 'cover-s.jpg'}}" type="image/jpeg"/>
         <guid isPermaLink="true">{{ post.url | absolute_url }}</guid>
       </item>
     {% endfor %}

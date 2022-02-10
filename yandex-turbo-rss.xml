@@ -26,7 +26,7 @@ layout: null
           <turbo:content>
               <![CDATA[
                   <figure>
-                    <img src="{{ toponymy.url | absolute_url | replace:'.ru/','.ru/img/' | append: 'cover-s.jpg' }}">
+                    <img src="{{ page.cover-img[0].first.first | absolute_url | replace: '.jpg','-s.jpg' }}">
                   </figure>
                   <button formaction="{{ toponymy.url | absolute_url }}"
                     data-background-color="#87CEEB"
@@ -116,7 +116,7 @@ layout: null
         <turbo:content>
             <![CDATA[
                 <figure>
-                  <img src="{{ mysteries-dolmens.url | absolute_url | replace:'.ru/','.ru/img/' | append: 'cover-s.jpg' }}">
+                  <img src="{{ page.cover-img[0].first.first | absolute_url | replace: '.jpg','-s.jpg' }}">
                 </figure>
                 <button formaction="{{ mysteries-dolmens.url | absolute_url }}"
                   data-background-color="#87CEEB"

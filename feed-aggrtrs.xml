@@ -18,11 +18,11 @@ layout: null
       <width>88</width>
       <height>88</height>
       <description>Дорога не кончается</description>
-    </image>    
+    </image>
     <language>ru</language>
     <link>{{ '' | absolute_url }}</link>
 		<!--генериурем страницы из раздела по топонимике -->
-		{% for toponymy in site.toponymy reversed %}	
+		{% for toponymy in site.toponymy reversed %}
 		<item>
 			<title>{{ toponymy.title | strip_html | xml_escape }}</title>
 			<link>{{ toponymy.url | absolute_url }}</link>
@@ -35,7 +35,7 @@ layout: null
 			<category>Путешествия</category>
 			<category>Наука</category>
 			<category>Природа</category>
-			<enclosure url="{{ toponymy.share-img | prepend: site.baseurl | prepend: site.url }}" type="image/jpeg"/>
+			<enclosure url="{{ toponymy.cover-img | replace: '.jpg','-s.jpg' | prepend: site.baseurl | prepend: site.url }}" type="image/jpeg"/>
 			<description>
 				<![CDATA[
 					{{ toponymy.description }}
@@ -141,7 +141,7 @@ layout: null
 			<category>Путешествия</category>
 			<category>Наука</category>
 			<category>Природа</category>
-			<enclosure url="{{ mysteries-dolmens.share-img | prepend: site.baseurl | prepend: site.url }}" type="image/jpeg"/>
+			<enclosure url="{{ mysteries-dolmens.cover-img | replace: '.jpg','-s.jpg' | prepend: site.baseurl | prepend: site.url }}" type="image/jpeg"/>
 			<description>
 				<![CDATA[
 					{{ mysteries-dolmens.description }}
@@ -234,4 +234,4 @@ layout: null
 		</item>
 		{% endfor %}
   </channel>
-</rss>		
+</rss>

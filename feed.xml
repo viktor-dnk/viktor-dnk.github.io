@@ -18,17 +18,17 @@ layout: null
     <link>{{ '' | absolute_url }}</link>
     <atom:link href="{{ 'feed.xml' | absolute_url }}" rel="self" type="application/rss+xml" />
     {% assign excerpt_length = site.excerpt_length | default: 50 %}
-    {% for post in site.posts limit:20 %}
+    {% for post in site.posts limit:70 %}
       <item>
         <title>{{ post.title | strip_html | xml_escape }}</title>
         <description>
-          {% if post.share-img %}&lt;p&gt;&lt;img src="{{ post.share-img | prepend: site.baseurl | prepend: site.url }}" alt="{{ post.title | strip_html | xml_escape }}" class="webfeedsFeaturedVisual"&gt;&lt;/p&gt;{% endif %}{{ post.share-description }}
+          &lt;p&gt;&lt;img src="{{ post.url | absolute_url | replace:'.ru/','.ru/img/' | append: 'cover-s.jpg' }}" alt="{{ post.title | strip_html | xml_escape }}" class="webfeedsFeaturedVisual"&gt;&lt;/p&gt;{{ post.share-description }}
         </description>
         <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
         <link>{{ post.url | absolute_url }}</link>
         <category>{{post.tags | sort | join: ", "}}</category>
         <author>Ковешников В.Н.</author>
-        <enclosure url="{{ post.url |  replace:'.ru/','.ru/img/' | append: 'cover-s.jpg' }} | prepend: site.baseurl | prepend: site.url }}" type="image/jpeg"/>
+        <enclosure url="{{ post.url | absolute_url | replace:'.ru/','.ru/img/' | append: 'cover-s.jpg'" type="image/jpeg"/>
         <guid isPermaLink="true">{{ post.url | absolute_url }}</guid>
       </item>
     {% endfor %}

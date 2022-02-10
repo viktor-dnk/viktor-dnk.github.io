@@ -35,7 +35,7 @@ layout: null
 			<category>Путешествия</category>
 			<category>Наука</category>
 			<category>Природа</category>
-			<enclosure url="{{ toponymy.cover-img | replace: '.jpg','-s.jpg' | prepend: site.baseurl | prepend: site.url }}" type="image/jpeg"/>
+			<enclosure url="{{ toponymy.url | replace:'.ru/','.ru/img/' | append: 'cover-s.jpg' | prepend: site.baseurl | prepend: site.url }}" type="image/jpeg"/>
 			<description>
 				<![CDATA[
 					{{ toponymy.description }}
@@ -141,7 +141,7 @@ layout: null
 			<category>Путешествия</category>
 			<category>Наука</category>
 			<category>Природа</category>
-			<enclosure url="{{ mysteries-dolmens.cover-img | replace: '.jpg','-s.jpg' | prepend: site.baseurl | prepend: site.url }}" type="image/jpeg"/>
+			<enclosure url="{{ mysteries-dolmens.url | replace:'.ru/','.ru/img/' | append: 'cover-s.jpg' | prepend: site.baseurl | prepend: site.url }}" type="image/jpeg"/>
 			<description>
 				<![CDATA[
 					{{ mysteries-dolmens.description }}

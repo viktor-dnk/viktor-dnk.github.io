@@ -26,7 +26,7 @@ layout: null
           <turbo:content>
               <![CDATA[
                   <figure>
-                    <img src="{{ toponymy.cover-img | replace: '.jpg','-s.jpg' }}">
+                    <img src="{{ toponymy.url | absolute_url | replace:'.ru/','.ru/img/' | append: 'cover-s.jpg' }}">
                   </figure>
                   <button formaction="{{ toponymy.url | absolute_url }}"
                     data-background-color="#87CEEB"
@@ -92,7 +92,7 @@ layout: null
                   					data-turbo="false"
                   					data-primary="true">Перейти на сайт автора</button>
                   <figure>
-                    <img src="{{ toponymy.thumbnail-img }}">
+                    <img src="{{ toponymy.url | absolute_url | replace:'.ru/','.ru/img/' | append: 'thumb.jpg' }}">
                   </figure>
                   <div data-block="share">
                   <div data-block="widget-feedback" data-stick="right">
@@ -116,7 +116,7 @@ layout: null
         <turbo:content>
             <![CDATA[
                 <figure>
-                  <img src="{{ mysteries-dolmens.cover-img | replace: '.jpg','-s.jpg' }}">
+                  <img src="{{ mysteries-dolmens.url | absolute_url | replace:'.ru/','.ru/img/' | append: 'cover-s.jpg' }}">
                 </figure>
                 <button formaction="{{ mysteries-dolmens.url | absolute_url }}"
                   data-background-color="#87CEEB"
@@ -182,7 +182,7 @@ layout: null
                 					data-turbo="false"
                 					data-primary="true">Перейти на сайт автора</button>
                 <figure>
-                  <img src="{{ mysteries-dolmens.thumbnail-img }}">
+                  <img src="{{ mysteries-dolmens.url | absolute_url | replace:'.ru/','.ru/img/' | append: 'thumb.jpg' }}">
                 </figure>
                 <div data-block="share">
                 <div data-block="widget-feedback" data-stick="right">

@@ -22,7 +22,7 @@ layout: null
       <item>
         <title>{{ post.title | strip_html | xml_escape }}</title>
         <description>
-          &lt;p&gt;&lt;img src="{{ post.url | absolute_url | replace:'.ru/','.ru/img/' | append: 'cover-s.jpg' }}" alt="{{ post.title | strip_html | xml_escape }}" class="webfeedsFeaturedVisual"&gt;&lt;/p&gt;{{ post.share-description }}
+          &lt;p&gt;&lt;img src="{{ post.url | absolute_url | replace:'.ru/','.ru/img/' | append: 'cover-s.jpg' }}" alt="{{ post.title | strip_html | xml_escape }}" class="webfeedsFeaturedVisual"&gt;&lt;/p&gt;{{ post.content }}
         </description>
         <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
         <link>{{ post.url | absolute_url }}</link>

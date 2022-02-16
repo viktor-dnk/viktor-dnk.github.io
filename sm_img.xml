@@ -552,7 +552,7 @@ layout: null
 		</image:image>
 		<image:image>
 			<image:loc>{{ site.url }}/img/toponymy/maykop/Coat-of-arms-of-the-city-of-Maykop-2005.jpg</image:loc>
-			<image:title>Герб города Майкопа 2005 г</image:title>
+			<image:title>Современный Герб города Майкопа 2005 г</image:title>
 		</image:image>
 		<image:image>
 			<image:loc>{{ site.url }}/img/toponymy/maykop/Cathedral-mosque-of-Maykop-main-in-the-city-b.jpg</image:loc>

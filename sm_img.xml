@@ -3331,4 +3331,43 @@ layout: null
       <image:title>Скала Чёртов палец в Абинском районе</image:title>
     </image:image>
 </url>
+<url>
+  <loc>{{ site.url }}/toponymy/hell-gate/</loc>
+  <lastmod>2022-02-16</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+  <image:image>
+    <image:loc>{{ site.url }}/img/toponymy/pavlovskaya/Map-resettlement-Black-Sea-Cossacks-Kuban-b.jpg</image:loc>
+    <image:title>Карта переселения черноморских казаков на Кубань</image:title>
+  </image:image>
+  <image:image>
+    <image:loc>{{ site.url }}/img/toponymy/pavlovskaya/Railway-station-Sosyka-Rostovskaya-North-Caucasus-Railway-b.jpg</image:loc>
+    <image:title>Железнодорожной станция Сосыка-Ростовская СКЖД</image:title>
+  </image:image>
+  <image:image>
+    <image:loc>{{ site.url }}/img/toponymy/pavlovskaya/Coat-arms-Pavlovsky-district.jpg</image:loc>
+    <image:title>Герб Павловского района</image:title>
+  </image:image>
+  <image:image>
+    <image:loc>{{ site.url }}/img/toponymy/pavlovskaya/Coat-arms-village-Pavlovskaya.jpg</image:loc>
+    <image:title>Герб станицы Павловской</image:title>
+  </image:image>
+  <image:image>
+    <image:loc>{{ site.url }}/img/toponymy/pavlovskaya/Grand-Duke-Pavel-Petrovich-1782.jpg.jpg</image:loc>
+    <image:title>Великий князь Павел Петрович 1782 г.</image:title>
+  </image:image>
+  <image:image>
+    <image:loc>{{ site.url }}/img/toponymy/pavlovskaya/Apostle-Paul-computer-reconstruction.jpg.jpg</image:loc>
+    <image:title>Апостол Павел, компьютерная реконструкция</image:title>
+  </image:image>
+  <image:image>
+    <image:loc>{{ site.url }}/img/toponymy/pavlovskaya/Monument-Holy-Apostle-Paul.jpg.jpg</image:loc>
+    <image:title>Памятник Святому апостолу Павлу</image:title>
+  </image:image>
+  <image:image>
+    <image:loc>{{ site.url }}/img/toponymy/pavlovskaya/Church-Assumption-Blessed-Virgin-village-Pavlovskaya-b.jpg</image:loc>
+    <image:title>Храм Успения Пресвятой Богородицы в станице Павловской</image:title>
+  </image:image>
+
+</url>
 </urlset>

@@ -527,7 +527,7 @@ layout: null
   </url>
   <url>
     <loc>{{ site.url }}/toponymy/maykop/</loc>
-    <lastmod>2021-08-14</lastmod>
+    <lastmod>2022-02-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
 		<image:image>
@@ -853,7 +853,7 @@ layout: null
   </url>
   <url>
     <loc>{{ site.url }}/toponymy/primorsko-akhtarsk/</loc>
-    <lastmod>2021-08-14</lastmod>
+    <lastmod>2022-02-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
       <image:image>
@@ -3133,7 +3133,7 @@ layout: null
 </url>
 <url>
   <loc>{{ site.url }}/toponymy/psekups/</loc>
-  <lastmod>2022-01-17</lastmod>
+  <lastmod>2022-02-16</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.8</priority>
   <image:image>

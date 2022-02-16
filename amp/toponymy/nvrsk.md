@@ -3,7 +3,7 @@ title: Новороссийск — город, названый именем Р
 subtitle: (о топонимах Новороссийск, Суджук-Кале, Цемес) © В.Н. Ковешников
 share-title: История города Новороссийск
 share-description: Новороссийск город-герой, город морской славы, крупнейший город-порт России на берегу Новороссийской бухты самой большой на Черноморском побережье Кавказа.
-last_modified_at: 2021-12-09 16:20 +0300
+last_modified_at: 2022-02-16 16:20 +0300
 date: 2021-12-09 16:20 +0300
 ---
 {: .box-note}
@@ -47,28 +47,28 @@ date: 2021-12-09 16:20 +0300
 </figure>
 
 <figure>
-	<img src="/img/toponymy/nvrsk/Coat-arms-Nvorossiysk-1914.gif" title="Герб города Новороссийск 1914 г." alt="Герб города Новороссийск 1914 г." width="204" height="204"/>
-	<figcaption>Герб города Новороссийск 1914 г. (https://geraldika.ru/)</figcaption>
+	<img src="/img/toponymy/nvrsk/Coat-arms-Nvorossiysk-1914.gif" title="Герб города Новороссийск 1914 г." alt="Герб города Новороссийск 1914 г." width="360" height="367"/>
+	<figcaption>Герб города Новороссийск 1914 г.</figcaption>
 </figure>
 
 <figure>
-	<img src="/img/toponymy/nvrsk/Coat-arms-Nvorossiysk-1968.gif" title="Герб города Новороссийск 1968 г." alt="Герб города Новороссийск 1968 г." width="238" height="238"/>
-	<figcaption>Герб города Новороссийск 1968 г. (https://geraldika.ru/)</figcaption>
+	<img src="/img/toponymy/nvrsk/Coat-arms-Nvorossiysk-1968.gif" title="Герб города Новороссийск 1968 г." alt="Герб города Новороссийск 1968 г." width="360" height="485"/>
+	<figcaption>Герб города Новороссийск 1968 г.</figcaption>
 </figure>
 
 <figure>
-	<img src="/img/toponymy/nvrsk/Coat-arms-Nvorossiysk-1974.gif" title="Герб города Новороссийск 1974 г." alt="Герб города Новороссийск 1974 г." width="223" height="223"/>
-	<figcaption>Герб города Новороссийск 1974 г. (https://geraldika.ru/)</figcaption>
+	<img src="/img/toponymy/nvrsk/Coat-arms-Nvorossiysk-1974.gif" title="Герб города Новороссийск 1974 г." alt="Герб города Новороссийск 1974 г." width="360" height="459"/>
+	<figcaption>Герб города Новороссийск 1974 г.</figcaption>
 </figure>
 
 <figure>
-	<img src="/img/toponymy/nvrsk/Coat-arms-Nvorossiysk-1993.gif" title="Герб города Новороссийск 1993 г." alt="Герб города Новороссийск 1993 г." width="189" height="189"/>
-	<figcaption>Герб города Новороссийск 1993 г. (https://geraldika.ru/)</figcaption>
+	<img src="/img/toponymy/nvrsk/Coat-arms-Nvorossiysk-1993.gif" title="Герб города Новороссийск 1993 г." alt="Герб города Новороссийск 1993 г." width="360" height="339"/>
+	<figcaption>Герб города Новороссийск 1993 г.</figcaption>
 </figure>
 
 <figure>
-	<img src="/img/toponymy/nvrsk/Coat-arms-Nvorossiysk-2006.gif" title="Герб города Новороссийск 2006 г." alt="Герб города Новороссийск 2006 г." width="220" height="220"/>
-	<figcaption>Герб города Новороссийск 2006 г. (https://geraldika.ru/)</figcaption>
+	<img src="/img/toponymy/nvrsk/Coat-arms-Nvorossiysk-2006.gif" title="Герб города Новороссийск 2006 г." alt="Герб города Новороссийск 2006 г." width="360" height="450"/>
+	<figcaption>Герб города Новороссийск 2006 г. (https://megabook.ru/)</figcaption>
 </figure>
 
 В основе ойконима (имя населённого пункта) Новороссийск ключевым словом является название нашего государства Россия. Своими корнями оно уходить в Древнюю Русь — историческое название восточнославянских земель. Становление Руси, восходит к первой половине 1 тыс. н.э., его название образовано от имени этнонима **русь (росы, русы)**, а возникновение этноса возводят к началу новой эры. **Этимология названия Русь, то есть история его происхождение, остаётся ещё спорной**, вот некоторые версии:

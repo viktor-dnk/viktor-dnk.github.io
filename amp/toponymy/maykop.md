@@ -3,7 +3,7 @@ title: Maiankap - «Гора меотов»
 subtitle: © В.Н. Ковешников
 share-title: Майкоп - Гора меотов
 share-description: Перевод топонима Майкоп имеет не однозначный смысл.
-last_modified_at: 2021-06-16 18:10
+last_modified_at: 2022-02-16 15:00 +0300
 date: 2021-06-16 18:10
 ---
 {: .box-note}

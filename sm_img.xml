@@ -3342,7 +3342,7 @@ layout: null
   </image:image>
   <image:image>
     <image:loc>{{ site.url }}/img/toponymy/pavlovskaya/Railway-station-Sosyka-Rostovskaya-North-Caucasus-Railway-b.jpg</image:loc>
-    <image:title>Железнодорожной станция Сосыка-Ростовская СКЖД</image:title>
+    <image:title>Железнодорожная станция Сосыка-Ростовская СКЖД</image:title>
   </image:image>
   <image:image>
     <image:loc>{{ site.url }}/img/toponymy/pavlovskaya/Coat-arms-Pavlovsky-district.jpg</image:loc>

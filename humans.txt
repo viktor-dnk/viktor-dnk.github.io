@@ -6,17 +6,18 @@ permalink: /humans.txt
 ---
 /* TEAM */
 
-  Author: Koveshnikov V.
+  Author: Koveshnikov V.N.
   Site:https://viktor-dnk.ru/info/contacts/
+  Telegram-channel: https://t.me/toponim
   Location: Krasnodar, Russia
 
-  developer, SEO, web-support: Koveshnikov A.V.
+  developer, seo, web-support: Koveshnikov A.V.
   Telegram: @tbk1945
   Location: Krasnodar, Russia
-  
+
 /* SITE */
 
   Last Update: {{ site.time | date:"%Y/%m/%d" }}
   Standards: HTML5, CSS3
-  Software: Jekyll, Git, Atom.io, Xnconvert, notepad++
+  Software: Jekyll, Atom.io, Xnconvert, notepad++, photopea.com
   Language: Russian

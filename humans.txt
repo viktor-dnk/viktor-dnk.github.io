@@ -1,0 +1,22 @@
+---
+layout: null
+title: "Staff Information"
+source: "http://humanstxt.org/Standard.html"
+permalink: /humans.txt
+---
+/* TEAM */
+
+  Author: Koveshnikov V.
+  Site:https://viktor-dnk.ru/info/contacts/
+  Location: Krasnodar, Russia
+
+  developer, SEO, web-support: Koveshnikov A.V.
+  Telegram: @tbk1945
+  Location: Krasnodar, Russia
+  
+/* SITE */
+
+  Last Update: {{ site.time | date:"%Y/%m/%d" }}
+  Standards: HTML5, CSS3
+  Software: Jekyll, Git, Atom.io, Xnconvert, notepad++
+  Language: Russian

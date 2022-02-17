@@ -5,12 +5,12 @@ source: "http://humanstxt.org/Standard.html"
 permalink: /humans.txt
 ---
 /* TEAM */
-  Author: Koveshnikov Viktor
+  Author: Viktor Koveshnikov
   Site: https://viktor-dnk.ru/info/contacts/
   Telegram-channel: https://t.me/toponim
   From: Krasnodar, Russia
 
-  developer, seo, web-support: Koveshnikov Anatoliy
+  developer, seo, web-support: Anatoliy Koveshnikov
   Telegram: @tbk1945
   Twitter: @thekubanology
   From: Krasnodar, Russia

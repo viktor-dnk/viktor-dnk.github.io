@@ -5,20 +5,18 @@ source: "http://humanstxt.org/Standard.html"
 permalink: /humans.txt
 ---
 /* TEAM */
-
   Author: Koveshnikov Viktor
-  Site:https://viktor-dnk.ru/info/contacts/
+  Site: https://viktor-dnk.ru/info/contacts/
   Telegram-channel: https://t.me/toponim
-  Location: Krasnodar, Russia
+  From: Krasnodar, Russia
 
   developer, seo, web-support: Koveshnikov Anatoliy
   Telegram: @tbk1945
   Twitter: @thekubanology
-  Location: Krasnodar, Russia
+  From: Krasnodar, Russia
 
 /* SITE */
-
-  Last Update: {{ site.time | date:"%Y/%m/%d" }}
-  Standards: HTML5, CSS3
-  Software: Jekyll, Atom.io, Xnconvert, notepad++, photopea.com
+  Last update: {{ site.time | date:"%Y/%m/%d" }}
   Language: Russian
+  Doctype: HTML5, CSS3
+  IDE: Jekyll, Atom.io, Stackedit.io, Notepad++, Xnconvert, Photopea.com

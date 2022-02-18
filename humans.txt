@@ -5,7 +5,7 @@ source: "http://humanstxt.org/Standard.html"
 permalink: /humans.txt
 ---
 /* TEAM */
-  Author: Viktor Koveshnikov
+  Author, researcher: Viktor Koveshnikov
   Site: https://viktor-dnk.ru/info/contacts/
   Telegram-channel: https://t.me/toponim
   From: Krasnodar, Russia
@@ -18,5 +18,5 @@ permalink: /humans.txt
 /* SITE */
   Last update: {{ site.time | date:"%Y/%m/%d" }}
   Language: Russian
-  Doctype: HTML5, CSS3
-  IDE: Jekyll, Atom.io, Stackedit.io, Notepad++, Xnconvert, Photopea.com
+  Doctype: HTML, CSS
+  IDE: Jekyll, Atom.io, Notepad++, Xnconvert, Photopea.com, Stackedit.io, Screaming Frog SEO Spider

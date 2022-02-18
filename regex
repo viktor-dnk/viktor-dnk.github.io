@@ -1,6 +1,3 @@
-удалить из корня *.svg *.png *.ico
-
-
 это регулярка для автосоздания ссылок на якоря по тексту
 (\[[0-9, ]+\])
 [$1](#t47-$1)
@@ -33,38 +30,9 @@
 0151 — тире
 0150 - дефис
 
-стандартизация тегов
-<a title=(".*")\ href=(".*.jpg")>
-<a href=$2 title=$1>
-
-<img alt=(".*")\ src=(".*.jpg")/>
-<img src=$2 alt=$1>
-
-
-замены размеров изображения в теге
-style="width: (.*)px;"
-width="$1" height=""
-
 замена ахреф на просто имг
 <a(.*.jpg">)<img alt="(.*)" style(.*)</a>
 <img alt="$2" title="$2" style$3
-
-переименование файлов
--s.jpg"/></a>
-^web-small
-.jpg"/></a>
-
-.jpg"/>
-
- [[;ffffffffdfff
-&web-norm
-.jpg"/>
-
-.jpg"><img
-#web-big
--b.jpg"><img
-
-
 
 redirect_from:
   - /post/123456789/

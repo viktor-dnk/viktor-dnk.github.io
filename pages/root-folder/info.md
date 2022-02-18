@@ -9,6 +9,7 @@ share-description: Информация о сайте Заметки геогр�
 last_modified_at: 2022-01-14 10:00:00 +0300
 language: ru
 keywords: информация, контакты
+permalink: /info/
 ---
 <div class="posts-list">
   {% for info in site.info %}

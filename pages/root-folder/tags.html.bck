@@ -5,6 +5,7 @@ subtitle: Общий список использованных на сайте �
 cover-img: /img/example-logos/main-cover.jpg
 sitemap: false
 head-extra: _noindex.html
+permalink: /tags/
 ---
 
 {% assign date_format = site.date_format | default: "%B %-d, %Y" %}

@@ -6,6 +6,7 @@ share-img: /img/example-logos/main-cover-s.jpg
 language: ru
 last_modified_at: 2021-03-23 17:00:00 +0300
 date: 2020-09-08 16:00
+permalink: /amp/
 ---
 {: .box-note}
 ## <br><br><br>Заметки географа

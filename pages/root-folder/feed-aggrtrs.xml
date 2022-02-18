@@ -1,39 +1,51 @@
 ---
 layout: null
+title: "RSS Feed for pulse.mail.ru"
+permalink: /feed-aggrtrs.xml
 ---
 <?xml version="1.0" encoding="UTF-8"?>
-<rss xmlns:yandex="http://news.yandex.ru"
-     xmlns:media="http://search.yahoo.com/mrss/"
-     xmlns:turbo="http://turbo.yandex.ru"
-     version="2.0">
+<rss version="2.0"
+    xmlns:content="http://purl.org/rss/1.0/modules/content/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:media="http://search.yahoo.com/mrss/"
+    xmlns:atom="http://www.w3.org/2005/Atom"
+    xmlns:georss="http://www.georss.org/georss">
   <channel>
-    <title>Дорога не кончается</title>
+    <title>Заметки географа</title>
+    <description>Дорога не кончается</description>
+    <image>
+      <url>https://viktor-dnk.ru/img/example-logos/rss.png</url>
+      <title>Заметки географа</title>
+      <link>{{ '' | absolute_url }}</link>
+      <width>88</width>
+      <height>88</height>
+      <description>Дорога не кончается</description>
+    </image>
+    <language>ru</language>
     <link>{{ '' | absolute_url }}</link>
-    <description>Блог географа-краеведа</description>
-		<language>ru</language>
-    <turbo:analytics type="Yandex" id="69067006"></turbo:analytics>
-    <turbo:analytics type="Google" id="UA-169383032-2"></turbo:analytics>
-	  {% assign excerpt_length = site.excerpt_length | default: 50 %}
-<!--генериурем страницы из раздела по топонимике -->
-      {% for toponymy in site.toponymy limit:100 %}
-      <item turbo="true">
-          <link>{{ toponymy.url | absolute_url }}</link>
-          <turbo:source>{{ toponymy.url | absolute_url }}</turbo:source>
-          <turbo:topic>{{ toponymy.title | xml_escape }}</turbo:topic>
-          <pubDate>{{ toponymy.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
-          <author>Ковешников В.Н.</author>
-          <title>{{ toponymy.title | strip_html | xml_escape }}</title>
-          <turbo:content>
-              <![CDATA[
-                  <figure>
-                    <img src="{{ toponymy.cover-img[0].first.first | absolute_url | replace: '.jpg','-s.jpg' }}">
-                  </figure>
-                  <button formaction="{{ toponymy.url | absolute_url }}"
-                    data-background-color="#87CEEB"
-          					data-color="white"
-          					data-turbo="false"
-          					data-primary="true">Читать оригинал</button>
-                  {% assign preprocessed_content=toponymy.content | replace: '<p>', '__p__' %}
+		<!--генериурем страницы из раздела по топонимике -->
+		{% for toponymy in site.toponymy reversed %}
+		<item>
+			<title>{{ toponymy.title | strip_html | xml_escape }}</title>
+			<link>{{ toponymy.url | absolute_url }}</link>
+			<pdalink>{{ toponymy.url | absolute_url }}</pdalink>
+			<amplink>{{ toponymy.url | absolute_url | strip_index | replace:'.ru/','.ru/amp/' }}</amplink>
+			<guid isPermaLink="true">{{ toponymy.url | absolute_url }}</guid>
+			<media:rating scheme="urn:simple">nonadult</media:rating>
+			<pubDate>{{ toponymy.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
+			<author>Ковешников В.Н.</author>
+			<category>Путешествия</category>
+			<category>Наука</category>
+			<category>Природа</category>
+			<enclosure url="{{ toponymy.cover-img[0].first.first | absolute_url | replace: '.jpg','-s.jpg' }}" type="image/jpeg"/>
+			<description>
+				<![CDATA[
+					{{ toponymy.description }}
+				]]>
+			</description>
+			<content:encoded>
+				<![CDATA[
+				  {% assign preprocessed_content=toponymy.content | replace: '<p>', '__p__' %}
                   {% assign preprocessed_content=preprocessed_content | replace: '</p>', '__/p__' %}
                   {% assign preprocessed_content=preprocessed_content | replace: '<li>', '__li__' %}
                   {% assign preprocessed_content=preprocessed_content | replace: '</li>', '__/li__' %}
@@ -49,11 +61,24 @@ layout: null
                   {% assign preprocessed_content=preprocessed_content | replace: '</figure>', '__/figure__' %}
                   {% assign preprocessed_content=preprocessed_content | replace: '<figcaption>', '__figcaption__' %}
                   {% assign preprocessed_content=preprocessed_content | replace: '</figcaption>', '__/figcaption__' %}
+	{% assign preprocessed_content=preprocessed_content | replace: '<table>', '__table__' %}
+	{% assign preprocessed_content=preprocessed_content | replace: '</table>', '__/table__' %}
+	{% assign preprocessed_content=preprocessed_content | replace: '<tr>', '__tr__' %}
+	{% assign preprocessed_content=preprocessed_content | replace: '</tr>', '__/tr__' %}
+	{% assign preprocessed_content=preprocessed_content | replace: '<th>', '__th__' %}
+	{% assign preprocessed_content=preprocessed_content | replace: '</th>', '__/th__' %}
+	{% assign preprocessed_content=preprocessed_content | replace: '<thead>', '__thead__' %}
+	{% assign preprocessed_content=preprocessed_content | replace: '</thead>', '__/thead__' %}
+	{% assign preprocessed_content=preprocessed_content | replace: '<td>', '__td__' %}
+	{% assign preprocessed_content=preprocessed_content | replace: '</td>', '__/td__' %}
+	{% assign preprocessed_content=preprocessed_content | replace: '<tbody>', '__tbody__' %}
+	{% assign preprocessed_content=preprocessed_content | replace: '</tbody>', '__/tbody__' %}
                   {% assign preprocessed_content=preprocessed_content | replace: '<h2', '__h2__' %}
                   {% assign preprocessed_content=preprocessed_content | replace: '</h2>', '__/h2__' %}
                   {% assign preprocessed_content=preprocessed_content | replace: '<img', '__img__' %}
                   {% assign preprocessed_content=preprocessed_content | replace: '<br />', '__br/__' %}
-                  {% assign preprocessed_content=preprocessed_content | replace: '<a href="/', '__a href__' %}
+                  {% assign preprocessed_content=preprocessed_content | replace: '<a href="/toponymy/', '__a href topo__' %}
+				  {% assign preprocessed_content=preprocessed_content | replace: '<a href="/mysteries-dolmens/', '__a href md__' %}
                   {% assign preprocessed_content=preprocessed_content | replace: '</a>', '__/a__' %}
                       {% assign truncated_content=preprocessed_content | strip_html %}
                   {% assign cleaned_content=truncated_content | replace: '__p__', '<p>' %}
@@ -72,57 +97,60 @@ layout: null
                   {% assign cleaned_content=cleaned_content | replace: '__/figure__', '</figure>' %}
                   {% assign cleaned_content=cleaned_content | replace: '__figcaption__', '<figcaption>' %}
                   {% assign cleaned_content=cleaned_content | replace: '__/figcaption__', '</figcaption>' %}
+                {% assign cleaned_content=cleaned_content | replace: '__table__', '<table>' %}
+                {% assign cleaned_content=cleaned_content | replace: '__/table__', '</table>' %}
+                {% assign cleaned_content=cleaned_content | replace: '__tr__', '<tr>' %}
+                {% assign cleaned_content=cleaned_content | replace: '__/tr__', '</tr>' %}
+                {% assign cleaned_content=cleaned_content | replace: '__th__', '<th>' %}
+                {% assign cleaned_content=cleaned_content | replace: '__/th__', '</th>' %}
+                {% assign cleaned_content=cleaned_content | replace: '__thead__', '<thead>' %}
+                {% assign cleaned_content=cleaned_content | replace: '__/thead__', '</thead>' %}
+                {% assign cleaned_content=cleaned_content | replace: '__td__', '<td>' %}
+                {% assign cleaned_content=cleaned_content | replace: '__/td__', '</td>' %}
+                {% assign cleaned_content=cleaned_content | replace: '__tbody__', '<tbody>' %}
+                {% assign cleaned_content=cleaned_content | replace: '__/tbody__', '</tbody>' %}
                   {% assign cleaned_content=cleaned_content | replace: '__h2__', '<h2' %}
                   {% assign cleaned_content=cleaned_content | replace: '__/h2__', '</h2>' %}
                   {% assign cleaned_content=cleaned_content | replace: '__img__', '<img' %}
                   {% assign cleaned_content=cleaned_content | replace: '__br/__', '<br />' %}
-                  {% assign cleaned_content=cleaned_content | replace: '__a href__', '<a data-turbo="false" href="/' %}
+                  {% assign cleaned_content=cleaned_content | replace: '__a href topo__', '<a href="https://viktor-dnk.ru/toponymy/' %}
+                  {% assign cleaned_content=cleaned_content | replace: '__a href md__', '<a href="https://viktor-dnk.ru/mysteries-dolmens/' %}
                   {% assign cleaned_content=cleaned_content | replace: '__/a__', '</a>' %}
-                  {% assign cleaned_content=cleaned_content | replace: '" /></a>', '" />' %}
                   {% assign cleaned_content=cleaned_content | replace: ']</a>', ']' %}
+                  {% assign cleaned_content=cleaned_content | replace: ' /></a>', ' />' %}
                   {% assign cleaned_content=cleaned_content | replace: '</a></li>', '</li>' %}
                   {% assign cleaned_content=cleaned_content | replace: '<strong></a>', '<strong>' %}
                   {% assign cleaned_content=cleaned_content | replace: '<li></a>', '<li>' %}
                   {% assign cleaned_content=cleaned_content | replace: 'src="/img/mysteries-dolmens/', 'src="https://viktor-dnk.ru/img/mysteries-dolmens/' %}
                   {% assign cleaned_content=cleaned_content | replace: 'src="/img/toponymy/', 'src="https://viktor-dnk.ru/img/toponymy/' %}
-          				    {{ cleaned_content }}
-                  <button formaction="{{ toponymy.url | absolute_url }}"
-                  					data-background-color="#87CEEB"
-                  					data-color="white"
-                  					data-turbo="false"
-                  					data-primary="true">Перейти на сайт автора</button>
-                  <figure>
-                    <img src="{{ toponymy.url | absolute_url | replace:'.ru/','.ru/img/' | append: 'thumb.jpg' }}">
-                  </figure>
-                  <div data-block="share">
-                  <div data-block="widget-feedback" data-stick="right">
-                      <div data-block="chat" data-type="telegram" data-url="https://t.me/toponim"></div>
-                      <div data-type="twitter" data-url="https://twitter.com/thekubanology"></div>
-                      <div data-type="mail" data-url="mailto:dnk_v@list.ru"></div>
-                  </div>
-              ]]>
-          </turbo:content>
-         </item>
-      {% endfor %}
-<!--генериурем страницы из раздела про дольмены -->
-    {% for mysteries-dolmens in site.mysteries-dolmens limit:100 %}
-    <item turbo="true">
-        <link>{{ mysteries-dolmens.url | absolute_url }}</link>
-        <turbo:source>{{ mysteries-dolmens.url | absolute_url }}</turbo:source>
-        <turbo:topic>{{ mysteries-dolmens.title | xml_escape }}</turbo:topic>
-        <pubDate>{{ mysteries-dolmens.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
-        <author>Ковешников В.Н.</author>
-        <title>{{ mysteries-dolmens.title | xml_escape }}</title>
-        <turbo:content>
-            <![CDATA[
-                <figure>
-                  <img src="{{ mysteries-dolmens.cover-img[0].first.first | absolute_url | replace: '.jpg','-s.jpg' }}">
-                </figure>
-                <button formaction="{{ mysteries-dolmens.url | absolute_url }}"
-                  data-background-color="#87CEEB"
-        					data-color="white"
-        					data-turbo="false"
-        					data-primary="true">Читать оригинал</button>
+                  {% assign cleaned_content=cleaned_content | replace: 'href="/', 'href="https://viktor-dnk.ru/' %}
+			{{ cleaned_content }}
+				]]>
+			</content:encoded>
+		</item>
+		{% endfor %}
+		<!--генериурем страницы из раздела про дольмены -->
+		{% for mysteries-dolmens in site.mysteries-dolmens reversed %}
+		<item>
+			<title>{{ mysteries-dolmens.title | strip_html | xml_escape }}</title>
+			<link>{{ mysteries-dolmens.url | absolute_url }}</link>
+			<pdalink>{{ mysteries-dolmens.url | absolute_url }}</pdalink>
+			<amplink>{{ mysteries-dolmens.url | absolute_url | strip_index | replace:'.ru/','.ru/amp/' }}</amplink>
+			<guid isPermaLink="true">{{ mysteries-dolmens.url | absolute_url }}</guid>
+			<media:rating scheme="urn:simple">nonadult</media:rating>
+			<pubDate>{{ mysteries-dolmens.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
+			<author>Ковешников В.Н.</author>
+			<category>Путешествия</category>
+			<category>Наука</category>
+			<category>Природа</category>
+			<enclosure url="{{ mysteries-dolmens.cover-img[0].first.first | absolute_url | replace: '.jpg','-s.jpg' }}" type="image/jpeg"/>
+			<description>
+				<![CDATA[
+					{{ mysteries-dolmens.description }}
+				]]>
+			</description>
+			<content:encoded>
+				<![CDATA[
                 {% assign preprocessed_content=mysteries-dolmens.content | replace: '<p>', '__p__' %}
                 {% assign preprocessed_content=preprocessed_content | replace: '</p>', '__/p__' %}
                 {% assign preprocessed_content=preprocessed_content | replace: '<li>', '__li__' %}
@@ -139,11 +167,24 @@ layout: null
                 {% assign preprocessed_content=preprocessed_content | replace: '</figure>', '__/figure__' %}
                 {% assign preprocessed_content=preprocessed_content | replace: '<figcaption>', '__figcaption__' %}
                 {% assign preprocessed_content=preprocessed_content | replace: '</figcaption>', '__/figcaption__' %}
+	{% assign preprocessed_content=preprocessed_content | replace: '<table>', '__table__' %}
+	{% assign preprocessed_content=preprocessed_content | replace: '</table>', '__/table__' %}
+	{% assign preprocessed_content=preprocessed_content | replace: '<tr>', '__tr__' %}
+	{% assign preprocessed_content=preprocessed_content | replace: '</tr>', '__/tr__' %}
+	{% assign preprocessed_content=preprocessed_content | replace: '<th>', '__th__' %}
+	{% assign preprocessed_content=preprocessed_content | replace: '</th>', '__/th__' %}
+	{% assign preprocessed_content=preprocessed_content | replace: '<thead>', '__thead__' %}
+	{% assign preprocessed_content=preprocessed_content | replace: '</thead>', '__/thead__' %}
+	{% assign preprocessed_content=preprocessed_content | replace: '<td>', '__td__' %}
+	{% assign preprocessed_content=preprocessed_content | replace: '</td>', '__/td__' %}
+	{% assign preprocessed_content=preprocessed_content | replace: '<tbody>', '__tbody__' %}
+	{% assign preprocessed_content=preprocessed_content | replace: '</tbody>', '__/tbody__' %}
                 {% assign preprocessed_content=preprocessed_content | replace: '<h2', '__h2__' %}
                 {% assign preprocessed_content=preprocessed_content | replace: '</h2>', '__/h2__' %}
                 {% assign preprocessed_content=preprocessed_content | replace: '<img', '__img__' %}
                 {% assign preprocessed_content=preprocessed_content | replace: '<br />', '__br/__' %}
-                {% assign preprocessed_content=preprocessed_content | replace: '<a href="/', '__a href__' %}
+                {% assign preprocessed_content=preprocessed_content | replace: '<a href="/toponymy/', '__a href topo__' %}
+				{% assign preprocessed_content=preprocessed_content | replace: '<a href="/mysteries-dolmens/', '__a href md__' %}
                 {% assign preprocessed_content=preprocessed_content | replace: '</a>', '__/a__' %}
                     {% assign truncated_content=preprocessed_content | strip_html %}
                 {% assign cleaned_content=truncated_content | replace: '__p__', '<p>' %}
@@ -162,37 +203,37 @@ layout: null
                 {% assign cleaned_content=cleaned_content | replace: '__/figure__', '</figure>' %}
                 {% assign cleaned_content=cleaned_content | replace: '__figcaption__', '<figcaption>' %}
                 {% assign cleaned_content=cleaned_content | replace: '__/figcaption__', '</figcaption>' %}
+			{% assign cleaned_content=cleaned_content | replace: '__table__', '<table>' %}
+			{% assign cleaned_content=cleaned_content | replace: '__/table__', '</table>' %}
+			{% assign cleaned_content=cleaned_content | replace: '__tr__', '<tr>' %}
+			{% assign cleaned_content=cleaned_content | replace: '__/tr__', '</tr>' %}
+			{% assign cleaned_content=cleaned_content | replace: '__th__', '<th>' %}
+			{% assign cleaned_content=cleaned_content | replace: '__/th__', '</th>' %}
+			{% assign cleaned_content=cleaned_content | replace: '__thead__', '<thead>' %}
+			{% assign cleaned_content=cleaned_content | replace: '__/thead__', '</thead>' %}
+			{% assign cleaned_content=cleaned_content | replace: '__td__', '<td>' %}
+			{% assign cleaned_content=cleaned_content | replace: '__/td__', '</td>' %}
+			{% assign cleaned_content=cleaned_content | replace: '__tbody__', '<tbody>' %}
+			{% assign cleaned_content=cleaned_content | replace: '__/tbody__', '</tbody>' %}
                 {% assign cleaned_content=cleaned_content | replace: '__h2__', '<h2' %}
                 {% assign cleaned_content=cleaned_content | replace: '__/h2__', '</h2>' %}
                 {% assign cleaned_content=cleaned_content | replace: '__img__', '<img' %}
                 {% assign cleaned_content=cleaned_content | replace: '__br/__', '<br />' %}
-                {% assign cleaned_content=cleaned_content | replace: '__a href__', '<a data-turbo="false" href="/' %}
+                {% assign cleaned_content=cleaned_content | replace: '__a href topo__', '<a href="https://viktor-dnk.ru/toponymy/' %}
+                {% assign cleaned_content=cleaned_content | replace: '__a href md__', '<a href="https://viktor-dnk.ru/mysteries-dolmens/' %}
                 {% assign cleaned_content=cleaned_content | replace: '__/a__', '</a>' %}
-                {% assign cleaned_content=cleaned_content | replace: '" /></a>', '" />' %}
                 {% assign cleaned_content=cleaned_content | replace: ']</a>', ']' %}
+                {% assign cleaned_content=cleaned_content | replace: ' /></a>', ' />' %}
                 {% assign cleaned_content=cleaned_content | replace: '</a></li>', '</li>' %}
                 {% assign cleaned_content=cleaned_content | replace: '<strong></a>', '<strong>' %}
                 {% assign cleaned_content=cleaned_content | replace: '<li></a>', '<li>' %}
                 {% assign cleaned_content=cleaned_content | replace: 'src="/img/mysteries-dolmens/', 'src="https://viktor-dnk.ru/img/mysteries-dolmens/' %}
                 {% assign cleaned_content=cleaned_content | replace: 'src="/img/toponymy/', 'src="https://viktor-dnk.ru/img/toponymy/' %}
-        				    {{ cleaned_content }}
-                <button formaction="{{ mysteries-dolmens.url | absolute_url }}"
-                					data-background-color="#87CEEB"
-                					data-color="white"
-                					data-turbo="false"
-                					data-primary="true">Перейти на сайт автора</button>
-                <figure>
-                  <img src="{{ mysteries-dolmens.url | absolute_url | replace:'.ru/','.ru/img/' | append: 'thumb.jpg' }}">
-                </figure>
-                <div data-block="share">
-                <div data-block="widget-feedback" data-stick="right">
-                    <div data-block="chat" data-type="telegram" data-url="https://t.me/toponim"></div>
-                    <div data-type="twitter" data-url="https://twitter.com/thekubanology"></div>
-                    <div data-type="mail" data-url="mailto:dnk_v@list.ru"></div>
-                </div>
-            ]]>
-        </turbo:content>
-       </item>
-    {% endfor %}
+		{% assign cleaned_content=cleaned_content | replace: 'href="/', 'href="https://viktor-dnk.ru/' %}
+			{{ cleaned_content }}
+				]]>
+			</content:encoded>
+		</item>
+		{% endfor %}
   </channel>
 </rss>

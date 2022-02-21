@@ -14,12 +14,12 @@ share-description: Общий список литературы, которая 
 img-caption: Karte des Kaukasischen Isthmus 1856
 widget1:
   title: "павловская"
-  url: '/toponymy/pavlovskaya/'
+  url: 'https://viktor-dnk.ru/toponymy/pavlovskaya/'
   image: /img/toponymy/pavlovskaya/cover4x3.jpg
   text: 'Станица Павловская сейчас является административным центром Павловского района Краснодарского края и Павловского сельского поселения, расположена на реке Сосыка. У истоков зарождения станицы стояли переселенцы из Полтавской и Черниговской губерний Российской империи. Основана станица в 1822 г., как куренное селение.'
 widget2:
   title: "Крыловская"
-  url: '/toponymy/krylovskaya/'
+  url: 'https://viktor-dnk.ru/toponymy/krylovskaya/'
   text: 'Как оказывается, на картах Краснодарского края, изданных после 1961 г., можно обнаружить две станицы под названием Крыловская. Обе станицы были основаны черноморскими казаками в 1794 г. (год юридического основания), получив статус куренных селений. В 1842 г. селениям был присвоен статус станиц. С обеими населёнными пунктами Крыловские на Кубани, происходили административные «перипетии». В начальный период при основании 40 куренных селений Черноморского казачьего войска на Кубани, возникало много проблем военно-организационного характера, а также в советский период истории России, когда была «популярна традиция», переименовывать населённые пункты. '
   image: '/img/toponymy/krylovskaya/cover4x3.jpg'
 widget3:
@@ -261,23 +261,58 @@ widget3:
 </figure>
 
 
-{% capture widget_url %}{% if page.widget.url == NULL %}{% elsif page.widget.url contains 'http' %}{{ page.widget.url }}{% else %}{{ site.url }}{{ site.baseurl }}{{ page.widget.url }}{% endif %}{% endcapture %}
-
-{% capture widget_image %}{% if page.widget.image contains 'http' %}{{ page.widget.image }}{% else %}{{ site.urlimg }}{{ page.widget.image }}{% endif %}{% endcapture %}
-
-
-<div class="medium-4 columns frontpage-widget">
-	{% if page.widget.video %}
+<div class="row t60">
+	{% if page.widget1.image or page.widget1.video or page.widget1.title %}
+		<div class="medium-4 columns frontpage-widget">
+		{% if page.widget.video %}
 		{{ page.widget.video }}
-	{% elsif widget_url == empty %}
+		{% elsif widget_url == empty %}
 		{% if widget_image != empty %}<img src="{{ widget_image }}" alt="" />{% endif %}
-	{% else %}
+		{% else %}
 		<a href="{{ widget_url }}">
 			{% if widget_image != empty %}<img src="{{ widget_image }}" alt="" />{% endif %}
 		</a>
-	{% endif %}
-	<h2 class="font-size-h3 t10">{{ page.widget.title }}</h2>
+		{% endif %}
+		<h2 class="font-size-h3 t10">{{ page.widget.title }}</h2>
 
-	{% if page.widget.text != empty %}<p>{{ page.widget.text }}</p>{% endif %}
-	{% if widget_url != empty %}<p><a class="button tiny radius" href="{{ widget_url }}">{{ site.data.language.more }}</a></p>{% endif %}
+		{% if page.widget.text != empty %}<p>{{ page.widget.text }}</p>{% endif %}
+		{% if widget_url != empty %}<p><a class="button tiny radius" href="{{ widget_url }}">Далее</a></p>{% endif %}
+		</div>
+	{% endif %}
+
+	{% if page.widget2.image or page.widget2.video or page.widget2.title %}
+		<div class="medium-4 columns frontpage-widget">
+			{% if page.widget.video %}
+				{{ page.widget.video }}
+			{% elsif widget_url == empty %}
+				{% if widget_image != empty %}<img src="{{ widget_image }}" alt="" />{% endif %}
+			{% else %}
+				<a href="{{ widget_url }}">
+					{% if widget_image != empty %}<img src="{{ widget_image }}" alt="" />{% endif %}
+				</a>
+			{% endif %}
+			<h2 class="font-size-h3 t10">{{ page.widget.title }}</h2>
+
+			{% if page.widget.text != empty %}<p>{{ page.widget.text }}</p>{% endif %}
+			{% if widget_url != empty %}<p><a class="button tiny radius" href="{{ widget_url }}">Далее</a></p>{% endif %}
+		</div>
+	{% endif %}
+
+	{% if page.widget3.image or page.widget3.video or page.widget3.title %}
+		<div class="medium-4 columns frontpage-widget">
+			{% if page.widget.video %}
+				{{ page.widget.video }}
+			{% elsif widget_url == empty %}
+				{% if widget_image != empty %}<img src="{{ widget_image }}" alt="" />{% endif %}
+			{% else %}
+				<a href="{{ widget_url }}">
+					{% if widget_image != empty %}<img src="{{ widget_image }}" alt="" />{% endif %}
+				</a>
+			{% endif %}
+			<h2 class="font-size-h3 t10">{{ page.widget.title }}</h2>
+
+			{% if page.widget.text != empty %}<p>{{ page.widget.text }}</p>{% endif %}
+			{% if widget_url != empty %}<p><a class="button tiny radius" href="{{ widget_url }}">Далее</a></p>{% endif %}
+		</div>
+	{% endif %}
 </div>

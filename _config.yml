@@ -147,7 +147,7 @@ timezone: "Europe/Moscow"
 markdown: kramdown
 highlighter: rouge
 permalink: /:categories/:title/
-paginate: 5
+paginate: 10
 paginate_path: /page/:num/
 
 kramdown:
@@ -232,6 +232,5 @@ exclude:
 
 plugins:
   - jekyll-paginate
-  - jekyll-redirect-from
 
 remote_theme: daattali/beautiful-jekyll@5.0.0

@@ -12,6 +12,21 @@ readtime: false
 share-title: Общий список использованных источников и литературы.
 share-description: Общий список литературы, которая использовалась при подготовке цикла очерков о загадочных дольменах Западного Кавказа.
 img-caption: Karte des Kaukasischen Isthmus 1856
+widget1:
+  title: "павловская"
+  url: '/toponymy/pavlovskaya/'
+  image: /img/toponymy/pavlovskaya/cover4x3.jpg
+  text: 'Станица Павловская сейчас является административным центром Павловского района Краснодарского края и Павловского сельского поселения, расположена на реке Сосыка. У истоков зарождения станицы стояли переселенцы из Полтавской и Черниговской губерний Российской империи. Основана станица в 1822 г., как куренное селение.'
+widget2:
+  title: "Крыловская"
+  url: '/toponymy/krylovskaya/'
+  text: 'Как оказывается, на картах Краснодарского края, изданных после 1961 г., можно обнаружить две станицы под названием Крыловская. Обе станицы были основаны черноморскими казаками в 1794 г. (год юридического основания), получив статус куренных селений. В 1842 г. селениям был присвоен статус станиц. С обеими населёнными пунктами Крыловские на Кубани, происходили административные «перипетии». В начальный период при основании 40 куренных селений Черноморского казачьего войска на Кубани, возникало много проблем военно-организационного характера, а также в советский период истории России, когда была «популярна традиция», переименовывать населённые пункты. '
+  image: '/img/toponymy/krylovskaya/cover4x3.jpg'
+widget3:
+  title: "Из истории происхождения названия города Астрахань"
+  url: '/toponymy/astrakhan/'
+  image: /img/toponymy/astrakhan/cover4x3.jpg
+  text: 'Город Астрахань, расположен в дельте реки Волга, является административным центром Астраханской области в составе Южного федерального округа, старейший среди городов России. Есть сведения, что «Астрахань старее Киева». Также «… предполагают, что начало Астрахани в устье Волги было положено хазарами до Х века от Рождества Христово … их столица Атель была родоначальницей Астрахани». '
 ---
 {: .box-note}
 ## {{ page.share-title }}
@@ -244,3 +259,25 @@ img-caption: Karte des Kaukasischen Isthmus 1856
 	<a title="Петроглифы и рисунки на каменных плитах дольменов Западного Кавказа" href="/mysteries-dolmens/ch1p12/"><img src="/img/mysteries-dolmens/ch1p12/mysteries-dolmens-ch1p12-12.15.jpg" alt="Прорисовка петроглифов на Джубгинском дольмене" width="720" height="480"/></a>
 	<figcaption>Прорисовка петроглифов на Джубгинском дольмене</figcaption>
 </figure>
+
+
+{% capture widget_url %}{% if page.widget.url == NULL %}{% elsif page.widget.url contains 'http' %}{{ page.widget.url }}{% else %}{{ site.url }}{{ site.baseurl }}{{ page.widget.url }}{% endif %}{% endcapture %}
+
+{% capture widget_image %}{% if page.widget.image contains 'http' %}{{ page.widget.image }}{% else %}{{ site.urlimg }}{{ page.widget.image }}{% endif %}{% endcapture %}
+
+
+<div class="medium-4 columns frontpage-widget">
+	{% if page.widget.video %}
+		{{ page.widget.video }}
+	{% elsif widget_url == empty %}
+		{% if widget_image != empty %}<img src="{{ widget_image }}" alt="" />{% endif %}
+	{% else %}
+		<a href="{{ widget_url }}">
+			{% if widget_image != empty %}<img src="{{ widget_image }}" alt="" />{% endif %}
+		</a>
+	{% endif %}
+	<h2 class="font-size-h3 t10">{{ page.widget.title }}</h2>
+
+	{% if page.widget.text != empty %}<p>{{ page.widget.text }}</p>{% endif %}
+	{% if widget_url != empty %}<p><a class="button tiny radius" href="{{ widget_url }}">{{ site.data.language.more }}</a></p>{% endif %}
+</div>

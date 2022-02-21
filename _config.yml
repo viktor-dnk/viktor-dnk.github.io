@@ -183,7 +183,7 @@ defaults:
       path: "amp"
     values:
       layout: amp
-      social-share: true
+      social-share: false
   -
     scope:
       path: ""
@@ -191,7 +191,7 @@ defaults:
     values:
       layout: post
       comments: false
-      social-share: true
+      social-share: false
       readtime: true
       language: ru
   -
@@ -201,7 +201,7 @@ defaults:
     values:
       layout: post
       comments: false
-      social-share: true
+      social-share: false
       readtime: true
       language: ru
       head-extra: amp_link.html
@@ -212,7 +212,7 @@ defaults:
     values:
       layout: post
       comments: false
-      social-share: true
+      social-share: false
       readtime: false
       language: ru
       categories: info

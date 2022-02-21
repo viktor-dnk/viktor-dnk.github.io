@@ -264,19 +264,19 @@ widget3:
 <div class="row t60">
 	{% if page.widget1.image or page.widget1.video or page.widget1.title %}
 		<div class="medium-4 columns frontpage-widget">
-		{% if page.widget.video %}
-		{{ page.widget.video }}
-		{% elsif widget_url == empty %}
-		{% if widget_image != empty %}<img src="{{ widget_image }}" alt="" />{% endif %}
+		{% if page.widget1.video %}
+		{{ page.widget1.video }}
+		{% elsif widget1_url == empty %}
+		{% if widget1_image != empty %}<img src="{{ widget1_image }}" alt="" />{% endif %}
 		{% else %}
-		<a href="{{ widget_url }}">
-			{% if widget_image != empty %}<img src="{{ widget_image }}" alt="" />{% endif %}
+		<a href="{{ widget1_url }}">
+			{% if widget1_image != empty %}<img src="{{ widget1_image }}" alt="" />{% endif %}
 		</a>
 		{% endif %}
-		<h2 class="font-size-h3 t10">{{ page.widget.title }}</h2>
+		<h2 class="font-size-h3 t10">{{ page.widget1.title }}</h2>
 
-		{% if page.widget.text != empty %}<p>{{ page.widget.text }}</p>{% endif %}
-		{% if widget_url != empty %}<p><a class="button tiny radius" href="{{ widget_url }}">Далее</a></p>{% endif %}
+		{% if page.widget1.text != empty %}<p>{{ page.widget1.text }}</p>{% endif %}
+		{% if widget1_url != empty %}<p><a class="button tiny radius" href="{{ widget1_url }}">Далее</a></p>{% endif %}
 		</div>
 	{% endif %}
 

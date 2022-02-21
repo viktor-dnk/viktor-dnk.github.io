@@ -1,6 +1,20 @@
 <footer>
-  <div class="container">
+  <div class="container-md beautiful-jekyll-footer">
     <div class="row">
+      <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
+      {% include social-networks-links.html %}
+      {% if page.footer-extra %}
+        <div class="footer-custom-content">
+          {% for file in page.footer-extra %}
+            {% include {{ file }} %}
+          {% endfor %}
+        </div>
+      {% endif %}
+      </div>
+    </div>
+  </div>
+  <div class="container">
+      <div class="row">
           <div class="col-sm-3">
               <div class="text-muted">
                   <strong>Разделы сайта:</strong>
@@ -11,6 +25,13 @@
                      <li class="text-left"><a title="Об авторе" href="/aboutme/">Об авторе</a></li>
                      <li class="text-left"><a title="Связь с автором" href="/info/contacts/">Контакты</a></li>
                      <li class="text-left"><a title="Поиск по сайту" href="/search/">Поиск</a></li>
+                  </ul>
+                  <strong>Последние статьи:</strong>
+                  <ul>
+                     <li class="text-left"><a title="Собер-Баш - «гора-крепость» или «гора-ведьм»?" href="/toponymy/sober-bash/">Собер-Баш - «гора-ведьм» или «гора-крепость»?</a></li>
+                     <li class="text-left"><a title="Папай - Горный красавец" href="/toponymy/papay/">«Горный красавец Папай»</a></li>
+                     <li class="text-left"><a title="Ачешбок - горный массив Чёртовы Ворота" href="/toponymy/hell-gate/">Горный массив Чёртовы Ворота (Ачешбок)</a></li>
+                     <li class="text-left"><a title="О спорных вопросах происхождения названия станицы Павловской и даты её основания" href="/toponymy/pavlovskaya/">Станица Павловская - история куренного селения</a></li>
                   </ul>
               </div>
           </div>
@@ -33,55 +54,32 @@
               </div>
           </div>
           <div class="col-sm">
-            <strong>Последние статьи:</strong>
-            <ul>
-               <li class="text-left"><a title="Собер-Баш - «гора-крепость» или «гора-ведьм»?" href="/toponymy/sober-bash/">Собер-Баш - «гора-ведьм» или «гора-крепость»?</a></li>
-               <li class="text-left"><a title="Папай - Горный красавец" href="/toponymy/papay/">«Горный красавец Папай»</a></li>
-               <li class="text-left"><a title="Ачешбок - горный массив Чёртовы Ворота" href="/toponymy/hell-gate/">Горный массив Чёртовы Ворота (Ачешбок)</a></li>
-               <li class="text-left"><a title="О спорных вопросах происхождения названия станицы Павловской и даты её основания" href="/toponymy/pavlovskaya/">Станица Павловская - история куренного селения</a></li>
-            </ul>
-          </div>
-	  </div>
-    <div class="row">
-        <sub-footer>
-      <div class="col-sm-6">
-      {% include social-networks-links.html %}
-      {% if page.footer-extra %}
-        <div class="footer-custom-content">
-          {% for file in page.footer-extra %}
-            {% include {{ file }} %}
-          {% endfor %}
-        </div>
-      {% endif %}
-      </div>
-      <div class="col-sm-6">
-        <div class="copyright text-muted">
-            {% if site.author %}
-              © {{ site.author }}
-              &nbsp;&bull;&nbsp;
-            {% endif %}
-            2020-{{ site.time | date: '%Y' }}
+              <div class="copyright text-muted">
+                  {% if site.author %}
+                    © {{ site.author }}
+                    &nbsp;&bull;&nbsp;
+                  {% endif %}
+                  2020-{{ site.time | date: '%Y' }}
 
-            {% if site.url-pretty %}
-              &nbsp;&bull;&nbsp;
-                <a title="При полном или частичном копировании и использовании материалов данного сайта ссылка на источник обязательна." href="/info/copyright/">{{ site.url-pretty }}</a>
-            {% endif %}
-            <br><br>
-            <!--
-            <img src="/img/example-logos/logo-grey.png" alt="Дорога не кончается" title="Заметки географа" width="100" height="100">
-            -->
-            <br><br>
-            <a href="http://info-7.ru/RusYaz/Yo.shtml" title="Все статьи ёфицированны" target="_blank" rel="noopener"><img src="/img/example-logos/yo.png" alt="ё" width="24" height="25"></a>
-            <br><br>
-            <a href="/humans.txt" title="humans.txt" target="_blank"><img src="/img/example-logos/humanstxt.png" alt="humans.txt" width="88" height="31"></a>
-            <!--
-            <br><br>
-            <a title="Поддержать развитие проекта" href="https://www.buymeacoffee.com/2leack" target="_blank" rel="noopener" ><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Поддержать развитие проекта" style="height: 40px !important;width: 145px !important;" ></a>
-            -->
-        </div>
-      </div>
-      </sub-footer>
-    </div>
-    <div class="pulse-widget" data-sid="partners_widget_viktor-dnkru"></div><script async src="https://static.pulse.mail.ru/pulse-widget.js"></script>
+                  {% if site.url-pretty %}
+                    &nbsp;&bull;&nbsp;
+                      <a title="При полном или частичном копировании и использовании материалов данного сайта ссылка на источник обязательна." href="/info/copyright/">{{ site.url-pretty }}</a>
+                  {% endif %}
+                  <br><br>
+                  <!--
+                  <img src="/img/example-logos/logo-grey.png" alt="Дорога не кончается" title="Заметки географа" width="100" height="100">
+                  -->
+            		  <br><br>
+                  <a href="http://info-7.ru/RusYaz/Yo.shtml" title="Все статьи ёфицированны" target="_blank" rel="noopener"><img src="/img/example-logos/yo.png" alt="ё" width="24" height="25"></a>
+                  <br><br>
+                  <a href="/humans.txt" title="humans.txt" target="_blank"><img src="/img/example-logos/humanstxt.png" alt="humans.txt" width="88" height="31"></a>
+                  <!--
+                  <br><br>
+                  <a title="Поддержать развитие проекта" href="https://www.buymeacoffee.com/2leack" target="_blank" rel="noopener" ><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Поддержать развитие проекта" style="height: 40px !important;width: 145px !important;" ></a>
+                  -->
+              </div>
+          </div>
+          <div class="pulse-widget" data-sid="partners_widget_viktor-dnkru"></div><script async src="https://static.pulse.mail.ru/pulse-widget.js"></script>
+	  </div>
   </div>
 </footer>

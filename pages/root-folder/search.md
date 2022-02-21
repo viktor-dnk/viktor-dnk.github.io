@@ -1,7 +1,6 @@
 ---
 layout: page
-title: Поиск
-subtitle: Работает поиск по сайту от Yandex
+title: Поиск по сайту Заметки географа
 language: ru
 cover-img: /img/example-logos/main-cover.jpg
 share-title: Поиск по сайту

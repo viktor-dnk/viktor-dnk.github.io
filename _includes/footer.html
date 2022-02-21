@@ -46,7 +46,7 @@
         </div>
     </div>
 </footer>
-<footer style="background-color: #7E7E7E; margin-top: 0rem; padding: 0rem">
+<footer style="background-color: #7E7E7E; margin-top: 0rem; text-align: center; border: 0;">
     <div class="container">
         <div class="row">
             <div class="col-sm-6">
@@ -68,7 +68,7 @@
                 {% endif %}
             </div>
             <div class="col-sm-6">
-                <div class="copyright text-muted">
+                <div class="text-muted">
                     {% if site.author %} © {{ site.author }} &nbsp;&bull;&nbsp; {% endif %} 2020-{{ site.time | date: '%Y' }} {% if site.url-pretty %} &nbsp;&bull;&nbsp;
                     <a title="При полном или частичном копировании и использовании материалов данного сайта ссылка на источник обязательна." href="/info/copyright/">{{ site.url-pretty }}</a>
                     {% endif %}

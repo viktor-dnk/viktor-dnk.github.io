@@ -48,18 +48,20 @@
             <div class="col-sm-6">
               <div class="copyright text-muted">
                 <strong><a title="Связь с автором" href="/info/contacts/">Наши контакты:</a></strong>
-              </div>
-                {% include social-networks-links.html %} {% if page.footer-extra %}
-                <div class="footer-custom-content">
-                    {% for file in page.footer-extra %} {% include {{ file }} %} {% endfor %}
-                </div>
-                {% endif %}
-                <br />
+
+                {% include social-networks-links.html %}
                 <br />
                 <form action="https://viktor-dnk.ru/search/" method="get" accept-charset="utf-8">
                 		<input class="input" name="text" id="nav-search-input" placeholder="Поиск по сайту...">
                     <input type="hidden" name="searchid" value="2429341" />
                 </form>
+                <br />
+              </div>
+                {% if page.footer-extra %}
+                <div class="footer-custom-content">
+                    {% for file in page.footer-extra %} {% include {{ file }} %} {% endfor %}
+                </div>
+                {% endif %}
             </div>
             <div class="col-sm-6">
                 <div class="copyright text-muted">

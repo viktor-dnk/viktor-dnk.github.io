@@ -215,7 +215,6 @@ defaults:
       readtime: false
       language: ru
       categories: info
-      after-content: _social-share.html
 
 # Exclude these files from production site
 exclude:

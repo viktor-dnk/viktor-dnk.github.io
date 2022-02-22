@@ -3371,4 +3371,46 @@ permalink: /sm_img.xml
     <image:title>Храм Успения Пресвятой Богородицы в станице Павловской</image:title>
   </image:image>
 </url>
+<url>
+  <loc>{{ site.url }}/toponymy/petrovskaya/</loc>
+  <lastmod>2022-02-22</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/petrovskaya/coat-arms-village-Petrovskaywas-adopted-2012.jpg</image:loc>
+			<image:title>Герб станицы Петровской принят в 2012 г.</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/petrovskaya/Fragment-map-where-name-village-Petrovskayappears-with-double-name.jpg</image:loc>
+			<image:title>Фрагмент карты, где название станицы Петровской значится с двойным названием</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/petrovskaya/Fragment-postal-map-Kuban-region-1903.jpg</image:loc>
+			<image:title>Фрагмент почтовой карты Кубанской области 1903 г.</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/petrovskaya/Fragment-map-Kuban-region-1904.jpg</image:loc>
+			<image:title>Фрагмент карты Кубанской области 1904 г.</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/petrovskaya/General-Pyotr-Abramovich-Tekeli-b.jpg</image:loc>
+			<image:title>Генерал Пётр Абрамович Текели</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/petrovskaya/Monument-Apostle-Peter-Alexander-Park-St-Petersburg.jpg</image:loc>
+			<image:title>Памятник апостолу Петру в Александровском парке города Санкт-Петербург</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/petrovskaya/Signpost-at-entrance-village-Petrovskaya.jpg</image:loc>
+			<image:title>Указатель на въезде в станицу Петровскую</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/petrovskaya/Fragment-map-land-Black-Setroops-1846.jpg</image:loc>
+			<image:title>Фрагмент карты земли войска Черноморского 1846 г.</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/petrovskaya/Memorial-complex-village-Petrovskaya-b.jpg</image:loc>
+			<image:title>Мемориальный комплекс в станице Петровской</image:title>
+		</image:image>
+</url>
 </urlset>

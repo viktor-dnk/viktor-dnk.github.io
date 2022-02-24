@@ -1439,7 +1439,7 @@ permalink: /sm_img.xml
   </url>
   <url>
     <loc>{{ site.url }}/toponymy/kodosh/</loc>
-    <lastmod>2021-08-14</lastmod>
+    <lastmod>2022-02-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
       <image:image>
@@ -1485,6 +1485,10 @@ permalink: /sm_img.xml
       <image:image>
         <image:loc>{{ site.url }}/img/toponymy/kodosh/Entrance-to-the-territory-of-the-Kodosh-lighthouse.jpg</image:loc>
         <image:title>Вход на территорию Кодошского маяка.</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>{{ site.url }}/img/toponymy/kodosh/Kodosh-Lighthouse-2021-b.jpg</image:loc>
+        <image:title>Кодошский маяк, май 2021</image:title>
       </image:image>
   </url>
   <url>

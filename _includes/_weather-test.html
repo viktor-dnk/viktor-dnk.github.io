@@ -11,7 +11,7 @@
    console.log(response);
 
    var curtemp = response.current.temp;
-   $("#curtemp").append(curtemp);
+   $("#curtemp").append(Math.round(curtemp));
 
    var curweather = response.current.weather[0].description;
    $("#curweather").append(curweather);

@@ -14,10 +14,7 @@ head-extra: _weather-test.html
 ext-js: https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js
 ---
 Дольмены Западного Кавказа очень разнообразны
-<div class="weather__city"></div>
-<div class="weather__forecast"></div>
-<div class="weather__desc"></div>
-<div class="weather__icon"></div>
+<div id="windSpeed">Wind speed: </div>
 
 <div class="posts-list">
   {% assign guide = site.mysteries-dolmens | where: "category", "guide" %}

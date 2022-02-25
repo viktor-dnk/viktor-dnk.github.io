@@ -13,7 +13,7 @@
    var curtemp = response.main.temp;
    $("#curtemp").append(Math.round(curtemp) + "ºC");
 
-   var curweather = response.current.weather[0].description;
+   var curweather = response.weather[0].description;
    $("#curweather").append(curweather + ", ");
 
    $("#weather").append(curweather + ", ", Math.round(curtemp) + "ºC");

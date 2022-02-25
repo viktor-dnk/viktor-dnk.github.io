@@ -13,6 +13,10 @@ permalink: /mysteries-dolmens/guide/
 head-extra: _weather-test.html
 ---
 Дольмены Западного Кавказа очень разнообразны
+<div class="weather__city"></div>
+<div class="weather__forecast"></div>
+<div class="weather__desc"></div>
+<div class="weather__icon"></div>
 
 <div class="posts-list">
   {% assign guide = site.mysteries-dolmens | where: "category", "guide" %}

@@ -11,7 +11,6 @@ last_modified_at: 2022-01-21 10:00:00 +0300
 date: 2022-01-14 16:00:00
 permalink: /mysteries-dolmens/guide/
 head-extra: _weather-test.html
-ext-js: https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js
 ---
 Дольмены Западного Кавказа очень разнообразны
 <div id="windSpeed">Wind speed: </div>

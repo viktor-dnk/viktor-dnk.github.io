@@ -1,3 +1,25 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script>
+   var settings = {
+     "async": true,
+     "crossDomain": true,
+     "url": "https://api.openweathermap.org/data/2.5/onecall?lat=44.64&lon=39.13&exclude=hourly,daily&lang=ru&units=metric&appid=a211b744efa66a1056a76b6627d58f3b",
+     "method": "GET"
+   }
+   
+   $.ajax(settings).done(function (response) {
+   console.log(response);
+
+   var curtemp = response.current.temp;
+   $("#curtemp").append(Math.round(curtemp) + "ºC");
+
+   var curweather = response.current.weather[0].description;
+   $("#curweather").append(curweather + ", ");
+
+   $("#weather").append(curweather + ", ", Math.round(curtemp) + "ºC");
+
+   });
+</script>
 <script type="application/ld+json">
 {
     "@context": "https://schema.org",

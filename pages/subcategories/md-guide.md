@@ -13,7 +13,7 @@ permalink: /mysteries-dolmens/guide/
 head-extra: _weather-test.html
 ---
 Дольмены Западного Кавказа очень разнообразны
-<p><div id="curtemp">Сейчас в Астрахани </div><div id="curweather">Сейчас в Астрахани </div></p>
+<p><div id="curweather">Сейчас в Астрахани </div><div id="curtemp"></div></p>
 
 <div class="posts-list">
   {% assign guide = site.mysteries-dolmens | where: "category", "guide" %}

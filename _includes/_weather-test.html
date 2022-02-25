@@ -1,16 +1,12 @@
 <script>
-//Получаем прогноз в массив data
-fetch('https://api.openweathermap.org/data/2.5/onecall?lat=46.35&lon=48.02&exclude=hourly,daily&lang=ru&units=metric&appid=a211b744efa66a1056a76b6627d58f3b').then(function (resp) {return resp.json() }).then(function (data) {
-//добавляем название города
-document.querySelector('.weather__city').textContent = data.name;
-//data.main.temp содержит значение в Кельвинах, отнимаем от 273, чтобы получить значение в градусах Цельсия
-document.querySelector('.weather__forecast').innerHTML = Math.round(data.main.temp) + '&deg;';
-//Добавляем описание погоды
-document.querySelector('.weather__desc').textContent = data.weather[0]['description'];
-//Добавляем иконку погоды
-document.querySelector('.weather__icon').innerHTML = `<img src="https://openweathermap.org/img/wn/${data.weather[0]['icon']}@2x.png">`;
-})
-.catch(function () {
-//Обрабатываем ошибки
-});
+   var settings = {
+     "async": true,
+     "crossDomain": true,
+     "url": "https://api.openweathermap.org/data/2.5/onecall?lat=46.35&lon=48.02&exclude=hourly,daily&lang=ru&units=metric&appid=a211b744efa66a1056a76b6627d58f3b",
+     "method": "GET"
+   }
+
+   $.ajax(settings).done(function (response) {
+     console.log(response);
+   });
 </script>

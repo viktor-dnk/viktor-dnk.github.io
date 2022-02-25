@@ -1,4 +1,3 @@
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 <script>
 //Получаем прогноз в массив data
 fetch('https://api.openweathermap.org/data/2.5/onecall?lat=46.35&lon=48.02&exclude=hourly,daily&lang=ru&units=metric&appid=a211b744efa66a1056a76b6627d58f3b').then(function (resp) {return resp.json() }).then(function (data) {

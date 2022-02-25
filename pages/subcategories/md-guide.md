@@ -10,10 +10,8 @@ keywords: карты, история, география, ономастика
 last_modified_at: 2022-01-21 10:00:00 +0300
 date: 2022-01-14 16:00:00
 permalink: /mysteries-dolmens/guide/
-head-extra: _weather-test.html
 ---
 Дольмены Западного Кавказа очень разнообразны
-<div id="weather">Сейчас в Астрахани </div>
 
 <div class="posts-list">
   {% assign guide = site.mysteries-dolmens | where: "category", "guide" %}

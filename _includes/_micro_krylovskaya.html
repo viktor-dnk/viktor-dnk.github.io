@@ -38,7 +38,7 @@
    var curweather2 = response.weather[0].description;
    $("#curweathe2r").append(curweather2 + ", ");
 
-   $("#weather2").append(curweather2 + ", ", Math.round(curtemp2) + "ºC");
+   $("#weather2").append(Math.round(curtemp2) + "ºC и ", curweather2);
 
    });
 </script>

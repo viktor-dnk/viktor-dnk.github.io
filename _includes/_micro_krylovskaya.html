@@ -1,0 +1,44 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script>
+   var settings = {
+     "async": true,
+     "crossDomain": true,
+     "url": "https://api.openweathermap.org/data/2.5/weather?id=540267&exclude=hourly,daily&lang=ru&units=metric&appid=a211b744efa66a1056a76b6627d58f3b",
+     "method": "GET"
+   }
+
+   $.ajax(settings).done(function (response) {
+   console.log(response);
+
+   var curtemp1 = response.main.temp;
+   $("#curtemp1").append(Math.round(curtemp1) + "ºC");
+
+   var curweather1 = response.weather[0].description;
+   $("#curweather1").append(curweather1 + ", ");
+
+   $("#weather1").append(curweather1 + ", ", Math.round(curtemp1) + "ºC");
+
+   });
+</script>
+
+<script>
+   var settings = {
+     "async": true,
+     "crossDomain": true,
+     "url": "https://api.openweathermap.org/data/2.5/weather?id=540268&exclude=hourly,daily&lang=ru&units=metric&appid=a211b744efa66a1056a76b6627d58f3b",
+     "method": "GET"
+   }
+
+   $.ajax(settings).done(function (response) {
+   console.log(response);
+
+   var curtemp2 = response.main.temp;
+   $("#curtemp2").append(Math.round(curtemp2) + "ºC");
+
+   var curweather2 = response.weather[0].description;
+   $("#curweathe2r").append(curweather2 + ", ");
+
+   $("#weather2").append(curweather2 + ", ", Math.round(curtemp2) + "ºC");
+
+   });
+</script>

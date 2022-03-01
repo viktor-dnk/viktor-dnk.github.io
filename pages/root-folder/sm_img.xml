@@ -3417,4 +3417,42 @@ permalink: /sm_img.xml
 			<image:title>Мемориальный комплекс в станице Петровской</image:title>
 		</image:image>
 </url>
+<url>
+  <loc>{{ site.url }}/toponymy/lipsky-post/</loc>
+  <lastmod>2022-03-01</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/lipsky-post/Map-area-between-village-Neberdzhaevskaya-and-city-Novorossiysk-b.jpg</image:loc>
+			<image:title>Карта местности между станицей Неберджаевской и городом Новороссийск</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/lipsky-post/Neberdzhaevskoe-reservoir-view-from-Lysa-Neberdzhaevskaya-mountain-b.jpg</image:loc>
+			<image:title>Неберджаевское водохранилище, вид с горы Лысой-Неберджаевской</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/lipsky-post/Neberdzhaevskoe-reservoir-view-from-Lysa-Novorossiyskaya-mountain-b.jpg</image:loc>
+			<image:title>Неберджаевское водохранилище, вид с горы Лысой-Новороссийской</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/lipsky-post/Fragment-5-verst-map-Caucasus-region-1926.jpg</image:loc>
+			<image:title>Фрагмент 5-ти вёрстной карты Кавказского края 1926 г</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/lipsky-post/Georgievsky-post-at-Lipki-Reconstruction-b.jpg</image:loc>
+			<image:title>Георгиевский пост у Липок. Реконструкция</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/lipsky-post/Monument-to-Cossacks-St-Georges-Post-near-Lipki.jpg</image:loc>
+			<image:title>Памятник казакам Георгиевского поста у Липок</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/lipsky-post/the-feat-Marianna-wife-head-post-centurion-Gorbatko-b.jpg</image:loc>
+			<image:title>Подвиг Марианны жены начальника поста сотника Горбатко</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/lipsky-post/Mass-grave-and-memorial-in-village-Neberdzhaevskaya-b.jpg</image:loc>
+			<image:title>Братское захоронение и мемориал в станице Неберджаевской</image:title>
+		</image:image>
+</url>
 </urlset>

@@ -228,6 +228,14 @@ exclude:
   - regex
   - docs/
 
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+  endings: all
+  profile: false
+  ignore:
+    envs: [development]
+    
 plugins:
   - jekyll-paginate
 

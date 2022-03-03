@@ -49,41 +49,44 @@
     </div>
 </footer>
 <footer style="background-color: #7e7e7e; margin-top: 0; text-align: center; border: 0;">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-6">
-                <div class="text-muted">
-                    {% include social-networks-links.html %}
-                    <br />
-                    <form action="https://viktor-dnk.ru/search/" method="get" accept-charset="utf-8">
-                        <input class="input" name="text" id="nav-search-input" placeholder="Поиск по сайту..." />
-                        <input type="hidden" name="searchid" value="2429341" />
-                    </form>
-                    <br />
-                </div>
-                {% if page.footer-extra %}
-                <div class="footer-custom-content">
-                    {% for file in page.footer-extra %} {% include {{ file }} %} {% endfor %}
-                </div>
-                {% endif %}
-            </div>
-            <div class="col-sm-6">
-                {% if site.author %} © {{ site.author }} &nbsp;&bull;&nbsp; {% endif %} 2020-{{ site.time | date: '%Y' }} {% if site.url-pretty %} &nbsp;&bull;&nbsp;
-                <a title="При полном или частичном копировании и использовании материалов данного сайта ссылка на источник обязательна." href="/info/copyright/">{{ site.url-pretty }}</a>
-                {% endif %}
-                <br />
-                <br />
-                <form action="https://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('https://feedburner.google.com/fb/a/mailverify?uri=viktor-dnk', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true">
-                    <input type="text" name="email" style="width: 220px;" placeholder="Подписаться на email-рассылку" />
-                    <input type="hidden" value="viktor-dnk" name="uri" />
-                </form>
-                <br />
-                <br />
-                <a href="http://info-7.ru/RusYaz/Yo.shtml" title="Все статьи ёфицированны" target="_blank" rel="noopener"><img src="/img/example-logos/yo.png" alt="ё" width="24" height="25" /></a>
-                <br />
-                <br />
-                <a href="/humans.txt" title="humans.txt" target="_blank"><img src="/img/example-logos/humanstxt.png" alt="humans.txt" width="88" height="31" /></a>
-          </div>
-        </div>
-    </div>
+  <div class="container">
+  	<div class="row">
+  		<div class="col-sm-6">
+  			<div class="text-muted">
+  				{% include social-networks-links.html %}
+  			</div>
+  		</div>
+  		<div class="col-sm-6">
+  			<div class="text-muted">
+  				{% if site.author %} © {{ site.author }} &nbsp;&bull;&nbsp; {% endif %} 2020-{{ site.time | date: '%Y' }} {% if site.url-pretty %} &nbsp;&bull;&nbsp;
+                  <a title="При полном или частичном копировании и использовании материалов данного сайта ссылка на источник обязательна." href="/info/copyright/">{{ site.url-pretty }}</a>
+                  {% endif %}
+  			</div>
+  		</div>
+  	</div>
+  	<div class="row">
+  		<div class="col-sm-6">
+  			<div class="text-muted">
+  				<form action="https://viktor-dnk.ru/search/" method="get" accept-charset="utf-8">
+  					<input class="input" name="text" id="nav-search-input" placeholder="Поиск по сайту..." />
+  					<input type="hidden" name="searchid" value="2429341" />
+  				</form>
+  			</div>
+  		</div>
+  		<div class="col-sm-6">
+  			<div class="text-muted">
+  				<form action="https://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('https://feedburner.google.com/fb/a/mailverify?uri=viktor-dnk', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true">
+                      <input type="text" name="email" style="width: 220px;" placeholder="Подписаться на email-рассылку" />
+                      <input type="hidden" value="viktor-dnk" name="uri" />
+                  </form>
+  				<br />
+                  <br />
+                  <a href="http://info-7.ru/RusYaz/Yo.shtml" title="Все статьи ёфицированны" target="_blank" rel="noopener"><img src="/img/example-logos/yo.png" alt="ё" width="24" height="25" /></a>
+                  <br />
+                  <br />
+                  <a href="/humans.txt" title="humans.txt" target="_blank"><img src="/img/example-logos/humanstxt.png" alt="humans.txt" width="88" height="31" /></a>
+  			</div>
+  		</div>
+  	</div>
+  </div>
 </footer>

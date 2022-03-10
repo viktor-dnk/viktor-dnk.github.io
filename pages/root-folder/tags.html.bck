@@ -4,7 +4,7 @@ title: Указатель меток
 subtitle: Общий список использованных на сайте меток
 cover-img: /img/example-logos/main-cover.jpg
 sitemap: false
-head-extra: _noindex.html
+head-extra: etc/_noindex.html
 permalink: /tags/
 ---
 

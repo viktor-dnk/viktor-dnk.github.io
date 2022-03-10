@@ -1,8 +1,8 @@
 ---
 permalink: /random
 sitemap: false
-head-extra: _noindex.html
---- 
+head-extra: etc/_noindex.html
+---
 
 <script>
 // this stops a white flash from happening while the random post script is running
@@ -27,9 +27,9 @@ Use liquid to get an the number of posts in the site
 
 <script>
 
-  const comingFromPost = document.referrer; 
+  const comingFromPost = document.referrer;
 
-  const allPosts = 
+  const allPosts =
    [{%- for post in site.posts -%}
     {%- unless post.unlisted -%}
       {%- assign i = i | minus: 1 -%}
@@ -50,6 +50,6 @@ Use liquid to get an the number of posts in the site
 
 # Random Blog Post
 
-To get a random post, turn on JavaScript! 
+To get a random post, turn on JavaScript!
 
 </noscript>

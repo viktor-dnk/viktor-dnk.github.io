@@ -10,7 +10,7 @@ category: [in-memory, oikonyms]
 share-title: Липский пост Адагумской кордонной линии
 share-description: После окончания Кавказской войны в 1864 г. у легендарного поста был основан хутор Липки, так как по долине реки Неберджай проходила оживлённая дорога.
 keywords: Неберджай, Липский пост
-head-extra: [amp_link.html, _micro_lipsky-post.html]
+head-extra: [amp_link.html, etc/_micro_lipsky-post.html]
 location: хребе Маркотх, Краснодарский край
 img-caption: Вид на Неберджаевское водохранилище с хребта Маркотх
 ---

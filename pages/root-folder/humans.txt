@@ -13,6 +13,7 @@ permalink: /humans.txt
   developer, seo, web-support: Anatoliy Koveshnikov
   Telegram: @tbk1945
   Twitter: @thekubanology
+  Mastodon: @2leack@mastodon.ml
   From: Krasnodar, Russia
 
 /* SITE */

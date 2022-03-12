@@ -3455,4 +3455,58 @@ permalink: /sm_img.xml
 			<image:title>Братское захоронение и мемориал в станице Неберджаевской</image:title>
 		</image:image>
 </url>
+<url>
+  <loc>{{ site.url }}/toponymy/gelendzhik/</loc>
+  <lastmod>2022-03-01</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/gelendzhik/Coat-arms-Gelendzhik-1972.jpg</image:loc>
+			<image:title>Герб Геленджика 1972</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/gelendzhik/Coat-arms-Gelendzhik-1998.jpg</image:loc>
+			<image:title>Герб Геленджика 1998</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/gelendzhik/Coat-arms-Gelendzhik-2001.jpg</image:loc>
+			<image:title>Герб Геленджика 2001</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/gelendzhik/Gelendzhik-map-1834.jpg</image:loc>
+			<image:title>Геленджикъ на карте 1834 г.</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/gelendzhik/Gelendzhik-Bay-view-from-Markotkh-Ridge-b.jpg</image:loc>
+			<image:title>Геленджикская бухта вид с хребта Маркотх</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/gelendzhik/Gelendzhik-map-1904.jpg</image:loc>
+			<image:title>Геленджик на карте 1904 г.</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/gelendzhik/Gelendzhik-map-1941.jpg</image:loc>
+			<image:title>Геленджик на карте 1941 г.</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/gelendzhik/Boulevard-embankment-Gelendzhik-Bay-b.jpg</image:loc>
+			<image:title>Бульвар на набережной Геленджикской бухты</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/gelendzhik/Anchor-shore-Gelendzhik-Bay-b.jpg</image:loc>
+			<image:title>Якорь на берегу Геленджикской бухты</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/gelendzhik/One-corners-embankment-city-Gelendzhik-b.jpg</image:loc>
+			<image:title>Один из уголков набережной города Геленджик</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/gelendzhik/Shopping-center-Gelendzhik-b.jpg</image:loc>
+			<image:title>Торговый центр «Геленджик»</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/gelendzhik/Sculpture-White-Bride-symbol-Gelendzhik-b.jpg</image:loc>
+			<image:title>Скульптура «Белая невеста» - символ Геленджика</image:title>
+		</image:image>
+</url>
 </urlset>

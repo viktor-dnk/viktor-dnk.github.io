@@ -3457,7 +3457,7 @@ permalink: /sm_img.xml
 </url>
 <url>
   <loc>{{ site.url }}/toponymy/gelendzhik/</loc>
-  <lastmod>2022-03-01</lastmod>
+  <lastmod>2022-03-12</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.8</priority>
 		<image:image>

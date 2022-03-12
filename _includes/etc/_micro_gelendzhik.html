@@ -2,3 +2,24 @@
 <script>
 var settings={async:!0,crossDomain:!0,url:"https://api.openweathermap.org/data/2.5/weather?id=561667&exclude=hourly,daily&lang=ru&units=metric&appid=a211b744efa66a1056a76b6627d58f3b",method:"GET"};$.ajax(settings).done((function(a){console.log(a);var e=a.main.temp;$("#curtemp").append(Math.round(e)+"ºC");var t=a.weather[0].description;$("#curweather").append(t+", "),$("#weather").append(" "+t+", ",Math.round(e)+"ºC")}));
 </script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [{
+    "@type": "Question",
+    "name": "Как переводится Геленджик",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Бытующие романтические переводы ойконима Геленджик, в советский период истории России, основывались на данных путеводителей начала ХХ в. и воспроизводились, как «Белая невеста», «Маленькая невеста», «Место невест», «Невеста» или «Невесточка» и подобные. Приводимые пояснения к переводам, объяснялись, в основном, как тюркско-черкесские словосочетания."
+    }
+  },{
+    "@type": "Question",
+    "name": "Что входит в Геленджик",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Современное официальное его название: муниципальное образование город-курорт Геленджик в составе Краснодарского края России. Он имеет статус городского округа, в его состав входит 4 сельских округа: Архипо-Осиповский, Дивноморский, Кабардинский и Пшадский. Административным центром муниципального образования, является город Геленджик."
+    }
+  }]
+}
+</script>

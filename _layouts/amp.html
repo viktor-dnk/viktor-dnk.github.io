@@ -22,6 +22,7 @@
     <meta name="msapplication-TileImage" content="/assets/get-up/mstile-144x144.png">
     <meta name="theme-color" content="#87ceeb">
     <link rel="canonical" href="{{ page.url | absolute_url | replace:'.ru/amp/','.ru/' }}">
+    {% if page.head-extra %}{% for file in page.head-extra %}{% include {{ file }} %}{% endfor %}{% endif %}
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
     {% capture title %}
       {%- if page.share-title -%}

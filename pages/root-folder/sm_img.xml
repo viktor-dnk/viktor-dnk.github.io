@@ -3509,4 +3509,86 @@ permalink: /sm_img.xml
 			<image:title>Скульптура «Белая невеста» - символ Геленджика</image:title>
 		</image:image>
 </url>
+<url>
+  <loc>{{ site.url }}/toponymy/sochi/</loc>
+  <lastmod>2022-03-01</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/sochi/Primrose-b.jpg</image:loc>
+			<image:title>Примула или Первоцвет</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/sochi/Co-arms-city-Sochi.jpg</image:loc>
+			<image:title>Герб города Сочи</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/sochi/Embankment-central-part-Sochi-b.jpg</image:loc>
+			<image:title>Набережная в центральной части Сочи</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/sochi/Plan-city-Sochi-1902.jpg</image:loc>
+			<image:title>Набережная в центральной части Сочи</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/sochi/Compound-Sochi-Prince-Aubla-Ali-Ahmet.jpg</image:loc>
+			<image:title>Подворье сочинского князя Аубла Али-Ахмета</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/sochi/Sochi-early-70s-XIX-century.jpg</image:loc>
+			<image:title>Сочи в начале 70-х годов ХIХ в.</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/sochi/Fragment-map-Black-Sea-coast-from-atlas-1841.jpg</image:loc>
+			<image:title>Фрагмент карты берега Чёрного моря из атласа 1841 г.</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/sochi/Plan-city-Sochi-1914-b.jpg</image:loc>
+			<image:title>План города Сочи 1914 г.</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/sochi/Sochi-map-Kuban-region.jpg</image:loc>
+			<image:title>Сочи на карте Кубанской области</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/sochi/Sochi-map-Black-Sea-province.jpg</image:loc>
+			<image:title>Сочи на карте Черноморской губернии</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/sochi/Dolmen-entrance-museum-history-city-Sochi-b.jpg</image:loc>
+			<image:title>Дольмен у входа в музей истории города Сочи</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/sochi/central-part-building-Sochi-Marine-Station-b.jpg</image:loc>
+			<image:title>Центральная часть здания Сочинского морского вокзала</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/sochi/Sochi-center-Kurortny-prospect-b.jpg</image:loc>
+			<image:title>Сочи центр — Курортный проспект</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/sochi/Sculptural-group-Sochi-teacher-b.jpg</image:loc>
+			<image:title>Скульптурная группа «Сочинскому учителю»</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/sochi/Mount-Bytkha-b.jpg</image:loc>
+			<image:title>Гора Бытха (301,3 м)</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/sochi/Sculpture-eagle.jpg</image:loc>
+			<image:title>Скульптура орла, который издревле был символом благополучия и достатка убыхов</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/sochi/entrance-Riviera-Park-b.jpg</image:loc>
+			<image:title>У входа в парк Ривьера</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/sochi/Garden-Museum-Tree-Friendship-b.jpg</image:loc>
+			<image:title>Сад-музей «Дерево Дружбы»</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/sochi/Museum-garden-Tree-Friendship-b.jpg</image:loc>
+			<image:title>В саду музея «Дерево Дружбы»</image:title>
+		</image:image>
+</url>
 </urlset>

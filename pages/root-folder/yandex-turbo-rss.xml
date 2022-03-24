@@ -80,7 +80,6 @@ permalink: /yandex-turbo-rss.xml
                   {% assign cleaned_content=cleaned_content | replace: '__br/__', '<br />' %}
                   {% assign cleaned_content=cleaned_content | replace: '__a href__', '<a data-turbo="false" href="/' %}
                   {% assign cleaned_content=cleaned_content | replace: '__/a__', '</a>' %}
-                  {% assign cleaned_content=cleaned_content | replace: '" /></a>', '" />' %}
                   {% assign cleaned_content=cleaned_content | replace: ']</a>', ']' %}
                   {% assign cleaned_content=cleaned_content | replace: '</a></li>', '</li>' %}
                   {% assign cleaned_content=cleaned_content | replace: '<strong></a>', '<strong>' %}
@@ -170,7 +169,6 @@ permalink: /yandex-turbo-rss.xml
                 {% assign cleaned_content=cleaned_content | replace: '__br/__', '<br />' %}
                 {% assign cleaned_content=cleaned_content | replace: '__a href__', '<a data-turbo="false" href="/' %}
                 {% assign cleaned_content=cleaned_content | replace: '__/a__', '</a>' %}
-                {% assign cleaned_content=cleaned_content | replace: '" /></a>', '" />' %}
                 {% assign cleaned_content=cleaned_content | replace: ']</a>', ']' %}
                 {% assign cleaned_content=cleaned_content | replace: '</a></li>', '</li>' %}
                 {% assign cleaned_content=cleaned_content | replace: '<strong></a>', '<strong>' %}

@@ -3591,4 +3591,58 @@ permalink: /sm_img.xml
 			<image:title>В саду музея «Дерево Дружбы»</image:title>
 		</image:image>
 </url>
+<url>
+  <loc>{{ site.url }}/toponymy/navaginka/</loc>
+  <lastmod>2022-03-30</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/navaginka/Regimental-badge-78th-Navaginsky-Infantry-Regiment.jpg</image:loc>
+			<image:title>Полковой нагрудный знак 78 Навагинского пехотного полка</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/navaginka/village-Navaginskoe-valley-river-Pshish-b.jpg</image:loc>
+			<image:title>Село Навагинское в долине реки Пшиш</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/navaginka/Railway-bridge-over-river-Pshish-entrance-to-Navaginsky-tunnel-b.jpg</image:loc>
+			<image:title>Железнодорожный мост через реку Пшиш у входа в Навагинский туннель</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/navaginka/Navaginskaya-statiand-Navaginsky-tunnel-1941.jpg</image:loc>
+			<image:title>Станция Навагинская и туннель Навагинский 1941 г.</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/navaginka/Navaginskaya-statiwas-opened-1915-b.jpg</image:loc>
+			<image:title>Станция Навагинская открыта в 1915 г.</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/navaginka/village-Navaginskoe-map-1904.jpg</image:loc>
+			<image:title>Село Навагинское на карте 1904 г.</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/navaginka/Navaginsky-fort-former-fort-Alexandria-b.jpg</image:loc>
+			<image:title>Навагинский форт бывший форт Александрия</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/navaginka/Russian-ships-near-Fort-Navaginskiy-1854.jpg</image:loc>
+			<image:title>Российские корабли у форта Навагинского 1854 г.</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/navaginka/boundaries-Navaginsky-fort-superimposed-modern-plan-city-Sochi-b.jpg</image:loc>
+			<image:title>Границы Навагинского форта наложенные на современный план города Сочи</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/navaginka/Sochi-city-Navaginskaya-street-b.jpg</image:loc>
+			<image:title>Город Сочи улица Навагинская</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/navaginka/village-Navaginskoe-map-30s-XX.jpg</image:loc>
+			<image:title>Село Навагинское на карте 30-х годов ХХ в.</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/navaginka/Monument-to-General-Zass-city-Armavir.jpg</image:loc>
+			<image:title>Памятник генералу Засс Г.Х. в городе Армавир</image:title>
+		</image:image>
+</url>
 </urlset>

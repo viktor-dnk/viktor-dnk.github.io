@@ -3645,4 +3645,70 @@ permalink: /sm_img.xml
 			<image:title>Памятник генералу Засс Г.Х. в городе Армавир</image:title>
 		</image:image>
 </url>
+<url>
+  <loc>{{ site.url }}/toponymy/aderba/</loc>
+  <lastmod>2022-04-03</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/aderba/Mezip-river-map-1834.jpg</image:loc>
+			<image:title>Река Мезипъ на карте 1834 г.</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/aderba/Inoguo-River-1847-map.jpg</image:loc>
+			<image:title>Река Иногуо на карте 1847 г.</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/aderba/bridge-over-river-Aderba.jpg</image:loc>
+			<image:title>Железный мост через реку Адерба</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/aderba/Mezyb-River-map-1881.jpg</image:loc>
+			<image:title>Река Мезыбъ на карте 1881 г.</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/aderba/bend-Black-Sea-coast-mouth-Mezyb-River-b.jpg</image:loc>
+			<image:title>Изгиб берега Чёрного моря у устья реки Мезыб</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/aderba/View-village-Aderbievka-b.jpg</image:loc>
+			<image:title>Вид на село Адербиевка</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/aderba/Babych-Pavel-Denisovich-b.jpg</image:loc>
+			<image:title>Бабыч Павел Денисович</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/aderba/Aderbievka-River-1926-map.jpg</image:loc>
+			<image:title>Река Адербiевка на карте 1926 г.</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/aderba/Church-St-Nicholas-Wonderworker-village-Aderbievka-b.jpg</image:loc>
+			<image:title>Церковь Николая Чудотворца  в селе Адербиевка</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/aderba/Mezyb-River-near-village-Divnomorskoye-b.jpg</image:loc>
+			<image:title>Река Мезыб у села Дивноморское</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/aderba/Mezyb-River-during-summer-low-water-period-b.jpg</image:loc>
+			<image:title>Река Мезыб в период летней межени</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/aderba/Aderbievka-village-view-from-Markotkh-ridge.jpg</image:loc>
+			<image:title>Село Адербиевка, вид с хребта Маркотх</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/aderba/River-Aderbi-1855-map.jpg</image:loc>
+			<image:title>Река Aderbi на карте 1855 г.</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/aderba/Mezyb-River-1941-map.jpg</image:loc>
+			<image:title>Река Мезыб на карте 1941 г.</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/aderba/Zhane-River-lower-reaches-b.jpg</image:loc>
+			<image:title>Река Жане в низовьях</image:title>
+		</image:image>
+</url>
 </urlset>

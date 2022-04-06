@@ -39,7 +39,7 @@
 <meta name="msapplication-TileColor" content="#87ceeb">
 <meta name="msapplication-TileImage" content="/assets/get-up/mstile-144x144.png">
 <meta name="theme-color" content="#87ceeb">
-<link rel="canonical" href="{{ page.url | absolute_url | strip_index | replace:'.ru/page/2/','.ru/' | replace:'.ru/page/3/','.ru/' | replace:'.ru/page/4/','.ru/' | replace:'.ru/page/5/','.ru/' | replace:'.ru/page/6/','.ru/' | replace:'.ru/page/7/','.ru/' | replace:'.ru/page/8/','.ru/' | replace:'.ru/page/9/','.ru/' }}">
+<link rel="canonical" href="{{ page.url | absolute_url | strip_index | replace:'.ru/page/2/','.ru/' | replace:'.ru/page/3/','.ru/' | replace:'.ru/page/4/','.ru/' | replace:'.ru/page/5/','.ru/' | replace:'.ru/page/6/','.ru/' | replace:'.ru/page/7/','.ru/' | replace:'.ru/page/8/','.ru/' | replace:'.ru/page/9/','.ru/' | replace:'.ru/page/10/','.ru/' }}">
 {% if page.head-extra %}{% for file in page.head-extra %}{% include {{ file }} %}{% endfor %}{% endif %}
 <meta name="yandex-tableau-widget" content="logo=https://viktor-dnk.ru/assets/get-up/yandex-tableau-logo.png, color=#87ceeb">
 
@@ -144,7 +144,7 @@
   {%- assign img=img | strip -%}
 
   <meta property="og:title" content="{{ title }}">
-  <meta property="og:url" content="{{ page.url | absolute_url | strip_index | replace:'.ru/page/2/','.ru/' | replace:'.ru/page/3/','.ru/' | replace:'.ru/page/4/','.ru/' | replace:'.ru/page/5/','.ru/' | replace:'.ru/page/6/','.ru/' | replace:'.ru/page/7/','.ru/' | replace:'.ru/page/8/','.ru/' | replace:'.ru/page/9/','.ru/' }}">
+  <meta property="og:url" content="{{ page.url | absolute_url | strip_index | replace:'.ru/page/2/','.ru/' | replace:'.ru/page/3/','.ru/' | replace:'.ru/page/4/','.ru/' | replace:'.ru/page/5/','.ru/' | replace:'.ru/page/6/','.ru/' | replace:'.ru/page/7/','.ru/' | replace:'.ru/page/8/','.ru/' | replace:'.ru/page/9/','.ru/' | replace:'.ru/page/10/','.ru/' }}">
   <meta property="og:description" content="{{ description }}">
   <meta property="og:locale" content="ru_RU" />
   {% if img != "" %}
@@ -163,7 +163,7 @@
         <meta property="og: article:modified_time" content="{{ page.last_modified_at | date_to_xmlschema }}">
   {% else %}
   <meta property="og:type" content="website">
-  <meta property="og:url" content="{{ page.url | absolute_url | strip_index | replace:'.ru/page/2/','.ru/' | replace:'.ru/page/3/','.ru/' | replace:'.ru/page/4/','.ru/' | replace:'.ru/page/5/','.ru/' | replace:'.ru/page/6/','.ru/' | replace:'.ru/page/7/','.ru/' | replace:'.ru/page/8/','.ru/' | replace:'.ru/page/9/','.ru/' }}">
+  <meta property="og:url" content="{{ page.url | absolute_url | strip_index | replace:'.ru/page/2/','.ru/' | replace:'.ru/page/3/','.ru/' | replace:'.ru/page/4/','.ru/' | replace:'.ru/page/5/','.ru/' | replace:'.ru/page/6/','.ru/' | replace:'.ru/page/7/','.ru/' | replace:'.ru/page/8/','.ru/' | replace:'.ru/page/9/','.ru/' | replace:'.ru/page/10/','.ru/' }}">
   {% endif %}
 
   {% if img != "" and img != site.avatar %}

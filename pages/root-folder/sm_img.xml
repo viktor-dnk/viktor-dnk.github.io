@@ -3711,4 +3711,46 @@ permalink: /sm_img.xml
 			<image:title>Река Жане в низовьях</image:title>
 		</image:image>
 </url>
+<url>
+  <loc>{{ site.url }}/toponymy/imereti/</loc>
+  <lastmod>2022-04-12</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/imereti/Church-Kazan-Icon-Mother-God-village-Imeretinskaya-b.jpg</image:loc>
+			<image:title>Церковь Казанской иконы Божьей матери в станице Имеретинской</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/imereti/Mass-grave-village-Imeretinskaya-b.jpg</image:loc>
+			<image:title>Братская могила в станице Имеретинской</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/imereti/Map-protrusion-Black-Sea-coastline-b.jpg</image:loc>
+			<image:title>Картосхема выступа береговой линии Чёрного моря между устьев рек Мзымта и Псоу</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/imereti/Map-Imereti-resort-2020-b.jpg</image:loc>
+			<image:title>Карта Имеретинского курорта 2020 г.</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/imereti/village-Marlinsky-map-1912.jpg</image:loc>
+			<image:title>Посёлок Марлинский на карте 1912 г.</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/imereti/Imereti-lowland-photo-2006.jpg</image:loc>
+			<image:title>Имеретинская низменность фото 2006 г.</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/imereti/upper-reaches-Imeretinka-River.jpg</image:loc>
+			<image:title>Верховья речки Имеретинка правого притока реки Закан и Имеретинские озера</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/imereti/Big-Imeretinskoye-Lake-b.jpg</image:loc>
+			<image:title>Большое Имеретинское озеро его ещё называют Безмолвия</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/imereti/Fragment-map-Kuban-region.jpg</image:loc>
+			<image:title>Фрагмент карты Кубанской области</image:title>
+		</image:image>
+</url>
 </urlset>

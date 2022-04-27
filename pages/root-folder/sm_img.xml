@@ -3753,4 +3753,74 @@ permalink: /sm_img.xml
 			<image:title>Фрагмент карты Кубанской области</image:title>
 		</image:image>
 </url>
+<url>
+  <loc>{{ site.url }}/toponymy/tenginka/</loc>
+  <lastmod>2022-04-27</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/tenginka/Coat-arms-village-Tenginskaya.jpg</image:loc>
+			<image:title>Герб станицы Тенгинской</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/tenginka/Coat-arms-village-Alekse-Tenginskaya.jpg</image:loc>
+			<image:title>Герб станицы Алексее-Тенгинской</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/tenginka/Coat-arms-Tenginka-village.jpg</image:loc>
+			<image:title>Герб села Тенгинка</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/tenginka/View-Tengin-Bay-b.jpg</image:loc>
+			<image:title>Вид на Тенгинскую бухту</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/tenginka/Coat-arms-village-Malotenginskaya.jpg</image:loc>
+			<image:title>Герб станицы Малотенгинской</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/tenginka/Coat-arms-Spokoinensky-rural-settlement.jpg</image:loc>
+			<image:title>Герб Спокойненского сельского поселения</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/tenginka/Fragment-Felitsyns-map-1899.jpg</image:loc>
+			<image:title>Фрагмент карты Фелицына Е.Д. (1899 г.), где значится пост Тенгинский</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/tenginka/Regimental-badge-77th-Tenginsky-Infantry-Regiment.jpg</image:loc>
+			<image:title>Полковой нагрудный знак 77 Тенгинского пехотного полка</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/tenginka/Tengealty-Gorge-b.jpg</image:loc>
+			<image:title>Ущелье Тенгеалты</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/tenginka/Fragment-map-Caucasus-1770-1773-Guildenstedt.jpg</image:loc>
+			<image:title>Фрагмент карты Кавказа 1770-1773 гг. Гильденштедта И.А.</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/tenginka/Fragment-map-Caucasus-in-German-1808.jpg</image:loc>
+			<image:title>Фрагмент карты Кавказа на немецком языке 1808</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/tenginka/Fragment-map-Caucasian-lands-1823.jpg</image:loc>
+			<image:title>Фрагмент карты Кавказских земель 1823 г.</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/tenginka/Fragment-map-Trans-Kuban-mountain-peoples-1857.jpg</image:loc>
+			<image:title>Фрагмент карты Закубанских горских народов 1857</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/tenginka/Fragment-map-Stavropol-diocese-1889.jpg</image:loc>
+			<image:title>Фрагмент карты Ставропольской епархии 1889</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/tenginka/Fragment-map-Kuban-region-1904.jpg</image:loc>
+			<image:title>Фрагмент карты Кубанской области 1904</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/tenginka/Camp-Tyagenya-in-off-season-b.jpg</image:loc>
+			<image:title>Лагерь Тягеня в межсезонье</image:title>
+		</image:image>
+</url>
 </urlset>

@@ -3823,4 +3823,50 @@ permalink: /sm_img.xml
 			<image:title>Лагерь Тягеня в межсезонье</image:title>
 		</image:image>
 </url>
+<url>
+  <loc>{{ site.url }}/toponymy/oblego/</loc>
+  <lastmod>2022-04-27</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/oblego/View-southwestern-slope-Oblego-massif-b.jpg</image:loc>
+			<image:title>Вид на юго-западный склон массива горы Облего</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/oblego/Fragment-map-Krasnodar-Territory-1941.jpg</image:loc>
+			<image:title>Фрагмент карты Краснодарского края 1941 г.</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/oblego/Fragment-map-Kuban-region-1904.jpg</image:loc>
+			<image:title>Фрагмент карты Кубанской области 1904 г.</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/oblego/Fragment-map-Caucasus-region-1926.jpg</image:loc>
+			<image:title>Фрагмент карты Кавказского края 1926 г.</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/oblego/highest-point-of-Mount-Oblego-b.jpg</image:loc>
+			<image:title>Высшая точка горы Облего</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/oblego/Forbs-on-Mount-Oblego-1-b.jpg</image:loc>
+			<image:title>Разнотравье на горе Облего</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/oblego/Forbs-on-Mount-Oblego-2-b.jpg</image:loc>
+			<image:title>Разнотравье на горе Облего</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/oblego/Forbs-on-Mount-Oblego-3-b.jpg</image:loc>
+			<image:title>Разнотравье на горе Облего</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/oblego/View-from-Mount-Oblego-to-southwest-b.jpg</image:loc>
+			<image:title>Вид с горы Облего на юго-запад</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/oblego/View-from-Mount-Oblego-to-its-northwestern-spur-b.jpg</image:loc>
+			<image:title>Вид с горы Облего на её северо-западный отрог</image:title>
+		</image:image>
+</url>
 </urlset>

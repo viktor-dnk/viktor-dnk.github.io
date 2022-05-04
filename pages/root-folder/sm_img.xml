@@ -3825,7 +3825,7 @@ permalink: /sm_img.xml
 </url>
 <url>
   <loc>{{ site.url }}/toponymy/oblego/</loc>
-  <lastmod>2022-04-27</lastmod>
+  <lastmod>2022-05-03</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.8</priority>
 		<image:image>

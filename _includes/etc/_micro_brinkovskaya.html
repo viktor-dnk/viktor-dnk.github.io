@@ -2,3 +2,31 @@
 <script>
 var settings={async:!0,crossDomain:!0,url:"https://api.openweathermap.org/data/2.5/weather?id=515583&exclude=hourly,daily&lang=ru&units=metric&appid=a211b744efa66a1056a76b6627d58f3b",method:"GET"};$.ajax(settings).done((function(a){console.log(a);var e=a.main.temp;$("#curtemp").append(Math.round(e)+"ºC");var t=a.weather[0].description;$("#curweather").append(t+", "),$("#weather").append(" "+t+", ",Math.round(e)+"ºC")}));
 </script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [{
+    "@type": "Question",
+    "name": "Что такое гирло?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Гирло, то есть горло, является народным географическим термином, характерен для юга России, имеет значение рукав, протока в дельте рек или пролив соединяющий лиманы друг с другом или морем."
+    }
+  },{
+    "@type": "Question",
+    "name": "Звание "бригадир", это кто?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Бригадир — воинское звание выше полковника и ниже генерал-майора, в Российской армии существовавшее в XVIII-XIX вв."
+    }
+  },{
+    "@type": "Question",
+    "name": "Что такое отсёлок?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Отсёлок — посёлок образовавшийся отселившимися жителями."
+    }
+  }]
+}
+</script>

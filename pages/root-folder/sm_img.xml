@@ -3869,4 +3869,50 @@ permalink: /sm_img.xml
 			<image:title>Вид с горы Облего на её северо-западный отрог</image:title>
 		</image:image>
 </url>
+<url>
+  <loc>{{ site.url }}/toponymy/brinkovskaya/</loc>
+  <lastmod>2022-05-12</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/brinkovskaya/Coat-arms-Brinkovsky-rural-settlement.jpg</image:loc>
+			<image:title>Герб Бриньковского сельского поселения</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/brinkovskaya/Monument-Cossacks-village-Brinkovskaya-b.jpg</image:loc>
+			<image:title>Памятник казакам в станице Бриньковской</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/brinkovskaya/Memorial-complex-memory-Bakhchivandzhi-b.jpg</image:loc>
+			<image:title>Мемориальный комплекс памяти Бахчиванджи Г.Я.</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/brinkovskaya/Fedor-Andreevich-Shcherbina.jpg</image:loc>
+			<image:title>Фёдор Андреевич Щербина</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/brinkovskaya/Church-St-George-the-Victorious-village-Brinkovskaya-b.jpg</image:loc>
+			<image:title>Храм Георгия Победоносца в станице Бриньковской</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/brinkovskaya/Fragment-map-Chernomorie-1857.jpg</image:loc>
+			<image:title>Фрагмент карты Черномории 1857 г.</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/brinkovskaya/Fragment-map-Felitsyn-1899.jpg</image:loc>
+			<image:title>Фрагмент карты Фелицына Е.Д. (1899 г.)</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/brinkovskaya/Fragment-map-Kuban-region-1904.jpg</image:loc>
+			<image:title>Фрагмент карты Кубанской области 1904 г.</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/brinkovskaya/Fragment-map-Krasnodar-Territory-1941.jpg</image:loc>
+			<image:title>Фрагмент карты Краснодарского края 1941 г.</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/brinkovskaya/Fragment-map-land-Black-Sea-Troops-1846.jpg</image:loc>
+			<image:title>Фрагмент карты земли Войска Черноморского 1846 г.</image:title>
+		</image:image>
+</url>
 </urlset>

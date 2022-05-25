@@ -3915,4 +3915,54 @@ permalink: /sm_img.xml
 			<image:title>Фрагмент карты земли Войска Черноморского 1846 г.</image:title>
 		</image:image>
 </url>
+<url>
+  <loc>{{ site.url }}/toponymy/sazalnik/</loc>
+  <lastmod>2022-05-25</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/sazalnik/Sazalnikskaya spit view from north side-b.jpg</image:loc>
+			<image:title>Сазальникская коса вид с северной стороны</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/sazalnik/Scheme borders landscape monument Sazalnikskaya Spit-b.jpg</image:loc>
+			<image:title>Схема границ ландшафтного памятника «Сазальникская коса»</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/sazalnik/Fragment map Taganrog Bay 1851.jpg</image:loc>
+			<image:title>Фрагмент карты берега Таганрогского залива Азовского моря 1851 г.</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/sazalnik/Coat arms rural settlement Shabelsky.jpg</image:loc>
+			<image:title>Герб сельского поселения Шабельского</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/sazalnik/Northern part village Shabelsky-b.jpg</image:loc>
+			<image:title>Северная часть села Шабельского</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/sazalnik/Sazalnik Lighthouse-b.jpg</image:loc>
+			<image:title>Сазальникский маяк</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/sazalnik/Fragment map Sea Azov in French 1773.jpg</image:loc>
+			<image:title>Фрагмент карты Азовского моря на французском языке 1773 г.</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/sazalnik/Fragment map Sea Azov 1787.jpg</image:loc>
+			<image:title>Фрагмент карты Азовского моря 1787 г.</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/sazalnik/Fragment map Sea Azov 1841.jpg</image:loc>
+			<image:title>Фрагмент карты Азовского моря из атласа «Чёрного моря» 1841 г.</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/sazalnik/Fragment 5-verst map Caucasus 1877.jpg</image:loc>
+			<image:title>Фрагмент 5-ти вёрстной карты Кавказа 1877 г.</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/sazalnik/Fragment map Krasnodar Territory 90s.jpg</image:loc>
+			<image:title>Фрагмент карты Краснодарского края 90-х годов ХХ в.</image:title>
+		</image:image>
+</url>
 </urlset>

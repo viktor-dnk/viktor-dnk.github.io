@@ -3965,4 +3965,67 @@ permalink: /sm_img.xml
 			<image:title>Фрагмент карты Краснодарского края 90-х годов ХХ в.</image:title>
 		</image:image>
 </url>
+<url>
+  <loc>{{ site.url }}/toponymy/thagapsh/</loc>
+  <lastmod>2022-06-14</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/thagapsh/Monument-Admiral-Lazarev-near-railway-station-Lazarevskaya-b.jpg</image:loc>
+			<image:title>Памятник адмиралу М.П. Лазареву у железнодорожной станции Лазаревская</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/thagapsh/The-village-Lazarevskoye-lower-reaches-Psezuapse-River-b.jpg</image:loc>
+			<image:title>Посёлок Лазаревское в низовьях реки Псезуапсе</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/thagapsh/Bridge-across-Psezuapse-River-near-village-Tkhagapsh.jpg</image:loc>
+			<image:title>Мост через реку Псезуапсе у аула Тхагапш</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/thagapsh/View-Tkhagapsh-village-spring-from-side-bridge-across-Psezuapse-river-b.jpg</image:loc>
+			<image:title>Вид на аул Тхагапш весной со стороны моста через реку Псезуапсе</image:title>
+		</image:image>
+		<image:image>
+      <image:image>
+  			<image:loc>{{ site.url }}/img/toponymy/thagapsh/General-map-Russian-Empire-1799.jpg</image:loc>
+  			<image:title>Генеральная карта Российской империи 1799 г.</image:title>
+  		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/thagapsh/Fragment-map-actions-Dakhov-detachment-1864.jpg</image:loc>
+			<image:title>Фрагмент карты действий Даховского отряда в 1864 г.</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/thagapsh/Fragment-map-North-Caucasus-region-1930.jpg</image:loc>
+			<image:title>Фрагмент карты Северо-Кавказского края ~1930 г.</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/thagapsh/View-village-Tkhagapsh-from-western-side.jpg</image:loc>
+			<image:title>Вид на аул Тхагапш с западной стороны</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/thagapsh/The-place-where-Psezuapse-river-flows-into-Black-Sea-b.jpg</image:loc>
+			<image:title>Место впадения реки Псезуапсе в Чёрное море</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/thagapsh/Fragment-map-Trans-Kuban-mountain-peoples.jpg</image:loc>
+			<image:title>Фрагмент карты Закубанских горских народов</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/thagapsh/Fragment-map-Kuban-region-1904.jpg</image:loc>
+			<image:title>Фрагмент карты Кубанской области 1904 г.</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/thagapsh/Dolmen-on-territory-village-Tkhagapsh.jpg</image:loc>
+			<image:title>Дольмен на территории аула Тхагапш</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/thagapsh/Map-Circassian-offices-b.jpg</image:loc>
+			<image:title>Карта Черкесских берегов</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/thagapsh/Plan-Fort-Lazarev-b.jpg</image:loc>
+			<image:title>План форта Лазарев</image:title>
+		</image:image>
+</url>
 </urlset>

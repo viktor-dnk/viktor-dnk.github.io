@@ -3987,7 +3987,6 @@ permalink: /sm_img.xml
 			<image:title>Вид на аул Тхагапш весной со стороны моста через реку Псезуапсе</image:title>
 		</image:image>
 		<image:image>
-      <image:image>
   			<image:loc>{{ site.url }}/img/toponymy/thagapsh/General-map-Russian-Empire-1799.jpg</image:loc>
   			<image:title>Генеральная карта Российской империи 1799 г.</image:title>
   		</image:image>

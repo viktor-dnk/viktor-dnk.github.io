@@ -4027,4 +4027,53 @@ permalink: /sm_img.xml
 			<image:title>План форта Лазарев</image:title>
 		</image:image>
 </url>
+<url>
+  <loc>{{ site.url }}/toponymy/zeett/</loc>
+  <lastmod>2022-06-29</lastmod>
+  <changefreq>monthly</changefreq>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/zeett/Mountain-called-Isetsh.jpg</image:loc>
+			<image:title>Гора под названием Исетшъ</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/zeett/Mountain-called-Ieett.jpg</image:loc>
+			<image:title>Гора под названием Иеэттъ</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/zeett/Mountain-called-Tseet.jpg</image:loc>
+			<image:title>Гора под названием Цеэттъ</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/zeett/Mountain-is-listed-under-modern-name-Zeett.jpg</image:loc>
+			<image:title>Гора значится под современным названием Цеэтт</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/zeett/Bedrock-outcrops-on-Mount-Zeett-b.jpg</image:loc>
+			<image:title>Выходы коренных горных пород на горе Цеэтт</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/zeett/Bedrock-outcrops.jpg</image:loc>
+			<image:title>Выходы коренных горных пород</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/zeett/Thamakhinsky-Ridge-and-Tkhamakha-village.jpg</image:loc>
+			<image:title>Хребет Тхамахинский и село Тхамаха</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/zeett/Outcrops-on-Mount-Zeett.jpg</image:loc>
+			<image:title>Выходы коренных пород на горе Цеэтт</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/zeett/Shebsh-River-in-the-upper-reaches.jpg</image:loc>
+			<image:title>Река Шебш в верхнем течении</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/zeett/View-village-Thamakha-from-western-side-b.jpg</image:loc>
+			<image:title>Вид на село Тхамаха с западной стороны</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/zeett/Photo-of-burial-mounds-in-the-vicinity-village-Thamakha.jpg</image:loc>
+			<image:title>Фото курганов в окрестностях села Тхамаха</image:title>
+		</image:image>
+</url>
 </urlset>

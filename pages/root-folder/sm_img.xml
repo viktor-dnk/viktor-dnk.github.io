@@ -4076,4 +4076,61 @@ permalink: /sm_img.xml
 			<image:title>Фото курганов в окрестностях села Тхамаха</image:title>
 		</image:image>
 </url>
+<url>
+  <loc>{{ site.url }}/toponymy/dzhubga/</loc>
+  <lastmod>2022-08-01</lastmod>
+  <changefreq>monthly</changefreq>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/dzhubga/View-bay-mouth-river-and-village-Dzhubga-from-south.jpg</image:loc>
+			<image:title>Вид на бухту, устье реки и посёлок Джубга с юга</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/dzhubga/The-Dzhubga-River-lower-reaches-b.jpg</image:loc>
+			<image:title>Река Джубга в нижнем течении</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/dzhubga/A-fragment-modern-map-location-village-Dzhubga.jpg</image:loc>
+			<image:title>Фрагмент современной карты, район расположения посёлка Джубга</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/dzhubga/Coat-arms-Dzhubga-urban-settlement-adopted-2013.jpg</image:loc>
+			<image:title>Герб Джубгского городского поселения, принят в 2013 г.</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/dzhubga/View-Dzhubga-Bay-from-west-postcard-from-early-20th-century-b.jpg</image:loc>
+			<image:title>Вид на бухту Джубга с западной стороны, открытка начала ХХ в.</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/dzhubga/Lighthouse-village-Dzhubga-b.jpg</image:loc>
+			<image:title>Маяк в посёлке Джубга</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/dzhubga/Fragment-map-eastern-coast-Black-Sea-1837.jpg</image:loc>
+			<image:title>Фрагмент карты восточного берега Чёрного моря 1837 г.</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/dzhubga/The-highest-waterfall-Bzhid-River-third-b.jpg</image:loc>
+			<image:title>Самый высокий водопад на реке Бжид — третий</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/dzhubga/The-highest-Colonels-waterfalls-Kamenistaya-River-b.jpg</image:loc>
+			<image:title>Самый высокий из Полковничьих водопадов на речке Каменистой</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/dzhubga/One-Tesheb-waterfalls-Teshebs-river-low-water-b.jpg</image:loc>
+			<image:title>Один из Тешебских водопадов на реке Тешебс в межень</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/dzhubga/Fragment-map-Kuban-region-1904-where-two-mountains-Ploskie-appear.jpg</image:loc>
+			<image:title>Фрагмент карты Кубанской области (1904 г.), где значатся две горы Плоских</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/dzhubga/Mount-Gebeus-designated-Bigius.jpg</image:loc>
+			<image:title>гора Гебеус обозначена как Бигiусъ</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/dzhubga/A-fragment-modern-map-surroundings-Mount-Gebeus.jpg</image:loc>
+			<image:title>Фрагмент современной карты окрестностей горы Гебеус</image:title>
+		</image:image>
+</url>
 </urlset>

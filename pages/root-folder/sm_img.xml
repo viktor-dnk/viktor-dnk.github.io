@@ -4133,4 +4133,37 @@ permalink: /sm_img.xml
 			<image:title>Фрагмент современной карты окрестностей горы Гебеус</image:title>
 		</image:image>
 </url>
+<url>
+  <loc>{{ site.url }}/toponymy/chelipsi/</loc>
+  <lastmod>2022-08-11</lastmod>
+  <changefreq>monthly</changefreq>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/chelipsi/fragment-modern-map-where-Chelipsi-ridge-and-Mount-Chelipsi-located-center.jpg</image:loc>
+			<image:title>Фрагмент современной карты где в центре расположен хребет Челипси и гора Челипси</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/chelipsi/Valley-Malaya-Laba-River-background-southern-slope-Chelipsi-mountain-range-b.jpg</image:loc>
+			<image:title>Долина реки Малая Лаба, на заднем плане расположен южный склон горного массива Челипси</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/chelipsi/The-Chilipsi-River-northern-part-village-Turkey-b.jpg</image:loc>
+			<image:title>Река Чилипси в северной части села Индюк</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/chelipsi/Fragment-1904-map-showing-valley-Chilipsa-River.jpg</image:loc>
+			<image:title>Фрагмент карты 1904 г., где значится долина реки Чилипса</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/chelipsi/Upper-reaches-Chilipsi-river-valley-View-from-Mount-Turkey-b.jpg</image:loc>
+			<image:title>Верховья долины реки Чилипси. Вид с горы Индюшка</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/chelipsi/Fragment-1906-map-showing-upper-reaches-Chalipsa-River.jpg</image:loc>
+			<image:title>Фрагмент карты 1906 г., где показано верхнее течение реки Чалипса</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/chelipsi/Northern-slope-Mount-Chelipsi-b.jpg</image:loc>
+			<image:title>Северный склон горы Челипси</image:title>
+		</image:image>
+</url>
 </urlset>

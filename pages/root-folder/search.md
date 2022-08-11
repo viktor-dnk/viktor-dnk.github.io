@@ -6,9 +6,9 @@ cover-img: /img/example-logos/main-cover.jpg
 share-title: Поиск по сайту
 share-description: На сайте исправно работает поиск по сайту. Поиск производится по всем статьям за всё время их публикации.
 share-img: /img/example-logos/main-cover4x3.jpg
-keywords: поиск, search, яндекс, yandex
+keywords: поиск, search, яндекс, yandex, гугл, google
 head-extra: etc/_search.html
-last_modified_at: 2022-02-21 10:00:00 +0300
+last_modified_at: 2022-08-11 10:30:00 +0300
 date: 2021-10-09 16:00
 permalink: /search/
 ---

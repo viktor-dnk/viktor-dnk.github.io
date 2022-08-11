@@ -2,3 +2,24 @@
 <script>
 var settings={async:!0,crossDomain:!0,url:"https://api.openweathermap.org/data/2.5/weather?id=563601&exclude=hourly,daily&lang=ru&units=metric&appid=a211b744efa66a1056a76b6627d58f3b",method:"GET"};$.ajax(settings).done((function(a){console.log(a);var e=a.main.temp;$("#curtemp").append(Math.round(e)+"ºC");var t=a.weather[0].description;$("#curweather").append(t+", "),$("#weather").append(" "+t+", ",Math.round(e)+"ºC")}));
 </script>
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [{
+        "@type": "Question",
+        "name": "Что означает Джубга?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Есть мнение, что в состав гидронима Джубга входят адыгейские элементы, которые понимаются как «Широкий берег». Существует также предположение, что топоним произошёл от словосочетания губгъу, означающего «ровное место»."
+        }
+      },{
+        "@type": "Question",
+        "name": "Что посмотреть в джубге?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Курортный посёлок Джубга расположен недалеко от интересных природных объектов горной зоны южного склона Большого Кавказа. Наиболее популярные из них водопады Бжидские, Полковничьи и Тешебские. Указанные объекты находятся в непосредственной близости от посёлка."
+        }
+      }]
+    }
+    </script>

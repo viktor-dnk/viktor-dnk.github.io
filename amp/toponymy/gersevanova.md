@@ -43,7 +43,7 @@ date: 2022-07-18 18:00 +0300
 </figure>
 
 <figure>
-	<a href="/img/toponymy/gersevanova/View-low-mountains-in-area-​​Mount-Gersevanov-b.jpg" title="Вид на низкие горы в районе горы Герсеванова"><img src="/img/toponymy/gersevanova/View-low-mountains-in-area-​​Mount-Gersevanov.jpg" alt="Вид на низкие горы в районе горы Герсеванова" width="640" height="360"/></a>
+	<a href="/img/toponymy/gersevanova/View-low-mountains-in-area-Mount-Gersevanov-b.jpg" title="Вид на низкие горы в районе горы Герсеванова"><img src="/img/toponymy/gersevanova/View-low-mountains-in-area-Mount-Gersevanov.jpg" alt="Вид на низкие горы в районе горы Герсеванова" width="640" height="360"/></a>
 	<figcaption>Вид на низкие горы в районе горы Герсеванова (https://kubantur.com/gora-artilleriyskaya-gora-gorsevanov/)</figcaption>
 </figure>
 

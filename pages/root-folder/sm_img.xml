@@ -4077,6 +4077,63 @@ permalink: /sm_img.xml
 		</image:image>
 </url>
 <url>
+  <loc>{{ site.url }}/toponymy/gersevanova/</loc>
+  <lastmod>2022-07-19</lastmod>
+  <changefreq>monthly</changefreq>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/gersevanova/road-leading-to-Mount-Gersevanov.jpg</image:loc>
+			<image:title>Дорога ведущая к горе Герсеванова</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/gersevanova/Mount-Atse-now-Mount-Gersevanov-on-map-Strelbitsky.jpg</image:loc>
+			<image:title>Гора Аце, сейчас это гора Герсеванова на карте  Стрельбицкого И.А.</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/gersevanova/Mount-Gersevanova-listed-as-Mount-Atse-on-the-map-1877.jpg</image:loc>
+			<image:title>Гора Герсеванова значится как гора Аце на карте 1877 года</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/gersevanova/Mount-Gersevanov-marked-as-Mount-GertsIvanov-on-1904-map.jpg</image:loc>
+			<image:title>Гора Герсеванова обозначена как горы ГерцъИванов на карте 1904 года</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/gersevanova/Mount-Gersevanova-marked-as-Mount-Atse-on-1906-map.jpg</image:loc>
+			<image:title>Гора Герсеванова обозначена как гора Аце на карте 1906 года</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/gersevanova/View-low-mountains-in-area-Mount-Gersevanov-b.jpg</image:loc>
+			<image:title>Вид на низкие горы в районе горы Герсеванова</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/gersevanova/Mount-Gersevanova-on-the-map-1941.jpg</image:loc>
+			<image:title>Гора Герсеванова на карте 1941 года</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/gersevanova/road-to-Mount-Gersevanov.jpg</image:loc>
+			<image:title>Дорога на гору Герсеванова</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/gersevanova/Mount-Gersevanova-on-modern-map.jpg</image:loc>
+			<image:title>Гора Герсеванова на современной карте</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/gersevanova/The-Shebsh-River.jpg</image:loc>
+			<image:title>Река Шебш между восточным отрогом горы Герсеванова и западной оконечностью хребта Тхамахинского</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/gersevanova/Gersevanov-Mikhail-Nikolaevich.jpg</image:loc>
+			<image:title>Герсеванов Михаил Николаевич</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/gersevanova/Son-of-Gersevanov-MN-Nikolai-Mikhailovich-Gersevanov.jpg</image:loc>
+			<image:title>Сын Герсеванова М.Н. Николай Михайлович Герсеванов</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/gersevanova/Afips-River-near-the-village-Fortress-b.jpg</image:loc>
+			<image:title>Река Афипс у станицы Крепостной</image:title>
+		</image:image>
+</url>
+<url>
   <loc>{{ site.url }}/toponymy/dzhubga/</loc>
   <lastmod>2022-08-01</lastmod>
   <changefreq>monthly</changefreq>

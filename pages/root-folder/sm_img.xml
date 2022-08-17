@@ -4223,4 +4223,57 @@ permalink: /sm_img.xml
 			<image:title>Северный склон горы Челипси</image:title>
 		</image:image>
 </url>
+<url>
+  <loc>{{ site.url }}/toponymy/bukepka/</loc>
+  <lastmod>2022-08-17</lastmod>
+  <changefreq>monthly</changefreq>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/bukepka/The-Bukepka-river-valley-modern-map-scale-1-50000.jpg</image:loc>
+			<image:title>Долина реки Букепка на современной карте масштаба 1:50 000</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/bukepka/The-Bukepka-river-valley-modern-map-scale-1-100000.jpg</image:loc>
+			<image:title>Долина реки Букепка на современной карте масштаба 1:100 000</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/bukepka/Left-bank-valley-river-Bukepka-lower-reaches-b.jpg</image:loc>
+			<image:title>Левый берег долины речки Букепка в нижнем течении</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/bukepka/The-river-Bukepka-middle-course-b.jpg</image:loc>
+			<image:title>Речка Букепка в среднем течении</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/bukepka/Phoenicurus-phoenicurus.jpg</image:loc>
+			<image:title>Горихвостка обыкновенная</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/bukepka/Phoenicurus-ochruros.jpg</image:loc>
+			<image:title>Горихвостка-чернушка</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/bukepka/Valley-Beshenogo-stream-lower-reaches-b.jpg</image:loc>
+			<image:title>Долина ручья Бешеного в нижнем течении</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/bukepka/The-bed-Beshenny-stream-lower-reaches-b.jpg</image:loc>
+			<image:title>Русло ручья Бешенного в низовьях</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/bukepka/Fragment-map-1906-where-river-listed-Tashigai.jpg</image:loc>
+			<image:title>Фрагмент карты 1906 г., где значится р. Ташигай</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/bukepka/Fragment-map-1926-where-river-listed-Tashtai.jpg</image:loc>
+			<image:title>Фрагмент карты 1926 г., где значится р. Таштай и р. Букепка</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/bukepka/Gorge-river-Tashtai-b.jpg</image:loc>
+			<image:title>Ущелье речки Таштай</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/bukepka/Tashtai-Gorge-b.jpg</image:loc>
+			<image:title>Ущелье Таштай</image:title>
+		</image:image>
+</url>
 </urlset>

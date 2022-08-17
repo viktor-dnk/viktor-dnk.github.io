@@ -4228,11 +4228,11 @@ permalink: /sm_img.xml
   <lastmod>2022-08-17</lastmod>
   <changefreq>monthly</changefreq>
 		<image:image>
-			<image:loc>{{ site.url }}/img/toponymy/bukepka/The-Bukepka-river-valley-modern-map-scale-1-50000.jpg</image:loc>
+			<image:loc>{{ site.url }}/img/toponymy/bukepka/The-Bukepka-river-valley-modern-map-scale-1-50000-b.jpg</image:loc>
 			<image:title>Долина реки Букепка на современной карте масштаба 1:50 000</image:title>
 		</image:image>
 		<image:image>
-			<image:loc>{{ site.url }}/img/toponymy/bukepka/The-Bukepka-river-valley-modern-map-scale-1-100000.jpg</image:loc>
+			<image:loc>{{ site.url }}/img/toponymy/bukepka/The-Bukepka-river-valley-modern-map-scale-1-100000-b.jpg</image:loc>
 			<image:title>Долина реки Букепка на современной карте масштаба 1:100 000</image:title>
 		</image:image>
 		<image:image>

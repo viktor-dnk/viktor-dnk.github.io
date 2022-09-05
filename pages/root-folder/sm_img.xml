@@ -4276,4 +4276,45 @@ permalink: /sm_img.xml
 			<image:title>Ущелье Таштай</image:title>
 		</image:image>
 </url>
+<url>
+  <loc>{{ site.url }}/toponymy/kaladzhinskaya/</loc>
+  <lastmod>2022-09-05</lastmod>
+  <changefreq>monthly</changefreq>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/kaladzhinskaya/Kaladzhin-fortifications-map-1899.jpg</image:loc>
+			<image:title>Каладжинские укрепления на карте 1899 года</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/kaladzhinskaya/Fortification-Kalazh-map-1821.jpg</image:loc>
+			<image:title>Укрепление Калажъ на карте 1821 года</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/kaladzhinskaya/Village-Kaladzhinskaya-and-Mount-Kalazh-map-1880.jpg</image:loc>
+			<image:title>Станица Каладжинская и гора Калажъ на карте 1880 года</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/kaladzhinskaya/Station-Kaladzhinskaya-View-from-southern-spur-Mount-Kalazh-b.jpg</image:loc>
+			<image:title>Станица Каладжинская. Вид с южного отрога горы Калажъ.</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/kaladzhinskaya/Village-Kaladzhinskaya-and-Mount-Kalazh-map-1904.jpg</image:loc>
+			<image:title>Станица Каладжинская и гора Калажъ на карте 1904 года</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/kaladzhinskaya/View-valley-Laba-River-from-proposed-place-fortification-b.jpg</image:loc>
+			<image:title>Вид на долину реки Лаба с предполагаемого места укрепления</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/kaladzhinskaya/Coat-arms-Kaladzhinsky-rural-settlement-b.jpg</image:loc>
+			<image:title>Герб Каладжинского сельского поселения</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/kaladzhinskaya/The-Laba-River-near-village-Kaladzhinskaya-b.jpg</image:loc>
+			<image:title>Река Лаба у станицы Каладжинской</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/kaladzhinskaya/Valley-Malaya-Laba-River-in-upper-reaches-b.jpg</image:loc>
+			<image:title>Долина реки Малая Лаба в верхнем течении</image:title>
+		</image:image>
+</url>
 </urlset>

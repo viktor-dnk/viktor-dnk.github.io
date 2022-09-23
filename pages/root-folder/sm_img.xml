@@ -4317,4 +4317,65 @@ permalink: /sm_img.xml
 			<image:title>Долина реки Малая Лаба в верхнем течении</image:title>
 		</image:image>
 </url>
+<url>
+  <loc>{{ site.url }}/toponymy/taman/</loc>
+  <lastmod>2022-09-22</lastmod>
+  <changefreq>monthly</changefreq>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/taman/Monument-Black-Sea-Cossacks-village-Taman-shore-Taman-Bay-b.jpg</image:loc>
+			<image:title>Памятник казакам черноморцам в станице Тамань на берегу Таманского залива</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/taman/A-copy-Tmutarakan-stone-Ataman-complex-b.jpg</image:loc>
+			<image:title>Копия Тмутараканского камня в комплексе Атамань</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/taman/Monument-to-Lermontov-M-Yu-in-Taman-b.jpg</image:loc>
+			<image:title>Памятник Лермонтову М.Ю. в Тамани</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/taman/Suvorov-ramparts-b.jpg</image:loc>
+			<image:title>«Суворовские валы» (место Фанагорийской крепости)</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/taman/Schematic-map-system-defensive-lines-Nazi-Germany-Kuban-bridgehead-second-half-1943-b.jpg</image:loc>
+			<image:title>Карта-схема системы оборонительных рубежей гитлеровской Германии на Кубанском плацдарме во второй половине 1943 г.</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/taman/Fragment-map-1807-Taman-designated-as-Tmutarakan.jpg</image:loc>
+			<image:title>Фрагмент карты 1807 г., где Тамань обозначена как Тмутаракань</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/taman/View-village-Taman-from-the-south-b.jpg</image:loc>
+			<image:title>Вид на станицу Тамань с юга</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/taman/Taman-coast-Black-Sea-near-Cape-Zhelezny-Rog-b.jpg</image:loc>
+			<image:title>Таманский берег Чёрного моря в районе мыса Железный Рог</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/taman/Embankment-village-Taman-b.jpg</image:loc>
+			<image:title>Набережная в станице Тамань</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/taman/Swimming-area-village-Taman-b.jpg</image:loc>
+			<image:title>Зона для купания в станице Тамань. Хорошо виден южный берег полуострова</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/taman/Fragment-map-1816-Taman-designated-as-Tmutarakan.jpg</image:loc>
+			<image:title>Фрагмент карты 1816 г., где Тамань обозначена как Тмутаракань</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/taman/Kerch-Strait-view-from-the-Chushka-spit-b.jpg</image:loc>
+			<image:title>Керченский пролив вид с косы Чушка</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/taman/Museum-complex-Ataman-b.jpg</image:loc>
+			<image:title>В музейном комплексе Атамань</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/taman/Baba-Yaga-hut-Ataman-museum-complex-b.jpg</image:loc>
+			<image:title>Изба Бабы Яги в музейном комплексе Атамань</image:title>
+		</image:image>
+</url>
 </urlset>

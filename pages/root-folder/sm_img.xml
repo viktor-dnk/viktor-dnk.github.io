@@ -4378,4 +4378,33 @@ permalink: /sm_img.xml
 			<image:title>Изба Бабы Яги в музейном комплексе Атамань</image:title>
 		</image:image>
 </url>
+<url>
+  <loc>{{ site.url }}/toponymy/wolf-gate-p1/</loc>
+  <lastmod>2022-10-04</lastmod>
+  <changefreq>monthly</changefreq>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/wolf-gate-p1/Wolf-in-Caucasian-Reserve-b.jpg</image:loc>
+			<image:title>Волк в Кавказском заповеднике</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/wolf-gate-p1/Gate-in-English-park-with-inscription.jpg</image:loc>
+			<image:title>Ворота в английском парке с надписью «Пожалуйста , закройте ворота»</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/wolf-gate-p1/Tract-Lower-Wolf-Gate-on-Pshekha-River-b.jpg</image:loc>
+			<image:title>Урочище Нижние Волчьи Ворота на реке Пшеха</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/wolf-gate-p1/View-of-Psekup-Wolf-Gate-from-north-side-b.jpg</image:loc>
+			<image:title>Вид на Псекупские Волчьи Ворота с северной стороны</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/wolf-gate-p1/View-of-Stavropol-mountain.jpg</image:loc>
+			<image:title>Вид на Ставропольскую гору</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/wolf-gate-p1/View-from-tract-Volchii-Vorota.jpg</image:loc>
+			<image:title>Вид от урочища Волчьи Ворота на Сенгилеевское водохранилище</image:title>
+		</image:image>
+</url>
 </urlset>

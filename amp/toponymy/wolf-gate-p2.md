@@ -43,8 +43,7 @@ date: 2022-10-05 19:00 +0300
 </figure>
 
 <figure>
-	<img src="/img/toponymy/wolf-gate-p2/Wolf Gate Pass near village Abadzekhskaya on map 1941 on right side Belaya River.jpg" title="Перевал Волчьи Ворота у станицы Абадзехской на карте 1941 г., на правом борту долины реки Белой" alt="Перевал Волчьи Ворота у станицы Абадзехской на карте 1941 г., на правом борту долины реки Белой" width="388" height="268"/>  
-	<img src="/img/toponymy/wolf-gate-p2/Wolf Gate Pass near village Abadzekhskaya on map 1941 on left side Belaya River.jpg" title="Перевал Волчьи Ворота у станицы Абадзехской на карте 1941 г., на левом борту долины реки Белой" alt="Перевал Волчьи Ворота у станицы Абадзехской на карте 1941 г., на левом борту долины реки Белой" width="388" height="268"/>
+	<img src="/img/toponymy/wolf-gate-p2/Wolf Gate Pass near village Abadzekhskaya on map 1941 on left side Belaya River.jpg" title="Перевал Волчьи Ворота у станицы Абадзехской на карте 1941 г., на левом борту долины реки Белой" alt="Перевал Волчьи Ворота у станицы Абадзехской на карте 1941 г., на левом борту долины реки Белой" width="600" height="544"/>
 	<figcaption>Перевалы Волчьи Ворота у станицы Абадзехской на карте 1941 г. Один перевал расположен на левом борту долины реки Белой, второй на правом</figcaption>
 </figure>
 

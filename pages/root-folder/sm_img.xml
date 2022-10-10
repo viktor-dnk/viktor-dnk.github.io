@@ -4412,83 +4412,79 @@ permalink: /sm_img.xml
   <lastmod>2022-10-05</lastmod>
   <changefreq>monthly</changefreq>
 		<image:image>
-			<image:loc>{{ site.url }}/img/toponymy/wolf-gate-p2/Novorossiysk pass Volchyi Vorota view from north-b.jpg</image:loc>
+			<image:loc>{{ site.url }}/img/toponymy/wolf-gate-p2/Novorossiysk-pass-Volchyi-Vorota-view-from-north-b.jpg</image:loc>
 			<image:title>Новороссийский перевал Волчьи Ворота вид с севера</image:title>
 		</image:image>
 		<image:image>
-			<image:loc>{{ site.url }}/img/toponymy/wolf-gate-p2/Monumen fallen Heroes Novorossiysk Wolf Gate Pass-b.jpg</image:loc>
+			<image:loc>{{ site.url }}/img/toponymy/wolf-gate-p2/Monumen-fallen-Heroes-Novorossiysk-Wolf-Gate-Pass-b.jpg</image:loc>
 			<image:title>Памятник павшим Героям Новороссийска на перевале Волчьи Ворота</image:title>
 		</image:image>
 		<image:image>
-			<image:loc>{{ site.url }}/img/toponymy/wolf-gate-p2/Novorossiysk pass Volchyi Vorota view from south.jpg</image:loc>
+			<image:loc>{{ site.url }}/img/toponymy/wolf-gate-p2/Novorossiysk-pass-Volchyi-Vorota-view-from-south.jpg</image:loc>
 			<image:title>Новороссийский перевал Волчьи Ворота вид с юга</image:title>
 		</image:image>
 		<image:image>
-			<image:loc>{{ site.url }}/img/toponymy/wolf-gate-p2/Female Caucasian red deer Caucasian Reserve-b.jpg</image:loc>
+			<image:loc>{{ site.url }}/img/toponymy/wolf-gate-p2/Female-Caucasian-red-deer-Caucasian-Reserve-b.jpg</image:loc>
 			<image:title>Самка кавказского благородного оленя в Кавказском заповеднике</image:title>
 		</image:image>
 		<image:image>
-			<image:loc>{{ site.url }}/img/toponymy/wolf-gate-p2/Wolf Gate Pass near village Abadzekhskaya on map 1941 on right side Belaya River.jpg</image:loc>
-			<image:title>Перевал Волчьи Ворота у станицы Абадзехской на карте 1941 г., на правом борту долины реки Белой</image:title>
-		</image:image>
-		<image:image>
-			<image:loc>{{ site.url }}/img/toponymy/wolf-gate-p2/Wolf Gate Pass near village Abadzekhskaya on map 1941 on left side Belaya River.jpg</image:loc>
+			<image:loc>{{ site.url }}/img/toponymy/wolf-gate-p2/Wolf-Gate-Pass-near-village-Abadzekhskaya-on-map-1941-on-left-side-Belaya-River.jpg</image:loc>
 			<image:title>Перевал Волчьи Ворота у станицы Абадзехской на карте 1941 г., на левом борту долины реки Белой</image:title>
 		</image:image>
 		<image:image>
-			<image:loc>{{ site.url }}/img/toponymy/wolf-gate-p2/Khapobga River on map 1864.jpg</image:loc>
+			<image:loc>{{ site.url }}/img/toponymy/wolf-gate-p2/Khapobga-River-on-map-1864.jpg</image:loc>
 			<image:title>Речка Хапобга на карте 1864 г.</image:title>
 		</image:image>
 		<image:image>
-			<image:loc>{{ site.url }}/img/toponymy/wolf-gate-p2/One dolmens Kapibge river valley-b.jpg</image:loc>
+			<image:loc>{{ site.url }}/img/toponymy/wolf-gate-p2/One-dolmens-Kapibge-river-valley-b.jpg</image:loc>
 			<image:title>Один из дольменов долины речки Капибге</image:title>
 		</image:image>
 		<image:image>
-			<image:loc>{{ site.url }}/img/toponymy/wolf-gate-p2/One sections Mizeguh ridge.jpg</image:loc>
+			<image:loc>{{ site.url }}/img/toponymy/wolf-gate-p2/One-sections-Mizeguh-ridge.jpg</image:loc>
 			<image:title>Один из участков хребта Мизегух</image:title>
 		</image:image>
 		<image:image>
-			<image:loc>{{ site.url }}/img/toponymy/wolf-gate-p2/The tract Volchii Vorota valley river Afips 1941.jpg</image:loc>
+			<image:loc>{{ site.url }}/img/toponymy/wolf-gate-p2/The-tract-Volchii-Vorota-valley-river-Afips-1941.jpg</image:loc>
 			<image:title>Урочище Волчьи Ворота в долине реки Афипс 1941 г.</image:title>
 		</image:image>
 		<image:image>
-			<image:loc>{{ site.url }}/img/toponymy/wolf-gate-p2/The tract Volchii Vorota near Ermolov hillock modern map.jpg</image:loc>
+			<image:loc>{{ site.url }}/img/toponymy/wolf-gate-p2/The-tract-Volchii-Vorota-near-Ermolov-hillock-modern-map.jpg</image:loc>
 			<image:title>Урочище Волчьи Ворота у бугра Ермолов на современной карте</image:title>
 		</image:image>
 		<image:image>
-			<image:loc>{{ site.url }}/img/toponymy/wolf-gate-p2/Wolf Gate on Psekups River 1941 map.jpg</image:loc>
+			<image:loc>{{ site.url }}/img/toponymy/wolf-gate-p2/Wolf-Gate-on-Psekups-River-1941-map.jpg</image:loc>
 			<image:title>Волчьи ворота на реке Псекупс на карте 1941 г.</image:title>
 		</image:image>
 		<image:image>
-			<image:loc>{{ site.url }}/img/toponymy/wolf-gate-p2/Memorial to soldiers 71st regiment 30th Irkutsk division tract Volchyi Vorota-b.jpg</image:loc>
+			<image:loc>{{ site.url }}/img/toponymy/wolf-gate-p2/Memorial-to-soldiers-71st-regiment-30th-Irkutsk-division-tract-Volchyi-Vorota-b.jpg</image:loc>
 			<image:title>Мемориал воинам 71 полка 30-й Иркутской дивизии в урочище Волчьи Ворота</image:title>
 		</image:image>
 		<image:image>
-			<image:loc>{{ site.url }}/img/toponymy/wolf-gate-p2/View valley river Aderba foreground narrowing is visible which is called Wolf Gate.jpg</image:loc>
+			<image:loc>{{ site.url }}/img/toponymy/wolf-gate-p2/View-valley-river-Aderba-foreground-narrowing-is-visible-which-is-called-Wolf-Gate.jpg</image:loc>
 			<image:title>Вид на долину реки Адерба. На переднем плане видно сужение, которое называется Волчьи Ворота.</image:title>
 		</image:image>
 		<image:image>
-			<image:loc>{{ site.url }}/img/toponymy/wolf-gate-p2/Wolf gate on river Aderba on map 30s twentieth century.jpg</image:loc>
+			<image:loc>{{ site.url }}/img/toponymy/wolf-gate-p2/Wolf-gate-on-river-Aderba-on-map-30s-twentieth-century.jpg</image:loc>
 			<image:title>Волчьи ворота на реке Адерба на карте 30-х годов ХХ в.</image:title>
 		</image:image>
 		<image:image>
-			<image:loc>{{ site.url }}/img/toponymy/wolf-gate-p2/The tract Lower Wolf Gate on Pshekha River-b.jpg</image:loc>
+			<image:loc>{{ site.url }}/img/toponymy/wolf-gate-p2/The-tract-Lower-Wolf-Gate-on-Pshekha-River-b.jpg</image:loc>
 			<image:title>Урочище Нижние Волчьи Ворота на реке Пшеха</image:title>
 		</image:image>
 		<image:image>
-			<image:loc>{{ site.url }}/img/toponymy/wolf-gate-p2/Monument near river Pshekha Lower Wolf Gate honor fallen heroes Great Patriotic War.jpg</image:loc>
+			<image:loc>{{ site.url }}/img/toponymy/wolf-gate-p2/Monument-near-river-Pshekha-Lower-Wolf-Gate-honor-fallen-heroes-Great-Patriotic-War.jpg</image:loc>
 			<image:title>Памятник у реки Пшеха (Нижние Волчьи Ворота) в честь павших героев в Великой Отечественной войне</image:title>
 		</image:image>
 		<image:image>
-			<image:loc>{{ site.url }}/img/toponymy/wolf-gate-p2/Chibi Wolf Gate-b.jpg</image:loc>
+			<image:loc>{{ site.url }}/img/toponymy/wolf-gate-p2/Chibi-Wolf-Gate-b.jpg</image:loc>
 			<image:title>Чибийские Волчьи Ворота</image:title>
 		</image:image>
 		<image:image>
-			<image:loc>{{ site.url }}/img/toponymy/wolf-gate-p2/Wolf Gate site on Spider River-b.jpg</image:loc>
+			<image:loc>{{ site.url }}/img/toponymy/wolf-gate-p2/Wolf-Gate-site-on-Spider-River-b.jpg</image:loc>
 			<image:title>Участок Волчьих Ворот на реке Паук</image:title>
 		</image:image>
 		<image:image>
-			<image:loc>{{ site.url }}/img/toponymy/wolf-gate-p2/Cape Kodosh on map 1941-b.jpg</image:loc>
+			<image:loc>{{ site.url }}/img/toponymy/wolf-gate-p2/Cape-Kodosh-on-map-1941-b.jpg</image:loc>
 			<image:title>Мыс Кодош (юго-восточнее маяка) на карте1941 г.</image:title>
 		</image:image>
 </url>

@@ -4409,7 +4409,7 @@ permalink: /sm_img.xml
 </url>
 <url>
   <loc>{{ site.url }}/toponymy/wolf-gate-p2/</loc>
-  <lastmod>2022-10-05</lastmod>
+  <lastmod>2022-10-10</lastmod>
   <changefreq>monthly</changefreq>
 		<image:image>
 			<image:loc>{{ site.url }}/img/toponymy/wolf-gate-p2/Novorossiysk-pass-Volchyi-Vorota-view-from-north-b.jpg</image:loc>
@@ -4429,7 +4429,7 @@ permalink: /sm_img.xml
 		</image:image>
 		<image:image>
 			<image:loc>{{ site.url }}/img/toponymy/wolf-gate-p2/Wolf-Gate-Pass-near-village-Abadzekhskaya-on-map-1941-on-left-side-Belaya-River.jpg</image:loc>
-			<image:title>Перевал Волчьи Ворота у станицы Абадзехской на карте 1941 г., на левом борту долины реки Белой</image:title>
+			<image:title>Перевалы Волчьи Ворота у станицы Абадзехской на карте 1941 г.</image:title>
 		</image:image>
 		<image:image>
 			<image:loc>{{ site.url }}/img/toponymy/wolf-gate-p2/Khapobga-River-on-map-1864.jpg</image:loc>
@@ -4476,15 +4476,15 @@ permalink: /sm_img.xml
 			<image:title>Памятник у реки Пшеха (Нижние Волчьи Ворота) в честь павших героев в Великой Отечественной войне</image:title>
 		</image:image>
 		<image:image>
-			<image:loc>{{ site.url }}/img/toponymy/wolf-gate-p2/Chibi-Wolf-Gate-b.jpg</image:loc>
+			<image:loc>{{ site.url }}/img/toponymy/wolf-gate-p2/Chibi-Wolf-Gate.jpg</image:loc>
 			<image:title>Чибийские Волчьи Ворота</image:title>
 		</image:image>
 		<image:image>
-			<image:loc>{{ site.url }}/img/toponymy/wolf-gate-p2/Wolf-Gate-site-on-Spider-River-b.jpg</image:loc>
+			<image:loc>{{ site.url }}/img/toponymy/wolf-gate-p2/Wolf-Gate-site-on-Spider-River.jpg</image:loc>
 			<image:title>Участок Волчьих Ворот на реке Паук</image:title>
 		</image:image>
 		<image:image>
-			<image:loc>{{ site.url }}/img/toponymy/wolf-gate-p2/Cape-Kodosh-on-map-1941-b.jpg</image:loc>
+			<image:loc>{{ site.url }}/img/toponymy/wolf-gate-p2/Cape-Kodosh-on-map-1941.jpg</image:loc>
 			<image:title>Мыс Кодош (юго-восточнее маяка) на карте1941 г.</image:title>
 		</image:image>
 </url>

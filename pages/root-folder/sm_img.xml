@@ -4497,11 +4497,11 @@ permalink: /sm_img.xml
 			<image:title>Фрагмент карты 1899 г. в районе станицы Темижбекской</image:title>
 		</image:image>
 		<image:image>
-			<image:loc>{{ site.url }}/img/toponymy/temizhbekskaya/View-Temizhbekskaya-and-Kuban-River-from-western-side-b.jpg</image:loc>
+			<image:loc>{{ site.url }}/img/toponymy/temizhbekskaya/View-Temizhbekskaya-and-Kuban-River-from-western-side.jpg</image:loc>
 			<image:title>Вид на Темижбекскую и реку Кубань с западной стороны</image:title>
 		</image:image>
 		<image:image>
-			<image:loc>{{ site.url }}/img/toponymy/temizhbekskaya/Scheme-where-there-were-no-Temizhbek-fortifications-between-Pavlovsk-Fortress-and-Vostochny.jpg</image:loc>
+			<image:loc>{{ site.url }}/img/toponymy/temizhbekskaya/Scheme-where-there-were-no-Temizhbek-fortifications-between-Pavlovsk-Fortress-and-Vostochny-b.jpg</image:loc>
 			<image:title>Схема, где между Павловской крепостью и фельдшанцем Восточный ещё не было Темижбекских укреплений</image:title>
 		</image:image>
 		<image:image>

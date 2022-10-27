@@ -21,12 +21,12 @@ date: 2022-10-27 13:00 +0300
 На «Военно-исторической карте Северо-Западного Кавказа с 1774 г. до окончания Кавказской войны» [[8]](#t68-[8]) значатся: **Темижбекский редут (1791 г.) и станица Темижбекская (1802 г.)**, западнее в нескольких километрах **Малый Темижбекский пост (около 1788-1799 гг.)**, восточнее, на удалении около 7 км, расположены ещё два укрепления **Темижбек редут (около 1799-1790 гг.)** и **Большой Темижбекский пост (1793 г.)** [[5, 6, 8]](#t68-[5]). Указанные укрепления и станица располагались на правом берегу реки Кубань и входили в состав Кубанской оборонительной линии, **они были построены в урочище Темишберг**, которое Соловьёв В.А. (1925-2013 гг.) кубанский историк-краевед и писатель, называет и **Темишбек** [[5, 6]](#t68-[5]). Почему укрепления с одинаковым наименованием, потому что располагались на территории указанного урочища.
 
 <figure>
-	<a href="/img/toponymy/temizhbekskaya/View-Temizhbekskaya-and-Kuban-River-from-western-side-b.jpg" title="Вид на Темижбекскую и реку Кубань с западной стороны"><img src="/img/toponymy/temizhbekskaya/View-Temizhbekskaya-and-Kuban-River-from-western-side.jpg" alt="Вид на Темижбекскую и реку Кубань с западной стороны" width="640" height="600"/></a>
+	<img src="/img/toponymy/temizhbekskaya/View-Temizhbekskaya-and-Kuban-River-from-western-side.jpg" title="Вид на Темижбекскую и реку Кубань с западной стороны" alt="Вид на Темижбекскую и реку Кубань с западной стороны" width="640" height="600"/>
 	<figcaption>Вид на Темижбекскую и реку Кубань с западной стороны (https://vsn.ru/)</figcaption>
 </figure>
 
 <figure>
-	<img src="/img/toponymy/temizhbekskaya/Scheme-where-there-were-no-Temizhbek-fortifications-between-Pavlovsk-Fortress-and-Vostochny.jpg" title="Схема, где между Павловской крепостью и фельдшанцем Восточный ещё не было Темижбекских укреплений" alt="Схема, где между Павловской крепостью и фельдшанцем Восточный ещё не было Темижбекских укреплений" width="800" height="516"/>
+	<a href="/img/toponymy/temizhbekskaya/Scheme-where-there-were-no-Temizhbek-fortifications-between-Pavlovsk-Fortress-and-Vostochny-b.jpg" title="Схема, где между Павловской крепостью и фельдшанцем Восточный ещё не было Темижбекских укреплений"><img src="/img/toponymy/temizhbekskaya/Scheme-where-there-were-no-Temizhbek-fortifications-between-Pavlovsk-Fortress-and-Vostochny.jpg" alt="Схема, где между Павловской крепостью и фельдшанцем Восточный ещё не было Темижбекских укреплений" width="800" height="516"/></a>
 	<figcaption>Схема Кавказской линии до 1783 г., где между Павловской крепостью и фельдшанцем Восточный ещё не было Темижбекских укреплений</figcaption>
 </figure>
 

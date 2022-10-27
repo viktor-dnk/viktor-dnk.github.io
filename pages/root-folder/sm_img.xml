@@ -4488,4 +4488,53 @@ permalink: /sm_img.xml
 			<image:title>Мыс Кодош (юго-восточнее маяка) на карте1941 г.</image:title>
 		</image:image>
 </url>
+<url>
+  <loc>{{ site.url }}/toponymy/temizhbekskaya/</loc>
+  <lastmod>2022-10-27</lastmod>
+  <changefreq>monthly</changefreq>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/temizhbekskaya/Fragment-map-1899-area-village-Temizhbekskaya.jpg</image:loc>
+			<image:title>Фрагмент карты 1899 г. в районе станицы Темижбекской</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/temizhbekskaya/View-Temizhbekskaya-and-Kuban-River-from-western-side-b.jpg</image:loc>
+			<image:title>Вид на Темижбекскую и реку Кубань с западной стороны</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/temizhbekskaya/Scheme-where-there-were-no-Temizhbek-fortifications-between-Pavlovsk-Fortress-and-Vostochny.jpg</image:loc>
+			<image:title>Схема, где между Павловской крепостью и фельдшанцем Восточный ещё не было Темижбекских укреплений</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/temizhbekskaya/Fragment-1941-map-vicinity-village-Temizhbekskaya.jpg</image:loc>
+			<image:title>Фрагмент карты 1941 г. окрестностей станицы Темижбекской</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/temizhbekskaya/The-coat-arms-village-Temizhbekskaya-was-adopted-2009.jpg</image:loc>
+			<image:title>Герб станицы Темижбекской принят в 2009 г.</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/temizhbekskaya/A-fragment-map-1899-where-part-nomad-nomadic-area-is-listed.jpg</image:loc>
+			<image:title>Фрагмент карты 1899 г., где значится часть  местности кочевий ногайцев</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/temizhbekskaya/Temizhbekskaya-bell-tower-Church-St-Nicholas-Wonderworker-b.jpg</image:loc>
+			<image:title>Темижбекская — колокольня церкви Святого Николая Чудотворца</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/temizhbekskaya/Church-Michael-Archangel-village-Temizhbekskaya.jpg</image:loc>
+			<image:title>Храм Михаила Архангела в станице Темижбекской</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/temizhbekskaya/Fragment-Russian-map-1820-Temizhberskaya.jpg</image:loc>
+			<image:title>Фрагмент Российской карты 1820 г. - Темижберская</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/temizhbekskaya/Fragment-Russian-map-1826-40-Temizhberskaya.jpg</image:loc>
+			<image:title>Фрагмент Российской карты 1826-40 гг. - Темижберская</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/temizhbekskaya/Fragment-map-1857-Temizhbergskaya.jpg</image:loc>
+			<image:title>Фрагмент карты1857 г. - Темижбергская</image:title>
+		</image:image>
+</url>
 </urlset>

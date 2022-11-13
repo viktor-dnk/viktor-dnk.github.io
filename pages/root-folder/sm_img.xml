@@ -4537,4 +4537,49 @@ permalink: /sm_img.xml
 			<image:title>Фрагмент карты1857 г. - Темижбергская</image:title>
 		</image:image>
 </url>
+<url>
+  <loc>{{ site.url }}/toponymy/andryuki/</loc>
+  <lastmod>2022-11-13</lastmod>
+  <changefreq>monthly</changefreq>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/andryuki/Stanitsa-Andryukovskaya-map-1941.jpg</image:loc>
+			<image:title>Станица Андрюковская на карте 1941 г.</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/andryuki/fragment-map-1847-where-river-is-indicated-Andryuk.jpg</image:loc>
+			<image:title>Фрагмент карты 1847 г., где обозначена р. Андрюкъ</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/andryuki/View-section-Rocky-Range-b.jpg</image:loc>
+			<image:title>Вид на участок Скалистого хребта</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/andryuki/Oktyabrskaya-Street-main-street-village-Andryuki.jpg</image:loc>
+			<image:title>Улица Октябрьская - главная улица станицы Андрюки</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/andryuki/Reconstruction-appearance-one-temples-Alan-settlement-Kunsha-b.jpg</image:loc>
+			<image:title>Реконструкция внешнего вида одного из храмов на аланском городище Куньша</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/andryuki/Coat-arms-Andryukovsky-rural-settlement.jpg</image:loc>
+			<image:title>Герб Андрюковского сельского поселения</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/andryuki/The-Andryuk-River-near-village-Salt-b.jpg</image:loc>
+			<image:title>Река Андрюк в районе села Солёного</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/andryuki/Fragment-a-map-Kuban-region-1904.jpg</image:loc>
+			<image:title>Фрагмент карты Кубанской области 1904 г.</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/andryuki/Waterfall-Kyzyl-Bek-River-b.jpg</image:loc>
+			<image:title>Водопад на реке Кызыл-Бек</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/andryuki/Stanitsa-Andryuki-and-village-Salt-map-2005.jpg</image:loc>
+			<image:title>Станица Андрюки и село Солёное на карте 2005 г.</image:title>
+		</image:image>
+</url>
 </urlset>

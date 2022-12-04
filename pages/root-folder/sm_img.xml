@@ -4582,4 +4582,53 @@ permalink: /sm_img.xml
 			<image:title>Станица Андрюки и село Солёное на карте 2005 г.</image:title>
 		</image:image>
 </url>
+<url>
+  <loc>{{ site.url }}/toponymy/pshada/</loc>
+  <lastmod>2022-12-04</lastmod>
+  <changefreq>monthly</changefreq>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/pshada/Pshada-river-valley-on-map-20th-b.jpg</image:loc>
+			<image:title>Долина реки Пшада на карте начала ХХ в.</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/pshada/Dipper-bird-b.jpg</image:loc>
+			<image:title>Оляпка (водяной воробей или водяной дрозд) птица отряда воробьинообразных</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/pshada/surviving-dolmen-from-Larin-Ridge-group-b.jpg</image:loc>
+			<image:title>Сохранившийся дольмен из группы Ларин Хребет</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/pshada/Dolmen-found-near-village-Krinitsa.jpg</image:loc>
+			<image:title>Дольмен найденный у села Криница</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/pshada/View-from-Mount-Oblego-to-valley-of-river-Pshada-b.jpg</image:loc>
+			<image:title>Вид с горы Облего на долину реки Пшада</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/pshada/Tourists-admire-valley-of-river-Pshada-b.jpg</image:loc>
+			<image:title>Туристы любуются долиной реки Пшада</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/pshada/highest-waterfall-on-Black-River-in-low-water-b.jpg</image:loc>
+			<image:title>Самый высокий водопад на Чёрной речке в межень</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/pshada/506.jpg</image:loc>
+			<image:title>Фрагменты карты Краснодарского края 1941 г.</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/pshada/first-waterfall-on-river-Tkhab-in-Plesetskaya-gap-b.jpg</image:loc>
+			<image:title>Первый водопад на речке Тхаб в Плесецкой щели</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/pshada/first-waterfall-in-Olenichev-gorge-b.jpg</image:loc>
+			<image:title>Первый водопад в щели Оленичева</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/pshada/Thab-river-valley-view-from-north-b.jpg</image:loc>
+			<image:title>Долина реки Тхаб вид с севера</image:title>
+		</image:image>
+</url>
 </urlset>

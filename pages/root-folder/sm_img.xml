@@ -4632,47 +4632,47 @@ permalink: /sm_img.xml
 		</image:image>
 </url>
 <url>
-  <loc>{{ site.url }}/toponymy/сircassian-part1/</loc>
+  <loc>{{ site.url }}/toponymy/circassian-part1/</loc>
   <lastmod>2022-12-14</lastmod>
   <changefreq>monthly</changefreq>
 		<image:image>
-			<image:loc>{{ site.url }}/img/toponymy/сircassian-part1/Cherkasskaya-Bayou-River.jpg</image:loc>
+			<image:loc>{{ site.url }}/img/toponymy/circassian-part1/Cherkasskaya-Bayou-River.jpg</image:loc>
 			<image:title>Река Протока Черкасская</image:title>
 		</image:image>
 		<image:image>
-			<image:loc>{{ site.url }}/img/toponymy/сircassian-part1/Coats-arms-city-Novocherkassk.jpg</image:loc>
+			<image:loc>{{ site.url }}/img/toponymy/circassian-part1/Coats-arms-city-Novocherkassk.jpg</image:loc>
 			<image:title>Гербы города Новочеркасск</image:title>
 		</image:image>
 		<image:image>
-			<image:loc>{{ site.url }}/img/toponymy/сircassian-part1/Coat-arms-town-Cherkassk-and-village-Starocherkassk.jpg</image:loc>
+			<image:loc>{{ site.url }}/img/toponymy/circassian-part1/Coat-arms-town-Cherkassk-and-village-Starocherkassk.jpg</image:loc>
 			<image:title></image:title>
 		</image:image>
 		<image:image>
-			<image:loc>{{ site.url }}/img/toponymy/сircassian-part1/Coats-arms-city-Cherkasy.jpg</image:loc>
+			<image:loc>{{ site.url }}/img/toponymy/circassian-part1/Coats-arms-city-Cherkasy.jpg</image:loc>
 			<image:title>Гербы города Черкассы</image:title>
 		</image:image>
 		<image:image>
-			<image:loc>{{ site.url }}/img/toponymy/сircassian-part1/Coat-arms-city-Cherkessk.jpg</image:loc>
+			<image:loc>{{ site.url }}/img/toponymy/circassian-part1/Coat-arms-city-Cherkessk.jpg</image:loc>
 			<image:title>Герб города Черкесск</image:title>
 		</image:image>
 		<image:image>
-			<image:loc>{{ site.url }}/img/toponymy/сircassian-part1/View-southern-part-village-Suvorov-Cherkessky.jpg</image:loc>
+			<image:loc>{{ site.url }}/img/toponymy/circassian-part1/View-southern-part-village-Suvorov-Cherkessky.jpg</image:loc>
 			<image:title>Вид на южную часть посёлка Суворов-Черкесский</image:title>
 		</image:image>
 		<image:image>
-			<image:loc>{{ site.url }}/img/toponymy/сircassian-part1/On-Circassian-pass-b.jpg</image:loc>
+			<image:loc>{{ site.url }}/img/toponymy/circassian-part1/On-Circassian-pass-b.jpg</image:loc>
 			<image:title>На Черкесском перевале</image:title>
 		</image:image>
 		<image:image>
-			<image:loc>{{ site.url }}/img/toponymy/сircassian-part1/Circassian-River-Uzen.jpg</image:loc>
+			<image:loc>{{ site.url }}/img/toponymy/circassian-part1/Circassian-River-Uzen.jpg</image:loc>
 			<image:title>Речка Черкес-Узень</image:title>
 		</image:image>
 		<image:image>
-			<image:loc>{{ site.url }}/img/toponymy/сircassian-part1/Cherkess-Kosh-Mountain.jpg</image:loc>
+			<image:loc>{{ site.url }}/img/toponymy/circassian-part1/Cherkess-Kosh-Mountain.jpg</image:loc>
 			<image:title>Гора Черкес-Кош</image:title>
 		</image:image>
 		<image:image>
-			<image:loc>{{ site.url }}/img/toponymy/сircassian-part1/Cherkez-Kermen-village.jpg</image:loc>
+			<image:loc>{{ site.url }}/img/toponymy/circassian-part1/Cherkez-Kermen-village.jpg</image:loc>
 			<image:title>Село Черкес-Кермен</image:title>
 		</image:image>
 </url>

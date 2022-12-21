@@ -4676,4 +4676,131 @@ permalink: /sm_img.xml
 			<image:title>Село Черкес-Кермен</image:title>
 		</image:image>
 </url>
+<url>
+  <loc>{{ site.url }}/toponymy/сircassian-part2/</loc>
+  <lastmod>2022-12-17</lastmod>
+  <changefreq>monthly</changefreq>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/сircassian-part2/Fragment-map-period-862-1054.jpg</image:loc>
+			<image:title>Фрагмент карты периода ~862-1054 гг.</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/сircassian-part2/Fragment-map-period-1300-1450.jpg</image:loc>
+			<image:title>Фрагмент карты периода ~1300-1450 гг.</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/сircassian-part2/Fragment-map-period-1450-1613.jpg</image:loc>
+			<image:title>Фрагмент карты периода ~1450-1613 гг.</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/сircassian-part2/Fragment-map-period-1796-1865.jpg</image:loc>
+			<image:title>Фрагмент карты периода ~1796-1865 гг.</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/сircassian-part2/Fragment-general-map-Russian-Empire-1799.jpg</image:loc>
+			<image:title>Фрагмент генеральной карты Российской империи 1799 г.</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/сircassian-part2/Circassians-Illustration-from-The-Penny-Magazine.jpg</image:loc>
+			<image:title>Черкесы. Иллюстрация из журнала The Penny Magazine</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/сircassian-part2/Kabardian-bridle-and-Kabardian-prince.jpg</image:loc>
+			<image:title>Кабардинский уздень и кабардинский князь</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/сircassian-part2/Fragment-map-period-XI-XIII-centuries.jpg</image:loc>
+			<image:title>Фрагмент карты периода ~ХI-ХIII вв.</image:title>
+		</image:image>
+</url>
+<url>
+  <loc>{{ site.url }}/toponymy/сircassian-part3/</loc>
+  <lastmod>2022-12-17</lastmod>
+  <changefreq>monthly</changefreq>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/circassian-part3/Drawings-of-the-Circassians.jpg</image:loc>
+			<image:title>Рисунки адыгов первой половины ХIХ в. и фото начала ХХ в.</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/circassian-part3/Lithograph-Circassian-and-Abaza.jpg</image:loc>
+			<image:title>Литография «Черкес и абазинец»</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/circassian-part3/Noble-warriors-Circassian-tribes.jpg</image:loc>
+			<image:title>Знатные воины черкесских племён</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/circassian-part3/Abazins-photo-19th-century.jpg</image:loc>
+			<image:title>Абазины (абаза) фото конца ХIХ в.</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/circassian-part3/Abkhazians-photo-60s-XIX.jpg</image:loc>
+			<image:title>Абхазцы (апсуа) фото 60-х годов ХIХ в.</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/circassian-part3/The-modern-scheme-reconstruction-area-beginning.jpg</image:loc>
+			<image:title>Современная схема реконструкции местности начала ХIХ в.</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/circassian-part3/Circassian-dance-1802-1806-b.jpg</image:loc>
+			<image:title>Черкесская пляска 1802-1806 гг.</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/circassian-part3/The-city-Nalchik-b.jpg</image:loc>
+			<image:title>Город Нальчик - сталица Кабардино-Балкарской Республики</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/circassian-part3/Maykop-city.jpg</image:loc>
+			<image:title>Город Майкоп - столица Республики Адыгея</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/circassian-part3/The-city-Cherkessk-b.jpg</image:loc>
+			<image:title>Город Черкесск - столица Карачаево-Черкесской Республики</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/circassian-part3/Drawing-Prince-Grigory-Gagarin-Assembly-of-Circassian-Princes-b.jpg</image:loc>
+			<image:title>Рисунок князя Григория Гагарина «Собрание черкесских князей» в окрестностях Сочи 40-х годов ХIХ в.</image:title>
+		</image:image>
+</url>
+<url>
+  <loc>{{ site.url }}/toponymy/сircassian-part4/</loc>
+  <lastmod>2022-12-20</lastmod>
+  <changefreq>monthly</changefreq>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/circassian-part4/CIRCASSIA-map-1840-by-James-Stanislaus-Bell-b.jpg</image:loc>
+			<image:title>Карта СIRCASSIA 1840 г. автор James Stanislaus Bell</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/circassian-part4/Circassians-in-national-costumes.jpg</image:loc>
+			<image:title>Черкесы в национальных костюмах</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/circassian-part4/Modern-Circassians-in-national-costumes-b.jpg</image:loc>
+			<image:title>Современные черкесы в национальных костюмах</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/circassian-part4/Circassians-in-traditional-costumes-b.jpg</image:loc>
+			<image:title>Черкесы в традиционных костюмах</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/circassian-part4/Circassian-Designed-by-Bernhard-August-von-Langkavel.jpg</image:loc>
+			<image:title>Черкес. Автор рисунка Бернхард Август фон Лангкавель</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/circassian-part4/Archery-Circassian.jpg</image:loc>
+			<image:title>Черкес стреляющий из лука</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/circassian-part4/Circassian-Natukhaets.jpg</image:loc>
+			<image:title>Черкес-Натухаец</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/circassian-part4/Drawing-Attack-1829.jpg</image:loc>
+			<image:title>Рисунок «Нападение» 1829 г.</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/circassian-part4/The-party-Zakubantsev-goes-on-raid-b.jpg</image:loc>
+			<image:title>Партия Закубанцев отправляется в набег</image:title>
+		</image:image>
+</url>
 </urlset>

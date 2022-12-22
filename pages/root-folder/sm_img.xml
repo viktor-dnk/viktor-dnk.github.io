@@ -4677,44 +4677,44 @@ permalink: /sm_img.xml
 		</image:image>
 </url>
 <url>
-  <loc>{{ site.url }}/toponymy/сircassian-part2/</loc>
+  <loc>{{ site.url }}/toponymy/circassian-part2/</loc>
   <lastmod>2022-12-17</lastmod>
   <changefreq>monthly</changefreq>
 		<image:image>
-			<image:loc>{{ site.url }}/img/toponymy/сircassian-part2/Fragment-map-period-862-1054.jpg</image:loc>
+			<image:loc>{{ site.url }}/img/toponymy/circassian-part2/Fragment-map-period-862-1054.jpg</image:loc>
 			<image:title>Фрагмент карты периода ~862-1054 гг.</image:title>
 		</image:image>
 		<image:image>
-			<image:loc>{{ site.url }}/img/toponymy/сircassian-part2/Fragment-map-period-1300-1450.jpg</image:loc>
+			<image:loc>{{ site.url }}/img/toponymy/circassian-part2/Fragment-map-period-1300-1450.jpg</image:loc>
 			<image:title>Фрагмент карты периода ~1300-1450 гг.</image:title>
 		</image:image>
 		<image:image>
-			<image:loc>{{ site.url }}/img/toponymy/сircassian-part2/Fragment-map-period-1450-1613.jpg</image:loc>
+			<image:loc>{{ site.url }}/img/toponymy/circassian-part2/Fragment-map-period-1450-1613.jpg</image:loc>
 			<image:title>Фрагмент карты периода ~1450-1613 гг.</image:title>
 		</image:image>
 		<image:image>
-			<image:loc>{{ site.url }}/img/toponymy/сircassian-part2/Fragment-map-period-1796-1865.jpg</image:loc>
+			<image:loc>{{ site.url }}/img/toponymy/circassian-part2/Fragment-map-period-1796-1865.jpg</image:loc>
 			<image:title>Фрагмент карты периода ~1796-1865 гг.</image:title>
 		</image:image>
 		<image:image>
-			<image:loc>{{ site.url }}/img/toponymy/сircassian-part2/Fragment-general-map-Russian-Empire-1799.jpg</image:loc>
+			<image:loc>{{ site.url }}/img/toponymy/circassian-part2/Fragment-general-map-Russian-Empire-1799.jpg</image:loc>
 			<image:title>Фрагмент генеральной карты Российской империи 1799 г.</image:title>
 		</image:image>
 		<image:image>
-			<image:loc>{{ site.url }}/img/toponymy/сircassian-part2/Circassians-Illustration-from-The-Penny-Magazine.jpg</image:loc>
+			<image:loc>{{ site.url }}/img/toponymy/circassian-part2/Circassians-Illustration-from-The-Penny-Magazine.jpg</image:loc>
 			<image:title>Черкесы. Иллюстрация из журнала The Penny Magazine</image:title>
 		</image:image>
 		<image:image>
-			<image:loc>{{ site.url }}/img/toponymy/сircassian-part2/Kabardian-bridle-and-Kabardian-prince.jpg</image:loc>
+			<image:loc>{{ site.url }}/img/toponymy/circassian-part2/Kabardian-bridle-and-Kabardian-prince.jpg</image:loc>
 			<image:title>Кабардинский уздень и кабардинский князь</image:title>
 		</image:image>
 		<image:image>
-			<image:loc>{{ site.url }}/img/toponymy/сircassian-part2/Fragment-map-period-XI-XIII-centuries.jpg</image:loc>
+			<image:loc>{{ site.url }}/img/toponymy/circassian-part2/Fragment-map-period-XI-XIII-centuries.jpg</image:loc>
 			<image:title>Фрагмент карты периода ~ХI-ХIII вв.</image:title>
 		</image:image>
 </url>
 <url>
-  <loc>{{ site.url }}/toponymy/сircassian-part3/</loc>
+  <loc>{{ site.url }}/toponymy/circassian-part3/</loc>
   <lastmod>2022-12-17</lastmod>
   <changefreq>monthly</changefreq>
 		<image:image>
@@ -4763,7 +4763,7 @@ permalink: /sm_img.xml
 		</image:image>
 </url>
 <url>
-  <loc>{{ site.url }}/toponymy/сircassian-part4/</loc>
+  <loc>{{ site.url }}/toponymy/circassian-part4/</loc>
   <lastmod>2022-12-20</lastmod>
   <changefreq>monthly</changefreq>
 		<image:image>

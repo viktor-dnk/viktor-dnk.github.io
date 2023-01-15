@@ -4803,4 +4803,109 @@ permalink: /sm_img.xml
 			<image:title>Партия Закубанцев отправляется в набег</image:title>
 		</image:image>
 </url>
+<url>
+  <loc>{{ site.url }}/toponymy//city-of-south-russia/</loc>
+  <lastmod>2023-01-15</lastmod>
+  <changefreq>monthly</changefreq>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/circassian-part4/Representation-of-the-President-of-Russia-in-the-Southern-Federal-District-b.jpg</image:loc>
+			<image:title>Представительство Президента России в ЮФО город Ростов-на-Дону</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/circassian-part4/Coat-of-arms-of-Astrakhan.jpg</image:loc>
+			<image:title>Герб Астрахани</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/circassian-part4/Terek-river-in-Vladikavkaz-in-winter-b.jpg</image:loc>
+			<image:title>Река Терек во Владикавказе зимой</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/circassian-part4/Coat-of-arms-of-Vladikavkaz.jpg</image:loc>
+			<image:title>Герб Владикавказа</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/circassian-part4/Coat-of-arms-of-Volgograd.jpg</image:loc>
+			<image:title>Герб Волгограда</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/circassian-part4/Coat-of-arms-of-Grozny.jpg</image:loc>
+			<image:title>Герб Грозного</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/circassian-part4/Coat-of-arms-of-Krasnodar.jpg</image:loc>
+			<image:title>Герб Краснодара</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/circassian-part4/Coat-of-arms-of-Magas.jpg</image:loc>
+			<image:title>Герб Магаса</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/circassian-part4/Coat-of-arms-of-Maikop.jpg</image:loc>
+			<image:title>Герб Майкопа</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/circassian-part4/Maykop-city-administration-building-b.jpg</image:loc>
+			<image:title>Здание Администрации города Майкоп</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/circassian-part4/Coat-of-arms-of-Makhachkala.jpg</image:loc>
+			<image:title>Герб Махачкалы</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/circassian-part4/Coat-of-arms-of-Nalchik.jpg</image:loc>
+			<image:title>Герб Нальчика</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/circassian-part4/Coat-of-arms-of-Novorossiysk.jpg</image:loc>
+			<image:title>Герб Новороссийска</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/circassian-part4/Sea-trade-port-on-the-coast-of-the-Novorossiysk-bay-b.jpg</image:loc>
+			<image:title>Морской торговый порт на берегу Новороссийской бухты</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/circassian-part4/Coat-of-arms-of-Novocherkassk.jpg</image:loc>
+			<image:title>Герб Новочеркасска</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/circassian-part4/Coat-of-arms-of-Pyatigorsk.jpg</image:loc>
+			<image:title>Герб Пятигорска</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/circassian-part4/View-from-Mount-Mashuk-to-Mount-Beshtau-b.jpg</image:loc>
+			<image:title>Вид с горы Машук на гору Бештау</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/circassian-part4/Coat-of-arms-of-Rostov-on-Don.jpg</image:loc>
+			<image:title>Герб Ростова-на-Дону</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/circassian-part4/Coat-of-arms-of-Sevastopol.jpg</image:loc>
+			<image:title>Герб Севастополя</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/circassian-part4/Sevastopol-Bay-Primorsky-Boulevard-of-the-city-of-Sevastopol-b.jpg</image:loc>
+			<image:title>Севастопольская бухта, Приморский бульвар города Севастополь.</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/circassian-part4/Coat-of-arms-of-Simferopol.jpg</image:loc>
+			<image:title>Герб Симферополя</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/circassian-part4/Coat-of-arms-of-Stavropol.jpg</image:loc>
+			<image:title>Герб Ставрополя</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/circassian-part4/Coat-of-arms-of-Taganrog.jpg</image:loc>
+			<image:title>Герб Таганрога</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/circassian-part4/Coat-of-arms-of-Cherkessk.jpg</image:loc>
+			<image:title>Герб Черкесска</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/circassian-part4/Coat-of-arms-of-Elista.jpg</image:loc>
+			<image:title>Герб Элисты</image:title>
+		</image:image>
+</url>
 </urlset>

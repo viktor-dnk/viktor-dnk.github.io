@@ -4907,5 +4907,38 @@ permalink: /sm_img.xml
 			<image:loc>{{ site.url }}/img/toponymy/circassian-part4/Coat-of-arms-of-Elista.jpg</image:loc>
 			<image:title>Герб Элисты</image:title>
 		</image:image>
+<url>
+  <loc>{{ site.url }}/toponymy/geltmes-heights/</loc>
+  <lastmod>2023-01-29</lastmod>
+  <changefreq>monthly</changefreq>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/city-of-south-russia/Fragment-of-map-of-the-Kuban-region-1904.jpg</image:loc>
+			<image:title>Фрагмент карты Кубанской области, где обозначены гора Джелтимесъ</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/city-of-south-russia/Fragment-of-map-of-the-Kuban-region-1897.jpg</image:loc>
+			<image:title>Фрагмент карты Кубанской области. На карте обозначен район Джелтимесские высоты</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/city-of-south-russia/Geltmes-Heights-1-b.jpg</image:loc>
+			<image:title>Джельтмесские Высоты</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/city-of-south-russia/Geltmes-Heights-2-b.jpg</image:loc>
+			<image:title>Джельтмесские Высоты местами обрабатываются</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/city-of-south-russia/Geltmes-Heights-3-b.jpg</image:loc>
+			<image:title>Джельтмесские Высоты</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/city-of-south-russia/Geltmes-Heights-4-b.jpg</image:loc>
+			<image:title>Джельтмесские Высоты</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/city-of-south-russia/Geltmes-Heights-5-b.jpg</image:loc>
+			<image:title>Джельтмесские Высоты</image:title>
+		</image:image>
+</url>
 </url>
 </urlset>

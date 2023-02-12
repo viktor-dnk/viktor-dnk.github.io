@@ -4940,5 +4940,45 @@ permalink: /sm_img.xml
 			<image:title>Джельтмесские Высоты</image:title>
 		</image:image>
 </url>
+<url>
+  <loc>{{ site.url }}/toponymy/ahmet/</loc>
+  <lastmod>2023-02-12</lastmod>
+  <changefreq>monthly</changefreq>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/geltmes-heights/Fragments-map-Caucasus-region-1847.jpg</image:loc>
+			<image:title>Фрагменты карты Кавказского края 1847 г.</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/geltmes-heights/Fragment-modern-map.jpg</image:loc>
+			<image:title>Фрагмент современной карты</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/geltmes-heights/View-Mount-Akhmet-Gora-from-west-b.jpg</image:loc>
+			<image:title>Вид на гору Ахмет-Гора с запада</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/geltmes-heights/The-western-part-Akhmet-Skala-ridge-and-Mount-Akhmet-Gora.jpg</image:loc>
+			<image:title>Западная часть хребта Ахмет-Скала и гора Ахмет-Гора</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/geltmes-heights/View-village-Akhmetovskaya.jpg</image:loc>
+			<image:title>Вид на станицу Ахметовскую</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/geltmes-heights/Coat-arms-Akhmetovsky-rural-settlement.jpg</image:loc>
+			<image:title>Герб Ахметовского сельского поселения</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/geltmes-heights/Stanitsa-Akhmetovskaya-on-map-1941.jpg</image:loc>
+			<image:title>Станица Ахметовская на карте масштаба 1:200 000 издания 1941 г.</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/geltmes-heights/Fragments-maps-Kuban-region-in-1899-and-1904.jpg</image:loc>
+			<image:title>Фрагменты карт Кубанской области 1899 г. и 1904 г.</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/geltmes-heights/Fragment-modern-map-Krasnodar-Territory.jpg</image:loc>
+			<image:title>Фрагмент современной карты Краснодарского края</image:title>
+		</image:image>
 </url>
 </urlset>

@@ -4907,6 +4907,7 @@ permalink: /sm_img.xml
 			<image:loc>{{ site.url }}/img/toponymy/circassian-part4/Coat-of-arms-of-Elista.jpg</image:loc>
 			<image:title>Герб Элисты</image:title>
 		</image:image>
+</url>	
 <url>
   <loc>{{ site.url }}/toponymy/geltmes-heights/</loc>
   <lastmod>2023-01-29</lastmod>

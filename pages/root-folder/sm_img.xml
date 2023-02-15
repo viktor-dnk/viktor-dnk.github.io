@@ -4945,7 +4945,7 @@ permalink: /sm_img.xml
 	</url>
 	<url>
 		<loc>{{ site.url }}/toponymy/ahmet/</loc>
-		<lastmod>2023-02-12</lastmod>
+		<lastmod>2023-02-15</lastmod>
 		<changefreq>monthly</changefreq>
 		<image:image>
 			<image:loc>{{ site.url }}/img/toponymy/geltmes-heights/Fragments-map-Caucasus-region-1847.jpg</image:loc>
@@ -4983,5 +4983,9 @@ permalink: /sm_img.xml
 			<image:loc>{{ site.url }}/img/toponymy/geltmes-heights/Fragment-modern-map-Krasnodar-Territory.jpg</image:loc>
 			<image:title>Фрагмент современной карты Краснодарского края</image:title>
 		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/geltmes-heights/mnt-ahmet.jpg</image:loc>
+			<image:title>Вид с западной стороны на хребет Ахмет-Скала и на участок долины реки Лаба.</image:title>
+		</image:image>		
 	</url>
 </urlset>

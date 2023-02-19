@@ -4988,4 +4988,45 @@ permalink: /sm_img.xml
 			<image:title>Вид с западной стороны на хребет Ахмет-Скала и на участок долины реки Лаба.</image:title>
 		</image:image>		
 	</url>
+	<url>
+		<loc>{{ site.url }}/toponymy/gostagay/</loc>
+		<lastmod>2023-02-19</lastmod>
+		<changefreq>monthly</changefreq>
+			<image:image>
+				<image:loc>{{ site.url }}/img/toponymy/ahmet/Surroundings-near-eastern-outskirts-village-Gostagaevskaya.jpg</image:loc>
+				<image:title>Окрестности у восточной окраины станицы Гостагаевской</image:title>
+			</image:image>
+			<image:image>
+				<image:loc>{{ site.url }}/img/toponymy/ahmet/Fragment-map-Russia-1816.jpg</image:loc>
+				<image:title>Фрагмент карты России 1816 г.</image:title>
+			</image:image>
+			<image:image>
+				<image:loc>{{ site.url }}/img/toponymy/ahmet/The-Gostagai-river-upper-reaches.jpg</image:loc>
+				<image:title>Река Гостагай в верховьях</image:title>
+			</image:image>
+			<image:image>
+				<image:loc>{{ site.url }}/img/toponymy/ahmet/Valley-Gostagai-River-on-map-Caucasus-region-1847.jpg</image:loc>
+				<image:title>Долина реки Гостагай на карте Кавказского края 1847 г.</image:title>
+			</image:image>
+			<image:image>
+				<image:loc>{{ site.url }}/img/toponymy/ahmet/Fragment-map-Trans-Kuban-mountain-peoples.jpg</image:loc>
+				<image:title>Фрагмент карты Закубанских горских народов</image:title>
+			</image:image>
+			<image:image>
+				<image:loc>{{ site.url }}/img/toponymy/ahmet/Stanitsa-Gostagaevskaya-view-from-west-side-b.jpg</image:loc>
+				<image:title>Станица Гостагаевская вид с западной стороны</image:title>
+			</image:image>
+			<image:image>
+				<image:loc>{{ site.url }}/img/toponymy/ahmet/Fragment-map-from-1899.jpg</image:loc>
+				<image:title>Фрагмент карты Фелицына Е.Д. (1899 г.)</image:title>
+			</image:image>
+			<image:image>
+				<image:loc>{{ site.url }}/img/toponymy/ahmet/Fragment-map-Kuban-region-1904.jpg</image:loc>
+				<image:title>Фрагмент карты Кубанской области (1904 г.)</image:title>
+			</image:image>
+			<image:image>
+				<image:loc>{{ site.url }}/img/toponymy/ahmet/The-Gosttagayka-River-middle-course.jpg</image:loc>
+				<image:title>Река Госттагайка в среднем течении</image:title>
+			</image:image>
+	</url>
 </urlset>

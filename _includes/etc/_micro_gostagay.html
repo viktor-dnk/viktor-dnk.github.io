@@ -1,0 +1,18 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script>
+var settings={async:!0,crossDomain:!0,url:"https://api.openweathermap.org/data/2.5/weather?id=559252&exclude=hourly,daily&lang=ru&units=metric&appid=a211b744efa66a1056a76b6627d58f3b",method:"GET"};$.ajax(settings).done((function(a){console.log(a);var e=a.main.temp;$("#curtemp").append(Math.round(e)+"ºC");var t=a.weather[0].description;$("#curweather").append(t+", "),$("#weather").append(" "+t+", ",Math.round(e)+"ºC")}));
+</script>
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": {
+        "@type": "Question",
+        "name": "Как переводится Гостагай?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "О значении топонима Гостагай существует несколько вариантов перевода. Сложность этимологии современного топонима в том что он искажён. Видимо, это позволило придумать и народную (ложную) этимологию этого топонима. Например, можно предположить, что топоним Гостагай образован от сложного славянского слова густой + гай, где одно из значений южнороссийского слова гай - «небольшой лиственный лес», что даёт перевод «густой лиственный лес»."
+        }
+      }
+    }
+    </script>

@@ -5,7 +5,7 @@ description: Общий список использованных источни
 cover-img: ["/img/mysteries-dolmens/list-of-references/cover.jpg" : "Karte des Kaukasischen Isthmus 1856"]
 thumbnail-caption: Karte des Kaukasischen Isthmus
 date: 2020-12-05 17:00
-last_modified_at: 2022-01-14 10:00:00 +0300
+last_modified_at: 2023-02-23 13:10:00 +0300
 category: info
 keywords: дольмены, мегалиты, дольмен, мегалит, литература, список
 readtime: false

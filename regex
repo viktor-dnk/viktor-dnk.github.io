@@ -38,7 +38,7 @@ $1. <a name=" t79-[$1]"></a>$3
 проставить микроразметку на изображения:
 <img src(.*)\n(.*)<figcaption>(.*)</figcaption>
 
-<div itemscope itemtype="https://schema.org/ImageObject"><img itemprop="contentUrl" src$1<meta itemprop="name" content="$3" /><meta itemprop="creditText" content="Заметки географа - Ковешников В.Н." /></div>\n$3<figcaption>$3</figcaption>
+<div itemscope itemtype="https://schema.org/ImageObject"><img itemprop="contentUrl" src$1<meta itemprop="name" content="$3" /><meta itemprop="creditText" content="Заметки географа - Ковешников В.Н." /></div>\n<figcaption>$3</figcaption>
 
 
 замена ахреф на просто имг

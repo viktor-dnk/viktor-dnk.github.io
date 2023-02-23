@@ -41,7 +41,7 @@ img-caption: Здание ж/д вокзала станции Ахтари, по
 
 <figure>
 	<a href="/img/toponymy/primorsko-akhtarsk/Akhtarsky-lighthouse-view-from-the-sea-b.jpg" title="Ахтарский маяк, вид со стороны моря (с запада)"><div itemscope itemtype="https://schema.org/ImageObject"><img itemprop="contentUrl" src="/img/toponymy/primorsko-akhtarsk/Akhtarsky-lighthouse-view-from-the-sea.jpg" alt="Ахтарский маяк, вид со стороны моря (с запада)" width="480" height="640"/></a><meta itemprop="name" content="Ахтарский маяк, вид со стороны моря (с запада) (июль 2021, фото Рублёва Елена)" /><meta itemprop="creditText" content="Заметки географа - Ковешников В.Н." /></div>
-Ахтарский маяк, вид со стороны моря (с запада) (июль 2021, фото Рублёва Елена)<figcaption>Ахтарский маяк, вид со стороны моря (с запада) (июль 2021, фото Рублёва Елена)</figcaption>
+<figcaption>Ахтарский маяк, вид со стороны моря (с запада) (июль 2021, фото Рублёва Елена)</figcaption>
 </figure>
 
 <figure>
@@ -58,7 +58,7 @@ img-caption: Здание ж/д вокзала станции Ахтари, по
 
 <figure>
 	<a href="/img/toponymy/primorsko-akhtarsk/railway-station-Akhtari-b.jpg" title="Здание ж/д вокзала станции Ахтари, построено в 1912 г"><div itemscope itemtype="https://schema.org/ImageObject"><img itemprop="contentUrl" src="/img/toponymy/primorsko-akhtarsk/railway-station-Akhtari.jpg" alt="Здание ж/д вокзала станции Ахтари, построен в 1912 г" width="640" height="480"/></a><meta itemprop="name" content="Здание ж/д вокзала станции Ахтари, построен в 1912 г. (https://nashtransport.ru)" /><meta itemprop="creditText" content="Заметки географа - Ковешников В.Н." /></div>
-Здание ж/д вокзала станции Ахтари, построен в 1912 г. (https://nashtransport.ru)<figcaption>Здание ж/д вокзала станции Ахтари, построен в 1912 г. (https://nashtransport.ru)</figcaption>
+<figcaption>Здание ж/д вокзала станции Ахтари, построен в 1912 г. (https://nashtransport.ru)</figcaption>
 </figure>
 
 - **Ахтари порт**. В посёлке Ахтари с 1880 г. действует порт, а в 1884 г. сооружается деревянный пирс. В этот период грузооборот порта в основном состоял из вывоза зерна. В советское время порт Ахтари был связан пассажирскими перевозками с другими населёнными пунктами Азовского побережья [[7]](#t5-[7]);
@@ -123,7 +123,7 @@ img-caption: Здание ж/д вокзала станции Ахтари, по
 
 <figure>
 	<a href="/img/toponymy/primorsko-akhtarsk/Cossack-tower-at-the-post-b.jpg" title="Казачья вышка у пикета или поста"><div itemscope itemtype="https://schema.org/ImageObject"><img itemprop="contentUrl" src="/img/toponymy/primorsko-akhtarsk/Cossack-tower-at-the-post.jpg" alt="Казачья вышка у пикета или поста" width="693" height="480"/></a><meta itemprop="name" content="Казачья вышка у пикета или поста (www.slavynsk2.ru)" /><meta itemprop="creditText" content="Заметки географа - Ковешников В.Н." /></div>
-Казачья вышка у пикета или поста (www.slavynsk2.ru)<figcaption>Казачья вышка у пикета или поста (www.slavynsk2.ru)</figcaption>
+<figcaption>Казачья вышка у пикета или поста (www.slavynsk2.ru)</figcaption>
 </figure>
 
 **В некоторых источниках, можно найти иную информацию**. Например, Навозова Ф.В. (1955 г.), приводит следующее «После потери Турцией крепости Азов в 1696 г. они стали укреплять Азовское побережье. Турки в сотрудничестве с ногайцами в устье Протоки строят крепость Ачуев, а ногайцы северо-восточнее на берегу Азовского моря строят крепость Ахтар-Бахтар. В 1739 г. 30-тысячное российское войско совместно с флотилией взяла крепость Ахтар-Бахтар. Ногайцы бежали вглубь Кубанской степи. Дальнейшему продвижению войск помешала непогода. В 1778 г. при устройстве Суворовым А.В. укреплённых линий на месте разрушенной крепости Ахтар-Бахтар возник Ахтарский редут …» [[15]](#t5-[15]).

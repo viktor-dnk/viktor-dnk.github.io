@@ -21,7 +21,7 @@ img-caption: Одно из Карасунских озёр в Калининск
 
 <figure>
 	<a href="/img/toponymy/black-toponyms/Valley-Karasun-River-b.jpg" title="Долина реки Карасун"><div itemscope itemtype="https://schema.org/ImageObject"><img itemprop="contentUrl" src="/img/toponymy/black-toponyms/Valley-Karasun-River.jpg" alt="Долина реки Карасун" width="800" height="566"/></a><meta itemprop="name" content="Долина реки Карасун (схему выполнил Ковешников В.Н., 1988г.) <a href="#t30-[9]">[9]</a>" /><meta itemprop="creditText" content="Заметки географа - Ковешников В.Н." /></div>
-Долина реки Карасун (схему выполнил Ковешников В.Н., 1988г.) <a href="#t30-[9]">[9]</a><figcaption>Долина реки Карасун (схему выполнил Ковешников В.Н., 1988г.) <a href="#t30-[9]">[9]</a></figcaption>
+<figcaption>Долина реки Карасун (схему выполнил Ковешников В.Н., 1988г.) <a href="#t30-[9]">[9]</a></figcaption>
 </figure>
 
 **Чёрные реки**
@@ -89,7 +89,7 @@ img-caption: Одно из Карасунских озёр в Калининск
 
 <figure>
 	<a href="/img/toponymy/black-toponyms/Lake-Black-b.jpg" title="Озеро Чёрное"><div itemscope itemtype="https://schema.org/ImageObject"><img itemprop="contentUrl" src="/img/toponymy/black-toponyms/Lake-Black.jpg" alt="Озеро Чёрное" width="800" height="523"/></a><meta itemprop="name" content="Озеро Чёрное (фото А.А. Остапенко, город Краснодар)" /><meta itemprop="creditText" content="Заметки географа - Ковешников В.Н." /></div>
-Озеро Чёрное (фото А.А. Остапенко, город Краснодар)<figcaption>Озеро Чёрное (фото А.А. Остапенко, город Краснодар)</figcaption>
+<figcaption>Озеро Чёрное (фото А.А. Остапенко, город Краснодар)</figcaption>
 </figure>
 
 **Озеро Чёрное** [[4]](#t30-[4])
@@ -109,7 +109,7 @@ img-caption: Одно из Карасунских озёр в Калининск
 
 <figure>
 	<a href="/img/toponymy/black-toponyms/Entrance-Black-Cave-b.jpg" title="Вход в пещеру Чёрного"><div itemscope itemtype="https://schema.org/ImageObject"><img itemprop="contentUrl" src="/img/toponymy/black-toponyms/Entrance-Black-Cave.jpg" alt="Вход в пещеру Чёрного" width="800" height="533"/></a><meta itemprop="name" content="Вход в пещеру Чёрного (фото сайта VENN-PHOTO.RU)" /><meta itemprop="creditText" content="Заметки географа - Ковешников В.Н." /></div>
-Вход в пещеру Чёрного (фото сайта VENN-PHOTO.RU)<figcaption>Вход в пещеру Чёрного (фото сайта VENN-PHOTO.RU)</figcaption>
+<figcaption>Вход в пещеру Чёрного (фото сайта VENN-PHOTO.RU)</figcaption>
 </figure>
 
 **Пещера Чёрного**

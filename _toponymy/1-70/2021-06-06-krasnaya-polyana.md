@@ -42,7 +42,7 @@ img-caption: Вид на хребет Аибга от русла реки Мзы
 
 <figure>
  <a href="/img/toponymy/krasnaya-polyana/The-most-famous-tiled-dolmen-b.jpg" title="Самый известный плиточный дольмен, является памятником археологии возрастом не менее 3 тыс. лет, один из немногих, сохранившихся у посёлка Красная Поляна"><div itemscope itemtype="https://schema.org/ImageObject"><img itemprop="contentUrl" src="/img/toponymy/krasnaya-polyana/The-most-famous-tiled-dolmen.jpg" alt="Самый известный плиточный дольмен" width="640" height="472"/></a><meta itemprop="name" content="Самый известный плиточный дольмен, является памятником археологии возрастом не менее 3 тыс. лет, один из немногих, сохранившихся у посёлка Красная Поляна (фото public.megalithica)" /><meta itemprop="creditText" content="Заметки географа - Ковешников В.Н." /></div>
-Самый известный плиточный дольмен, является памятником археологии возрастом не менее 3 тыс. лет, один из немногих, сохранившихся у посёлка Красная Поляна (фото public.megalithica)<figcaption>Самый известный плиточный дольмен, является памятником археологии возрастом не менее 3 тыс. лет, один из немногих, сохранившихся у посёлка Красная Поляна (фото public.megalithica)</figcaption>
+<figcaption>Самый известный плиточный дольмен, является памятником археологии возрастом не менее 3 тыс. лет, один из немногих, сохранившихся у посёлка Красная Поляна (фото public.megalithica)</figcaption>
 </figure>
 
 <figure>

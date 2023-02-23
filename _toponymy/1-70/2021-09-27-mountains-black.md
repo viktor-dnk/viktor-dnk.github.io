@@ -5,7 +5,7 @@ description: Топоним Чёрные горы на территории За
 cover-img: ["/img/toponymy/mountains-black/cover.jpg" : "Скала Спящий Черкес (Черногор), середина лета 1974 г."]
 thumbnail-caption: Скала Спящий Черкес (Черногор), Середина лета 1974 г.
 date: 2021-09-27 16:40
-last_modified_at: 2022-05-21 19:00 +0300
+last_modified_at: 2023-02-23 15:00:00 +0300
 category: mountains
 share-title: Топоним Чёрные горы
 share-description: Топоним Чёрные горы на Западном Кавказе фиксируется исследователями с начала ХIХ в. Этот географический термин используется в специальной литературе.
@@ -67,7 +67,7 @@ img-caption: Скала Спящий Черкес (Черногор), серед
 **Попытаемся разобраться, в истории образования в горном Закубанье топонима Черногорье**, что он означает и имеет ли он связь с топонимом Чёрные горы. На карте Кубанской области (1904 г.) в районе плато Черногорье обозначаются две вершины: **гора Черногор** (1533 м) и гора Чеше (1754 м) [[4]](#t28-[4]), абсолютные высоты вершин, приведены по данным современных карт. На современных картах вершины с названием Чеше нет, вместо неё указана гора Черногор, а вершина с абсолютной высотой 1533 м сейчас безымянна. То есть произошла перестановка, названий вершин. Но появляется название озёра Чеше у северо-западного подножья горы Черногор на абсолютной высоте ~1620 м, расположенного в 900 м от вершины. Быть может, название Закубанского плато Черногорье и урочища Черногорье, возникло из-за его труднодоступности. Возможно, определяющим в образовании топонима плато Черногорье, стало и близкое его расположение у хребтов с наименованием Чёрные горы. А уже от плато было образовано название поста и села Черногорье, располагавшихся у подножья плато на месте современного села Тубы.
 
 <figure>
-	<a href="/img/toponymy/mountains-black/Rock-Sleeping-Circassian-Montenegro-b.jpg" title="Скала Спящий Черкес (Черногор)"><img src="/img/toponymy/mountains-black/Rock-Sleeping-Circassian-Montenegro.jpg" alt="Скала Спящий Черкес (Черногор)" width="800" height="431"/></a>
+	<a href="/img/toponymy/mountains-black/Rock-Sleeping-Circassian-Montenegro-b.jpg" title="Скала Спящий Черкес (Черногор)"><div itemscope itemtype="https://schema.org/ImageObject"><img itemprop="contentUrl"  src="/img/toponymy/mountains-black/Rock-Sleeping-Circassian-Montenegro.jpg" alt="Скала Спящий Черкес (Черногор)" width="800" height="431"/><meta itemprop="license" content="https://viktor-dnk.ru/info/copyright/" /><meta itemprop="acquireLicensePage" content="https://viktor-dnk.ru/info/contacts/" /><meta itemprop="name" content="Скала Спящий Черкес (Черногор), вид с горы Чатал-Кая (902,8 м). Середина лета 1974 г." /><meta itemprop="creator" itemtype="https://schema.org/Person" itemscope /><meta itemprop="name" content="Viktor Koveshnikov" /><meta itemprop="copyrightNotice" content="Viktor Koveshnikov" /><meta itemprop="creditText" content="Заметки географа" /></div></a>
 	<figcaption>Скала Спящий Черкес (Черногор), вид с горы Чатал-Кая (902,8 м). Середина лета 1974 г. (фото автора)</figcaption>
 </figure>
 
@@ -82,7 +82,7 @@ img-caption: Скала Спящий Черкес (Черногор), серед
 Шаханы, как правило, выделяются среди других вершин на местности и имеют хорошие обзоры на ближайшие и дальние хребты и долины рек, то есть являются главенствующими над другими. Поэтому Шаханом, названы вершины в значении «высокопоставленных титулов» из-за их выгодного или ключевого расположения. Ороним Шахан, производят также от похожих адыгейских слов _шэкан_, означающего «лес между верховьями» или _шха_ в значении «гора». Эти мнения не аргументированы и требуют пояснения, так как адыгейские слова _шъхьап_ — означает «верхушка», _уашха_ переводится как «курган» или «холм», а _ушха_ – «гора» не соответствуют морфологии топонима Шахан. [[7]](#t28-[7])
 
 <figure>
- <a href="/img/toponymy/krasnaya-polyana/Aibga-ridge-view-b.jpg" title="Пик Чёрная Пирамида"><img src="/img/toponymy/krasnaya-polyana/Aibga-ridge-view.jpg" alt="Пик Чёрная Пирамида" width="640" height="480"/></a>
+ <a href="/img/toponymy/krasnaya-polyana/Aibga-ridge-view-b.jpg" title="Пик Чёрная Пирамида"><div itemscope itemtype="https://schema.org/ImageObject"><img itemprop="contentUrl"  src="/img/toponymy/krasnaya-polyana/Aibga-ridge-view.jpg" alt="Пик Чёрная Пирамида" width="640" height="480"/><meta itemprop="license" content="https://viktor-dnk.ru/info/copyright/" /><meta itemprop="acquireLicensePage" content="https://viktor-dnk.ru/info/contacts/" /><meta itemprop="name" content="Участок хребта Аибга, в центре пик Чёрная Пирамида, вид с левого берега реки Мзымты, расположенного в нескольких сотнях метром выше от устья реки Ачипсе (Лаура), правого притока. Август 2009 г." /><meta itemprop="creator" itemtype="https://schema.org/Person" itemscope /><meta itemprop="name" content="Viktor Koveshnikov" /><meta itemprop="copyrightNotice" content="Viktor Koveshnikov" /><meta itemprop="creditText" content="Заметки географа" /></div></a>
  <figcaption>Участок хребта Аибга, в центре пик Чёрная Пирамида, вид с левого берега реки Мзымты, расположенного в нескольких сотнях метром выше от устья реки Ачипсе (Лаура), правого притока. Август 2009 г. (фото автора)</figcaption>
 </figure>
 

@@ -241,6 +241,6 @@ img-caption: Karte des Kaukasischen Isthmus 1856
 221. Энциклопедический словарь символов (автор-составитель Н.А. Истомина). М., 2003.  
 
 <figure>
-	<a title="Петроглифы и рисунки на каменных плитах дольменов Западного Кавказа" href="/mysteries-dolmens/ch1p12/"><img src="/img/mysteries-dolmens/ch1p12/mysteries-dolmens-ch1p12-12.15.jpg" alt="Прорисовка петроглифов на Джубгинском дольмене" width="720" height="480"/></a>
-	<figcaption>Прорисовка петроглифов на Джубгинском дольмене</figcaption>
+	<a title="Петроглифы и рисунки на каменных плитах дольменов Западного Кавказа" href="/mysteries-dolmens/ch1p12/"><div itemscope itemtype="https://schema.org/ImageObject"><img itemprop="contentUrl" src="/img/mysteries-dolmens/ch1p12/mysteries-dolmens-ch1p12-12.15.jpg" alt="Прорисовка петроглифов на Джубгинском дольмене" width="720" height="480"/></a><meta itemprop="name" content="Прорисовка петроглифов на Джубгинском дольмене" /><meta itemprop="creditText" content="Заметки географа - Ковешников В.Н." /></div>
+Прорисовка петроглифов на Джубгинском дольмене<figcaption>Прорисовка петроглифов на Джубгинском дольмене</figcaption>
 </figure>

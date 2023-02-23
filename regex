@@ -35,6 +35,11 @@ $1. <a name=" t79-[$1]"></a>$3
 
 <figure>\n$1<div itemscope itemtype="https://schema.org/ImageObject"><img itemprop="contentUrl" $2<meta itemprop="license" content="https://viktor-dnk.ru/info/copyright/" /><meta itemprop="acquireLicensePage" content="https://viktor-dnk.ru/info/contacts/" /><meta itemprop="name" content="$4" /><meta itemprop="copyrightNotice" content="Viktor Koveshnikov" /><meta itemprop="creditText" content="Заметки географа" /><div itemprop="creator" itemscope itemtype="http://schema.org/Person"><meta itemprop="name" content="Viktor Koveshnikov" /></div></div></a>\n$3<figcaption>$4 (фото автора)
 ----------------
+проставить микроразметку на изображения:
+<img src(.*)\n(.*)<figcaption>(.*)</figcaption>
+
+<div itemscope itemtype="https://schema.org/ImageObject"><img itemprop="contentUrl" src$1<meta itemprop="name" content="$3" /><meta itemprop="creditText" content="Заметки географа - Ковешников В.Н." /></div>\n$3<figcaption>$3</figcaption>
+
 
 замена ахреф на просто имг
 <a(.*.jpg">)<img alt="(.*)" style(.*)</a>

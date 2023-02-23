@@ -20,8 +20,8 @@ img-caption: Одно из Карасунских озёр в Калининск
 Эта публикация, является продолжением очерков о топонимах Кубани со словом «чёрный», где говорится о [Чёрных горах](/toponymy/mountains-black/) и [Чёрном море](/toponymy/black-sea/), и входит в состав статьи, опубликованной автором в 2015 г. [[4]](#t30-[4]). Кроме этого в следующей за этой публикацией будет, представлен очерк «Уруштен и Чёрная — два названия одной реки», где приводится информация не только о гидрониме Чёрный, но и о некоторых оронимах в наименование которых входит слово **чёрный**, ранее не рассматриваемых.
 
 <figure>
-	<a href="/img/toponymy/black-toponyms/Valley-Karasun-River-b.jpg" title="Долина реки Карасун"><div itemscope itemtype="https://schema.org/ImageObject"><img itemprop="contentUrl" src="/img/toponymy/black-toponyms/Valley-Karasun-River.jpg" alt="Долина реки Карасун" width="800" height="566"/></a><meta itemprop="name" content="Долина реки Карасун (схему выполнил Ковешников В.Н., 1988г.) <a href="#t30-[9]">[9]</a>" /><meta itemprop="creditText" content="Заметки географа - Ковешников В.Н." /></div>
-<figcaption>Долина реки Карасун (схему выполнил Ковешников В.Н., 1988г.) <a href="#t30-[9]">[9]</a></figcaption>
+	<a href="/img/toponymy/black-toponyms/Valley-Karasun-River-b.jpg" title="Долина реки Карасун"><img src="/img/toponymy/black-toponyms/Valley-Karasun-River.jpg" alt="Долина реки Карасун" width="800" height="566"/></a>
+	<figcaption>Долина реки Карасун (схему выполнил Ковешников В.Н., 1988г.) <a href="#t30-[9]">[9]</a></figcaption>
 </figure>
 
 **Чёрные реки**
@@ -88,8 +88,8 @@ img-caption: Одно из Карасунских озёр в Калининск
 Причин назвать речку Чёрная может оказаться не одна. Вот такой пример с названием более известной реки. На территории Кавказского государственного заповедника есть **река Уруштен (Чёрная)** левый приток реки Малая Лаба, бассейн реки Кубань. Топонимы Уруштен и Чёрная два разных имя одной реки. Наличие горных пород с преобладающим чёрным цветом, слагающим берега и русло, стало определяющим для второго названия реки Уруштен — Чёрная, это дополняется и тем, что река практически не замерзает зимой [[4, 5]](#t30-[4,]). Подробнее о реке Уруштен, смотреть в следующей публикации «Уруштен и Чёрная — два названия одной реки».
 
 <figure>
-	<a href="/img/toponymy/black-toponyms/Lake-Black-b.jpg" title="Озеро Чёрное"><div itemscope itemtype="https://schema.org/ImageObject"><img itemprop="contentUrl" src="/img/toponymy/black-toponyms/Lake-Black.jpg" alt="Озеро Чёрное" width="800" height="523"/></a><meta itemprop="name" content="Озеро Чёрное (фото А.А. Остапенко, город Краснодар)" /><meta itemprop="creditText" content="Заметки географа - Ковешников В.Н." /></div>
-<figcaption>Озеро Чёрное (фото А.А. Остапенко, город Краснодар)</figcaption>
+	<a href="/img/toponymy/black-toponyms/Lake-Black-b.jpg" title="Озеро Чёрное"><img src="/img/toponymy/black-toponyms/Lake-Black.jpg" alt="Озеро Чёрное" width="800" height="523"/></a>
+	<figcaption>Озеро Чёрное (фото А.А. Остапенко, город Краснодар)</figcaption>
 </figure>
 
 **Озеро Чёрное** [[4]](#t30-[4])
@@ -108,8 +108,8 @@ img-caption: Одно из Карасунских озёр в Калининск
 Если учитывать и то, что озеро находится в котловине с довольно крутыми склонами, а его поверхность располагается приблизительно на 70 м ниже окружающей местности. То можно сказать, что котловина, в которой образовалось озеро, напоминает природный колодец. Как известно вода в колодце всегда кажется чёрной из-за отсутствия света, а в сочетании с окружающим озеро лесом, который его затеняет, в любую погоду и время года, вода в нём будет казаться чёрной. Вероятно, поэтому озеро и назвали Чёрным.
 
 <figure>
-	<a href="/img/toponymy/black-toponyms/Entrance-Black-Cave-b.jpg" title="Вход в пещеру Чёрного"><div itemscope itemtype="https://schema.org/ImageObject"><img itemprop="contentUrl" src="/img/toponymy/black-toponyms/Entrance-Black-Cave.jpg" alt="Вход в пещеру Чёрного" width="800" height="533"/></a><meta itemprop="name" content="Вход в пещеру Чёрного (фото сайта VENN-PHOTO.RU)" /><meta itemprop="creditText" content="Заметки географа - Ковешников В.Н." /></div>
-<figcaption>Вход в пещеру Чёрного (фото сайта VENN-PHOTO.RU)</figcaption>
+	<a href="/img/toponymy/black-toponyms/Entrance-Black-Cave-b.jpg" title="Вход в пещеру Чёрного"><img src="/img/toponymy/black-toponyms/Entrance-Black-Cave.jpg" alt="Вход в пещеру Чёрного" width="800" height="533"/></a>
+	<figcaption>Вход в пещеру Чёрного (фото сайта VENN-PHOTO.RU)</figcaption>
 </figure>
 
 **Пещера Чёрного**

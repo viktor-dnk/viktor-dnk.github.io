@@ -5029,4 +5029,37 @@ permalink: /sm_img.xml
 				<image:title>Река Госттагайка в среднем течении</image:title>
 			</image:image>
 	</url>
+	<url>
+	<loc>{{ site.url }}/toponymy/chessu/</loc>
+	<lastmod>2023-03-05</lastmod>
+	<changefreq>monthly</changefreq>
+			<image:image>
+				<image:loc>{{ site.url }}/img/toponymy/chessu/Chessu-river-valley-view-from-north-b.jpg</image:loc>
+				<image:title>Долина реки Чессу вид с севера</image:title>
+			</image:image>
+			<image:image>
+				<image:loc>{{ site.url }}/img/toponymy/chessu/Valley-Chessu-river-on-map-1926.jpg</image:loc>
+				<image:title>Долина речки Чессу на карте Кавказского края 1926 г.</image:title>
+			</image:image>
+			<image:image>
+				<image:loc>{{ site.url }}/img/toponymy/chessu/Headwaters-Chessu-River-b.jpg</image:loc>
+				<image:title>Верховья реки Чессу</image:title>
+			</image:image>
+			<image:image>
+				<image:loc>{{ site.url }}/img/toponymy/chessu/The-Chessu-River-n-map-1904.jpg</image:loc>
+				<image:title>Река Чессу на карте 1904 г.</image:title>
+			</image:image>
+			<image:image>
+				<image:loc>{{ site.url }}/img/toponymy/chessu/Section-Chessu-river-valley-b.jpg</image:loc>
+				<image:title>Участок долины реки Чессу с вершины имени Голгофской</image:title>
+			</image:image>
+			<image:image>
+				<image:loc>{{ site.url }}/img/toponymy/chessu/Ksenia-Yurievna-Golgofskaya-b.jpg</image:loc>
+				<image:title>Ксения Юрьевна Голгофская</image:title>
+			</image:image>
+			<image:image>
+				<image:loc>{{ site.url }}/img/toponymy/chessu/Waterfalls-in-upper-reaches-Chessu-River-b.jpg</image:loc>
+				<image:title>Водопады в верховьях реки Чессу</image:title>
+			</image:image>
+	</url>
 </urlset>

@@ -65,7 +65,11 @@
     {%- endif -%}
   {% endcapture %}
 
-  <title>{{ title }}</title>
+  <!--<title>{{ title }}</title>-->
+  <title>
+    {% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}
+    {%if paginator %} Страница {{ paginator.page }}{% endif %}
+  </title>
 
   {% if site.author %}
   <meta name="author" content="{{ site.author }}">

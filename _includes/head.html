@@ -68,7 +68,7 @@
   <!--<title>{{ title }}</title>-->
   <title>
     {{ title }}
-    {% if paginator.total_pages > 1 %} - cтраница {{ paginator.page }}{% endif %}
+    {% if paginator.previous_page %} Страница {{ paginator.page }}{% endif %}
   </title>
 
   {% if site.author %}

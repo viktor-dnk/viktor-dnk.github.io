@@ -67,8 +67,8 @@
 
   <!--<title>{{ title }}</title>-->
   <title>
-    {% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}
-    {%if paginator %} Страница {{ paginator.page }}{% endif %}
+    {% if page.share-title %}{{ page.share-title }}{% else %}{{ site.title }}{% endif %}
+    {%if paginator %} - cтраница {{ paginator.page }}{% endif %}
   </title>
 
   {% if site.author %}

@@ -232,7 +232,6 @@ exclude:
 compress_html:
   clippings: all
   comments: ["<!-- ", " -->"]
-  endings: all
   profile: false
   ignore:
     envs: [development]

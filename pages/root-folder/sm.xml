@@ -97,4 +97,44 @@ permalink: /sm.xml
         <loc>https://viktor-dnk.ru/toponymy/in-memory/</loc>
         <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
     </url>
+    <url>
+        <loc>https://viktor-dnk.ru/page/2/</loc>
+        <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+    </url>
+    <url>
+        <loc>https://viktor-dnk.ru/page/3/</loc>
+        <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+    </url>
+    <url>
+        <loc>https://viktor-dnk.ru/page/4/</loc>
+        <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+    </url>
+    <url>
+        <loc>https://viktor-dnk.ru/page/5/</loc>
+        <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+    </url>
+    <url>
+        <loc>https://viktor-dnk.ru/page/6/</loc>
+        <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+    </url>
+    <url>
+        <loc>https://viktor-dnk.ru/page/7/</loc>
+        <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+    </url>
+    <url>
+        <loc>https://viktor-dnk.ru/page/8/</loc>
+        <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+    </url>
+    <url>
+        <loc>https://viktor-dnk.ru/page/9/</loc>
+        <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+    </url>
+    <url>
+        <loc>https://viktor-dnk.ru/page/10/</loc>
+        <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+    </url>
+    <url>
+        <loc>https://viktor-dnk.ru/page/11/</loc>
+        <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+    </url>
 </urlset>

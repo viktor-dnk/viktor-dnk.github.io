@@ -1,0 +1,6 @@
+---
+layout: null
+title: "Authorized Digital Sellers"
+permalink: /ads.txt
+source: "https://iabtechlab.com/ads-txt"
+---

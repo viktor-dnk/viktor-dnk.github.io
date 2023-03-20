@@ -5062,4 +5062,57 @@ permalink: /sm_img.xml
 				<image:title>Водопады в верховьях реки Чессу</image:title>
 			</image:image>
 	</url>
+	<url>
+  <loc>{{ site.url }}/toponymy/kitay/</loc>
+  <lastmod>2023-03-20</lastmod>
+  <changefreq>monthly</changefreq>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/kitay/Ridge-Izvestkovy-modern-map.jpg</image:loc>
+			<image:title>Хребет Известковый на современной карте</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/kitay/Section-Izvestkovy-Ridge-b.jpg</image:loc>
+			<image:title>Участок хребта Известкового</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/kitay/Confluence-Kisha-and-Kitayka-rivers-b.jpg</image:loc>
+			<image:title>Слияние рек Киша и Китайка</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/kitay/River-Kitayka-b.jpg</image:loc>
+			<image:title>Речка Китайка</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/kitay/Fragment-map-mountain-glacier-and-Vorobyov-stream-are-indicated.jpg</image:loc>
+			<image:title>Фрагмент карты, где обозначены гора, ледник и ручей Воробьёва</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/kitay/View-north-side-upper-part-Kitayka-river-valley-b.jpg</image:loc>
+			<image:title>Вид с северной стороны на верхнюю часть долины речки Китайка</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/kitay/The-confluence-Kitayka-River-and-its-left-tributary-Vorobyov-Stream-b.jpg</image:loc>
+			<image:title>Слияние речки Китайка и её левого притока - ручья Воробьёва</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/kitay/Waterfalls-in-upper-reaches-Kitayka-River-b.jpg</image:loc>
+			<image:title>Водопады в верховьях речки Китайка</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/kitay/Map-hydrographic-network-in-valley-Kishs-River.jpg</image:loc>
+			<image:title>Карта гидрографической сети в долине реки Киша (Чегсъ)</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/kitay/Vorobyov-Glacier-b.jpg</image:loc>
+			<image:title>Ледник Воробьёва</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/kitay/View-Urushten-ridge-mountain-massif-and-Vorobyov-glacier-b.jpg</image:loc>
+			<image:title>Вид с хребта Уруштен на массив горы и ледник Воробьёва</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/kitay/Kitayka-River-b.jpg</image:loc>
+			<image:title>Речка Китайка</image:title>
+		</image:image>
+</url>
 </urlset>

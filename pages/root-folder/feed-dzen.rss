@@ -31,7 +31,7 @@ permalink: /feed-dzen.rss
 			<guid isPermaLink="true">{{ toponymy.url | absolute_url }}</guid>
 			<media:rating scheme="urn:simple">nonadult</media:rating>
 			<pubDate>{{ toponymy.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
-			<author>dnk_v@list.ru</author>
+			<author>dnk_v@list.ru (Ковешников В.Н.)</author>
 			<category>Путешествия</category>
 			<category>Наука</category>
 			<category>Природа</category>
@@ -135,7 +135,7 @@ permalink: /feed-dzen.rss
 			<guid isPermaLink="true">{{ mysteries-dolmens.url | absolute_url }}</guid>
 			<media:rating scheme="urn:simple">nonadult</media:rating>
 			<pubDate>{{ mysteries-dolmens.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
-			<author>dnk_v@list.ru</author>
+			<author>dnk_v@list.ru (Ковешников В.Н.)</author>
 			<category>Путешествия</category>
 			<category>Наука</category>
 			<category>Природа</category>

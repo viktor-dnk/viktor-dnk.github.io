@@ -43,6 +43,7 @@ permalink: /feed-dzen.rss
 			<content:encoded>
 				<![CDATA[
 					{% assign preprocessed_content=toponymy.content | replace: '<p>', '__p__' %}
+					{% assign preprocessed_content=toponymy.content | replace: '<p class="box-note">', '__p__' %}
 					{% assign preprocessed_content=preprocessed_content | replace: '</p>', '__/p__' %}
 					{% assign preprocessed_content=preprocessed_content | replace: '<li>', '__li__' %}
 					{% assign preprocessed_content=preprocessed_content | replace: '</li>', '__/li__' %}

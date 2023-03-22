@@ -31,9 +31,6 @@ permalink: /feed-dzen.rss
 			<media:rating scheme="urn:simple">nonadult</media:rating>
 			<pubDate>{{ toponymy.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
 			<author>dnk_v@list.ru (Ковешников В.Н.)</author>
-			<category>Путешествия</category>
-			<category>Наука</category>
-			<category>Природа</category>
 			<category>native-draft</category>
 			<category>noindex</category>
 			<category>comment-all</category>

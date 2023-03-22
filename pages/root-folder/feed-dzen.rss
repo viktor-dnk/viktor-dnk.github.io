@@ -34,6 +34,9 @@ permalink: /feed-dzen.rss
 			<category>Путешествия</category>
 			<category>Наука</category>
 			<category>Природа</category>
+			<category>native-draft</category>
+			<category>noindex</category>
+			<category>comment-all</category>
 			<enclosure url="{{ toponymy.cover-img[0].first.first | absolute_url | replace: '.jpg','-s.jpg' }}" type="image/jpeg"/>
 			<description>
 				<![CDATA[

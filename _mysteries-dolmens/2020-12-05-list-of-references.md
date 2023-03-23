@@ -12,6 +12,7 @@ readtime: false
 share-title: Общий список использованных источников и литературы.
 share-description: Общий список литературы, которая использовалась при подготовке цикла очерков о загадочных дольменах Западного Кавказа.
 img-caption: Karte des Kaukasischen Isthmus 1856
+head-extra: [etc/ads.html]
 ---
 {: .box-note}
 ## {{ page.share-title }}
@@ -244,3 +245,12 @@ img-caption: Karte des Kaukasischen Isthmus 1856
 	<a title="Петроглифы и рисунки на каменных плитах дольменов Западного Кавказа" href="/mysteries-dolmens/ch1p12/"><img src="/img/mysteries-dolmens/ch1p12/mysteries-dolmens-ch1p12-12.15.jpg" alt="Прорисовка петроглифов на Джубгинском дольмене" width="720" height="480"/></a>
 	<figcaption>Прорисовка петроглифов на Джубгинском дольмене</figcaption>
 </figure>
+
+<!-- Yandex.RTB R-A-2250957-9 -->
+<div id="yandex_rtb_R-A-2250957-9"></div>
+<script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-2250957-9',
+    blockId: 'R-A-2250957-9'
+  })
+})</script>

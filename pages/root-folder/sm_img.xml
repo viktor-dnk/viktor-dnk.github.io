@@ -5115,4 +5115,49 @@ permalink: /sm_img.xml
 			<image:title>Речка Китайка</image:title>
 		</image:image>
 </url>
+<url>
+  <loc>{{ site.url }}/toponymy/achuevo/</loc>
+  <lastmod>2023-03-24</lastmod>
+  <changefreq>monthly</changefreq>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/achuevo/Fragment-Russian-Map-entire-Sea-Azov-1803.jpg</image:loc>
+			<image:title>Фрагмент Российской «Карты всего Азовского моря 1803 года», где обозначен посёлок Ачуевъ</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/achuevo/Achuevo-meets-b.jpg</image:loc>
+			<image:title>«Ачуево встречает» — «Основано в 1697 г.»</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/achuevo/Achuev-fortress-plan.jpg</image:loc>
+			<image:title>План крепости Ачуев</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/achuevo/Coat-arms-Achuevsky-rural-settlement.jpg</image:loc>
+			<image:title>Герб Ачуевского сельского поселения</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/achuevo/Club-in-Achuevo.jpg</image:loc>
+			<image:title>Клуб в Ачуево, память о советском периоде истории села</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/achuevo/Fragment-map-Kuban-region-1904.jpg</image:loc>
+			<image:title>Фрагмент карты Кубанской области (1904 г.)</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/achuevo/Fragments-maps-1926-and-1941.jpg</image:loc>
+			<image:title>Фрагменты карт 1926 г. (слева)  и 1941 г. (справа) района посёлка Ачуев</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/achuevo/Spit-Achuevskaya.jpg</image:loc>
+			<image:title>Коса Ачуевская</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/achuevo/Beach-on-shore-Sea-Azov-near-village-Achuevo-b.jpg</image:loc>
+			<image:title>Пляж на берегу Азовского моря у села Ачуево</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/achuevo/Fragment-map-Krasnodar-Territory-1988.jpg</image:loc>
+			<image:title>Фрагмент карты Краснодарского края (1988 г.)</image:title>
+		</image:image>
+</url>
 </urlset>

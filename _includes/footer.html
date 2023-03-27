@@ -90,6 +90,15 @@
                         <input itemprop="query-input" type="text" name="q" placeholder="Поиск по сайту..." title="Введите поисковый запрос" />
                     </form>
                 </div>
+				<br />
+                <br />
+				  {% if page.footer-extra %}
+					<div class="footer-custom-content">
+					  {% for file in page.footer-extra %}
+						{% include {{ file }} %}
+					  {% endfor %}
+					</div>
+				  {% endif %}				
             </div>
             <div class="col-sm-6">
                 <strong>Подписка</strong>

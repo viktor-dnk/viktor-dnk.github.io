@@ -5,7 +5,7 @@ description: Экзоэтноним название этноса (народа)
 cover-img: ["/img/toponymy/circassian-part1/cover.jpg" : "Собрание черкесских князей"]
 thumbnail-caption: Кабардинский уздень
 date: 2022-12-17 19:20 +0300
-last_modified_at: 2023-02-17 18:50 +0300
+last_modified_at: 2023-03-17 18:50 +0300
 category: [oikonyms, mountains, hydro]
 share-title: О происхождении экзоэтнонима черкасы
 share-description: Экзоэтноним название этноса (народа), данное другими народами. Например, скифы экзоэтноним древнегреческого происхождения, их самоназвание сколоты.

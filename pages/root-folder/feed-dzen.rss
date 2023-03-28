@@ -29,7 +29,7 @@ permalink: /feed-dzen.rss
 			<link>{{ toponymy.url | absolute_url }}</link>
 			<guid isPermaLink="true">{{ toponymy.url | absolute_url }}</guid>
 			<media:rating scheme="urn:simple">nonadult</media:rating>
-			<pubDate>{{ toponymy.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
+			<pubDate>{{ toponymy.last_modified_at | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
 			<author>dnk_v@list.ru (Ковешников В.Н.)</author>
 			<category>native-draft</category>
 			<category>noindex</category>

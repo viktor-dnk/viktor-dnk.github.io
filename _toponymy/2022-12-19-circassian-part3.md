@@ -5,7 +5,7 @@ description: История происхождения адыгских плем
 cover-img: ["/img/toponymy/circassian-part1/cover.jpg" : "Собрание черкесских князей"]
 thumbnail-caption: Кабардинец. Рисунок князя Г.Г.Гагарина
 date: 2022-12-18 18:00 +0300
-last_modified_at: 2023-02-17 18:50 +0300
+last_modified_at: 2023-03-17 18:50 +0300
 category: [oikonyms, mountains, hydro]
 share-title: О происхождении адыгских (черкесских) племён
 share-description: История происхождения адыгских племён исследуется около 200 лет, но наиболее плодотворно она стала изучаться последние 70 лет.

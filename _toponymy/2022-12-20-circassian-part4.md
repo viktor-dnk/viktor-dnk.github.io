@@ -5,7 +5,7 @@ description: Экзоэтноним название этноса (народа)
 cover-img: ["/img/toponymy/circassian-part1/cover.jpg" : "Собрание черкесских князей"]
 thumbnail-caption: Черкес стреляющий из лука
 date: 2022-12-20 19:00 +0300
-last_modified_at: 2022-12-20 19:00 +0300
+last_modified_at: 2023-02-17 18:50 +0300
 category: [oikonyms, mountains, hydro]
 share-title: О происхождении экзоэтнонима черкес
 share-description: Значение слова черкес было известно ещё до ХIХ в. им называли адыгов разноязычные соседние народы существуют различные версии его написания.

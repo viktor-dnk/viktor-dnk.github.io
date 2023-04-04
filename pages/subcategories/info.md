@@ -4,12 +4,14 @@ title: Информация
 subtitle: Об этом сайте
 cover-img: /img/example-logos/main-cover.jpg
 share-img: /img/example-logos/main-cover4x3.jpg
-share-title: Info
+share-title: Об авторе, информация, контакты
 share-description: Информация о сайте Заметки географа. Контакты. Условия использования. Связь с автором. Дорога не кончается!!!
 last_modified_at: 2022-01-14 10:00:00 +0300
 language: ru
 keywords: информация, контакты
 permalink: /info/
+head-extra: [etc/_aboutme.html, etc/ads.html]
+footer-extra: [etc/ads-footer.html]
 ---
 <div class="posts-list">
   {% for info in site.info %}

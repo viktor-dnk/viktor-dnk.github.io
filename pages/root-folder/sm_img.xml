@@ -5160,4 +5160,69 @@ permalink: /sm_img.xml
 			<image:title>Фрагмент карты Краснодарского края (1988 г.)</image:title>
 		</image:image>
 </url>
+<url>
+  <loc>{{ site.url }}/toponymy/most-common-names-peaks/</loc>
+  <lastmod>2023-04-09</lastmod>
+  <changefreq>monthly</changefreq>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/most-common-names-peaks/Flight-Witches-Bald-Mountain.jpg</image:loc>
+			<image:title>«Полет ведьм на Лысую гору» рисунок из журнала «Всемирная иллюстрация»</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/most-common-names-peaks/Fragment-1941-map.jpg</image:loc>
+			<image:title>Фрагмент карты масштаба 1941 г.</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/most-common-names-peaks/Mount-Lysaya-Chilipsinskaya-b.jpg</image:loc>
+			<image:title>Гора Лысая-Чилипсинская на фото в центре</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/most-common-names-peaks/A-fragment-modern-map-where-Mount-Lysaya-located.jpg</image:loc>
+			<image:title>Фрагмент современной карты, где находится гора Лысая</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/most-common-names-peaks/View-dome-Mount-Kashin.jpg</image:loc>
+			<image:title>Вид на купол горы Кашина</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/most-common-names-peaks/Tract-Shakhany-b.jpg</image:loc>
+			<image:title>Урочище Шаханы</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/most-common-names-peaks/Mount-Shahan.jpg</image:loc>
+			<image:title>Гора Шахан</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/most-common-names-peaks/A-fragment-modern-map-showing-Mount-Shahan.jpg</image:loc>
+			<image:title>Фрагмент современной карты, где обозначены гора Шахан</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/most-common-names-peaks/The-top-mountain-Gurmaisky-Shahan.jpg</image:loc>
+			<image:title>Вершина горы Гурмайский Шахан</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/most-common-names-peaks/Fragments-maps-1904-and-1926.jpg</image:loc>
+			<image:title>Фрагменты карт 1904 г. и 1926 г. </image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/most-common-names-peaks/Fragment-1941-scale-map-Shakhan.jpg</image:loc>
+			<image:title>Фрагмент карты масштаба 1941 г.</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/most-common-names-peaks/Monument-Shakhan-Giray-Khakurate-b.jpg</image:loc>
+			<image:title>Памятник Шахан-Гирею Хакурате</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/most-common-names-peaks/Mount-Shahdag-b.jpg</image:loc>
+			<image:title>Гора Шахдаг</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/most-common-names-peaks/Mount-ShahDag-map-USSR-1970.jpg</image:loc>
+			<image:title>Гора ШахДаг на карте СССР 1970 г.</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/most-common-names-peaks/View-from-Mount-Piket-city-Sochi-b.jpg</image:loc>
+			<image:title>Вид с горы Пикет на город Сочи</image:title>
+		</image:image>
+</url>
 </urlset>

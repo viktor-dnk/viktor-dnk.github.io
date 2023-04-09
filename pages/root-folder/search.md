@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Поиск по сайту «Заметки географа»
+title: Поиск по сайту
 language: ru
 cover-img: /img/example-logos/main-cover.jpg
-share-title: Поиск по сайту
+share-title: Поиск по сайту «Заметки географа»
 share-description: На сайте исправно работает поиск по сайту. Поиск производится по всем статьям за всё время их публикации.
 share-img: /img/example-logos/main-cover4x3.jpg
 keywords: поиск, search, яндекс, yandex, гугл, google

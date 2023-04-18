@@ -137,4 +137,8 @@ permalink: /sm.xml
         <loc>https://viktor-dnk.ru/page/11/</loc>
         <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
     </url>
+    <url>
+        <loc>https://viktor-dnk.ru/page/12/</loc>
+        <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+    </url>    
 </urlset>

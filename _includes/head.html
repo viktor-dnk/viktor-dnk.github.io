@@ -85,19 +85,7 @@
   <meta name="keywords" content="{{ site.keywords }}{{ page.keywords }}">
   {% endif %}
 
-  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ '/feed.xml' | absolute_url }}">
-  <link rel="preload" href="/assets/css/material-scrolltop.css" as="style" type="text/css" onload="this.rel='stylesheet'">
-  <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" as="style" type="text/css" onload="this.rel='stylesheet'">
 
-  {% include gtag.html %}
-  {% include gtm_head.html %}
-  {% include google_analytics.html %}
-
-  {% if layout.common-ext-css %}
-    {% for css in layout.common-ext-css %}
-      {% include ext-css.html css=css %}
-    {% endfor %}
-  {% endif %}
 
   {% if layout.common-css %}
     {% for css in layout.common-css %}
@@ -187,10 +175,18 @@
   {% if img != "" %}
   <meta name="twitter:image" content="{{ page.cover-img[0].first.first | absolute_url | replace: '.jpg','-s.jpg' }}">
   {% endif %}
+  
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ '/feed.xml' | absolute_url }}">
+  <link rel="preload" href="/assets/css/material-scrolltop.css" as="style" type="text/css" onload="this.rel='stylesheet'">
+  <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" as="style" type="text/css" onload="this.rel='stylesheet'">
 
-  {% include matomo.html %}
+  {% include gtag.html %}
+  {% include gtm_head.html %}
+  {% include google_analytics.html %}
 
-  {% if page.comments and site.staticman.repository and site.staticman.branch %}
-  <link rel="stylesheet" href="{{ "/assets/css/staticman.css" | relative_url }}">
+  {% if layout.common-ext-css %}
+    {% for css in layout.common-ext-css %}
+      {% include ext-css.html css=css %}
+    {% endfor %}
   {% endif %}
 </head>

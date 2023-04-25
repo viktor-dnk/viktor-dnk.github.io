@@ -5225,4 +5225,65 @@ permalink: /sm_img.xml
 			<image:title>Вид с горы Пикет на город Сочи</image:title>
 		</image:image>
 </url>
+<url>
+  <loc>{{ site.url }}/toponymy/aushedz/</loc>
+  <lastmod>2023-04-25</lastmod>
+  <changefreq>monthly</changefreq>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/aushedz/Wet-Aushedz-River-on-map-of-1840-and-1877.jpg</image:loc>
+			<image:title>Река Мокрый Аушедз на карте  1840 г. и 1877 г.</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/aushedz/Wet-Aushedz-River-near-Aushed-farm.jpg</image:loc>
+			<image:title>Река Мокрый Аушедз в районе хутора Аушед</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/aushedz/Fragment-of-the-map-of-the-Stavropol-diocese-1899.jpg</image:loc>
+			<image:title>Фрагмент карты Ставропольской епархии 1899 г.</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/aushedz/Dry-Aushedz-River-near-the-village-of-Mingrelskaya.jpg</image:loc>
+			<image:title>Река Сухой Аушедз у станицы Мингрельской</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/aushedz/Fragment-of-a-map-of-the-Kuban-region-1904.jpg</image:loc>
+			<image:title>Фрагмент карты Кубанской области 1904 г.</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/aushedz/Fragment-of-the-map-of-the-Kuban-region-1926.jpg</image:loc>
+			<image:title>Фрагмент карты Кубанского округа 1926 г.</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/aushedz/Lotuses-in-the-river-Dry-Aushedz-in-the-village-of-Mingrelskaya.jpg</image:loc>
+			<image:title>Лотосы в реке Сухой Аушедз в станице Мингрельской</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/aushedz/Fragment-of-a-map-of-the-Krasnodar-Territory-in-the-early-40s-of-the-20th-century.jpg</image:loc>
+			<image:title>Фрагмент карты Краснодарского края начала 40-х годов ХХ в.</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/aushedz/View-from-the-south-to-the-left-bank-of-the-Kuban-River-b.jpg</image:loc>
+			<image:title>Вид с юга на левый берег реки Кубань</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/aushedz/Fragment-of-a-historical-map-1899-Felitsyn.jpg</image:loc>
+			<image:title>Фрагмент исторической карты (1899 г.) Фелицына Е.Д.</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/aushedz/Monument-to-Ivan-Popov-in-Aushed-farm.jpg</image:loc>
+			<image:title>Памятник Ивану Попову в хуторе Аушед</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/aushedz/The-Kuban-River-near-the-village-of-Troitskaya.jpg</image:loc>
+			<image:title>Река Кубань в районе станицы Троицкой</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/aushedz/Fragment-of-the-road-map-of-the-Caucasus-region-in-1870.jpg</image:loc>
+			<image:title>Фрагмент дорожной карты Кавказского края 1870 г.</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/aushedz/Fragment-of-a-map-published-by-Bronevsky-in-1823.jpg</image:loc>
+			<image:title>Фрагмент карты изданной Броневским С.М. в 1823 г.</image:title>
+		</image:image>
+</url>
 </urlset>

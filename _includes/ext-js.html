@@ -1,5 +1,5 @@
 {% if include.js.sri %}
-  <script async src="{{ include.js.href }}" integrity="{{ include.js.sri }}" crossorigin="anonymous"></script>
+  <script src="{{ include.js.href }}" integrity="{{ include.js.sri }}" crossorigin="anonymous"></script>
 {% elsif include.js.href %}
   <script async src="{{ include.js.href }}"></script>
 {% else %}

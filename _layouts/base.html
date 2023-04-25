@@ -11,8 +11,6 @@ common-css:
   - "/assets/css/bootstrap-social-min.css"
   - "/assets/css/beautifuljekyll-min.css"
 common-ext-css:
-  - href: "https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-    sri: "sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
   - "https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic&display=swap"
   - "https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&display=swap"
 common-js:
@@ -45,5 +43,7 @@ common-js:
       $('body').materialScrollTop();
     </script>
   {% include lazyload.html %}
+  {% include async-css.html %}
+  
 </body>
 </html>

@@ -16,7 +16,7 @@ navbar-links:
     - Общий раздел: "/toponymy/"
   Загадочные дольмены: "/mysteries-dolmens/"
   Информация:
-    - Об авторе: "/aboutme/"
+    - Об авторе: "/info/aboutme/"
     - Контакты: "/info/contacts/"
     - Подписаться на email-рассылку: "https://follow.it/fb9yhd?action=followPub"
 #    - Случайная статья: "/random"

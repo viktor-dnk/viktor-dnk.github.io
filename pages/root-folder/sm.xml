@@ -55,7 +55,7 @@ permalink: /sm.xml
         <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
     </url>
     <url>
-        <loc>https://viktor-dnk.ru/aboutme/</loc>
+        <loc>https://viktor-dnk.ru/info/aboutme/</loc>
         <image:image>
           <image:loc>{{ site.url }}/img/example-logos/stamp.png</image:loc>
           <image:title>Дорога не кончается</image:title>

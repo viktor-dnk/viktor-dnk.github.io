@@ -11,7 +11,7 @@ keywords: автор, публикация
 date: 2020-12-19 23:00:00 +0300
 last_modified_at: 2022-01-25 14:30:00 +0300
 microdata: etc/_aboutme.html
-permalink: /aboutme/
+permalink: /info/aboutme/
 head-extra: [etc/ads.html]
 footer-extra: [etc/ads-footer.html]
 ---

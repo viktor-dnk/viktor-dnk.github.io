@@ -5286,4 +5286,41 @@ permalink: /sm_img.xml
 			<image:title>Фрагмент карты изданной Броневским С.М. в 1823 г.</image:title>
 		</image:image>
 </url>
+<url>
+  <loc>{{ site.url }}/toponymy/birch/</loc>
+  <lastmod>2023-05-08</lastmod>
+  <changefreq>monthly</changefreq>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/birch/Fragment-of-a-1930-scale-map.jpg</image:loc>
+			<image:title>Фрагмент карты масштаба 1930 г.</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/birch/Berezovaya-river-June-In-the-floodplain-of-the-river-b.jpg</image:loc>
+			<image:title>Река Березовая. Июнь. В пойме реки в основном видна ольха.</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/birch/At-the-source-of-the-Berezovaya-River-Asmanovy-Balagany-tract-b.jpg</image:loc>
+			<image:title>В истоках реки Березовой. Урочище Асмановы Балаганы</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/birch/View-of-the-Colchis-Gate-Pass.jpg</image:loc>
+			<image:title>Вид на перевал Колхидские Ворота</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/birch/pontic-rhododendron.jpg</image:loc>
+			<image:title>Рододендрон понтийский</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/birch/Caucasian-Rhododendron.jpg</image:loc>
+			<image:title>Рододендрон кавказский</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/birch/Stanitsa-Berezanskaya-on-a-map-published-in-the-early-1940s.jpg</image:loc>
+			<image:title>Станица Березанская на карте издания начала 40-х годов ХХ в. </image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/birch/Birch-forest-in-natural-conditions.jpg</image:loc>
+			<image:title>Берёзовый лес в природных условиях встречается в горах Краснодарского края</image:title>
+		</image:image>
+</url>
 </urlset>

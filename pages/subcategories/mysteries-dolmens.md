@@ -89,6 +89,8 @@ permalink: /mysteries-dolmens/
       <a href="{{ '/tags/' | absolute_url }}#{{- tag -}}">{{- tag -}}</a>
       {% endfor %}
     </div>
+              {% if forloop.index == 4 or forloop.index == 10 or forloop.index == 15 or forloop.index == 21 %}
+              {% include ads-cat.html %}
     {% endif %}
 
    </article>

@@ -81,6 +81,9 @@ permalink: /mysteries-dolmens/
       <a title="{{ mysteries-dolmens.share-title }}" href="{{ mysteries-dolmens.url | absolute_url }}" class="post-read-more">[Читать&nbsp;далее]</a>
     </div>
     {% endunless %}
+                  {% if forloop.index == 4 or forloop.index == 10 or forloop.index == 15 or forloop.index == 21 %}
+                  {% include ads-cat.html %}
+                  {% endif %}
 
     {% if site.feed_show_tags != false and mysteries-dolmens.tags.size > 0 %}
     <div class="blog-tags">
@@ -89,9 +92,7 @@ permalink: /mysteries-dolmens/
       <a href="{{ '/tags/' | absolute_url }}#{{- tag -}}">{{- tag -}}</a>
       {% endfor %}
     </div>
-              {% if forloop.index == 4 or forloop.index == 10 or forloop.index == 15 or forloop.index == 21 %}
-              {% include ads-cat.html %}
-              {% endif %}
+
     {% endif %}
 
    </article>

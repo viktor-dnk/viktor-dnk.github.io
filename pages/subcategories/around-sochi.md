@@ -8,7 +8,7 @@ share-title: Топонимика вокруг Сочи
 share-description: Город-курорт Сочи входит в состав Краснодарского края, разделён на 4 внутригородских района - Адлерский, Лазаревский, Хостинский и Центральный.
 language: ru
 keywords: карты, история, география, ономастика, Сочи
-last_modified_at: 2022-01-26 14:00:00 +0300
+last_modified_at: 2023-05-10 19:00:00 +0300
 date: 2022-01-14 16:00:00
 permalink: /toponymy/around-sochi/
 head-extra: [etc/_micro_around-sochi.html, etc/_aboutme.html, etc/ads.html]
@@ -82,6 +82,13 @@ footer-extra: [etc/ads-footer.html]
       <a title="{{ toponymy.share-title }}" href="{{ toponymy.url | absolute_url }}" class="post-read-more">[Читать&nbsp;далее]</a>
     </div>
     {% endunless %}
+
+                        {% if forloop.index == 4 %}
+                        {% include ads-cat-1.html %}
+                        {% endif %}
+                        {% if forloop.index == 10 %}
+                        {% include ads-cat-2.html %}
+                        {% endif %}
 
     {% if site.feed_show_tags != false and toponymy.tags.size > 0 %}
     <div class="blog-tags">

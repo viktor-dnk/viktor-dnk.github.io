@@ -8,7 +8,7 @@ share-title: Топонимика населённых пунктов Кубан
 share-description: Одно из направлений топонимики занимается изучением собственных названий населенных пунктов (городов, посёлков, сёл, станиц, хуторов) называется ойконимия.
 language: ru
 keywords: карты, история, география, ономастика, ойконим
-last_modified_at: 2022-01-26 14:00:00 +0300
+last_modified_at: 2023-05-10 19:00:00 +0300
 date: 2022-01-14 16:00:00
 permalink: /toponymy/oikonyms/
 head-extra: [etc/_micro_oikonyms.html, etc/_aboutme.html, etc/ads.html]
@@ -84,6 +84,16 @@ footer-extra: [etc/ads-footer.html]
       <a title="{{ toponymy.share-title }}" href="{{ toponymy.url | absolute_url }}" class="post-read-more">[Читать&nbsp;далее]</a>
     </div>
     {% endunless %}
+
+                        {% if forloop.index == 6 %}
+                        {% include ads-cat-1.html %}
+                        {% endif %}
+                        {% if forloop.index == 16 %}
+                        {% include ads-cat-2.html %}
+                        {% endif %}
+                        {% if forloop.index == 28 %}
+                        {% include ads-cat-3.html %}
+                        {% endif %}
 
     {% if site.feed_show_tags != false and toponymy.tags.size > 0 %}
     <div class="blog-tags">

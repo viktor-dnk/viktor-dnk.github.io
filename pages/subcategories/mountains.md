@@ -8,7 +8,7 @@ share-title: Оронимы Кубани и Адыгеи
 share-description: Раздел топонимики, который изучает названия вершин, горных систем, скал, перевалов, хребтов, называется оронимика, что с греческого означает «горы имя».
 language: ru
 keywords: карты, история, география, ономастика, ороним
-last_modified_at: 2022-01-26 14:00:00 +0300
+last_modified_at: 2023-05-10 19:00:00 +0300
 date: 2022-01-14 16:00:00
 permalink: /toponymy/mountains/
 head-extra: [etc/_micro_mountains.html, etc/_aboutme.html, etc/ads.html]
@@ -82,6 +82,16 @@ footer-extra: [etc/ads-footer.html]
       <a title="{{ toponymy.share-title }}" href="{{ toponymy.url | absolute_url }}" class="post-read-more">[Читать&nbsp;далее]</a>
     </div>
     {% endunless %}
+
+                        {% if forloop.index == 5 %}
+                        {% include ads-cat-1.html %}
+                        {% endif %}
+                        {% if forloop.index == 16 %}
+                        {% include ads-cat-2.html %}
+                        {% endif %}
+                        {% if forloop.index == 28 %}
+                        {% include ads-cat-3.html %}
+                        {% endif %}
 
     {% if site.feed_show_tags != false and toponymy.tags.size > 0 %}
     <div class="blog-tags">

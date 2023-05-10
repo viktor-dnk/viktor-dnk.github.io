@@ -84,7 +84,16 @@ _«Даже самое удачное толкование истории сло
       <a title="{{ toponymy.share-title }}" href="{{ toponymy.url | absolute_url }}" class="post-read-more">[Читать&nbsp;далее]</a>
     </div>
     {% endunless %}
-
+                        {% if forloop.index == 5 %}
+                        {% include ads-cat-1.html %}
+                        {% endif %}
+                        {% if forloop.index == 15 %}
+                        {% include ads-cat-2.html %}
+                        {% endif %}
+                        {% if forloop.index == 30 %}
+                        {% include ads-cat-3.html %}
+                        {% endif %}
+    
     {% if site.feed_show_tags != false and toponymy.tags.size > 0 %}
     <div class="blog-tags">
       <span>Метки:</span>

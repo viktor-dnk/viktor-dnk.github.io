@@ -2,7 +2,7 @@
 layout: null
 title: "Authorized Digital Sellers"
 permalink: /ads.txt
-source: "https://iabtechlab.com/ads-txt"
+source: "https://yandex.ru/support/partner/web/ads-txt-setup.html?lang=ru"
 ---
 yandex.com, 103112896, DIRECT
 improvedigital.com, 2031, DIRECT
@@ -21,7 +21,7 @@ onetag.com, 5d1628750185ace, RESELLER
 buzzoola.com, 579132, DIRECT
 sonobi.com, e128791470, RESELLER, d1a215d9eb5aee9e
 rubiconproject.com, 23946, RESELLER, 0bfd66d529a55807
-contextweb.com, 560606, RESELLER, 89ff185a4c4e857c
+contextweb.com, 562899, RESELLER, 89ff185a4c4e857c
 engagebdr.com, 10308, RESELLER
 yeahmobi.com, 5135322, DIRECT
 appTV.com, 3992, DIRECT

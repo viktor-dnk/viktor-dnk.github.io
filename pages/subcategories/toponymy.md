@@ -8,7 +8,7 @@ share-title: Очерки по топонимике
 share-description: Даже самое удачное толкование истории слова может быть пересмотрено, как только найдутся новые данные. Ничего страшного в этом нет
 language: ru
 keywords: карты, история, география, ономастика
-last_modified_at: 2022-01-14 10:00:00 +0300
+last_modified_at: 2023-05-10 16:00:00 +0300
 date: 2021-01-02 16:00
 head-extra: [amp_link.html, etc/_aboutme.html, etc/ads.html]
 footer-extra: [etc/ads-footer.html]
@@ -84,15 +84,15 @@ _«Даже самое удачное толкование истории сло
       <a title="{{ toponymy.share-title }}" href="{{ toponymy.url | absolute_url }}" class="post-read-more">[Читать&nbsp;далее]</a>
     </div>
     {% endunless %}
-                        {% if forloop.index == 5 %}
-                        {% include ads-cat-1.html %}
-                        {% endif %}
-                        {% if forloop.index == 15 %}
-                        {% include ads-cat-2.html %}
-                        {% endif %}
-                        {% if forloop.index == 30 %}
-                        {% include ads-cat-3.html %}
-                        {% endif %}
+                    {% if forloop.index == 5 %}
+                    {% include ads-cat-1.html %}
+                    {% endif %}
+                    {% if forloop.index == 15 %}
+                    {% include ads-cat-2.html %}
+                    {% endif %}
+                    {% if forloop.index == 30 %}
+                    {% include ads-cat-3.html %}
+                    {% endif %}
     
     {% if site.feed_show_tags != false and toponymy.tags.size > 0 %}
     <div class="blog-tags">

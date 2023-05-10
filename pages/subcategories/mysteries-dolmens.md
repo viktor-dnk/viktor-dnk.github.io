@@ -81,9 +81,15 @@ permalink: /mysteries-dolmens/
       <a title="{{ mysteries-dolmens.share-title }}" href="{{ mysteries-dolmens.url | absolute_url }}" class="post-read-more">[Читать&nbsp;далее]</a>
     </div>
     {% endunless %}
-                  {% if forloop.index == 4 or forloop.index == 10 or forloop.index == 15 or forloop.index == 21 %}
-                  {% include ads-cat.html %}
-                  {% endif %}
+                        {% if forloop.index == 4 %}
+                        {% include ads-cat-1.html %}
+                        {% endif %}
+                        {% if forloop.index == 11 %}
+                        {% include ads-cat-2.html %}
+                        {% endif %}
+                        {% if forloop.index == 20 %}
+                        {% include ads-cat-3.html %}
+                        {% endif %}
 
     {% if site.feed_show_tags != false and mysteries-dolmens.tags.size > 0 %}
     <div class="blog-tags">

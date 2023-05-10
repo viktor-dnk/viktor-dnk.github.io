@@ -90,7 +90,7 @@ permalink: /mysteries-dolmens/
       {% endfor %}
     </div>
               {% if forloop.index == 4 or forloop.index == 10 or forloop.index == 15 or forloop.index == 21 %}
-              {% include etc/ads-cat.html %}
+              {% include ads-cat.html %}
     {% endif %}
 
    </article>

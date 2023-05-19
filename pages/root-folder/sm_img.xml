@@ -5323,4 +5323,45 @@ permalink: /sm_img.xml
 			<image:title>Берёзовый лес в природных условиях встречается в горах Краснодарского края</image:title>
 		</image:image>
 </url>
+<url>
+  <loc>{{ site.url }}/toponymy/zelenchuk-p1/</loc>
+  <lastmod>2023-05-19</lastmod>
+  <changefreq>monthly</changefreq>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/zelenchuk-p1/View-from-north-side-confluence-Zelenchuy-2nd-and-Zelenchuk-Sredniy-rivers-b.jpg</image:loc>
+			<image:title>Вид с северной стороны на место слияния рек Зеленчуй 2-й и Зеленчук  Средний</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/zelenchuk-p1/600.jpg</image:loc>
+			<image:title>Фрагмент карты 1941 г., где обозначена река Бол. Зеленчук</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/zelenchuk-p1/Fragment-map-1816-where-Zelenchak-river-indicated.jpg</image:loc>
+			<image:title>Фрагмент карты 1816 г., где обозначена река Зеленчакъ</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/zelenchuk-p1/South-bank-Zelenchuk-2nd-river-near-village-Geimanovskaya-b.jpg</image:loc>
+			<image:title>Южный берег реки Зеленчук 2-й у станицы Геймановской</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/zelenchuk-p1/The-river-B-Zelenchuk-with-tributary-M-Zelenchuk-map-Apostolov-1897.jpg</image:loc>
+			<image:title>Река Б. Зеленчук с притоком М. Зеленчук на карте Апостолова Л.Я. 1897 г.</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/zelenchuk-p1/View-from-north-side-Sredny-Zelenchkuk-River-where-village-Alekse-Tenginskaya-located-b.jpg</image:loc>
+			<image:title>Вид с северной стороны на реку Средний Зеленчкук, где расположена станица Алексее-Тенгинская</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/zelenchuk-p1/Bol-River-Basin-Zelenchuk-map-Kuban-region-in-1899.jpg</image:loc>
+			<image:title>Бассейн реки Бол. Зеленчук на карте Кубанской области 1899 г.</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/zelenchuk-p1/Fragment-map-1823-where-river-basin-indicated-Zelenchak.jpg</image:loc>
+			<image:title>Фрагмент карты 1823 г., где обозначен бассейн р. Зеленчакъ</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/zelenchuk-p1/View-from-south-side-river-2nd-Zelenchuk-b.jpg</image:loc>
+			<image:title>Вид с южной стороны на реку 2-й Зеленчук</image:title>
+		</image:image>
+</url>
 </urlset>

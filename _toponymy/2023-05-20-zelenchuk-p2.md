@@ -8,7 +8,7 @@ date: 2023-05-20 13:20 +0300
 last_modified_at: 2023-05-20 13:20 +0300
 category: [hydro, oikonyms]
 share-title: О реках Большой и Малый Зеленчук - Часть 2-я
-share-description: Горные реки Бол. и Мал. Зеленчук, в отличие от своих «тёсок» расположенных в Краснодарском крае, имеют большую известность, особенно они популярны у туристов водников и горников.
+share-description: Горные реки Б. и М. Зеленчук, в отличие от своих «тёсок» в Краснодарском крае, имеют большую известность, особенно они популярны у туристов водников.
 keywords: река Большой Зеленчук, Зеленчук
 head-extra: [amp_link.html]
 location: Ставропольский край
@@ -43,7 +43,7 @@ img-caption: Долина реки Большой Зеленчук в Архыз
 
 <figure>
 <div style="position:relative;overflow:hidden;"><a href="https://yandex.ru/maps?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Яндекс Карты</a><a href="https://yandex.ru/maps/geo/stanitsa_zelenchukskaya/53119437/?l=stv%2Csta&ll=41.284125%2C43.561961&panorama%5Bair%5D=true&panorama%5Bdirection%5D=17.237662%2C-23.432287&panorama%5Bfull%5D=true&panorama%5Bid%5D=1321202511_785012946_23_1659977005&panorama%5Bpoint%5D=41.483831%2C43.690078&panorama%5Bspan%5D=115.679057%2C60.000000&utm_medium=mapframe&utm_source=maps&z=16.2" style="color:#eee;font-size:12px;position:absolute;top:14px;">Станица Зеленчукская — карта, что посмотреть, фото, как добраться</a><iframe src="https://yandex.ru/map-widget/v1/?l=stv%2Csta&ll=41.284125%2C43.561961&mode=search&ol=geo&ouri=ymapsbm1%3A%2F%2Fgeo%3Fdata%3DCgg1MzExOTQzNxJz0KDQvtGB0YHQuNGPLCDQmtCw0YDQsNGH0LDQtdCy0L4t0KfQtdGA0LrQtdGB0YHQutCw0Y8g0KDQtdGB0L_Rg9Cx0LvQuNC60LAsINGB0YLQsNC90LjRhtCwINCX0LXQu9C10L3Rh9GD0LrRgdC60LDRjyIKDdNUJkIVj3EvQg%2C%2C&panorama%5Bair%5D=true&panorama%5Bdirection%5D=17.237662%2C-23.432287&panorama%5Bfull%5D=true&panorama%5Bid%5D=1321202511_785012946_23_1659977005&panorama%5Bpoint%5D=41.483831%2C43.690078&panorama%5Bspan%5D=115.679057%2C60.000000&z=16.2" width="560" height="400" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe></div>
-	<figcaption>Итерактивная панорама на долины реки Большой Зеленчук с высоты птичьего полёта в районе Нижнего Архыза</figcaption>
+	<figcaption>Интерактивная панорама на долину реки Большой Зеленчук с высоты птичьего полёта в районе Нижнего Архыза</figcaption>
 </figure>
 
 Одним из первым рассмотрел этимологию горных Зеленчуков Коков Дж.Н. (1974 г.). Он отметил что образование их названия от русских слов _зелень_, _зелёный_, является переосмыслением. «**Зеленчук** — название рек (по-адыгски — **Инжыдж**) и населённых пунктов на них в Карачаево-Черкесской автономной области: Большой Зеленчук, черкесское название **Инжыджышхуэ**; Малый Зеленчук, адыгское название **Инжыджжьий** или более позднее **Инжыдж цIыкIу**. Он допускает связь адыгской форму **Инжыдж** с тюркской **Инджик**, что подсказывает возможность анализа гидронима на тюркоязычной основе. Можно привести следующие догадки об их этимологии:  

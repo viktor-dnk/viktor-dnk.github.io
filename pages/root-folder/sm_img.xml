@@ -5364,4 +5364,33 @@ permalink: /sm_img.xml
 			<image:title>Вид с южной стороны на реку 2-й Зеленчук</image:title>
 		</image:image>
 </url>
+<url>
+  <loc>{{ site.url }}/toponymy/zelenchuk-p2/</loc>
+  <lastmod>2023-05-20</lastmod>
+  <changefreq>monthly</changefreq>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/zelenchuk-p2/Fragment-map-Russian-Empire-in-1799.jpg</image:loc>
+			<image:title>Фрагмент карты Российской империи 1799 г., где обозначена р. Кубань и её левые притоки реки Б. Зеленчук и М. Зеленчук</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/zelenchuk-p2/River-Big-Zelenchuk.jpg</image:loc>
+			<image:title>Река Большой Зеленчук</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/zelenchuk-p2/Big-Zelenchuk-River.jpg</image:loc>
+			<image:title>Река Большой Зеленчук</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/zelenchuk-p2/I-draw-attention-to-the-color-of-the-water-River-Bol-Zelenchuk-b.jpg</image:loc>
+			<image:title>Обращаю внимание на цвет воды в реке Бол. Зеленчук</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/zelenchuk-p2/Fragment-of-Gildenstedts-map-of-the-Caucasus.jpg</image:loc>
+			<image:title>Фрагмент карты Кавказа Гильденштедта И.А.</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/zelenchuk-p2/Stanitsa-Zelenchukskaya-b.jpg</image:loc>
+			<image:title>Станица Зеленчукская, административный центр Зеленчукского района Карачаево-Черкесской Республики</image:title>
+		</image:image>
+</url>
 </urlset>

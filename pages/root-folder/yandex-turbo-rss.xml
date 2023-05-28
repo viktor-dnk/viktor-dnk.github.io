@@ -17,7 +17,7 @@ permalink: /yandex-turbo-rss.xml
     <turbo:analytics type="Google" id="UA-169383032-2"></turbo:analytics>
 	  {% assign excerpt_length = site.excerpt_length | default: 50 %}
 <!--генериурем страницы из раздела по топонимике -->
-      {% for toponymy in site.toponymy limit:100 %}
+      {% for toponymy in site.toponymy limit:150 %}
       <item turbo="true">
           <link>{{ toponymy.url | absolute_url }}</link>
           <turbo:source>{{ toponymy.url | absolute_url }}</turbo:source>
@@ -30,11 +30,6 @@ permalink: /yandex-turbo-rss.xml
                   <figure>
                     <img src="{{ toponymy.cover-img[0].first.first | absolute_url | replace: '.jpg','-s.jpg' }}">
                   </figure>
-                  <button formaction="{{ toponymy.url | absolute_url }}"
-                    data-background-color="#87CEEB"
-          					data-color="white"
-          					data-turbo="false"
-          					data-primary="true">Читать оригинал</button>
                   {% assign preprocessed_content=toponymy.content | replace: '<p>', '__p__' %}
                   {% assign preprocessed_content=preprocessed_content | replace: '</p>', '__/p__' %}
                   {% assign preprocessed_content=preprocessed_content | replace: '<li>', '__li__' %}
@@ -91,7 +86,7 @@ permalink: /yandex-turbo-rss.xml
                   					data-background-color="#87CEEB"
                   					data-color="white"
                   					data-turbo="false"
-                  					data-primary="true">Перейти на сайт автора</button>
+                  					data-primary="true">Читать оригинал (перейти на сайт автора)</button>
                   <figure>
                     <img src="{{ toponymy.url | absolute_url | replace:'.ru/','.ru/img/' | append: 'thumb.jpg' }}">
                   </figure>
@@ -119,11 +114,6 @@ permalink: /yandex-turbo-rss.xml
                 <figure>
                   <img src="{{ mysteries-dolmens.cover-img[0].first.first | absolute_url | replace: '.jpg','-s.jpg' }}">
                 </figure>
-                <button formaction="{{ mysteries-dolmens.url | absolute_url }}"
-                  data-background-color="#87CEEB"
-        					data-color="white"
-        					data-turbo="false"
-        					data-primary="true">Читать оригинал</button>
                 {% assign preprocessed_content=mysteries-dolmens.content | replace: '<p>', '__p__' %}
                 {% assign preprocessed_content=preprocessed_content | replace: '</p>', '__/p__' %}
                 {% assign preprocessed_content=preprocessed_content | replace: '<li>', '__li__' %}
@@ -180,7 +170,7 @@ permalink: /yandex-turbo-rss.xml
                 					data-background-color="#87CEEB"
                 					data-color="white"
                 					data-turbo="false"
-                					data-primary="true">Перейти на сайт автора</button>
+                					data-primary="true">Читать оригинал (перейти на сайт автора)</button>
                 <figure>
                   <img src="{{ mysteries-dolmens.url | absolute_url | replace:'.ru/','.ru/img/' | append: 'thumb.jpg' }}">
                 </figure>

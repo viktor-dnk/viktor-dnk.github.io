@@ -81,6 +81,7 @@ permalink: /yandex-turbo-rss.xml
                   {% assign cleaned_content=cleaned_content | replace: '<li></a>', '<li>' %}
                   {% assign cleaned_content=cleaned_content | replace: 'src="/img/mysteries-dolmens/', 'src="https://viktor-dnk.ru/img/mysteries-dolmens/' %}
                   {% assign cleaned_content=cleaned_content | replace: 'src="/img/toponymy/', 'src="https://viktor-dnk.ru/img/toponymy/' %}
+                  {% assign cleaned_content=cleaned_content | replace: ' itemprop="contentUrl" ', ' ' %}
           				    {{ cleaned_content }}
                   <button formaction="{{ toponymy.url | absolute_url }}"
                   					data-background-color="#87CEEB"
@@ -165,6 +166,7 @@ permalink: /yandex-turbo-rss.xml
                 {% assign cleaned_content=cleaned_content | replace: '<li></a>', '<li>' %}
                 {% assign cleaned_content=cleaned_content | replace: 'src="/img/mysteries-dolmens/', 'src="https://viktor-dnk.ru/img/mysteries-dolmens/' %}
                 {% assign cleaned_content=cleaned_content | replace: 'src="/img/toponymy/', 'src="https://viktor-dnk.ru/img/toponymy/' %}
+                {% assign cleaned_content=cleaned_content | replace: ' itemprop="contentUrl" ', ' ' %}
         				    {{ cleaned_content }}
                 <button formaction="{{ mysteries-dolmens.url | absolute_url }}"
                 					data-background-color="#87CEEB"

@@ -5393,4 +5393,41 @@ permalink: /sm_img.xml
 			<image:title>Станица Зеленчукская, административный центр Зеленчукского района Карачаево-Черкесской Республики</image:title>
 		</image:image>
 </url>
+<url>
+  <loc>{{ site.url }}/toponymy/ganjha/</loc>
+  <lastmod>2023-05-20</lastmod>
+  <changefreq>monthly</changefreq>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/ganjha/Ganzhinskoye-reservoir-southern-part.jpg</image:loc>
+			<image:title>Ганжинское водохранилище, южная часть</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/ganjha/The-dam-head-unit-Belorechenskaya-HPP-Belaya-River-b.jpg</image:loc>
+			<image:title>Плотина головного узла Белореченской ГЭС на реке Белой</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/ganjha/Komsomolskaya-station-until-1920s-was-called-Ganzha-b.jpg</image:loc>
+			<image:title>Станция Комсомольская до 20-х годов ХХ в. называлась Ганжа</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/ganjha/Ganzhinskoye-reservoir-southwestern-shore-is-village-of-Bzhedukhovskaya-b.jpg</image:loc>
+			<image:title>Ганжинское водохранилище, на юго-западном берегу расположена станица Бжедуховская</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/ganjha/A-fragment-modern-map-where-village-of-Ganzhinsky.jpg</image:loc>
+			<image:title>Фрагмент современной карты, где значится посёлок Ганжинский и вдхр. Ганжинское</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/ganjha/Ganzha-River-2nd.jpg</image:loc>
+			<image:title>Река Ганжа 2-я</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/ganjha/The-pressure-station-unit-and-building-b.jpg</image:loc>
+			<image:title>Напорно-станционный узел и здание, где установлены гидроагрегаты вырабатывающие ток Белореченской ГЭС</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>{{ site.url }}/img/toponymy/ganjha/The-upper-reaches-Ganzha-River-map-Kuban-region-1904.jpg</image:loc>
+			<image:title>Верхнее течение реки Ганжа на карте Кубанской области 1904 г.</image:title>
+		</image:image>
+</url>
 </urlset>

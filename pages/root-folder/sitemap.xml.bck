@@ -1,0 +1,19 @@
+---
+layout: null
+title: "sitemap for sitemap"
+permalink: /sitemap.xml
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+   <sitemap>
+      <loc>{{ site.url }}/sm.xml</loc>
+      <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+   </sitemap>
+   <sitemap>
+      <loc>{{ site.url }}/sm_img.xml</loc>
+      <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+   </sitemap>
+</sitemapindex>

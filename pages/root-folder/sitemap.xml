@@ -1,19 +1,144 @@
 ---
 layout: null
-title: "sitemap for sitemap"
+title: "main sitemap"
 permalink: /sitemap.xml
 ---
 <?xml version="1.0" encoding="UTF-8"?>
-<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-   <sitemap>
-      <loc>{{ site.url }}/sm.xml</loc>
-      <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
-   </sitemap>
-   <sitemap>
-      <loc>{{ site.url }}/sm_img.xml</loc>
-      <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
-   </sitemap>
-</sitemapindex>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="https://www.w3.org/1999/xhtml">
+    {% for toponymy in site.toponymy %}
+    <url>
+        <loc>{{ toponymy.url | absolute_url }}</loc>
+        <image:image>
+            <image:loc>{{ toponymy.cover-img[0].first.first | absolute_url | replace: '.jpg','-s.jpg' }}</image:loc>
+            <image:title>{{ toponymy.title | xml_escape }}</image:title>
+            {% if toponymy.img-caption %}<image:caption>{{ toponymy.img-caption | xml_escape }}</image:caption>{% endif %}
+            {% if toponymy.location %}<image:geo_location>{{ toponymy.location | xml_escape }}</image:geo_location>{% endif %}
+        </image:image>
+        <lastmod>{{ toponymy.last_modified_at | date_to_xmlschema }}</lastmod>
+    </url>
+    {% endfor %}
+
+    {% for mysteries-dolmens in site.mysteries-dolmens %}
+    <url>
+        <loc>{{ mysteries-dolmens.url | absolute_url }}</loc>
+        <image:image>
+            <image:loc>{{ mysteries-dolmens.cover-img[0].first.first | absolute_url | replace: '.jpg','-s.jpg' }}</image:loc>
+            <image:title>{{ mysteries-dolmens.title | xml_escape }}</image:title>
+            {% if mysteries-dolmens.img-caption %}<image:caption>{{ mysteries-dolmens.img-caption | xml_escape }}</image:caption>{% endif %}
+            {% if mysteries-dolmens.location %}<image:geo_location>{{ mysteries-dolmens.location | xml_escape }}</image:geo_location>{% endif %}
+        </image:image>
+        <lastmod>{{ mysteries-dolmens.last_modified_at | date_to_xmlschema }}</lastmod>
+    </url>
+    {% endfor %}
+
+    {% for info in site.info %}
+    <url>
+        <loc>{{ info.url | absolute_url }}</loc>
+        <lastmod>{{ info.last_modified_at | date_to_xmlschema }}</lastmod>
+    </url>
+    {% endfor %}
+
+    <url>
+        <loc>https://viktor-dnk.ru/mysteries-dolmens/</loc>
+        <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+    </url>
+    <url>
+        <loc>https://viktor-dnk.ru/info/</loc>
+        <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+    </url>
+    <url>
+        <loc>https://viktor-dnk.ru/toponymy/</loc>
+        <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+    </url>
+    <url>
+        <loc>https://viktor-dnk.ru/</loc>
+        <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+    </url>
+    <url>
+        <loc>https://viktor-dnk.ru/info/aboutme/</loc>
+        <image:image>
+          <image:loc>{{ site.url }}/img/example-logos/stamp.png</image:loc>
+          <image:title>Дорога не кончается</image:title>
+          <image:caption>Заметки географа</image:caption>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://viktor-dnk.ru/search/</loc>
+    </url>
+    <url>
+        <loc>https://viktor-dnk.ru/toponymy/mountains/</loc>
+        <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+    </url>
+    <url>
+        <loc>https://viktor-dnk.ru/toponymy/oikonyms/</loc>
+        <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+    </url>
+    <url>
+        <loc>https://viktor-dnk.ru/toponymy/hydro/</loc>
+        <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+    </url>
+    <url>
+        <loc>https://viktor-dnk.ru/toponymy/sea-coast/</loc>
+        <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+    </url>
+    <url>
+        <loc>https://viktor-dnk.ru/toponymy/lago-naki/</loc>
+        <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+    </url>
+    <url>
+        <loc>https://viktor-dnk.ru/toponymy/around-sochi/</loc>
+        <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+    </url>
+    <url>
+        <loc>https://viktor-dnk.ru/toponymy/around-krasnodar/</loc>
+        <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+    </url>
+    <url>
+        <loc>https://viktor-dnk.ru/toponymy/in-memory/</loc>
+        <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+    </url>
+    <url>
+        <loc>https://viktor-dnk.ru/page/2/</loc>
+        <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+    </url>
+    <url>
+        <loc>https://viktor-dnk.ru/page/3/</loc>
+        <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+    </url>
+    <url>
+        <loc>https://viktor-dnk.ru/page/4/</loc>
+        <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+    </url>
+    <url>
+        <loc>https://viktor-dnk.ru/page/5/</loc>
+        <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+    </url>
+    <url>
+        <loc>https://viktor-dnk.ru/page/6/</loc>
+        <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+    </url>
+    <url>
+        <loc>https://viktor-dnk.ru/page/7/</loc>
+        <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+    </url>
+    <url>
+        <loc>https://viktor-dnk.ru/page/8/</loc>
+        <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+    </url>
+    <url>
+        <loc>https://viktor-dnk.ru/page/9/</loc>
+        <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+    </url>
+    <url>
+        <loc>https://viktor-dnk.ru/page/10/</loc>
+        <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+    </url>
+    <url>
+        <loc>https://viktor-dnk.ru/page/11/</loc>
+        <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+    </url>
+    <url>
+        <loc>https://viktor-dnk.ru/page/12/</loc>
+        <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+    </url>    
+</urlset>

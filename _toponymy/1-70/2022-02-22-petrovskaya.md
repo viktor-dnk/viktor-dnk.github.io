@@ -13,7 +13,7 @@ keywords: станица Петровская
 head-extra: [ads/ads.html, amp_link.html, etc/_micro_petrovskaya.html]
 location: станица Петровская, Краснодарский край
 img-caption: Пейзаж на окраине станицы Петровской
-footer-extra: [etc/ads-footer.html]
+footer-extra: [ads/ads-floor.html]
 ---
 {: .box-note}
 ## {{ page.share-title }}

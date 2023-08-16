@@ -13,7 +13,7 @@ keywords: Эльбрус, Цахвоа, Кавказ, амазонки
 head-extra: [amp_link.html, etc/_aboutme.html, ads/ads.html]
 location: гора Эльбрус
 img-caption: Вид с горы Машук (993,7 м)
-footer-extra: [etc/ads-footer.html]
+footer-extra: [ads/ads-floor.html]
 ---
 {: .box-note}
 ## {{ page.share-title }}

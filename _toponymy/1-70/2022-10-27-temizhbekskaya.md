@@ -13,7 +13,7 @@ keywords: Темижбекская
 head-extra: [ads/ads.html, amp_link.html, etc/_micro_temizhbekskaya.html]
 location: станица Темижбекская, Краснодарский край
 img-caption: Темижбекская - колокольня церкви Святого Николая Чудотворца
-footer-extra: [etc/ads-footer.html]
+footer-extra: [ads/ads-floor.html]
 ---
 {: .box-note}
 ## {{ page.share-title }}

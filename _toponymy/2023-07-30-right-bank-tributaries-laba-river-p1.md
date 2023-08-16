@@ -13,7 +13,7 @@ keywords: Чамлык, Кукса, Синюха, Грязнуха, Лаба
 head-extra: [ads/ads.html, amp_link.html, etc/_micro_right-bank-tributaries-laba-river.html]
 location: Краснодарский край, ст. Темиргоевская
 img-caption: Место впадения р. Чамлык в р. Лаба (ст. Темиргоевская)
-footer-extra: [etc/ads-footer.html]
+footer-extra: [ads/ads-floor.html]
 ---
 {: .box-note}
 ## {{ page.share-title }}

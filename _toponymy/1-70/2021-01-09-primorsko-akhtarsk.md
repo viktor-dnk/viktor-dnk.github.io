@@ -13,7 +13,7 @@ keywords: Приморско-Ахтарск, топоним, ойконим, А�
 head-extra: [ads/ads.html, amp_link.html, etc/_micro_primorsko-akhtarsk.html]
 location: г. Приморско-Ахтарск, Краснодарский край
 img-caption: Здание ж/д вокзала станции Ахтари, построен в 1912 г.
-footer-extra: [etc/ads-footer.html]
+footer-extra: [ads/ads-floor.html]
 ---
 {: .box-note}
 ## {{ page.share-title }}

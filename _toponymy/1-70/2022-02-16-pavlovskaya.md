@@ -13,7 +13,7 @@ keywords: станица Павловскя
 head-extra: [ads/ads.html, amp_link.html, etc/_micro_pavlovskaya.html]
 location: станица Павловская, Краснодарский край
 img-caption: Станица Павловская вид из космоса
-footer-extra: [etc/ads-footer.html]
+footer-extra: [ads/ads-floor.html]
 ---
 {: .box-note}
 ## {{ page.share-title }}

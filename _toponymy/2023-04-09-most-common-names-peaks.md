@@ -13,7 +13,7 @@ keywords: Лысая, Шахан, Бикет, Пикет
 head-extra: [ads/ads.html, amp_link.html]
 location: Краснодарский край
 img-caption: Гора Лысая-Чилипсинскаяв центре, расположена в цепи ГВХ
-footer-extra: [etc/ads-footer.html]
+footer-extra: [ads/ads-floor.html]
 ---
 {: .box-note}
 ## {{ page.share-title }}

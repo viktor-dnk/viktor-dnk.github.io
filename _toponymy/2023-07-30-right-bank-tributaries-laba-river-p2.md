@@ -12,7 +12,7 @@ keywords: Лаба, Кукса, Чамлык, Синюха, Грязнуха
 head-extra: [ads/ads.html, amp_link.html, etc/_micro_right-bank-tributaries-laba-river.html]
 location: Краснодарский край, г. Курганинск
 img-caption: Мост через р. Кукса в г. Курганинск
-footer-extra: [etc/ads-footer.html]
+footer-extra: [ads/ads-floor.html]
 ---
 {: .box-note}
 ## {{ page.share-title }}

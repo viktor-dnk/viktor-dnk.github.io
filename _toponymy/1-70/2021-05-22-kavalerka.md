@@ -13,7 +13,7 @@ keywords: Река Кавалерка, Кавалерка
 head-extra: [ads/ads.html, amp_link.html, etc/_micro_kavalerka.html]
 location: Река Кавалерка, Краснодарский край
 img-caption: Река Кавалерка недалеко от устья
-footer-extra: [etc/ads-footer.html]
+footer-extra: [ads/ads-floor.html]
 ---
 {: .box-note}
 ## {{ page.share-title }} [[5]](#t16-[5])

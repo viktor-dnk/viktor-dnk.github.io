@@ -13,7 +13,7 @@ keywords: Батарейная, Бекишей, Грачёв Венец, Хож�
 head-extra: [amp_link.html, etc/_aboutme.html, ads/ads.html]
 location: Скала Хожаш, Краснодарский край
 img-caption: Скала Хожаш
-footer-extra: [etc/ads-footer.html]
+footer-extra: [ads/ads-floor.html]
 ---
 {: .box-note}
 ## {{ page.share-title }} (о топонимах Батарейная, Бекишей, Грачев Венец, Хожаш, Хакуч, Аше)

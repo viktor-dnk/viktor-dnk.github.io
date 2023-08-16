@@ -13,7 +13,7 @@ keywords: Крыловская, Ленинградский район, Крыл�
 head-extra: [ads/ads.html, amp_link.html, etc/_micro_krylovskaya.html]
 location: ст. Крыловская, Крыловской р-н, Краснодарский край
 img-caption: Карта Генерального Штаба ВС СССР 1:500000 1986 г.
-footer-extra: [etc/ads-footer.html]
+footer-extra: [ads/ads-floor.html]
 ---
 {: .box-note}
 ## {{ page.share-title }}

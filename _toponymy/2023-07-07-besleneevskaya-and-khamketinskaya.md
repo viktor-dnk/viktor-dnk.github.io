@@ -13,7 +13,7 @@ keywords: Бесленеевская, Хамкетинская, Лакруш
 head-extra: [ads/ads.html, amp_link.html, etc/_micro_besleneevskaya-and-khamketinskaya.html]
 location: Краснодарский край
 img-caption: Цветущий боярышник в низкогорье Краснодарского края
-footer-extra: [etc/ads-footer.html]
+footer-extra: [ads/ads-floor.html]
 ---
 {: .box-note}
 ## {{ page.share-title }}

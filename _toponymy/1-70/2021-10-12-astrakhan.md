@@ -13,7 +13,7 @@ keywords: Астрахань
 head-extra: [ads/ads.html, amp_link.html, etc/_weather_astrakhan.html]
 location: г. Астрахань
 img-caption: Астрахань на карте России 1562 г.
-footer-extra: [etc/ads-footer.html]
+footer-extra: [ads/ads-floor.html]
 ---
 {: .box-note}
 ## {{ page.share-title }}

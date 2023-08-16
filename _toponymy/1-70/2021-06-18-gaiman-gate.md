@@ -13,7 +13,7 @@ keywords: Геймановские Ворота, Узуруб, Гузерипл�
 head-extra: [amp_link.html, etc/_aboutme.html, ads/ads.html]
 location: оз. Змеиное, ур. Узуруб, Краснодарский край
 img-caption: Озеро Змеиное в урочище Узуруб
-footer-extra: [etc/ads-footer.html]
+footer-extra: [ads/ads-floor.html]
 ---
 {: .box-note}
 ## {{ page.share-title }} [[5]](#t21-[5])

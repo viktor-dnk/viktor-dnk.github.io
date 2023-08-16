@@ -13,7 +13,7 @@ keywords: Собер-Баш
 head-extra: [ads/ads.html, amp_link.html, etc/_micro_sober-bash.html]
 location: г. Собер-Баш
 img-caption: Панорама на гору Собер-Баш с восточной стороны
-footer-extra: [etc/ads-footer.html]
+footer-extra: [ads/ads-floor.html]
 ---
 {: .box-note}
 ## {{ page.share-title }}

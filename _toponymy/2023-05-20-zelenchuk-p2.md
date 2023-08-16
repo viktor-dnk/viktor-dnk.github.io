@@ -13,7 +13,7 @@ keywords: река Большой Зеленчук, Зеленчук
 head-extra: [ads/ads.html, amp_link.html]
 location: Ставропольский край
 img-caption: Долина реки Большой Зеленчук в Архызе
-footer-extra: [etc/ads-footer.html]
+footer-extra: [ads/ads-floor.html]
 ---
 {: .box-note}
 ## {{ page.share-title }}

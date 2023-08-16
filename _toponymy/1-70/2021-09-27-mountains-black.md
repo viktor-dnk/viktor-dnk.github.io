@@ -13,7 +13,7 @@ keywords: Скалистый хребет, Спящий черкес
 head-extra: [ads/ads.html, amp_link.html, etc/_micro_mountains-black.html]
 location: Скала Спящий Черкес, Краснодарский край
 img-caption: Скала Спящий Черкес (Черногор), середина лета 1974 г.
-footer-extra: [etc/ads-footer.html]
+footer-extra: [ads/ads-floor.html]
 ---
 {: .box-note}
 ## {{ page.share-title }}

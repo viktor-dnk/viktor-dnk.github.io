@@ -13,7 +13,7 @@ keywords: Каладжинская, Малая Лаба, Большая Лаба
 head-extra: [ads/ads.html, amp_link.html, etc/_micro_kaladzhinskaya.html]
 location: Кавказский государственный заповедник
 img-caption: Долина реки Малая Лаба в верхнем течении
-footer-extra: [etc/ads-footer.html]
+footer-extra: [ads/ads-floor.html]
 ---
 {: .box-note}
 ## {{ page.share-title }}

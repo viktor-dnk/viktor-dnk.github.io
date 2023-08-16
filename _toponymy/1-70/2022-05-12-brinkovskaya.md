@@ -13,7 +13,7 @@ keywords: Бринк, Бриньковская
 head-extra: [ads/ads.html, amp_link.html, etc/_micro_brinkovskaya.html]
 location: станица Бриньковская, Краснодарский край
 img-caption: Вид на окрестные поля станицы Бриньковской
-footer-extra: [etc/ads-footer.html]
+footer-extra: [ads/ads-floor.html]
 ---
 {: .box-note}
 ## {{ page.share-title }}

@@ -13,7 +13,7 @@ keywords: Неберджай, Липский пост
 head-extra: [ads/ads.html, amp_link.html, etc/_micro_lipsky-post.html]
 location: хребет Маркотх, Краснодарский край
 img-caption: Вид на Неберджаевское водохранилище с хребта Маркотх
-footer-extra: [etc/ads-footer.html]
+footer-extra: [ads/ads-floor.html]
 ---
 {: .box-note}
 ## {{ page.share-title }}

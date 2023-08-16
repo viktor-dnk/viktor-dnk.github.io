@@ -13,7 +13,7 @@ keywords: Лагонаки, Фишт, Оштен, Пшехо-Су
 head-extra: [amp_link.html, etc/_aboutme.html, ads/ads.html]
 location: Лагонаки
 img-caption: Ручей Молочный в нижнем течении
-footer-extra: [etc/ads-footer.html]
+footer-extra: [ads/ads-floor.html]
 ---
 {: .box-note}
 ## {{ page.share-title }}

@@ -13,7 +13,7 @@ keywords: перевал Грачёвский, перевал Тубинский
 head-extra: [amp_link.html, etc/_aboutme.html, ads/ads.html]
 location: Фишт-Оштенский перевал, Краснодарский край
 img-caption: Фишт-Оштенский перевал вид с южной стороны
-footer-extra: [etc/ads-footer.html]
+footer-extra: [ads/ads-floor.html]
 ---
 {: .box-note}
 ## {{ page.share-title }} [[3]](#t19-[3])

@@ -13,7 +13,7 @@ keywords: Краснодар, реки, гидроним, топоним
 head-extra: [amp_link.html, etc/_aboutme.html, ads/ads.html]
 location: г. Краснодар, Краснодарский край
 img-caption: Протока Ерик, соединяющая ложе озера Старая Кубань
-footer-extra: [etc/ads-footer.html]
+footer-extra: [ads/ads-floor.html]
 ---
 {: .box-note}
 ## {{ page.share-title }}

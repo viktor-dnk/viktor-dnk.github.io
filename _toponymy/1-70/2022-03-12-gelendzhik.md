@@ -13,7 +13,7 @@ keywords: Геленджик
 head-extra: [ads/ads.html, amp_link.html, etc/_micro_gelendzhik.html]
 location: г. Геленджик
 img-caption: Символ Геленджика скульптура Белая невеста
-footer-extra: [etc/ads-footer.html]
+footer-extra: [ads/ads-floor.html]
 ---
 {: .box-note}
 ## {{ page.share-title }} [[8]](#t49-[8])

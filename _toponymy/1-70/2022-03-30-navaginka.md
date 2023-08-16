@@ -13,7 +13,7 @@ keywords: Навагинка, Навагинское
 head-extra: [ads/ads.html, amp_link.html, etc/_micro_navaginka.html]
 location: село Навагинское, Краснодарский край
 img-caption: Железнодорожный мост через реку Пшиш у входа в Навагинский туннель
-footer-extra: [etc/ads-footer.html]
+footer-extra: [ads/ads-floor.html]
 ---
 {: .box-note}
 ## {{ page.share-title }}

@@ -13,7 +13,7 @@ keywords: Семиглавая
 head-extra: [ads/ads.html, amp_link.html, etc/_micro_semiglavaya.html]
 location: гора Семиглавая, Краснодарский край
 img-caption: Вид на массив горы Семиглавой
-footer-extra: [etc/ads-footer.html]
+footer-extra: [ads/ads-floor.html]
 ---
 {: .box-note}
 ## {{ page.share-title }} [[2]](#t36-[2])

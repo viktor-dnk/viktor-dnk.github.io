@@ -13,7 +13,7 @@ keywords: Семашко, Семашхо
 head-extra: [amp_link.html, etc/_aboutme.html, ads/ads.html]
 location: гора Семашхо, Туапсинский район, Краснодарский край
 img-caption: Вид на гору Семашхо с северной стороны с поляны горы Круглой
-footer-extra: [etc/ads-footer.html]
+footer-extra: [ads/ads-floor.html]
 ---
 {: .box-note}
 ## {{ page.share-title }} [[20]](#t35-[20])

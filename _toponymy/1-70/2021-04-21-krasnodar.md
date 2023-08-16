@@ -13,7 +13,7 @@ keywords: Краснодар, Екатеринодар
 head-extra: [amp_link.html, etc/_aboutme.html, ads/ads.html]
 location: г. Краснодар, Краснодарский край
 img-caption: Памятник Екатерине II в Краснодаре
-footer-extra: [etc/ads-footer.html]
+footer-extra: [ads/ads-floor.html]
 ---
 {: .box-note}
 ## {{ page.share-title }}

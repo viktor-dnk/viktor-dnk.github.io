@@ -13,7 +13,7 @@ keywords: Черкесы, адыги, Черкассы
 head-extra: [ads/ads.html, amp_link.html]
 location: Новочеркасск, Ростовская область
 img-caption: Собрание черкесских князей
-footer-extra: [etc/ads-footer.html]
+footer-extra: [ads/ads-floor.html]
 ---
 {: .box-note}
 ## {{ page.share-title }}

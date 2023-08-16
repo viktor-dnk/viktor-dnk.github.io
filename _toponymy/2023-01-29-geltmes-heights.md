@@ -13,7 +13,7 @@ keywords: Джельтмесские Высоты, Джелтмес
 head-extra: [ads/ads.html, amp_link.html, etc/_micro_geltmes-heights.html]
 location: Джельтмесские Высоты
 img-caption: Джельтмесские Высоты
-footer-extra: [etc/ads-footer.html]
+footer-extra: [ads/ads-floor.html]
 ---
 {: .box-note}
 ## {{ page.share-title }}

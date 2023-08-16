@@ -13,7 +13,7 @@ keywords: Красная Поляна, Романовск
 head-extra: [ads/ads.html, amp_link.html, etc/_micro_krasnaya-polyana.html]
 location: Посёлок Красная Поляна, Краснодарский край
 img-caption: Вид на хребет Аибга от русла реки Мзымта
-footer-extra: [etc/ads-footer.html]
+footer-extra: [ads/ads-floor.html]
 ---
 {: .box-note}
 ## {{ page.share-title }}

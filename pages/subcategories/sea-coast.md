@@ -11,8 +11,8 @@ keywords: карты, история, география, ономастика, 
 last_modified_at: 2023-05-10 19:00:00 +0300
 date: 2022-01-14 16:00:00
 permalink: /toponymy/sea-coast/
-head-extra: [etc/_micro_sea-coast.html, etc/_aboutme.html, etc/ads.html]
-footer-extra: [etc/ads-footer.html]
+head-extra: [etc/_micro_sea-coast.html, etc/_aboutme.html,  ads/ads.html]
+footer-extra: [ ads/ads-footer.html]
 ---
 «Морские ворота юга России», как и «Балтийское окно в Европу» начал возводить ещё император Пётр I. На северном берегу Таганрогского залива Азовского моря в 1698 г. была основана им первая военно-морская база России. Императрица Екатерина II завершила дело начатое Петром, она вернула земли Тьмутараканского княжества России, отторгнутые Византией, а затем захваченные Османской империей. Краснодарский край омывается с северо-запада Азовским и с юго-запада Чёрным морями, которые соединены Керченским проливом и удалении всего на 32 км. Они позволяют России выходить в Мировой океан, что имеет важное военно-стратегическое и экономическое значение.
 
@@ -84,13 +84,13 @@ footer-extra: [etc/ads-footer.html]
     {% endunless %}
 
                         {% if forloop.index == 4 %}
-                        {% include ads-cat-1.html %}
+                        {% include ads/ads-cat-1.html %}
                         {% endif %}
                         {% if forloop.index == 11 %}
-                        {% include ads-cat-2.html %}
+                        {% include ads/ads-cat-2.html %}
                         {% endif %}
                         {% if forloop.index == 20 %}
-                        {% include ads-cat-3.html %}
+                        {% include ads/ads-cat-3.html %}
                         {% endif %}
 
     {% if site.feed_show_tags != false and toponymy.tags.size > 0 %}

@@ -11,8 +11,8 @@ keywords: карты, история, география, ономастика, 
 last_modified_at: 2023-05-10 19:00:00 +0300
 date: 2022-01-14 16:00:00
 permalink: /toponymy/hydro/
-head-extra: [etc/_micro_hydro.html, etc/_aboutme.html, etc/ads.html]
-footer-extra: [etc/ads-footer.html]
+head-extra: [etc/_micro_hydro.html, etc/_aboutme.html,  ads/ads.html]
+footer-extra: [ ads/ads-footer.html]
 ---
 Термин **гидроним** состоит из двух греческих слов, означающих _вода_ + _имя_ (название водных объектов), один из классов топонимов (географических названий), изучающих название водных объектов: рек, озёр, проливов, заливов, морей, родников. На Кубани много рек, речек и речушек, в литературе можно найти различные цифры об их количестве от 7 до 13 тыс. Среди гидронимов Кубани преобладают реки.
 
@@ -84,13 +84,13 @@ footer-extra: [etc/ads-footer.html]
     {% endunless %}
 
                         {% if forloop.index == 5 %}
-                        {% include ads-cat-1.html %}
+                        {% include ads/ads-cat-1.html %}
                         {% endif %}
                         {% if forloop.index == 15 %}
-                        {% include ads-cat-2.html %}
+                        {% include ads/ads-cat-2.html %}
                         {% endif %}
                         {% if forloop.index == 25 %}
-                        {% include ads-cat-3.html %}
+                        {% include ads/ads-cat-3.html %}
                         {% endif %}
 
     {% if site.feed_show_tags != false and toponymy.tags.size > 0 %}

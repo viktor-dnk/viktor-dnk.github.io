@@ -10,8 +10,8 @@ last_modified_at: 2022-01-14 10:00:00 +0300
 language: ru
 keywords: информация, контакты
 permalink: /info/
-head-extra: [etc/_aboutme.html, etc/ads.html]
-footer-extra: [etc/ads-footer.html]
+head-extra: [etc/_aboutme.html,  ads/ads.html]
+footer-extra: [ ads/ads-footer.html]
 ---
 <div class="posts-list">
   {% for info in site.info %}

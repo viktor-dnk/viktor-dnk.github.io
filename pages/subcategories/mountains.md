@@ -11,8 +11,8 @@ keywords: карты, история, география, ономастика, 
 last_modified_at: 2023-05-10 19:00:00 +0300
 date: 2022-01-14 16:00:00
 permalink: /toponymy/mountains/
-head-extra: [etc/_micro_mountains.html, etc/_aboutme.html, etc/ads.html]
-footer-extra: [etc/ads-footer.html]
+head-extra: [etc/_micro_mountains.html, etc/_aboutme.html,  ads/ads.html]
+footer-extra: [ ads/ads-footer.html]
 ---
 Наука изучающая имена собственные всех типов и их происхождение называется **ономастика** (от греческого onomastikys - «искусство давать имена»). **Топонимика** (от греческих слов topos - «место» и onyma - «имя, название», то есть «имя места») раздел ономастики, изучающий историю происхождения географических названий. Раздел топонимики, который изучает названия вершин, горных систем, скал, перевалов, нагорий, равнин, ущелий, долин, хребтов, называется **оронимика**, что с греческого буквально означает «горы имя». К оронимам относят географические названия всех положительных (гора, скала и другое) и отрицательных (ущелье, долина и другое) форм рельефа, независимо от их размера.
 
@@ -84,13 +84,13 @@ footer-extra: [etc/ads-footer.html]
     {% endunless %}
 
                         {% if forloop.index == 5 %}
-                        {% include ads-cat-1.html %}
+                        {% include ads/ads-cat-1.html %}
                         {% endif %}
                         {% if forloop.index == 16 %}
-                        {% include ads-cat-2.html %}
+                        {% include ads/ads-cat-2.html %}
                         {% endif %}
                         {% if forloop.index == 28 %}
-                        {% include ads-cat-3.html %}
+                        {% include ads/ads-cat-3.html %}
                         {% endif %}
 
     {% if site.feed_show_tags != false and toponymy.tags.size > 0 %}

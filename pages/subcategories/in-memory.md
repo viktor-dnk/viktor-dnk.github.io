@@ -11,8 +11,8 @@ keywords: карты, история, география, ономастика, 
 last_modified_at: 2023-05-10 19:00:00 +0300
 date: 2022-01-27 14:00:00 +0300
 permalink: /toponymy/in-memory/
-head-extra: [etc/_micro_in-memory.html, etc/_aboutme.html, etc/ads.html]
-footer-extra: [etc/ads-footer.html]
+head-extra: [etc/_micro_in-memory.html, etc/_aboutme.html,  ads/ads.html]
+footer-extra: [ ads/ads-footer.html]
 ---
  На Кубани немало памятных мест связанных с событиями Великой Отечественной войны 1941-1945 гг., Гражданской войны и другими историческими событиями, которые были отмечены памятными знаками, обелисками, памятниками и другое. И установлены памятные знаки не только в населённых пунктах, но и в горно-лесной зоне. Например: могила советским воинам-авиаторам в долине реки Адегой; памятник подвигу казаков погибших при защите Георгиевского-Липского поста; памятник лётчикам на горе Собер-Баш; памятник на горе Семашхо «Стойкости комсомольской» и так далее. Запечатлена память и в топонимах например гора Батарейная, расположенная на границе Лазаревского и Туапсинского районов.
 
@@ -84,10 +84,10 @@ footer-extra: [etc/ads-footer.html]
     {% endunless %}
 
                         {% if forloop.index == 4 %}
-                        {% include ads-cat-1.html %}
+                        {% include ads/ads-cat-1.html %}
                         {% endif %}
                         {% if forloop.index == 12 %}
-                        {% include ads-cat-2.html %}
+                        {% include ads/ads-cat-2.html %}
                         {% endif %}
 
     {% if site.feed_show_tags != false and toponymy.tags.size > 0 %}

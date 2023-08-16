@@ -12,7 +12,7 @@ readtime: false
 share-title: Общий список использованных источников и литературы.
 share-description: Общий список литературы, которая использовалась при подготовке цикла очерков о загадочных дольменах Западного Кавказа.
 img-caption: Karte des Kaukasischen Isthmus 1856
-head-extra: [etc/ads.html]
+head-extra: [ ads/ads.html]
 ---
 {: .box-note}
 ## {{ page.share-title }}

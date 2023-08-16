@@ -10,8 +10,8 @@ language: ru
 keywords: древность, археология
 last_modified_at: 2022-01-14 10:00:00 +0300
 date: 2020-09-09 16:00
-head-extra: [amp_link.html, etc/_aboutme.html, etc/ads.html]
-footer-extra: [etc/ads-footer.html]
+head-extra: [amp_link.html, etc/_aboutme.html,  ads/ads.html]
+footer-extra: [ ads/ads-footer.html]
 permalink: /mysteries-dolmens/
 ---
 Путешествуя по Кубани на автомобиле или пешком с рюкзаком, отдыхая на Чёрном море и совершая экскурсии, гости нашего края, да и сами кубанцы, посещают уникальные памятники археологии — дольмены. После знакомства с ними у многих возникают различные вопросы, на которые зачастую трудно ответить однозначно по объективным причинам. В этой публикации автор, используя данные начиная с ХIХ в. до последних открытий археологов и исследователей древностей Кубани в ХХI в., делает попытку найти правдивые ответы на множество вопросов о загадочной культуре строителей дольменов Западного Кавказа.
@@ -82,13 +82,13 @@ permalink: /mysteries-dolmens/
     </div>
     {% endunless %}
                         {% if forloop.index == 4 %}
-                        {% include ads-cat-1.html %}
+                        {% include ads/ads-cat-1.html %}
                         {% endif %}
                         {% if forloop.index == 11 %}
-                        {% include ads-cat-2.html %}
+                        {% include ads/ads-cat-2.html %}
                         {% endif %}
                         {% if forloop.index == 20 %}
-                        {% include ads-cat-3.html %}
+                        {% include ads/ads-cat-3.html %}
                         {% endif %}
 
     {% if site.feed_show_tags != false and mysteries-dolmens.tags.size > 0 %}

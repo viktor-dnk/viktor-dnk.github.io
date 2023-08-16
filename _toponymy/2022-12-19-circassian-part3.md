@@ -10,9 +10,10 @@ category: [oikonyms, mountains, hydro]
 share-title: О происхождении адыгских (черкесских) племён
 share-description: История происхождения адыгских племён исследуется около 200 лет, но наиболее плодотворно она стала изучаться последние 70 лет.
 keywords: Черкесы, адыги, Черкассы
-head-extra: [amp_link.html]
+head-extra: [ads/ads.html, amp_link.html]
 location: Новочеркасск, Ростовская область
 img-caption: Собрание черкесских князей
+footer-extra: [etc/ads-footer.html]
 ---
 {: .box-note}
 ## {{ page.share-title }}

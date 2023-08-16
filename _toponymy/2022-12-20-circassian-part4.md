@@ -10,9 +10,10 @@ category: [oikonyms, mountains, hydro]
 share-title: О происхождении экзоэтнонима черкес
 share-description: Значение слова черкес было известно ещё до ХIХ в. им называли адыгов разноязычные соседние народы существуют различные версии его написания.
 keywords: Черкесы, адыги, Черкассы, Кабардинцы
-head-extra: [amp_link.html]
+head-extra: [ads/ads.html, amp_link.html]
 location: Новочеркасск, Ростовская область
 img-caption: Собрание черкесских князей
+footer-extra: [etc/ads-footer.html]
 ---
 {: .box-note}
 ## {{ page.share-title }}

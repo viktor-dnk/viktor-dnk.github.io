@@ -10,9 +10,10 @@ category: [around-sochi, oikonyms]
 share-title: Топоним Красная Поляна
 share-description: На карте Кубанской области, составленной в 1882 г. Е.Д. Филициным, на месте посёлка Красная Поляна, значится селение Романовское (Кбаида)
 keywords: Красная Поляна, Романовск
-head-extra: [amp_link.html, etc/_micro_krasnaya-polyana.html]
+head-extra: [ads/ads.html, amp_link.html, etc/_micro_krasnaya-polyana.html]
 location: Посёлок Красная Поляна, Краснодарский край
 img-caption: Вид на хребет Аибга от русла реки Мзымта
+footer-extra: [etc/ads-footer.html]
 ---
 {: .box-note}
 ## {{ page.share-title }}

@@ -11,7 +11,7 @@ language: ru
 keywords: информация, контакты
 permalink: /info/
 head-extra: [etc/_aboutme.html,  ads/ads.html]
-footer-extra: [ ads/ads-footer.html]
+footer-extra: [ads/ads-footer.html]
 ---
 <div class="posts-list">
   {% for info in site.info %}

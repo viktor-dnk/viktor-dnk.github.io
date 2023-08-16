@@ -10,9 +10,10 @@ category: [oikonyms]
 share-title: Города Юга России
 share-description: Очерк написан, для того чтобы познакомить с главными городами ближайших соседей, то есть с административными центрами субъектов РФ юга России.
 keywords: Ростов, Краснодар, Элиста, Астрахань, Махачкала, Нальчик
-head-extra: [amp_link.html, etc/_micro_city-of-south-russia.html]
+head-extra: [ads/ads.html, amp_link.html, etc/_micro_city-of-south-russia.html]
 location: Пятигорск, Ставропольский край
 img-caption: Вид с горы Машук на гору Бештау
+footer-extra: [etc/ads-footer.html]
 ---
 {: .box-note}
 ## {{ page.share-title }}

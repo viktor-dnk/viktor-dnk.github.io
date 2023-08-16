@@ -10,7 +10,7 @@ category: [oikonyms, mountains, hydro]
 share-title: Описание топонимов с основой черкас и черкес
 share-description: На юге европейской части России в Южном и Северо-Кавказском федеральных округах встречаются топонимы образованные от этнических терминов черкас и черкес.
 keywords: Черкесы, Новочеркасск, Черкассы
-head-extra: [amp_link.html]
+head-extra: [ads/ads.html, amp_link.html]
 location: Новочеркасск, Ростовская область
 img-caption: Собрание черкесских князей
 ---

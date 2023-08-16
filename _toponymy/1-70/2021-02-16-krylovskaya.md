@@ -10,9 +10,10 @@ category: oikonyms
 share-title: Станицы Крыловские — куренные селения на Кубани
 share-description: Как оказывается, на картах Краснодарского края, изданных после 1961 г., можно обнаружить две станицы под названием Крыловская.
 keywords: Крыловская, Ленинградский район, Крыловской район, ойконим, антропоним, топоним
-head-extra: [amp_link.html, etc/_micro_krylovskaya.html]
+head-extra: [ads/ads.html, amp_link.html, etc/_micro_krylovskaya.html]
 location: ст. Крыловская, Крыловской р-н, Краснодарский край
 img-caption: Карта Генерального Штаба ВС СССР 1:500000 1986 г.
+footer-extra: [etc/ads-footer.html]
 ---
 {: .box-note}
 ## {{ page.share-title }}

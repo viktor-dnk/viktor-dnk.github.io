@@ -10,9 +10,10 @@ category: [mountains, in-memory]
 share-title: Собер-Баш - «гора-крепость» или «гора-ведьм»?
 share-description: Гора Собер-Баш расположена в горной части Северского района Краснодарского края на водоразделе рек Афипс и Убин.
 keywords: Собер-Баш
-head-extra: [amp_link.html, etc/_micro_sober-bash.html]
+head-extra: [ads/ads.html, amp_link.html, etc/_micro_sober-bash.html]
 location: г. Собер-Баш
 img-caption: Панорама на гору Собер-Баш с восточной стороны
+footer-extra: [etc/ads-footer.html]
 ---
 {: .box-note}
 ## {{ page.share-title }}

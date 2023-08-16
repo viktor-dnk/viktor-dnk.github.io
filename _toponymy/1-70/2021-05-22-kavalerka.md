@@ -10,9 +10,10 @@ category: hydro
 share-title: Топоним Кавалерка
 share-description: Река Кавалерка выделяется своим названием среди множества имён рек в Краснодарском крае. Протяжённость реки составляет 80 км.
 keywords: Река Кавалерка, Кавалерка
-head-extra: [amp_link.html, etc/_micro_kavalerka.html]
+head-extra: [ads/ads.html, amp_link.html, etc/_micro_kavalerka.html]
 location: Река Кавалерка, Краснодарский край
 img-caption: Река Кавалерка недалеко от устья
+footer-extra: [etc/ads-footer.html]
 ---
 {: .box-note}
 ## {{ page.share-title }} [[5]](#t16-[5])

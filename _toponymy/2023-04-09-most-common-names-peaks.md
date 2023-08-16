@@ -10,9 +10,10 @@ category: [mountains, oikonyms, around-sochi, sea-coast]
 share-title: О самых распространённых названиях вершин горного Закубанья
 share-description: Южная часть Краснодарского края примерно от параллели 44° с.ш., занята горами, которые являются составной частью горной системы Большого Кавказа.
 keywords: Лысая, Шахан, Бикет, Пикет
-head-extra: [amp_link.html]
+head-extra: [ads/ads.html, amp_link.html]
 location: Краснодарский край
 img-caption: Гора Лысая-Чилипсинскаяв центре, расположена в цепи ГВХ
+footer-extra: [etc/ads-footer.html]
 ---
 {: .box-note}
 ## {{ page.share-title }}

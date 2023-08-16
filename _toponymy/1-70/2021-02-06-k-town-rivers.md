@@ -10,9 +10,10 @@ category: [around-krasnodar, hydro]
 share-title: Гидронимы Краснодара
 share-description: Город Краснодар был основан как Екатеринодар в 1793 г. у излучины правого берега реки Кубань в урочище Карасунский кут.
 keywords: Краснодар, реки, гидроним, топоним
-head-extra: amp_link.html
+head-extra: [amp_link.html, etc/_aboutme.html, ads/ads.html]
 location: г. Краснодар, Краснодарский край
 img-caption: Протока Ерик, соединяющая ложе озера Старая Кубань
+footer-extra: [etc/ads-footer.html]
 ---
 {: .box-note}
 ## {{ page.share-title }}

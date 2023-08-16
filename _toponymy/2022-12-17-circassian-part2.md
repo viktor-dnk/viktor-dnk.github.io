@@ -10,9 +10,10 @@ category: [oikonyms, mountains, hydro]
 share-title: О происхождении экзоэтнонима черкасы
 share-description: Экзоэтноним название этноса (народа), данное другими народами. Например, скифы экзоэтноним древнегреческого происхождения, их самоназвание сколоты.
 keywords: Черкесы, Новочеркасск, Черкассы, Кабардинцы
-head-extra: [amp_link.html]
+head-extra: [ads/ads.html, amp_link.html]
 location: Новочеркасск, Ростовская область
 img-caption: Собрание черкесских князей
+footer-extra: [etc/ads-footer.html]
 ---
 {: .box-note}
 ## {{ page.share-title }}

@@ -10,9 +10,10 @@ category: [around-sochi, mountains]
 share-title: Тайны Кардывачского горного узла
 share-description: Кардывачский горный узел, является сложным орографическим участком Главного Кавказского хребта Большого Кавказа.
 keywords: Кардывач, Кырдывач, Цындышха, Лоюб
-head-extra: amp_link.html
+head-extra: [amp_link.html, etc/_aboutme.html, ads/ads.html]
 location: Озеро Кардывач, Краснодарский край
 img-caption: Озеро Кардывач, вид с юго-западной стороны.
+footer-extra: [etc/ads-footer.html]
 ---
 {: .box-note}
 ## {{ page.share-title }}

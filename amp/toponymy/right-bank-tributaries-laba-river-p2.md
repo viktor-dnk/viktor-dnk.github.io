@@ -31,7 +31,7 @@ date: 2023-06-05 21:20 +0300
 
 <figure itemscope itemtype="https://schema.org/ImageObject">
 	<meta itemprop="name" content="Специальная карта Западной части Российской империи 1840 г." />
-	<img itemprop="contentUrl" src="/img/toponymy/right-bank-tributaries-laba-river-p2/Special-map-of-the-Western-part-of-the-Russian-Empire.jpg" title="Специальная карта Западной части Российской империи 1840 г." alt="Специальная карта Западной части Российской империи 1840 г." width="600" height="523"/>
+	<img itemprop="contentUrl" src="/img/toponymy/right-bank-tributaries-laba-river-p2/Special-map-of-the-Western-part-of-the-Russian-Empire-1840.jpg" title="Специальная карта Западной части Российской империи 1840 г." alt="Специальная карта Западной части Российской империи 1840 г." width="600" height="523"/>
 	<figcaption itemprop="description creditText">На специальной карте Западной части Российской империи (1840 г.) Шуберта Ф.Ф. река Синюха обозначена как р. Каларчаклы или Чабата</figcaption>
 </figure>
 

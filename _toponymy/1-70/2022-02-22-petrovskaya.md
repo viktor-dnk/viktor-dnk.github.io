@@ -10,10 +10,9 @@ category: oikonyms
 share-title: Станица Петровская - история куренного селения
 share-description: Станица Петровская была основана на Кубани во время массового переселения в Черноморию в 1821-1825 гг. жителей Полтавской и Черниговской губерний.
 keywords: станица Петровская
-head-extra: [ads/ads.html, amp_link.html, etc/_micro_petrovskaya.html]
+head-extra: [etc/_micro_petrovskaya.html]
 location: станица Петровская, Краснодарский край
 img-caption: Пейзаж на окраине станицы Петровской
-footer-extra: [ads/ads-floor.html]
 ---
 {: .box-note}
 ## {{ page.share-title }}

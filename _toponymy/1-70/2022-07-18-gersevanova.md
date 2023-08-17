@@ -10,10 +10,8 @@ category: [oikonyms, mountains, hydro]
 share-title: Гора Герсеванова
 share-description: Гора Герсеванова расположена в низкогорной части Закубанья на водоразделе реки Шебш и её левого притока реки Безепс между ст. Ставропольской и с. Тхамаха.
 keywords: Герсеванова
-head-extra: [ads/ads.html, amp_link.html]
 location: Гора Герсеванова, Краснодарский край
 img-caption: Вид на низкие горы в районе горы Герсеванова
-footer-extra: [ads/ads-floor.html]
 ---
 {: .box-note}
 ## {{ page.share-title }} [[8]](#t60-[8])

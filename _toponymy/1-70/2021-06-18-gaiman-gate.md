@@ -10,10 +10,8 @@ category: [mountains, lago-naki]
 share-title: Гузерипль и Геймановские Ворота - тайны перевалов
 share-description: Иногда туристам не хватает географических названий при составлении спортивных отчётов, и порой возникают несколько наименований у одного природного объекта
 keywords: Геймановские Ворота, Узуруб, Гузерипль
-head-extra: [amp_link.html, etc/_aboutme.html, ads/ads.html]
 location: оз. Змеиное, ур. Узуруб, Краснодарский край
 img-caption: Озеро Змеиное в урочище Узуруб
-footer-extra: [ads/ads-floor.html]
 ---
 {: .box-note}
 ## {{ page.share-title }} [[5]](#t21-[5])

@@ -10,10 +10,9 @@ category: mountains
 share-title: Топоним Чёрные горы
 share-description: Топоним Чёрные горы на Западном Кавказе фиксируется исследователями с начала ХIХ в. Этот географический термин используется в специальной литературе.
 keywords: Скалистый хребет, Спящий черкес
-head-extra: [ads/ads.html, amp_link.html, etc/_micro_mountains-black.html]
+head-extra: [etc/_micro_mountains-black.html]
 location: Скала Спящий Черкес, Краснодарский край
 img-caption: Скала Спящий Черкес (Черногор), середина лета 1974 г.
-footer-extra: [ads/ads-floor.html]
 ---
 {: .box-note}
 ## {{ page.share-title }}

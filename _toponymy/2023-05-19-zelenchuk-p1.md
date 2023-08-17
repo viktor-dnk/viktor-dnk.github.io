@@ -10,10 +10,8 @@ category: [hydro, oikonyms]
 share-title: О реках Большой и Малый Зеленчук - Часть 1-я
 share-description: В очерке приведена информация о двух равнинных реках Большой и Малый Зеленчук, являющихся левыми притоками реки Кубань, расположенных в Краснодарском крае.
 keywords: река Зеленчук, Зеленчук
-head-extra: [ads/ads.html, amp_link.html]
 location: Краснодарский край
 img-caption: река Средний Зеленчук у хутора Средний
-footer-extra: [ads/ads-floor.html]
 ---
 {: .box-note}
 ## {{ page.share-title }}

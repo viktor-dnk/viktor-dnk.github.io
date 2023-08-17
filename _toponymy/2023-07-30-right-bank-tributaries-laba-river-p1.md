@@ -10,10 +10,9 @@ category: [hydro, oikonyms]
 share-title: Правобережные притоки реки Лаба - Кукса, Чамлык с притоками Синюха и Грязнуха ч1
 share-description: Почти весь правый берег реки Лаба занят бассейном её притока рекой Чамлык. Исключением является река Кукса, впадающая в правобережный рукав Лабы под названием Лабёнок.
 keywords: Чамлык, Кукса, Синюха, Грязнуха, Лаба
-head-extra: [ads/ads.html, amp_link.html, etc/_micro_right-bank-tributaries-laba-river.html]
+head-extra: [etc/_micro_right-bank-tributaries-laba-river.html]
 location: Краснодарский край, ст. Темиргоевская
 img-caption: Место впадения р. Чамлык в р. Лаба (ст. Темиргоевская)
-footer-extra: [ads/ads-floor.html]
 ---
 {: .box-note}
 ## {{ page.share-title }}

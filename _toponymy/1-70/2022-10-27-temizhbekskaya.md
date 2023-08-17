@@ -10,10 +10,9 @@ category: [oikonyms]
 share-title: Темижбекская — Темижберская
 share-description: О топониме «Темижбекская» бытует очень краткая и небесспорная информация, его производят от имени мифического черкесского князя Темиж-Бек.
 keywords: Темижбекская
-head-extra: [ads/ads.html, amp_link.html, etc/_micro_temizhbekskaya.html]
+head-extra: [etc/_micro_temizhbekskaya.html]
 location: станица Темижбекская, Краснодарский край
 img-caption: Темижбекская - колокольня церкви Святого Николая Чудотворца
-footer-extra: [ads/ads-floor.html]
 ---
 {: .box-note}
 ## {{ page.share-title }}

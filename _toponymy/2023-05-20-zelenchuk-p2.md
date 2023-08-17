@@ -10,10 +10,8 @@ category: [hydro, oikonyms]
 share-title: О реках Большой и Малый Зеленчук - Часть 2-я
 share-description: Горные реки Б. и М. Зеленчук, в отличие от своих «тёсок» в Краснодарском крае, имеют большую известность, особенно они популярны у туристов водников.
 keywords: река Большой Зеленчук, Зеленчук
-head-extra: [ads/ads.html, amp_link.html]
 location: Ставропольский край
 img-caption: Долина реки Большой Зеленчук в Архызе
-footer-extra: [ads/ads-floor.html]
 ---
 {: .box-note}
 ## {{ page.share-title }}

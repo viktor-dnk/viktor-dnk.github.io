@@ -194,6 +194,7 @@ defaults:
       social-share: false
       readtime: true
       language: ru
+      head-extra: amp_link.html
   -
     scope:
       path: ""
@@ -204,7 +205,8 @@ defaults:
       social-share: false
       readtime: true
       language: ru
-      head-extra: amp_link.html
+      head-extra: [amp_link.html, etc/_aboutme.html, ads/ads.html]
+      footer-extra: [ads/ads-floor.html]
   -
     scope:
       path: ""

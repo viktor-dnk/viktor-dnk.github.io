@@ -10,10 +10,9 @@ category: [sea-coast, oikonyms]
 share-title: Ахтари, Ахтар-Бахтар, Приморско-Ахтарск
 share-description: Город Приморско-Ахтарск, расположен на берегу юго-восточной части Ясенского залива Азовского моря, где залив соединяется лиманом.
 keywords: Приморско-Ахтарск, топоним, ойконим, Ахтари
-head-extra: [ads/ads.html, amp_link.html, etc/_micro_primorsko-akhtarsk.html]
+head-extra: [etc/_micro_primorsko-akhtarsk.html]
 location: г. Приморско-Ахтарск, Краснодарский край
 img-caption: Здание ж/д вокзала станции Ахтари, построен в 1912 г.
-footer-extra: [ads/ads-floor.html]
 ---
 {: .box-note}
 ## {{ page.share-title }}
@@ -189,7 +188,7 @@ footer-extra: [ads/ads-floor.html]
 30. <a name="t5-[30]"></a>Щека Ю.В. Турецко-русский словарь. М., 2002.  
 31. <a name="t5-[31]"></a>Щербина Ф.А. История Кубанского казачьего войска. Том I. Екатеринодар, 1910.  
 32. <a name="t5-[32]"></a>Щербина Ф.А. История Кубанского казачьего войска. Том II. Екатеринодар, 1913.  
-33. <a name="t5-[33]"></a>Фрагменты карт приведённые в тексте очерка, взяты на сайте [ЭтоМесто](http://www.etomesto.ru/kuban/).
+33. <a name="t5-[33]"></a>Фрагменты карт, приведённые в тексте очерка, взяты на сайте [ЭтоМесто](http://www.etomesto.ru/kuban/).
 
 {: .box-warning}
 <div id="weather">И кстати в Приморско-Ахтарске сейчас</div>

@@ -10,7 +10,7 @@ category: [sea-coast, hydro]
 share-title: Керченская переправа
 share-description: Пролив разделяющий Крым и Кавказ на картах обозначается Керченским, он соединяет Азовское и Чёрное моря. В античное время его называли Боспор Киммерийский.
 keywords: Керченские переправы, Керченская переправа
-head-extra: [etc/_micro_kerch-ferrys.html]
+head-extra: [amp_link.html, etc/_aboutme.html, ads/ads.html, etc/_micro_kerch-ferrys.html]
 location: Керченский пролив
 img-caption: Керченский пролив, вид с косы Чушка
 ---

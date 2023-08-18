@@ -10,7 +10,7 @@ category: [mountains, hydro]
 share-title: Джельтмесские Высоты (о заблуждениях в истории топонима)
 share-description: Орографический элемент Джельтимеские высоты и река Джельтимесъ были зафиксированы ещё на карте Кавказского края (1847 г.)
 keywords: Джельтмесские Высоты, Джелтмес
-head-extra: [etc/_micro_geltmes-heights.html]
+head-extra: [amp_link.html, etc/_aboutme.html, ads/ads.html, etc/_micro_geltmes-heights.html]
 location: Джельтмесские Высоты
 img-caption: Джельтмесские Высоты
 ---

@@ -10,7 +10,7 @@ category: oikonyms
 share-title: Станица Павловская - история куренного селения
 share-description: У истоков зарождения станицы стояли переселенцы из Полтавской и Черниговской губерний Российской империи. Основана станица в 1822 г., как куренное селение.
 keywords: станица Павловскя
-head-extra: [etc/_micro_pavlovskaya.html]
+head-extra: [amp_link.html, etc/_aboutme.html, ads/ads.html, etc/_micro_pavlovskaya.html]
 location: станица Павловская, Краснодарский край
 img-caption: Станица Павловская вид из космоса
 ---

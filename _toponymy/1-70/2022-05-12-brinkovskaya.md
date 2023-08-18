@@ -10,7 +10,7 @@ category: [in-memory, oikonyms, hydro]
 share-title: Бриньковская - история станицы
 share-description: Основателями станицы Бриньковской были казаки, поэтому потомки помнят их и чтут, а памятник установленный им - это материализованная память о них.
 keywords: Бринк, Бриньковская
-head-extra: [etc/_micro_brinkovskaya.html]
+head-extra: [amp_link.html, etc/_aboutme.html, ads/ads.html, etc/_micro_brinkovskaya.html]
 location: станица Бриньковская, Краснодарский край
 img-caption: Вид на окрестные поля станицы Бриньковской
 ---

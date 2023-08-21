@@ -10,7 +10,7 @@ category: [oikonyms, hydro, mountains]
 share-title: История станицы Каладжинской у слияния Большой и Малой Лабы
 share-description: Станица Каладжинская основана в 1861 г. на месте Каладжинского укрепления на правом берегу реки Лаба немного ниже места слияния рек Большая и Малая Лаба.
 keywords: Каладжинская, Малая Лаба, Большая Лаба
-head-extra: [etc/_micro_kaladzhinskaya.html]
+head-extra: [amp_link.html, etc/_aboutme.html, ads/ads.html, etc/_micro_kaladzhinskaya.html]
 location: Кавказский государственный заповедник
 img-caption: Долина реки Малая Лаба в верхнем течении
 ---

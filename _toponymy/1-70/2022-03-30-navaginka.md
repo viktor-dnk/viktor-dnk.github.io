@@ -10,7 +10,7 @@ category: [in-memory, around-sochi, sea-coast, oikonyms]
 share-title: Навагинка и Навагинское - история топонима
 share-description: В Краснодарском крае можно найти несколько названий в основу которых входит наименование 78-го Навагинского пехотного полка Российской императорской армии.
 keywords: Навагинка, Навагинское
-head-extra: [etc/_micro_navaginka.html]
+head-extra: [amp_link.html, etc/_aboutme.html, ads/ads.html, etc/_micro_navaginka.html]
 location: село Навагинское, Краснодарский край
 img-caption: Железнодорожный мост через реку Пшиш у входа в Навагинский туннель
 ---

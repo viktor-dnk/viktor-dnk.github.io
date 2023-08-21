@@ -10,7 +10,7 @@ category: [sea-coast, oikonyms]
 share-title: Геленджик - история топонима
 share-description: На берегу Геленджикской бухты поселения зафиксированы более 2,5 тыс. лет назад. Ещё в VI-V в. до н.э. здесь находилась греческая колония Торик.
 keywords: Геленджик
-head-extra: [etc/_micro_gelendzhik.html]
+head-extra: [amp_link.html, etc/_aboutme.html, ads/ads.html, etc/_micro_gelendzhik.html]
 location: г. Геленджик
 img-caption: Символ Геленджика скульптура Белая невеста
 ---

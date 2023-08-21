@@ -10,7 +10,7 @@ category: [sea-coast, oikonyms]
 share-title: Ахтари, Ахтар-Бахтар, Приморско-Ахтарск
 share-description: Город Приморско-Ахтарск, расположен на берегу юго-восточной части Ясенского залива Азовского моря, где залив соединяется лиманом.
 keywords: Приморско-Ахтарск, топоним, ойконим, Ахтари
-head-extra: [etc/_micro_primorsko-akhtarsk.html]
+head-extra: [amp_link.html, etc/_aboutme.html, ads/ads.html, etc/_micro_primorsko-akhtarsk.html]
 location: г. Приморско-Ахтарск, Краснодарский край
 img-caption: Здание ж/д вокзала станции Ахтари, построен в 1912 г.
 ---

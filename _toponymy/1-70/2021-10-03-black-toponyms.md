@@ -12,6 +12,7 @@ share-description: Чёрные реки, озеро Чёрное, пещера 
 keywords: Чёрный топоним
 location: оз. Карасун, г. Краснодар, Краснодарский край
 img-caption: Одно из Карасунских озёр в Калининской балке
+head-extra: [amp_link.html, etc/_aboutme.html, ads/ads.html]
 ---
 {: .box-note}
 ## {{ page.share-title }}

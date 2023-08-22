@@ -12,6 +12,7 @@ share-description: «Затерянный мир» так назван, пото
 keywords: Батарейная, Бекишей, Грачёв Венец, Хожаш, Хакуч, Аше
 location: Скала Хожаш, Краснодарский край
 img-caption: Скала Хожаш
+head-extra: [amp_link.html, etc/_aboutme.html, ads/ads.html]
 ---
 {: .box-note}
 ## {{ page.share-title }} (о топонимах Батарейная, Бекишей, Грачев Венец, Хожаш, Хакуч, Аше)

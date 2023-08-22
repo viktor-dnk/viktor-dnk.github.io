@@ -12,6 +12,7 @@ share-description: История происхождения адыгских п
 keywords: Черкесы, адыги, Черкассы
 location: Новочеркасск, Ростовская область
 img-caption: Собрание черкесских князей
+head-extra: [amp_link.html, etc/_aboutme.html, ads/ads.html]
 ---
 {: .box-note}
 ## {{ page.share-title }}

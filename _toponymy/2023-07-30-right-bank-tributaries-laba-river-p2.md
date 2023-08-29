@@ -4,10 +4,10 @@ subtitle: Часть 2 © В.Н. Ковешников
 cover-img: ["/img/toponymy/right-bank-tributaries-laba-river-p2/cover.jpg" : "Мост через р. Кукса в г. Курганинск (maps.ya.ru)"]
 thumbnail-caption: Старицы Синюга
 date: 2023-07-30 16:50 +0300
-last_modified_at: 2023-07-30 20:40 +0300
+last_modified_at: 2023-08-29 09:10 +0300
 category: [hydro, oikonyms]
-share-title: Правобережные притоки реки Лаба - Кукса, Чамлык с притоками Синюха и Грязнуха ч2
-share-description: Почти весь правый берег реки Лаба занят бассейном её притока рекой Чамлык. Исключением является река Кукса, впадающая в правобережный рукав Лабы под названием Лабёнок.
+share-title: Правобережные притоки реки Лаба (ч2) - Синюха и Грязнуха.
+share-description: Почти весь правый берег реки Лаба занят бассейном её притока рекой Чамлык. Исключением является река Кукса (правобережный рукав Лабы под названием Лабёнок).
 keywords: Лаба, Кукса, Чамлык, Синюха, Грязнуха
 head-extra: [amp_link.html, etc/_aboutme.html, ads/ads.html, etc/_micro_right-bank-tributaries-laba-river.html]
 location: Краснодарский край, г. Курганинск

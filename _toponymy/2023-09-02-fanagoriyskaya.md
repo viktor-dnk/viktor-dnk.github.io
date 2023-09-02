@@ -10,7 +10,7 @@ category: [oikonyms]
 share-title: Фанагория - история географического названия
 share-description: Топоним с основой Фанагория появился на Кубани в древности в названии античного древнегреческого города-колонии на берегу Таманского залива.
 keywords: Фанагория, Фанагорийское, дольмены
-head-extra: [amp_link.html, etc/_aboutme.html, ads/ads.html, etc/_micro_fanagoriyskaya.html]
+head-extra: [amp_link.html, etc/_aboutme.html, ads/ads.html, etc/_micro_fanagoria.html]
 location: с. Фанагорийское, Краснодарский край
 img-caption: В селе Фанагорийском
 ---

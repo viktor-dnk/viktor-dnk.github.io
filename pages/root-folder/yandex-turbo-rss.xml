@@ -46,7 +46,7 @@ permalink: /yandex-turbo-rss.xml
                   {% assign preprocessed_content=preprocessed_content | replace: '<figure itemscope="" itemtype="https://schema.org/ImageObject">', '__figure__' %}
                   {% assign preprocessed_content=preprocessed_content | replace: '</figure>', '__/figure__' %}
                   {% assign preprocessed_content=preprocessed_content | replace: '<figcaption>', '__figcaption__' %}
-                  {% assign preprocessed_content=preprocessed_content | replace: '<figcaption itemprop="description creditText">', '__figcaption__' %}
+                  {% assign preprocessed_content=preprocessed_content | replace: '<figcaption itemprop="description">', '__figcaption__' %}
                   {% assign preprocessed_content=preprocessed_content | replace: '</figcaption>', '__/figcaption__' %}
                   {% assign preprocessed_content=preprocessed_content | replace: '<h2', '__h2__' %}
                   {% assign preprocessed_content=preprocessed_content | replace: '</h2>', '__/h2__' %}
@@ -133,7 +133,7 @@ permalink: /yandex-turbo-rss.xml
                   {% assign preprocessed_content=preprocessed_content | replace: '<figure itemscope="" itemtype="https://schema.org/ImageObject">', '__figure__' %}
                   {% assign preprocessed_content=preprocessed_content | replace: '</figure>', '__/figure__' %}
                   {% assign preprocessed_content=preprocessed_content | replace: '<figcaption>', '__figcaption__' %}
-                  {% assign preprocessed_content=preprocessed_content | replace: '<figcaption itemprop="description creditText">', '__figcaption__' %}
+                  {% assign preprocessed_content=preprocessed_content | replace: '<figcaption itemprop="description">', '__figcaption__' %}
                   {% assign preprocessed_content=preprocessed_content | replace: '</figcaption>', '__/figcaption__' %}
                 {% assign preprocessed_content=preprocessed_content | replace: '<h2', '__h2__' %}
                 {% assign preprocessed_content=preprocessed_content | replace: '</h2>', '__/h2__' %}

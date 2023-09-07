@@ -229,6 +229,7 @@ exclude:
   - screenshot.png
   - regex
   - docs/
+  - tmp/
 
 compress_html:
   clippings: all

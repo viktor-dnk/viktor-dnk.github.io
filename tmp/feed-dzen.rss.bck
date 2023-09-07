@@ -57,7 +57,7 @@ permalink: /feed-dzen.rss
 					{% assign preprocessed_content=preprocessed_content | replace: '</em>', '__/em__' %}
 					{% assign preprocessed_content=preprocessed_content | replace: '<figure itemscope itemtype="https://schema.org/ImageObject">', '__figure__' %}
 					{% assign preprocessed_content=preprocessed_content | replace: '<figure itemscope="" itemtype="https://schema.org/ImageObject">', '__figure__' %}                 
-					{% assign preprocessed_content=preprocessed_content | replace: '<figcaption itemprop="title">', '__figcaption__' %}
+					{% assign preprocessed_content=preprocessed_content | replace: '<figcaption itemprop="description">', '__figcaption__' %}
 					{% assign preprocessed_content=preprocessed_content | replace: '<figure>', '__figure__' %}
 					{% assign preprocessed_content=preprocessed_content | replace: '</figure>', '__/figure__' %}
 					{% assign preprocessed_content=preprocessed_content | replace: '<figcaption>', '__figcaption__' %}

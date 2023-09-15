@@ -14,7 +14,6 @@ Allow: /assets/js/*.js
 Allow: /img/*/*/*.jpg
 Allow: /img/*/*/*.gif
 
-
 User-agent: Yandex
 Disallow: /amp/*
 Disallow: /amp

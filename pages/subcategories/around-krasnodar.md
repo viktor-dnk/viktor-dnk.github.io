@@ -90,7 +90,6 @@ footer-extra: [ads/ads-footer.html]
                         {% include ads/ads-cat-1.html %}
                         {% endif %}
 
-
     {% if site.feed_show_tags != false and toponymy.tags.size > 0 %}
     <div class="blog-tags">
       <span>Метки:</span>

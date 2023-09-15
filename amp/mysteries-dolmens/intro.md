@@ -13,13 +13,11 @@ last_modified_at: 2023-02-23 13:10:00 +0300
 
 <ul class="pagination blog-pager"><li class="page-item previous"><figure><a class="page-link" href="{{ page.url | absolute_url | strip_index | replace:'/amp/','/' }}" data-toggle="tooltip" data-placement="top" title="Перейти на основную версию сайта">Читать статью на сайте автора</a></figure></li></ul>
 
-
 УДК 903.7
 ББК 63.4(2)
 © Ковешников Виктор Николаевич
 _Тайны тысячелетних дольменов Кубани: археология, гипотезы, открытия, путеводитель / В.Н. Ковешников._
 Научно-популярное издание. Краснодар, 2020 г.
-
 
 
 

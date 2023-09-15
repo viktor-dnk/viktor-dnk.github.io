@@ -37,7 +37,6 @@ $1. <a name="t95-[$1]"></a>$3
 
 <div itemscope itemtype="https://schema.org/ImageObject"><img itemprop="contentUrl" src$1<meta itemprop="name" content="$3" /><meta itemprop="creditText" content="Заметки географа - Ковешников В.Н." /></div>\n<figcaption>$3</figcaption>
 
-
 замена ахреф на просто имг
 <a(.*.jpg">)<img alt="(.*)" style(.*)</a>
 <img alt="$2" title="$2" style$3

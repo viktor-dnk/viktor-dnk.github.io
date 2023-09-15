@@ -7,7 +7,7 @@ thumbnail-caption: Река Кукса в городе Курганинск
 date: 2023-07-30 16:40 +0300
 last_modified_at: 2023-09-15 11:30 +0300
 category: [hydro, oikonyms]
-share-title:  Кукса и Чамлык - правобережные притоки реки Лаба
+share-title: Кукса и Чамлык - правобережные притоки реки Лаба
 share-description: Подробно рассмотрим место расположения истоков и долин рек Кукса и Чамлык (правобережные притоки р. Лаба), а также изучим истории происхождения их названий.
 keywords: Чамлык, Кукса, Синюха, Грязнуха, Лаба
 head-extra: [amp_link.html, etc/_aboutme.html, ads/ads.html, etc/_micro_right-bank-tributaries-laba-river1.html]

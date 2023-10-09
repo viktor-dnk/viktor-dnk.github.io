@@ -9,9 +9,9 @@ last_modified_at: 2023-10-08 20:30 +0300
 category: [oikonyms, hydro]
 share-title: История топонима Полтава
 share-description: Станица Полтавская получила название от Полтавского куреня Черноморского казачьего войска, курень был назван от города Полтава. Полтава была основана в ХI в.
-keywords: Ангелинский ерик
+keywords: Полтава, станица Полтавская, Pultava
 head-extra: [amp_link.html, etc/_aboutme.html, ads/ads.html, etc/_micro_poltavskaya.html]
-location: Ерик Ангелинский, Краснодарский край
+location: станица Полтавская, Краснодарский край
 img-caption: Станица Полтавская с высоты птичьего полёта
 ---
 {: .box-note}

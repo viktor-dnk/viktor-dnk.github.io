@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Топонимика
+title: Топонимика Краснодарского края и Республики Адыгея
 subtitle: Очерки по топонимике Кубани
 cover-img: /img/example-logos/main-cover.jpg
 share-img: /img/example-logos/main-cover4x3.jpg

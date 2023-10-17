@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Память в камне
+title: Память в камне - исторические события
 subtitle: Памятные места связанные с историческими событиями
 cover-img: /img/example-logos/main-cover.jpg
 share-img: /img/example-logos/main-cover4x3.jpg

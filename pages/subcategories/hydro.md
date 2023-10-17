@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Гидронимы
+title: Гидронимы Краснодарского края и Республики Адыгея
 subtitle: Водные объекты Кубани
 cover-img: /img/example-logos/main-cover.jpg
 share-img: /img/example-logos/main-cover4x3.jpg

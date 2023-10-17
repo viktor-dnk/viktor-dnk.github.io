@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Большой Сочи
+title: Большой Сочи и топонимика вокруг
 subtitle: Топонимика Большого Сочи и его окрестностей
 cover-img: /img/example-logos/main-cover.jpg
 share-img: /img/example-logos/main-cover4x3.jpg

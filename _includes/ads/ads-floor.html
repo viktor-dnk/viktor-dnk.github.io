@@ -1,19 +1,21 @@
 <script>
-	window.yaContextCb.push(() => {
-		if (Ya.Context.AdvManager.getPlatform() === 'desktop') {
-		  // вызов Floor Ad для десктопной версии
-		  Ya.Context.AdvManager.render({
-			blockId: 'R-A-2250957-16',
-			type: 'floorAd',
-			platform: 'desktop',
-		  });
-		} else {
-		  // вызов Floor Ad для мобильной версии
-		  Ya.Context.AdvManager.render({
-			blockId: 'R-A-2250957-13',
-			type: 'floorAd',
-			platform: 'touch',
-		  });
-		}
-	});
-  </script>
+		setTimeout(function() {
+			window.yaContextCb.push(() => {
+				if (Ya.Context.AdvManager.getPlatform() === 'desktop') {
+					// вызов Floor Ad для десктопной версии
+					Ya.Context.AdvManager.render({
+						blockId: 'R-A-2250957-16',
+						type: 'floorAd',
+						platform: 'desktop',
+					});
+				} else {
+					// вызов Floor Ad для мобильной версии
+					Ya.Context.AdvManager.render({
+						blockId: 'R-A-2250957-13',
+						type: 'floorAd',
+						platform: 'touch',
+					});
+				}
+			});
+		}, 12000);
+</script>

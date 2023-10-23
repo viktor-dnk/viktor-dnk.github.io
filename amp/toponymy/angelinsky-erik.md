@@ -9,6 +9,8 @@ date: 2023-09-30 18:40 +0300
 {: .box-note}
 ## <br><br><br>Ангелинский ерик в дельте реки Кубань
 
+<ul class="pagination blog-pager"><li class="page-item previous"><figure><a class="page-link" href="{{ page.url | absolute_url | strip_index | replace:'/amp/','/' }}" data-toggle="tooltip" data-placement="top" title="Перейти на основную версию сайта">Читать статью на сайте автора</a></figure></li></ul>
+
 <figure>
 	<a href="/img/toponymy/angelinsky-erik/Railway-bridge-over-Erik-Angelinsky-b.jpg" title="Железнодорожный мост через ерик Ангелинский"><img src="/img/toponymy/angelinsky-erik/Railway-bridge-over-Erik-Angelinsky.jpg" alt="Железнодорожный мост через ерик Ангелинский" width="800" height="427"/></a>
 	<figcaption>Железнодорожный мост через ерик Ангелинский у южной окраины станицы Старонижестеблиевской. Сентябрь 2021 г. (автор: svtk44)</figcaption>

@@ -184,7 +184,6 @@ defaults:
     values:
       layout: amp
       social-share: false
-      permalink: /amp/:categories/:title/
   -
     scope:
       path: ""

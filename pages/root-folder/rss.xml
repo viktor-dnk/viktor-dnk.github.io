@@ -17,7 +17,7 @@ permalink: /123.xml
          <title>Заметки географа - Очерки - Маршруты путешествий</title>
          <link>https://viktor-dnk.ru/</link>
       </image>
-      {% assign news-feed = toponymy | where: "news-feed", "true" %}
+      {% assign news-feed = site.toponymy | where: "news-feed", "yes" %}
       {% for toponymy in news-feed %}
             <item>
             <title>{{ toponymy.title | strip_html | xml_escape }}</title>

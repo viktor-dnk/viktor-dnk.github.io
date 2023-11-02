@@ -13,7 +13,7 @@ keywords: Ростов, Краснодар, Элиста, Астрахань, М
 head-extra: [amp_link.html, etc/_aboutme.html, ads/ads.html, etc/_micro_city-of-south-russia.html]
 location: Пятигорск, Ставропольский край
 img-caption: Вид с горы Машук на гору Бештау
-news-feed: yes
+news-feed: [yes]
 ---
 {: .box-note}
 ## {{ page.share-title }}

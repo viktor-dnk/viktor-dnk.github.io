@@ -1,0 +1,39 @@
+---
+layout: null
+title: "yandex-news-feeds RSS Feed"
+source: "https://yandex.ru/support/webmaster/search-appearance/news.html"
+permalink: /123.xml
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:media="http://search.yahoo.com/mrss/" xmlns:yandex="http://news.yandex.ru" version="2.0">
+   <channel>
+      <title>Заметки географа - Очерки - Маршруты путешествий</title>
+      <link>https://viktor-dnk.ru/</link>
+      <description>Очерки по географии, истории, археологии и топонимике Кубани и Республики Адыгея. Маршруты путешествий. Ковешников. В.Н.</description>
+      <language>ru</language>
+      <webMaster>kibodache@gmail.com</webMaster>
+      <image>
+         <url>https://viktor-dnk.ru/img/example-logos/rss.png</url>
+         <title>Заметки географа - Очерки - Маршруты путешествий</title>
+         <link>https://viktor-dnk.ru/</link>
+      </image>
+      {% assign news-feed = news | where: "news-feed", "true" %}
+      {% for news in site.toponymy limit:150 where %}
+            <item>
+            <title>{{ toponymy.title | strip_html | xml_escape }}</title>
+            <link>{{ toponymy.url | absolute_url }}</link>
+            <pdalink>{{ toponymy.url | absolute_url }}</pdalink>
+            <description>{{ toponymy.share-description | strip_html | xml_escape }}</description>
+            <author>Ковешников В.Н.</author>
+            <category>События</category>
+            <enclosure url="{{ toponymy.url | absolute_url | replace:'.ru/','.ru/img/' | append: 'cover-s.jpg' }}" type="image/jpeg" />
+            <media:group>
+                  <media:thumbnail url="{{ toponymy.url | absolute_url | replace:'.ru/','.ru/img/' | append: 'thumb.jpg' }}" />
+            </media:group>
+            <pubDate>{{ toponymy.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
+            <yandex:genre>message</yandex:genre>
+            <yandex:full-text>{{ toponymy.description | strip_html | xml_escape }}</yandex:full-text>
+            </item>
+      {% endfor %}
+   </channel>
+</rss>

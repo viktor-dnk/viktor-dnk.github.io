@@ -18,7 +18,7 @@ permalink: /123.xml
          <link>https://viktor-dnk.ru/</link>
       </image>
       {% assign news-feed = news | where: "news-feed", "true" %}
-      {% for news in site.toponymy limit:150 where %}
+      {% for toponymy in site.toponymy %}
             <item>
             <title>{{ toponymy.title | strip_html | xml_escape }}</title>
             <link>{{ toponymy.url | absolute_url }}</link>

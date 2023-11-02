@@ -17,20 +17,5 @@ permalink: /fresh-actual-rss.xml
          <title>Заметки географа - Очерки - Маршруты путешествий</title>
          <link>https://viktor-dnk.ru/</link>
       </image>
-      <item>
-         <title>Луна закроет Солнце на 70%: где и во сколько будет видно солнечное затмение 25 октября 2022 года</title>
-         <link>https://viktor-dnk.ru/toponymy/herota-river/</link>
-         <pdalink>https://viktor-dnk.ru/toponymy/herota-river/</pdalink>
-         <description>Погода позволит наблюдать за редким явлением почти на всей Европейской части России</description>
-         <author>Ковешников В.Н.</author>
-         <category>События</category>
-         <enclosure url="https://viktor-dnk.ru/img/toponymy/herota-river/cover-s.jpg" type="image/jpeg" />
-         <media:group>
-            <media:thumbnail url="https://viktor-dnk.ru/img/toponymy/herota-river/thumb.jpg" />
-         </media:group>
-         <pubDate>Sun, 29 Sep 2023 19:59:01 +0300</pubDate>
-         <yandex:genre>message</yandex:genre>
-         <yandex:full-text>По данным астрономов, увидеть, как Луна закрывает собой Солнце, смогут жители Западной Сибири и всей Европейской части России.</yandex:full-text>
-      </item>
    </channel>
 </rss>

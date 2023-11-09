@@ -20,7 +20,7 @@ permalink: /fresh-actual-rss.xml
     {% assign ya-news = site.toponymy | where: "news-feed", 1 %}
     {% for toponymy in ya-news %}
             <item>
-                <title>{{ toponymy.title | strip_html | xml_escape }}</title>
+                <title>{{ toponymy.share-title | strip_html | xml_escape }}</title>
                 <link>{{ toponymy.url | absolute_url }}</link>
                 <pdalink>{{ toponymy.url | absolute_url }}</pdalink>
                 <description>{{ toponymy.share-description | strip_html | xml_escape }}</description>

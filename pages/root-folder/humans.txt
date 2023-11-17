@@ -20,4 +20,4 @@ permalink: /humans.txt
   Last update: {{ site.time | date:"%Y/%m/%d" }}
   Language: Russian
   Doctype: HTML, CSS
-  IDE: Jekyll, Atom.io, Notepad++, Xnconvert, Photopea.com, Stackedit.io, Screaming Frog SEO Spider, follow.it
+  IDE: Jekyll, Visual Studio Code, Notepad++, Xnconvert, Photopea.com, Stackedit.io, Screaming Frog SEO Spider, follow.it

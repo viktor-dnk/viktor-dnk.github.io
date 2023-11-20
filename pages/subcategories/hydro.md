@@ -2,7 +2,7 @@
 layout: page
 title: Гидронимы Краснодарского края и Республики Адыгея
 subtitle: Водные объекты Кубани
-cover-img: /img/example-logos/main-cover.jpg
+cover-img: ["/img/example-logos/main-cover.jpg" : "Генеральная карта Кавказского края, изданная в 1858 г."]
 share-img: /img/example-logos/main-cover4x3.jpg
 share-title: Водные объекты Кубани
 share-description: Термин гидроним состоит из двух греческих слов - вода + имя, один из классов топонимов (географических названий), изучающих название водных объектов.

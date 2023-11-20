@@ -2,7 +2,7 @@
 layout: page
 title: Ономастика горных вершин, перевалов и пр.
 subtitle: Оронимы Кубани и Адыгеи
-cover-img: /img/example-logos/main-cover.jpg
+cover-img: ["/img/example-logos/main-cover.jpg" : "Генеральная карта Кавказского края, изданная в 1858 г."]
 share-img: /img/example-logos/main-cover4x3.jpg
 share-title: Оронимы Кубани и Адыгеи
 share-description: Раздел топонимики, который изучает названия вершин, горных систем, скал, перевалов, хребтов, называется оронимика, что с греческого означает «горы имя».

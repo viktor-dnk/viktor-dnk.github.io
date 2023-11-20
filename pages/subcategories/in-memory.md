@@ -2,7 +2,7 @@
 layout: page
 title: Память в камне - исторические события
 subtitle: Памятные места связанные с историческими событиями
-cover-img: /img/example-logos/main-cover.jpg
+cover-img: ["/img/example-logos/main-cover.jpg" : "Генеральная карта Кавказского края, изданная в 1858 г."]
 share-img: /img/example-logos/main-cover4x3.jpg
 share-title: Памятные места связанные с историческими событиями
 share-description: На Кубани немало памятных мест связанных с событиями Великой Отечественной войны 1941-1945 гг., Гражданской войны и другими историческими событиями.

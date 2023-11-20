@@ -2,7 +2,7 @@
 layout: page
 title: Город Краснодар и его окрестности
 subtitle: Топонимы вокруг столицы Кубани
-cover-img: /img/example-logos/main-cover.jpg
+cover-img: ["/img/example-logos/main-cover.jpg" : "Генеральная карта Кавказского края, изданная в 1858 г."]
 share-img: /img/example-logos/main-cover4x3.jpg
 share-title: Топонимы возле Краснодара
 share-description: Муниципальное образование город Краснодар расположено в центральной части Краснодарского края на правом берегу реки Кубань. Его территория - 841 км².

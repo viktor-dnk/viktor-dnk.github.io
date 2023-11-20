@@ -2,7 +2,7 @@
 layout: page
 title: Информация
 subtitle: Об этом сайте
-cover-img: /img/example-logos/main-cover.jpg
+cover-img: ["/img/example-logos/main-cover.jpg" : "Генеральная карта Кавказского края, изданная в 1858 г."]
 share-img: /img/example-logos/main-cover4x3.jpg
 share-title: Об авторе, информация, контакты
 share-description: Информация о сайте Заметки географа. Контакты. Условия использования. Связь с автором. Дорога не кончается!!!

@@ -2,7 +2,7 @@
 layout: page
 title: Нагорье Лагонаки и связанные с ним топонимы
 subtitle: Топонимы вокруг Лагонакского нагорья
-cover-img: /img/example-logos/main-cover.jpg
+cover-img: ["/img/example-logos/main-cover.jpg" : "Генеральная карта Кавказского края, изданная в 1858 г."]
 share-img: /img/example-logos/main-cover4x3.jpg
 share-title: Топонимика Лагонаки
 share-description: Под названием Лагонаки понимается нагорье, горный узел обшей площадью около 700 км². Это природное образование принято так называть с 1984 г.

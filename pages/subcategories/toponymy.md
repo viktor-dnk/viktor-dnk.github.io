@@ -2,7 +2,7 @@
 layout: page
 title: Топонимика Краснодарского края и Республики Адыгея
 subtitle: Очерки по топонимике Кубани
-cover-img: /img/example-logos/main-cover.jpg
+cover-img: ["/img/example-logos/main-cover.jpg" : "Генеральная карта Кавказского края, изданная в 1858 г."]
 share-img: /img/example-logos/main-cover4x3.jpg
 share-title: Топонимика Кубани. Очерки о географических названиях.
 share-description: Даже самое удачное толкование истории слова может быть пересмотрено, как только найдутся новые данные. Ничего страшного в этом нет

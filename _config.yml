@@ -227,6 +227,7 @@ exclude:
   - LICENSE
   - README.md
   - screenshot.png
+  - template.md
   - regex
   - docs/
   - tmp/

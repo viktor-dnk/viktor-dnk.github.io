@@ -2,7 +2,7 @@
 layout: page
 title: Побережье Чёрного и Азовского морей
 subtitle: Топонимика на морском побережье Кубани
-cover-img: /img/example-logos/main-cover.jpg
+cover-img: ["/img/example-logos/main-cover.jpg" : "Генеральная карта Кавказского края, изданная в 1858 г."]
 share-img: /img/example-logos/main-cover4x3.jpg
 share-title: Топонимы Черноморского и Азовского побережья Кубани
 share-description: «Морские ворота юга России», как и «Балтийское окно в Европу» начал возводить Петр I. В Таганрогском заливе в 1698 г. была основана военно-морская база.

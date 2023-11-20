@@ -2,7 +2,7 @@
 layout: page
 title: Населённые пункты Кубани
 subtitle: Ойконимы Краснодарского Края и Республики Адыгея
-cover-img: /img/example-logos/main-cover.jpg
+cover-img: ["/img/example-logos/main-cover.jpg" : "Генеральная карта Кавказского края, изданная в 1858 г."]
 share-img: /img/example-logos/main-cover4x3.jpg
 share-title: Топонимика населённых пунктов Кубани и Адыгеи
 share-description: Одно из направлений топонимики занимается изучением собственных названий населенных пунктов (городов, посёлков, сёл, станиц, хуторов) называется ойконимия.

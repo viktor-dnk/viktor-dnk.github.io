@@ -2,7 +2,7 @@
 layout: page
 title: Из истории дольменов Западного Кавказа
 subtitle: © В.Н. Ковешников
-cover-img: /img/example-logos/main-cover.jpg
+cover-img: ["/img/example-logos/main-cover.jpg" : "Генеральная карта Кавказского края, изданная в 1858 г."]
 share-img: /img/example-logos/main-cover4x3.jpg
 share-title: Из истории дольменов Западного Кавказа
 language: ru

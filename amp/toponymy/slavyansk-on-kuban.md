@@ -1,13 +1,13 @@
 ---
 title: О городе Славянск-на-Кубани
 subtitle: © В.Н. Ковешников
-share-title: Славянск-на-Кубани - история города
+share-title: Славянск-на-Кубани - из истории города
 share-description: Приводится этимология современного ойконима, состоящего из древнего этнонима славяне и гидронима Кубань.
 last_modified_at: 2024-01-06 12:30 +0300
 date: 2024-01-06 12:30 +0300
 ---
 {: .box-note}
-## <br><br><br>Славянск-на-Кубани - история города
+## <br><br><br>Славянск-на-Кубани - из истории города
 
 <ul class="pagination blog-pager"><li class="page-item previous"><figure><a class="page-link" href="{{ page.url | absolute_url | strip_index | replace:'/amp/','/' }}" data-toggle="tooltip" data-placement="top" title="Перейти на основную версию сайта">Читать статью на сайте автора</a></figure></li></ul>
 

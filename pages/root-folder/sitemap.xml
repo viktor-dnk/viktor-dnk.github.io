@@ -144,5 +144,9 @@ permalink: /sitemap.xml
     <url>
         <loc>https://viktor-dnk.ru/page/13/</loc>
         <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+    </url>  
+    <url>
+        <loc>https://viktor-dnk.ru/page/14/</loc>
+        <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
     </url>      
 </urlset>

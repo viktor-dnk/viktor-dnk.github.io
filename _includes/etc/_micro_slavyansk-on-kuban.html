@@ -1,0 +1,4 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script>
+var settings={async:!0,crossDomain:!0,url:"https://api.openweathermap.org/data/2.5/weather?id=492094&exclude=hourly,daily&lang=ru&units=metric&appid=a211b744efa66a1056a76b6627d58f3b",method:"GET"};$.ajax(settings).done((function(a){console.log(a);var e=a.main.temp;$("#curtemp").append(Math.round(e)+"ºC");var t=a.weather[0].description;$("#curweather").append(t+", "),$("#weather").append(" "+t+", ",Math.round(e)+"ºC")}));
+</script>

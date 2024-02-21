@@ -1,0 +1,38 @@
+---
+layout: null
+title: "our beautiful RSS Feed"
+permalink: /feed.xml
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Дорога не кончается</title>
+		<description>Заметки географа</description>
+		<image>
+			<url>https://viktor-dnk.ru/img/example-logos/rss.png</url>
+			<title>Дорога не кончается</title>
+			<link>{{ '' | absolute_url }}</link>
+			<width>88</width>
+			<height>88</height>
+			<description>Заметки географа</description>
+		</image>
+		<language>ru</language>
+		<link>{{ '' | absolute_url }}</link>
+		<atom:link href="{{ 'feed.xml' | absolute_url }}" rel="self" type="application/rss+xml" />
+        {% assign excerpt_length = site.excerpt_length | default: 50 %}
+        {% for toponymy in site.toponymy limit:70 %}
+		<item>
+			<title>{{ toponymy.share-title | strip_html | xml_escape }}</title>
+			<description>
+                &lt;p&gt;&lt;img src="{{ toponymy.url | absolute_url | replace:'.ru/','.ru/img/' | append: 'cover-s.jpg' }}" alt="{{ toponymy.title | strip_html | xml_escape }}" class="webfeedsFeaturedVisual"&gt;&lt;/p&gt;{{ toponymy.description }}
+            </description>
+			<pubDate>{{ toponymy.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
+			<link>{{ toponymy.url | absolute_url | append: '?utm_source=email_send&utm_medium=news&utm_campaign=rss&utm_term=feed' }}</link>
+			<category>{{ toponymy.category | sort | join: ", "}}</category>
+			<author>Ковешников В.Н.</author>
+			<enclosure url="{{ toponymy.url | absolute_url | replace:'.ru/','.ru/img/' | append: 'cover-s.jpg'}}" type="image/jpeg"/>
+			<guid isPermaLink="true">{{ toponymy.url | absolute_url | append: '?utm_source=email_send&utm_medium=news&utm_campaign=rss&utm_term=feed' }}</guid>
+		</item>
+    {% endfor %}
+	</channel>
+</rss>

@@ -19,8 +19,7 @@ permalink: /feed1.xml
 		<language>ru</language>
 		<link><![CDATA[{{ '' | absolute_url | append: '?utm_source=email&utm_medium=news&utm_campaign=rss&utm_term=feed' }}]]></link>
 		<atom:link href="{{ 'feed1.xml' | absolute_url }}" rel="self" type="application/rss+xml" />
-	    {% assign excerpt_length = site.excerpt_length | default: 50 | reverse %}
-        {% for toponymy in site.toponymy limit:70 %}
+        {% for toponymy in site.toponymy reversed limit:70 %}
 		<item>
 			<title>{{ toponymy.share-title | strip_html | xml_escape }}</title>
 			<description>
@@ -31,7 +30,7 @@ permalink: /feed1.xml
 			<category>{{ toponymy.category | join: ", " | replace:'sea-coast','Топонимы побережья' | replace:'lago-naki','Лагонаки' | replace:'around-sochi','Большой Сочи' | replace:'around-krasnodar','Окрестности Краснодара' | replace:'hydro','Водные объекты' | replace:'oikonyms','Населённые пункты' | replace:'mountains','Горы' | replace:'in-memory','Память в камне' }}</category>
 			<author>Ковешников В.Н.</author>
 			<enclosure url="{{ toponymy.url | absolute_url | replace:'.ru/','.ru/img/' | append: 'cover-s.jpg'}}" type="image/jpeg"/>
-			<guid isPermaLink="true">{{ toponymy.url | absolute_url | append: '?utm_source=email&utm_medium=news&utm_campaign=rss&utm_term=feed' }}</guid>
+			<guid isPermaLink="true"><![CDATA[{{ toponymy.url | absolute_url | append: '?utm_source=email&utm_medium=news&utm_campaign=rss&utm_term=feed' }}]]></guid>
 		</item>
     {% endfor %}
 	</channel>

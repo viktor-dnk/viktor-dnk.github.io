@@ -58,8 +58,8 @@ permalink: /sitemap.xml
         <loc>https://viktor-dnk.ru/info/aboutme/</loc>
         <image:image>
           <image:loc>{{ site.url }}/img/example-logos/stamp.png</image:loc>
-          <image:title>Дорога не кончается</image:title>
-          <image:caption>Заметки географа</image:caption>
+          <image:title>Заметки географа</image:title>
+          <image:caption>Дорога не кончается</image:caption>
         </image:image>
     </url>
     <url>

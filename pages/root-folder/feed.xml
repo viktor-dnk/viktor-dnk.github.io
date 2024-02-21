@@ -5,34 +5,33 @@ permalink: /feed.xml
 ---
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Дорога не кончается</title>
-    <description>Заметки географа</description>
-    <image>
-      <url>https://viktor-dnk.ru/img/example-logos/rss.png</url>
-      <title>Дорога не кончается</title>
-      <link>{{ '' | absolute_url }}</link>
-      <width>88</width>
-      <height>88</height>
-      <description>Заметки географа</description>
-    </image>
-    <language>ru</language>
-    <link>{{ '' | absolute_url }}</link>
-    <atom:link href="{{ 'feed.xml' | absolute_url }}" rel="self" type="application/rss+xml" />
-    {% assign excerpt_length = site.excerpt_length | default: 50 %}
-    {% for post in site.posts limit:70 %}
-      <item>
-        <title>{{ post.title | strip_html | xml_escape }}</title>
-        <description>
-          &lt;p&gt;&lt;img src="{{ post.url | absolute_url | replace:'.ru/','.ru/img/' | append: 'cover-s.jpg' }}" alt="{{ post.title | strip_html | xml_escape }}" class="webfeedsFeaturedVisual"&gt;&lt;/p&gt;{{ post.content }}
-        </description>
-        <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
-        <link>{{ post.url | absolute_url | append: '?utm_source=email_send&utm_medium=news&utm_campaign=rss&utm_term=feed' }}</link>
-        <category>{{post.tags | sort | join: ", "}}</category>
-        <author>Ковешников В.Н.</author>
-        <enclosure url="{{ post.url | absolute_url | replace:'.ru/','.ru/img/' | append: 'cover-s.jpg'}}" type="image/jpeg"/>
-        <guid isPermaLink="true">{{ post.url | absolute_url | append: '?utm_source=email_send&utm_medium=news&utm_campaign=rss&utm_term=feed' }}</guid>
-      </item>
+	<channel>
+		<title>Дорога не кончается</title>
+		<description>Заметки географа</description>
+		<image>
+			<url>https://viktor-dnk.ru/img/example-logos/rss.png</url>
+			<title>Дорога не кончается</title>
+			<link><![CDATA[{{ '' | absolute_url | append: '?utm_source=email&utm_medium=news&utm_campaign=rss&utm_term=feed' }}]]></link>
+			<width>88</width>
+			<height>88</height>
+			<description>Заметки географа</description>
+		</image>
+		<language>ru</language>
+		<link><![CDATA[{{ '' | absolute_url | append: '?utm_source=email&utm_medium=news&utm_campaign=rss&utm_term=feed' }}]]></link>
+		<atom:link href="{{ 'feed1.xml' | absolute_url }}" rel="self" type="application/rss+xml" />
+        {% for toponymy in site.toponymy reversed %}
+		<item>
+			<title>{{ toponymy.share-title | strip_html | xml_escape }}</title>
+			<description>
+                &lt;p&gt;&lt;img src="{{ toponymy.url | absolute_url | replace:'.ru/','.ru/img/' | append: 'cover-s.jpg' }}" alt="{{ toponymy.title | strip_html | xml_escape }}" class="webfeedsFeaturedVisual"&gt;&lt;/p&gt;{{ toponymy.description }}
+            </description>
+			<pubDate>{{ toponymy.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
+			<link><![CDATA[{{ toponymy.url | absolute_url | append: '?utm_source=email&utm_medium=news&utm_campaign=rss&utm_term=feed' }}]]></link>
+			<category>{{ toponymy.category | join: ", " | replace:'sea-coast','Топонимы побережья' | replace:'lago-naki','Лагонаки' | replace:'around-sochi','Большой Сочи' | replace:'around-krasnodar','Окрестности Краснодара' | replace:'hydro','Водные объекты' | replace:'oikonyms','Населённые пункты' | replace:'mountains','Горы' | replace:'in-memory','Память в камне' }}</category>
+			<author>Ковешников В.Н.</author>
+			<enclosure url="{{ toponymy.url | absolute_url | replace:'.ru/','.ru/img/' | append: 'cover-s.jpg'}}" type="image/jpeg"/>
+			<guid isPermaLink="true"><![CDATA[{{ toponymy.url | absolute_url | append: '?utm_source=email&utm_medium=news&utm_campaign=rss&utm_term=feed' }}]]></guid>
+		</item>
     {% endfor %}
-  </channel>
+	</channel>
 </rss>

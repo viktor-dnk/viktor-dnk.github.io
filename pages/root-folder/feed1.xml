@@ -28,7 +28,7 @@ permalink: /feed1.xml
             </description>
 			<pubDate>{{ toponymy.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
 			<link>{{ toponymy.url | absolute_url | append: '?utm_source=email_send&utm_medium=news&utm_campaign=rss&utm_term=feed' }}</link>
-			<category>{{ toponymy.category | sort | join: ", "}}</category>
+			<category>{{ toponymy.category | join: ", "}}</category>
 			<author>Ковешников В.Н.</author>
 			<enclosure url="{{ toponymy.url | absolute_url | replace:'.ru/','.ru/img/' | append: 'cover-s.jpg'}}" type="image/jpeg"/>
 			<guid isPermaLink="true">{{ toponymy.url | absolute_url | append: '?utm_source=email_send&utm_medium=news&utm_campaign=rss&utm_term=feed' }}</guid>

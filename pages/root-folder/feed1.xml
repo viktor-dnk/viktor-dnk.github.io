@@ -11,16 +11,16 @@ permalink: /feed1.xml
 		<image>
 			<url>https://viktor-dnk.ru/img/example-logos/rss.png</url>
 			<title>Дорога не кончается</title>
-			<link>{{ '' | absolute_url | append: '?utm_source=email&utm_medium=news&utm_campaign=rss&utm_term=feed }}</link>
+			<link>{{ '' | absolute_url | append: '?utm_source=email&utm_medium=news&utm_campaign=rss&utm_term=feed' }}</link>
 			<width>88</width>
 			<height>88</height>
 			<description>Заметки географа</description>
 		</image>
 		<language>ru</language>
-		<link>{{ '' | absolute_url | append: '?utm_source=email&utm_medium=news&utm_campaign=rss&utm_term=feed }}</link>
+		<link>{{ '' | absolute_url | append: '?utm_source=email&utm_medium=news&utm_campaign=rss&utm_term=feed' }}</link>
 		<atom:link href="{{ 'feed1.xml' | absolute_url }}" rel="self" type="application/rss+xml" />
 	    {% assign excerpt_length = site.excerpt_length | default: 50 %}        
-        {% for toponymy in site.toponymy limit:70 reversed %}
+        {% for toponymy in site.toponymy reversed limit:70 %}
 		<item>
 			<title>{{ toponymy.share-title | strip_html | xml_escape }}</title>
 			<description>

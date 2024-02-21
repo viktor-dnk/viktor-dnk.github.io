@@ -19,7 +19,7 @@ permalink: /feed1.xml
 		<language>ru</language>
 		<link><![CDATA[{{ '' | absolute_url | append: '?utm_source=email&utm_medium=news&utm_campaign=rss&utm_term=feed' }}]]></link>
 		<atom:link href="{{ 'feed1.xml' | absolute_url }}" rel="self" type="application/rss+xml" />
-        {% for toponymy in site.toponymy reversed limit:70 %}
+        {% for toponymy in site.toponymy reversed %}
 		<item>
 			<title>{{ toponymy.share-title | strip_html | xml_escape }}</title>
 			<description>

@@ -18,7 +18,7 @@ permalink: /feed1.xml
 		</image>
 		<language>ru</language>
 		<link>{{ '' | absolute_url }}</link>
-		<atom:link href="{{ 'feed.xml' | absolute_url }}" rel="self" type="application/rss+xml" />
+		<atom:link href="{{ 'feed1.xml' | absolute_url }}" rel="self" type="application/rss+xml" />
         {% for toponymy in site.toponymy limit:70 %}
 		<item>
 			<title>{{ toponymy.share-title | strip_html | xml_escape }}</title>

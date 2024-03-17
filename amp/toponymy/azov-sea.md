@@ -50,13 +50,13 @@ date: 2024-03-17 14:00 +0300
 <figure itemscope itemtype="https://schema.org/ImageObject">
  <meta itemprop="name" content="Пляж на берегу Азовского моря у посёлка Пересыпь" />
  <a href="/img/toponymy/azov-sea/Beach-on-the-shore-of-the-Azov-Sea-near-the-village-of-Peresyp-b.jpg" title="Пляж на берегу Азовского моря у посёлка Пересыпь"><img itemprop="contentUrl" src="/img/toponymy/azov-sea/Beach-on-the-shore-of-the-Azov-Sea-near-the-village-of-Peresyp.jpg" alt="Пляж на берегу Азовского моря у посёлка Пересыпь" width="800" height="600"/></a>
- <figcaption itemprop="description creditText">Пляж на берегу Азовского моря у посёлка Пересыпь Темрюкского района (фото автора)</figcaption>
  <meta itemprop="acquireLicensePage" content="https://viktor-dnk.ru/info/contacts/" />
  <meta itemprop="license" content="https://viktor-dnk.ru/info/copyright/" />
  <meta itemprop="copyrightNotice" content="Viktor Koveshnikov" />
  <meta itemprop="creditText" content="Заметки географа" />
  <div itemprop="creator" itemscope itemtype="http://schema.org/Person">
  <meta itemprop="name" content="Viktor Koveshnikov" />
+ <figcaption itemprop="description creditText">Пляж на берегу Азовского моря у посёлка Пересыпь Темрюкского района (фото автора)</figcaption>
 </figure>
 
 Здесь следует сделать уточнение, так как некоторые исследователи ошибочно считают, что **античный город Танаис** (III в. до н.э. - V в. н.э.) имеет отношение к **средневековым городам Азов и Тана**. Основан Танаис греками и до I в. н.э. считался эллинским, а с I по III вв. римским, своё название получил от реки Танаис (Дон). [[5]](#t104-[5]) Город Танаис находился на возвышенном, с абсолютной высотой 20-30 м, правом берегу реки Мёртвый Донец иногда Донец (северный рукав дельты реки Дон), примерно в 10 км от берега Таганрогского залива. Его археологические остатки расположены на западной окраине хутора Недвиговка (Мясниковский район Ростовской области). У хутора действует железнодорожная **станция Танаис** на ж/д ветке Ростов-Главный — Таганрог. За станцией находится музей истории Танаиса и городище Танаис. Расстояние от города Азов до Танаиса по прямой, почти на север через дельту реки Дон, составляет около 20 км. По времени основания и месту расположения Танаис и Азов-Тана это разные поселения. [[3, 5, 15]](#t104-[3])
@@ -91,13 +91,13 @@ date: 2024-03-17 14:00 +0300
 <figure itemscope itemtype="https://schema.org/ImageObject">
  <meta itemprop="name" content="Вид с западного склона горы Голубицкой" />
  <a href="/img/toponymy/azov-sea/View-from-the-western-slope-of-Golubitskaya-Mountain-b.jpg" title="Вид с западного склона горы Голубицкой"><img itemprop="contentUrl" src="/img/toponymy/azov-sea/View-from-the-western-slope-of-Golubitskaya-Mountain.jpg" alt="Вид с западного склона горы Голубицкой" width="800" height="334"/></a>
- <figcaption itemprop="description creditText">Вид с западного склона горы Голубицкой (56,3 м) на Азовское море (фото автора)</figcaption>
  <meta itemprop="acquireLicensePage" content="https://viktor-dnk.ru/info/contacts/" />
  <meta itemprop="license" content="https://viktor-dnk.ru/info/copyright/" />
  <meta itemprop="copyrightNotice" content="Viktor Koveshnikov" />
  <meta itemprop="creditText" content="Заметки географа" />
  <div itemprop="creator" itemscope itemtype="http://schema.org/Person">
  <meta itemprop="name" content="Viktor Koveshnikov" />
+ <figcaption itemprop="description creditText">Вид с западного склона горы Голубицкой (56,3 м) на Азовское море (фото автора)</figcaption>
 </figure>
 
 Встречаются в интернете и ни чем не аргументированные версии образования топонима Азов от тюркского слово _азак_, которому приводится несколько значений: «заблудившийся» (kayıp), «ошибающийся» (yanılmış), «шальной» (deli) о стреле. В скобках, после русских значений слова _азак_, приведены турецкие слова соответствующие русскому значению, очевидно, что данные переводы морфологически не напоминают топонима Азов и возникает ощущение как будто бы они взяты с потолка.

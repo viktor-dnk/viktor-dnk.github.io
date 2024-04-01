@@ -55,7 +55,7 @@ img-caption: Карта дельты реки Дон конца ХVII в.
 
 <figure>
     <img src="/img/toponymy/dead-toponym/Dead-Lake-in-summer.jpg" title="Мёртвое озеро летом" alt="Мёртвое озеро летом" width="800" height="531"/>
-    <br>
+    <br/>
     <img src="/img/toponymy/dead-toponym/Dead-Lake-in-spring.jpg" title="Мёртвое озеро весной" alt="Мёртвое озеро весной" width="800" height="599"/>
     <figcaption>На фото Мёртвое озеро летом и весной (http://forums.kuban.ru/f1229)</figcaption>
 </figure>

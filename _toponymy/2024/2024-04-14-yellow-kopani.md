@@ -10,7 +10,7 @@ category: [oikonyms, hydro]
 share-title: Жёлтые Копани - старейший хутор Кубанской области
 share-description: Хутор Жёлтые Копани расположен в Староминском районе Краснодарского края, входит в состав Староминского сельского поселения.
 keywords: Жёлтые Копани
-head-extra: [amp_link.html, etc/_aboutme.html, ads/ads.html]
+head-extra: [amp_link.html, etc/_aboutme.html, ads/ads.html, etc/_micro_yellow-kopani.html]
 location: Жёлтые Копани, Краснодарский край
 img-caption: Хутор Жёлтые Копани на снимке из космоса
 ---

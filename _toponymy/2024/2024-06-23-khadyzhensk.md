@@ -9,7 +9,7 @@ last_modified_at: 2024-07-03 19:00 +0300
 category: [oikonyms, hydro]
 share-title: Хадыженск или Хадыжи - на самом ли деле означает «древний мертвец»?
 share-description: На первый взгляд не составляет трудности перевод этого топонима, так как давно бытуют его переводы «древний мертвец» или «долина древних могил».
-keywords: ХАдыженск
+keywords: Хадыженск, Хадыжи
 head-extra: [amp_link.html, etc/_aboutme.html, ads/ads.html, etc/_micro_khadyzhensk.html]
 location: город Хадыженск, Краснодарский край
 img-caption: Река Пшиш в окрестностях города Хадыженск

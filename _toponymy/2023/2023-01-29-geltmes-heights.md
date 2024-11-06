@@ -7,7 +7,7 @@ thumbnail-caption: Джельтмесские Высоты
 date: 2023-01-29 18:00 +0300
 last_modified_at: 2023-10-08 17:30 +0300
 category: [mountains, hydro]
-share-title: Джельтмесские Высоты (о заблуждениях в истории топонима)
+share-title: "Джельтмесские высоты: разгадывая тайну названия"
 share-description: Орографический элемент Джельтимеские высоты и река Джельтимесъ были зафиксированы ещё на карте Кавказского края (1847 г.)
 keywords: Джельтмесские Высоты, Джелтмес
 head-extra: [amp_link.html, etc/_aboutme.html, ads/ads.html, etc/_micro_geltmes-heights.html]

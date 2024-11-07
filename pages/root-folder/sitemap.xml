@@ -10,7 +10,7 @@ permalink: /sitemap.xml
         <loc>{{ toponymy.url | absolute_url }}</loc>
         <image:image>
             <image:loc>{{ toponymy.cover-img[0].first.first | absolute_url | replace: '.jpg','-s.jpg' }}</image:loc>
-            <image:title>{{ toponymy.title | xml_escape }}</image:title>
+            <image:title>{{ toponymy.share-title | xml_escape }}</image:title>
             {% if toponymy.img-caption %}<image:caption>{{ toponymy.img-caption | xml_escape }}</image:caption>{% endif %}
             {% if toponymy.location %}<image:geo_location>{{ toponymy.location | xml_escape }}</image:geo_location>{% endif %}
         </image:image>
@@ -23,7 +23,7 @@ permalink: /sitemap.xml
         <loc>{{ mysteries-dolmens.url | absolute_url }}</loc>
         <image:image>
             <image:loc>{{ mysteries-dolmens.cover-img[0].first.first | absolute_url | replace: '.jpg','-s.jpg' }}</image:loc>
-            <image:title>{{ mysteries-dolmens.title | xml_escape }}</image:title>
+            <image:title>{{ mysteries-dolmens.share-title | xml_escape }}</image:title>
             {% if mysteries-dolmens.img-caption %}<image:caption>{{ mysteries-dolmens.img-caption | xml_escape }}</image:caption>{% endif %}
             {% if mysteries-dolmens.location %}<image:geo_location>{{ mysteries-dolmens.location | xml_escape }}</image:geo_location>{% endif %}
         </image:image>

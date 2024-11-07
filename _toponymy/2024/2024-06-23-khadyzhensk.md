@@ -7,7 +7,7 @@ thumbnail-caption: Станция Хадыженская 1914 г.
 date: 2024-06-23 18:00 +0300
 last_modified_at: 2024-07-03 19:00 +0300
 category: [oikonyms, hydro]
-share-title: "Хадыженск: «древний мертвец»? Разгадка тайны названия"
+share-title: "Хадыженск: «древний мертвец»? Разгадка названия"
 share-description: На первый взгляд не составляет трудности перевод топонима Хадыженск, ведь давно бытуют его переводы «древний мертвец» или «долина древних могил».
 keywords: Хадыженск, Хадыжи
 head-extra: [amp_link.html, etc/_aboutme.html, ads/ads.html, etc/_micro_khadyzhensk.html]

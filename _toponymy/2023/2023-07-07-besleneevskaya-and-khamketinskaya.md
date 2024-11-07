@@ -7,7 +7,7 @@ thumbnail-caption: Водопад на реке Лакруш
 date: 2023-07-07 21:00 +0300
 last_modified_at: 2024-02-01 10:00 +0300
 category: [oikonyms, hydro, mountains]
-share-title: Откуда названия у станиц Бесленеевская и Хамкетинская?
+share-title: "Бесленеевская и Хамкетинская: откуда эти названия?"
 share-description: Закубанские станицы Бесленеевская и Хамкетинская были основаны в 60-х годах ХIХ в. на последнем этапе Кавказской войны и числились как казачьи.
 keywords: Бесленеевская, Хамкетинская, Лакруш
 head-extra: [amp_link.html, etc/_aboutme.html, ads/ads.html, etc/_micro_besleneevskaya-and-khamketinskaya.html]

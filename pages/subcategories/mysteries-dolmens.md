@@ -4,11 +4,11 @@ title: Тайны тысячелетних дольменов Кубани
 subtitle: Публикация посвящена памятникам археологии — дольменам Западного Кавказа
 cover-img: ["/img/example-logos/main-cover.jpg" : "Генеральная карта Кавказского края, изданная в 1858 г."]
 share-img: /img/example-logos/main-cover4x3.jpg
-share-title: Тайны дольменов
+share-title: "Тайны дольменов Кубани: разгаданы ли они?"
 share-description: Путешествуя по Кубани на автомобиле или пешком с рюкзаком и совершая экскурсии, гости нашего края, посещают уникальные памятники археологии — дольмены.
 language: ru
 keywords: древность, археология
-last_modified_at: 2022-01-14 10:00:00 +0300
+last_modified_at: 2024-11-07 20:00:00 +0300
 date: 2020-09-09 16:00
 head-extra: [amp_link.html, etc/_aboutme.html,  ads/ads.html]
 footer-extra: [ads/ads-footer.html]

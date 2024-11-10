@@ -1,19 +1,20 @@
 это регулярка для автосоздания ссылок на якоря по тексту
 (\[[0-9, ]+\])
-[$1](#t115-$1)
+[$1](#t116-$1)
 >ДЛЯ NOTEPAD++
-[$1]\(#t115-$1\)
+[$1]\(#t116-$1\)
 сложные ссылки, состоящие из нескольких сносок поправить вручную на первое число
 
 [12, 13]
 а это регулярка для создания собственно якорей на списке литературы (два пробела в конце после $3)
 ^([0-9]+)([\. ]+)(.*)
-$1. <a name="t115-[$1]"></a>$3
+$1. <a name="t116-[$1]"></a>$3
 
-для приличия - "t115" менять на номер главы
+для приличия - "t116" менять на номер главы
 
-https://yandex.com/indexnow?url=https://viktor-dnk.ru/toponymy/timashevsk/&key=3fcb84f1e797419884246257a926ebc0
-https://viktor-dnk.ru/toponymy/timashevsk/?utm_source=telegram&utm_medium=social
+https://yandex.com/indexnow?url=https://viktor-dnk.ru/toponymy/kala/&key=3fcb84f1e797419884246257a926ebc0
+
+https://viktor-dnk.ru/toponymy/kala/?utm_source=telegram&utm_medium=social
 ссылка с описанием
 [Текст](/с/с/ы/л/к/а/ "Заголовок")
 
@@ -21,7 +22,7 @@ https://viktor-dnk.ru/toponymy/timashevsk/?utm_source=telegram&utm_medium=social
 ^(\t<f)(.*)([\[\[])
 
 так выглядит якорь в описании к картинке
-<a href="#t115-[6]">[6]</a>
+<a href="#t116-[7]">[7]</a>
 
 это поиск двойных пробелов но не в конце строки
   (?!$)

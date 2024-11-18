@@ -4,11 +4,11 @@ title: Большой Сочи и топонимика вокруг
 subtitle: Топонимика Большого Сочи и его окрестностей
 cover-img: ["/img/example-logos/main-cover.jpg" : "Генеральная карта Кавказского края, изданная в 1858 г."]
 share-img: /img/example-logos/main-cover4x3.jpg
-share-title: Топонимика вокруг Сочи
-share-description: Город-курорт Сочи входит в состав Краснодарского края, разделён на 4 внутригородских района - Адлерский, Лазаревский, Хостинский и Центральный.
+share-title: "Сочи: от Шепси до Псоу: географические названия"
+share-description: "Путешествие по карте Сочи: история названий от Шепси до Псоу. Узнайте, как географические особенности повлияли на названия мест."
 language: ru
 keywords: карты, история, география, ономастика, Сочи
-last_modified_at: 2023-05-10 19:00:00 +0300
+last_modified_at: 2024-11-18 20:00:00 +0300
 date: 2022-01-14 16:00:00
 permalink: /toponymy/around-sochi/
 head-extra: [amp_link.html, etc/_aboutme.html, ads/ads.html, etc/_micro_around-sochi.html]

@@ -144,7 +144,7 @@ img-caption: Русло реки Сула среди полей
 
 <figure>
     <a href="/img/toponymy/steppe-rivers/Kosataya-gully-b.jpg" title="Балка Косатая"><img src="/img/toponymy/steppe-rivers/Kosataya-gully.jpg" alt="Балка Косатая" width="600" height="518"/></a>
-    <figcaption>Балка Косатая у западной окраины станицы Андреевской (https://yandex.ru/maps)</figcaption>
+    <figcaption>Балка Косатая у западной окраины станицы Андреевской (maps.ya.ru)</figcaption>
 </figure>
 
 

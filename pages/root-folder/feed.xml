@@ -10,11 +10,11 @@ permalink: /feed.xml
 		<description>Дорога не кончается</description>
 		<image>
 			<url>https://viktor-dnk.ru/img/example-logos/rss.png</url>
-			<title>Дорога не кончается</title>
+			<title>Заметки географа</title>
 			<link><![CDATA[{{ '' | absolute_url | append: '?utm_source=email&utm_medium=news&utm_campaign=rss&utm_term=feed' }}]]></link>
 			<width>88</width>
 			<height>88</height>
-			<description>Заметки географа</description>
+			<description>Дорога не кончается</description>
 		</image>
 		<language>ru</language>
 		<link><![CDATA[{{ '' | absolute_url | append: '?utm_source=email&utm_medium=news&utm_campaign=rss&utm_term=feed' }}]]></link>
@@ -28,8 +28,8 @@ permalink: /feed.xml
 			<pubDate>{{ toponymy.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
 			<link><![CDATA[{{ toponymy.url | absolute_url | append: '?utm_source=email&utm_medium=news&utm_campaign=rss&utm_term=feed' }}]]></link>
 			<category>{{ toponymy.category | join: ", " | replace:'sea-coast','Топонимы побережья' | replace:'lago-naki','Лагонаки' | replace:'around-sochi','Большой Сочи' | replace:'around-krasnodar','Окрестности Краснодара' | replace:'hydro','Водные объекты' | replace:'oikonyms','Населённые пункты' | replace:'mountains','Горы' | replace:'in-memory','Память в камне' }}</category>
-			<author>Ковешников В.Н.</author>
-			<enclosure url="{{ toponymy.url | absolute_url | replace:'.ru/','.ru/img/' | append: 'cover-s.jpg'}}" type="image/jpeg"/>
+			<author>dnk_v@list.ru (Koveshnikov V.N.)</author>
+			<enclosure url="{{ toponymy.url | absolute_url | replace:'.ru/','.ru/img/' | append: 'cover-s.jpg'}}" length="205687" type="image/jpeg"/>
 			<guid isPermaLink="true"><![CDATA[{{ toponymy.url | absolute_url | append: '?utm_source=email&utm_medium=news&utm_campaign=rss&utm_term=feed' }}]]></guid>
 		</item>
     {% endfor %}
@@ -42,8 +42,8 @@ permalink: /feed.xml
 			<pubDate>{{ mysteries-dolmens.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
 			<link><![CDATA[{{ mysteries-dolmens.url | absolute_url | append: '?utm_source=email&utm_medium=news&utm_campaign=rss&utm_term=feed' }}]]></link>
 			<category>История, Археология, Дольмены</category>
-			<author>Ковешников В.Н.</author>
-			<enclosure url="{{ mysteries-dolmens.url | absolute_url | replace:'.ru/','.ru/img/' | append: 'cover-s.jpg'}}" type="image/jpeg"/>
+			<author>dnk_v@list.ru (Koveshnikov V.N.)</author>
+			<enclosure url="{{ mysteries-dolmens.url | absolute_url | replace:'.ru/','.ru/img/' | append: 'cover-s.jpg'}}" length="205687" type="image/jpeg"/>
 			<guid isPermaLink="true"><![CDATA[{{ mysteries-dolmens.url | absolute_url | append: '?utm_source=email&utm_medium=news&utm_campaign=rss&utm_term=feed' }}]]></guid>
 		</item>
     {% endfor %}	

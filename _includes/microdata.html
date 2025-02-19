@@ -33,6 +33,18 @@
 
 <script type="application/ld+json">
     {
+      "@context": "https://schema.org",
+      "@type": "ImageObject",
+      "contentLocation": "{{ page.location }}",
+      "contentUrl": "{{ page.cover-img[0].first.first | absolute_url }}",
+      "datePublished": "{{ page.date | date_to_xmlschema }}",
+      "description": "{{ page.share-description }}",
+      "name": "{{ page.img-caption }}"
+    }
+</script>
+
+<script type="application/ld+json">
+    {
         "@context": "https://schema.org/",
         "@type": "BreadcrumbList",
         "itemListElement": [

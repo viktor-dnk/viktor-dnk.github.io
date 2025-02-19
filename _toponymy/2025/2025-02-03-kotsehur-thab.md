@@ -10,7 +10,7 @@ category: [mountains, hydro, oikonyms, sea-coast]
 share-title: "Тайны топонимов Коцехур и Тхаб: история и загадки названий"
 share-description: "Тайны топонимов Коцехур и Тхаб: история, переводы и версии происхождения. Популяризация кубанской топонимики через карты и словари. Интересно для всех!"
 keywords: Коцехур, Тхаб
-head-extra: [amp_link.html, etc/_aboutme.html, ads/ads.html]
+head-extra: [amp_link.html, etc/_aboutme.html, ads/ads.html, etc/_micro_kotsehur-thab.html]
 location: Краснодарский край
 img-caption: Вид на восточную часть южного склона хребта Коцехур
 ---

@@ -10,7 +10,7 @@ category: [oikonyms]
 share-title: Тимашёвск или Тимашевск, а может быть ещё как-то?
 share-description: Город Тимашевск или Тимашёвск известен на Кубани у коренных жителей как Тимашовка — это народное название закрепилось ещё в бытность станицы.
 keywords: Тимашевск, Тимашёвск, Тимашовка, Тымошивськый курень
-head-extra: [amp_link.html, etc/_aboutme.html, ads/ads.html]
+head-extra: [amp_link.html, etc/_aboutme.html, ads/ads.html, etc/_micro_timashevsk.html]
 location: река Мигута, Краснодарский край
 img-caption: Стелла на въезде в город Тимашёвск
 ---

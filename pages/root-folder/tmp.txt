@@ -8,5 +8,7 @@ permalink: /tmp.txt
 
 
 
-{% assign sorted = site.toponymy | sort: 'last_modified_at' | reverse %}{% for work_item in sorted limit:8  %}
-<li itemprop="name" role="menuitem"><a title="{{ toponymy.title | xml_escape }}" href="{{ toponymy.url | relative_url }}">{{ toponymy.share-title | xml_escape }}</a></li>{% endfor %}                        
+{% assign sorted = site.toponymy | sort: 'last_modified_at' | reverse %}
+{% for toponymy in sorted limit:8  %}
+<li itemprop="name" role="menuitem"><a title="{{ toponymy.title | xml_escape }}" href="{{ toponymy.url | relative_url }}">{{ toponymy.share-title | xml_escape }}</a></li>
+{% endfor %}

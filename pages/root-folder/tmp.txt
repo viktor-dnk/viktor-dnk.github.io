@@ -4,7 +4,7 @@ title: "test"
 permalink: /tmp.txt
 ---
 
-{% for toponymy in site.toponymy sort: 'last_modified_at' | reverse | limit:8 %}
+{% for toponymy in site.toponymy | sort: 'last_modified_at' | reverse | limit:8 %}
                         <li itemprop="name" role="menuitem"><a title="{{ toponymy.title | xml_escape }}" href="{{ toponymy.url | relative_url }}">{{ toponymy.share-title | xml_escape }}</a></li>{% endfor %}
 
 

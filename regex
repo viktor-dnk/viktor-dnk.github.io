@@ -1,20 +1,20 @@
 это регулярка для автосоздания ссылок на якоря по тексту
 (\[[0-9, ]+\])
-[$1](#t123-$1)
+[$1](#t125-$1)
 >ДЛЯ NOTEPAD++
-[$1]\(#t123-$1\)
+[$1]\(#t125-$1\)
 сложные ссылки, состоящие из нескольких сносок поправить вручную на первое число
 
 [12, 13]
 а это регулярка для создания собственно якорей на списке литературы (два пробела в конце после $3)
 ^([0-9]+)([\. ]+)(.*)
-$1. <a name="t123-[$1]"></a>$3
+$1. <a name="t125-[$1]"></a>$3
 
-для приличия - "t123" менять на номер главы
+для приличия - "t125" менять на номер главы
 
-https://yandex.com/indexnow?url=https://viktor-dnk.ru/toponymy/northernmost-rivers-of-the-Krasnodar-region-p1/&key=3fcb84f1e797419884246257a926ebc0
+https://yandex.com/indexnow?url=https://viktor-dnk.ru/toponymy/northernmost-rivers-of-the-Krasnodar-region-p2/&key=3fcb84f1e797419884246257a926ebc0
 
-https://viktor-dnk.ru/toponymy/northernmost-rivers-of-the-Krasnodar-region-p1/?utm_source=telegram&utm_medium=social
+https://viktor-dnk.ru/toponymy/northernmost-rivers-of-the-Krasnodar-region-p2/?utm_source=telegram&utm_medium=social
 ссылка с описанием
 [Текст](/с/с/ы/л/к/а/ "Заголовок")
 
@@ -32,7 +32,7 @@ https://viktor-dnk.ru/toponymy/northernmost-rivers-of-the-Krasnodar-region-p1/?u
 ^(\t<f)(.*)([\[\[])
 
 так выглядит якорь в описании к картинке
-<a href="#t123-[7]">[7]</a>
+<a href="#t125-[7]">[7]</a>
 
 это поиск двойных пробелов но не в конце строки
   (?!$)
@@ -55,8 +55,8 @@ https://viktor-dnk.ru/toponymy/northernmost-rivers-of-the-Krasnodar-region-p1/?u
 <img alt="$2" title="$2" style$3
 
 redirect_from:
-  - /post/123456789/
-  - /post/123456789/my-amazing-post/
+  - /post/125456789/
+  - /post/125456789/my-amazing-post/
 
 img-desc font-size
   было

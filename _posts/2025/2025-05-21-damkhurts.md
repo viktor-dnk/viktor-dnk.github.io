@@ -1,6 +1,6 @@
 ---
 title: Озеро Дамхорс или Инпси
-subtitle: (© В.Н. Ковешников
+subtitle: © В.Н. Ковешников
 thumbnail-caption: Озеро Дамхорс, вид из космоса
 categories: toponymy
 date: 2025-05-21 20:00 +0300

@@ -1,27 +1,27 @@
 это регулярка для автосоздания ссылок на якоря по тексту
 (\[[0-9, ]+\])
-[$1](#t130-$1)
+[$1](#t131-$1)
 >ДЛЯ NOTEPAD++
-[$1]\(#t130-$1\)
+[$1]\(#t131-$1\)
 сложные ссылки, состоящие из нескольких сносок поправить вручную на первое число
 
 
 новая регулярка:
 (\[(\d+)(?:,\s*\d+)*\])
-[$1](#t130-[$2])
+[$1](#t131-[$2])
 
 
 
 [12, 13]
 а это регулярка для создания собственно якорей на списке литературы (два пробела в конце после $3)
 ^([0-9]+)([\. ]+)(.*)
-$1. <a name="t130-[$1]"></a>$3
+$1. <a name="t131-[$1]"></a>$3
 
-для приличия - "t130" менять на номер главы
+для приличия - "t131" менять на номер главы
 
-https://yandex.com/indexnow?url=https://viktor-dnk.ru/toponymy/pshish/&key=3fcb84f1e797419884246257a926ebc0
+https://yandex.com/indexnow?url=https://viktor-dnk.ru/toponymy/baranakha-and-bolshe/&key=3fcb84f1e797419884246257a926ebc0
 
-https://viktor-dnk.ru/toponymy/pshish/?utm_source=telegram&utm_medium=social
+https://viktor-dnk.ru/toponymy/baranakha-and-bolshe/?utm_source=telegram&utm_medium=social
 ссылка с описанием
 [Текст](/с/с/ы/л/к/а/ "Заголовок")
 
@@ -39,7 +39,7 @@ https://viktor-dnk.ru/toponymy/pshish/?utm_source=telegram&utm_medium=social
 ^(\t<f)(.*)([\[\[])
 
 так выглядит якорь в описании к картинке
-<a href="#t130-[1]">[1]</a>
+<a href="#t131-[1]">[1]</a>
 
 это поиск двойных пробелов но не в конце строки
   (?!$)

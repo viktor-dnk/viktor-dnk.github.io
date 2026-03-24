@@ -39,7 +39,7 @@ https://viktor-dnk.ru/toponymy/doguaco/?utm_source=telegram&utm_medium=social
 ^(\t<f)(.*)([\[\[])
 
 так выглядит якорь в описании к картинке
-<a href="#t135-[1]">[1]</a>
+<a href="#t135-[11]">[11]</a>
 
 это поиск двойных пробелов но не в конце строки
   (?!$)

@@ -88,32 +88,45 @@ img-caption: гора Индюк
 
 Автор этого очерка многократно бывал на горе Индюк, а в мае 1997 г., пришлось осматривать непонятные каменные сооружения на склоне этого массива. Мне тогда показалось, что они относятся к периоду Великой Отечественной войны 1941-1945 гг. и являлись штабными, госпитальными или складскими постройками временного назначения — это только предположение. Отмечу, что **каменные кладки мы обнаружили на юго-западном отроге горы Индюк**, который ограничивается с юга долиной речки Скакуха, левого притока реки Чилипси, а не как указано в статье «…на северо-западном склоне…» [[4]](#t133-[4]).
 
+<!-- Блок структурированных данных (JSON-LD) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Фрагмент видеозаписи, осмотр каменных сооружений на юго-западном склоне горы Индюк",
+  "description": "Фрагмент видеозаписи, произведена в мае 1997 г., осмотр каменных сооружений на юго-западном склоне горы Индюк",
+  "thumbnailUrl": [
+    "https://viktor-dnk.ru/img/toponymy/indyuk-railway/inspection-of-stone-structures-on-the-slope-of-Mount-Indyuk-poster.jpg"
+  ],
+  "uploadDate": "1997-05-01T00:00:00+03:00",
+  "duration": "PT0M53S",
+  "contentUrl": "https://viktor-dnk.ru/img/toponymy/indyuk-railway/inspection-of-stone-structures-on-the-slope-of-Mount-Indyuk.mp4",
+  "embedUrl": "https://viktor-dnk.ru/img/toponymy/indyuk-railway/inspection-of-stone-structures-on-the-slope-of-Mount-Indyuk.mp4",
+  "license": "https://viktor-dnk.ru/info/copyright/",
+  "acquireLicensePage": "https://viktor-dnk.ru/info/contacts/",
+  "copyrightNotice": "Viktor Koveshnikov",
+  "creditText": "Заметки географа",
+  "creator": {
+    "@type": "Person",
+    "name": "Viktor Koveshnikov"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Заметки географа",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://viktor-dnk.ru/logo.png"
+    }
+  }
+}
+</script>
+
 <figure>
-      <div itemscope itemtype="https://schema.org/VideoObject">
-         <video itemprop="contentUrl" width="640" height="504" controls poster="/img/toponymy/indyuk-railway/inspection-of-stone-structures-on-the-slope-of-Mount-Indyuk-poster.jpg">
-            <source src="/img/toponymy/indyuk-railway/inspection-of-stone-structures-on-the-slope-of-Mount-Indyuk.mp4" type="video/mp4" />
-            <source src="/img/toponymy/indyuk-railway/inspection-of-stone-structures-on-the-slope-of-Mount-Indyuk.webm" type="video/webm" />
-            Ваш браузер не поддерживает видео.
-         </video>
-         <meta itemprop="name" content="Фрагмент видеозаписи, осмотр каменных сооружений на юго-западном склоне горы Индюк" />
-         <meta itemprop="description" content="Фрагмент видеозаписи, произведена в мае 1997 г., осмотр каменных сооружений на юго-западном склоне горы Индюк" />
-         <meta itemprop="duration" content="PT0M53S" />
-         <meta itemprop="thumbnailUrl" content="/img/toponymy/indyuk-railway/inspection-of-stone-structures-on-the-slope-of-Mount-Indyuk-poster.jpg" />
-         <meta itemprop="uploadDate" content="1997-05-01" />
-         <meta itemprop="license" content="https://viktor-dnk.ru/info/copyright/" />
-         <meta itemprop="acquireLicensePage" content="https://viktor-dnk.ru/info/contacts/" />
-         <meta itemprop="copyrightNotice" content="Viktor Koveshnikov" />
-         <meta itemprop="creditText" content="Заметки географа" />
-         <div itemprop="creator" itemscope itemtype="http://schema.org/Person">
-            <meta itemprop="name" content="Viktor Koveshnikov" />
-         </div>
-         <div itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-            <meta itemprop="name" content="Заметки географа" />
-            <div itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
-               <meta itemprop="url" content="https://viktor-dnk.ru/logo.png" />
-            </div>
-         </div>
-      </div>
+   <video width="640" height="504" controls poster="/img/toponymy/indyuk-railway/inspection-of-stone-structures-on-the-slope-of-Mount-Indyuk-poster.jpg">
+      <source src="/img/toponymy/indyuk-railway/inspection-of-stone-structures-on-the-slope-of-Mount-Indyuk.mp4" type="video/mp4" />
+      <source src="/img/toponymy/indyuk-railway/inspection-of-stone-structures-on-the-slope-of-Mount-Indyuk.webm" type="video/webm" />
+      Ваш браузер не поддерживает видео.
+   </video>
    <figcaption>Фрагмент видеозаписи, произведена в мае 1997 г., осмотр каменных сооружений на юго-западном склоне горы Индюк (видеозапись автора)</figcaption>
 </figure>
 

@@ -5,12 +5,12 @@ description: "Этот очерк является дополнением оче
 cover-img: ["/img/toponymy/indyuk-railway/cover.jpg" : "гора Индюк"]
 thumbnail-caption: Карта 1877 г., где значится Дубовый Рынок
 date: 2026-02-01 15:00 +0300
-last_modified_at: 2026-02-01 15:00 +0300
+last_modified_at: 2026-03-25 12:00 +0300
 category: [mountains, oikonyms]
 share-title: "Узкоколейка и карьер у горы Индюк: правда или миф?"
 share-description: "Существовала ли узкоколейная железная дорога у горы Индюк при строительстве Армавир-Туапсинской ж/д? И что за «таинственный город» из каменных кладок обнаружен на её склонах?"
 keywords: гора Индюк, узкоколейка, Армавир-Туапсинская железная дорога, каменный карьер, Туапсинка, дольмены, Краснодарский край, Туапсинская оборонительная операция, Чилипси
-head-extra: [amp_link.html, etc/_aboutme.html, ads/ads.html]
+head-extra: [amp_link.html, etc/_aboutme.html, ads/ads.html, etc/_micro_indyuk-railway.html]
 location: гора Индюк, Краснодарский край
 img-caption: гора Индюк
 ---

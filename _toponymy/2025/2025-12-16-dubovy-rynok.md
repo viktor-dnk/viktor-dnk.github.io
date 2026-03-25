@@ -5,12 +5,12 @@ description: "На Таманском полуострове есть необы
 cover-img: ["/img/toponymy/dubovy-rynok/cover.jpg" : "Гора Дубовый Рынок с высоты птичьего полёта, 2022"]
 thumbnail-caption: Карта 1877 г., где значится Дубовый Рынок
 date: 2025-12-16 12:00 +0300
-last_modified_at: 2025-12-16 12:00 +0300
+last_modified_at: 2026-03-25 12:00 +0300
 category: [mountains, oikonyms]
 share-title: "Дубовый Рынок: рынок дуба или место невольничьих торгов?"
 share-description: "Почему на Тамани есть место под названием Дубовый Рынок? Лес, грязевой вулкан, рынок древесины или невольничий аукцион? Исследуем топоним и его версии."
 keywords: Дубовый Рынок, Таманский полуостров, топонимика, Ахтанизовский лиман, грязевой вулкан, дубовый лес, рынок, работорговля, памятник природы, Старотитаровская
-head-extra: [amp_link.html, etc/_aboutme.html, ads/ads.html]
+head-extra: [amp_link.html, etc/_aboutme.html, ads/ads.html, etc/_micro_dubovy-rynok.html]
 location: гора Дубовый Рынок, Краснодарский край
 img-caption: Гора Дубовый Рынок
 ---

@@ -5,12 +5,12 @@ description: "В очерке рассматриваются водные объ
 cover-img: ["/img/toponymy/perevoloka/cover.jpg" : "Казачий ерик у горы Дубовый Рынок, Павел Маслов, июль 2022 г. (maps.ya.ru)"]
 thumbnail-caption: Лотосы в Ахтанизовсом лимане
 date: 2025-06-27 18:00 +0300
-last_modified_at: 2025-06-27 18:00 +0300
+last_modified_at: 2026-03-25 12:00 +0300
 category: [hydro, oikonyms]
 share-title: "История дельты Кубани: Переволока и Темрюкское гирло"
 share-description: "Река Переволока, Темрюкское гирло, Казачий ерик и Петрушин рукав: история, топонимы и роль в дельте Кубани."
 keywords: дельта Кубани, Переволока, Темрюкское гирло, Казачий ерик, Петрушин рукав, Ахтанизовский лиман, река Кубань, топонимы, казаки, гидрология, Раздёры, Разнокол
-head-extra: [amp_link.html, etc/_aboutme.html, ads/ads.html]
+head-extra: [amp_link.html, etc/_aboutme.html, ads/ads.html, etc/_micro_perevoloka.html]
 location: Краснодарский край
 img-caption: Долина реки Цахвоа и озеро Дамхорс
 ---

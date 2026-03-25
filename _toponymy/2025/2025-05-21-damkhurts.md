@@ -5,12 +5,12 @@ description: "Озеро Дамхарс или Дамхорс расположе
 cover-img: ["/img/toponymy/damkhurts/cover.jpg" : "Долина реки Цахвоа и озеро Дамхорс (maps.google.com, апрель 2020)"]
 thumbnail-caption: Озеро Дамхорс, вид из космоса
 date: 2025-05-21 20:00 +0300
-last_modified_at: 2025-05-21 20:00 +0300
+last_modified_at: 2026-03-25 12:00 +0300
 category: [hydro, oikonyms]
 share-title: "Дамхорс или Инпси? Тайны названия озера в Кавказском заповеднике"
 share-description: "Почему озеро Дамхорс называют Инпси? Анализ топонимики, исторических данных и природных феноменов уникального водоёма."
 keywords: Озеро Дамхорс, Озеро Инпси, Кавказский заповедник, Топонимика Кавказа, Река Цахвоа, Гора Дамхурц, Абазинские топонимы, Природные озера России, Загадочные места Кавказа, География Краснодарского края
-head-extra: [amp_link.html, etc/_aboutme.html, ads/ads.html]
+head-extra: [amp_link.html, etc/_aboutme.html, ads/ads.html, etc/_micro_damkhurts.html]
 location: Краснодарский край
 img-caption: Долина реки Цахвоа и озеро Дамхорс
 ---

@@ -5,12 +5,12 @@ description: "Среди рек степей Краснодарского кра
 cover-img: ["/img/toponymy/tributaries-Eya-River/cover.jpg" : "Река Ея в станице Кущёвской, 2013, maps.google.com"]
 thumbnail-caption: Река Ея между станицами Кисляковской и Незамаевской
 date: 2025-04-02 19:00 +0300
-last_modified_at: 2025-04-02 19:00 +0300
+last_modified_at: 2026-03-25 12:00 +0300
 category: [hydro, oikonyms]
 share-title: "Реки бассейна Еи: уникальные притоки"
 share-description: "Узнайте о реках бассейна Еи и их уникальных названиях, таких как Сосыка, Весёлая, Терновка, Куго-Ея, Кавалерка, Грузская, Плоская"
 keywords: Сосыка, Весёлая, Терновка, Горькая, Водяная, Плоская, Кавалерка, Грузская, Куго–Ея, Ея
-head-extra: [amp_link.html, etc/_aboutme.html, ads/ads.html]
+head-extra: [amp_link.html, etc/_aboutme.html, ads/ads.html, etc/_micro_tributaries-Eya-River.html]
 location: Кущёвская, Краснодарский край
 img-caption: Река Ея в станице Кущёвской
 ---

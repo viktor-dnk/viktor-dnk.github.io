@@ -10,7 +10,7 @@ category: [hydro, oikonyms]
 share-title: "Секреты названий: Чубурка, Чебурголь..."
 share-description: "Загадочные названия северных рек Кубани (Чубурка, Эльбузд) и озёр. Версии происхождения топонимов, исторические карты."
 keywords: Мокрая Чубурка, Эльбузд, Чебурголь, Чембурское озеро, чабрец, кермек, Чумбурка, Чебаркуль, чембарник
-head-extra: [amp_link.html, etc/_aboutme.html, ads/ads.html, etc/_micro_northernmost-rivers-of-the-Krasnodar-region-p1.html]
+head-extra: [amp_link.html, etc/_aboutme.html, ads/ads.html, etc/tp_micro_faq_northernmost-rivers-of-the-Krasnodar-region-p1.html]
 location: Краснодарский край
 img-caption: Кермек
 ---

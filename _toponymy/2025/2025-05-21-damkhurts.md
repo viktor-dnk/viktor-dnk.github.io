@@ -10,7 +10,7 @@ category: [hydro, oikonyms]
 share-title: "Дамхорс или Инпси? Тайны названия озера в Кавказском заповеднике"
 share-description: "Почему озеро Дамхорс называют Инпси? Анализ топонимики, исторических данных и природных феноменов уникального водоёма."
 keywords: Озеро Дамхорс, Озеро Инпси, Кавказский заповедник, Топонимика Кавказа, Река Цахвоа, Гора Дамхурц, Абазинские топонимы, Природные озера России, Загадочные места Кавказа, География Краснодарского края
-head-extra: [amp_link.html, etc/_aboutme.html, ads/ads.html, etc/_micro_damkhurts.html]
+head-extra: [amp_link.html, etc/_aboutme.html, ads/ads.html, etc/tp_micro_faq_damkhurts.html]
 location: Краснодарский край
 img-caption: Долина реки Цахвоа и озеро Дамхорс
 ---

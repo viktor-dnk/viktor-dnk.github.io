@@ -10,7 +10,7 @@ category: [hydro, oikonyms]
 share-title: "Тайны реки Челбас: истоки, притоки и топонимы"
 share-description: "Исследуем реку Челбас: её протяжённость, притоки и загадки происхождения топонимов Тихорецкая и Платава."
 keywords: Средний Челбас, Сухой Челбас, Сухая Челбаска, Водяная, Тихонькая, Платава
-head-extra: [amp_link.html, etc/_aboutme.html, ads/ads.html, etc/_micro_tributaries-Chelbas-River.html]
+head-extra: [amp_link.html, etc/_aboutme.html, ads/ads.html, etc/tp_micro_faq_tributaries-Chelbas-River.html]
 location: пос. Крутой, Краснодарский край
 img-caption: Истоки р. Тихонькая
 ---

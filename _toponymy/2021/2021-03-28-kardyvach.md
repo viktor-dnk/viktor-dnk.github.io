@@ -5,7 +5,7 @@ description: Кардывачский горный узел, является с
 cover-img: ["/img/toponymy/kardyvach/cover.jpg" : "Озеро Кардывач, вид с юго-западной стороны."]
 thumbnail-caption: озеро Верхний Кардывач
 date: 2021-03-28 21:40
-last_modified_at: 2021-03-28 21:40 +0300
+last_modified_at: 2026-03-27 15:00:00 +0300
 category: [around-sochi, mountains]
 share-title: Тайны Кардывачского горного узла
 share-description: Кардывачский горный узел, является сложным орографическим участком Главного Кавказского хребта Большого Кавказа.

@@ -12,7 +12,7 @@ share-description: Топоним Акарагварта имеет сложно
 keywords: Кардывач, Акарагварта, пик Смидовича, Акварагварта
 location: Пик Акарагварта, Краснодарский край
 img-caption: Пик Акарагварта или Смидовича
-head-extra: [amp_link.html, etc/_aboutme.html, ads/ads.html]
+head-extra: [amp_link.html, etc/_aboutme.html, ads/ads.html, etc/tp_micro_faq_akaragwarta.html]
 ---
 {: .box-note}
 ## {{ page.share-title }} [(окончание очерка «Загадки горного узла Кардывач»)](/toponymy/kardyvach/)

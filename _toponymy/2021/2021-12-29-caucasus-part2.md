@@ -12,7 +12,7 @@ share-description: Название Кавказ впервые встречае
 keywords: Эльбрус, Цахвоа, Кавказ, амазонки
 location: гора Эльбрус
 img-caption: Вид с горы Машук (993,7 м)
-head-extra: [amp_link.html, etc/_aboutme.html, ads/ads.html]
+head-extra: [amp_link.html, etc/_aboutme.html, ads/ads.html, etc/tp_micro_faq_caucasus-part2.html]
 ---
 {: .box-note}
 ## {{ page.share-title }}

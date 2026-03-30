@@ -5,12 +5,12 @@ description: На карте Краснодарского края можно н
 cover-img: ["/img/toponymy/navaginka/cover.jpg" : "Железнодорожный мост через реку Пшиш у входа в Навагинский туннель (google.com, 2013 г.)"]
 thumbnail-caption: Навагинский форт бывший форт Александрия
 date: 2022-03-30 20:00 +0300
-last_modified_at: 2022-03-30 20:00 +0300
+last_modified_at: 2026-03-30 12:00:00 +0300
 category: [in-memory, around-sochi, sea-coast, oikonyms]
 share-title: Навагинка и Навагинское - история топонима
 share-description: В Краснодарском крае можно найти несколько названий в основу которых входит наименование 78-го Навагинского пехотного полка Российской императорской армии.
 keywords: Навагинка, Навагинское
-head-extra: [amp_link.html, etc/_aboutme.html, ads/ads.html, etc/_micro_navaginka.html]
+head-extra: [amp_link.html, etc/_aboutme.html, ads/ads.html, etc/tp_micro_faq_navaginka.html]
 location: село Навагинское, Краснодарский край
 img-caption: Железнодорожный мост через реку Пшиш у входа в Навагинский туннель
 ---

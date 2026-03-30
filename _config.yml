@@ -228,6 +228,8 @@ exclude:
   - README.md
   - screenshot.png
   - template.md
+  - update_headers.py
+  - update_date.py
   - regex
   - docs/
   - tmp/

@@ -5,14 +5,14 @@ description: Экзоэтноним название этноса (народа)
 cover-img: ["/img/toponymy/circassian-part1/cover.jpg" : "Собрание черкесских князей"]
 thumbnail-caption: Кабардинский уздень
 date: 2022-12-17 19:20 +0300
-last_modified_at: 2024-11-07 22:00:00 +0300
+last_modified_at: 2026-03-30 12:00:00 +0300
 category: [oikonyms, mountains, hydro]
 share-title: "Тайна происхождения слова «черкасы»"
 share-description: Экзоэтноним название этноса (народа), данное другими народами. Например, скифы экзоэтноним древнегреческого происхождения, их самоназвание сколоты.
 keywords: Черкесы, Новочеркасск, Черкассы, Кабардинцы
 location: Новочеркасск, Ростовская область
 img-caption: Собрание черкесских князей
-head-extra: [amp_link.html, etc/_aboutme.html, ads/ads.html]
+head-extra: [amp_link.html, etc/_aboutme.html, ads/ads.html, etc/tp_micro_faq_circassian-part1.html]
 ---
 {: .box-note}
 ## {{ page.share-title }}

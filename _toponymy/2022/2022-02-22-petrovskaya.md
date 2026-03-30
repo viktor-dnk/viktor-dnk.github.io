@@ -5,12 +5,12 @@ description: Станица Петровская, как и Павловская
 cover-img: ["/img/toponymy/petrovskaya/cover.jpg" : "Пейзаж на окраине станицы Петровской (февраль 2021, google.com)"]
 thumbnail-caption: Герб станицы Петровской
 date: 2022-02-22 18:50 +0300
-last_modified_at: 2022-02-23 09:30 +0300
+last_modified_at: 2026-03-30 12:00:00 +0300
 category: oikonyms
 share-title: Станица Петровская - история куренного селения
 share-description: Станица Петровская была основана на Кубани во время массового переселения в Черноморию в 1821-1825 гг. жителей Полтавской и Черниговской губерний.
 keywords: станица Петровская
-head-extra: [amp_link.html, etc/_aboutme.html, ads/ads.html, etc/_micro_petrovskaya.html]
+head-extra: [amp_link.html, etc/_aboutme.html, ads/ads.html, etc/tp_micro_faq_petrovskaya.html]
 location: станица Петровская, Краснодарский край
 img-caption: Пейзаж на окраине станицы Петровской
 ---

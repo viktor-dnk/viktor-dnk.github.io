@@ -5,14 +5,14 @@ description: Экзоэтноним название этноса (народа)
 cover-img: ["/img/toponymy/circassian-part1/cover.jpg" : "Собрание черкесских князей"]
 thumbnail-caption: Черкес стреляющий из лука
 date: 2022-12-20 19:00 +0300
-last_modified_at: 2024-11-07 22:00:00 +0300
+last_modified_at: 2026-03-30 12:00:00 +0300
 category: [oikonyms, mountains, hydro]
 share-title: Почему их назвали черкесами?
 share-description: Значение слова черкес было известно ещё до ХIХ в. им называли адыгов разноязычные соседние народы существуют различные версии его написания.
 keywords: Черкесы, адыги, Черкассы, Кабардинцы
 location: Новочеркасск, Ростовская область
 img-caption: Собрание черкесских князей
-head-extra: [amp_link.html, etc/_aboutme.html, ads/ads.html]
+head-extra: [amp_link.html, etc/_aboutme.html, ads/ads.html, etc/tp_micro_faq_circassian-part1.html]
 ---
 {: .box-note}
 ## {{ page.share-title }}

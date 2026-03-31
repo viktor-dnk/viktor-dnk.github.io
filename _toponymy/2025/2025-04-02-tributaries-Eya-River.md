@@ -10,7 +10,7 @@ category: [hydro, oikonyms]
 share-title: "Реки бассейна Еи: уникальные притоки"
 share-description: "Узнайте о реках бассейна Еи и их уникальных названиях, таких как Сосыка, Весёлая, Терновка, Куго-Ея, Кавалерка, Грузская, Плоская"
 keywords: Сосыка, Весёлая, Терновка, Горькая, Водяная, Плоская, Кавалерка, Грузская, Куго–Ея, Ея
-head-extra: [amp_link.html, etc/_aboutme.html, ads/ads.html, etc/tp_micro_faq_tributaries-Eya-River.html]
+head-extra: [amp_link.html, etc/_aboutme.html, ads/ads.html, etc/micro/faq/toponymy/tributaries-Eya-River.html]
 location: Кущёвская, Краснодарский край
 img-caption: Река Ея в станице Кущёвской
 ---

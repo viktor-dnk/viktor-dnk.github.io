@@ -10,7 +10,7 @@ category: [hydro, oikonyms]
 share-title: Кукса и Чамлык - правобережные притоки реки Лаба
 share-description: Подробно рассмотрим место расположения истоков и долин рек Кукса и Чамлык (правобережные притоки р. Лаба), и изучим истории происхождения их названий.
 keywords: Чамлык, Кукса, Синюха, Грязнуха, Лаба
-head-extra: [amp_link.html, etc/_aboutme.html, ads/ads.html, etc/tp_micro_faq_right-bank-tributaries-laba-river-p1.html]
+head-extra: [amp_link.html, etc/_aboutme.html, ads/ads.html, etc/micro/faq/toponymy/right-bank-tributaries-laba-river-p1.html]
 location: Краснодарский край, ст. Темиргоевская
 img-caption: Место впадения р. Чамлык в р. Лаба (ст. Темиргоевская)
 ---

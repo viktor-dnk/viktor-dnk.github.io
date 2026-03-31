@@ -10,7 +10,7 @@ category: [mountains, oikonyms]
 share-title: "Баранаха и Больше: тайны кавказских топонимов"
 share-description: "Раскрываем происхождение названий гор Баранаха и Больше на Северном Кавказе: версии лингвистов, исторические карты, археология и народные предания."
 keywords: Баранаха, Больше, топонимика Кавказа, происхождение названий гор, Скалистый хребет, абазинские топонимы, ногайская топонимия, горы КЧР, история Кавказа, этимология геоназваний
-head-extra: [amp_link.html, etc/_aboutme.html, ads/ads.html, etc/tp_micro_faq_baranakha-and-bolshe.html]
+head-extra: [amp_link.html, etc/_aboutme.html, ads/ads.html, etc/micro/faq/toponymy/baranakha-and-bolshe.html]
 location: гора Баранаха, КЧР
 img-caption: гора Баранаха
 ---

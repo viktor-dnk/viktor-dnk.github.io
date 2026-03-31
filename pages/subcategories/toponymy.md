@@ -10,7 +10,7 @@ language: ru
 keywords: карты, история, география, ономастика
 last_modified_at: 2026-03-31 12:40:00 +0300
 date: 2021-01-02 16:00
-head-extra: [amp_link.html, etc/_aboutme.html, ads/ads.html, etc/sub_micro_faq_toponymy.html]
+head-extra: [amp_link.html, etc/_aboutme.html, ads/ads.html, etc/micro/faq/subpages/toponymy.html]
 footer-extra: [ads/ads-footer.html]
 permalink: /toponymy/
 ---

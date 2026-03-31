@@ -10,7 +10,7 @@ category: [oikonyms, hydro]
 share-title: Славянск-на-Кубани - из истории города
 share-description: Приводится этимология современного ойконима, состоящего из древнего этнонима славяне и гидронима Кубань.
 keywords: Славянск-на-Кубани, история
-head-extra: [amp_link.html, etc/_aboutme.html, ads/ads.html, etc/tp_micro_faq_slavyansk-on-kuban.html]
+head-extra: [amp_link.html, etc/_aboutme.html, ads/ads.html, etc/micro/faq/toponymy/slavyansk-on-kuban.html]
 location: г. Славянск-на-Кубани, Краснодарский край
 img-caption: озеро Толока в Славянске-на-Кубани
 ---

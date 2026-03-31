@@ -10,7 +10,7 @@ category: [mountains, oikonyms]
 share-title: "Узкоколейка и карьер у горы Индюк: правда или миф?"
 share-description: "Существовала ли узкоколейная железная дорога у горы Индюк при строительстве Армавир-Туапсинской ж/д? И что за «таинственный город» из каменных кладок обнаружен на её склонах?"
 keywords: гора Индюк, узкоколейка, Армавир-Туапсинская железная дорога, каменный карьер, Туапсинка, дольмены, Краснодарский край, Туапсинская оборонительная операция, Чилипси
-head-extra: [amp_link.html, etc/_aboutme.html, ads/ads.html, etc/tp_micro_faq_indyuk-railway.html]
+head-extra: [amp_link.html, etc/_aboutme.html, ads/ads.html, etc/micro/faq/toponymy/indyuk-railway.html]
 location: гора Индюк, Краснодарский край
 img-caption: гора Индюк
 ---

@@ -10,7 +10,7 @@ category: [oikonyms, hydro, mountains]
 share-title: "Каладжинская: откуда такое название?"
 share-description: Станица Каладжинская основана в 1861 г. на месте Каладжинского укрепления на правом берегу реки Лаба немного ниже места слияния рек Большая и Малая Лаба.
 keywords: Каладжинская, Малая Лаба, Большая Лаба
-head-extra: [amp_link.html, etc/_aboutme.html, ads/ads.html, etc/tp_micro_faq_kaladzhinskaya.html]
+head-extra: [amp_link.html, etc/_aboutme.html, ads/ads.html, etc/micro/faq/toponymy/kaladzhinskaya.html]
 location: Кавказский государственный заповедник
 img-caption: Долина реки Малая Лаба в верхнем течении
 ---

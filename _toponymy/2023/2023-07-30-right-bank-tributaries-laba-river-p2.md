@@ -10,7 +10,7 @@ category: [hydro, oikonyms]
 share-title: Синюха и Грязнуха - притоки реки Чамлык
 share-description: Подробно рассмотрим место расположения истоков и долин рек Синюха и Грязнуха (притоки р. Чамлык), а также изучим истории происхождения их названий.
 keywords: Лаба, Кукса, Чамлык, Синюха, Грязнуха
-head-extra: [amp_link.html, etc/_aboutme.html, ads/ads.html, etc/tp_micro_faq_right-bank-tributaries-laba-river-p2.html]
+head-extra: [amp_link.html, etc/_aboutme.html, ads/ads.html, etc/micro/faq/toponymy/right-bank-tributaries-laba-river-p2.html]
 location: Краснодарский край, г. Курганинск
 img-caption: Мост через р. Кукса в г. Курганинск
 ---

@@ -10,7 +10,7 @@ category: [oikonyms, hydro]
 share-title: История топонима Полтава
 share-description: Станица Полтавская получила название от Полтавского куреня Черноморского казачьего войска, тот был назван от города Полтава. Полтава была основана в ХI в.
 keywords: Полтава, станица Полтавская, Pultava
-head-extra: [amp_link.html, etc/_aboutme.html, ads/ads.html, etc/tp_micro_faq_poltavskaya.html]
+head-extra: [amp_link.html, etc/_aboutme.html, ads/ads.html, etc/micro/faq/toponymy/poltavskaya.html]
 location: станица Полтавская, Краснодарский край
 img-caption: Станица Полтавская с высоты птичьего полёта
 ---

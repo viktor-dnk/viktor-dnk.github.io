@@ -10,7 +10,7 @@ category: [hydro, oikonyms]
 share-title: "Тайны степных рек: Ясени, Гречаная, Понура, Сула"
 share-description: "Тайны степных рек Кубани: Ясени, Гречаная, Понура, Сула. История, гидрография, происхождение названий. Краеведческое исследование для всех."
 keywords: Ясени, Гречаная, Понура, Сула
-head-extra: [amp_link.html, etc/_aboutme.html, ads/ads.html, etc/tp_micro_faq_steppe-rivers.html]
+head-extra: [amp_link.html, etc/_aboutme.html, ads/ads.html, etc/micro/faq/toponymy/steppe-rivers.html]
 location: Краснодарский край
 img-caption: Русло реки Сула среди полей
 ---

@@ -10,7 +10,7 @@ category: [oikonyms, hydro]
 share-title: "Хадыженск: «древний мертвец»? Разгадка названия"
 share-description: На первый взгляд не составляет трудности перевод топонима Хадыженск, ведь давно бытуют его переводы «древний мертвец» или «долина древних могил».
 keywords: Хадыженск, Хадыжи
-head-extra: [amp_link.html, etc/_aboutme.html, ads/ads.html, etc/tp_micro_faq_khadyzhensk.html]
+head-extra: [amp_link.html, etc/_aboutme.html, ads/ads.html, etc/micro/faq/toponymy/khadyzhensk.html]
 location: город Хадыженск, Краснодарский край
 img-caption: Река Пшиш в окрестностях города Хадыженск
 ---

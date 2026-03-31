@@ -10,7 +10,7 @@ category: [oikonyms, hydro, mountains]
 share-title: "Бесленеевская и Хамкетинская: откуда эти названия?"
 share-description: Закубанские станицы Бесленеевская и Хамкетинская были основаны в 60-х годах ХIХ в. на последнем этапе Кавказской войны и числились как казачьи.
 keywords: Бесленеевская, Хамкетинская, Лакруш
-head-extra: [amp_link.html, etc/_aboutme.html, ads/ads.html, etc/tp_micro_faq_besleneevskaya-and-khamketinskaya.html]
+head-extra: [amp_link.html, etc/_aboutme.html, ads/ads.html, etc/micro/faq/toponymy/besleneevskaya-and-khamketinskaya.html]
 location: Краснодарский край
 img-caption: Цветущий боярышник в низкогорье Краснодарского края
 ---

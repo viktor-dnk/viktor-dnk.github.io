@@ -10,7 +10,7 @@ category: hydro
 share-title: "Загадки реки Кавалерка: история и география"
 share-description: Река Кавалерка выделяется своим названием среди множества имён рек в Краснодарском крае. Протяжённость реки составляет 80 км.
 keywords: Река Кавалерка, Кавалерка
-head-extra: [amp_link.html, etc/_aboutme.html, ads/ads.html, etc/tp_micro_faq_kavalerka.html]
+head-extra: [amp_link.html, etc/_aboutme.html, ads/ads.html, etc/micro/faq/toponymy/kavalerka.html]
 location: Река Кавалерка, Краснодарский край
 img-caption: Река Кавалерка недалеко от устья
 ---

@@ -12,7 +12,7 @@ share-description: В очерке приведена информация о д
 keywords: река Зеленчук, Зеленчук
 location: Краснодарский край
 img-caption: река Средний Зеленчук у хутора Средний
-head-extra: [amp_link.html, etc/_aboutme.html, ads/ads.html, etc/tp_micro_faq_zelenchuk-p1.html]
+head-extra: [amp_link.html, etc/_aboutme.html, ads/ads.html, etc/micro/faq/toponymy/zelenchuk-p1.html]
 ---
 {: .box-note}
 ## {{ page.share-title }}

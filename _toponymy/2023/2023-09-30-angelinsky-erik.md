@@ -10,7 +10,7 @@ category: [hydro, oikonyms]
 share-title: Ангелинский ерик в дельте реки Кубань
 share-description: Топоним Ангелинский ерик производят от женского имени Ангелина, от черкесского слова агъэлы или от прилагательного английский и другие.
 keywords: Ангелинский ерик
-head-extra: [amp_link.html, etc/_aboutme.html, ads/ads.html, etc/tp_micro_faq_angelinsky-erik.html]
+head-extra: [amp_link.html, etc/_aboutme.html, ads/ads.html, etc/micro/faq/toponymy/angelinsky-erik.html]
 location: Ерик Ангелинский, Краснодарский край
 img-caption: Здание железнодорожной станции Ангелинская
 ---

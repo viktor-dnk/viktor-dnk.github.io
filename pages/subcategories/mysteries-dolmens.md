@@ -10,7 +10,7 @@ language: ru
 keywords: древность, археология
 last_modified_at: 2026-03-31 12:40:00 +0300
 date: 2020-09-09 16:00
-head-extra: [amp_link.html, etc/_aboutme.html, ads/ads.html. etc/sub_micro_faq_mysteries-dolmens.html]
+head-extra: [amp_link.html, etc/_aboutme.html, ads/ads.html, etc/micro/faq/subpages/mysteries-dolmens.html]
 footer-extra: [ads/ads-footer.html]
 permalink: /mysteries-dolmens/
 ---

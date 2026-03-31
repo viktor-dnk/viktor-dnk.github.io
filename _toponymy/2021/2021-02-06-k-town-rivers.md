@@ -12,7 +12,7 @@ share-description: Город Краснодар был основан как Е
 keywords: Краснодар, реки, гидроним, топоним
 location: г. Краснодар, Краснодарский край
 img-caption: Протока Ерик, соединяющая ложе озера Старая Кубань
-head-extra: [amp_link.html, etc/_aboutme.html, ads/ads.html, etc/tp_micro_faq_k-town-rivers.html]
+head-extra: [amp_link.html, etc/_aboutme.html, ads/ads.html, etc/micro/faq/toponymy/k-town-rivers.html]
 ---
 {: .box-note}
 ## {{ page.share-title }}

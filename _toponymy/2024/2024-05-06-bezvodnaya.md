@@ -10,7 +10,7 @@ category: [oikonyms, hydro]
 share-title: Безводная или Прусская (вопросы происхождения)
 share-description: На современных картах Республики Адыгея есть река Безводная, такое название представить затруднительно, как река может быть без воды?
 keywords: Безводная, Прусская
-head-extra: [amp_link.html, etc/_aboutme.html, ads/ads.html, etc/tp_micro_faq_bezvodnaya.html]
+head-extra: [amp_link.html, etc/_aboutme.html, ads/ads.html, etc/micro/faq/toponymy/bezvodnaya.html]
 location: станица Безводная, Республика Адыгея
 img-caption: Мост через р. Безводная в станице Безводной
 ---

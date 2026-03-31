@@ -12,7 +12,7 @@ share-description: Горный узел нагорья Лагонаки, зан
 keywords: Лагонаки, Фишт, Оштен, Пшехо-Су
 location: Лагонаки
 img-caption: Ручей Молочный в нижнем течении
-head-extra: [amp_link.html, etc/_aboutme.html, ads/ads.html, etc/tp_micro_faq_lagonaki-again.html]
+head-extra: [amp_link.html, etc/_aboutme.html, ads/ads.html, etc/micro/faq/toponymy/lagonaki-again.html]
 ---
 {: .box-note}
 ## {{ page.share-title }}

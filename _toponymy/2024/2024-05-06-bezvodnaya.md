@@ -5,12 +5,12 @@ description: На современных картах в Майкопском р
 cover-img: ["/img/toponymy/bezvodnaya/cover.jpg" : "Мост через р. Безводная в станице Безводной, август 2013, google.com"]
 thumbnail-caption: Мост через р. Безводная в станице Безводной
 date: 2024-05-06 11:10 +0300
-last_modified_at: 2024-05-06 11:10 +0300
+last_modified_at: 2026-03-31 12:30:00 +0300
 category: [oikonyms, hydro]
 share-title: Безводная или Прусская (вопросы происхождения)
 share-description: На современных картах Республики Адыгея есть река Безводная, такое название представить затруднительно, как река может быть без воды?
 keywords: Безводная, Прусская
-head-extra: [amp_link.html, etc/_aboutme.html, ads/ads.html]
+head-extra: [amp_link.html, etc/_aboutme.html, ads/ads.html, etc/tp_micro_faq_bezvodnaya.html]
 location: станица Безводная, Республика Адыгея
 img-caption: Мост через р. Безводная в станице Безводной
 ---

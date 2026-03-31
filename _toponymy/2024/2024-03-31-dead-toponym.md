@@ -5,12 +5,12 @@ description: На карте Краснодарского края можно н
 cover-img: ["/img/toponymy/dead-toponym/cover.jpg" : "Карта дельты реки Дон конца ХVII в."]
 thumbnail-caption: Иордания, Мёртвое море
 date: 2024-03-31 17:00 +0300
-last_modified_at: 2024-03-31 17:00 +0300
+last_modified_at: 2026-03-31 12:30:00 +0300
 category: [hydro, oikonyms]
 share-title: О топонимах с прилагательным «мёртвый»
 share-description: Прилагательное мёртвый редко встречается в географических названиях, оно буквально означает лишённый жизни или безжизненный.
 keywords: Азовское море, Азов, Меотида
-head-extra: [amp_link.html, etc/_aboutme.html, ads/ads.html]
+head-extra: [amp_link.html, etc/_aboutme.html, ads/ads.html, etc/tp_micro_faq_dead-toponym.html]
 location: Азовское море, Россия
 img-caption: Карта дельты реки Дон конца ХVII в.
 ---

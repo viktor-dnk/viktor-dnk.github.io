@@ -5,12 +5,12 @@ description: Топоним Хадыженск — Хадыжи известен
 cover-img: ["/img/toponymy/khadyzhensk/cover.jpg" : "Река Пшиш в окрестностях города Хадыженск (maps.ya.ru, 2021)"]
 thumbnail-caption: Станция Хадыженская 1914 г.
 date: 2024-06-23 18:00 +0300
-last_modified_at: 2024-11-08 11:00:00 +0300
+last_modified_at: 2026-03-31 12:30:00 +0300
 category: [oikonyms, hydro]
 share-title: "Хадыженск: «древний мертвец»? Разгадка названия"
 share-description: На первый взгляд не составляет трудности перевод топонима Хадыженск, ведь давно бытуют его переводы «древний мертвец» или «долина древних могил».
 keywords: Хадыженск, Хадыжи
-head-extra: [amp_link.html, etc/_aboutme.html, ads/ads.html, etc/_micro_khadyzhensk.html]
+head-extra: [amp_link.html, etc/_aboutme.html, ads/ads.html, etc/tp_micro_faq_khadyzhensk.html]
 location: город Хадыженск, Краснодарский край
 img-caption: Река Пшиш в окрестностях города Хадыженск
 ---

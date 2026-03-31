@@ -5,12 +5,12 @@ description: Станица Полтавская один из районных 
 cover-img: ["/img/toponymy/poltavskaya/cover.jpg" : "Станица Полтавская с высоты птичьего полёта (maps.ya.ru)"]
 thumbnail-caption: Герб Полтавского сельского поселения
 date: 2023-10-08 20:30 +0300
-last_modified_at: 2024-02-01 10:00 +0300
+last_modified_at: 2026-03-31 12:00:00 +0300
 category: [oikonyms, hydro]
 share-title: История топонима Полтава
 share-description: Станица Полтавская получила название от Полтавского куреня Черноморского казачьего войска, тот был назван от города Полтава. Полтава была основана в ХI в.
 keywords: Полтава, станица Полтавская, Pultava
-head-extra: [amp_link.html, etc/_aboutme.html, ads/ads.html, etc/_micro_poltavskaya.html]
+head-extra: [amp_link.html, etc/_aboutme.html, ads/ads.html, etc/tp_micro_faq_poltavskaya.html]
 location: станица Полтавская, Краснодарский край
 img-caption: Станица Полтавская с высоты птичьего полёта
 ---

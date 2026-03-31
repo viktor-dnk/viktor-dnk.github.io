@@ -5,12 +5,12 @@ description: Закубанские станицы Бесленеевская и
 cover-img: ["/img/toponymy/besleneevskaya-and-khamketinskaya/cover.jpg" : "Цветущий боярышник в низкогорье Краснодарского края"]
 thumbnail-caption: Водопад на реке Лакруш
 date: 2023-07-07 21:00 +0300
-last_modified_at: 2024-11-07 20:00:00 +0300
+last_modified_at: 2026-03-31 12:00:00 +0300
 category: [oikonyms, hydro, mountains]
 share-title: "Бесленеевская и Хамкетинская: откуда эти названия?"
 share-description: Закубанские станицы Бесленеевская и Хамкетинская были основаны в 60-х годах ХIХ в. на последнем этапе Кавказской войны и числились как казачьи.
 keywords: Бесленеевская, Хамкетинская, Лакруш
-head-extra: [amp_link.html, etc/_aboutme.html, ads/ads.html, etc/_micro_besleneevskaya-and-khamketinskaya.html]
+head-extra: [amp_link.html, etc/_aboutme.html, ads/ads.html, etc/tp_micro_faq_besleneevskaya-and-khamketinskaya.html]
 location: Краснодарский край
 img-caption: Цветущий боярышник в низкогорье Краснодарского края
 ---

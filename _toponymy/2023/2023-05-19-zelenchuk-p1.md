@@ -5,14 +5,14 @@ description: В очерке приведена информация о двух
 cover-img: ["/img/toponymy/zelenchuk-p1/cover.jpg" : "река Средний Зеленчук у хутора Средний (Краснодарский край)"]
 thumbnail-caption: Южный берег реки Зеленчук 2-й
 date: 2023-05-19 21:50 +0300
-last_modified_at: 2023-07-27 21:10 +0300
+last_modified_at: 2026-03-31 12:00:00 +0300
 category: [hydro, oikonyms]
 share-title: О реках Большой и Малый Зеленчук - Часть 1-я
 share-description: В очерке приведена информация о двух равнинных реках Большой и Малый Зеленчук, являющихся левыми притоками реки Кубань, расположенных в Краснодарском крае.
 keywords: река Зеленчук, Зеленчук
 location: Краснодарский край
 img-caption: река Средний Зеленчук у хутора Средний
-head-extra: [amp_link.html, etc/_aboutme.html, ads/ads.html]
+head-extra: [amp_link.html, etc/_aboutme.html, ads/ads.html, etc/tp_micro_faq_zelenchuk-p1.html]
 ---
 {: .box-note}
 ## {{ page.share-title }}

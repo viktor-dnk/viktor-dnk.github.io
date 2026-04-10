@@ -10,7 +10,7 @@ category: [hydro, oikonyms]
 share-title: "История в названиях: Эльбузд и Эльбуздук на старых картах"
 share-description: "Реки и горы Кубани: загадочное происхождение названий Эльбузд и Эльбуздук. Версии, карты, история. От школьников до историков!"
 keywords: Эльбузд, Россошь, Эльбуздук
-head-extra: [amp_link.html, etc/_aboutme.html, ads/ads.html, etc/micro/faq/toponymy/northernmost-rivers-of-the-Krasnodar-region-p2.html]
+head-extra: [amp_link.html, etc/_aboutme.html, etc/micro/faq/toponymy/northernmost-rivers-of-the-Krasnodar-region-p2.html]
 location: Краснодарский край
 img-caption: Река Эльбузд
 ---

@@ -19,6 +19,7 @@ navbar-links:
     - Об авторе: "/info/aboutme/"
     - Контакты: "/info/contacts/"
     - Подписаться на email-рассылку: "https://follow.it/fb9yhd?action=followPub"
+    - О сайте: "/info/law/"
 #    - Случайная статья: "/random"
 #  🔍: "/search/"
 

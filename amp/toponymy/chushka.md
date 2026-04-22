@@ -1,13 +1,4 @@
 ---
-title: Коса Чушка, что означает этот топоним?
-subtitle: © В.Н. Ковешников
-thumbnail-caption: Вид на Керченский залив с косы Чушка 
-categories: toponymy
-date: 2026-04-22 13:00 +0300
----
-Коса Чушка одно из крупнейших образований морских берегов Краснодарского края, возникшая в результате аккумуляции (отложения) песка, ракушек, ила, гальки, гравия. Расположена на берегу Керченского пролива. Производят название косы Чушка как правило от русского или тюркского слова чушка, придавая ему значение «морская свинья». Есть и другие народные и не народные версии образования этого топонима, но все они не имеют аргументированных обоснований! Давайте разберёмся, что же означает топоним Чушка?
-
----
 title: Коса Чушка, что означает этот топоним? 
 subtitle: © В.Н. Ковешников
 share-title: "История топонима Коса Чушка: разбор популярных версий"
@@ -19,25 +10,6 @@ date: 2026-04-22 13:00 +0300
 ## <br><br><br>История топонима Коса Чушка: разбор популярных версий
 
 <ul class="pagination blog-pager"><li class="page-item previous"><figure><a class="page-link" href="{{ page.url | absolute_url | strip_index | replace:'/amp/','/' }}" data-toggle="tooltip" data-placement="top" title="Перейти на основную версию сайта">Читать статью на сайте автора</a></figure></li></ul>
-
----
-title: Коса Чушка, что означает этот топоним?
-subtitle: © В.Н. Ковешников
-description: "Коса Чушка одно из крупнейших образований морских берегов Краснодарского края, возникшая в результате аккумуляции (отложения) песка, ракушек, ила, гальки, гравия. Расположена на берегу Керченского пролива. Производят название косы Чушка как правило от русского или тюркского слова чушка, придавая ему значение «морская свинья». Есть и другие народные и не народные версии образования этого топонима, но все они не имеют аргументированных обоснований! Давайте разберёмся, что же означает топоним Чушка?"
-cover-img: ["/img/toponymy/chushka/cover.jpg" : "Коса Чушка в районе порта Кавказ"]
-thumbnail-caption: Вид на Керченский залив с косы Чушка 
-date: 2026-04-22 13:00 +0300
-last_modified_at: 2026-04-22 13:00 +0300
-category: [sea-coast, oikonyms]
-share-title: "История топонима Коса Чушка: разбор популярных версий"
-share-description: "Коса Чушка на Тамани: откуда взялось название? Разбираем мифы о дельфинах и научные версии этимологии в очерке В.Н. Ковешникова."
-keywords: Коса Чушка, Таманский полуостров, топонимика, этимология, Керченский пролив, Краснодарский край, дельфины, В.Н. Ковешников, географические названия, история Кубани
-head-extra: [amp_link.html, etc/_aboutme.html, ads/ads.html, etc/micro/faq/toponymy/chushka.html]
-location: Коса Чушка, Краснодарский край
-img-caption: Коса Чушка в районе порта Кавказ
----
-{: .box-note}
-## {{ page.share-title }}
 
 <figure>
     <a href="/img/toponymy/chushka/chushka-spit-kavkaz-port-kerch-strait-crimea-b.jpg" title="Коса Чушка в районе порта Кавказ, вид на Керченский пролив"><div itemscope itemtype="https://schema.org/ImageObject"><img itemprop="contentUrl" src="/img/toponymy/chushka/chushka-spit-kavkaz-port-kerch-strait-crimea.jpg" alt="Вид на Керченский пролив и Крымский полуостров с косы Чушка в районе порта Кавказ, фото автора" width="800" height="600"/><meta itemprop="license" content="https://viktor-dnk.ru/info/copyright/"/><meta itemprop="acquireLicensePage" content="https://viktor-dnk.ru/info/contacts/"/><meta itemprop="name" content="Коса Чушка в районе порта Кавказ, вид на Керченский пролив"/><meta itemprop="copyrightNotice" content="Viktor Koveshnikov"/><meta itemprop="creditText" content="Заметки географа"/><div itemprop="creator" itemscope itemtype="http://schema.org/Person"><meta itemprop="name" content="Viktor Koveshnikov"/></div></div></a>

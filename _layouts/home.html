@@ -2,98 +2,66 @@
 layout: page
 ---
 
-{{ content }}
+{% assign date_format = site.date_format | default: "%d.%m.%Y" %}
 
+{% comment %} 1. Объединяем записи из всех трёх коллекций {% endcomment %}
+{% assign all_posts = site.toponymy | concat: site.mysteries_dolmens | concat: site.info %}
+
+{% comment %} 2. Сортируем по дате: сначала самые новые {% endcomment %}
+{% assign sorted_posts = all_posts | sort: 'date' | reverse %}
+
+{% comment %} 3. Логика пагинации (по 10 записей на страницу) {% endcomment %}
 {% assign per_page = 10 %}
-
-{% comment %} 1. Безопасное объединение коллекций (совместимо с Jekyll 3.9.0) {% endcomment %}
-{% assign empty_arr = "" | split: "" %}
-
-{% assign toponymy_items = site.toponymy %}
-{% if toponymy_items == nil %}{% assign toponymy_items = empty_arr %}{% endif %}
-
-{% assign info_items = site.info %}
-{% if info_items == nil %}{% assign info_items = empty_arr %}{% endif %}
-
-{% assign mysteries_items = site.mysteries_dolmens %}
-{% if mysteries_items == nil %}{% assign mysteries_items = empty_arr %}{% endif %}
-
-{% assign all_items = toponymy_items %}
-{% assign all_items = all_items | concat: info_items %}
-{% assign all_items = all_items | concat: mysteries_items %}
-
-{% comment %} 2. Сортировка по дате (сначала новые) {% endcomment %}
-{% assign all_items = all_items | sort: 'date' | reverse %}
-
-{% assign total_items = all_items.size %}
-{% assign total_pages = total_items | divided_by: per_page | ceil %}
+{% assign total_posts = sorted_posts | size %}
+{% assign total_pages = total_posts | divided_by: per_page | plus: 1 %}
+{% if total_posts | modulo: per_page == 0 %}{% assign total_pages = total_pages | minus: 1 %}{% endif %}
 {% if total_pages == 0 %}{% assign total_pages = 1 %}{% endif %}
 
-{% comment %} 3. Определение текущей страницы из URL {% endcomment %}
+{% comment %} 4. Определяем номер текущей страницы из URL (например, /page2/) {% endcomment %}
 {% assign current_page = 1 %}
-{% if page.url contains '/page/' %}
-  {% assign page_num = page.url | split: '/page/' | last | split: '/' | first %}
-  {% assign current_page = page_num | plus: 0 %}
+{% if page.url contains '/page' %}
+  {% assign current_page = page.url | split: '/page' | last | replace: '/', '' | plus: 0 %}
 {% endif %}
-{% if current_page < 1 %}{% assign current_page = 1 %}{% endif %}
-{% if current_page > total_pages %}{% assign current_page = total_pages %}{% endif %}
+{% if current_page < 1 or current_page > total_pages %}{% assign current_page = 1 %}{% endif %}
 
+{% comment %} 5. Выбираем записи для текущей страницы {% endcomment %}
 {% assign offset = current_page | minus: 1 | times: per_page %}
-{% assign page_items = all_items | slice: offset, per_page %}
+{% assign paginated_posts = sorted_posts | slice: offset, per_page %}
 
 <div class="posts-list">
-  {% for item in page_items %}
-  <article class="post-preview">
-    <a href="{{ item.url | absolute_url }}">
-      <h2 class="post-title">{{ item.title }}</h2>
-      {% if item.subtitle %}
-      <h3 class="post-subtitle">{{ item.subtitle }}</h3>
-      {% endif %}
-    </a>
+  {% for post in paginated_posts %}
+    {% comment %} Формируем путь к превью: /img/{коллекция}/{slug}/thumb.jpg {% endcomment %}
+    {% assign coll_dir = post.url | remove_first: '/' | split: '/' | first %}
+    {% assign thumb_path = "/img/" | append: coll_dir | append: "/" | append: post.slug | append: "/thumb.jpg" %}
 
-    {% assign date_format = site.date_format | default: "%-d %B %Y" %}
-    <p class="post-meta">
-      Дата публикации {{ item.date | date: date_format }}
-    </p>
+    <article class="post-preview">
+      <a href="{{ post.url | absolute_url }}">
+        <img src="{{ thumb_path }}" alt="{{ post.title }}" class="post-thumbnail" onerror="this.style.display='none'">
+        <h2 class="post-title">{{ post.title }}</h2>
+        {% if post.subtitle %}<h3 class="post-subtitle">{{ post.subtitle }}</h3>{% endif %}
+      </a>
 
-    {% comment %} 4. Превью: /img/коллекция/имя-файла/thumb.jpg {% endcomment %}
-    {% assign file_slug = item.slug %}
-    {% if file_slug == nil or file_slug == empty %}
-      {% assign url_parts = item.url | split: '/' %}
-      {% assign file_slug = url_parts | last | remove: '.html' %}
-    {% endif %}
-    {% assign thumb_path = "/img/" | append: item.collection | append: "/" | append: file_slug | append: "/thumb.jpg" %}
-    <div class="post-image post-image-small">
-      <img src="{{ thumb_path | absolute_url }}" alt="{{ item.title }}" loading="lazy" onerror="this.style.display='none'">
-    </div>
+      <p class="post-meta">
+        Дата публикации {{ post.date | date: date_format }}
+      </p>
 
-    <div class="post-entry">
-      {% comment %} 5. Полное описание из frontmatter вместо обрезанного excerpt {% endcomment %}
-      {% if item.description %}
-        {{ item.description }}
-      {% else %}
-        {{ item.excerpt }}
-      {% endif %}
-      <a href="{{ item.url | absolute_url }}">Читать далее &rarr;</a>
-    </div>
-  </article>
+      <div class="post-entry">
+        <p>{{ post.description | default: post.excerpt | strip_html | xml_escape }}</p>
+        <a href="{{ post.url | absolute_url }}" class="post-read-more">Читать далее</a>
+      </div>
+    </article>
   {% endfor %}
 </div>
 
-{% comment %} 6. Пагинация {% endcomment %}
+{% comment %} 6. Блок навигации по страницам {% endcomment %}
 {% if total_pages > 1 %}
-  <div class="pagination">
-    {% if current_page > 1 %}
-      {% if current_page == 2 %}
-        {% assign prev_url = '/' | absolute_url %}
-      {% else %}
-        {% assign prev_url = '/page/' | append: current_page | minus: 1 | append: '/' | absolute_url %}
-      {% endif %}
-      <a href="{{ prev_url }}">← Следующие записи</a>
-    {% endif %}
-
-    {% if current_page < total_pages %}
-      <a href="{{ '/page/' | append: current_page | plus: 1 | append: '/' | absolute_url }}">Предыдущие записи →</a>
-    {% endif %}
-  </div>
+<div class="pagination">
+  {% if current_page > 1 %}
+  <a href="{{ site.baseurl }}/page{{ current_page | minus: 1 }}/" class="page-button">← Назад</a>
+  {% endif %}
+  <span class="page-number">Страница {{ current_page }} из {{ total_pages }}</span>
+  {% if current_page < total_pages %}
+  <a href="{{ site.baseurl }}/page{{ current_page | plus: 1 }}/" class="page-button">Вперёд →</a>
+  {% endif %}
+</div>
 {% endif %}

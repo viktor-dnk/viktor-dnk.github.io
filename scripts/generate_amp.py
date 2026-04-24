@@ -1,8 +1,8 @@
 # scripts/generate_amp.py
 import os
-import re
 import shutil
 from pathlib import Path
+import yaml
 
 TARGET_COLLECTIONS = ['_toponymy', '_info', '_mysteries-dolmens']
 AMP_OUTPUT_DIR = '_amp'
@@ -11,35 +11,40 @@ def process_file(filepath, collection_slug, output_filepath):
     with open(filepath, 'r', encoding='utf-8') as f:
         content = f.read()
 
-    # Проверяем наличие frontmatter
+    # Разделяем frontmatter и тело
     if not content.strip().startswith('---'):
-        # Нет frontmatter — добавляем минимальный
-        new_content = f'---\nlayout: amp\npermalink: /amp/{collection_slug}/{Path(filepath).stem}/\n---\n{content}'
+        # Нет frontmatter — создаём минимальный
+        fm = {'layout': 'amp', 'permalink': f'/amp/{collection_slug}/{Path(filepath).stem}/', 'published': True}
+        new_content = f'---\n{yaml.dump(fm, allow_unicode=True, sort_keys=False)}---\n{content}'
     else:
-        # Разделяем frontmatter и тело
         parts = content.split('---\n', 2)
         if len(parts) < 3:
-            # Невалидный frontmatter — копируем как есть с добавлением layout
-            new_content = f'---\nlayout: amp\npermalink: /amp/{collection_slug}/{Path(filepath).stem}/\n---\n{content}'
+            # Невалидный frontmatter — копируем как есть + добавляем поля
+            fm = {'layout': 'amp', 'permalink': f'/amp/{collection_slug}/{Path(filepath).stem}/', 'published': True}
+            new_content = f'---\n{yaml.dump(fm, allow_unicode=True, sort_keys=False)}---\n{content}'
         else:
-            frontmatter, body = parts[1], parts[2]
-            
-            # Проверяем и обновляем/добавляем layout
-            if not re.search(r'^layout:\s*', frontmatter, re.MULTILINE):
-                frontmatter += 'layout: amp\n'
+            # Парсим YAML
+            try:
+                fm = yaml.safe_load(parts[1])
+            except yaml.YAMLError:
+                # Если не распарсилось — добавляем поля текстом
+                frontmatter = parts[1]
+                if 'layout:' not in frontmatter:
+                    frontmatter += 'layout: amp\n'
+                if 'permalink:' not in frontmatter:
+                    frontmatter += f"permalink: /amp/{collection_slug}/{Path(filepath).stem}/\n"
+                if 'published:' not in frontmatter:
+                    frontmatter += 'published: true\n'
+                new_content = f'---\n{frontmatter}---\n{parts[2]}'
             else:
-                frontmatter = re.sub(r'^layout:\s*.*$', 'layout: amp', frontmatter, flags=re.MULTILINE)
-            
-            # Проверяем и обновляем/добавляем permalink
-            permalink_val = f'/amp/{collection_slug}/{Path(filepath).stem}/'
-            if not re.search(r'^permalink:\s*', frontmatter, re.MULTILINE):
-                frontmatter += f'permalink: {permalink_val}\n'
-            else:
-                frontmatter = re.sub(r'^permalink:\s*.*$', f'permalink: {permalink_val}', frontmatter, flags=re.MULTILINE)
-            
-            new_content = f'---\n{frontmatter}---\n{body}'
+                # Обновляем поля
+                fm['layout'] = 'amp'
+                fm['permalink'] = f'/amp/{collection_slug}/{Path(filepath).stem}/'
+                fm['published'] = True
+                body = parts[2]
+                # Собираем обратно: sort_keys=False сохраняет порядок, allow_unicode=True для кириллицы
+                new_content = f'---\n{yaml.dump(fm, allow_unicode=True, sort_keys=False)}---\n{body}'
 
-    # Создаём директорию и записываем файл
     os.makedirs(os.path.dirname(output_filepath), exist_ok=True)
     with open(output_filepath, 'w', encoding='utf-8') as f:
         f.write(new_content)

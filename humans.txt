@@ -1,0 +1,17 @@
+/* TEAM */
+  Author, researcher: Viktor Koveshnikov
+  Site: https://viktor-dnk.ru/info/contacts/
+  Telegram-channel: https://t.me/toponim
+  From: Krasnodar, Russia
+
+  developer, seo, web-support: Anatoliy Koveshnikov
+  Telegram: @k_anatol
+  Twitter: @thekubanology
+  Mastodon: @2leack@mastodon.ml
+  From: Krasnodar, Russia
+
+/* SITE */
+  Last update: 2026/04/24
+  Language: Russian
+  Doctype: HTML, CSS
+  IDE: Jekyll, Visual Studio Code, Notepad++, Xnconvert, Photopea.com, Stackedit.io, Screaming Frog SEO Spider, follow.it

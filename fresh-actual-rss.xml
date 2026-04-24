@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:media="http://search.yahoo.com/mrss/" xmlns:yandex="http://news.yandex.ru" version="2.0">
+   <channel>
+      <title>Заметки географа - Очерки - Маршруты путешествий</title>
+      <link>https://viktor-dnk.ru/</link>
+      <description>Очерки по географии, истории, археологии и топонимике Кубани и Республики Адыгея. Маршруты путешествий. Ковешников. В.Н.</description>
+      <language>ru</language>
+      <webMaster>kibodache@gmail.com</webMaster>
+      <image>
+         <url>https://viktor-dnk.ru/img/example-logos/rss.png</url>
+         <title>Заметки географа - Очерки - Маршруты путешествий</title>
+         <link>https://viktor-dnk.ru/</link>
+      </image>
+    
+    
+            <item>
+                <title>Херота - много шума из ничего</title>
+                <link>/toponymy/herota/</link>
+                <pdalink>/toponymy/herota/</pdalink>
+                <description>Название речки Херота знакомо многим, кто проезжал по шоссе ведущего из Адлерского аэропорта в Сочи-Центр. Так речка значилась на картах не менее 160 лет.</description>
+                <author>Ковешников В.Н.</author>
+                <category>События</category>
+                <enclosure url="/toponymy/herota/cover-s.jpg" type="image/jpeg" />
+                <media:group>
+                    <media:thumbnail url="/toponymy/herota/thumb.jpg" />
+                </media:group>
+                <pubDate>Thu, 09 Nov 2023 10:10:00 +0300</pubDate>
+                <yandex:genre>message</yandex:genre>
+                <yandex:full-text>Название небольшой речки Херота знакомо многим, кто проезжал по шоссе ведущего из Адлерского аэропорта в Сочи-Центр. Так речка значилась на картах не менее 160 лет. Но последние лет десять эта, мало чем приметная речушка, стала «героиней» новостных сайтов интернета. И всё потому что название сочли неблагозвучным. После этого начались поиски исторического названия речки.</yandex:full-text>
+            </item>
+      
+            <item>
+                <title>Река Кочеты - история названия гидронима</title>
+                <link>/toponymy/kochety/</link>
+                <pdalink>/toponymy/kochety/</pdalink>
+                <description>Река Кочеты известна сказками и легендами, связанными с именем великого полководца Суворова А.В. и южно-русским словом — кочет, то есть петух.</description>
+                <author>Ковешников В.Н.</author>
+                <category>События</category>
+                <enclosure url="/toponymy/kochety/cover-s.jpg" type="image/jpeg" />
+                <media:group>
+                    <media:thumbnail url="/toponymy/kochety/thumb.jpg" />
+                </media:group>
+                <pubDate>Sun, 26 Nov 2023 18:20:00 +0300</pubDate>
+                <yandex:genre>message</yandex:genre>
+                <yandex:full-text>Река Кочеты является левым притоком реки Кирпили. Это типичная степная река. Согласно данных на современных картах, бассейн реки Кочеты состоит из трёх основных речек 1-я Кочеты, 2-я Кочеты и 3-я Кочеты. Река Кочеты известна тем, что о её названии существуют легенды-сказки, связанные с именем великого полководца Суворова А.В. и южно-русским диалектным словом — кочет, то есть петух. Так ли это на самом деле?</yandex:full-text>
+            </item>
+      
+            <item>
+                <title>Азовское море - к вопросу о происхождении названия</title>
+                <link>/toponymy/azov-sea/</link>
+                <pdalink>/toponymy/azov-sea/</pdalink>
+                <description>Зафиксировано сотни названий Азовского моря, есть данные, что их было около 400. Но вопрос происхождения названия Азовского моря, остаётся дискуссионным.</description>
+                <author>Ковешников В.Н.</author>
+                <category>События</category>
+                <enclosure url="/toponymy/azov-sea/cover-s.jpg" type="image/jpeg" />
+                <media:group>
+                    <media:thumbnail url="/toponymy/azov-sea/thumb.jpg" />
+                </media:group>
+                <pubDate>Sun, 17 Mar 2024 14:00:00 +0300</pubDate>
+                <yandex:genre>message</yandex:genre>
+                <yandex:full-text>По своим размерам Азовское море одно из самых маленьких морей мира, по площади оно уступает лишь Мраморному морю, расположенному между Чёрным и Средиземным морями. По количеству рыбы Азовское море — одно из богатейших в мире. Согласно международно-правовому статусу Азовское море, отнесено к категории внутренних вод (часть водной территории государства) России. Зафиксированы сотни названий Азовского моря, есть данные, что их было около 400. Но вопрос происхождения названия Азовского моря, остаётся дискуссионным. Постараемся разобраться, что же означает современное название моря?</yandex:full-text>
+            </item>
+            
+   </channel>
+</rss>

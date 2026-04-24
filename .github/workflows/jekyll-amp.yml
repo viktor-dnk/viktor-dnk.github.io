@@ -8,7 +8,7 @@ jobs:
       - name: Generate AMP copies
         run: |
           # Ищем все .md файлы в нужных директориях
-          for f in _toponymy/*.md mysteries-dolmens/*.md info/*.md; do
+          for f in _toponymy/*.md _mysteries-dolmens/*.md _info/*.md; do
             # Пропускаем, если файлов нет (чтобы цикл не выдал ошибку)
             [ -e "$f" ] || continue
             

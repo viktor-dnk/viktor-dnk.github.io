@@ -2,9 +2,9 @@ name: Build & Deploy Jekyll + AMP
 
 on:
   push:
-    branches: [main, master]
+    branches: [ main, master ]
   pull_request:
-    branches: [main, master]
+    branches: [ main, master ]
 
 jobs:
   build-and-deploy:
@@ -16,14 +16,29 @@ jobs:
       - name: Setup Ruby & Jekyll
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: "3.0"
+          ruby-version: '3.0'
           bundler-cache: true
 
       - name: Generate AMP pages
         run: python3 scripts/generate_amp.py
 
+      - name: Debug: List generated AMP files
+        run: |
+          echo "=== AMP directory contents ==="
+          find _amp -name "*.md" -type f | head -20
+          echo "=== Sample frontmatter ==="
+          head -10 _amp/toponymy/*.md 2>/dev/null || echo "No AMP files found"
+
       - name: Build Jekyll site
         run: bundle exec jekyll build
+        env:
+          JEKYLL_ENV: production
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Debug: Check _site for AMP output
+        run: |
+          echo "=== _site/amp contents ==="
+          find _site/amp -type f -name "*.html" | head -20 || echo "No AMP HTML found in _site"
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3

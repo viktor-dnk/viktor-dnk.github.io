@@ -24,6 +24,9 @@ navbar-links:
 #  🔍: "/search/"
 
 collections:
+  amp:
+    output: true
+    permalink: /:path/
   mysteries-dolmens:
     label: Дольмены
     output: true

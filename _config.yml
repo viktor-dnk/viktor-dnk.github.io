@@ -50,21 +50,21 @@ round-avatar: true
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
   email: "dnk_v@list.ru"
-#  facebook: deanattali
-#  github: daattali
-#  twitter: thekubanology
-#  reddit: yourname
-#  linkedin: daattali
-#  xing: yourname
-#  stackoverflow: "3943160/daattali"
-#  snapchat: deanat78
-#  instagram: thekubanology
-#  youtube: user/deanat78
-#  spotify: yourname
-#  telephone: +14159998888
-#  steam: deanat78
-#  twitch: yourname
-#  yelp: yourname
+  #  facebook: deanattali
+  #  github: daattali
+  #  twitter: thekubanology
+  #  reddit: yourname
+  #  linkedin: daattali
+  #  xing: yourname
+  #  stackoverflow: "3943160/daattali"
+  #  snapchat: deanat78
+  #  instagram: thekubanology
+  #  youtube: user/deanat78
+  #  spotify: yourname
+  #  telephone: +14159998888
+  #  steam: deanat78
+  #  twitch: yourname
+  #  yelp: yourname
   telegram: toponim
 #  buymeacoffee: 2leack
 #  calendly: yourname
@@ -156,37 +156,32 @@ kramdown:
 
 # Default YAML values (more information on Jekyll's site)
 defaults:
-  -
-    scope:
+  - scope:
       path: ""
       type: "posts"
     values:
       layout: "post"
-      comments: false  # add comments to all blog posts
+      comments: false # add comments to all blog posts
       social-share: true # add social media sharing buttons to all blog posts
       readtime: true
       language: ru
       thumbnail-img: /thumb.jpg
-  -
-    scope:
+  - scope:
       path: "" # any file that's not a post will be a "page" layout by default
     values:
       layout: "page"
       sitemap: false
-  -
-    scope:
+  - scope:
       path: "page"
     values:
       sitemap: false
       head-extra: prev-next.html
-  -
-    scope:
+  - scope:
       path: "amp"
     values:
       layout: amp
       social-share: false
-  -
-    scope:
+  - scope:
       path: ""
       type: toponymy
     values:
@@ -196,8 +191,7 @@ defaults:
       readtime: true
       language: ru
       after-content: [ads/ads-floor.html]
-  -
-    scope:
+  - scope:
       path: ""
       type: mysteries-dolmens
     values:
@@ -207,8 +201,7 @@ defaults:
       readtime: true
       language: ru
       after-content: [ads/ads-floor.html]
-  -
-    scope:
+  - scope:
       path: ""
       type: info
     values:
@@ -234,6 +227,10 @@ exclude:
   - regex
   - docs/
   - tmp/
+  - vendor
+  - node_modules
+  - scripts
+  - .github
 
 compress_html:
   clippings: all

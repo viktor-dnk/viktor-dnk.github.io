@@ -2,8 +2,8 @@
 import os
 import re
 import shutil
+from pathlib import Path
 
-# Коллекции, для которых нужно генерировать AMP
 TARGET_COLLECTIONS = ['_toponymy', '_info', '_mysteries-dolmens']
 AMP_OUTPUT_DIR = '_amp'
 
@@ -11,43 +11,35 @@ def process_file(filepath, collection_slug, output_filepath):
     with open(filepath, 'r', encoding='utf-8') as f:
         content = f.read()
 
-    # Регулярка для поиска YAML frontmatter
-    fm_match = re.match(r'^---\s*\n(.*?)\n---\s*\n', content, re.DOTALL)
-    
-    slug = os.path.splitext(os.path.basename(filepath))[0]
-    permalink_path = f'/amp/{collection_slug}/{slug}/'
-
-    if fm_match:
-        frontmatter = fm_match.group(1)
-        body = content[fm_match.end():]
-        
-        lines = frontmatter.splitlines()
-        new_lines = []
-        layout_updated = False
-        permalink_updated = False
-
-        for line in lines:
-            stripped = line.strip()
-            if stripped.startswith('layout:'):
-                new_lines.append('layout: amp')
-                layout_updated = True
-            elif stripped.startswith('permalink:'):
-                new_lines.append(f'permalink: {permalink_path}')
-                permalink_updated = True
-            else:
-                new_lines.append(line)
-
-        if not layout_updated:
-            new_lines.append('layout: amp')
-        if not permalink_updated:
-            new_lines.append(f'permalink: {permalink_path}')
-
-        new_frontmatter = '\n'.join(new_lines)
-        new_content = f'---\n{new_frontmatter}\n---\n{body}'
+    # Проверяем наличие frontmatter
+    if not content.strip().startswith('---'):
+        # Нет frontmatter — добавляем минимальный
+        new_content = f'---\nlayout: amp\npermalink: /amp/{collection_slug}/{Path(filepath).stem}/\n---\n{content}'
     else:
-        # Если frontmatter отсутствует, создаём его
-        new_content = f'---\nlayout: amp\npermalink: {permalink_path}\n---\n{content}'
+        # Разделяем frontmatter и тело
+        parts = content.split('---\n', 2)
+        if len(parts) < 3:
+            # Невалидный frontmatter — копируем как есть с добавлением layout
+            new_content = f'---\nlayout: amp\npermalink: /amp/{collection_slug}/{Path(filepath).stem}/\n---\n{content}'
+        else:
+            frontmatter, body = parts[1], parts[2]
+            
+            # Проверяем и обновляем/добавляем layout
+            if not re.search(r'^layout:\s*', frontmatter, re.MULTILINE):
+                frontmatter += 'layout: amp\n'
+            else:
+                frontmatter = re.sub(r'^layout:\s*.*$', 'layout: amp', frontmatter, flags=re.MULTILINE)
+            
+            # Проверяем и обновляем/добавляем permalink
+            permalink_val = f'/amp/{collection_slug}/{Path(filepath).stem}/'
+            if not re.search(r'^permalink:\s*', frontmatter, re.MULTILINE):
+                frontmatter += f'permalink: {permalink_val}\n'
+            else:
+                frontmatter = re.sub(r'^permalink:\s*.*$', f'permalink: {permalink_val}', frontmatter, flags=re.MULTILINE)
+            
+            new_content = f'---\n{frontmatter}---\n{body}'
 
+    # Создаём директорию и записываем файл
     os.makedirs(os.path.dirname(output_filepath), exist_ok=True)
     with open(output_filepath, 'w', encoding='utf-8') as f:
         f.write(new_content)
@@ -55,22 +47,21 @@ def process_file(filepath, collection_slug, output_filepath):
 def main():
     if os.path.exists(AMP_OUTPUT_DIR):
         shutil.rmtree(AMP_OUTPUT_DIR)
+    os.makedirs(AMP_OUTPUT_DIR, exist_ok=True)
 
     for coll in TARGET_COLLECTIONS:
         coll_slug = coll.lstrip('_')
-        src_path = coll
-        dst_dir = os.path.join(AMP_OUTPUT_DIR, coll_slug)
+        src_path = Path(coll)
+        dst_dir = Path(AMP_OUTPUT_DIR) / coll_slug
 
-        if not os.path.isdir(src_path):
+        if not src_path.is_dir():
             print(f"[WARN] Директория {src_path} не найдена, пропускаю.")
             continue
 
-        for filename in os.listdir(src_path):
-            if filename.endswith('.md'):
-                src_file = os.path.join(src_path, filename)
-                dst_file = os.path.join(dst_dir, filename)
-                process_file(src_file, coll_slug, dst_file)
-                print(f"[OK] Создана AMP-версия: {dst_file}")
+        for md_file in src_path.glob('*.md'):
+            dst_file = dst_dir / md_file.name
+            process_file(str(md_file), coll_slug, str(dst_file))
+            print(f"[OK] Создана AMP-версия: {dst_file}")
 
 if __name__ == '__main__':
     main()

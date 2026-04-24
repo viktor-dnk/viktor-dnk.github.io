@@ -6,11 +6,21 @@ layout: page
 
 {% assign per_page = 10 %}
 
-{% comment %} 1. Безопасное объединение коллекций (защита от nil/пустых папок) {% endcomment %}
+{% comment %} 1. Безопасное объединение коллекций (совместимо с Jekyll 3.9.0) {% endcomment %}
 {% assign empty_arr = "" | split: "" %}
-{% assign all_items = site.toponymy | default: empty_arr %}
-{% assign all_items = all_items | concat: (site.info | default: empty_arr) %}
-{% assign all_items = all_items | concat: (site.mysteries_dolmens | default: empty_arr) %}
+
+{% assign toponymy_items = site.toponymy %}
+{% if toponymy_items == nil %}{% assign toponymy_items = empty_arr %}{% endif %}
+
+{% assign info_items = site.info %}
+{% if info_items == nil %}{% assign info_items = empty_arr %}{% endif %}
+
+{% assign mysteries_items = site.mysteries_dolmens %}
+{% if mysteries_items == nil %}{% assign mysteries_items = empty_arr %}{% endif %}
+
+{% assign all_items = toponymy_items %}
+{% assign all_items = all_items | concat: info_items %}
+{% assign all_items = all_items | concat: mysteries_items %}
 
 {% comment %} 2. Сортировка по дате (сначала новые) {% endcomment %}
 {% assign all_items = all_items | sort: 'date' | reverse %}
@@ -20,10 +30,10 @@ layout: page
 {% if total_pages == 0 %}{% assign total_pages = 1 %}{% endif %}
 
 {% comment %} 3. Определение текущей страницы из URL {% endcomment %}
+{% assign current_page = 1 %}
 {% if page.url contains '/page/' %}
-  {% assign current_page = page.url | split: '/page/' | last | split: '/' | first | plus: 0 %}
-{% else %}
-  {% assign current_page = 1 %}
+  {% assign page_num = page.url | split: '/page/' | last | split: '/' | first %}
+  {% assign current_page = page_num | plus: 0 %}
 {% endif %}
 {% if current_page < 1 %}{% assign current_page = 1 %}{% endif %}
 {% if current_page > total_pages %}{% assign current_page = total_pages %}{% endif %}
@@ -47,7 +57,11 @@ layout: page
     </p>
 
     {% comment %} 4. Превью: /img/коллекция/имя-файла/thumb.jpg {% endcomment %}
-    {% assign file_slug = item.slug | default: (item.url | split: '/' | last | remove: '.html') %}
+    {% assign file_slug = item.slug %}
+    {% if file_slug == nil or file_slug == empty %}
+      {% assign url_parts = item.url | split: '/' %}
+      {% assign file_slug = url_parts | last | remove: '.html' %}
+    {% endif %}
     {% assign thumb_path = "/img/" | append: item.collection | append: "/" | append: file_slug | append: "/thumb.jpg" %}
     <div class="post-image post-image-small">
       <img src="{{ thumb_path | absolute_url }}" alt="{{ item.title }}" loading="lazy" onerror="this.style.display='none'">
@@ -55,7 +69,11 @@ layout: page
 
     <div class="post-entry">
       {% comment %} 5. Полное описание из frontmatter вместо обрезанного excerpt {% endcomment %}
-      {{ item.description | default: item.excerpt }}
+      {% if item.description %}
+        {{ item.description }}
+      {% else %}
+        {{ item.excerpt }}
+      {% endif %}
       <a href="{{ item.url | absolute_url }}">Читать далее &rarr;</a>
     </div>
   </article>

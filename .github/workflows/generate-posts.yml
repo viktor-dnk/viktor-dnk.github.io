@@ -1,0 +1,36 @@
+name: Generate _posts from collections
+
+on:
+  push:
+    paths:
+      - '_toponymy/**'
+      - '_info/**'
+      - '_mysteries-dolmen/**'
+      - '.github/workflows/generate-posts.yml'
+  workflow_dispatch:  # позволяет запускать вручную
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install pyyaml
+
+      - name: Generate posts
+        run: python generate_posts.py
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add _posts/
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-generate _posts from collections" && git push)

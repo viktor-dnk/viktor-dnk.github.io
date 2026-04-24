@@ -1,27 +1,49 @@
-name: Prepare AMP files
-on: [push]
+name: Build and Deploy AMP site
+on:
+  push:
+    branches: ["main"] # или "master"
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
 jobs:
-  prepare:
+  build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+
       - name: Generate AMP copies
         run: |
-          # Ищем все .md файлы, исключая уже созданную папку amp (если она есть)
-          find . -name "*.md" -not -path "./amp/*" -not -path "./.*" | while read -r f; do
-            # Убираем "./" из начала пути для чистоты
+          # Находим все md файлы и копируем структуру в папку amp
+          find . -name "*.md" -not -path "./amp/*" -not -path "./.*" -not -path "./_*" | while read -r f; do
             clean_f="${f#./}"
-            
-            # Определяем путь к новой папке внутри amp/
             new_dir="amp/$(dirname "$clean_f")"
-            
-            # Создаем структуру папок
             mkdir -p "$new_dir"
-            
-            # Меняем layout и сохраняем файл по точно такому же пути, но внутри amp/
+            # Меняем layout на amp
             sed 's/^layout: .*/layout: amp/' "$f" > "amp/$clean_f"
           done
-      - uses: actions/upload-artifact@v4
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+
+      - name: Build with Jekyll
+        uses: actions/jekyll-build-pages@v1
         with:
-          name: site-source
-          path: .
+          source: ./
+          destination: ./_site
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

@@ -230,9 +230,6 @@ exclude:
   - regex
   - docs/
   - tmp/
-  - vendor
-  - node_modules
-  - scripts
   - .github
 
 compress_html:

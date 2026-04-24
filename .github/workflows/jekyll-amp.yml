@@ -13,18 +13,33 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-
       - name: Generate AMP copies
         run: |
-          # Находим все md файлы и копируем структуру в папку amp
-          find . -name "*.md" -not -path "./amp/*" -not -path "./.*" -not -path "./_*" | while read -r f; do
-            clean_f="${f#./}"
-            new_dir="amp/$(dirname "$clean_f")"
-            mkdir -p "$new_dir"
-            # Меняем layout на amp
-            sed 's/^layout: .*/layout: amp/' "$f" > "amp/$clean_f"
-          done
+          # Создаем базовую папку
+          mkdir -p amp
 
+          # Список ваших коллекций
+          collections=("_toponymy" "_mysteries-dolmens" "_info")
+
+          for coll in "${collections[@]}"; do
+            # Проверяем, существует ли папка коллекции
+            if [ -d "$coll" ]; then
+              # Определяем целевую папку без подчеркивания (например, amp/toponymy)
+              folder_name="${coll#_}"
+              mkdir -p "amp/$folder_name"
+              
+              # Обрабатываем файлы коллекции
+              for f in "$coll"/*.md; do
+                [ -e "$f" ] || continue
+                
+                # Имя файла
+                filename="${f##*/}"
+                
+                # Меняем layout и сохраняем в amp/имя_коллекции/файл.md
+                sed 's/^layout: .*/layout: amp/' "$f" > "amp/$folder_name/$filename"
+              done
+            fi
+          done
       - name: Setup Pages
         uses: actions/configure-pages@v4
 

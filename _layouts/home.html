@@ -4,36 +4,17 @@ layout: page
 
 {{ content }}
 
-{% comment %} 1. Склеиваем все нужные коллекции и _posts в один массив и сортируем по дате (новые сверху) {% endcomment %}
+{% comment %} Склеиваем все коллекции и посты, сортируем по дате (новые сверху) {% endcomment %}
 {% assign all_posts = site.toponymy | concat: site.mysteries-dolmens | concat: site.posts | sort: 'date' | reverse %}
 
 <ul class="posts-list list-unstyled" role="list">
-  {% comment %} 2. Цикл с лимитом 30 {% endcomment %}
   {% for post in all_posts limit:30 %}
   <li class="post-preview">
     <article>
 
-      {%- capture thumbnail -%}
-        {% if post.thumbnail-img %}
-          {{ post.thumbnail-img }}
-        {% elsif post.cover-img %}
-          {% if post.cover-img.first %}
-            {{ post.cover-img[0].first.first }}
-          {% else %}
-            {{ post.cover-img }}
-          {% endif %}
-        {% else %}
-        {% endif %}
-      {% endcapture %}
-      {% assign thumbnail=thumbnail | strip %}
-
-      <a href="{{ post.url | absolute_url }}">
+      <a title="{{ post.share-title }}" href="{{ post.url | absolute_url }}">
         <h2 class="post-title">{{ post.title | strip_html }}</h2>
-        {% if post.subtitle %}
-          <h3 class="post-subtitle">
-          {{ post.subtitle | strip_html }}
-          </h3>
-        {% endif %}
+        <h3 class="post-subtitle">{{ post.subtitle | strip_html }}</h3>
       </a>
 
       {% if post.author %}
@@ -44,37 +25,19 @@ layout: page
         Опубликовано {{ post.date | date: date_format }}
       </p>
 
-      {% if site.feed_show_excerpt == false %}
-        {% if thumbnail != "" %}
-        <div class="post-image post-image-normal">
-          <a href="{{ post.url | absolute_url }}" aria-label="Thumbnail">
-            <img src="{{ thumbnail | absolute_url }}" alt="{{ post.thumbnail-caption }}" title="{{ post.thumbnail-caption }}">
-          </a>
-        </div>
-        {% endif %}
-      {% endif %}
-
-      {% if thumbnail != "" %}
       <div class="post-image post-image-short">
         <a href="{{ post.url | absolute_url }}" aria-label="Thumbnail">
-          <!-- ВОТ ЗДЕСЬ возвращены классы post-thumb и img-circle для круглой формы -->
-          <img src="{{ thumbnail | absolute_url }}" class="img-responsive post-thumb img-circle" alt="{{ post.thumbnail-caption }}" title="{{ post.thumbnail-caption }}">
+          <img src="{{ post.thumbnail-img | absolute_url }}" class="img-responsive post-thumb img-circle" alt="{{ post.thumbnail-caption }}" title="{{ post.thumbnail-caption }}">
         </a>
       </div>
-      {% endif %}
 
       {% unless site.feed_show_excerpt == false %}
       <div class="post-entry">
         {% assign excerpt_length = site.excerpt_length | default: 150 %}
         
-        {% comment %} Берем description из шапки, если его нет — стандартный excerpt {% endcomment %}
-        {% assign custom_excerpt = post.description | default: post.excerpt %}
+        {{ post.description | strip_html | truncatewords: excerpt_length }}
         
-        {{ custom_excerpt | strip_html | truncatewords: excerpt_length }}
-        {% assign excerpt_word_count = custom_excerpt | number_of_words %}
-        {% if post.content != post.excerpt or excerpt_word_count > excerpt_length %}
-          <a href="{{ post.url | absolute_url }}" title="{{ post.share-title }}" class="post-read-more">Читать далее &rarr;</a>
-        {% endif %}
+        <a href="{{ post.url | absolute_url }}" class="post-read-more">Читать далее &rarr;</a>
       </div>
       {% endunless %}
 

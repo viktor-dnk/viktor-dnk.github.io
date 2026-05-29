@@ -181,6 +181,7 @@ defaults:
       type: toponymy
     values:
       layout: post
+      thumbnail-img: /thumb.jpg
       comments: false
       social-share: false
       readtime: true
@@ -191,6 +192,7 @@ defaults:
       type: mysteries-dolmens
     values:
       layout: post
+      thumbnail-img: /thumb.jpg
       comments: false
       social-share: false
       readtime: true

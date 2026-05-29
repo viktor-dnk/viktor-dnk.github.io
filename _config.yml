@@ -24,9 +24,6 @@ navbar-links:
 #  🔍: "/search/"
 
 collections:
-#  amp:
-#    output: true
-#    permalink: /:path/
   mysteries-dolmens:
     label: Дольмены
     output: true
@@ -179,11 +176,6 @@ defaults:
     values:
       sitemap: false
       head-extra: prev-next.html
-  #  - scope:
-  #      path: "amp"
-  #    values:
-  #      layout: amp
-  #      social-share: false
   - scope:
       path: ""
       type: toponymy

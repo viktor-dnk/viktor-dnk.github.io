@@ -10,7 +10,7 @@ category: [sea-coast, oikonyms]
 share-title: "Идокопас и Чуговкопас: загадка названий мысов Геленджика"
 share-description: "Мысы Идокопас и Чуговкопас: история названий от карт XIX века до находок эпохи бронзы. Разбор адыгских, тюркских и индоевропейских версий топонимов."
 keywords: Идокопас, Чуговкопас, мысы Геленджика, топонимика, Чёрное море, Геленджикский район, этимология, археология Кавказа, В.Н. Ковешников, названия мысов
-head-extra: [amp_link.html, etc/_aboutme.html, ads/ads.html, etc/micro/faq/toponymy/idokopas-and-chugovkopas.html]
+head-extra: [etc/_aboutme.html, ads/ads.html, etc/micro/faq/toponymy/idokopas-and-chugovkopas.html]
 location: Коса Чушка, Краснодарский край
 img-caption: Мыс Чуговкопас с высоты птичьего полёта
 ---

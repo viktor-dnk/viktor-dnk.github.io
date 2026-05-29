@@ -29,7 +29,6 @@ permalink: /feed-aggrtrs.xml
 			<title>{{ toponymy.title | strip_html | xml_escape }}</title>
 			<link>{{ toponymy.url | absolute_url }}</link>
 			<pdalink>{{ toponymy.url | absolute_url }}</pdalink>
-			<amplink>{{ toponymy.url | absolute_url | strip_index | replace:'.ru/','.ru/amp/' }}</amplink>
 			<guid isPermaLink="true">{{ toponymy.url | absolute_url }}</guid>
 			<media:rating scheme="urn:simple">nonadult</media:rating>
 			<pubDate>{{ toponymy.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>

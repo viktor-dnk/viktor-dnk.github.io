@@ -6,7 +6,6 @@ source: "www.google.com/support/webmasters/bin/answer.py?hl=en&answer=156449" # 
 ---
 User-agent: Googlebot
 Allow: /manifest.json
-Allow: /amp/*
 Allow: /feed.xml
 Allow: /info/aboutme/
 Allow: /assets/css/*.css
@@ -15,8 +14,6 @@ Allow: /img/*/*/*.jpg
 Allow: /img/*/*/*.gif
 
 User-agent: Yandex
-Disallow: /amp/*
-Disallow: /amp
 Allow: /feed.xml
 Allow: /info/aboutme/
 Allow: /manifest.json
@@ -33,8 +30,6 @@ Allow: /assets/css/*.css
 Allow: /assets/js/*.js
 Allow: /img/*/*/*.jpg
 Allow: /img/*/*/*.gif
-Disallow: /amp/*
-Disallow: /amp
 Disallow: /*utm
 Disallow: /*clid=
 Disallow: /*openstat

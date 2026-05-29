@@ -225,8 +225,7 @@ exclude:
   - README.md
   - screenshot.png
   - template.md
-  - update_headers.py
-  - update_date.py
+  - update_xmp_general.py
   - regex
   - docs/
   - tmp/

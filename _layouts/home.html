@@ -7,9 +7,8 @@ layout: page
 {% comment %} 1. Склеиваем все нужные коллекции и _posts в один массив и сортируем по дате (новые сверху) {% endcomment %}
 {% assign all_posts = site.toponymy | concat: site.mysteries-dolmens | concat: site.posts | sort: 'date' | reverse %}
 
-<!-- role="list" нужен для корректной работы скринридеров в Safari -->
 <ul class="posts-list list-unstyled" role="list">
-  {% comment %} 2. Цикл с лимитом 30 (фильтр limit работает строго здесь!) {% endcomment %}
+  {% comment %} 2. Цикл с лимитом 30 {% endcomment %}
   {% for post in all_posts limit:30 %}
   <li class="post-preview">
     <article>
@@ -49,7 +48,7 @@ layout: page
         {% if thumbnail != "" %}
         <div class="post-image post-image-normal">
           <a href="{{ post.url | absolute_url }}" aria-label="Thumbnail">
-            <img src="{{ thumbnail | absolute_url }}" alt="Post thumbnail">
+            <img src="{{ thumbnail | absolute_url }}" alt="{{ post.thumbnail-caption }}" title="{{ post.thumbnail-caption }}">
           </a>
         </div>
         {% endif %}
@@ -58,7 +57,8 @@ layout: page
       {% if thumbnail != "" %}
       <div class="post-image post-image-short">
         <a href="{{ post.url | absolute_url }}" aria-label="Thumbnail">
-          <img src="{{ thumbnail | absolute_url }}" alt="Post thumbnail">
+          <!-- ВОТ ЗДЕСЬ возвращены классы post-thumb и img-circle для круглой формы -->
+          <img src="{{ thumbnail | absolute_url }}" class="img-responsive post-thumb img-circle" alt="{{ post.thumbnail-caption }}" title="{{ post.thumbnail-caption }}">
         </a>
       </div>
       {% endif %}
@@ -67,13 +67,13 @@ layout: page
       <div class="post-entry">
         {% assign excerpt_length = site.excerpt_length | default: 150 %}
         
-        {% comment %} ГЛАВНАЯ ФИЧА: Берем description из шапки, если его нет — стандартный excerpt {% endcomment %}
+        {% comment %} Берем description из шапки, если его нет — стандартный excerpt {% endcomment %}
         {% assign custom_excerpt = post.description | default: post.excerpt %}
         
         {{ custom_excerpt | strip_html | truncatewords: excerpt_length }}
         {% assign excerpt_word_count = custom_excerpt | number_of_words %}
         {% if post.content != post.excerpt or excerpt_word_count > excerpt_length %}
-          <a href="{{ post.url | absolute_url }}" class="post-read-more">Читать далее &rarr;</a>
+          <a href="{{ post.url | absolute_url }}" title="{{ post.share-title }}" class="post-read-more">Читать далее &rarr;</a>
         {% endif %}
       </div>
       {% endunless %}
@@ -95,5 +95,3 @@ layout: page
   </li>
   {% endfor %}
 </ul>
-
-{% comment %} Блок пагинации полностью удалён, так как мы от неё отказались {% endcomment %}

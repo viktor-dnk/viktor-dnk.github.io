@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+#python update_xmp_general.py "D:\work\tmp\gh\viktor-dnk.github.io\_toponymy\2026\2026-07-17-matsesta.md"
 import os
 import re
 import sys

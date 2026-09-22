@@ -11,7 +11,7 @@ from datetime import datetime
 
 # === НАСТРОЙКИ ПУТЕЙ ===
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-EXIFTOOL_DIR = r"D:\work\tmp\ExifTool"
+EXIFTOOL_DIR = r"D:\Ковешников А\mega\github\exiftool"
 # =======================
 
 def find_exiftool():

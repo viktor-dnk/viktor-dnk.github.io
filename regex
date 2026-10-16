@@ -1,18 +1,18 @@
 регулярка для автосоздания ссылок на якоря по тексту
 (\[(\d+)(?:,\s*\d+)*\])
-[$1](#t142-[$2])
+[$1](#t143-[$2])
 
 [12, 13]
 а это регулярка для создания собственно якорей на списке литературы (два пробела в конце после $3)
 ^([0-9]+)([\. ]+)(.*)
-$1. <a name="t142-[$1]"></a>$3
+$1. <a name="t143-[$1]"></a>$3
 
-для приличия - "t142" менять на номер главы
+для приличия - "t143" менять на номер главы
 
-https://yandex.com/indexnow?url=https://viktor-dnk.ru/akhun/matsesta/&key=3fcb84f1e797419884246257a926ebc0
+https://yandex.com/indexnow?url=https://viktor-dnk.ru/turkish-fountain/&key=3fcb84f1e797419884246257a926ebc0
 
-https://viktor-dnk.ru/toponymy/akhun/?utm_source=telegram&utm_medium=social
-https://viktor-dnk.ru/toponymy/akhun/?utm_source=max&utm_medium=social
+https://viktor-dnk.ru/toponymy/turkish-fountain/?utm_source=telegram&utm_medium=social
+https://viktor-dnk.ru/toponymy/turkish-fountain/?utm_source=max&utm_medium=social
 
 ссылка с описанием
 [Текст](/с/с/ы/л/к/а/ "Заголовок")
@@ -23,7 +23,7 @@ https://viktor-dnk.ru/toponymy/akhun/?utm_source=max&utm_medium=social
 ^(\t<f)(.*)([\[\[])
 
 так выглядит якорь в описании к картинке
-<a href="#t142-[5]">[5]</a>
+<a href="#t143-[5]">[5]</a>
 
 это поиск двойных пробелов но не в конце строки
   (?!$)
